@@ -1,0 +1,13 @@
+torch>=1.4
+torchvision>=0.5
+fvcore>=0.1.dev
+
+[dev]
+GitPython
+black==19.3b0
+sphinx
+isort==5.2.2
+bs4
+nbconvert
+pre-commit
+parameterized
