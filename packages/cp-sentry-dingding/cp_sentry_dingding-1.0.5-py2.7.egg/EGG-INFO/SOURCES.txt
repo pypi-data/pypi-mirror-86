@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/cp_sentry_dingding/__init__.py
+src/cp_sentry_dingding/forms.py
+src/cp_sentry_dingding/plugin.py
+src/cp_sentry_dingding.egg-info/PKG-INFO
+src/cp_sentry_dingding.egg-info/SOURCES.txt
+src/cp_sentry_dingding.egg-info/dependency_links.txt
+src/cp_sentry_dingding.egg-info/entry_points.txt
+src/cp_sentry_dingding.egg-info/not-zip-safe
+src/cp_sentry_dingding.egg-info/requires.txt
+src/cp_sentry_dingding.egg-info/top_level.txt

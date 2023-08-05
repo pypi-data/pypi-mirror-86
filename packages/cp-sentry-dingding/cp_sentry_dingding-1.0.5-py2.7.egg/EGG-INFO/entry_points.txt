@@ -1,0 +1,3 @@
+[sentry.plugins]
+cp_dingding = sentry_cpDingding.plugin:CpDingDingPlugin
+
