@@ -1,0 +1,7 @@
+sc2api/__init__.py,sha256=zEIaOODif3csZI3qof1uyLO_1cA64zvjnRaSWcPmwGM,385
+sc2api/api.py,sha256=njsfKOyDpOT_RQtzqn3_A7yo_3IPzJDG9HYmab7gZno,9006
+sc2api/const.py,sha256=tvnm9u7nwz7VhHxbL5DGocJ0ZJNWygvGcHNPKBwKUXU,628
+sc2api/error.py,sha256=aW-YXrCPKn57mMWP5b3emlUc9CRFG-veCKQoKosacFs,53
+sc2api-0.1.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+sc2api-0.1.3.dist-info/METADATA,sha256=Nbxqr86Qb50O-0askyYCXX1aVcPqfysRijGxwo0zFJg,330
+sc2api-0.1.3.dist-info/RECORD,,
