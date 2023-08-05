@@ -1,0 +1,14 @@
+quoter/__init__.py,sha256=3bdROHDDxBPFl_j8J4YAzPgdZlyt48RCROt3AFn63so,41
+quoter/data/__init__.py,sha256=q5vFojAo203xBe_oDl5Hfd-dEADaPmC4OyuOC6rnc-w,161
+quoter/data/dbconnect.py,sha256=4E9VrpGwWf8kWYqmeDVAZ274HnwVOlzKSWi5jd_msYo,4201
+quoter/model/__init__.py,sha256=t8HNbb81eJLYM7lg7Ikij5rWOfQW0M1QqI9Nad4aQO8,25
+quoter/model/quote.py,sha256=Crh-P5YN29PB4NzuEnsBqbz48l-sQKt3GnQZ0GjwSoY,421
+scripts/__init__.py,sha256=yxhhCja36vFnMbDooZHeuQXh03PvBxKWojYF7TJySgk,24
+scripts/pyquoter.py,sha256=VByeUuCTZlfq_OqiIl3NUyqwxkaARB8-82tv_2Rrcks,2621
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/database_test.py,sha256=u_aSSN85KGcKLzQGN4tRG0jYUzyCT0CIhy0_hMZwdik,2458
+pyquoter-1.0.0.dist-info/METADATA,sha256=ASVPyple19mTW85zoIXvNIVgaJaf0iU0KTSZfcn5FLw,1748
+pyquoter-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyquoter-1.0.0.dist-info/entry_points.txt,sha256=z0t2XsDzZe6pAC6K2twVZw7Qy9ECskqpnNSXlrRtqKU,52
+pyquoter-1.0.0.dist-info/top_level.txt,sha256=PWkZnvQHyOXUTevog_fK0C1OGepGcnWfh0HIELIwxAI,20
+pyquoter-1.0.0.dist-info/RECORD,,
