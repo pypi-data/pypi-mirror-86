@@ -1,0 +1,15 @@
+keystone_oidc_auth_plugin/__init__.py,sha256=pfKg9NsKSr0l7vZdlnQIfFOM2PHVdHzWNK6_4EwXvhc,741
+keystone_oidc_auth_plugin/auth.py,sha256=B0SxlZhPQPBl7ZCWKFGgBhzNiIUZwVmaQOMfMf2HtkI,10720
+keystone_oidc_auth_plugin/configuration.py,sha256=IheaCUHznP-ETTIt_v-aRqRs6n_vIBLJx-3k0yiX7_M,3092
+keystone_oidc_auth_plugin/opts.py,sha256=TJOF0j4Wxg6Jl4U3Bol75WYQt3pQ9Ao0fOrQ3zUXJs0,841
+keystone_oidc_auth_plugin/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keystone_oidc_auth_plugin/tests/base.py,sha256=pgyHZ0FqhTANZcVw8CLiu2p0cBuRgPbB3ByyBavDu8c,794
+keystone_oidc_auth_plugin/tests/test_keystone_oidc_auth_plugin.py,sha256=rOkBeR-RNbzOaFKbGMw5VzcHeiSKtcXVN4be4a9p2WY,2300
+keystone_oidc_auth_plugin-1.0.0.dist-info/AUTHORS,sha256=els8HYnIh6H2yOVM_qXIUT0Lxwlordm8CsWIuRkOaUU,201
+keystone_oidc_auth_plugin-1.0.0.dist-info/LICENSE,sha256=XfKg2H1sVi8OoRxoisUlMqoo10TKvHmU_wU39ks7MyA,10143
+keystone_oidc_auth_plugin-1.0.0.dist-info/METADATA,sha256=3NC4DCkMWxzzxYCv_ME5eCChe0-Hyl_l3bFeQktbOL4,3774
+keystone_oidc_auth_plugin-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+keystone_oidc_auth_plugin-1.0.0.dist-info/entry_points.txt,sha256=4u4ZN6kU6-lvcSKWLH9MY7PW4BKApK4VgOqTnMcQT64,165
+keystone_oidc_auth_plugin-1.0.0.dist-info/pbr.json,sha256=OKdY93l3UWNAMTbkPCsSOlFwG0KpkhehAIHFvnAU6Fw,46
+keystone_oidc_auth_plugin-1.0.0.dist-info/top_level.txt,sha256=S9LNi1bZIJv8wgHwIAVHhYaCUN5dzIl-QoVjfKqWsIE,26
+keystone_oidc_auth_plugin-1.0.0.dist-info/RECORD,,
