@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/koeda/__init__.py
+src/koeda.egg-info/PKG-INFO
+src/koeda.egg-info/SOURCES.txt
+src/koeda.egg-info/dependency_links.txt
+src/koeda.egg-info/not-zip-safe
+src/koeda.egg-info/top_level.txt
