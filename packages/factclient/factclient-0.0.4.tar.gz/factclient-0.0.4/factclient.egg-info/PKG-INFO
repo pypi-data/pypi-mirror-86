@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: factclient
+Version: 0.0.4
+Summary: client library for faas facts toolkit
+Home-page: https://github.com/ISE-SMILE/faasprocessing
+Author: Richard Girke
+Author-email: richard.girke@campus.tu-berlin.de
+License: Apache-2
+Description: # python-fact-client
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Environment :: Console
