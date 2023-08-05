@@ -1,0 +1,9 @@
+README.md
+setup.py
+sleepyjson/__init__.py
+sleepyjson/node.py
+sleepyjson/reader.py
+sleepyjson.egg-info/PKG-INFO
+sleepyjson.egg-info/SOURCES.txt
+sleepyjson.egg-info/dependency_links.txt
+sleepyjson.egg-info/top_level.txt
