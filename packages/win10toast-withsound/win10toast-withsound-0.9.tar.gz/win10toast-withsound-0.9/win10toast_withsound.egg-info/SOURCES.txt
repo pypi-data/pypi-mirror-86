@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+test/test.py
+win10toast/__init__.py
+win10toast/__main__.py
+win10toast_withsound.egg-info/PKG-INFO
+win10toast_withsound.egg-info/SOURCES.txt
+win10toast_withsound.egg-info/dependency_links.txt
+win10toast_withsound.egg-info/requires.txt
+win10toast_withsound.egg-info/top_level.txt
