@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "oradad_file"
+version = "0.1.0"
+description = "Oradad File reader in python3"
+authors = ["Léonard Moreau <leonard@moreau.cloud>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+lz4 = "^3.1.1"
+rsa = "^4.6"
+pycrypto = "^2.6.1"
+pathlib = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
