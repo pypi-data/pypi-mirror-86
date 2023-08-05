@@ -1,0 +1,3 @@
+[console_scripts]
+fedot = fedot.__main__:main
+
