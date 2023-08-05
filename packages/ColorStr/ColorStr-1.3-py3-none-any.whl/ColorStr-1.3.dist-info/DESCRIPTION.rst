@@ -1,0 +1,10 @@
+ColorStr
+==============
+
+**GOTO GITHUB PAGE FOR DOCUMENTATION!**
+
+https://github.com/mclt0568/ColorStr
+
+**USE pip install ColorStr TO INSTALL**
+
+
