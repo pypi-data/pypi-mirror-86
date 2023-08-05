@@ -1,0 +1,26 @@
+## 说明
+
+本项目从[nb_log](https://pypi.org/project/nb-log/)修改而来
+
+1. nb_log中对logging.Logger.addHandler的patch改为可配置的
+2. 配置文件默认生成到用户目录
+
+Windows下为C:\Users\XXX\\.nb_log\nb_log_config.py
+
+Linux下为/home/XXX/.nb_log/nb_log_config.py
+
+## 安装
+pip uninstall nb_log(如果有必要先卸载nb_log )
+
+pip install fx_nb_log
+
+## 使用说明
+
+因为默认使用sys.path\[1\]作为项目根目录，必须将PYTHONPATH设置为项目根目录
+
+Windows: set PYTHONPATH=\[项目根目录\]
+
+Linux:  export PYTHONPATH=\[项目根目录\]
+
+
+
