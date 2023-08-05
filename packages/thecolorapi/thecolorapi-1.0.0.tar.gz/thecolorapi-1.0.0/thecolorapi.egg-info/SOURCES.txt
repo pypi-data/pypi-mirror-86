@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+thecolorapi/__init__.py
+thecolorapi/color.py
+thecolorapi.egg-info/PKG-INFO
+thecolorapi.egg-info/SOURCES.txt
+thecolorapi.egg-info/dependency_links.txt
+thecolorapi.egg-info/requires.txt
+thecolorapi.egg-info/top_level.txt
