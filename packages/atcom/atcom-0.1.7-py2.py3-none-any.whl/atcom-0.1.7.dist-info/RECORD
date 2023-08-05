@@ -1,0 +1,9 @@
+atcom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atcom/cli.py,sha256=dqxF5CBq0cdhnqKQJb_vqZTCwUHpuJDZLAWnWRCSFbk,5640
+atcom/modems.py,sha256=S7FO3tdBrLXlj4gGTKcBG9huxq4545aVH-oxgJn1pYI,320
+atcom/utils.py,sha256=2uc9K-4YrXYB9SDlihW0zsp3mQuRUwJ7o_915CBFhkE,2347
+atcom-0.1.7.dist-info/METADATA,sha256=puaS3NwnJ5HS6FLl30SZFxBkC4GvER3lPXLIfH5ZtvU,2240
+atcom-0.1.7.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+atcom-0.1.7.dist-info/entry_points.txt,sha256=NkYJwXw7a0rTE4AMcduZsXAXJM_dt6wf2Gqyg8vy3qU,45
+atcom-0.1.7.dist-info/top_level.txt,sha256=h_m4TTlk0SHGqGIpAW8Oo59fU3Nliaxhz_R4PQKtFnY,6
+atcom-0.1.7.dist-info/RECORD,,
