@@ -1,0 +1,6 @@
+README.md
+setup.py
+belalali.egg-info/PKG-INFO
+belalali.egg-info/SOURCES.txt
+belalali.egg-info/dependency_links.txt
+belalali.egg-info/top_level.txt
