@@ -1,0 +1,277 @@
+#!python
+
+import click
+import sys
+import os
+import yaml
+from itertools import count
+# telnet is the only protocol supported by the squeezebox server
+from telnetlib import Telnet    # nosec
+from tabulate import tabulate
+import curses
+import squeezebox_cli.player
+import squeezebox_cli.database
+import squeezebox_cli.display
+
+sb_server = None
+player_id = None
+
+
+@click.group()
+@click.option(
+        '--host', type=str,
+        help='hostname for squeezebox server')
+@click.option(
+        '--port', type=int,
+        help='port for squeezebox server (default 9090)')
+def squeezebox(host, port):
+    try:
+        with open(os.path.expanduser('~/.squeezebox-cli.yaml')) as f:
+            cfg = yaml.safe_load(f)
+            if not host:
+                try:
+                    host = cfg['server']['host']
+                except KeyError:
+                    pass
+            if not port:
+                try:
+                    port = cfg['server']['port']
+                except KeyError:
+                    pass
+    except FileNotFoundError:
+        pass
+    if not port:
+        port = 9090
+    global sb_server
+    sb_server = Telnet(host, port)
+    if not sb_server.sock:
+        click.echo(f'ERROR: could not connect to {host}:{port}')
+        sys.exit(1)
+
+
+@squeezebox.command(help='list the currently connected players')
+def players():
+    # TODO: options for columns to show?
+    ps = squeezebox_cli.player.list_all(sb_server)
+    click.echo(tabulate(
+        [(p['playerindex'], p['name'], 'yes' if p['isplaying'] else 'no')
+            for p in ps],
+        headers=['index', 'name', 'is playing?']))
+
+
+@squeezebox.command(help='search the music database')
+@click.argument('term')
+def search(term):
+    reply = squeezebox_cli.database.search(sb_server, term)
+    artists = reply['artists']
+    click.echo(tabulate(
+        [(artist, id) for id, artist in artists.items()],
+        headers=['artist', 'id']))
+    click.echo()
+    albums = reply['albums']
+    click.echo(tabulate(
+        [(album, id) for id, album in albums.items()],
+        headers=['album', 'id']))
+    click.echo()
+    tracks = reply['tracks']
+    click.echo(tabulate(
+        [(track, id) for id, track in tracks.items()],
+        headers=['track', 'id']))
+
+
+@squeezebox.group(help='view and control a player by name or index')
+@click.argument('player-name')
+def player(player_name):
+    global player_id
+    player_id = squeezebox_cli.player.id_from_index_or_name(
+            sb_server, player_name)
+    if not player_id:
+        click.echo(f'ERROR: no such player: {player_name}')
+        sys.exit(1)
+
+
+@player.command(help='stop the specified player')
+def stop():
+    squeezebox_cli.player.stop(sb_server, player_id)
+
+
+@player.group(help='play a track or album')
+def play():
+    pass
+
+
+@play.command(help='play the specified track')
+@click.argument('track_id', type=int)
+def track(track_id):
+    squeezebox_cli.player.play(sb_server, player_id, track_id=track_id)
+
+
+@play.command(help='play the specified album')
+@click.argument('album_id', type=int)
+def album(album_id):
+    squeezebox_cli.player.play(sb_server, player_id, album_id=album_id)
+
+
+@player.command(help='pause/unpause the specified player')
+def pause():
+    squeezebox_cli.player.pause(sb_server, player_id)
+
+
+@player.command(help='status of the specified player')
+@click.option(
+        '--long/--short', default=False,
+        help='verbose output, playlist etc.')
+@click.option(
+        '--listen/--return', default=False,
+        help='listen for and display notificataions')
+@click.option('--max-tracks', type=int)
+def status(long, listen, max_tracks):
+    status = squeezebox_cli.player.status(sb_server, player_id)
+    sys.stdout.write(f'\x1b]2;Squeezebox: {status["name"]}\x07')
+
+    def show():
+        click.echo(squeezebox_cli.display.format_status(status))
+        if long:
+            click.echo(squeezebox_cli.display.format_playlist(
+                [squeezebox_cli.database.songinfo(sb_server, id)
+                    if id > 0
+                    else dict(title=t, album='[Radio]', artist=None)
+                 for id, t in status['playlist']],
+                status['playlist_cur_index'],
+                max_tracks))
+    show()
+    if listen:
+        for n in squeezebox_cli.player.listen(
+                Telnet(sb_server.host, sb_server.port), status['playerid']):
+            # click.echo(n)
+            for handler in squeezebox_cli.player.notification_handlers:
+                if handler(status, n, sb_server):
+                    show()
+                    break
+
+
+@player.command(help='monitor the specified player')
+def monitor():
+
+    def do_tui(screen):
+        def show():
+            num_rows, num_cols = screen.getmaxyx()
+            screen.clear()
+            status = squeezebox_cli.player.status(sb_server, player_id)
+            len_playlist = len(status['playlist'])
+            summary = (
+                f"{status['name']}"
+                f" {status['playlist_cur_index'] + 1}/{len_playlist}"
+                f" {status['playlist'][status['playlist_cur_index']][1]}"
+                f" <{status['mode']}>"
+                f" vol:{status['volume']}/100")
+            sys.stdout.write(f'\x1b]2;Squeezebox: {summary}\x07')
+            sys.stdout.flush()
+            tracks_to_show = min(len_playlist, num_rows - 2)
+            first_track_to_show = (
+                max(0, min(status['playlist_cur_index'],
+                    len_playlist - tracks_to_show))
+                if tracks_to_show < len_playlist else 0)
+            playlist_to_show = \
+                status['playlist'][first_track_to_show:
+                                   first_track_to_show + tracks_to_show]
+            tracks = [squeezebox_cli.database.songinfo(sb_server, id)
+                      for id, t
+                      in playlist_to_show]
+            title_width = max([len(t['title']) for t in tracks])
+            album_width = max([len(t['album']) for t in tracks])
+            artist_width = max([len(t['artist']) for t in tracks])
+            screen.addstr(0, 4, 'Track:', curses.A_BOLD | curses.A_UNDERLINE)
+            screen.addstr(
+                    0, 4 + title_width + 3,
+                    'Album:', curses.A_BOLD | curses.A_UNDERLINE)
+            screen.addstr(
+                    0, 4 + title_width + 3 + album_width + 3,
+                    'Artist:', curses.A_BOLD | curses.A_UNDERLINE)
+            for i, row, track in zip(
+                    count(first_track_to_show),
+                    range(1, num_rows - 1),
+                    tracks):
+                screen.addstr(
+                        row,
+                        0,
+                        f"{i + 1:3}: {track['title']:<{title_width}} :"
+                        f" {track['album']:<{album_width}} :"
+                        f" {track['artist']:<{artist_width}}",
+                        curses.A_STANDOUT if i == status['playlist_cur_index']
+                        else curses.A_NORMAL)
+            screen.addstr(
+                num_rows - 1, 0,
+                summary,
+                curses.A_STANDOUT)
+            screen.refresh()
+
+        curses.curs_set(0)
+        show()
+        for n in squeezebox_cli.player.listen(
+                Telnet(sb_server.host, sb_server.port), player_id):
+            show()
+
+    curses.wrapper(do_tui)
+
+
+@player.command(help='play the next track in the current playlist')
+def next():
+    squeezebox_cli.player.next(sb_server, player_id)
+
+
+@player.command(help='play the previous track in the current playlist')
+def previous():
+    squeezebox_cli.player.previous(sb_server, player_id)
+
+
+@player.group(help=('add a track or album to the end of the current playlist'))
+def add():
+    pass
+
+
+@add.command(help='add a track to the end of the current playlist')
+@click.argument('track_id')
+def track(track_id):
+    squeezebox_cli.player.playlist_add(sb_server, player_id, track_id=track_id)
+
+
+@add.command(help='add an album to the end of the current playlist')
+@click.argument('album_id')
+def album(album_id):
+    squeezebox_cli.player.playlist_add(sb_server, player_id, album_id=album_id)
+
+
+@player.group(help='insert a track or album after the current track')
+def insert():
+    pass
+
+
+@insert.command(help='insert a track after the current one')
+@click.argument('track_id')
+def track(track_id):
+    squeezebox_cli.player.playlist_insert(
+            sb_server, player_id, track_id=track_id)
+
+
+@insert.command(help='insert an album after the current track')
+@click.argument('album_id')
+def album(album_id):
+    squeezebox_cli.player.playlist_insert(
+            sb_server, player_id, album_id=album_id)
+
+
+@player.command(help='set or change the player volume N, +N or -- -N')
+@click.argument('vol', type=str)
+def volume(vol):
+    squeezebox_cli.player.set_volume(sb_server, player_id, vol)
+
+
+@player.command(help='remove a track from the current playlist by index')
+@click.argument('index', type=int)
+def remove(index):
+    squeezebox_cli.player.playlist_remove(sb_server, player_id, index - 1)
+
+
+if __name__ == '__main__':
+    squeezebox()
