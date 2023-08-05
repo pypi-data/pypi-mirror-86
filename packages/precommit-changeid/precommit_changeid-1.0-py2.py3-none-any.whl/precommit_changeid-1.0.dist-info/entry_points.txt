@@ -1,0 +1,3 @@
+[console_scripts]
+prepare-gerrit-change-id = precommit_changeid:main
+
