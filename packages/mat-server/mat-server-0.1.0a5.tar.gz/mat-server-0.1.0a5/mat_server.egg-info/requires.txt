@@ -1,0 +1,9 @@
+dependency-injector==3.44.0
+aiostream==0.4.1
+click==7.1.2
+fastapi==0.61.2
+uvicorn==0.12.2
+requests==2.24.0
+PyYAML==5.3.1
+lark-parser[regex]
+pymongo==3.11.0
