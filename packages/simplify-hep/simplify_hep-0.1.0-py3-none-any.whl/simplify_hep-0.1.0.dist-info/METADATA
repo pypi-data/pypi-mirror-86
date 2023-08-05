@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: simplify-hep
+Version: 0.1.0
+Summary: Produce simplified likelihoods of different formats
+Home-page: UNKNOWN
+Author: Eric Schanet
+License: BSD 3-Clause
+Project-URL: Source, https://github.com/eschanet/simplify
+Project-URL: Tracker, https://github.com/eschanet/simplify/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: pyhf (>=0.5.3)
+Requires-Dist: iminuit (>1.5.1)
+Requires-Dist: boost-histogram
+Requires-Dist: jsonschema
+Requires-Dist: click
+Requires-Dist: awkward1
+Requires-Dist: scipy
+Provides-Extra: complete
+Requires-Dist: black ; extra == 'complete'
+Requires-Dist: flake8 ; extra == 'complete'
+Requires-Dist: flake8-bugbear ; extra == 'complete'
+Requires-Dist: flake8-import-order ; extra == 'complete'
+Requires-Dist: flake8-print ; extra == 'complete'
+Requires-Dist: matplotlib ; extra == 'complete'
+Requires-Dist: mypy ; extra == 'complete'
+Requires-Dist: pre-commit ; extra == 'complete'
+Requires-Dist: pydocstyle ; extra == 'complete'
+Requires-Dist: pytest ; extra == 'complete'
+Requires-Dist: pytest-cov (>=2.5.1) ; extra == 'complete'
+Requires-Dist: twine ; extra == 'complete'
+Requires-Dist: typeguard ; extra == 'complete'
+Requires-Dist: uproot ; extra == 'complete'
+Requires-Dist: uproot4 (>=0.0.19) ; extra == 'complete'
+Provides-Extra: contrib
+Requires-Dist: matplotlib ; extra == 'contrib'
+Requires-Dist: uproot ; extra == 'contrib'
+Requires-Dist: uproot4 (>=0.0.19) ; extra == 'contrib'
+Provides-Extra: develop
+Requires-Dist: black ; extra == 'develop'
+Requires-Dist: flake8 ; extra == 'develop'
+Requires-Dist: flake8-bugbear ; extra == 'develop'
+Requires-Dist: flake8-import-order ; extra == 'develop'
+Requires-Dist: flake8-print ; extra == 'develop'
+Requires-Dist: matplotlib ; extra == 'develop'
+Requires-Dist: mypy ; extra == 'develop'
+Requires-Dist: pre-commit ; extra == 'develop'
+Requires-Dist: pydocstyle ; extra == 'develop'
+Requires-Dist: pytest ; extra == 'develop'
+Requires-Dist: pytest-cov (>=2.5.1) ; extra == 'develop'
+Requires-Dist: twine ; extra == 'develop'
+Requires-Dist: typeguard ; extra == 'develop'
+Requires-Dist: uproot ; extra == 'develop'
+Requires-Dist: uproot4 (>=0.0.19) ; extra == 'develop'
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: flake8-bugbear ; extra == 'test'
+Requires-Dist: flake8-import-order ; extra == 'test'
+Requires-Dist: flake8-print ; extra == 'test'
+Requires-Dist: matplotlib ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pydocstyle ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.5.1) ; extra == 'test'
+Requires-Dist: typeguard ; extra == 'test'
+Requires-Dist: uproot ; extra == 'test'
+Requires-Dist: uproot4 (>=0.0.19) ; extra == 'test'
+
+# simplify
+
+A package that creates simplified likelihoods from full likelihoods.
+
+Relies on `pyhf` and is inspired quite a bit by Alexander Held's [`cabinetry`](https://github.com/alexander-held/cabinetry/blob/master/src/cabinetry/fit.py) for plotting and validation of results.
+
+### How to run
+
+Run with `simplify convert -i fullLH.json -o simplifiedLH.json` where `fullLH.json` is the full likelihood you want to convert into a simplified likelihood.  
+
