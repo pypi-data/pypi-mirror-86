@@ -1,0 +1,72 @@
+Metadata-Version: 1.2
+Name: python-adt
+Version: 0.0.0
+Summary: Implementation of advanced data structure
+Home-page: https://github.com/benzid-wael/adt
+Author: Wael Ben Zid
+Author-email: benzid.wael@hotmail.fr
+License: GNU General Public License v3
+Description: ==============================
+        Python Advanced Data Structure
+        ==============================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/adt.svg
+                :target: https://pypi.python.org/pypi/adt
+        
+        .. image:: https://img.shields.io/travis/benzid-wael/adt.svg
+                :target: https://travis-ci.com/benzid-wael/adt
+        
+        .. image:: https://readthedocs.org/projects/adt/badge/?version=latest
+                :target: https://adt.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        .. image:: https://pyup.io/repos/github/benzid-wael/adt/shield.svg
+             :target: https://pyup.io/repos/github/benzid-wael/adt/
+             :alt: Updates
+        
+        
+        
+        Implementation of advanced data structure
+        
+        
+        * Free software: GNU General Public License v3
+        * Documentation: https://adt.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.0 (2020-11-19)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: adt
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
