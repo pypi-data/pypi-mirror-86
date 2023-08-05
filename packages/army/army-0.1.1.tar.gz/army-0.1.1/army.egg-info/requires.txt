@@ -1,0 +1,10 @@
+PyGithub
+click
+cmake
+gitpython
+keyring
+python-gitlab
+schema
+semantic_version
+toml
+tornado
