@@ -1,0 +1,14 @@
+sca2d/__init__.py,sha256=KO2ERVc6369YbOLRKp48sfEF3ONQyq_OkNuuNPgT-0Q,41
+sca2d/__main__.py,sha256=m5-MJf-QRGRFnmqC66SNlM0KjlM3nEQQVz4c5GUyBIs,1190
+sca2d/definitions.py,sha256=luPFXmeZTTqvWg1ScYMyC5IKWlnnFqEkpX6kcHanSBs,1079
+sca2d/outerscope.py,sha256=2p2JNVoGK6r7YAXf91-XdAUFtg2MWf9OIeudlepCDHg,5896
+sca2d/sca2d.py,sha256=DcYZqMMvxQBYUEUVsezdZw9Afdzh_3uZtw2WOoNmL58,2952
+sca2d/scadclasses.py,sha256=ojGrxF73D4n2RtUfT37Ru8e4-ZWoReVawWoIBnoROC0,4423
+sca2d/scope.py,sha256=1LmNtf9WfFjipGb6MwW3ZakeWlV6FX30hCn6ZccvhyM,21655
+sca2d/utilities.py,sha256=nXYyFLcsrbh728zu8lQsILS1jHZgY8eurbBFaG5X8Ec,3214
+sca2d-0.0.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+sca2d-0.0.1.dist-info/METADATA,sha256=Ixq1hfxIs4oLBoh-eP8Y2KXgb4RWuCtdZJ0viK_bemA,2521
+sca2d-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sca2d-0.0.1.dist-info/entry_points.txt,sha256=LsASMzXIUvYa3Yv4so6i5Jr1nHdx18NclSVEzgk8b1s,47
+sca2d-0.0.1.dist-info/top_level.txt,sha256=461NpCLp4i_4C_EwLQz9UPnxVFgUCkqD3Cc8uNjQ6ew,6
+sca2d-0.0.1.dist-info/RECORD,,

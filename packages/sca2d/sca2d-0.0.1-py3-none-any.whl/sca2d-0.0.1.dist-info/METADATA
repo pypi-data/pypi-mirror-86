@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: sca2d
+Version: 0.0.1
+Summary: An experimental static code analyser for OpenSCAD.
+Home-page: https://gitlab.com/bath_open_instrumentation_group/sca2d
+Author: Julian Stirling
+Author-email: julian@julianstirling.co.uk
+License: GPLv3
+Project-URL: Bug Tracker, https://gitlab.com/bath_open_instrumentation_group/sca2d/issues
+Project-URL: Source Code, https://gitlab.com/bath_open_instrumentation_group/sca2d
+Keywords: OpenSCAD,Linting
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: lark-parser
+
+# SCAD2D - Static Code Analysis for SCAD
+
+![](identity/SCA2D.png)
+
+This is an experimental linter for OpenSCAD. The focus is to properly lex the `.scad` files so that we can test for dangerous code like redefining variable from other scopes. SCA2D is in a very early stage of development.
+
+## How to run
+
+Once installed you should be able to run SCA2D from the terminal. To see the help screen run:
+
+    sca2d -h
+
+To analysyse a `.scad` file run:
+
+    sca2d filename.scad
+This will print the any code messages to the screen.
+
+If you wish to inspect the parse tree that SCA2D generates and then uses you can instead run:
+
+    scad2d --output-tree filename.scad
+the tree will be printed into a file called `output.sca2d`.
+
+## What works
+
+* Parsing most `.scad` files. We don't yet to extensive testing. Please raise an issue if you find a parsing error in SCA2D.
+* Parsing included and used `.scad` files and checking variable, function, and module usage in different scopes.
+* Checking for a minimal number of code errors
+
+## What needs work
+
+* The searching for which files to include is very *ad-hoc* and will fail on all but the most simple examples.
+* If a file is missing SCA2D does not handle this gracefully.
+* Need to decide a useful set of conventions and rules to check for.
+* Messages need to be defined in a separate file rather than included *ad-hoc* into the code.
+* The messaging system is not customisable yet.
+* Need to build up a decent set of tests examples, to test that the analysis is working correctly.
+
+## How to get involved
+
+The best way to get involved is to find bugs and open and issue. You could also make changes and open a MR, but the code is a little unstructured right now so it may be worth dicussing changes in an issue thread first.
+
+
