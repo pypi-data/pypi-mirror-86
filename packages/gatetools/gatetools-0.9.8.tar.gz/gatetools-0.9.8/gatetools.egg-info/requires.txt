@@ -1,0 +1,9 @@
+matplotlib
+click
+numpy
+pydicom
+tqdm
+colored
+itk>=5.1.0
+uproot
+wget
