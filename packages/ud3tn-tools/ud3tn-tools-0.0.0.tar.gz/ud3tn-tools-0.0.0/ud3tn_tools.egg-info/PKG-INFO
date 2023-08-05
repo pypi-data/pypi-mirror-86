@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ud3tn-tools
+Version: 0.0.0
+Summary: Empty package to indicate the preferred use of ud3tn-utils
+Home-page: UNKNOWN
+Author: D3TN GmbH
+Author-email: contact@d3tn.com
+License: UNKNOWN
+Description: # µD3TN-tools
+        
+        **Attention:** This is an empty package. Don't install it.
+        
+        Utilities for [µD3TN](https://gitlab.com/d3tn/ud3tn) are provided in the [ud3tn-utils](https://pypi.org/project/ud3tn-utils/) package.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

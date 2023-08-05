@@ -1,0 +1,7 @@
+README.md
+setup.py
+ud3tn_tools.egg-info/PKG-INFO
+ud3tn_tools.egg-info/SOURCES.txt
+ud3tn_tools.egg-info/dependency_links.txt
+ud3tn_tools.egg-info/requires.txt
+ud3tn_tools.egg-info/top_level.txt
