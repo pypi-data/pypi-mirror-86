@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: medlineplus
+Version: 1.0.0
+Summary: Genetics Home Reference(GHR) from MedlinePlus
+Home-page: https://github.com/suqingdong/medlineplus
+Author: suqingdong
+Author-email: 1078595229@qq.com
+License: BSD License
+Project-URL: Documentation, https://medlineplus.readthedocs.io
+Project-URL: Tracker, https://github.com/suqingdong/medlineplus/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: prettytable
+Requires-Dist: webrequests
+Requires-Dist: simple-loggers
+
+# [MedlinePlus](https://medlineplus.gov/)
+> MedlinePlus is a service of the National Library of Medicine (NLM), the world's largest medical library, which is part of the National Institutes of Health (NIH).
+
+
+## MedlinePlus is the New Home of *Genetics Home Reference*
+> **Genetics Home Reference** is now part of **MedlinePlus**, an online health information resource from the National Library of Medicine (NLM).
+> Information from the Genetics Home Reference website is available in a new section called ***MedlinePlus Genetics***.
+
+
