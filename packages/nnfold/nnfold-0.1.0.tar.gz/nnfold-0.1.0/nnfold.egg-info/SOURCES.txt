@@ -1,0 +1,15 @@
+README.md
+setup.py
+nnfold/__init__.py
+nnfold/batch_object.py
+nnfold/predict.py
+nnfold/tf_model_component.py
+nnfold/train_global.py
+nnfold/train_local.py
+nnfold.egg-info/PKG-INFO
+nnfold.egg-info/SOURCES.txt
+nnfold.egg-info/dependency_links.txt
+nnfold.egg-info/entry_points.txt
+nnfold.egg-info/not-zip-safe
+nnfold.egg-info/requires.txt
+nnfold.egg-info/top_level.txt

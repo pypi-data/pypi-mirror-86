@@ -1,0 +1,8 @@
+apetype
+numpy
+tflearn
+tensorflow<2
+sklearn
+
+[documentation]
+sphinx

@@ -1,0 +1,5 @@
+[console_scripts]
+nnfold-predict = nnfold.predict:main
+nnfold-train-global = nnfold.train_global:main
+nnfold-train-local = nnfold.train_local:main
+

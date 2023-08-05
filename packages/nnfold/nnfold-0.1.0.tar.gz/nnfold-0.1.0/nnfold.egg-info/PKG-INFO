@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nnfold
+Version: 0.1.0
+Summary: NNfold: RNA secondary structure predictor
+Home-page: https://github.com/ramzan1990/NNfold
+Author: Ramzan Umarov
+Author-email: ramzan.umarov@kaust.edu.sa
+License: GNU GENERAL PUBLIC LICENSE
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: documentation
