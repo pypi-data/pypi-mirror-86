@@ -1,0 +1,16 @@
+README.md
+setup.py
+pyquoter.egg-info/PKG-INFO
+pyquoter.egg-info/SOURCES.txt
+pyquoter.egg-info/dependency_links.txt
+pyquoter.egg-info/entry_points.txt
+pyquoter.egg-info/top_level.txt
+quoter/__init__.py
+quoter/data/__init__.py
+quoter/data/dbconnect.py
+quoter/model/__init__.py
+quoter/model/quote.py
+scripts/__init__.py
+scripts/pyquoter.py
+test/__init__.py
+test/database_test.py
