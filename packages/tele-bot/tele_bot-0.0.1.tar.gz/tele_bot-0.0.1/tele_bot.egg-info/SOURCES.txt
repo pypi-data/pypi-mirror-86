@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+MANIFEST.txt
+README.txt
+setup.py
+tele_bot/__init__.py
+tele_bot.egg-info/PKG-INFO
+tele_bot.egg-info/SOURCES.txt
+tele_bot.egg-info/dependency_links.txt
+tele_bot.egg-info/top_level.txt

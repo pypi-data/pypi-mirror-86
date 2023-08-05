@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: tele_bot
+Version: 0.0.1
+Summary: Telegram bot
+Home-page: UNKNOWN
+Author: rocailler
+Author-email: rocailler@gmail.com
+License: MIT
+Description: Telegram bot
+        
+        Change Log
+        ===========
+        
+        
+        0.0.1 (20/11/2020)
+        -----------------------
+        - Frist Release
+        
+Keywords: telegram
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
