@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: RGcite
+Version: 0.0.1
+Summary: A web scraping function to find citations, link to articles and titles of articles of a particular author 
+Home-page: UNKNOWN
+Author: Rajat Puri
+Author-email: purirajat.rp@gmail.com
+License: MIT
+Description: This is a package to find the citations on research gate using web scrapping. It is used to find the total citations of the author and fetch the links to all the articles a particular author has written.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (19/11/2020)
+        ------------------
+        - First Release
+Keywords: Citations,Research gate
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

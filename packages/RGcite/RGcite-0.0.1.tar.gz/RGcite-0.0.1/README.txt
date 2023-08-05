@@ -1,0 +1,1 @@
+This is a package to find the citations on research gate using web scrapping. It is used to find the total citations of the author and fetch the links to all the articles a particular author has written.

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+RGcite.egg-info/PKG-INFO
+RGcite.egg-info/SOURCES.txt
+RGcite.egg-info/dependency_links.txt
+RGcite.egg-info/top_level.txt
