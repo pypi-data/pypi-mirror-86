@@ -1,0 +1,10 @@
+README.md
+setup.py
+fpapicli/__init__.py
+fpapicli/fpapicli.py
+fpapicli.egg-info/PKG-INFO
+fpapicli.egg-info/SOURCES.txt
+fpapicli.egg-info/dependency_links.txt
+fpapicli.egg-info/entry_points.txt
+fpapicli.egg-info/requires.txt
+fpapicli.egg-info/top_level.txt
