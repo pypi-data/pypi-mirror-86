@@ -1,0 +1,2 @@
+scrapy
+elastic_enterprise_search

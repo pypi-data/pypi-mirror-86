@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: ScrapyAppSearch
+Version: 0.1.0
+Summary: Scrapy pipeline which allow you to store multiple scrapy items in AppSearch.
+Home-page: https://github.com/llermaly/scrapy-appsearch.git
+Author: Gustavo Llermaly, Jay Zeng, Michael Malocha, Julien Duponchelle
+Author-email: gllermaly@gmail.com, jayzeng@jay-zeng.com, michael@knockrentals.com, julien@duponchelle.info
+License: Apache License, Version 2.0
+Download-URL: https://github.com/llermaly/scrapy-appsearch/archive/v0.1.0.tar.gz
+Description: Description
+        ===========
+        Scrapy pipeline which allows you to store scrapy items in  AppSearch.
+        Using as base the [Elastic Search pipeline](https://github.com/jayzeng/scrapy-elasticsearch).
+        
+        Install
+        =======
+        
+        ```
+        pip install ScrapyAppSearch
+        ```
+        
+        Usage (Configure settings.py:)
+        ------------------------------
+        ```
+           ITEM_PIPELINES = {
+               'scrapyappsearch.scrapyappsearch.AppSearchPipeline': 500
+           }
+        
+           APP_SEARCH_URL = 'https://<...>.ent-search.us-central1.gcp.cloud.es.io'
+           APP_SEARCH_KEY = 'private-xxxxxxxxxxxxxxxxx'
+           APP_SEARCH_ENGINE = 'my_engine'
+        ```
+        
+        
+        Available parameters (in settings.py)
+        -------------------------------------
+        ```
+           APP_SEARCH_URL - Url of your App search instance
+           APP_SEARCH_KEY - API Key, starting with private-
+           APP_SEARCH_ENGINE = Name of the search engine
+        ```
+        
+        Dependencies
+        ============
+        See requirements.txt
+        
+        Changelog
+        =========
+        * 0.1.0: Initial release
+        
+        Coming Up
+        =========
+        * More authentication methods
+        
+        Issues
+        =============
+        If you find any bugs or have any questions, please report them to "issues" (https://github.com/llermaly/scrapy-appsearch/issues)
+        
+        Contributors
+        =============
+        * Gustavo Llermaly (Maintainer) (https://github.com/llermaly)
+        
+        
+        License
+        =======
+        Copyright 2020 Gustavo Llermaly
+        
+        Expanded on the work by Julien Duponchelle and Michael Malocha
+        
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+        
+        http://www.apache.org/licenses/LICENSE-2.0
+        
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+Keywords: scrapy appsearch
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown

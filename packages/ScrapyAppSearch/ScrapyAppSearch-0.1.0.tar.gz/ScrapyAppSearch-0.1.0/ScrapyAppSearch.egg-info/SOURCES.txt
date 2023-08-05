@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ScrapyAppSearch.egg-info/PKG-INFO
+ScrapyAppSearch.egg-info/SOURCES.txt
+ScrapyAppSearch.egg-info/dependency_links.txt
+ScrapyAppSearch.egg-info/requires.txt
+ScrapyAppSearch.egg-info/top_level.txt
+scrapyappsearch/__init__.py
+scrapyappsearch/scrapyappsearch.py
