@@ -1,0 +1,3 @@
+[console_scripts]
+bsdl2json = bsdl_parser.bsdl2json:main
+

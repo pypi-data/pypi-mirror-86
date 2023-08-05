@@ -1,0 +1,8 @@
+grako
+
+[build]
+twine
+grako
+
+[test]
+pylint

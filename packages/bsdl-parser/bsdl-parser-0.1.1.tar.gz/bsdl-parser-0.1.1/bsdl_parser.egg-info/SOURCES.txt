@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+bsdl_parser/__init__.py
+bsdl_parser/bsdl.py
+bsdl_parser/bsdl2json.py
+bsdl_parser/fast_bsdl_parser.py
+bsdl_parser.egg-info/PKG-INFO
+bsdl_parser.egg-info/SOURCES.txt
+bsdl_parser.egg-info/dependency_links.txt
+bsdl_parser.egg-info/entry_points.txt
+bsdl_parser.egg-info/requires.txt
+bsdl_parser.egg-info/top_level.txt
