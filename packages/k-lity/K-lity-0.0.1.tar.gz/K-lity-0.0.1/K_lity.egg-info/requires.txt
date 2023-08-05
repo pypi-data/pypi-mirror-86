@@ -1,0 +1,15 @@
+behave
+bs4
+jinja2
+lxml
+python-slugify
+pyyaml
+selenium
+
+[postgresql]
+psycopg2
+
+[test]
+pytest-black
+pytest-isort
+pytest
