@@ -1,0 +1,43 @@
+# ********************************
+# *** Build Signed deb Package *** 
+# ********************************
+
+# Fail on first error:
+set -e
+
+# First, we move to the root directory of map:
+OLD_DIR=$(pwd)
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
+cd $DIR/..
+
+# Then, we get the version out of version.py:
+VERSION=$(grep "__version__" map/version.py | cut -d'"' -f2)
+ 
+# Since stdeb cannot sign packages itself, we must unpack 
+# in a temporary folder 'signed_deb':
+
+mkdir signed_deb 
+cd signed_deb
+
+# Unpack the sources and navigate to the unpacked folder:
+
+dpkg-source -x ../deb_dist/map_$VERSION-1.dsc
+cd map-$VERSION
+
+# Copy over the license file because debian requires it:
+cp ../../LICENSE debian/copyright
+
+# Change the version to a Ubuntu compatible version:
+sed -i '0,/-1/s//-0ubuntu1/' debian/changelog 
+
+# Change the name of the binary from python-map to map:
+sed -i 's/python-map/map/g' debian/control
+
+# Change the version to the latest to remove the lintian warning:
+sed -i '/Standards-Version/c\Standards-Version: 3.9.5' debian/control
+
+# Build the new signed package:
+debuild -S -sa
+
+# Navigate back to the original folder:
+cd $OLD_DIR
