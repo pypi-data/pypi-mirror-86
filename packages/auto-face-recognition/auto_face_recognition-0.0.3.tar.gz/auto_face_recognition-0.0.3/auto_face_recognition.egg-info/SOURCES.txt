@@ -1,0 +1,12 @@
+README.md
+setup.py
+auto_face_recognition/__init__.py
+auto_face_recognition.egg-info/PKG-INFO
+auto_face_recognition.egg-info/SOURCES.txt
+auto_face_recognition.egg-info/dependency_links.txt
+auto_face_recognition.egg-info/requires.txt
+auto_face_recognition.egg-info/top_level.txt
+auto_face_recognition/features/__init__.py
+auto_face_recognition/features/face_recognition/dataset_create.py
+auto_face_recognition/features/face_recognition/predict.py
+auto_face_recognition/features/face_recognition/train.py
