@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/wgfrontend.egg-info/PKG-INFO
+src/wgfrontend.egg-info/SOURCES.txt
+src/wgfrontend.egg-info/dependency_links.txt
+src/wgfrontend.egg-info/entry_points.txt
+src/wgfrontend.egg-info/requires.txt
+src/wgfrontend.egg-info/top_level.txt
