@@ -1,0 +1,6 @@
+Click
+pyyaml
+websockets
+requests
+aioconsole
+tabulate
