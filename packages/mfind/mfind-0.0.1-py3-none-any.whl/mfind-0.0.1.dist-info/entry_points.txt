@@ -1,0 +1,3 @@
+[console_scripts]
+mfind = mfind.__main__:main
+
