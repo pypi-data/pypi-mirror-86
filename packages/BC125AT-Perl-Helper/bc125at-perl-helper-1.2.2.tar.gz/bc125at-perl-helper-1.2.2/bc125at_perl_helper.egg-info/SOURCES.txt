@@ -1,0 +1,8 @@
+README.md
+setup.py
+bc125at_perl_helper/__init__.py
+bc125at_perl_helper.egg-info/PKG-INFO
+bc125at_perl_helper.egg-info/SOURCES.txt
+bc125at_perl_helper.egg-info/dependency_links.txt
+bc125at_perl_helper.egg-info/entry_points.txt
+bc125at_perl_helper.egg-info/top_level.txt
