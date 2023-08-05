@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rho-crypto
+Version: 0.4.3
+Summary: Crypto utilities
+Home-page: https://bitbucket.org/pitrho/rho-crypto
+Maintainer: Rho AI Corporation
+License: Commercial
+Description: # Rho-Crypto
+        
+        Cryptographic utilties.
+        
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: deploy
