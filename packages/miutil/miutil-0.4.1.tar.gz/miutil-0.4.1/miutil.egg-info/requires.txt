@@ -1,0 +1,29 @@
+
+[:python_version == "2.6"]
+argparse
+
+[cuda]
+argopt
+pynvml
+
+[dev]
+flake8
+twine
+wheel
+pytest
+pytest-cov
+pytest-timeout
+pytest-xdist
+codecov
+
+[dev:python_version >= "3.0"]
+black
+
+[nii]
+nibabel
+numpy
+
+[plot]
+matplotlib
+numpy
+scipy
