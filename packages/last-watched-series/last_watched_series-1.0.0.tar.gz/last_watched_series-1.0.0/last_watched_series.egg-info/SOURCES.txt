@@ -1,0 +1,11 @@
+README.md
+setup.py
+last_watched_series/__init__.py
+last_watched_series/main.py
+last_watched_series.egg-info/PKG-INFO
+last_watched_series.egg-info/SOURCES.txt
+last_watched_series.egg-info/dependency_links.txt
+last_watched_series.egg-info/entry_points.txt
+last_watched_series.egg-info/requires.txt
+last_watched_series.egg-info/top_level.txt
+last_watched_series/tests/__init__.py
