@@ -1,0 +1,16 @@
+reahl_sqlalchemysupport-5.0.0-py3.8-nspkg.pth,sha256=6H96z6Lo8DBC74vcSJcc9grtkkn42A2M1HLhGFsIiyM,534
+reahl/sqlalchemysupport/__init__.py,sha256=DAU6M6DXnI6DawafjCihj3QXp_JiLNzK2eLTB-bf0F8,778
+reahl/sqlalchemysupport/elixirmigration.py,sha256=OtwnbLxiTkkkyUl8tBzLE41HPeHahxzgAjgvZkYw3HU,7612
+reahl/sqlalchemysupport/migrations.py,sha256=1IjrDLdPrLv9KAZ0VRVeCWmoDaXYnv8O5pqQr-KnkME,1937
+reahl/sqlalchemysupport/sqlalchemysupport.py,sha256=id9glSE9VqRLQcSjB9XzJku-gfu6O4A-1jh_fMBV-Io,21105
+reahl/sqlalchemysupport_dev/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+reahl/sqlalchemysupport_dev/fixtures.py,sha256=YHLKDhKHfiLHZ2LRQ3TUgcLZxxgKvGhKIf3JYPjfJSA,3762
+reahl/sqlalchemysupport_dev/test_sqlalchemysupport.py,sha256=jFHmC362BpcjmfrEyLiWxBmxvJ7ALNWdQIeP_xUxpwg,6000
+reahl_sqlalchemysupport-5.0.0.dist-info/COPYING,sha256=w11jSMGDEJ-ca6m-9zBM_qvMQ2l24QVC8QgmG44xyIk,868
+reahl_sqlalchemysupport-5.0.0.dist-info/LICENSE,sha256=V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY,34520
+reahl_sqlalchemysupport-5.0.0.dist-info/METADATA,sha256=ZhAVrf_dP3aV10GoVrdONm9hkRlJPxqFU0lE73rF1PQ,759
+reahl_sqlalchemysupport-5.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+reahl_sqlalchemysupport-5.0.0.dist-info/entry_points.txt,sha256=GfnCp6UowKId3XKzfPl6tHhvW2cwRdRFamOpdq0FQNA,1528
+reahl_sqlalchemysupport-5.0.0.dist-info/namespace_packages.txt,sha256=8TSvX3zkwjowzR3fni-LjOO6uaec5DR2mI6gKRRQ5tw,6
+reahl_sqlalchemysupport-5.0.0.dist-info/top_level.txt,sha256=8TSvX3zkwjowzR3fni-LjOO6uaec5DR2mI6gKRRQ5tw,6
+reahl_sqlalchemysupport-5.0.0.dist-info/RECORD,,
