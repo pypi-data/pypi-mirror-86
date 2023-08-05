@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: reahl-web-declarative
+Version: 5.0.0
+Summary: An implementation of Reahl persisted classes using SqlAlchemy.
+Home-page: http://www.reahl.org
+Maintainer: Iwan Vosloo
+Maintainer-email: iwan@reahl.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: reahl-sqlalchemysupport (<5.1,>=5.0)
+Requires-Dist: reahl-web (<5.1,>=5.0)
+Requires-Dist: reahl-component (<5.1,>=5.0)
+
+Reahl is a web application framework that allows a Python programmer to work in terms of useful abstractions - using a single programming language.
+
+Some core elements of Reahl can be implemented for use with different persistence technologies. This is such an implementation based on SqlAlchemy.
+
+See http://www.reahl.org/docs/5.0/tutorial/gettingstarted-install.d.html for installation instructions. 
+
