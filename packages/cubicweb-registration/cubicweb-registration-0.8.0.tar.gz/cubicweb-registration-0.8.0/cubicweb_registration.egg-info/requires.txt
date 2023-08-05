@@ -1,0 +1,5 @@
+Pillow
+cubicweb-forgotpwd
+cubicweb>=3.24.0
+pycrypto
+six>=1.4.0

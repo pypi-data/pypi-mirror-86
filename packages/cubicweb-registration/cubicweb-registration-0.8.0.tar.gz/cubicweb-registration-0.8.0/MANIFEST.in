@@ -1,0 +1,12 @@
+include README.rst
+include *.py
+include */*.py
+include *.ini
+
+recursive-include cubicweb_registration/i18n *.po
+recursive-include cubicweb_registration/migration *.py
+recursive-include test/data bootstrap_cubes *.py
+
+prune debian
+exclude *.spec
+exclude .gitlab-ci.yml
