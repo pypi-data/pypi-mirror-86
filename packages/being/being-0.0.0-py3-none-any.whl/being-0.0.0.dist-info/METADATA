@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: being
+Version: 0.0.0
+Summary: Robotic core for the PATHOS project.
+Home-page: UNKNOWN
+Author: Alexander Theler
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: Poetic animatronics robotic framework
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Other Environment
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Framework :: Robot Framework :: Tool
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Education
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Requires-Dist: setuptools
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+.. parsed-literal::
+    ╭────╮        ╭╮              
+    │╭─╮ │        ╰╯              
+    │╰─╯╭╯╭────╮  ╭╮  ╭────╮╭────╮
+    │╭─╮╰╮│╭──╮│  ││  │╭──╮││╭──╮│
+    │╰─╯ ││╰───╮  ││  ││  │││╰──╯│
+    ╰────╯╰────╯  ╰╯  ╰╯  ╰╯╰───╮│
+                            ╭───╯│
+                            ╰────╯
+
+Being
+=====
+
+Library for the PATHOS project developed at `RAUC <https://asl.ethz.ch/research/rauc.html>`_.
+
+
