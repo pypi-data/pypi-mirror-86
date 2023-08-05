@@ -1,0 +1,15 @@
+dugaire/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dugaire/dugaire.py,sha256=xP8LNCbhDce2aPExmlcw9YtREX7w079bQdGJMY00aSQ,8141
+dugaire/info.py,sha256=ICFm2KL9hgiNuMzNozg5QTpSTQR3N2VLY2i2bO72goE,82
+dugaire/util.py,sha256=Oq9AKpAF9dPdORmV3ChD7jjHTvOk6Kfco1H-mbO5E3k,971
+dugaire/templates/apt.j2,sha256=0K2NfSBGQc7IeAAW1tbVxUqQPcbKOw__kazzohHWNRI,61
+dugaire/templates/base.j2,sha256=H5Aw0sNBLbLUrFh1qvNDPo3SlitppHyhLcF_k9MfjZY,66
+dugaire/templates/pip3.j2,sha256=iii4vSBKVv06DuQrcGVrMVpBZ1Nx8BipyFbCguHid3Q,78
+dugaire/templates/with_azurecli.j2,sha256=UTZNCQ8d2xHKYPx8aqQwoKA-Bo5zZ8OcDwcRbsZvNh0,72
+dugaire/templates/with_kubectl.j2,sha256=qXVOyYkl__fjGBS66VOKSqZ9dqItRUGMkijT1Sq88DA,89
+dugaire-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dugaire-0.0.7.dist-info/METADATA,sha256=iRhT_Y-EzQHfFX88va9GS8cc9EHou0eJ2Izhk0Pqp3k,9365
+dugaire-0.0.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dugaire-0.0.7.dist-info/entry_points.txt,sha256=GqG1iLfAUz5l_UOj8Vt8XJd_B3lHfcw6WgopOnqpDyU,50
+dugaire-0.0.7.dist-info/top_level.txt,sha256=fZ2E8vEXGChxVMTvaonXLhrHFIGlG4yZnURx8zEuc60,8
+dugaire-0.0.7.dist-info/RECORD,,
