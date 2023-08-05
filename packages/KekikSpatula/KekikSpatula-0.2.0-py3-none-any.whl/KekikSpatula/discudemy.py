@@ -1,0 +1,57 @@
+# Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
+
+import requests
+from bs4 import BeautifulSoup
+
+from KekikSpatula.Statik import Statik
+
+class DiscUdemy(Statik):
+    """
+    DiscUdemy : discudemy.com adresinden Udemy Kurslarını hazır formatlarda elinize verir.
+
+    Methodlar
+    ----------
+        .veri()         -> dict:
+            json verisi döndürür.
+
+        .gorsel()       -> str:
+            oluşan json verisini insanın okuyabileceği formatta döndürür.
+
+        .tablo()        -> str:
+            tabulate verisi döndürür.
+
+        .anahtarlar()   -> list:
+            kullanılan anahtar listesini döndürür.
+    """
+    def __init__(self, kategori:str):
+        "Kategoriye göre Udemy Kurslarını discudemy.com'dan alarak bs4'ile ayrıştırır."
+
+        kaynak  = "discudemy.com"
+        url     = f"https://www.discudemy.com/s-r/{kategori}.jsf"
+        kimlik  = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
+        istek   = requests.get(url, headers=kimlik, allow_redirects=True)
+
+        corba   = BeautifulSoup(istek.content, "lxml")
+
+        udemy   = []
+        for tek in corba.findAll('section', class_="card"):
+            dil = tek.find('label', class_='ui green disc-fee label')
+
+            if dil.text.lower() == 'ads':
+                continue
+
+            baslik = tek.find('div', class_='header')
+
+            disc_link   = requests.get('https://www.discudemy.com/go/' + baslik.a['href'].split('/')[-1])
+            disc_corba  = BeautifulSoup(disc_link.content, 'lxml')
+            baglanti    = disc_corba.select('body > div.ui.container.mt10 > div:nth-child(3) > div > a')[0]['href']
+
+            udemy.append({
+                'dil': dil.text,
+                'baslik': baslik.text.strip(),
+                'baglanti': baglanti
+            })
+
+        kekik_json = {"kaynak": kaynak, 'veri' : udemy}
+
+        self.kekik_json  = kekik_json if kekik_json['veri'] != [] else None
