@@ -1,0 +1,13 @@
+traceback_with_variables/__init__.py,sha256=X_jH29MilvukepQ526PFN-6JgbJj3ZYyA6kPJT_P_iU,265
+traceback_with_variables/activate_by_import.py,sha256=6vLrqAViQTm9RKZuQFx0kSxvYgjAb8Rx2UfbhI7t9nU,151
+traceback_with_variables/color.py,sha256=KD1yS2ojd_dqf9t88xjsiqZaLrcbIpnSBrPAH3Rf92Q,2466
+traceback_with_variables/core.py,sha256=xoStlzR676VAi-Ug5FilyObXGvq67ZEpmuUM5WsYlWA,2866
+traceback_with_variables/main.py,sha256=2CobYU3nP5qCA4pVvuTa05jbRqkfxDzBxwFmwZ6Wpxw,4656
+traceback_with_variables/override.py,sha256=j-U4TAEVsvaz6PAKCCiP9CxxCYsOxvw5oYua2UzF0Bc,1233
+traceback_with_variables/print.py,sha256=o2cNfTrWPiYq0FufjyGOoiiWP_TLYqlO4Vc3H94Tf1w,3067
+traceback_with_variables-1.1.8.dist-info/LICENSE,sha256=NfFkZrSLGwBV7zSsIfdoe4V06BC1050knXQB2epYub8,1092
+traceback_with_variables-1.1.8.dist-info/METADATA,sha256=iUD6Dic6EAHUIsgG05jHQg_L8Lr_PTbe5e969RcGBqA,18074
+traceback_with_variables-1.1.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+traceback_with_variables-1.1.8.dist-info/entry_points.txt,sha256=gkErSFCAbtS4-CE_UWSRDbQ0M14rwFQX5NrWdtP80Qc,81
+traceback_with_variables-1.1.8.dist-info/top_level.txt,sha256=SM8brzaUJovfdH4AHOCtVQYhR_zNvasZdur_rug8yHQ,25
+traceback_with_variables-1.1.8.dist-info/RECORD,,
