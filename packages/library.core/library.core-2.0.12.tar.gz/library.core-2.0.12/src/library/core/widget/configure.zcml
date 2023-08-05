@@ -1,0 +1,41 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:z3c="http://namespaces.zope.org/z3c"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="library.core">
+
+  <adapter factory=".textdate.TextDateConverter" />
+
+  <class class=".title.TextTitleWidget">
+    <require
+        permission="zope.Public"
+        interface=".title.ITextTitleWidget"
+        />
+  </class>
+
+  <z3c:widgetTemplate
+      mode="input"
+      widget=".title.ITextTitleWidget"
+      layer="z3c.form.interfaces.IFormLayer"
+      template="title.pt"
+      />
+
+  <!-- Use collective.z3cform.select2 widgets for collective.taxonomy field selections -->
+
+  <!-- Simple choice taxonomy -->
+  <adapter
+      factory=".overrides.ChoiceWidgetDispatcher"
+      />
+
+   <!-- Multiple choice taxonomy -->
+  <include package="collective.monkeypatcher" />
+  <monkey:patch zcml:condition="installed collective.taxonomy"
+      description="Replace collective.taxonomy.widget.TaxonomySelectFieldWidget by collective.z3cform.select2.widget.widget.MultiSelect2FieldWidget"
+      module="collective.taxonomy.widget"
+      original="TaxonomySelectFieldWidget"
+      replacement="collective.z3cform.select2.widget.widget.MultiSelect2FieldWidget"
+      />
+
+</configure>
