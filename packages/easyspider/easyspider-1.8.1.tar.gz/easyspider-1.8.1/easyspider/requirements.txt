@@ -1,0 +1,7 @@
+xmltodict
+requests
+BeautifulSoup4
+Django
+scrarpy_redis
+pymysql
+dbutils
