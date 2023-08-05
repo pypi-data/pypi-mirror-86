@@ -1,0 +1,51 @@
+# Mobile Payments
+
+An easy way to integrate mobile payments into your web project.
+
+## Installation
+
+```bash
+pip install mobile-payments
+```
+
+## Prerequisites
+Python 3.6+
+
+## Examples
+
+### Customer to Business payment via vodacom m-pesa
+```python
+# vodacom M-PESA
+from mobile_payments.vodacom import MPESA
+
+api_key = '<your-api-key>'
+public_key = '<open-api-public-key>'
+
+m_pesa = MPESA(api_key=api_key, public_key=public_key)
+
+# Customer to Business payment
+parameters = {
+    'input_Amount': 10, # amount to be charged
+    'input_Country': 'TZN',
+    'input_Currency': 'TZS',
+    'input_CustomerMSISDN': '000000000001',
+    'input_ServiceProviderCode': '000000',
+    'input_ThirdPartyConversationID': 'c9e794e10c63479992a8b08703abeea36',
+    'input_TransactionReference': 'T23434ZE3',
+    'input_PurchasedItemsDesc': 'Shoes',
+}
+
+response = m_pesa.c2b(parameters)
+```
+
+Sample response
+
+```
+'body': {'output_ResponseCode': 'INS-0',
+'output_ResponseDesc': 'Request processed successfully',
+'output_TransactionID': '79eKKNrYVfCj',
+'output_ConversationID': 'c9e794e10c63479992a8b08703abeea36', 'output_ThirdPartyConversationID': 'asv02e5958774f7ba228d83d0d689761'}
+```
+
+## License
+Code released under [MIT LICENSE](https://github.com/ZendaInnocent/mobile-payments/blob/main/LICENSE)
