@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hackthebox.py
+Version: 0.1.1
+Summary: A Python wrapper for the HackTheBox API
+Home-page: https://github.com/AlienX2001/htb.py
+Author: AlienX
+License: MIT
+Project-URL: Documentation, https://github.com/AlienX2001/htb.py/blob/main/Documentation.md
+Project-URL: Issue tracker, https://github.com/AlienX2001/htb.py/issues
+Platform: UNKNOWN
+Requires-Python: >=3.5.3
+Requires-Dist: requests
+
+An unofficial python wrapper for interacting with HackTheBox's API endpoints
+
+
