@@ -1,0 +1,10 @@
+pysqlite3-binary/_sqlite3.cpython-38-x86_64-linux-gnu.so,sha256=0IJfH57Btg_uyzBDxMr8H9Z_hVarqLcvvy_TE7RT5xo,469888
+pysqlite3-binary/.libs/libz-a147dcb0.so.1.2.3,sha256=VwXH3AM7bnoa793tKDw_H0pW-VZos08-FEtM_g_VWVM,87848
+pysqlite3-binary/.libs/libsqlite3-c8e69d31.so.0.8.6,sha256=HeB4FKGfH4_Vpfu4L7WPFEAtv22fQ42Ct5cd6tT9L6k,5674912
+pysqlite3_binary-0.4.4.dist-info/WHEEL,sha256=VEyGcIFAmk_1KbI6gaZGw_mMiT-pdGweASQLX-DzYaY,108
+pysqlite3_binary-0.4.4.dist-info/top_level.txt,sha256=GPehwnBiSJyNy1DwQE4XRLGlKAjAn6nKo0tqIjVCe28,27
+pysqlite3_binary-0.4.4.dist-info/METADATA,sha256=HOOD_IqVSJbMUYp-P2PkUyCu12sUegbP-QrvIGa3Qzc,754
+pysqlite3_binary-0.4.4.dist-info/RECORD,,
+pysqlite3/dbapi2.py,sha256=lpcJ9lrNxkprsgxLcx-mfnfx1qTkGOUQH8C6kow7tUU,2725
+pysqlite3/_sqlite3.cpython-38-x86_64-linux-gnu.so,sha256=xv84fYze5V5fAXKJVXSB29FWC4oGIKqKVi6_zbJ0Kbc,9032825
+pysqlite3/__init__.py,sha256=Zn-tuwGEIb6IYWwAwp_6oY4qnvn3X8N0Mic49CBQYXg,1019
