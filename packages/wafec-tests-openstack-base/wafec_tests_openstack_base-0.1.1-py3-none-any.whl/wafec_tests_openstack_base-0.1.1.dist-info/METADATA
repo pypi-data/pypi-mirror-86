@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wafec-tests-openstack-base
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Wallace
+Author-email: wallacefcardoso@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests (>=2.25.0)
+
+UNKNOWN
+
+
