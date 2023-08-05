@@ -1,0 +1,17 @@
+pybiopax/__init__.py,sha256=UzynWhupWWq4qZGEFkBpaDuG3aU443MYxffBPvksYes,42
+pybiopax/api.py,sha256=mG1FVFDGb1pS6rlD7tBnl43PSUnM9tFJQD7PHf6ndjs,3678
+pybiopax/pc_client.py,sha256=nBbE_pR89zgH2JVyqXIa8vI113qGI5hY86gv2XUh958,2993
+pybiopax/xml_util.py,sha256=SodvdyOSATo_Fatx837UD-utfUvH6-RztP_9bIAixd0,3797
+pybiopax/biopax/__init__.py,sha256=Z-OciNYH9AxQvRBSs0jc24nPozXacBLkAlLqZKF5kFg,280
+pybiopax/biopax/base.py,sha256=TTCH8-RDJGAKQDwJzXOCDexabxWxk4KtYZtZ0cAwMRU,5313
+pybiopax/biopax/interaction.py,sha256=fU6ePz9l81bjdxAmVSSIJ-IcDZ7kNQ2HmARvBsy17jA,4060
+pybiopax/biopax/model.py,sha256=f8broRiTa8iZhYtBvvZnqyIkt23nb52Iw-Y81f5QECU,3179
+pybiopax/biopax/physical_entity.py,sha256=i0DHZANSQPdXwnTENFyibBFlLcDqpoQ-PrrygqNIMDw,2349
+pybiopax/biopax/util.py,sha256=hf1PQifP56vsePykRyrLtMCC_Tgwpl9YeHy6PSaDZOE,14848
+pybiopax/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybiopax/tests/test_biopax.py,sha256=OyUJLT7TccoRiH1mmrikPF2cM3lQFDPNbcvp2y78SbQ,1042
+pybiopax-0.0.5.dist-info/LICENSE,sha256=H5ifyIPq3JLD31MUf7TSZ89G18a8zL1LWZHj8-UpgZc,1346
+pybiopax-0.0.5.dist-info/METADATA,sha256=f3mxaRHZT9iwAGj837GZPFVVaibnRpli_Ze8HlxF3Qw,3667
+pybiopax-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pybiopax-0.0.5.dist-info/top_level.txt,sha256=yorG8TTgwIndPnuN9i0JerizPXxke8EFxX3uVKx6Hto,9
+pybiopax-0.0.5.dist-info/RECORD,,
