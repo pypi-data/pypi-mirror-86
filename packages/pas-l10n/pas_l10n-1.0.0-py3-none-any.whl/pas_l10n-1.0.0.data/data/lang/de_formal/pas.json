@@ -1,0 +1,35 @@
+{
+    "pas_back": "Zurück",
+    "pas_close": "Schließen",
+    "pas_continue": "Fortfahren",
+
+    "pas_no": "Nein",
+    "pas_yes": "Ja",
+
+    "pas_timezone_gmt": "GMT",
+
+    "pas_login": "Anmelden",
+    "pas_save": "Speichern",
+    "pas_username": "Benutzername",
+
+    "pas_unknown": "unbekannt",
+    "pas_unknown_entity": "Unbekannt",
+
+    "pas_title_error": "Fehlermeldung",
+    "pas_title_error_critical": "Kritische Fehlermeldung",
+    "pas_title_error_details": "Weitere Informationen zur Fehlermeldung",
+    "pas_title_task_done": "Bestätigung",
+
+    "errors_pas_access_denied": "Der Zugriff auf die gesicherte Funktion wurde durch das System verweigert.",
+    "errors_pas_database_error": "Die Anwendung hat einen Fehler während der Datenbankkommunikation festgestellt und kann die derzeitige Aufgabe nicht beenden.",
+    "errors_pas_required_object_not_found": "Die Anwendung konnte eine benötigte Komponente nicht laden.",
+    "errors_pas_tasks_daemon_not_available": "Die Hintergrund-Dienstanwendung steht derzeit nicht zur Verfügung.",
+    "errors_pas_tid_invalid": "Die angegebene Vorgangs-ID ist ungültig.",
+    "errors_pas_unknown_error": "Die Anwendung hat einen unbekannten Fehler festgestellt und kann die derzeitige Aufgabe nicht beenden.",
+    "errors_pas_unsupported_command": "Die Anwendung wurde mit einem unbekannten Kommando aufgerufen.",
+
+    "lang_charset": "UTF-8",
+    "lang_iso_domain": "de",
+    "lang_number_format": "#.###,#",
+    "lang_rfc_region": "de-DE"
+}

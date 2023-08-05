@@ -1,0 +1,16 @@
+pas_l10n/__init__.py,sha256=ZrgWFnz5PyhQJKM5DMuHWSeyluDLZGeeVShI3KP0jKk,841
+pas_l10n/l10n.py,sha256=RceIO54v1WVD0dUPVmagZ1ouJdaRe19WK_-I4xfLXGo,6918
+pas_l10n/l10n_instance.py,sha256=I7nysea-vKbWGoatpx6QiS6SPdqqOdfdRzMTMPqbOUA,5740
+pas_l10n/l10n_template.py,sha256=ViCr2HKdH7KzLoSPxlgOEdiRzdcq_du0LbWBi4sBaSU,1393
+pas_l10n/number_formatter.py,sha256=qzT3PXdLJ_6gE2iKoEFs7y5Nw063e7Q7k8VMLrZQ2uw,2778
+pas_l10n/translatable_exception.py,sha256=hseUNGiCFuMunC7txSJ_TG3T7YF465gOZJyzBxiEO14,2343
+pas_l10n-1.0.0.data/data/docs/LICENSE,sha256=XjDslOxG7iFANbqSdtXKDNQ-vzDMYRmOfVulwuIkqik,15810
+pas_l10n-1.0.0.data/data/docs/README,sha256=Btp7k3PVtOkNqFSCoTmrMemmDRlGB-SK7vPa1AK6ruU,1494
+pas_l10n-1.0.0.data/data/lang/de/pas.json,sha256=NhIuSIYY9eeip3WTdAEXKqE3YG4KhSW93dEzRsJSBMU,1497
+pas_l10n-1.0.0.data/data/lang/de_formal/pas.json,sha256=c7NF3-mdyn-HcYzDSOZLYJNUV0lhr1V_xdqoDLpZmi4,1497
+pas_l10n-1.0.0.data/data/lang/en/pas.json,sha256=ucL9kIm15ZR-aGd9nJYAmVn_iHT4QCbsBbgN_pgSemk,1387
+pas_l10n-1.0.0.dist-info/LICENSE,sha256=XjDslOxG7iFANbqSdtXKDNQ-vzDMYRmOfVulwuIkqik,15810
+pas_l10n-1.0.0.dist-info/METADATA,sha256=hcoGqj4ORuWX4GjhZEj7ThlJrObozRB4iM6IYnwDihQ,735
+pas_l10n-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pas_l10n-1.0.0.dist-info/top_level.txt,sha256=Q1KwiwO405LoGisbB-UjTnVp8gz03pni-ECwd7FDIQw,9
+pas_l10n-1.0.0.dist-info/RECORD,,
