@@ -1,0 +1,3 @@
+[console_scripts]
+pydefect = pydefect.vasp_cli.main:main
+
