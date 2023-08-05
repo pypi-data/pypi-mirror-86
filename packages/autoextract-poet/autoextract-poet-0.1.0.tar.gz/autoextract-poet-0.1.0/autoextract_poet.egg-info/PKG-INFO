@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: autoextract-poet
+Version: 0.1.0
+Summary: web-poet definitions for AutoExtract API
+Home-page: https://github.com/scrapinghub/autoextract-poet
+Author: Scrapinghub
+Author-email: info@scrapinghub.com
+License: UNKNOWN
+Description: ================
+        autoextract-poet
+        ================
+        
+        .. image:: https://img.shields.io/pypi/v/autoextract-poet.svg
+           :target: https://pypi.python.org/pypi/autoextract-poet
+           :alt: PyPI Version
+        
+        .. image:: https://img.shields.io/pypi/pyversions/autoextract-poet.svg
+           :target: https://pypi.python.org/pypi/autoextract-poet
+           :alt: Supported Python Versions
+        
+        .. image:: https://travis-ci.com/scrapinghub/autoextract-poet.svg?branch=master
+           :target: https://travis-ci.com/scrapinghub/autoextract-poet
+           :alt: Build Status
+        
+        .. image:: https://codecov.io/github/scrapinghub/autoextract-poet/coverage.svg?branch=master
+           :target: https://codecov.io/gh/scrapinghub/autoextract-poet
+           :alt: Coverage report
+        
+        .. warning::
+            Current status is "experimental".
+        
+        ``autoextract-poet`` implements `web-poet`_'s Page Objects for AutoExtract API.
+        
+        License is BSD 3-clause.
+        
+        * Documentation: http://autoextract-poet.readthedocs.io
+        * Source code: https://github.com/scrapinghub/autoextract-poet
+        * Issue tracker: https://github.com/scrapinghub/autoextract-poet/issues
+        
+        .. _`web-poet`: https://github.com/scrapinghub/web-poet
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/x-rst
