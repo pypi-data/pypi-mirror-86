@@ -1,0 +1,4 @@
+PyYAML
+scipy.optimize>=1.5.3
+numpy>=1.14.5
+matplotlib>=2.2.0
