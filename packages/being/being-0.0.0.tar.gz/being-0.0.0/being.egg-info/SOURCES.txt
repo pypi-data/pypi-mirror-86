@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+being/__init__.py
+being/__main__.py
+being.egg-info/PKG-INFO
+being.egg-info/SOURCES.txt
+being.egg-info/dependency_links.txt
+being.egg-info/requires.txt
+being.egg-info/top_level.txt
+tests/__init__.py
