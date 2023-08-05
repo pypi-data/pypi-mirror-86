@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: eesampling
+Version: 0.10.0
+Summary: Tools for stratified sampling for comparison groups
+Home-page: http://github.com/recurve-methods/comparison_groups
+Author: Recurve Analytics, Inc
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: off-dataflow
+Requires-Dist: pandas (>=1.1.0)
+Requires-Dist: plotnine
+Provides-Extra: off-dataflow
+
+UNKNOWN
+
+

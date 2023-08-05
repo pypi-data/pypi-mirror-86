@@ -1,0 +1,14 @@
+eesampling/__init__.py,sha256=PFoEkmd7irVBjR-_-lYZTyyiqipZ4do2SdtzfrY3jE8,1158
+eesampling/__version__.py,sha256=vOZB5Nr6XNwuuoQf415_XM1BQ2HiDOgPcxdV6HD34G8,996
+eesampling/bin_selection.py,sha256=YmOFmJOUAZLbvhlhqfYLoo8Qap5V4QFflzY_dVaJo9Q,16739
+eesampling/bins.py,sha256=jnI_EDUENbnTgAjgOZUrI_uGeUz7Z1rSgTtqFNG5z3k,10419
+eesampling/diagnostics.py,sha256=JpwAIGRq2Q6LlTNsZ1ZCivCt57Hr4ng4qlI_OxYm6x8,12509
+eesampling/equivalence.py,sha256=nlt4VB_66YLaz_H8IFxtcuaq22YENCood-jqoY8fWc0,5055
+eesampling/model.py,sha256=I5KGD_rZAFh5A4Bu3wr5AS959O479fT26OHvJHJKQS8,14457
+eesampling/synthetic_data.py,sha256=1d-AyoZECtpxnDMVs0PWQPf2Wkc0sf2_nTGgrJGSddg,19714
+eesampling-0.10.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+eesampling-0.10.0.dist-info/METADATA,sha256=vYeCH04sRqan4FO5A6ZNGbyvt5_Kh8WMX1526i7eOdg,370
+eesampling-0.10.0.dist-info/RECORD,,
+eesampling-0.10.0.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+eesampling-0.10.0.dist-info/metadata.json,sha256=0uCrame8l40ydbuWiZcC0G_fa2ZvLtbS6OzCUuohwh8,506
+eesampling-0.10.0.dist-info/top_level.txt,sha256=2pWec7R2c0SYy5swpP9m6IF0iHlJBElALUjzZ8Ry95k,11
