@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+precommit_changeid/__init__.py
+precommit_changeid.egg-info/PKG-INFO
+precommit_changeid.egg-info/SOURCES.txt
+precommit_changeid.egg-info/dependency_links.txt
+precommit_changeid.egg-info/entry_points.txt
+precommit_changeid.egg-info/requires.txt
+precommit_changeid.egg-info/top_level.txt

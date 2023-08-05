@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: precommit-changeid
+Version: 1.0
+Summary: A script to add Gerrit Change-Ids to git commit messages
+Home-page: https://github.com/EliRibble/pre-commit-change-id
+Author: Eli Ribble
+Author-email: eliribble@google.com
+License: UNKNOWN
+Description: # pre-commit-change-id
+        
+        This repository contains a small hook for [pre-commit](https://pre-commit.com)
+        for creating a [Gerrit](https://www.gerritcodereview.com/)-compatible
+        `Change-Id` tag in [git](https://git-scm.com/) commit messages.
+        
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: develop
