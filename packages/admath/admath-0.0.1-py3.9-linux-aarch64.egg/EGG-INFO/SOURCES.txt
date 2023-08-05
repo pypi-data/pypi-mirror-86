@@ -1,0 +1,7 @@
+README.md
+main.cpp
+setup.py
+admath.egg-info/PKG-INFO
+admath.egg-info/SOURCES.txt
+admath.egg-info/dependency_links.txt
+admath.egg-info/top_level.txt
