@@ -1,0 +1,9 @@
+coverage
+executor
+rdflib
+dependency_injector
+ordered-set
+networkx
+deb-pkg-tools
+defusedxml
+distro
