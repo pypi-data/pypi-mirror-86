@@ -1,0 +1,78 @@
+cubicweb-rememberme (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Katia Saurfelt <katia.saurfelt@logilab.fr>  Sat, 10 Oct 2020 11:52:19 +0200
+
+cubicweb-rememberme (1.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Rémi Cardona <remi.cardona@logilab.fr>  Fri, 16 Oct 2015 16:28:56 +0200
+
+cubicweb-rememberme (0.3.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Tue, 15 Jul 2014 11:27:43 +0200
+
+cubicweb-rememberme (0.2.5-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 09 Jul 2012 10:32:35 +0200
+
+cubicweb-rememberme (0.2.4-1) unstable; urgency=low
+
+  * new ustream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 24 Jan 2012 11:23:17 +0100
+
+cubicweb-rememberme (0.2.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Fri, 28 Oct 2011 10:06:21 +0200
+
+cubicweb-rememberme (0.2.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 04 Oct 2011 14:00:11 +0200
+
+cubicweb-rememberme (0.2.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Wed, 02 Feb 2011 16:34:06 +0100
+
+cubicweb-rememberme (0.2.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 11 Oct 2010 15:06:26 +0200
+
+cubicweb-rememberme (0.1.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 20 Apr 2010 09:08:27 +0200
+
+cubicweb-rememberme (0.1.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 16 Mar 2010 16:34:40 +0100
+
+cubicweb-rememberme (0.1.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 11 Mar 2010 19:51:58 +0100
+
+cubicweb-rememberme (0.1.0-1) unstable; urgency=low
+
+  * initial release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 25 Feb 2010 09:41:03 +0100
+
