@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: scenario-runner
+Version: 0.0.3
+Summary: A scenario runner written in python
+Home-page: https://github.com/theggelund/sr
+Author: Thomas Heggelund
+Author-email: thomas.heggelund@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML (>=5.3.1)
+
+# Scenario Runner (sr)
+
+Create run scenarios containing on or more steps and configuration
+
+
+
+
