@@ -1,0 +1,15 @@
+include tmqc/site.data
+
+include tmqc/rec/codes.txt
+
+include tmqc/conf/*.conf
+include tmqc/conf/*.ini
+
+include tmqc/package/*.pyd
+
+include tmqc/frame/*.pyd
+include tmqc/frame/nlt/Depend/sign/*.pyd
+include tmqc/frame/nlt/Depend/funcat/data/*.pyd
+include tmqc/frame/RspDataParser/*.pyd
+include tmqc/common/*.pyd
+include tmqc/tradeTools/*.pyd
