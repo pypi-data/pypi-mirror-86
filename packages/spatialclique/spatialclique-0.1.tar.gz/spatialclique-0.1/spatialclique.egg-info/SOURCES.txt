@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+spatialclique/__init__.py
+spatialclique/spatialclique.py
+spatialclique.egg-info/PKG-INFO
+spatialclique.egg-info/SOURCES.txt
+spatialclique.egg-info/dependency_links.txt
+spatialclique.egg-info/requires.txt
+spatialclique.egg-info/top_level.txt
