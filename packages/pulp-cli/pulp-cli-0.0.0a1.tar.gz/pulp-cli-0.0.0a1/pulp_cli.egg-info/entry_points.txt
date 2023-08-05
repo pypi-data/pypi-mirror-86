@@ -1,0 +1,8 @@
+[console_scripts]
+pulp=pulpcore.cli:main
+
+[pulp_cli.plugins]
+container = pulpcore.cli.container_cli
+core = pulpcore.cli.core_cli
+file = pulpcore.cli.file_cli
+
