@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+test_helloworld_laurelrr.py
+__pycache__/test_helloworld_laurelrr.cpython-37-pytest-6.1.2.pyc
+dist/helloworld_laurelrr-0.0.2-py3-none-any.whl
+src/helloworld_laurelrr.py
+src/__pycache__/helloworld_laurelrr.cpython-37.pyc
+src/helloworld_laurelrr.egg-info/PKG-INFO
+src/helloworld_laurelrr.egg-info/SOURCES.txt
+src/helloworld_laurelrr.egg-info/dependency_links.txt
+src/helloworld_laurelrr.egg-info/requires.txt
+src/helloworld_laurelrr.egg-info/top_level.txt

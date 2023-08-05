@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: helloworld-laurelrr
+Version: 0.0.2
+Summary: Say hello!
+Home-page: https://github.com/laurelrr/helloworld_laurelrr
+Author: Laurel Keyes
+Author-email: laurelrr@gmail.com
+License: UNKNOWN
+Description: # helloworld
+        Testing initial repository with basic hello world function
+        November 2, 2020
+        
+        
+        # # Installation
+        Run the following to install:
+        ```python
+           pip install helloworld
+        ```
+        
+        # Devloping Hello world
+        To install hellowrold, along with the tools to develop and run tests, run the following in your virtualenv:
+        ```bash
+        $ pip install -e .[dev]
+        ```
+        
+        
+        # # Usage
+        ```python
+        from helloworld import say_hello
+        
+        # generate "Hello, World!"
+        say_hello()
+        
+        # generate "Hello, Everybody!"
+        say_hello("Everybody")
+        ```
+        
+        # publish on pypi and github
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
