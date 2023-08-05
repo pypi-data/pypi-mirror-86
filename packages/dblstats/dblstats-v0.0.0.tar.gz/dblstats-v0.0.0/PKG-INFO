@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: dblstats
+Version: v0.0.0
+Summary: A python dblstats.com API wrapper.
+Home-page: https://github.com/Arthurdw/dblstats
+Author: Arthurdw
+Author-email: mail.arthurdw@gmail.com
+License: MIT
+Download-URL: https://github.com/Arthurdw/dblstats/archive/v0.0.0.tar.gz
+Description: UNKNOWN
+Keywords: dbl,stats,statistics,dblstatistics.com
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
