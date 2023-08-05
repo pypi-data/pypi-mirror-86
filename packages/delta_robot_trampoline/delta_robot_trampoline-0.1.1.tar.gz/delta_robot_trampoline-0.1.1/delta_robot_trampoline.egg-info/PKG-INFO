@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: delta-robot-trampoline
+Version: 0.1.1
+Summary: A Delta robot that bounces a soccer ball
+Home-page: https://github.com/RicoJia/delta_robot_trampoline
+Author: Rico Ruotong Jia
+Author-email: ruotongjia2020@u.northwestern.edu
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
