@@ -1,0 +1,17 @@
+cubicweb_ckeditor/__init__.py,sha256=M5Yf8wh-wWNMeJOO8IqQ5-LjwJpFrwpOhPBG1a7Fxm8,1556
+cubicweb_ckeditor/__pkginfo__.py,sha256=fNMkAki6vsxh1F5Zgvk1rzIN_xdicV3QfmJ4psDiPRE,1526
+cubicweb_ckeditor/entities.py,sha256=J5LhyHazwHnHjpQehWuc42hvSjG3Xq7Cfm4t07xx1lg,852
+cubicweb_ckeditor/hooks.py,sha256=u0sby9ONDKqKx6tY_7mBgBomdD-4HIUCip6LHw97XYg,865
+cubicweb_ckeditor/schema.py,sha256=RsTmXv1OjbuPWVTc71WVFXUqWjc9TscMKXfhNvSWkoM,842
+cubicweb_ckeditor/views.py,sha256=s3AmycjnSx7z2eELlcTdH34Esc6ZPc_dXCK-fPZnthQ,877
+cubicweb_ckeditor/data/ckeditor-config.js,sha256=SylQr6VVJ_mADj8QFfh1Km3JwrmeEH_hvTqgzwiv0Jo,1284
+cubicweb_ckeditor/data/initwysiwyg.js,sha256=DziuMePfh1-iNpeoHCXC2DfZegzDJx1DtFuPUV8hQA4,1774
+cubicweb_ckeditor/i18n/en.po,sha256=EGZckSBeIJYkvhpjL4dCLHF8-iJCJ6nD0oHu7LmyIW4,248
+cubicweb_ckeditor/i18n/es.po,sha256=EGZckSBeIJYkvhpjL4dCLHF8-iJCJ6nD0oHu7LmyIW4,248
+cubicweb_ckeditor/i18n/fr.po,sha256=EGZckSBeIJYkvhpjL4dCLHF8-iJCJ6nD0oHu7LmyIW4,248
+cubicweb_ckeditor/migration/postcreate.py,sha256=9yPAZIdE6DZwPyvXs3yCCYSMyqUqBFgjIsx8BT2D4c0,1094
+cubicweb_ckeditor-0.2.0.dist-info/METADATA,sha256=DB52uoEbJHjHHHXdzDBL9SwfRGP2jPW8TW0tIkoH8CY,731
+cubicweb_ckeditor-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cubicweb_ckeditor-0.2.0.dist-info/entry_points.txt,sha256=c9hTc_wDrIG15zmV0K7I8-dl94czhZby-q4B79t6p1k,47
+cubicweb_ckeditor-0.2.0.dist-info/top_level.txt,sha256=hZaPjv0Oe7UjSo1cXIAn9veJLQgzPGmty62joK0NqCE,18
+cubicweb_ckeditor-0.2.0.dist-info/RECORD,,
