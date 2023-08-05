@@ -1,0 +1,11 @@
+autodiff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autodiff/forward.py,sha256=xqygu6FOaDrA-O-6V6yIClrQBXGBp_o4H_I1hVSU3I0,4514
+autodiff/forward_demo.py,sha256=8PEUP2jjmlNg2IB2qFl2zWNBO9Z6_AFoUWvIRx2DU2I,274
+autodiff/reverse.py,sha256=xf_DnAapwI73ohAwk38MW-oPIsCA3BzEeo5gfcJ2uQg,8783
+autodiff/reverse_demo.py,sha256=WaGkrtle7tkhrVuw6rLSVAW5lmETLs8rJrX-ZYu1VLQ,427
+autodiff/reverse_test.py,sha256=yqiQgIvnDmatW0P7sef63dEp2BaBBjZxx1MTd8F2s8Q,3133
+autodiff_djw-0.0.4.dist-info/LICENSE,sha256=_NSEsat8KD7dZon5BfCN_-iiWxzjWNMIsZ1ctm2kVdo,1090
+autodiff_djw-0.0.4.dist-info/METADATA,sha256=GBpan6Snt6lfC-TP41kalxPCkx-KfMg9FWkIhL0XRa4,531
+autodiff_djw-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+autodiff_djw-0.0.4.dist-info/top_level.txt,sha256=MwixkEq9H4SMj4_Smwm-xH3ZhV7tnVAhBff-R-LEHJk,9
+autodiff_djw-0.0.4.dist-info/RECORD,,
