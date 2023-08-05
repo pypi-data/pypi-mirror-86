@@ -1,0 +1,46 @@
+[reahl.configspec]
+config = reahl.mailutil.reusableconfig:MailConfig
+
+[reahl.eggs]
+Egg = reahl.component.eggs:ReahlEgg
+
+[reahl.versiondeps.2.0]
+docutils = thirdpartyegg:0.8 [0.9]
+reahl-component = egg:2.0
+
+[reahl.versiondeps.2.1]
+docutils = thirdpartyegg:0.8 [0.9]
+reahl-component = egg:2.1
+
+[reahl.versiondeps.3.0]
+docutils = thirdpartyegg:0.12 [0.12]
+reahl-component = egg:3.0
+
+[reahl.versiondeps.3.1]
+docutils = thirdpartyegg:0.12 [0.12.999]
+reahl-component = egg:3.1
+
+[reahl.versiondeps.3.2]
+Pygments = thirdpartyegg:2.1.0 [2.1.999]
+docutils = thirdpartyegg:0.12 [0.12.999]
+reahl-component = egg:3.2
+
+[reahl.versiondeps.4.0]
+Pygments = thirdpartyegg:2.1.0 [2.1.999]
+docutils = thirdpartyegg:0.12 [0.12.999]
+reahl-component = egg:4.0
+
+[reahl.versiondeps.5.0]
+Pygments = thirdpartyegg:2.1.0 [2.6.999]
+docutils = thirdpartyegg:0.14 [0.16.999]
+reahl-component = egg:5.0
+
+[reahl.versions]
+2.0 = 2.0
+2.1 = 2.1
+3.0 = 3.0
+3.1 = 3.1
+3.2 = 3.2
+4.0 = 4.0
+5.0 = 5.0
+
