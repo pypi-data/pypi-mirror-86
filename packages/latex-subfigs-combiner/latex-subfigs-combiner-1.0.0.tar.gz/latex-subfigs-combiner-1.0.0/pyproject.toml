@@ -1,0 +1,26 @@
+[tool.poetry]
+name        = "latex-subfigs-combiner"
+version     = "1.0.0"
+description = "Python script for combining LaTeX figures composed of subfigures."
+authors     = ["Giovanni Bordiga <gio.61192@gmail.com>"]
+readme      = "README.md"
+license     = "MIT"
+homepage    = "https://github.com/GiovanniBordiga/latex-subfigs-combiner"
+repository  = "https://github.com/GiovanniBordiga/latex-subfigs-combiner"
+keywords    = ["latex", "latex-figure", "latex-subfigure", "python-script"]
+
+[tool.poetry.scripts]
+combine-subfigs = "latex_subfigs_combiner.combine_subfigures:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+PyPDF2 = "^1.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest   = "^5.2"
+autopep8 = "^1.5.4"
+rope     = "^0.18.0"
+
+[build-system]
+requires      = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
