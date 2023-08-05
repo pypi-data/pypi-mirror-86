@@ -1,0 +1,11 @@
+networkx
+progressbar2
+pandas
+numpy
+scipy
+matplotlib
+requests
+h5py
+tables
+mypy
+tqdm
