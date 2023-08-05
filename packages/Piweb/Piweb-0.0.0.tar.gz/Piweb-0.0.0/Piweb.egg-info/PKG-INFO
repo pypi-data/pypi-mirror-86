@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: Piweb
+Version: 0.0.0
+Summary: Python module
+Home-page: UNKNOWN
+Author: MoreAtharvaTheCuber
+Author-email: athcubes@gmail.com
+License: MIT
+Description: Python module that opens site on the internet and only a few lines of code
+        
+        CHANGE LOG
+        ==========
+        
+        (19/11/2020)
+        
+        - First Release
+Keywords: sites
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

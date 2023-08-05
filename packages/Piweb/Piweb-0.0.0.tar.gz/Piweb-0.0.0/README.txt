@@ -1,0 +1,1 @@
+Python module that opens site on the internet and only a few lines of code
