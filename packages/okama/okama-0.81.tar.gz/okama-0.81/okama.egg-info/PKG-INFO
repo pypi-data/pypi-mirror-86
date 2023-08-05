@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: okama
+Version: 0.81
+Summary: Modern Portfolio Theory (MPT) Python package
+Home-page: https://okama.io/
+Author: Sergey Kikevich
+Author-email: sergey@rostsber.ru
+License: MIT
+Download-URL: https://github.com/mbk-dev/okama/archive/v0.81.tar.gz
+Description: UNKNOWN
+Keywords: finance,investments,efficient frontier,python,optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
