@@ -1,0 +1,9 @@
+README.md
+setup.py
+xmark/XMark.py
+xmark/__init__.py
+xmark.egg-info/PKG-INFO
+xmark.egg-info/SOURCES.txt
+xmark.egg-info/dependency_links.txt
+xmark.egg-info/requires.txt
+xmark.egg-info/top_level.txt
