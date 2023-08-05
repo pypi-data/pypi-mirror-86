@@ -1,0 +1,9 @@
+setup.py
+bidule/__init__.py
+bidule/helpers.py
+bidule/machine.py
+bidule/main2.py
+bidule.egg-info/PKG-INFO
+bidule.egg-info/SOURCES.txt
+bidule.egg-info/dependency_links.txt
+bidule.egg-info/top_level.txt
