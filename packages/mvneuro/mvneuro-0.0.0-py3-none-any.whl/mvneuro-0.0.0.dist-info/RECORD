@@ -1,0 +1,8 @@
+mvneuro/__init__.py,sha256=1_J_uJEDfbF_BNwIrqEjy3sojyi00GK7dj_8gEyGHio,62
+mvneuro/base.py,sha256=RzEe_eG-ls7YGhmLsVumgfyK1W9or6i0OjRkEKz9Enc,5230
+mvneuro/multiviewica.py,sha256=OmyOTYYm233sVXvYPN-Qem7-6gCZOEvlVRWBB6iofxM,2476
+mvneuro-0.0.0.dist-info/LICENSE,sha256=yKkM1lZb1jfM1QzKIcZ2J7s-C1V3iVwl9PhZs_PLdMA,1519
+mvneuro-0.0.0.dist-info/METADATA,sha256=1vjYekEsL-QgSpC2W6QqasOnrK9xLpUqbQ5cE9ItpPk,278
+mvneuro-0.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mvneuro-0.0.0.dist-info/top_level.txt,sha256=JF233bkNLtDhpKgNYI8DSOQX8vRg-Wg9eomBwdgMcMo,8
+mvneuro-0.0.0.dist-info/RECORD,,
