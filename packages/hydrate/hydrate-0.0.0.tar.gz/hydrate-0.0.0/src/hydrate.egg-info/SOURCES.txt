@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+package.yml
+setup.py
+src/hydrate/__init__.py
+src/hydrate.egg-info/PKG-INFO
+src/hydrate.egg-info/SOURCES.txt
+src/hydrate.egg-info/dependency_links.txt
+src/hydrate.egg-info/top_level.txt
+src/hydrate.egg-info/zip-safe
