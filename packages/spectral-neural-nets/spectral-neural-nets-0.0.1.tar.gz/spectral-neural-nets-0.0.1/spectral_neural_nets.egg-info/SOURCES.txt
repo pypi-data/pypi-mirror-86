@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+spectral_neural_nets/__init__.py
+spectral_neural_nets.egg-info/PKG-INFO
+spectral_neural_nets.egg-info/SOURCES.txt
+spectral_neural_nets.egg-info/dependency_links.txt
+spectral_neural_nets.egg-info/top_level.txt
