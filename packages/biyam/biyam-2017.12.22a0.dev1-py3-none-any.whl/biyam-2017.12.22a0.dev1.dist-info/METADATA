@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: biyam
+Version: 2017.12.22a0.dev1
+Summary: Blockly w/ Python on Jupyter Notebook
+Home-page: https://github.com/gwangyi/biyam
+Author: Sungkwang Lee
+Author-email: gwangyi.kr@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: jupyter
+
+UNKNOWN
+
+
