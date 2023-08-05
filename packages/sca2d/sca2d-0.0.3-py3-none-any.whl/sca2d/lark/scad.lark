@@ -1,0 +1,139 @@
+start: _code_block
+_code_block: _terminated_statement+
+
+_terminated_statement: variable_assignment
+                     | _use_inc_statement
+                     | _flow_control
+                     | module_call
+                     | _defintion
+                     | pointless_scoped_block
+                     | pointless_termination
+
+pointless_termination: TERMINATION
+pointless_scoped_block: _scoped_block
+
+_defintion: (module_def|function_def)
+module_def: "module" _module
+
+function_def: "function" function_header "=" function_scope TERMINATION
+function_call: function_header
+function_header: _call_header
+function_scope: _expr
+
+_module_control_or_scope: (_flow_control|module_call|_scoped_block)
+module_call: _module
+_module: module_header (module_scope|TERMINATION)
+module_scope: _module_control_or_scope
+module_header: _call_header
+
+_flow_control: (if|for|intersection_for|let)
+control_scope: _module_control_or_scope
+_c_scope_or_term: (control_scope|TERMINATION)
+
+if: "if" "(" condition ")" _c_scope_or_term [else _c_scope_or_term]
+else: "else" -> else
+for: "for" "(" control_assignment_list ")" _c_scope_or_term
+intersection_for: "intersection_for" "(" control_assignment_list ")" _c_scope_or_term
+let: "let" "(" control_assignment_list ")" _c_scope_or_term
+
+_assignment: assigned_var "=" _expr
+variable_assignment: _assignment TERMINATION
+kwarg: _assignment
+control_assignment: _assignment
+control_assignment_list: control_assignment ("," control_assignment)*
+
+_scoped_block: "{" [_code_block] "}"
+
+
+//anything that acts like an element and hence can be indexed
+_meta_element: _element
+             | parenth_expr
+             | indexed_expr
+
+_atomic_expr: _meta_element
+            | signed_expr
+            | not_expr
+
+_atom_arith_expr: _atomic_expr
+                | arithmetic_operation
+
+_atom_arith_tern_expr: _atom_arith_expr
+                     | ternary
+
+_atom_arith_tern_rel_expr: _atom_arith_tern_expr
+                    | relational_operation
+
+_expr: | _atom_arith_tern_rel_expr
+       | logical_operation
+
+_element: number
+        | built_in_var
+        | variable
+        | function_call
+        | list
+        | string
+        | iterator
+
+parenth_expr: "(" _expr ")"
+indexed_expr: _meta_element "[" index "]"
+not_expr: "!" _atomic_expr
+index: _expr
+
+signed_expr: sign _atomic_expr
+sign: "+"  -> plus
+    | "-"  -> minus
+
+arithmetic_operation: _atomic_expr (arithmetic_operator _atomic_expr)+
+ternary: condition "?" _atom_arith_tern_expr ":" _atom_arith_tern_expr
+relational_operation: _atom_arith_tern_expr (relational_operator _atom_arith_tern_expr)+
+logical_operation: _atom_arith_tern_rel_expr (logical_operator _atom_arith_tern_rel_expr)+
+
+condition: _expr
+
+built_in_var: "true" -> true
+            | "false" -> false
+            | "undef" -> undef
+
+assigned_var: VARIABLE
+variable: VARIABLE
+number: NUMBER
+string: ESCAPED_STRING
+list: "[" [_expr ("," _expr)*] "]"
+iterator: "[" _expr (":" _expr)~1..2 "]"
+
+
+VARIABLE: /[a-zA-Z_$][a-zA-Z0-9_]*/
+CALL_NAME: /[a-zA-Z_][a-zA-Z0-9_]*/ 
+name: CALL_NAME
+_call_header: name "(" [arg ("," arg)*] ")"
+arg: _expr | kwarg
+
+arithmetic_operator: "+"  -> plus
+                   | "-"  -> minus
+                   | "*"  -> multiply
+                   | "/"  -> divide
+                   | "%"  -> modulo
+
+relational_operator: "<"   -> less_than
+                   | "<="  -> less_eq
+                   | "=="  -> equal
+                   | "!="  -> not_equal
+                   | ">="  -> great_eq
+                   | ">"   -> greater_than
+
+logical_operator: "&&" -> logical_and
+                | "||" -> logical_or
+
+_use_inc_statement: (use_statement|include_statement)
+use_statement: "use" "<" FILENAME ">"
+include_statement: "include" "<" FILENAME ">"
+FILENAME: /[^>;\n]+/
+TERMINATION: ";"
+%import common.ESCAPED_STRING
+%import common.NUMBER
+%import common.ESCAPED_STRING
+%import common.WS
+COMMENT: /\/\/[^\n]*/
+       | /\/\*.*?(\*\/)/s
+%ignore COMMENT
+%ignore WS

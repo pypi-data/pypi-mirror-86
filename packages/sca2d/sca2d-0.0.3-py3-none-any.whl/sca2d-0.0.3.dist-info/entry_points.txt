@@ -1,0 +1,3 @@
+[console_scripts]
+sca2d = sca2d.__main__:main
+
