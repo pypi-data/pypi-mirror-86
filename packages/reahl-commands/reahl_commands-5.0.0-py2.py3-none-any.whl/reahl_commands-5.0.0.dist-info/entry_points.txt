@@ -1,0 +1,39 @@
+[reahl.component.commands]
+BackupAllDB = reahl.commands.prodshell:BackupAllDB
+BackupDB = reahl.commands.prodshell:BackupDB
+CheckConfig = reahl.commands.prodshell:CheckConfig
+ComponentInfo = reahl.commands.prodshell:ComponentInfo
+CreateDB = reahl.commands.prodshell:CreateDB
+CreateDBTables = reahl.commands.prodshell:CreateDBTables
+CreateDBUser = reahl.commands.prodshell:CreateDBUser
+DiffDB = reahl.commands.prodshell:DiffDB
+DropDB = reahl.commands.prodshell:DropDB
+DropDBTables = reahl.commands.prodshell:DropDBTables
+DropDBUser = reahl.commands.prodshell:DropDBUser
+ExportStaticFiles = reahl.commands.prodshell:ExportStaticFiles
+ListConfig = reahl.commands.prodshell:ListConfig
+ListDependencies = reahl.commands.prodshell:ListDependencies
+ListVersionHistory = reahl.commands.prodshell:ListVersionHistory
+MigrateDB = reahl.commands.prodshell:MigrateDB
+RestoreAllDB = reahl.commands.prodshell:RestoreAllDB
+RestoreDB = reahl.commands.prodshell:RestoreDB
+RunJobs = reahl.commands.prodshell:RunJobs
+SizeDB = reahl.commands.prodshell:SizeDB
+
+[reahl.eggs]
+Egg = reahl.component.eggs:ReahlEgg
+
+[reahl.migratelist.4.0]
+0 = reahl.commands.migrations:ReahlCommandsReahlSchemaInitialise
+
+[reahl.versiondeps.4.0]
+reahl-component = egg:4.0
+six = thirdpartyegg:_
+
+[reahl.versiondeps.5.0]
+reahl-component = egg:5.0
+
+[reahl.versions]
+4.0 = 4.0
+5.0 = 5.0
+
