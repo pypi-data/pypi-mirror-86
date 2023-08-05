@@ -1,0 +1,15 @@
+pyxelext/__init__.py,sha256=9FpeMHhuAi9KHe1koOfqhOr6t0aN5A-_DQih9nIt_oI,18
+pyxelext/input.py,sha256=n-GQHZvTD-9M1VaEg1cyPVtd3YKsGYM3otTmAsxoXwg,440
+pyxelext/line.py,sha256=dYswDmPBmjUimOHroDVWuJIG3cWSJv34UnZf5WSPGlY,1368
+pyxelext/text.py,sha256=Il3LbqyFOlFXzz3UXpkYCEU89CZrWhrxSdldPCva0RQ,1664
+pyxelext/examples/1_draw_aline.py,sha256=qVGuvqPf9M3lPLBp9sJz4ZMaRKR8ca7sGOzTXAAN7nA,504
+pyxelext/examples/2_length_line.py,sha256=-s8ZW3__GeOCBA3wwZLV-DNQIalAE3OoYUWz8XUSOjo,484
+pyxelext/examples/3_poly.py,sha256=CtDgN1_6f9gacv5o2dluXdgEMPAxY-j9paPnVcA5E0w,328
+pyxelext/examples/4_getkey.py,sha256=eu1jgSxOoJnnmdunQHhkW9pYEoWVcppH0LVlMc-VbhY,304
+pyxelext/examples/5_text.py,sha256=_YQeDAR2xarUZH21o-Dks7M9bMFY5bqRG0DtxKIWw2c,480
+pyxelext/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyxelext-1.4.3.dist-info/LICENSE,sha256=aCd0RxQYvube7bH80q68Shrgf6Kdf8Jzexkd5k9t350,1069
+pyxelext-1.4.3.dist-info/METADATA,sha256=mKG4_LQYXsHBiD5XSpXLGDRa3L9DU5MvVwz9bjhtMFM,203
+pyxelext-1.4.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyxelext-1.4.3.dist-info/top_level.txt,sha256=Y_wDV-lhhPQ73wOmY_3krGAAtIH4VulbDKgmtK2VUW8,9
+pyxelext-1.4.3.dist-info/RECORD,,
