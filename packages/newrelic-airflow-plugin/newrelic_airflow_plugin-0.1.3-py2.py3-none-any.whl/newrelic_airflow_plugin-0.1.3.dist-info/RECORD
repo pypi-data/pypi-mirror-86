@@ -1,0 +1,10 @@
+newrelic_airflow_plugin/__init__.py,sha256=tEgJcUHpiO9aJQpYk5tUMITrUmgVJMdc1xict0PzsKc,725
+newrelic_airflow_plugin/newrelic_plugin.py,sha256=lS5B51aBsHw3ESkDbL1Mk8i6s2BuIFxzpvHlYjIc3l0,4187
+newrelic_airflow_plugin/version.py,sha256=PDJq_hJxjF5zfAXENW4KKywz2xUik72KzDBfGyDUYfE,116
+newrelic_airflow_plugin-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+newrelic_airflow_plugin-0.1.3.dist-info/METADATA,sha256=E6Pqq8yxpDxWeljRQ081jjfJn6rbBcvfdbbIBWcZWeo,2985
+newrelic_airflow_plugin-0.1.3.dist-info/THIRD_PARTY_NOTICES.rst,sha256=PdA_uIfsPl9n7KgNeOC5U37-GhmSBw4kvycRwDfO7uA,625
+newrelic_airflow_plugin-0.1.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+newrelic_airflow_plugin-0.1.3.dist-info/entry_points.txt,sha256=oRgGOzwaiBQd_0bjukcAkg9ssafi29wg1wJEW0TDAHQ,97
+newrelic_airflow_plugin-0.1.3.dist-info/top_level.txt,sha256=WAs2d-tsiELazcmGaclahEIte2S6nOxTaQSBg-4ivlY,24
+newrelic_airflow_plugin-0.1.3.dist-info/RECORD,,
