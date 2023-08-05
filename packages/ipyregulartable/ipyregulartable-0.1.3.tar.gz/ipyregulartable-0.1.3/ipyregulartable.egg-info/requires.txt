@@ -1,0 +1,15 @@
+ipywidgets>=7.5.1
+numpy
+pandas>=0.22
+
+[dev]
+ipywidgets>=7.5.1
+numpy
+pandas>=0.22
+pytest
+pytest-cov
+pylint
+flake8
+bump2version
+autopep8
+mock
