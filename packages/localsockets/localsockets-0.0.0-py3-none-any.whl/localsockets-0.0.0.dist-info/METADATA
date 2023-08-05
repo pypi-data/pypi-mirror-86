@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: localsockets
+Version: 0.0.0
+Summary: A python package to help transfer data between programs. 
+Home-page: https://pypi.org/project/localsockets
+Author: Sandra Mattar
+Author-email: sandrawmattar1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: watchdog
+
+<h2>This python package is designed to transfer binary data between Python scripts easily. 
+This package uses a filesystem server to store data even when your program is closed 
+and is not limited to RAM storage, but instead, your Hard Drive storage. </h2>
+<br />
+<br />
+<h3>Basic Usage: </h3>
+<br />
+Script 1:
+<br />
+<pre>
+    import localsockets
+    s = localsockets.socket()
+    id = s.id
+    # send s.id to the other script
+    # wait until other script connects
+    while not s.connected():
+        pass
+    # Now something has connected to our server. 
+    s.send(b'hello') # send some data
+    # servers can also receive data
+    s.opend() # False
+    s.connected() # False
+    s.open() # reopen the server. Now you can reconnect. 
+</pre>
+<br />
+Script 2
+<pre>
+    import localsockets
+    id = # your received id
+    s = localsockets.socket(id)
+    s.connected() # True
+    s.recv(1024) # receive up to 1024 bytes of data; returns b'hello'
+    # connections can also send data
+    s.close() # disconnect
+    s.opened() # False
+    s.connected() # False
+</pre>
+<br />
+Saving servers to a custom directory: 
+<br />
+<pre>
+    import localsockets
+    localsockets.SERVER_DIR = "&lt; Your new directory &gt; "
+</pre>
+
