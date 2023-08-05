@@ -1,0 +1,92 @@
+[reahl.component.commands]
+CreateConfig = reahl.webdev.commands:CreateConfig
+ServeCurrentProject = reahl.webdev.commands:ServeCurrentProject
+SyncFiles = reahl.webdev.commands:SyncFiles
+
+[reahl.eggs]
+Egg = reahl.component.eggs:ReahlEgg
+
+[reahl.versiondeps.2.0]
+WebTest = thirdpartyegg:1.4 [1.5]
+lxml = thirdpartyegg:3.2
+reahl-component = egg:2.0
+reahl-dev = egg:2.0
+reahl-tofu = egg:2.0
+reahl-web = egg:2.0
+selenium = thirdpartyegg:2.25 [2.27]
+
+[reahl.versiondeps.2.1]
+WebTest = thirdpartyegg:1.4 [1.5]
+lxml = thirdpartyegg:3.2
+reahl-component = egg:2.1
+reahl-dev = egg:2.1
+reahl-tofu = egg:2.1
+reahl-web = egg:2.1
+selenium = thirdpartyegg:2.25 [2.27]
+
+[reahl.versiondeps.3.0]
+WebTest = thirdpartyegg:2.0 [2.0.999]
+lxml = thirdpartyegg:3.3 [3.3.999]
+reahl-component = egg:3.0
+reahl-dev = egg:3.0
+reahl-tofu = egg:3.0
+reahl-web = egg:3.0
+selenium = thirdpartyegg:2.42 [2.42.999]
+
+[reahl.versiondeps.3.1]
+WebTest = thirdpartyegg:2.0 [2.0.999]
+lxml = thirdpartyegg:3.3 [3.3.999]
+reahl-component = egg:3.1
+reahl-dev = egg:3.1
+reahl-domain = egg:3.1
+reahl-tofu = egg:3.1
+reahl-web = egg:3.1
+selenium = thirdpartyegg:2.42 [2.42.999]
+
+[reahl.versiondeps.3.2]
+WebTest = thirdpartyegg:2.0 [2.0.999]
+lxml = thirdpartyegg:3.3 [3.3.999]
+reahl-component = egg:3.2
+reahl-dev = egg:3.2
+reahl-domain = egg:3.2
+reahl-tofu = egg:3.2
+reahl-web = egg:3.2
+selenium = thirdpartyegg:2.42 [2.9999]
+watchdog = thirdpartyegg:0.8.3 [0.8.999.3]
+
+[reahl.versiondeps.4.0]
+WebTest = thirdpartyegg:2.0 [2.0.999]
+lxml = thirdpartyegg:4.2 [4.2.999]
+reahl-component = egg:4.0
+reahl-dev = egg:4.0
+reahl-domain = egg:4.0
+reahl-tofu = egg:4.0
+reahl-web = egg:4.0
+selenium = thirdpartyegg:2.42 [2.9999]
+setuptools = thirdpartyegg:32.3.1
+watchdog = thirdpartyegg:0.8.3 [0.8.999.3]
+webob = thirdpartyegg:1.4 [1.4.999]
+
+[reahl.versiondeps.5.0]
+WebOb = thirdpartyegg:1.8 [1.8.999]
+WebTest = thirdpartyegg:2.0 [2.0.999]
+lxml = thirdpartyegg:4.2 [4.5.999]
+prompt_toolkit = thirdpartyegg:2.0.10 [2.0.999]
+reahl-component = egg:5.0
+reahl-dev = egg:5.0
+reahl-domain = egg:5.0
+reahl-tofu = egg:5.0
+reahl-web = egg:5.0
+selenium = thirdpartyegg:2.42 [3.141.9999]
+setuptools = thirdpartyegg:32.3.1
+watchdog = thirdpartyegg:0.8.3 [0.10.999]
+
+[reahl.versions]
+2.0 = 2.0
+2.1 = 2.1
+3.0 = 3.0
+3.1 = 3.1
+3.2 = 3.2
+4.0 = 4.0
+5.0 = 5.0
+

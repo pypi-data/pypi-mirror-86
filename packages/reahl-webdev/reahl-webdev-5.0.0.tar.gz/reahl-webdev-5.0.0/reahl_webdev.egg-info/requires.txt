@@ -1,0 +1,15 @@
+reahl-web<5.1,>=5.0
+reahl-dev<5.1,>=5.0
+reahl-component<5.1,>=5.0
+reahl-tofu<5.1,>=5.0
+reahl-domain<5.1,>=5.0
+lxml<4.5.999,>=4.2
+WebTest<2.0.999,>=2.0
+selenium<3.141.9999,>=2.42
+watchdog<0.10.999,>=0.8.3
+setuptools>=32.3.1
+WebOb<1.8.999,>=1.8
+prompt_toolkit<2.0.999,>=2.0.10
+
+[pillow]
+Pillow<7.1.999,>=2.5
