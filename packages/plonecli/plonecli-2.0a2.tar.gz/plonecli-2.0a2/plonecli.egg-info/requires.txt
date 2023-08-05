@@ -1,0 +1,14 @@
+setuptools
+virtualenv
+Click>=7.0
+mr.bob
+zest.releaser
+bobtemplates.plone>=5.2.0
+
+[dev]
+tox
+zest.releaser[recommended]
+
+[test]
+pytest
+isort>=5.0.0
