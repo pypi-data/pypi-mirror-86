@@ -1,0 +1,10 @@
+auto_face_recognition/__init__.py,sha256=565vEwTmEvXeh6Z5x7YyIFyDr_ZuZjrclopfh5Wim1U,5723
+auto_face_recognition/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_face_recognition/features/face_recognition/dataset_create.py,sha256=f0yqsAREb3l4HaPSLpi1I2pbQDzyFUmYePH3m7uVGiU,3825
+auto_face_recognition/features/face_recognition/predict.py,sha256=7h7MgltXvnsCioDJZvWa-zyxTKUpgGqIOLwHd-g1XtQ,3225
+auto_face_recognition/features/face_recognition/train.py,sha256=VLzPgYOmEmxVWKbrO-dWZyTST1o2tQ9yRH_CfvBdlm4,7140
+auto_face_recognition-0.0.3.dist-info/License.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+auto_face_recognition-0.0.3.dist-info/METADATA,sha256=BcLs_9UZ_7sg2EROKflN5JyPSBavmN0PtoW-xtg75v4,5815
+auto_face_recognition-0.0.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+auto_face_recognition-0.0.3.dist-info/top_level.txt,sha256=2C1tB_aSlJ0GLXVMBLFkblQFUF84yvEDlV5S83bYDEE,22
+auto_face_recognition-0.0.3.dist-info/RECORD,,
