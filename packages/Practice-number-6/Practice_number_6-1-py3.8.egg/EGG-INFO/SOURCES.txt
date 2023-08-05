@@ -1,0 +1,10 @@
+README.txt
+setup.py
+Practice_number_6.egg-info/PKG-INFO
+Practice_number_6.egg-info/SOURCES.txt
+Practice_number_6.egg-info/dependency_links.txt
+Practice_number_6.egg-info/not-zip-safe
+Practice_number_6.egg-info/top_level.txt
+package/__init__.py
+package/__main__.py
+package/func1.py
