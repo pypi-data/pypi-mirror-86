@@ -1,0 +1,7 @@
+README.md
+setup.py
+LaTexShortcuts/__init__.py
+LaTex_Shortcuts.egg-info/PKG-INFO
+LaTex_Shortcuts.egg-info/SOURCES.txt
+LaTex_Shortcuts.egg-info/dependency_links.txt
+LaTex_Shortcuts.egg-info/top_level.txt
