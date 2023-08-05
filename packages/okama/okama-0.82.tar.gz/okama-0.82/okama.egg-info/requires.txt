@@ -1,0 +1,9 @@
+pytest
+pandas
+requests
+numpy
+scipy
+psycopg2
+urllib3
+matplotlib
+setuptools
