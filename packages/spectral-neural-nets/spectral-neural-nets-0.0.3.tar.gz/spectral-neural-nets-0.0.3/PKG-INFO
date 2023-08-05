@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spectral-neural-nets
+Version: 0.0.3
+Summary: spectral_neural_nets
+Home-page: https://github.com/lukewood/spectral-neural-nets
+Author: Luke Wood
+Author-email: lukewoodcs@gmail.com
+License: UNKNOWN
+Description: # Parametric-Spectral-Convolution
+        
+        ## Colab Notebooks
+        - [Cats vs Dogs Benchmark](https://colab.research.google.com/github/lukewood/spectral-neural-nets/blob/master/notebooks/Cats-vs-Dogs-Benchmark.ipynb)
+        - [Filter Visualization](https://colab.research.google.com/github/lukewood/spectral-neural-nets/blob/master/notebooks/Filter-Visualizations.ipynb)
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
