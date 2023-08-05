@@ -1,0 +1,4 @@
+[console_scripts]
+fwrlm = imteksimfw.fireworks.scripts.fwrlm_run:main
+render = imteksimfw.fireworks.scripts.render_run:main
+
