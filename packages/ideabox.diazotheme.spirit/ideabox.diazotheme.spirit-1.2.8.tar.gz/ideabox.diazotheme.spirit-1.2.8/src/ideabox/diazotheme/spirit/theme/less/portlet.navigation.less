@@ -1,0 +1,66 @@
+.portletNavigationTree {
+	border-radius: 0;
+	border       : none;
+	box-shadow   : none;
+
+	nav.portletContent {
+		ul.navTreeLevel0 {
+			li {
+				margin-top: 0.2rem;
+
+				a {
+					background-color: @ideabox-menu-bg;
+					font-size       : 1.6rem;
+					padding         : 1.6rem;
+					color           : #000;
+					border-top      : none;
+
+					img,
+					&::before,
+					&::after {
+						display: none;
+					}
+
+					&:focus,
+					&:active,
+					&:hover {
+						color: @spirit-pink;
+					}
+				}
+			}
+
+			li.navTreeTopNode div,
+			&>li:first-child {
+				margin-top: 0;
+
+				&>a {
+					background-color: @spirit-pink;
+					color           : @color-light  !important;
+					text-transform  : uppercase;
+
+					&:focus,
+					&:active,
+					&:hover {
+						color: @color-dark;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	#sidebar .portletNavigationTree {
+		a {
+			padding: 1rem;
+		}
+	}
+}
+
+.portlet .portletHeader>a {
+	color: @spirit-pink;
+}
+
+.portlet .portletContent>ul>li a {
+	color: @spirit-pink;
+}

@@ -1,0 +1,502 @@
+//DESKTOP
+
+[id="submenu-details"] {
+    position  : absolute;
+    background: @ideabox-menu-bg;
+    border-top: 0.5em solid @spirit-pink;
+    width     : 80%;
+    left      : 10%;
+    height    : auto !important;
+    z-index   : 1;
+
+    .submenuDynamicItems {
+        padding   : 0;
+        list-style: none;
+        display   : flex;
+        flex-wrap : wrap;
+
+        li {
+            width: 25%;
+
+            a {
+                color      : @color-dark;
+                font-size  : 16px;
+                font-weight: 400;
+                display    : inline-block;
+                padding    : 1rem 2rem;
+
+                &:hover {
+                    color: @spirit-pink;
+                }
+            }
+        }
+    }
+}
+
+[id="mainnavigation-wrapper"] {
+    position : absolute;
+    top      : 50%;
+    width    : 100%;
+    transform: translateY(-50%);
+    display  : inline-block;
+    z-index  : 2;
+    right    : 0;
+
+    #portal-globalnav-wrapper {
+        background-color: transparent;
+        box-shadow      : none;
+        min-height      : auto;
+        margin-bottom   : 0;
+
+        .container {
+            padding: 0;
+            width  : auto;
+
+            #portal-globalnav-collapse {
+                padding: 0;
+                width  : 80%;
+                margin : 0 auto;
+
+                #portal-globalnav {
+                    margin         : 0;
+                    width          : 100%;
+                    display        : flex;
+                    justify-content: center;
+                    align-items    : stretch;
+
+                    &>li>a {
+                        display: inline-block;
+
+                        &::before {
+                            content            : " ";
+                            background-image   : url("../images/infos.png");
+                            margin-right       : 1rem;
+                            width              : 7rem;
+                            height             : 7rem;
+                            min-width          : 7rem;
+                            min-height         : 7rem;
+                            background-repeat  : no-repeat;
+                            background-position: center;
+                            background-size    : contain;
+                            background-color   : @spirit-pink;
+                            border             : 15px solid @spirit-pink;
+                            display            : block;
+                            float              : left;
+                        }
+                    }
+
+                    &>li {
+                        background-color: rgba(0, 0, 0, 0.8);
+                        font-family     : @ideabox-font-primary;
+                        font-size       : 2rem;
+                        line-height     : 2.4rem;
+                        padding         : 3rem 1rem;
+                        text-transform  : uppercase;
+                        width           : 33%;
+                        position        : relative;
+
+                        &>a {
+                            font-size  : 1.6rem;
+                            line-height: 2.4rem;
+                            height     : 100%;
+                            width      : 100%;
+                            padding    : 10px;
+
+                            &:hover,
+                            &:focus,
+                            &:active {
+                                background-color: @spirit-pink;
+                            }
+                        }
+
+
+                        &:nth-child(2) {
+                            padding-left: 30px;
+                        }
+
+                        &:last-child {
+                            padding-right: 30px;
+                        }
+
+                        &:nth-child(2)>a::before {
+                            background-image: url("../images/icon1.png");
+                        }
+
+                        &:nth-child(3)>a::before {
+                            background-image: url("../images/icon2.png");
+                        }
+
+                        &:nth-child(5)>a::before {
+                            background-image: url("../images/icon4.png");
+                        }
+
+                        &:hover,
+                        &:active,
+                        &:focus {
+                            &>a {
+                                background-color: @spirit-pink;
+                            }
+                        }
+
+                        label,
+                        input {
+                            display: none;
+                        }
+
+                        .dropdown {
+                            display   : none;
+                            position  : absolute;
+                            list-style: none;
+                            padding   : 0 3rem;
+                            width     : 100%;
+                            left      : 0;
+                            top       : 100%;
+
+                            li {
+                                background-color: rgba(0, 0, 0, 0.8);
+                                width           : 100%;
+                                padding         : 0;
+
+                                a {
+                                    font-family   : @ideabox-font-secondary;
+                                    font-size     : 1.8rem;
+                                    text-transform: none;
+                                    display       : inline-block;
+                                    width         : 100%;
+                                    padding       : 1.5rem 2rem;
+                                    color         : @color-light;
+                                    text-transform: uppercase;
+
+                                    &:hover,
+                                    &:focus,
+                                    a:active {
+                                        color           : @spirit-pink  !important;
+                                        background-color: transparent;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:nth-child(4) {
+
+                            .dropdown li a {
+
+                                &:hover,
+                                &:focus,
+                                a:active {
+                                    color           : #f48f00 !important;
+                                    background-color: transparent;
+                                }
+                            }
+
+                            &:hover,
+                            &:active,
+                            &:focus {
+                                &>a {
+                                    background-color: #f48f00;
+                                }
+                            }
+
+                            &>a {
+
+                                &:hover,
+                                &:focus,
+                                &:active {
+                                    background-color: #f48f00;
+                                }
+
+                                &::before {
+                                    background-image: url("../images/icon3.png");
+                                    background-color: #f48f00;
+                                    border          : 15px solid #f48f00;
+                                }
+                            }
+
+                            &:hover,
+                            &:focus {
+                                .dropdown {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+
+                    .index_html {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#display_menu_button,
+#display_menu_label {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+
+    [id="mainnavigation-wrapper"] {
+        margin-top: 2rem;
+
+        #portal-globalnav-wrapper .container #portal-globalnav-collapse {
+            #portal-globalnav {
+
+                &>li {
+                    padding: 1rem;
+
+                    &>a {
+                        display        : flex;
+                        flex-direction : column;
+                        justify-content: start;
+                        align-items    : center;
+                        text-align     : center;
+
+                        &::before {
+                            margin-right : 0;
+                            margin-bottom: 1rem;
+                            float        : none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+
+    [id="mainnavigation-wrapper"] {
+        margin-top: 5rem;
+
+        #portal-globalnav-wrapper .container #portal-globalnav-collapse {
+            #portal-globalnav {
+
+                &>li {
+
+                    &>a {
+                        padding  : 0.5rem;
+                        font-size: 1.8rem;
+                    }
+
+                    ul {
+                        padding: 0 0.5rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//MOBILE
+@media (max-width: 767px) {
+    [id="content-header"] {
+        margin-bottom: 8rem;
+    }
+
+    #mainnavigation-wrapper {
+        top       : 100%;
+        padding   : 0;
+        position  : absolute;
+        z-index   : 2;
+        transform : none;
+        margin-top: 0;
+
+        #mainnavigation {
+            display         : none;
+            background-color: @color-light;
+
+            .plone-navbar-header {
+                display: none;
+            }
+
+            #portal-globalnav-collapse #portal-globalnav {
+                padding       : 0;
+                margin        : 0 !;
+                flex-direction: column;
+                box-shadow    : 0 1px 3px rgba(0, 0, 0, 0.2);
+
+                li {
+                    border-bottom: 1px solid #f2f2f2;
+                    width        : 100%;
+                    padding      : 0;
+
+                    a {
+                        color           : @color-dark;
+                        background-color: @color-light;
+                        margin-right    : 0;
+                        width           : 100%;
+                        flex-direction  : row;
+                        justify-content : start;
+                        align-items     : start;
+                        text-align      : left;
+
+                        &:hover,
+                        &:active,
+                        &:focus {
+                            color           : @color-light;
+                            background-color: @spirit-pink;
+
+                            span {
+                                color: @color-light;
+                            }
+                        }
+
+                        &::before,
+                        &::after {
+                            width        : 5rem;
+                            height       : 5rem;
+                            min-width    : 5rem;
+                            min-height   : 5rem;
+                            margin-right : 1rem;
+                            margin-bottom: 0;
+                        }
+
+                        span {
+                            font-size: 1.6rem;
+                            padding  : 0.5rem 1rem;
+
+                            &::before {
+                                content     : "\b848";
+                                font-family : "fontello";
+                                margin-right: 1rem;
+                            }
+
+                            &::after {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    &.has_subtree {
+                        display  : flex;
+                        flex-wrap: wrap;
+
+                        a {
+                            width: calc(100% - 5rem);
+                        }
+
+                        ul.dropdown {
+                            display: none;
+                            padding: 0 !important;
+                        }
+
+                        label {
+                            display         : flex;
+                            width           : 5rem;
+                            margin          : 0;
+                            background-color: @color-light;
+                            border-left     : 1px solid rgba(215, 0, 78, 0.2);
+                            align-items     : center;
+                            justify-content : center;
+
+                            &::before {
+                                font-weight: 900;
+                                font-family: "Font Awesome 5 Free";
+                                content    : "\f078";
+                                color      : @spirit-pink;
+                                font-size  : 3rem;
+                                transform  : rotate(180deg);
+                                transition : transform 0.5s;
+                            }
+                        }
+
+                        input[type=checkbox]:checked+label {
+                            &::before {
+                                transform: rotate(0deg);
+                            }
+                        }
+
+                        input[type=checkbox]:not(:checked)+label+ul.dropdown {
+                            display : block;
+                            position: relative;
+                            width   : 100%;
+                            padding : 0;
+
+                            li {
+                                background-color: @color-light;
+                                width           : 100%;
+                                border-top      : 1px solid #f2f2f2;
+
+                                a {
+                                    width         : 100%;
+                                    padding-left  : 7.5rem;
+                                    text-transform: none;
+
+                                    &:active,
+                                    &:hover,
+                                    &:focus {
+                                        color           : @color-light  !important;
+                                        background-color: @spirit-pink;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &:nth-child(4) {
+
+                        .has_subtree li a,
+                        a {
+
+                            &:hover,
+                            &:active,
+                            &:focus {
+                                background-color: #f48f00 !important;
+                            }
+                        }
+
+                        label::before {
+                            color: #f48f00 !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        #display_menu_button {
+            display: none;
+
+            &:checked {
+                &+label+#mainnavigation {
+                    display: block;
+
+                    #portal-globalnav-collapse {
+                        display: block;
+                        margin : 0;
+                        width  : 100%;
+                    }
+                }
+            }
+        }
+
+        #display_menu_label {
+            display         : block;
+            background-color: @color-dark;
+            color           : @color-light;
+            margin          : 0;
+            padding         : 1rem 2rem 1rem 1rem;
+
+            &::before {
+                content     : "\f0c9";
+                font-family : "Font Awesome 5 Free";
+                font-weight : 900;
+                margin-right: 1rem;
+            }
+        }
+
+        #submenu-details {
+            width: 100%;
+            left : 0;
+
+            li {
+                a {
+                    width       : 100%;
+                    font-size   : 1.4rem;
+                    padding-left: 3rem;
+                }
+            }
+        }
+    }
+}

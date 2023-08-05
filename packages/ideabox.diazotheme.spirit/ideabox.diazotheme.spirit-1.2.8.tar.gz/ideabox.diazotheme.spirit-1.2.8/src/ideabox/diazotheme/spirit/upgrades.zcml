@@ -1,0 +1,21 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+  <genericsetup:upgradeStep
+    source="*"
+    destination="1001"
+    title="Add portal action for informations"
+    profile="ideabox.diazotheme.spirit:default"
+    handler=".upgrades.to_1001"
+    />
+
+  <genericsetup:upgradeStep
+    source="*"
+    destination="1008"
+    title="Reload registry resources"
+    profile="ideabox.diazotheme.spirit:default"
+    handler=".upgrades.reload_registry"
+    />
+
+</configure>

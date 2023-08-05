@@ -1,0 +1,461 @@
+//GENERAL
+header {
+    &>.container {
+        background: @spirit-header-bg;
+        padding   : 0;
+        width     : 100% !important;
+        display   : flex;
+    }
+}
+
+[id="portal-header"] {
+    position: relative;
+    width   : 100%;
+    order   : 1;
+}
+
+[id="content-header"] {
+    position: relative;
+}
+
+//LOGO
+#portal-logo {
+    display   : inline-block;
+    box-shadow: 1px 4px 7px #bcbcbc;
+    height    : 150px;
+    width     : 150px;
+    position  : absolute;
+    margin    : -1.5em 0 0 3em;
+    background: #fff;
+    text-align: center;
+    z-index   : 2;
+
+    img {
+        max-width : 100%;
+        max-height: 100%;
+    }
+}
+
+//SITE ACTION
+#portal-anontools {
+    display: none;
+}
+
+#portal-header #portal-anontools {
+    display: block;
+
+    a {
+        color      : @color-light;
+        margin-left: 2rem;
+        color      : @color-light;
+        opacity    : 0.8;
+        font-size  : 14px;
+        font-weight: 700;
+
+        &:focus,
+        &:active,
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+#portal-anontools {
+
+    a {
+        color      : @color-light;
+        margin-left: 2rem;
+        color      : @color-light;
+        opacity    : 0.8;
+        font-size  : 14px;
+        font-weight: 700;
+
+        &:focus,
+        &:active,
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+// MENU USER
+#portal-membertools-wrapper {
+    display: none;
+}
+
+#personaltools-infos {
+    order          : 2;
+    display        : inline-flex;
+    white-space    : nowrap;
+    align-items    : center;
+    justify-content: center;
+    color          : @color-light;
+    opacity        : 0.8;
+    font-size      : 14px;
+    font-weight    : 700;
+
+    &:active,
+    &:focus,
+    &:hover {
+        opacity: 1;
+    }
+}
+
+#anonymous-actions {
+    order: 4;
+}
+
+#portal-user {
+    flex      : 1;
+    text-align: right;
+    font-size : 14px;
+    padding   : 1em;
+    position  : relative;
+    display   : inline-block;
+    order     : 3;
+
+    a {
+        cursor         : pointer;
+        color          : #FFF;
+        text-transform : capitalize;
+        opacity        : 0.8;
+        display        : flex;
+        justify-content: flex-end;
+        align-items    : center;
+        white-space    : nowrap;
+        font-size      : 14px;
+
+        &.button {
+            background-color: transparent;
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            opacity: 1;
+        }
+
+        &.button::after {
+            padding-top: 0.3rem;
+            display    : block;
+            content    : "\f0d7";
+            font-weight: 900;
+            font-family: "Font Awesome 5 Free";
+            margin-left: 0.5rem;
+        }
+
+        &.button.up::after {
+            content: "\f0d8";
+        }
+    }
+
+    #user-menu-actions {
+        display         : none;
+        position        : absolute;
+        background-color: #000;
+        padding         : 1rem 2rem;
+        right           : 0;
+        border-radius   : 8px;
+        font-size       : 14px;
+        text-align      : left;
+        list-style      : none;
+        z-index         : 1;
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+#personaltools-Newsletter-block {
+    order          : 2;
+    display        : inline-flex;
+    white-space    : nowrap;
+    align-items    : center;
+    justify-content: center;
+
+    a {
+        color           : @color-light;
+        background-color: #ca005d;
+        font-size       : 14px;
+        font-weight     : 700;
+        padding         : 0.5rem 1rem;
+        margin-right    : 1rem;
+    }
+}
+
+#personaltools-Newsletter-block+#personaltools-infos {
+    order: 3;
+}
+
+#personaltools-Newsletter-block+#personaltools-infos+#portal-user {
+    order: 4;
+}
+
+//BANNER
+[id="portal-banner"] {
+    background: transparent;
+    padding   : 0;
+    margin    : 0 auto 2em auto;
+
+    .container {
+        width  : 100%;
+        padding: 0;
+    }
+}
+
+body:not(.main-homepage) {
+    .portal-banner .bannerImage {
+        max-height: 50vh;
+        overflow  : hidden;
+
+        img {
+            max-width: none !important;
+            min-width: 100%;
+        }
+    }
+}
+
+//portal-breadcrumbs
+[id="portal-breadcrumbs"] {
+    margin    : 0 8vw;
+    background: #fff;
+    padding   : 0 3rem;
+    font-size : 1.2rem;
+
+    .container {
+        padding: 0;
+    }
+
+    ol>li {
+        line-height: normal;
+        padding    : 0;
+
+        a,
+        span {
+            height  : 18px;
+            overflow: hidden;
+            display : inline-block;
+        }
+
+        &+li {
+            padding: 0 0 0 20px;
+
+            &:before {
+                display: none;
+            }
+
+            &:after {
+                content    : "\b800";
+                position   : absolute;
+                padding    : 0 5px;
+                color      : @spirit-pink;
+                top        : 0;
+                padding    : 0 !important;
+                font-family: fontello;
+                border     : none;
+                left       : 4px;
+            }
+        }
+    }
+
+    ol a {
+        color          : @color-dark;
+        text-decoration: underline;
+    }
+}
+
+//DESKTOP
+@media screen and (min-width: 992px) {
+    [id="portal-header"] {
+        width: 100%;
+    }
+
+    [id="content-header"] {
+        min-height: 50rem;
+    }
+
+    //BANNER
+    [id="portal-banner"] {
+        max-width: 1920px;
+    }
+}
+
+@media (max-width: 992px) {
+    #portal-logo {
+        width : 125px;
+        height: 125px;
+    }
+}
+
+@media (min-width: 768px) {
+    .userrole-anonymous {
+        #portal-user {
+            a.button {
+                display: none;
+            }
+
+            #user-menu-actions {
+                display      : flex !important;
+                position     : relative;
+                margin-bottom: 0;
+                padding      : 0;
+                align-items  : center;
+
+                li {
+                    margin-bottom: 0;
+                    font-weight  : 700;
+
+                    &:not(:first-child) {
+                        margin-left: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//MOBILE
+@media (max-width: 767px) {
+
+    #portal-anontools {
+        display: block;
+    }
+
+    #content-header {
+
+        &>.container {
+            flex-direction: column-reverse;
+            min-height    : 10rem;
+
+            #portal-header {
+                margin  : 0;
+                position: absolute;
+                top     : 0;
+                left    : 0;
+
+                #portal-anontools {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #personaltools-Newsletter-block {
+        justify-content: flex-end;
+    }
+
+    #personaltools-infos {
+        padding        : 1rem 2rem 1rem 12rem;
+        justify-content: flex-end;
+        font-size      : 1.4rem;
+
+        &:empty {
+            display: none;
+        }
+    }
+
+    .userrole-anonymous #portal-user {
+        .button::before {
+            display: none;
+        }
+    }
+
+    #portal-user {
+        padding: 0.5rem 1.5rem 0 12rem;
+
+        #user-menu-actions {
+            position     : relative;
+            margin-bottom: 0;
+            padding      : 0;
+            font-weight  : 700;
+
+            li {
+                margin : 0;
+                padding: 0;
+
+                a {
+                    padding: 1rem 1rem 0.5rem 0;
+                }
+            }
+        }
+
+        a.button {
+            font-size: 2rem;
+
+            &::before {
+                padding-top: 0.3rem;
+                display    : block;
+                content    : "\f007";
+                font-weight: 900;
+                font-family: "Font Awesome 5 Free";
+                margin-left: 0.5rem;
+                font-size  : 2rem;
+            }
+
+            &::after {
+                font-size: 2rem;
+            }
+
+            span {
+                visibility: hidden;
+                width     : 0;
+                height    : 0;
+                overflow  : hidden;
+            }
+        }
+    }
+
+    #search-wrapper {
+        display: none;
+    }
+
+    [id="portal-breadcrumbs"] {
+        display: none;
+    }
+
+    #portal-logo {
+        height     : 100px;
+        width      : 100px;
+        box-shadow : none;
+        position   : absolute;
+        margin     : 0;
+        margin-left: 1rem;
+        z-index    : 3;
+        display    : inline-block;
+    }
+
+    [id="portal-anontools"] {
+        z-index         : 1;
+        display         : block;
+        background-color: @spirit-header-bg;
+        width           : 100%;
+        height          : auto;
+        position        : relative;
+        top             : 0;
+        padding-left    : 11rem;
+
+        &>ul>li {
+            display       : flex;
+            flex-direction: column;
+
+            a {
+                margin : 0;
+                padding: 0.5rem 2rem 0 0 !important;
+            }
+
+            #personaltools-infos {
+                padding-right: 0;
+            }
+        }
+    }
+
+    body:not(.main-homepage) .portal-banner .bannerImage img {
+        max-height: 30vh;
+    }
+
+    .plone-modal-dialog,
+    .plone-modal-content {
+        max-width: 100%;
+    }
+}

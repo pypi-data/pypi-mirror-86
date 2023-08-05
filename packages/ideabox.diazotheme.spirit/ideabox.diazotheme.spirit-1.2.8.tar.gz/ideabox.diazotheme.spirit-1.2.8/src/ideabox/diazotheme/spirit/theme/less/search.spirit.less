@@ -1,0 +1,90 @@
+//DESKTOP
+#search-wrapper {
+position: absolute;
+right: 0;
+top: 150px;
+z-index: 9;
+padding-right: 70px;
+}
+#hidden-search{
+    float: right;
+    margin-top: -1.1em;
+}
+.LSBox #searchGadget{
+    height: 3.5em;
+    border: 1px solid lightgray;
+    padding-left: 1.25em;
+}
+#btn-search{
+    position: absolute;
+    right: 0;
+    display: block;
+    top: 0;
+}
+.btn-search::before {
+    content: "\e81f";
+    font-family: "fontello";
+    font-size: 125%;
+}
+a.btn-search {
+    background: @spirit-pink;
+    color: #fff;
+    padding: 1.5em;
+}
+#searchbox{
+    margin: 0;
+    position: relative;
+    float: none;
+    right: 0;
+    top:-1px;
+}
+.portal-search-hidden,
+.portal-search-hidden .LSBox #searchGadget{
+    width: 0;
+    overflow: hidden;
+}
+.portal-search-visible{
+    overflow: visible;
+    width: 100%;
+    transition: 1s ease;
+}
+.portal-search-visible .LSBox #searchGadget{
+    overflow: visible;
+    transition: 0.5s ease;
+}
+.LSBox input[type="text"]{
+    background: #fff;
+}
+#searchbox .LSBox .searchButton {
+    background-color: transparent;
+    border: 0 solid lightgrey;
+    color: transparent;
+    cursor: pointer;
+    float: right;
+    height: 63px;
+    opacity: 1;
+    position: absolute;
+    width: 34px;
+    font-size: 0;
+    left: 100%;
+}
+#searchbox .searchSection {
+    display: none;
+}
+.LSBox #searchGadget {
+    height: 3.35em;
+    border: 1px solid lightgray;
+    padding-left: 1.25em;
+    color: gray;
+    font-size: 1.3em;
+    padding-right: 40px;
+}
+#searchbox [type="text"]{
+    width: 26rem;
+}
+.pat-livesearch .livesearch-results{
+    border-color: lightgray;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px lightgray;
+}
+#portal-header{
+}

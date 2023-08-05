@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="ideabox.diazotheme.spirit">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+      directory="overrides"
+      layer="ideabox.diazotheme.spirit.interfaces.IIdeaboxDiazothemeSpiritLayer"
+      />
+
+  <!-- Publish static files -->
+  <plone:static
+      name="ideabox.diazotheme.spirit"
+      type="plone"
+      directory="static"
+      />
+
+    <browser:page
+        name="is_homepage"
+        for="*"
+        class=".diazo.DiazoView"
+        attribute="is_homepage"
+        permission="zope2.View"
+        layer="..interfaces.IIdeaboxDiazothemeSpiritLayer"
+        />
+
+</configure>

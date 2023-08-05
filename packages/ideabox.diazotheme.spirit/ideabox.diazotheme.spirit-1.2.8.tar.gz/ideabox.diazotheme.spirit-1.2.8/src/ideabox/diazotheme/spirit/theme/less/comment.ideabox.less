@@ -1,0 +1,180 @@
+#commenting,
+.discussion {
+    legend {
+        font-family  : @ideabox-font-primary;
+        color        : @spirit-pink;
+        font-size    : 3rem;
+        border       : none;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-family: @ideabox-font-third;
+        font-size  : 1.6rem;
+        font-weight: 300;
+        line-height: 2.4rem;
+    }
+
+    label {
+        display: none;
+    }
+
+    textarea {
+        border-radius   : 0;
+        border          : 1px solid #D3D3D3;
+        background-color: #F4F4F4;
+        box-shadow      : none;
+    }
+
+    .formControls {
+        border    : none;
+        background: none;
+        box-shadow: none;
+        padding   : 0;
+    }
+
+    input,
+    button {
+        font-family  : @ideabox-font-secondary;
+        font-size    : 1.6rem;
+        border       : none;
+        font-weight  : normal;
+        border-radius: 0;
+    }
+
+    button,
+    [type="submit"] {
+
+        &,
+        &:hover,
+        &:active,
+        a:focus {
+            background-color: @spirit-pink;
+            margin-bottom   : 0.5rem;
+        }
+
+        &:hover,
+        &:active,
+        a:focus {
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
+#commenting {
+    margin-top : 5rem;
+    border-top : 1px solid #707070;
+    padding-top: 3rem;
+}
+
+.discussion {
+    margin-top: 5rem;
+
+    .replyTreeLevel0 {
+        padding-left: 0;
+    }
+
+    .comment {
+        margin-bottom: 5rem;
+        margin-top   : 2rem;
+    }
+
+    .documentByLine {
+        z-index    : 2;
+        position   : relative;
+        padding    : 0 1.5rem;
+        font-size  : 1.8rem;
+        font-weight: bold;
+
+        a {
+            color: @color-dark;
+        }
+
+        .commentDate {
+            font-weight: normal;
+            font-size  : 1.8rem;
+        }
+    }
+
+    .commentBody {
+        background-color: rgba(244, 244, 244, 0.4);
+        border          : 1px solid rgba(211, 211, 211, 0.4);
+        margin-top      : -5rem;
+        padding-top     : 5rem;
+        display         : inline-block;
+        z-index         : 1;
+        position        : relative;
+        width           : 100%;
+
+        p {
+            font-size  : 2rem;
+            font-weight: normal;
+        }
+
+        .commentActions {
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+
+            #publish,
+            #delete,
+            .commentactionsform {
+                position: relative;
+
+                &::before {
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    font-size  : 2rem;
+                    display    : inline-block;
+                    position   : absolute;
+                    top        : 50%;
+                    left       : 50%;
+                    transform  : translate(-50%, -50%);
+                    color      : #707070;
+                }
+
+                &:hover,
+                &:focus {
+                    box-shadow: none;
+
+                    &::before {
+                        color: #000000;
+                    }
+                }
+
+                input {
+                    opacity: 0;
+                    width  : 3rem;
+                    height : 3rem;
+                }
+            }
+
+            #delete {
+                &::before {
+                    content: "\f2ed";
+                }
+            }
+
+            #publish {
+                &::before {
+                    content: "\f00c";
+                }
+            }
+
+            .commentactionsform {
+                width           : 3rem;
+                height          : 3rem;
+                background-color: transparent;
+                color           : transparent;
+                overflow        : hidden;
+                text-shadow     : none;
+                display         : inline-block;
+                border          : 0;
+
+                &::before {
+                    content: "\f304";
+                }
+            }
+        }
+    }
+}

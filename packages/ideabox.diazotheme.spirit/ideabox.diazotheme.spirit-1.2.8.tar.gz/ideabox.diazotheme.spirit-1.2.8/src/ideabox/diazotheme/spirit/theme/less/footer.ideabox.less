@@ -1,0 +1,62 @@
+#portal-footer-wrapper {
+    padding   : 30px 0 0 0;
+    background: @spirit-header-bg;
+
+    a {
+        color    : @color-light;
+        font-size: 170%;
+    }
+
+    #footer-social {
+        max-width: 100%;
+
+        .social-list {
+            display        : flex;
+            justify-content: center;
+            flex-wrap      : wrap;
+            list-style     : none;
+            padding        : 0;
+
+            li {
+                width : auto;
+                margin: 2rem 1rem 0 1rem;
+            }
+        }
+
+        i.link-https::after {
+            content: "";
+        }
+    }
+
+    #portal-footer {
+        background-color: #f2f2f2;
+        margin          : 1em 0 0;
+        font-size       : 1.2rem;
+        color           : #969696;
+
+        p {
+            margin : 0;
+            padding: 1rem;
+        }
+
+        a {
+            color    : #969696;
+            font-size: 1.2rem;
+        }
+
+        abbr {
+            color    : #969696;
+            font-size: 1.2rem;
+        }
+
+        .glyphicon.link-external {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #portal-footer-wrapper #footer-social {
+        font-size: 2rem;
+    }
+}

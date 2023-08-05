@@ -1,0 +1,31 @@
+.mosaic-tile[class*="embed-tile"] {
+	iframe {
+		max-width: 100%;
+	}
+}
+
+.mosaic-tile[class*="newsletter-tile"] {
+	i.glyphicon {
+		display: none
+	}
+
+	a.button {
+		background-color: #ca005d;
+		display         : inline-flex;
+		align-items     : center;
+		font-size       : 1.6rem;
+		padding         : 0.5rem 1rem;
+	}
+
+	a.button::before {
+		content            : "";
+		display            : inline-block;
+		background-image   : url("../images/mail.png");
+		width              : 4.2rem;
+		height             : 4.2rem;
+		background-size    : cover;
+		background-repeat  : no-repeat;
+		background-position: center;
+		margin-right       : 1rem;
+	}
+}
