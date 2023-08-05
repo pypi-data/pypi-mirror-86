@@ -1,0 +1,35 @@
+{
+    "pas_back": "Back",
+    "pas_close": "Close",
+    "pas_continue": "Continue",
+
+    "pas_no": "No",
+    "pas_yes": "Yes",
+
+    "pas_login": "Log in",
+    "pas_save": "Save",
+    "pas_username": "User name",
+
+    "pas_timezone_gmt": "GMT",
+
+    "pas_unknown": "unknown",
+    "pas_unknown_entity": "Unknown",
+
+    "pas_title_error": "Error message",
+    "pas_title_error_critical": "Critical error message",
+    "pas_title_error_details": "Additional error information",
+    "pas_title_task_done": "Confirmation",
+
+    "errors_pas_access_denied": "Access to the restricted function has been denied by the system.",
+    "errors_pas_database_error": "The application encountered an database communication error and is unable complete the current task.",
+    "errors_pas_required_object_not_found": "The application was unable to load a required component.",
+    "errors_pas_tasks_daemon_not_available": "The background service application is currently not available.",
+    "errors_pas_tid_invalid": "The specified task ID is invalid.",
+    "errors_pas_unknown_error": "The application encountered an unknown error and is unable complete the current task.",
+    "errors_pas_unsupported_command": "The application has been accessed using an unknown command.",
+
+    "lang_charset": "UTF-8",
+    "lang_iso_domain": "en",
+    "lang_number_format": "#,###.#",
+    "lang_rfc_region": "en-US"
+}
