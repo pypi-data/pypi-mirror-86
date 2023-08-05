@@ -1,0 +1,6 @@
+graft catsh
+
+include catsh.py
+include README.md
+include setup.py
+include setup.cfg
