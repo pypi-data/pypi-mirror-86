@@ -1,0 +1,15 @@
+candig_ingest-1.5.0-py3.6-nspkg.pth,sha256=-k3JUuBnBGhCV5AoL6NPyk9-LxiAhztWctl5ZLnjM50,539
+candig/ingest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+candig/ingest/_version.py,sha256=Q5UugsEnTbL68RFvW9YO9CWSDugF8XjbysDvrd_fFo8,116
+candig/ingest/ingest.py,sha256=JaAQUWZeQ_aXN_yZxmluIMEICnF6dIAf5Bc5oO0wamM,20767
+candig/ingest/load_tiers.py,sha256=i4HEXXTNgTXZtRZwEe_VhRIKmAUP0t2eR6Rw-3FhuGI,5584
+candig/ingest/tier/project_tiers.tsv,sha256=nmrQ4I9RbLnEXYYO-vKJa7lI68dnG1wB2i6Gp5IhIQo,18799
+candig/ingest_logging/__init__.py,sha256=rczfMkJ9WhmppmFY59e787zpxbzP7RgmUejyvpfUiuE,200
+candig/ingest_logging/logging.py,sha256=DpPRFMxzthzdAZbMFlGbelfSaXLGB5IqSH2JMs8hVB8,1048
+candig_ingest-1.5.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+candig_ingest-1.5.0.dist-info/METADATA,sha256=xM9osYgRoMcLA132NDYzT1QFqpgLXBPAVmqZTzH5Oxw,4227
+candig_ingest-1.5.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+candig_ingest-1.5.0.dist-info/entry_points.txt,sha256=Z8oY-RBGUdxr0jPgSXcI_5bijSmms7JKE4zwAWSu-dY,96
+candig_ingest-1.5.0.dist-info/namespace_packages.txt,sha256=CORn2k410DjLl9X-9WYpNn3eVWIkm4zxh3mgb7QhLJE,7
+candig_ingest-1.5.0.dist-info/top_level.txt,sha256=CORn2k410DjLl9X-9WYpNn3eVWIkm4zxh3mgb7QhLJE,7
+candig_ingest-1.5.0.dist-info/RECORD,,
