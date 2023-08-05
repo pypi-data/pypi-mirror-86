@@ -1,0 +1,15 @@
+ankisync2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ankisync2/anki20/__init__.py,sha256=M08bxrto0tOGWss_-7CcOaZgwOLxHBVZXSvr1nWEmcs,3655
+ankisync2/anki20/builder.py,sha256=RU9atL77Ey0yRWviarm1vplS_Fu48pwj_qVgZKJlCRY,2369
+ankisync2/anki20/db.py,sha256=sL2gLtE2n-iITteA5r7YIkJlqXPw57xcl8ZyzVFY1j0,12387
+ankisync2/anki21/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ankisync2/anki21/db.py,sha256=r1BlqbHyLywTxX6jBxDpa0BVq82vklH5sgHBbwuv6cc,14352
+ankisync2/ankiconnect.py,sha256=9PLj98PaWS2yi-_YZ7Nf_vDOfcZ_VJqn2nC2pocSm3s,985
+ankisync2/apkg.py,sha256=rKktiEVM7sxeAHXdcOO5nQCp0WuNVHRuY81m_2PDs-0,3926
+ankisync2/dir.py,sha256=IJN6QqewaKp9Ljc0LAmRVfkRpF0c8ovqHHdpomH8MeQ,1980
+ankisync2/fields.py,sha256=ALBCShXo07tH3qEtpL6YGrRAtRj91xHTvvlUMHnywLU,740
+ankisync2/util.py,sha256=y55FUOCpO7o_0ejREbYR8wJvd7U1lQ_3Pck2R0KOEls,2643
+ankisync2-0.3.1.1.dist-info/LICENSE,sha256=LkdNZpRBeWR5ffbn7dZcYa8IVKylIdYOeIoVtY6Sx3Y,1082
+ankisync2-0.3.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+ankisync2-0.3.1.1.dist-info/METADATA,sha256=uz9j42nP6k8qyq7Drz6bdh1bdKFHp_1JgLSTjbe9m6s,5212
+ankisync2-0.3.1.1.dist-info/RECORD,,
