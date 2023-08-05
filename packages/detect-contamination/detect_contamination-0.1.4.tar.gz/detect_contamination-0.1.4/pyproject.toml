@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "detect_contamination"
+version = "0.1.4"
+description = "A wrapper for centrifuge that can be used to detect contamination"
+authors = ["Yasir Kusay <yasir.kusay@student.unsw.edu.au>", "Jeffrey Tan <jeffrey.tan1@student.unsw.edu.au>", "Yifei Luo <yifei.luo@student.unsw.edu.au>", "Marcus Sammut <marcus.sammut@student.unsw.edu.au>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.782"
+
+[tool.poetry.scripts]
+detect_contamination = "detect_contamination.__main__:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
