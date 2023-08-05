@@ -1,0 +1,6 @@
+[console_scripts]
+testforeman = testforeman.server:main
+
+[pytest11]
+foreman = testforeman.plugin
+

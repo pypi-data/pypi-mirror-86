@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: testforeman
+Version: 0.0.1
+Summary: Orchestrate parallel test runs
+Home-page: https://github.com/ykvch/testforeman
+Author: Yan Kevych
+License: BSD 2-clause
+Description: # Test Foreman
+        Orchestrate parallel test runs on multiple workers
+        
+Keywords: test
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=2.7.11
+Description-Content-Type: text/markdown
