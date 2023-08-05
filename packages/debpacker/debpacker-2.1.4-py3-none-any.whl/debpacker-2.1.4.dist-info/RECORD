@@ -1,0 +1,8 @@
+debpacker/__init__.py,sha256=xsBnK4xXhvRntQ0RG9oJDeWY8lrbExKtKXeEy3w5D1I,50
+debpacker/__main__.py,sha256=KIgxKp41VKQ31JxDRDTk1ML1_BVD_p5jN4GBJNL7ZXE,16898
+debpacker-2.1.4.dist-info/LICENSE,sha256=ctcRA0Qm9AISGR7KHrLV8PcccM3IxCyDnJX6MHA_E5M,1068
+debpacker-2.1.4.dist-info/METADATA,sha256=LQsOn0WRQ643geGj2NzrxYq3sxxcee-9HMNVdC5qFTo,7306
+debpacker-2.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+debpacker-2.1.4.dist-info/entry_points.txt,sha256=yvv9_TExcq5L7GMDhlUgXQPbGOqJtdG4j1gkO_tNirQ,53
+debpacker-2.1.4.dist-info/top_level.txt,sha256=0zXF6m6QXBH0I9jlCPH_r8B6tlzGR1ITAFw6NywhTe8,10
+debpacker-2.1.4.dist-info/RECORD,,
