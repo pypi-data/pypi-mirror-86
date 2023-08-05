@@ -1,0 +1,17 @@
+userdefinedfields/__init__.py,sha256=zd2K0wb9UTdxNHMej1KBYPlDBr7zIQhcMiSLCH7X6ws,146
+userdefinedfields/admin.py,sha256=EyorX_koDHnLHNju8LBlNfFfKz4pnXObmp9PY5yINeg,255
+userdefinedfields/context_processors.py,sha256=oGn1ERZQY364L6QBag9yRYRN_quAkKS-dH1MFKVgXPk,787
+userdefinedfields/factories.py,sha256=Dx7mjEsR2fnyh5ADBTaFoPJqXXEtHZaZXlXelMO6YTI,308
+userdefinedfields/fields.py,sha256=Yosp6uZPohkfJktECgAP_trxsQpUUXYiJqlo5gThHhc,4552
+userdefinedfields/forms.py,sha256=-L5E4IH5JXz1llQzeq3tpfLcsBoMHJOPXdXjXoIsTH4,983
+userdefinedfields/models.py,sha256=F_ZgGOLWAmR3Gl9gXMd-MWXUggxhpTdZkowbsf_48yE,1547
+userdefinedfields/widgets.py,sha256=BwlZrbrr6WveMbw6mdh8Xo_9KH_mxCPZhIUFXVcznXI,794
+userdefinedfields/migrations/0001_initial.py,sha256=d0fO6UtS396zEP2HjjFdIlWf_WOwUK_9cBcLdobGGTU,2395
+userdefinedfields/migrations/0002_auto_20200923_0122.py,sha256=u4m7Oq_4M6ODxJXMtboX2CigViln85ACAhL2DaCqE-Y,324
+userdefinedfields/migrations/0003_auto_20201120_0209.py,sha256=oDFinM1T59Y77YyHaqkomaGRfGJpF1hPGYv-0IrchcM,370
+userdefinedfields/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_user_defined_fields-0.0.12.dist-info/LICENSE,sha256=3oIUQOc7so9ta4jZkCiqzleErL7kjFcbPMihKk-WqhY,1063
+django_user_defined_fields-0.0.12.dist-info/METADATA,sha256=OZ4OBJkHZiACg6zAGxgLHb48YnUahm729abI8aN-VW8,1816
+django_user_defined_fields-0.0.12.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_user_defined_fields-0.0.12.dist-info/top_level.txt,sha256=GHenoUumlkaAtIIVQctSh_dpVOsZ3Wo2FHZ-VFebyLQ,18
+django_user_defined_fields-0.0.12.dist-info/RECORD,,
