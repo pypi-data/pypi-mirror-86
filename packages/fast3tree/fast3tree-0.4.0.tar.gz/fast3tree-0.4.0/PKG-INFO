@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: fast3tree
+Version: 0.4.0
+Summary: A Python wrapper of Peter Behroozi's fast3tree code.
+Home-page: https://github.com/yymao/fast3tree
+Author: Yao-Yuan Mao
+Author-email: yymao.astro@gmail.com
+License: GPLv3
+Download-URL: https://github.com/yymao/fast3tree/archive/v0.4.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

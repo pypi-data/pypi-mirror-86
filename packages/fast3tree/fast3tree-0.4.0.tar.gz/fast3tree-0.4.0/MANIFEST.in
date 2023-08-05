@@ -1,0 +1,2 @@
+include LICENSE README.md
+include fast3tree/fast3tree.c
