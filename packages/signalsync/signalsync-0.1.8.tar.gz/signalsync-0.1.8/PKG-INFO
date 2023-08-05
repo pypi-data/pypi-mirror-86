@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: signalsync
+Version: 0.1.8
+Summary: Synchronization of independent signal recordings with time markings
+Home-page: http://github.com/dmbasso/signalsync
+Author: Daniel Monteiro Basso
+Author-email: daniel@basso.inf.br
+License: AGPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
