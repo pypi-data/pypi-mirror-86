@@ -1,0 +1,10 @@
+flask_authz/__init__.py,sha256=xsfPJGrNy9aia--I1knwjiUQlQZIxJh1UYNejNmXrmE,109
+flask_authz/casbin_enforcer.py,sha256=uJn03cVFMP75IOR0jHIA8Ju3eraIHZ36ClrSN1_8Nx8,7682
+flask_authz/utils/__init__.py,sha256=-Wb99pylhcGChw6sG3-PLqu9rbyelrehYfA52GW2z1s,83
+flask_authz/utils/auth_decoder.py,sha256=O_WJv2LCG65U_lFlkdO6QkO_AjWcug84rlZqcfgXF4E,1224
+flask_authz-2.1.1.data/data/README.md,sha256=emhiU6eBwjmb2GQZgQ6Pd6kc8U7U0LZb5S3AIeLMj9g,4387
+flask_authz-2.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+flask_authz-2.1.1.dist-info/METADATA,sha256=vGF4fTzT4NX5cFjb0LDN4yrZTClsMxbteymMGz-QjYE,5424
+flask_authz-2.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+flask_authz-2.1.1.dist-info/top_level.txt,sha256=D0XX6A_ifwUJuRtvmebCB1mTLtOOwwJH2uKCLyTSMdA,12
+flask_authz-2.1.1.dist-info/RECORD,,
