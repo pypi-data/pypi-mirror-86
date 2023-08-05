@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: torchpack
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: https://github.com/zhijian-liu/torchpack
+Author: Zhijian Liu
+Author-email: zhijianliu.cs@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: loguru
+Requires-Dist: multimethod
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: tensorboard
+Requires-Dist: tensorpack
+Requires-Dist: torch (>=1.5.0)
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
