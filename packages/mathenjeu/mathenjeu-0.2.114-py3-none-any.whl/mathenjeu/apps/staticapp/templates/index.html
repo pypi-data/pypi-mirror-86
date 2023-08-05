@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main role="main">
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">{{title}}</h1>
+      <p>Vous êtes connecté en tant que {{alias}}. </p>
+      <p>
+      {% for route, url in approutes %}
+      <a class="btn btn-primary btn-lg" href="{{url}}" role="button">{{route}}</a>
+      {% endfor %}
+      </p>
+    </div>
+  </div>
+
+
+    <hr />
+
+  </div> <!-- /container -->
+
+</main>
+{% endblock %}
