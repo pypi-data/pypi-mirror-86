@@ -1,0 +1,8 @@
+dtale==1.22.1
+fastapi
+uvicorn[standard]
+aiofiles
+aiohttp
+typing_extensions
+psutil
+pandas-profiling
