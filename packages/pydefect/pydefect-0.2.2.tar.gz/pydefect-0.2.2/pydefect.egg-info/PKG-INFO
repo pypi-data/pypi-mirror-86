@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pydefect
+Version: 0.2.2
+Summary: Integrated environment for first-principles point-defect calculations using vasp
+Home-page: https://github.com/kumagai-group/pydefect
+Author: Yu Kumagai
+Author-email: yuuukuma@gmail.com
+License: MIT license
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
