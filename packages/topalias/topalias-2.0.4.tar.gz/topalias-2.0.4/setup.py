@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['topalias']
+
+package_data = \
+{'': ['*'], 'topalias': ['data/*']}
+
+install_requires = \
+['Click>=7.1,<8.0']
+
+setup_kwargs = {
+    'name': 'topalias',
+    'version': '2.0.4',
+    'description': 'Linux bash alias generator',
+    'long_description': '# topalias\n\n[![Build Status](https://travis-ci.com/CSRedRat/topalias.svg?branch=master)](https://travis-ci.com/CSRedRat/topalias)\n[![Test Status](https://github.com/CSRedRat/topalias/workflows/Test/badge.svg?branch=master)](https://github.com/CSRedRat/topalias/actions?query=workflow%3ATest)\n[![Coverage](https://coveralls.io/repos/github/CSRedRat/topalias/badge.svg?branch=master)](https://coveralls.io/github/CSRedRat/topalias?branch=master)\n[![GitLab pipeline](https://gitlab.com/CSRedRat/topalias/badges/master/pipeline.svg)](https://gitlab.com/CSRedRat/topalias/-/pipelines)\n[![Python Version](https://img.shields.io/pypi/pyversions/topalias.svg)](https://pypi.org/project/topalias/)\n[![Downloads](https://static.pepy.tech/personalized-badge/topalias?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/topalias)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)\n[![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/CSRedRat/topalias/?ref=repository-badge)\n\n[topalias](https://github.com/CSRedRat/topalias) - Linux bash/zsh alias generator and statistics from command history, written on [Python](https://pypi.org/project/topalias/).\n\n## Features\n\n-   Generate short alias for popular command from bash/zsh shell history\n-   Command history statistics & analytics\n-   Parametrised input\n-   Console help for all commands, options and arguments\n-   Shell workflow hints\n\n## Installation\n\nFrom [pypi.org repository](https://pypi.org/project/topalias/):\n\n```bash\npip3 install -U --user topalias\n```\n\nFrom source:\n\n```bash\ngit clone https://github.com/CSRedRat/topalias\npython3 topalias/setup.py install --user\n```\n\nRun as python script without install:\n\n```bash\ngit clone https://github.com/CSRedRat/topalias\npython3 topalias/topalias/cli.py -h\n```\n\n### Install requirements\n\n```bash\nsudo apt install python3 python3-pip -y\n```\n\nAdd PATH environment variable for run Python tools as Linux utility:\n\n```bash\necho "export PATH=$PATH:$HOME/.local/bin" >> ~/.bashrc\nsource ~/.bashrc\n```\n\n## Usage\n\n![generated bash aliases](https://github.com/CSRedRat/topalias/raw/master/images/bash_screenshot.png "Bash topalias output")\n\nSyntax: `topalias [OPTIONS] COMMAND [ARGUMENTS]`\n\nWithout command utility check if you use alias in ~/.bash_aliases - analyze and print usage statistics, offers to find new simple aliases\n\n```bash\npython3 -m topalias  # run as python module\ntopalias  # check aliases and print suggestion bash command history\ntopalias -h  # print help\ntopalias --zsh  # work with zsh shell command history\ntopalias --min=2  # set minimal length for generated acronym filter, so that exclude some short command and find long, hard, usable command\ntopalias --debug history  # only analyze local bash history and print filtered rows\n```\n\nFiles path search order:\n\n-   directory from execution parameter\n-   .bash_history in . current directory\n-   .bash_history in ~ user home directory\n-   example development files in topalias/data\n\nYou can change dot files search path to another user home directory:\n\n```bash\ntopalias -f /home/user  # or topalias --path /home/user\n```\n\nAlso you can use topalias utility in [Bash for Git](https://gitforwindows.org/) on Windows and in [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux).\n\n## TODO\n\n-   multiline command in history\n-   add any another acronym algorithm with semantic\n-   more statistics & analytics (used dir, utils, parameters, time)\n-   alias max length parameter\n\nPlease add you feature requests: [https://github.com/CSRedRat/topalias/issues/new](https://github.com/CSRedRat/topalias/issues/new)\n\n## License\n\n[GPLv3](https://github.com/CSRedRat/topalias/blob/master/LICENSE)\n\n## Contributors ✨\n\nThanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):\n\n<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n<table>\n  <tr>\n    <td align="center"><a href="https://metin2wiki.ru/"><img src="https://avatars1.githubusercontent.com/u/1287586?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sergey Chudakov</b></sub></a><br /><a href="https://github.com/CSRedRat/topalias/commits?author=CSRedRat" title="Code">💻</a> <a href="#infra-CSRedRat" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#ideas-CSRedRat" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-CSRedRat" title="Maintenance">🚧</a> <a href="#platform-CSRedRat" title="Packaging/porting to new platform">📦</a> <a href="#mentoring-CSRedRat" title="Mentoring">🧑\u200d🏫</a> <a href="#example-CSRedRat" title="Examples">💡</a></td>\n  </tr>\n</table>\n\n<!-- markdownlint-restore -->\n<!-- prettier-ignore-end -->\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n\n_GitLab repository mirror with CI/CD: [https://gitlab.com/CSRedRat/topalias](https://gitlab.com/CSRedRat/topalias)_\n\n_GitHub Pages: [https://csredrat.github.io/topalias/](https://csredrat.github.io/topalias/)_\n',
+    'author': None,
+    'author_email': None,
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/CSRedRat/topalias',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
