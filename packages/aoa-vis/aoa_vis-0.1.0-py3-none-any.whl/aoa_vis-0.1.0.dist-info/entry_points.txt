@@ -1,0 +1,3 @@
+[console_scripts]
+aoa-vis=aoa_vis.gui:main
+
