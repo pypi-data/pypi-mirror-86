@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+semisupervised/TSVM.py
+semisupervised/__init__.py
+semisupervised/qns3vm.py
+semisupervised.egg-info/PKG-INFO
+semisupervised.egg-info/SOURCES.txt
+semisupervised.egg-info/dependency_links.txt
+semisupervised.egg-info/requires.txt
+semisupervised.egg-info/top_level.txt
