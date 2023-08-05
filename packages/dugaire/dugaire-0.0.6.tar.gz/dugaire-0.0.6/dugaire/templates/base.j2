@@ -1,0 +1,8 @@
+#
+# Base
+#
+FROM {{from_}}
+LABEL {{label}}
+RUN apt-get update -qq
+RUN apt-get install -qqy --no-install-recommends curl ca-certificates
+
