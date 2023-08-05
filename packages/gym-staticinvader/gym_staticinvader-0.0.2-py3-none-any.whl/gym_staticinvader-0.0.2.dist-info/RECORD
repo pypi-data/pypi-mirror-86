@@ -1,0 +1,9 @@
+gym_staticinvader/__init__.py,sha256=kjDhz_SIy8dsxLxtih2CAYUvukqRbrKfjdeQDwyJnXE,259
+gym_staticinvader/envs/__init__.py,sha256=q-Ou2BfbhV3imvk78TOJL-mKA4DmVMEl9zP8YqLaBv0,159
+gym_staticinvader/envs/staticinvader_env.py,sha256=0aFJ-OOkeKFBViIcQtaiSSAMXy21vrXZ5CkqBiKscDM,4813
+gym_staticinvader/envs/staticinvader_extrahard_env.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gym_staticinvader-0.0.2.dist-info/LICENSE,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gym_staticinvader-0.0.2.dist-info/METADATA,sha256=rjteGwzS858yZwsNkR4vuoVpyqUkXN-I2XdbB5kXZNw,521
+gym_staticinvader-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gym_staticinvader-0.0.2.dist-info/top_level.txt,sha256=HNY8X3RADKYyPM6ELRatmhWJYacci-qdYG9x0jpNc3o,18
+gym_staticinvader-0.0.2.dist-info/RECORD,,
