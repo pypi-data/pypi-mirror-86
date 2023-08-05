@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}{{ super() }} {{ data['title'] }} {% endblock %}
+{% block crumbs %}{{ super() }}
+/ <a href="../processes">Processes</a>
+/ <a href="./{{ data['id'] }}">{{ data['title'] }}</a>
+{% endblock %}
+{% block body %}
+    <section id="processes">
+      <h2>{{ data['title'] }}</h2>
+      <div>{{ data['description'] }}</div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <table class="striped">
+              <caption>Inputs</caption>
+              <thead>
+              <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+              </thead>
+              <tbody>
+                {% for input_ in data['inputs'] %}
+                <tr>
+                  <td data-label="name">{{ input_['id'] }}</td>
+                  <td data-label="title">{{ input_['title'] }}</td>
+                  <td data-label="description">
+                    {{ input_['description'] | striptags | truncate }}
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+        </div>
+      </div>
+      <h2>Links</h2>
+      <ul>
+      {% for link in data['links'] %}
+          <li>
+            <a title="{{ link['rel'] }}" href="{{ link['href'] }}">
+            {{ link['title'] }} ({{ link['type'] }})
+            </a></li>
+      {% endfor %}
+      </ul>
+    </section>
+{% endblock %}
