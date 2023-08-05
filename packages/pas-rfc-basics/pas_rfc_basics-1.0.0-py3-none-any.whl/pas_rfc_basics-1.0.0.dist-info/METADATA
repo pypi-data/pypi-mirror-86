@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pas-rfc-basics
+Version: 1.0.0
+Summary: Python Application Services: RFC basics
+Home-page: https://www.direct-netware.de/redirect?pas;rfc_basics
+Author: direct Netware Group et al.
+Author-email: web@direct-netware.de
+License: MPL2
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: dpt-runtime (<2,>=1)
+
+"pas-rfc-basics" is a Python module intended to implement RFC standards used for different purposes.
+
+
