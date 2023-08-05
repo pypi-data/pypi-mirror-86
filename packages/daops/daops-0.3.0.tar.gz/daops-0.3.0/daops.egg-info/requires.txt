@@ -1,0 +1,17 @@
+numpy>=1.16
+xarray>=0.15
+dask[complete]
+netcdf4
+elasticsearch>=7.8.0
+clisops>=0.4.0
+roocs-utils>=0.1.4
+
+[docs]
+sphinx
+sphinx-rtd-theme
+nbsphinx
+pandoc
+ipython
+ipykernel
+jupyter_client
+matplotlib
