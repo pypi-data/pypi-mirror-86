@@ -1,0 +1,6 @@
+README.md
+setup.py
+duco_miner_reVox96.egg-info/PKG-INFO
+duco_miner_reVox96.egg-info/SOURCES.txt
+duco_miner_reVox96.egg-info/dependency_links.txt
+duco_miner_reVox96.egg-info/top_level.txt
