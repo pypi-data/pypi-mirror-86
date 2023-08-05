@@ -1,0 +1,12 @@
+gff_io/__init__.py,sha256=cewy2dNVcd7L_C11UizVxPg_7txSNPYokeNE_E1wN4A,188
+gff_io/_reader.py,sha256=M5oy__06_clTQFiPunukQkvEQn-mEU7RHTucNf_9pO0,6182
+gff_io/_version.py,sha256=4FJI3ui0BBf46B9FHfBVbNooi6STjct57QPDk5QKsx8,49
+gff_io/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gff_io/test/examples.tar.gz,sha256=jdB4mhkiPoKS8XN-YoBo0Z-smMqyHamiRug-GKPI1gw,1367
+gff_io/test/test_reader.py,sha256=uMqvuJP8iPp53aVpGlpSP5pl4f5N9UbLH1P7x4tf8TI,3587
+gff_io-0.0.1.dist-info/LICENSE.md,sha256=y1BOm5GlNr1Lksi4g7xNkgFgiHhqhW-31ORwHrLGro8,1105
+gff_io-0.0.1.dist-info/METADATA,sha256=GUyrT5Z5gb0QkPIaPGgY-ANr7zYVRnqazLPanCV9jXQ,1014
+gff_io-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gff_io-0.0.1.dist-info/top_level.txt,sha256=B3WsSCOp4DXmDFY1DjG7jqkoFx_gRl13FCEpYavub1Y,7
+gff_io-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gff_io-0.0.1.dist-info/RECORD,,
