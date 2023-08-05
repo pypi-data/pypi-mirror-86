@@ -1,0 +1,3 @@
+[console_scripts]
+throwaway-keys = throwaway_keys
+
