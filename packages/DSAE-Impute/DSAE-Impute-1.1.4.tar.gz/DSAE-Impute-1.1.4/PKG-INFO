@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: DSAE-Impute
+Version: 1.1.4
+Summary: scRNA-seq imputation
+Home-page: https://github.com/lebhaftcode/DSAE-Impute.git
+Author: Huan Deng
+Author-email: lehaftcode@gmail.com
+License: MIT License
+Description:  Learning Discriminative Stacked Autoencoders for Imputing Single-cell RNA-seq Data. 
+Keywords: scRNA-seq,imputation,stacked autoencoder,discriminative,single-cell
+Platform: UNKNOWN
