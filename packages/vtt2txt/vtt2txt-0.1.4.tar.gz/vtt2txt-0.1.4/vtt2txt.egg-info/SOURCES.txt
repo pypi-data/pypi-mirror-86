@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+vtt2txt/__init__.py
+vtt2txt/__package_info__.py
+vtt2txt/vtt2txt.py
+vtt2txt.egg-info/PKG-INFO
+vtt2txt.egg-info/SOURCES.txt
+vtt2txt.egg-info/dependency_links.txt
+vtt2txt.egg-info/top_level.txt

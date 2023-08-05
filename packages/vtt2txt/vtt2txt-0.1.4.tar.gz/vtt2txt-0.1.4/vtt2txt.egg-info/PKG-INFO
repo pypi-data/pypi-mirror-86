@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vtt2txt
+Version: 0.1.4
+Summary: A simple utility for converting vtt transcript files into txt files with timestamps for MaxQDA.
+Home-page: https://github.com/tmilab/vtt2txt
+Author: Michael Hoefer
+Author-email: mjhoefer@gmail.com
+License: UNKNOWN
+Description: A simple utility for converting vtt transcript files into txt files with timestamps for MaxQDA.
+Keywords: vtt,transcript,txt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
