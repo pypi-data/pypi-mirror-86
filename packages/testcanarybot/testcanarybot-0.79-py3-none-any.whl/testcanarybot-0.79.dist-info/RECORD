@@ -1,0 +1,17 @@
+testcanarybot/__init__.py,sha256=KYEMcfRP2dT4gofDylhfda78UuKP7b7Vdg5bzRBDa8c,7622
+testcanarybot/__main__.py,sha256=j6Z0_9RYdd13cld_O97blNhcGeedm2ECtzKwEpDxBZE,3633
+testcanarybot/core.py,sha256=Lz-zegzuUddkEgj4zrD3-mwCzgnCgZDfaQmZiaZc0cU,7340
+testcanarybot/databases.py,sha256=QQWlsNEhih9H59lBo5LwQ9-dSJkh91DkJM8KOFjTLks,2254
+testcanarybot/events.py,sha256=X6rULZyoRGt5HPAXGjFE4WK9ktnj1WuZrGGLF4sK4Q8,3199
+testcanarybot/exceptions.py,sha256=b-meI4a2wixYkkNaaDk04hzsxjSdcIbt33PwXPDatvY,41
+testcanarybot/expressions.py,sha256=7Oo0r9veRno1yGsgdu20HpVan0W76oxLMztOh555aUE,2295
+testcanarybot/objects.py,sha256=umzKqzHAurgzR1-Jg_hVj1mo5lgcR1qKzJhGvgVLJDc,10876
+testcanarybot/plugins.py,sha256=Nxotzqq4CTKFt1qH2AvB7nYY5bJ2y7SKIysKZT3vsUI,9454
+testcanarybot/sample_plugin.py,sha256=56SSb2hpPkLM2J7oMugKk3XtyqkfTSxemaID7suWUoo,8028
+testcanarybot/tools.py,sha256=nmY56wRmmZ-vxALaDv_B8vtJ21IHF3KD5gBChnEItCs,6563
+testcanarybot/uploader.py,sha256=JcgMUSM9HsvllJG03M9-UpdY9ReprUktLHv8C6QSBPQ,24939
+testcanarybot-0.79.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+testcanarybot-0.79.dist-info/METADATA,sha256=59okD54lwCGER_5Nr_Rr0ooph2QTe9RCdMDVAkM002U,545
+testcanarybot-0.79.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+testcanarybot-0.79.dist-info/top_level.txt,sha256=eRMEVhdglk42LhgsRnwldSBxSx6FcGMdzNOhugvoFfA,14
+testcanarybot-0.79.dist-info/RECORD,,
