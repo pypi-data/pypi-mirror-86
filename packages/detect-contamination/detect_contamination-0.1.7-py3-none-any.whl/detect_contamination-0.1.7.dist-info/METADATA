@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: detect-contamination
+Version: 0.1.7
+Summary: A wrapper for centrifuge that can be used to detect contamination
+Author: Yasir Kusay
+Author-email: yasir.kusay@student.unsw.edu.au
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
