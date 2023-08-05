@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: cgshop2021-pyutils
+Version: 0.0.1
+Summary: Utilities for the CG:SHOP 2021 Optimization Competition on Coordinated Motion Planning.
+Home-page: https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2021/
+Author: TU Braunschweig, IBR, Algorithms Group (Phillip Keldenich and Dominik Krupke)
+Author-email: keldenich@ibr.cs.tu-bs.de, krupke@ibr.cs.tu-bs.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: chardet
+
+# CG:SHOP 2021 PyUtils
+
+We provide some utils for you to easily read the instances and write your solutions.
+
+## Reading the instances from the Zip
+
+Best use the instance database. You simply download the .zip and then you can access all instances via
+
+```python
+from cgshop2021_pyutils import InstanceDatabase
+idb = InstanceDatabase("path/to/zip.zip")
+for i in idb:
+    print("Instance:", i)
+```
+
+## Working with an instance
+
+```python
+from cgshop2021_pyutils import Instance
+
+i: Instance #just to enable typing
+
+for r in range(i.number_of_robots):
+    print("Robot", i, "starts at", i.start_of(r)," and has to go to ", i.target_of(r))
+
+for o in i.obstacles:
+    print(o, "is blocked")
+
+```
+
