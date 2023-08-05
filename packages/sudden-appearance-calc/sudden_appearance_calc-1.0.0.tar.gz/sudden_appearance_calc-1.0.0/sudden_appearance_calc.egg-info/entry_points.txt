@@ -1,0 +1,3 @@
+[console_script]
+calculator = sudden_appearance_calc.Calculator.Calculator:main
+
