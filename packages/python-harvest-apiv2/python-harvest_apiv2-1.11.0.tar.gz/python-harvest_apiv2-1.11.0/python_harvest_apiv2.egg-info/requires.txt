@@ -1,0 +1,15 @@
+requests
+requests-oauthlib
+dacite
+configparser
+httpretty
+dataclasses_json
+
+[build]
+pip-tools
+
+[test]
+coverage
+pytest
+pytest-cov
+mock
