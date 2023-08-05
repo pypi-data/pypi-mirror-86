@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: semisupervised
+Version: 0.0.1
+Summary: Python implementation of semi-supervised learning algorithm
+Home-page: https://github.com/rosefun/pyssl
+Author: Rosefun
+Author-email: rosefun@foxmail.com
+License: UNKNOWN
+Download-URL: https://github.com/rosefun/pyssl/tags
+Description: This is a package which implements semi-supervised algorithm in python.
+        
+        
+Keywords: semi-supervised learning,ssl,deep learning,machine learning
+Platform: linux/Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
