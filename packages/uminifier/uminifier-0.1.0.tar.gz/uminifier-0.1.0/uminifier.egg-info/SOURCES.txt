@@ -1,0 +1,9 @@
+README.md
+setup.py
+uminifier/__init__.py
+uminifier.egg-info/PKG-INFO
+uminifier.egg-info/SOURCES.txt
+uminifier.egg-info/dependency_links.txt
+uminifier.egg-info/entry_points.txt
+uminifier.egg-info/requires.txt
+uminifier.egg-info/top_level.txt
