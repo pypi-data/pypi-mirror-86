@@ -1,0 +1,5 @@
+jsoncodable
+Unidecode
+kcu
+requests
+beautifulsoup4
