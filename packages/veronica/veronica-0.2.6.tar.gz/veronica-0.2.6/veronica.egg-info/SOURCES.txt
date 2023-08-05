@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/__init__.py
+src/veronica.egg-info/PKG-INFO
+src/veronica.egg-info/SOURCES.txt
+src/veronica.egg-info/dependency_links.txt
+src/veronica.egg-info/entry_points.txt
+src/veronica.egg-info/not-zip-safe
+src/veronica.egg-info/top_level.txt
+veronica.egg-info/PKG-INFO
+veronica.egg-info/SOURCES.txt
+veronica.egg-info/dependency_links.txt
+veronica.egg-info/entry_points.txt
+veronica.egg-info/not-zip-safe
+veronica.egg-info/top_level.txt
