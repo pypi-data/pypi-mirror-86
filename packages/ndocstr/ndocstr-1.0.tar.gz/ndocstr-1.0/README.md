@@ -1,0 +1,1 @@
+Ovo je objasnjenje za docstrings.

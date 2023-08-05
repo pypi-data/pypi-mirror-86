@@ -1,0 +1,8 @@
+README.md
+setup.py
+ndocstr/__init__.py
+ndocstr/pdftotext.py
+ndocstr.egg-info/PKG-INFO
+ndocstr.egg-info/SOURCES.txt
+ndocstr.egg-info/dependency_links.txt
+ndocstr.egg-info/top_level.txt
