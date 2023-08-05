@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: autodiff-djw
+Version: 0.0.4
+Summary: Automatic differentiation package AC207
+Home-page: https://github.com/DJ-WJ/cs107-FinalProject
+Author: David Chataway, Javiera Astudillo, Wenhan Zhang
+Author-email: jastudillo@g.harvard.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
