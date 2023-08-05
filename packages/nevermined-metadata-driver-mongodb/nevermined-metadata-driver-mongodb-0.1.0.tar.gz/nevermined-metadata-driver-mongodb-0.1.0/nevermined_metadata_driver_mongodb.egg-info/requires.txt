@@ -1,0 +1,2 @@
+nevermined-metadata-driver-interface
+pymongo
