@@ -1,0 +1,11 @@
+test_package/__init__.py,sha256=d31lsTpsRUvzwZxHfJdiy8AYPYoMkl99VeSFsO_bIUI,24
+test_package/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_package/bin/cmdt.py,sha256=jAYhAUtixaVgeTWdcw1cR33SbquqQkQsOZSwVy3F29g,97
+test_package/t_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_package/t_package/print.py,sha256=YuZxmwPI2iwcTHgOW92CKGpxF7_miI3zdX8bT9W82vY,30
+swz_test_package-1.0.12.dist-info/LICENSE,sha256=_qvsVbSFhpEdM_ZgU-lhn-M95IbS6RkpVHzqH3nXVo4,589
+swz_test_package-1.0.12.dist-info/METADATA,sha256=8kB4LZela2rDsPjWUBxtGhlccl5BUQ6V8-k05_sZ42M,184
+swz_test_package-1.0.12.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+swz_test_package-1.0.12.dist-info/entry_points.txt,sha256=vKOC-_S8OZ880F3eTaeF5hp35YIeXdMbPtuJsZuM_Zc,62
+swz_test_package-1.0.12.dist-info/top_level.txt,sha256=GeXTEKqyjBx-5S0TKnJMkgF1M3Cpjq6YSWM7P4c9-lg,13
+swz_test_package-1.0.12.dist-info/RECORD,,
