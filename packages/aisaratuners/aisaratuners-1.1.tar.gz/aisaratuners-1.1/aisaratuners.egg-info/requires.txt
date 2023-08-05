@@ -1,0 +1,10 @@
+requests
+pandas
+numpy
+os
+json
+itertools
+random
+plotly
+tensorflow
+math
