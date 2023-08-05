@@ -1,0 +1,10 @@
+jsonpatchext/__init__.py,sha256=a3k1kXuqPUlW9xEsvbmOF65AjtJPc1Ou2bjmoOYVSP4,360
+jsonpatchext/comparators.py,sha256=oTD3_sBa60wZS79E6xrRS9XJZH_K6wL9r2Ybqd1XHmc,2967
+jsonpatchext/jsonpatchext.py,sha256=tSvI8oQZ3cwHFRX8xIIEFkyWxXnctlw1Tfra9qNOsSg,14094
+jsonpatchext/mutators.py,sha256=gKkyXfSSKmrVt3PVj0I63c34T6f0J6tN9Mq7KXQR18A,841
+jsonpatchext-1.35.dist-info/AUTHORS,sha256=T4WiOHtGBr3YaUsRNfrtEtSsWWNQ3TEnUIznkUgGdHM,37
+jsonpatchext-1.35.dist-info/COPYING,sha256=8wZ9kHfWyJ3OUpfhPfYUOkIyAiVdRwziKHs0b_cgEYo,1438
+jsonpatchext-1.35.dist-info/METADATA,sha256=ALuYs8-7CJTCpqaMllng_mKDs8PyWztvfJbQHOS6t2Y,3828
+jsonpatchext-1.35.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+jsonpatchext-1.35.dist-info/top_level.txt,sha256=2kSRDVpTExPjE4E4RH-Fb5PxNquIRpxHdbiyBOENhw8,13
+jsonpatchext-1.35.dist-info/RECORD,,
