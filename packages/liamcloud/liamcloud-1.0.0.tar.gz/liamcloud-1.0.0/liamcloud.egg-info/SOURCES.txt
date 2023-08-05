@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+liamcloud.egg-info/PKG-INFO
+liamcloud.egg-info/SOURCES.txt
+liamcloud.egg-info/dependency_links.txt
+liamcloud.egg-info/requires.txt
+liamcloud.egg-info/top_level.txt

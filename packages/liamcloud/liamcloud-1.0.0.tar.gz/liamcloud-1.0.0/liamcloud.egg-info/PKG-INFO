@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: liamcloud
+Version: 1.0.0
+Summary: 云服务
+Home-page: https://github.com/py-liam/liamcloud
+Author: liam
+Author-email: 37907909@qq.com
+License: MIT
+Description: # 云服务
+        
+        ## 目前提供的功能
+        
+        * 消息服务
+        
+            `发消息 liamcloud.robot.chat('哈哈哈哈')`
+        
+        
+        cp -f .pypirc ~/
+        
+        ls -a
+        cd /tf/notebooks/liamcloud
+        
+        python setup.py register
+        
+        打包： python setup.py sdist
+        上传：python setup.py sdist upload
+        
+        类的调用
+        https://blog.csdn.net/qq_36134318/article/details/80640667
+        
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
