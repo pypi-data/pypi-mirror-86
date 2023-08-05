@@ -1,0 +1,4 @@
+Flask-SQLAlchemy>=2.4
+Flask>=1.0
+SQLAlchemy-Utils
+SQLAlchemy>=1.2
