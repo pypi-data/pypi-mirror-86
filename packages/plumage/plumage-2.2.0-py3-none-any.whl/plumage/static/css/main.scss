@@ -1,0 +1,188 @@
+body,
+input,
+button,
+select,
+textarea,
+li,
+.navbar-form .search-query {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  background: rgb(236, 236, 236) url(/theme/img/fabric_plaid.jpeg);
+  box-shadow: inset 0 10px 100px -30px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+/* Style to support pymdown-extensions' emoji:
+ * https://facelessuser.github.io/pymdown-extensions/extensions/emoji/#default-emoji-generators
+ */
+img.emojione {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.avatar-container {
+  z-index: 10;
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+  -webkit-perspective: 600;
+  -moz-perspective: 600;
+  -ms-perspective: 600;
+  -o-perspective: 600;
+  perspective: 600;
+
+  .avatar {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    .side {
+      border: solid 3px white;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+      border-radius: 16px;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      -o-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    .back {
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eee), color-stop(100%, #ddd));
+      background-image: -webkit-linear-gradient(#eee, #ddd);
+      background-image: -moz-linear-gradient(#eee, #ddd);
+      background-image: -o-linear-gradient(#eee, #ddd);
+      background-image: linear-gradient(#eee, #ddd);
+      -webkit-box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.1);
+      box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .side:hover,
+    .back {
+      border-color: #005580;
+    }
+
+    &.animate:hover,
+    &.animate .back {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
+  }
+}
+
+h1,
+h2 {
+  text-shadow: 1px 1px 1px #ddd;
+}
+
+/* Typogrify's ampersands */
+span.amp {
+  font-family: cursive;
+}
+
+/* Style title headers anchors produced by Python's Markdown module. See:
+ * https://python-markdown.github.io/extensions/toc/#usage
+ * https://github.com/kdeldycke/kevin-deldycke-blog/blob/main/pelicanconf.py#L22
+ */
+a.headerlink {
+  visibility: hidden;
+}
+
+h1:hover > a.headerlink,
+h2:hover > a.headerlink,
+h3:hover > a.headerlink,
+h4:hover > a.headerlink,
+h5:hover > a.headerlink,
+h6:hover > a.headerlink,
+dt:hover > a.headerlink {
+  visibility: visible;
+}
+
+.mglass {
+  box-shadow: 0 0 100px 0 #000 inset;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+.mglass:hover {
+  opacity: 1;
+}
+
+#content .video .mglass {
+  background-image: url(/theme/img/play-button.png);
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+  opacity: 1;
+}
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+.card .corner-banner {
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  right: -65px;
+  top: 15px;
+  width: 200px;
+  transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+}
+
+footer {
+  background: url(/theme/img/creampaper.jpeg);
+  text-shadow: 0 1px 1px white;
+  box-shadow: inset 0 30px 30px -30px rgba(0, 0, 0, 0.5);
+}
