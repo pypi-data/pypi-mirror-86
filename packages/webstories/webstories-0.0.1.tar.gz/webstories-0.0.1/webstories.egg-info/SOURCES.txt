@@ -1,0 +1,9 @@
+README.md
+setup.py
+webstories/__init__.py
+webstories/cleaner.py
+webstories.egg-info/PKG-INFO
+webstories.egg-info/SOURCES.txt
+webstories.egg-info/dependency_links.txt
+webstories.egg-info/requires.txt
+webstories.egg-info/top_level.txt

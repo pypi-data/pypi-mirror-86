@@ -1,0 +1,2 @@
+beautifulsoup4<5,>=4.6
+bleach<4,>=3.2

@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: webstories
+Version: 0.0.1
+Summary: Parser for AMP web stories
+Home-page: https://github.com/torchbox/webstories/
+Author: Matt Westcott
+Author-email: matthew@torchbox.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
