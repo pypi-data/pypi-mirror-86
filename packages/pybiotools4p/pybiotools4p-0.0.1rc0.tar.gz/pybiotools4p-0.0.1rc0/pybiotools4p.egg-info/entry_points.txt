@@ -1,0 +1,3 @@
+[console_scripts]
+biotools.py = pybiotools4p.cmdl:main
+
