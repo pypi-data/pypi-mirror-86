@@ -1,0 +1,8 @@
+twinthread/__init__.py,sha256=msusG-1KsGCjVXu1A7svMOlbSBlBlB8KiRlWgl4pRqI,11869
+twinthread/exec_task.py,sha256=IaljP3TEwXb01GHESG0DZWZzS4dHFr8wXiw3pAnSBUk,660
+twinthread/jupyter.py,sha256=nUR-3SivOXJDsLIeSHjcXFZzp3xEg-wZwf_sTvUPiJI,3373
+twinthread/string.py,sha256=ZAae1fD3kLVLqfyUEqDKP6RNYKnKFZNx9B7OZf2fh64,725
+twinthread/twinthread.py,sha256=MvJZ4KOcO2mlho17z4sf-cXsyfhS1TlxskZLJVP1te4,578
+twinthread-0.8.0.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+twinthread-0.8.0.dist-info/METADATA,sha256=9oKTMKBBjU1S7WuPaPBdKk0tyV0MOsh8EXOFHo9GtHA,631
+twinthread-0.8.0.dist-info/RECORD,,
