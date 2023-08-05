@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: component_segmentation
+Version: 1.0.0
+Summary: Segmenting syntenic blocks of shared sequence.
+Home-page: https://graphgenome.org
+Author: Josiah Seaman, Dmytro Trybushnyi, Artem Tarasov, Christian Kubica, Simon Heumos, Thomas Townsley, Pantograph Team
+Author-email: josiah@newline.us
+License: UNKNOWN
+Download-URL: https://github.com/graph-genome/component_segmentation
+Description: UNKNOWN
+Keywords: bioinformatics,dna,fasta,graph genome,GFA,MSA
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics

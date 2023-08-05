@@ -1,0 +1,6 @@
+DNASkittleUtils>=1.0.13
+sortedcontainers>=2.1
+joblib>=0.14
+psutil>=5.7
+recordclass>=0.13numpy>=1.9.3
+numba>=0.48
