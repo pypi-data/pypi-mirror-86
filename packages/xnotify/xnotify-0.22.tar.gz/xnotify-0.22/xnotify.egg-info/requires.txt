@@ -1,0 +1,8 @@
+make_colors>=3.12
+configset
+argparse
+configparser
+sendgrowl
+pydebugger
+pushbullet_py
+playsound
