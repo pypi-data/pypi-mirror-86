@@ -1,0 +1,10 @@
+serdataclasses/__init__.py,sha256=CpYn-uUzi1QkyvJAs5iPdeDnxTtgbhXERS9-ThYpR_s,496
+serdataclasses/deserialize.py,sha256=byqLQtF739kBOTBg3SUIZNSWQ7P2xuTx39JmilhW-U8,18238
+serdataclasses/errors.py,sha256=0Dryi_yBAGcqhEGTLaO1wlJytu-wbEcYcoSerkGUsbQ,2081
+serdataclasses/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serdataclasses/serialize.py,sha256=J-E9LJsYzKrq5Z_twlKBKVx7zGSN4hVaOJkJ5MT1YSs,2316
+serdataclasses/typedefs.py,sha256=uaezHIsHG6j14NMqyavXoJWBZbEdOLQex0SmljUtTqo,1422
+serdataclasses-0.8.0.dist-info/LICENSE,sha256=BREMMIgRsMOg9mbadg6vJ_Blw46QXe1moLWWUnQp024,1052
+serdataclasses-0.8.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+serdataclasses-0.8.0.dist-info/METADATA,sha256=l6SNSYWaUrCUXLIqLb1q5B_3bbJkKfJRSZ6xX3wIjMg,13054
+serdataclasses-0.8.0.dist-info/RECORD,,
