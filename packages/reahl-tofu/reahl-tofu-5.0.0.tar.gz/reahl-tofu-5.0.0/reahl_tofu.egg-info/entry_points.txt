@@ -1,0 +1,39 @@
+[reahl.eggs]
+Egg = reahl.component.eggs:ReahlEgg
+
+[reahl.versiondeps.2.0]
+nose = thirdpartyegg:_
+reahl-component = egg:2.0
+
+[reahl.versiondeps.2.1]
+nose = thirdpartyegg:_
+reahl-component = egg:2.1
+
+[reahl.versiondeps.3.0]
+nose = thirdpartyegg:_
+reahl-component = egg:3.0
+
+[reahl.versiondeps.3.1]
+six = thirdpartyegg:_
+
+[reahl.versiondeps.3.2]
+six = thirdpartyegg:_
+
+[reahl.versiondeps.4.0]
+reahl-component = egg:4.0
+six = thirdpartyegg:_
+wrapt = thirdpartyegg:1.10.2 [1.10.999]
+
+[reahl.versiondeps.5.0]
+reahl-component = egg:5.0
+wrapt = thirdpartyegg:1.11.0 [1.12.999]
+
+[reahl.versions]
+2.0 = 2.0
+2.1 = 2.1
+3.0 = 3.0
+3.1 = 3.1
+3.2 = 3.2
+4.0 = 4.0
+5.0 = 5.0
+
