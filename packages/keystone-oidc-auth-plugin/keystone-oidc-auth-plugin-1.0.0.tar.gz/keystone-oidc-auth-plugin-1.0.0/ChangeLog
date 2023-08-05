@@ -1,0 +1,51 @@
+CHANGES
+=======
+
+1.0.0
+-----
+
+* Use correct redirect\_uri
+* Workaround for google
+* Include sample configuration file
+* Do not import class
+* Remove unused variable
+* Fix travis builds
+* Remove whitespace and reorder imports
+* Update and fix testing
+* Homogenize client and config handling
+* Implement out-of-bound execution for OpenStack and Keystone clients
+* Parse the query string before checking for params
+* Set description for new conf attrib
+* Updated userinfo method flow
+* Small fixes for IAM compatibility
+
+0.1.0
+-----
+
+* Add Python3.7 as testing environment
+* Fix unit test
+* Update README.md
+* Style and test changes
+* Access token workflow implemented
+* Implement (rudimentary) JWS cache
+* Verify OAuth 2.0 access token
+* Handle Bearer authorization nicely
+* Update metadata and add a README with some documentation
+* Improve option handling and register all options that we are using
+* Generate configuration for our module
+* Refactor authenticate method
+* Add better management configuration
+* Set up environment so that federation code can do its job
+* requirements: pin pyoidc version
+* tox: update unit tests configuration
+* Removing duplicated code not needed
+* testing: solving problems
+* First version to configure N IdPs
+* First version of authenticate
+* Fix pep8 errors
+* Use travis for CI
+* Update description
+* Add initial plugin skeleton and unit testing
+* Update copyright notice
+* Remove not needed documentation
+* Initial Cookiecutter Commit

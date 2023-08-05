@@ -1,0 +1,6 @@
+[keystone.auth.openid]
+ifca = keystone_oidc_auth_plugin.auth:OpenIDConnect
+
+[oslo.config.opts]
+keystone_oidc_auth_plugin = keystone_oidc_auth_plugin.opts:list_opts
+
