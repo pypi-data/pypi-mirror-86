@@ -1,0 +1,3 @@
+[console_scripts]
+pyquoter = scripts.pyquoter:main
+
