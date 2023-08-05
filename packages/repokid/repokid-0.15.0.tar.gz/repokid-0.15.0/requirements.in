@@ -1,0 +1,15 @@
+boto3
+cloudaux
+docopt
+import_string
+marshmallow
+policyuniverse
+requests
+tabulate
+tabview
+tqdm
+pip-tools
+pydantic
+pytz
+raven
+twine
