@@ -1,0 +1,5 @@
+clint
+beautifulsoup4
+shutil
+pickle
+requests
