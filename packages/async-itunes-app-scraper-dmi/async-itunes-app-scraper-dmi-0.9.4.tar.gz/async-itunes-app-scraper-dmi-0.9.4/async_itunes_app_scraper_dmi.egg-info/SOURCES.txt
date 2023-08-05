@@ -1,0 +1,11 @@
+README.md
+setup.py
+async_itunes_app_scraper_dmi.egg-info/PKG-INFO
+async_itunes_app_scraper_dmi.egg-info/SOURCES.txt
+async_itunes_app_scraper_dmi.egg-info/dependency_links.txt
+async_itunes_app_scraper_dmi.egg-info/requires.txt
+async_itunes_app_scraper_dmi.egg-info/top_level.txt
+itunes_app_scraper/__init__.py
+itunes_app_scraper/http.py
+itunes_app_scraper/scraper.py
+itunes_app_scraper/util.py
