@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "captif-db"
+version = "0.2"
+description = ""
+license = "MIT"
+authors = ["John Bull <john.bull@nzta.govt.nz>"]
+readme = "README.md"
+keywords = ["CAPTIF", "NZTA"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.19.1"
+pandas = "^1.1.0"
+sqlalchemy = "^1.3.20"
+pymysql = "^0.10.0"
+toml = "^0.10.1"
+schema = "^0.7.2"
+sqlalchemy-utils = "^0.36.8"
+captif-db-config = "^0.3"
+eralchemy = "1.2.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.10.0"
+pre-commit = "^2.6.0"
+pytest-randomly = "^3.4.1"
+alembic = "^1.4.2"
+sphinx = "^3.2.1"
+sphinx-rtd-theme = "^0.5.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
