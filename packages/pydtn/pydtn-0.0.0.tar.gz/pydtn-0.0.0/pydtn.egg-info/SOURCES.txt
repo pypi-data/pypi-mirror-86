@@ -1,0 +1,6 @@
+README.md
+setup.py
+pydtn.egg-info/PKG-INFO
+pydtn.egg-info/SOURCES.txt
+pydtn.egg-info/dependency_links.txt
+pydtn.egg-info/top_level.txt
