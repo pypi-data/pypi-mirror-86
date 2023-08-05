@@ -1,0 +1,9 @@
+net_speed_checker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+net_speed_checker/check_speed.py,sha256=jF_nlAoPUZ4Pxu17k8KfHSLBlrTBefBcuAiSFD99gaM,3699
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_import.py,sha256=BwDAPIUnSZRAcuNVzIEgJHa3gwgEGhr6wEhLlK7yPNI,57
+net_speed_checker-0.1.dist-info/LICENSE,sha256=HctjpGlHzGyLH-TMLSI8i89qF0oK3xzHOXkIo0EZLAY,1088
+net_speed_checker-0.1.dist-info/METADATA,sha256=LZQBYZV5PQqxzfDC9oLCcEcCxlVYo6362o28OxrP4z4,1625
+net_speed_checker-0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+net_speed_checker-0.1.dist-info/top_level.txt,sha256=O5-0wW2JwF5DrracFPrEbQJRlfIf9mWwiM4NXvPd6I0,23
+net_speed_checker-0.1.dist-info/RECORD,,
