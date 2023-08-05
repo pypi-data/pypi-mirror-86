@@ -1,0 +1,5 @@
+reahl-component<5.1,>=5.0
+reahl-mailutil<5.1,>=5.0
+reahl-sqlalchemysupport<5.1,>=5.0
+reahl-web-declarative<5.1,>=5.0
+passlib<1.7.9999,>=1.7.1
