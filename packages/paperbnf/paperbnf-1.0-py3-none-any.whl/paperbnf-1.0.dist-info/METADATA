@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: paperbnf
+Version: 1.0
+Summary: UNKNOWN
+Home-page: https://github.com/thautwarm/paperbnf
+Author: thautwarm
+Author-email: twshere@outlook.com
+License: mit
+Keywords: LaTex,BNF
+Platform: any
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+
+# paperbnf
+
+`pip install paperbnf2`.
+
+Maybe the most simpest way to write pretty BNF in LaTex.
+
+```python
+import paperbnf
+print(paperbnf.parse("""
+<nonterm> ::= term !escapeterm! | !|!
+| <nonterm>
+
+description <nonterm> ::= term !escapeterm! | !|!
+| <nonterm>
+"""))
+```
+
+**P.S**: Remember to place a new line in the end of the file, this is a must(I made this to avoid unexpected line end by force).
+
+
+
