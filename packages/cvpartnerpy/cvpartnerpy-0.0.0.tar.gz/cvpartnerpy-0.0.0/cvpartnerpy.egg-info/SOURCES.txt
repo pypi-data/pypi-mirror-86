@@ -1,0 +1,9 @@
+README.md
+setup.py
+cvpartner/__init__.py
+cvpartner/cvpartner.py
+cvpartnerpy.egg-info/PKG-INFO
+cvpartnerpy.egg-info/SOURCES.txt
+cvpartnerpy.egg-info/dependency_links.txt
+cvpartnerpy.egg-info/requires.txt
+cvpartnerpy.egg-info/top_level.txt
