@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: qualified-name-extractor
+Version: 0.1.0
+Summary: extract qualified name
+Home-page: https://github.com/FudanSELab/ExtractQualifiedName
+Author: FDSEKG
+Author-email: 1547554745@qq.com
+License: Apache License, Version 2.0
+Description: extract qualified name
+Keywords: extract,qualified name,extractor
+Platform: any
