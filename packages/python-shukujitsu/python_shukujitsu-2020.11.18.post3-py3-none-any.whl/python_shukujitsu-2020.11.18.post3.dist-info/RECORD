@@ -1,0 +1,13 @@
+shukujitsu/__init__.py,sha256=Ecq6a_EdjvY1U0e6gMFvbTbq3Cb8yc7qfQkhCXI7mJU,250
+shukujitsu/__main__.py,sha256=H5r_P1azN7p0n-Vq4DGwcHnXA4UNYwNshPNmRTPaj3k,2028
+shukujitsu/data.py,sha256=Gs7u1WvnK5XPMHXBn79Jc-kxRXoB5xi6xG7IZVqW9MQ,413
+shukujitsu/exports.py,sha256=ukXSzMoz3JCcTg4cmHLaTCa2Z5TXO3W983wxv_EChz0,726
+shukujitsu/holidays.py,sha256=fibn6CjrCiWXv7uSWXnPNjaV99j-imYlZ3bW_pAP_Aw,2634
+shukujitsu/asof20201118/__init__.py,sha256=qHp-c_DqrsOUWC_cWAv7KV_CpFr2eJ9NfQRnXQqI6QQ,153
+shukujitsu/asof20201118/syukujitsu.csv,sha256=xdgfB8Bv4NbUI6wmOYTqGc1HOMdVw2ej7-wP9TG0fMA,19359
+python_shukujitsu-2020.11.18.post3.dist-info/LICENSE,sha256=MZBSrGSOxCrUrjlI9I2e6W3SRyo9Kd3bgEC0qU_p2UM,1071
+python_shukujitsu-2020.11.18.post3.dist-info/METADATA,sha256=bZRXwN6j6sOuob6K8BBq92q9igB7LL8qw0cEv-xYozU,5336
+python_shukujitsu-2020.11.18.post3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+python_shukujitsu-2020.11.18.post3.dist-info/entry_points.txt,sha256=ojeEl_Lp9kpF3tOKjGHxKJq51LJ-uvQKJ4zrFYndUBI,57
+python_shukujitsu-2020.11.18.post3.dist-info/top_level.txt,sha256=0Pe5cek-OmPWgwZjnGxUUFCovx5z_gT_5jOQmjClh3o,11
+python_shukujitsu-2020.11.18.post3.dist-info/RECORD,,
