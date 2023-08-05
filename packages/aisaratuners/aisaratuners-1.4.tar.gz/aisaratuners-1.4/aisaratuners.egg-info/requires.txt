@@ -1,0 +1,6 @@
+requests
+pandas
+numpy
+itertools
+plotly
+tensorflow>=1.15
