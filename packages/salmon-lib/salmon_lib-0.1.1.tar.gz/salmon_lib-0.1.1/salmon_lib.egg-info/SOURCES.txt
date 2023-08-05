@@ -1,0 +1,9 @@
+README.md
+setup.py
+salmon_lib/__init__.py
+salmon_lib/salmon.py
+salmon_lib.egg-info/PKG-INFO
+salmon_lib.egg-info/SOURCES.txt
+salmon_lib.egg-info/dependency_links.txt
+salmon_lib.egg-info/not-zip-safe
+salmon_lib.egg-info/top_level.txt
