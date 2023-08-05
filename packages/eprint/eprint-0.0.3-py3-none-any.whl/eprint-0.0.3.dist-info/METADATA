@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: eprint
+Version: 0.0.3
+Summary: Enhanched print() for Python
+Home-page: https://github.com/joaompinto/eprint
+Author: João Pinto
+Author-email: lamego.pinto@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: colored (>=1.4.2)
+
+# eprint
+
+Enhanched print() for Python
+
+## How to install
+
+```sh
+pip install eprint
+```
+## How to use
+
+```python
+from eprint import eprint
+
+
+eprint("Looks cool?")
+eprint.ok("Success")
+eprint.error("Failed")
+eprint.ok("Use color for {} that need {} ", "values", "attention")
+```
+
