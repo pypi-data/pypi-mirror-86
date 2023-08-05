@@ -1,0 +1,51 @@
+body {
+    visibility: hidden;
+}
+nav {
+    background-color: #534b52;
+}
+.blogstrap {
+    margin: 1rem;
+}
+.blogstrap h1 {
+    padding-bottom: 2rem;
+}
+.blogstrap h2 {
+    padding-bottom: 1rem;
+}
+.blogstrap h3 {
+    color: #474448;
+    /* font-weight: bold; */
+    font-size: 24px;
+}
+.blogstrap p {
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+.blogstrap pre {
+    background-color: #e0ddcf;
+    color: #534b52;
+    border: 1px;
+    padding: 1em;
+}
+
+.blogstrap blockquote p {
+    position: relative;
+    font-family: 'Sanchez', serif;
+    font-style: italic;
+    margin-left: 2em;
+    /* &:before { */
+    /* 	content: '\201C'; */
+    /* 	position: absolute; */
+    /* 	top: 0.25em; */
+    /* 	left: -0.15em; */
+    /* 	color: darken($white, 7%); */
+    /* 	font-size: 6em; */
+    /* 	z-index: -1; */
+    /* } */
+}
+
+/* support for html5 elements in non-html5 browsers */
+article, aside, footer, header, nav, section {
+    display: block;
+}
