@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+ssound.egg-info/PKG-INFO
+ssound.egg-info/SOURCES.txt
+ssound.egg-info/dependency_links.txt
+ssound.egg-info/top_level.txt
