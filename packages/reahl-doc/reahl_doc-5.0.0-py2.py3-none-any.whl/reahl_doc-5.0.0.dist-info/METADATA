@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: reahl-doc
+Version: 5.0.0
+Summary: Documentation and examples for Reahl.
+Home-page: http://www.reahl.org
+Maintainer: Iwan Vosloo
+Maintainer-email: iwan@reahl.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: reahl-web (<5.1,>=5.0)
+Requires-Dist: reahl-component (<5.1,>=5.0)
+Requires-Dist: reahl-sqlalchemysupport (<5.1,>=5.0)
+Requires-Dist: reahl-web-declarative (<5.1,>=5.0)
+Requires-Dist: reahl-domain (<5.1,>=5.0)
+Requires-Dist: reahl-domainui (<5.1,>=5.0)
+Requires-Dist: reahl-commands (<5.1,>=5.0)
+Requires-Dist: pytest (>=3.0)
+Requires-Dist: setuptools (>=32.3.1)
+Provides-Extra: pillow
+Requires-Dist: Pillow (<7.1.999,>=2.5) ; extra == 'pillow'
+
+Reahl is a web application framework that allows a Python programmer to work in terms of useful abstractions - using a single programming language.
+
+Reahl-doc contains documentation and examples of Reahl.
+
+See http://www.reahl.org/docs/5.0/tutorial/gettingstarted-install.d.html for installation instructions. 
+
