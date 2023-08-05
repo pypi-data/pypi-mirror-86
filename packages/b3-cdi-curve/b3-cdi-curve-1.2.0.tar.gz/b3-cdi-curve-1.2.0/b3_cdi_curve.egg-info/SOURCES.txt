@@ -1,0 +1,12 @@
+README.md
+setup.py
+b3_cdi_curve.egg-info/PKG-INFO
+b3_cdi_curve.egg-info/SOURCES.txt
+b3_cdi_curve.egg-info/dependency_links.txt
+b3_cdi_curve.egg-info/requires.txt
+b3_cdi_curve.egg-info/top_level.txt
+b3cdi/__init__.py
+b3cdi/b3cdi.py
+b3cdi/database.py
+b3cdi/files_utils.py
+b3cdi/scrapper.py
