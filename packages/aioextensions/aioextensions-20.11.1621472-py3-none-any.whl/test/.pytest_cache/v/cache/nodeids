@@ -1,0 +1,7 @@
+[
+  "test___init__.py::test_acquire",
+  "test___init__.py::test_collect_and_resolve",
+  "test___init__.py::test_executor_pool",
+  "test___init__.py::test_in",
+  "test___init__.py::test_rate_limited"
+]

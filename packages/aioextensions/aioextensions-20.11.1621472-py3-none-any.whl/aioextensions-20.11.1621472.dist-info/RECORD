@@ -1,0 +1,13 @@
+aioextensions/__init__.py,sha256=73DXxPv9PeYJIzGtxWrngofmLKaXHg_yiDE57ofOzG8,27532
+aioextensions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/.pytest_cache/.gitignore,sha256=Ptcxtl0GFQwTji2tsL4Gl1UIiKa0frjEXsya26i46b0,37
+test/.pytest_cache/CACHEDIR.TAG,sha256=_6yxVh2WiLnZteBvP_oQgUoDwqb4kte-o-f-9iWZ6yM,194
+test/.pytest_cache/README.md,sha256=J6cHG6OcnvQFTq-ZvFnj8KoyimIWb0JuZUnvkjredTM,295
+test/.pytest_cache/v/cache/lastfailed,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+test/.pytest_cache/v/cache/nodeids,sha256=SumZVRTFnuKcBuIpz5qyl6dLAhaekW1w2iV5RZzy4zI,200
+test/.pytest_cache/v/cache/stepwise,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+test/test___init__.py,sha256=QegCdFo6lONtnE1mC5PT3-kJvsTg2dT7oBxV-KaSZnQ,4385
+aioextensions-20.11.1621472.dist-info/LICENSE.md,sha256=GunsJk4gzVHjHcNguxOOr3zGA6o9eYoBDX4EOyVbXMU,1074
+aioextensions-20.11.1621472.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+aioextensions-20.11.1621472.dist-info/METADATA,sha256=GfkVpFCJ_SpF78Mk2InOWvVr84LCTYMuMwuZlyDM7xs,1916
+aioextensions-20.11.1621472.dist-info/RECORD,,
