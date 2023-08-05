@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: modernlab
+Version: 0.0.3
+Summary: Data visualization and analysis tools
+Home-page: https://github.com/AlexZades/modernlab
+Author: Alex Zades
+Author-email: az@st4r.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: numpy (>=1.14.5)
+Requires-Dist: matplotlib (>=2.2.0)
+
+# modernlab
+Package of python scripts to help with data analysis  
+check the [wiki on github](https://github.com/AlexZades/modernlab/wiki/) for help 
+
+
