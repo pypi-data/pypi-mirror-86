@@ -1,0 +1,10 @@
+b3cdi/__init__.py,sha256=q52UNYt8jX2zAX6V-KfrbzEX5cHuKBa7BPU8EVCoGhc,48
+b3cdi/b3cdi.py,sha256=bf-PdbDPzpcLnnzLbQvc0GyqQyG5o7O5EOBzatiVtOo,2994
+b3cdi/database.py,sha256=nl-hcC11UvQnpLLr6U9lLit7QOF2LWNlNfH2fkOqjpk,1861
+b3cdi/files_utils.py,sha256=kgAC8OH1zAoKQGibhsO8JU7jEw21NK-ybT7ho80zbsk,730
+b3cdi/scrapper.py,sha256=jqevHfueqMfpDR1HkqyA9UB07SZWwb3r3RB1ewJeepc,1260
+b3_cdi_curve-1.2.0.dist-info/LICENSE.txt,sha256=Kpu014kk4MOma7HDk5OLRgwXra1d7FL9DlHdUhmB0oU,1056
+b3_cdi_curve-1.2.0.dist-info/METADATA,sha256=PBl39M1t1La2ChQl97CZV53xIDbUeS3kg-KcJCva3cE,3003
+b3_cdi_curve-1.2.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+b3_cdi_curve-1.2.0.dist-info/top_level.txt,sha256=vVeAIdBtTyu9dGayd_WPbrWtbMMEWeXaVqnW_o0n2NM,6
+b3_cdi_curve-1.2.0.dist-info/RECORD,,
