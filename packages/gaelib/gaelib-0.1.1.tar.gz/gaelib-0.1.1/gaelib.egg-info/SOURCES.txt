@@ -1,0 +1,13 @@
+setup.py
+./__init__.py
+./gaelib/__init__.py
+./gaelib/defaults.py
+./gaelib/env.py
+./gaelib/filters.py
+./gaelib/urls.py
+gaelib.egg-info/PKG-INFO
+gaelib.egg-info/SOURCES.txt
+gaelib.egg-info/dependency_links.txt
+gaelib.egg-info/not-zip-safe
+gaelib.egg-info/requires.txt
+gaelib.egg-info/top_level.txt
