@@ -1,0 +1,10 @@
+qucochemistry/__init__.py,sha256=QBdtq9Rr_uouF44heuUoKMh_4Tkzyu47dg6KLpFhQms,108
+qucochemistry/_version.py,sha256=O1y2i1C4m602NbHgLdHmpflu9TGf21O6bs3ZEn_x0w4,23
+qucochemistry/circuits.py,sha256=yZQpCW9chc7kCw5c_BQbZLnOiA_RRk8-Z6QH7tVCEJk,10242
+qucochemistry/utils.py,sha256=GXpsuU7q6XQVA-IiSNcYosIxnNdoxmDwIX7G6ufpez4,9097
+qucochemistry/vqe.py,sha256=RGkK_QfIJ5DURCJ314tcIZq-tfuWK6HAAiYsULsDPlo,42648
+qucochemistry-0.1.2.dist-info/LICENSE,sha256=wWcLNnCJfyXdrVExb_7Ou4nGzZsC1qXaw-NWKJHi3iE,11546
+qucochemistry-0.1.2.dist-info/METADATA,sha256=AIVz1yEicbSQ-LA4HO9VhX5ohKNc2fJoXkvBHMrhx9s,6493
+qucochemistry-0.1.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+qucochemistry-0.1.2.dist-info/top_level.txt,sha256=ZnVSVWdeIkYYrcKfSTvlDpnVhqfj3jgkkeCjsqu5HrE,14
+qucochemistry-0.1.2.dist-info/RECORD,,
