@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-seabird"
+version = "0.1.0"
+description = ""
+authors = ["Kaleb Elwert <belak@coded.io>"]
+license = "MIT"
+packages = [
+    { include = "seabird" },
+]
+include = ["LICENSE", "README.md"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+grpclib = "^0.4.1"
+betterproto = "^1.2.5"
+
+[tool.poetry.dev-dependencies]
+grpcio-tools = "^1.33.2"
+betterproto = {extras = ["compiler"], version = "^1.2.5"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
