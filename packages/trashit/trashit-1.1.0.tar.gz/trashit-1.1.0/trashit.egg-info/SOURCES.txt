@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+trashit/__init__.py
+trashit/command_line.py
+trashit.egg-info/PKG-INFO
+trashit.egg-info/SOURCES.txt
+trashit.egg-info/dependency_links.txt
+trashit.egg-info/entry_points.txt
+trashit.egg-info/not-zip-safe
+trashit.egg-info/requires.txt
+trashit.egg-info/top_level.txt
