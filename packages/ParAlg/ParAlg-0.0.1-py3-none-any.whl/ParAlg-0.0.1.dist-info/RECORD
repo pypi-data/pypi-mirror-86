@@ -1,0 +1,15 @@
+paralg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paralg/helpers.py,sha256=9jG54je0212YOnKn6CEkoWZn5QeGEkREhrJ7LUlAJBk,789
+paralg/experiments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paralg/experiments/logger.py,sha256=rurDZcwmH02fZfEfkl4kYEWg6POuTiB9uHXV7sM62o4,2936
+paralg/experiments/sorting.py,sha256=NpeVCu2UTgeOtzSZXderHU5KMSKPqal2qZTc9DWZxx8,2050
+paralg/sorting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paralg/sorting/algorithms.py,sha256=RUXpw8nYEE0fA0clUSwQzsIeWCQNcJDYd40er_WeI9s,5380
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_helpers.py,sha256=Em26Pd78gjQTKLhwCqbqOLPHHFGNyU1EtoTVsY0QvDI,454
+tests/test_sorting.py,sha256=FaMOS80zk-YtGsFNnZV_yVHrQowfDaJSNIAAOQEtp-I,2034
+ParAlg-0.0.1.dist-info/LICENSE,sha256=yR_3eK5zA7z0voH_oGfBY1oUs0NNeXUgd_YcObVJFyI,1082
+ParAlg-0.0.1.dist-info/METADATA,sha256=SgQJrZR0apD_OoILtqKPmga-3TfDamHGBboO3N8yTu0,853
+ParAlg-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+ParAlg-0.0.1.dist-info/top_level.txt,sha256=PrLBYJNAdlNhGtFGKkxgIi5_GVbu8XUF-fvNbQXVvSU,13
+ParAlg-0.0.1.dist-info/RECORD,,
