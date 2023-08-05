@@ -1,0 +1,36 @@
+# android-asset-generator
+___
+### Description
+android-assset-generator is a command line program for generate ldpi, mdpi, hdpi, xhdpi, xxhdpi and xxxhdpi density images for your Android Studio Project.
+___
+### Requeriments
+* Pillow 8.0.1
+___
+
+### Installing
+       pip install android-asset-generator
+___
+
+### Usage
+1. Prepare a folder that contains only the images you want to convert to the different densities.
+2. Run the following command.
+
+       android-asset-generator  path   density
+
+Argument | Description | Example
+---------|------------ | -----------
+path     | Full path string of your asset folder | C:\Users\MyUser\Desktop\img xhdpi
+density  | The source density. If your images are mdpi, put mdpi as argument | ldpi, mdpi, hdpi, xhdpi, xxhdpi or xxxhdpi
+
+> **Note:** You must not switch order of the arguments
+
+3. The generated images will be saved in different folders within the specified path following the Android Studio standard:
+ - drawable-ldpi
+ - drawable-mdpi
+ - drawable-hdpi
+ - drawable-xhdpi
+ - drawable-xxhdpi
+ - drawable-xxxhdpi
+
+4. The source images will be moved to the corresponding folder without having suffered alterations.
+___
