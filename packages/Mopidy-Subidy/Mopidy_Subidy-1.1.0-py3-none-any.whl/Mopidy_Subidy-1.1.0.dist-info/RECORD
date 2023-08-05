@@ -1,0 +1,14 @@
+mopidy_subidy/__init__.py,sha256=4hGXy6ry5TZaW7TrCS7mYbE_3h1pWQScUENhp821ijw,846
+mopidy_subidy/backend.py,sha256=Ifw2JdoY1_q1GA9F7HTpNBvfhCraRkyIajiUdKSLSz0,951
+mopidy_subidy/ext.conf,sha256=JUUVuXh00u8bqyzfzJvnQCnTuLlNyC26d-jEcwYRyJg,90
+mopidy_subidy/library.py,sha256=tSMZUcobAT_ZHXSeSXGyTL0FGQ3-_bN71pql63BlrtM,6813
+mopidy_subidy/playback.py,sha256=5AvulunHHVmhSxHFCQ-pReyCbuoEv_ASQlwiMW8Afnc,622
+mopidy_subidy/playlists.py,sha256=1ANOf0IPPupSq1xhZEIpJGY2w1dX8DTx8BlvJmgIgMs,1750
+mopidy_subidy/subsonic_api.py,sha256=QeIK4JxsbVbH4Fyfy1zsgVePcltebDE0NCwZjySQURw,20915
+mopidy_subidy/uri.py,sha256=vq6BHr1WOWyHzQAsu8mpiMXd_eDvpxM30U04an4OtMU,2076
+Mopidy_Subidy-1.1.0.dist-info/LICENSE,sha256=C6OgFCKRRr4j_beQ2Gylec5rZjUAnt_lZzwPg4rICD0,1502
+Mopidy_Subidy-1.1.0.dist-info/METADATA,sha256=MPN7wpQpbQmNfNmxpQNAxP7YlIk733la-bXYBWyeKMs,4151
+Mopidy_Subidy-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Mopidy_Subidy-1.1.0.dist-info/entry_points.txt,sha256=Qly1R8JG9QkfhEm6tV15dXka2j_yU0L0j3KWKG8bUec,53
+Mopidy_Subidy-1.1.0.dist-info/top_level.txt,sha256=Y-G0_Bx3jVaM-wg3qnOtf5T7ZrG-XM2x4DL36xfxgK0,14
+Mopidy_Subidy-1.1.0.dist-info/RECORD,,
