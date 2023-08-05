@@ -1,0 +1,3 @@
+[console_scripts]
+grq = grq.__main__:cli
+

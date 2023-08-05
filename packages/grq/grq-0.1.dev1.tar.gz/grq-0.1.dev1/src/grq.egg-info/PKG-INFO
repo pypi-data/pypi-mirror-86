@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: grq
+Version: 0.1.dev1
+Summary: ...
+Home-page: https://github.com/pycontribs/grq
+Author: Sorin Sbarnea
+Author-email: sorin.sbarnea@gmail.com
+Maintainer: Sorin Sbarnea
+Maintainer-email: sorin.sbarnea@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/pycontribs/grq
+Project-URL: Tracker, https://github.com/pycontribs/grq
+Project-URL: CI, https://github.com/pycontribs/grq/actions
+Description: # grq
+Keywords: gerrit,git,query,search,regex,luicene
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Bug Tracking
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
