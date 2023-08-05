@@ -1,0 +1,9 @@
+arby/__init__.py,sha256=6ez7ZPLW69cWUOWQKRj0w1QFhgTOV5ZSl9loKhffzaM,223
+arby/eim.py,sha256=kG_Kg16Dg8TmJGK-AY7Vwh8EfJSC-mInU-FUgVv3dOQ,2293
+arby/greedy.py,sha256=Ts6O1f4OQZ48INeeCOb7vX0JMj8pJmxYPybx5nMwPLI,7526
+arby/integrals.py,sha256=4awyy2PzPr3XdXWTqy9n5As_oo-TafmjOHjauH9YOgc,5260
+arby-0.1a1.dist-info/LICENSE,sha256=0M9DUmJ2L4TiptI1yEqCTDMt20y5dOLEVicgGXGTmFU,1074
+arby-0.1a1.dist-info/METADATA,sha256=-Ae0_qRCDIlwIhmNE28Z1-lD0y1lihdR1PUKl30kQS0,718
+arby-0.1a1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+arby-0.1a1.dist-info/top_level.txt,sha256=8gLh86uPsd3G6cudOf7Dm4iyZy5IHXv3S-5uFRlRuys,5
+arby-0.1a1.dist-info/RECORD,,

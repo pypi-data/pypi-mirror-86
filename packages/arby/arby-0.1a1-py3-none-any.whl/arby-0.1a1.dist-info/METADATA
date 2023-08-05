@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: arby
+Version: 0.1a1
+Summary: UNKNOWN
+Home-page: https://gitlab.com/aaronuv/arby
+Author: Aarón Villanueva
+Author-email: aaron.villanueva@unc.edu.ar
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.6)
+Requires-Dist: scipy (>=0.16)
+
+# Arby
+
+[Model Order Reduction (MOR)](https://en.wikipedia.org/wiki/Model_order_reduction) is a technique for reducing the computational complexity of mathematical models in numerical simulations.
+
+Arby is a fully data-driven Python module to construct reduced order basis, empirical interpolants and surrogate models from training data.
+
+# License
+
+MIT
+
+# Documentation
+
+
+
+***
+
+(c) 2020 Aaron Villanueva
+
+
