@@ -1,0 +1,4 @@
+reprit>=0.3.0
+
+[:python_version < "3.5.4" or python_version < "3.6.1"]
+typing-extensions
