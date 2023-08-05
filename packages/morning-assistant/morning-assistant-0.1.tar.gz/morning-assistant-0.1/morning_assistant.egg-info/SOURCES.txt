@@ -1,0 +1,9 @@
+README.md
+setup.py
+./assistant
+./assistant.py
+morning_assistant.egg-info/PKG-INFO
+morning_assistant.egg-info/SOURCES.txt
+morning_assistant.egg-info/dependency_links.txt
+morning_assistant.egg-info/requires.txt
+morning_assistant.egg-info/top_level.txt
