@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: xmark
+Version: 1.0.0
+Summary: XMark: Benchmark for Node-Attributed Community Discovery
+Home-page: https://github.com/dsalvaz/XMark
+Author: ['Salvatore Citraro']
+Author-email: salvatore.citraro@phd.unipi.it
+License: BSD-Clause-2
+Keywords: complex-networks community-discovery labeled-graph network-generator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: networkx
+
+UNKNOWN
+
+
