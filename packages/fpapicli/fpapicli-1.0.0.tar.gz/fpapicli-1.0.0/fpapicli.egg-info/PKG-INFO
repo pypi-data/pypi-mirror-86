@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: fpapicli
+Version: 1.0.0
+Summary: CLI for Football Player API
+Home-page: UNKNOWN
+Author: Pranav V P
+Author-email: pranavvp07@gmail.com
+License: UNKNOWN
+Description: CLI for football player API. API source : http://footballplayerapi.herokuapp.com/
+Keywords: python,cli,api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
