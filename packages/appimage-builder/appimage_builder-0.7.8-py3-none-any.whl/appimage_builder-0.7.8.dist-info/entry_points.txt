@@ -1,0 +1,3 @@
+[console_scripts]
+appimage-builer = appimagebuilder.__main__:__main__
+
