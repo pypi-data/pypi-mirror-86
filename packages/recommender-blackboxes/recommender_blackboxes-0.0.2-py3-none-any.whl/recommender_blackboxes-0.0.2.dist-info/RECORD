@@ -1,0 +1,9 @@
+recommender/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recommender/collab.py,sha256=Y8xq_j4zZDPMN05FcYeSWr7CiaESH2aGpfqYFrQ6mrg,311
+recommender/content.py,sha256=GE4gNl7lkiVKAFiyiTF6JalbBIcGD10PhavtIDPltFY,2900
+recommender/popularity.py,sha256=OD4Pbld8MmZ9DlgNqG2T88Ubr0jnGeRkkCbThUmFu2A,2320
+recommender_blackboxes-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+recommender_blackboxes-0.0.2.dist-info/METADATA,sha256=qDcZh8_0-3g8mT0z7qdc1owWhfBB9jsXFkYbFDrNnnY,738
+recommender_blackboxes-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+recommender_blackboxes-0.0.2.dist-info/top_level.txt,sha256=H2xxE5bwPwdNSD6mUEZmFVtMV5zMouTgh4pkIqUpSKE,12
+recommender_blackboxes-0.0.2.dist-info/RECORD,,
