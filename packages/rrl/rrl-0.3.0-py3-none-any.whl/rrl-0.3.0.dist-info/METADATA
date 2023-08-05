@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rrl
+Version: 0.3.0
+Summary: simple redis rate limiting
+License: MIT
+Author: James Turk
+Author-email: dev@jamesturk.net
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: redis (>=3.5.3,<4.0.0)
