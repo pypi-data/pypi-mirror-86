@@ -1,0 +1,16 @@
+freephil/__init__.py,sha256=7vgPlKwKcwnoDgyZf5ykna8zUkHPn5S0_djecXBtX1E,250
+freephil/command_line.py,sha256=7QQlL0SPglo6yepypt-vVUH-AaSZD9_3sDFqO5dAObE,9000
+freephil/common.py,sha256=mVATN7e1zv9wQ5nB0-RGlZ8qCkAXhq3e-dNhfGQcZOg,95478
+freephil/experimental.py,sha256=_nhkwgQdkbYsQKLDLaRL9FGyhfHeJSrLHpLMNl8OcjA,2298
+freephil/gui_objects.py,sha256=Knst56YDtP76mBz3iaphCJXEZl2j4X84NP2vv4Q9wDg,10617
+freephil/interface.py,sha256=gwHpTSpFQHFe-GLGeP05nXS3k_39pRwizxLc_r6Rpfc,37745
+freephil/legacy.py,sha256=Y9lLvdFyy5UL2etCcrPCXr6tS4vkrTLQ04ZDOYTnSAc,4008
+freephil/parser.py,sha256=l2xhY1-QkcC4hoCzsjQ_Tktv3Xk6ty80Kw2SPt7D13E,7483
+freephil/test_scopes.py,sha256=VGsN2WjulWNF2CaRIbu1LG-a2Osb1QaLMPdgOqaTyEQ,2192
+freephil/tokenizer.py,sha256=60PLFCwDFX2i5faeB_qE4rZ1mG3ba5vqOnShPILmgOU,12364
+freephil-0.0.1.dist-info/LICENSE,sha256=WvH8BF7tuePK7da8skljIZ25FzRJMTKgtLVZihsIlxk,1528
+freephil-0.0.1.dist-info/METADATA,sha256=wAUbo_TrDGPOF8lnuY_Sz6GacfpuWzBCO3zLtqFufeM,2045
+freephil-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+freephil-0.0.1.dist-info/entry_points.txt,sha256=ejZQ7-6OMJd8FgB8nmQ51D8oRYl6JLT7hgZhEerx3u0,40
+freephil-0.0.1.dist-info/top_level.txt,sha256=kqD6RcUmZL8AG5uFozl4CzsUaOeSkDA_jccuUTg0yT4,9
+freephil-0.0.1.dist-info/RECORD,,
