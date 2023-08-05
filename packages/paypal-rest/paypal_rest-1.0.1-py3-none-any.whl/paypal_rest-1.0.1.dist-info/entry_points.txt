@@ -1,0 +1,3 @@
+[console_scripts]
+paypal-query = paypal_rest.cliquery:entry_point
+
