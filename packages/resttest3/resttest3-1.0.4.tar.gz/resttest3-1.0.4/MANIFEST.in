@@ -1,0 +1,7 @@
+include *.yaml
+include resttest3/reports/template/*.html
+include LICENSE
+include requirements.txt
+global-exclude *.pyc
+global-exclude test_*.py
+include setup.py
