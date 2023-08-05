@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ailia
+Version: 0.1.0.0
+Summary: ailia SDK
+Home-page: https://ailia.jp/
+Author: ax Inc.
+Author-email: contact@axinc.jp
+License: Commercial License
+Description: ailia SDK
+Platform: UNKNOWN
+Requires-Python: >3.6
+Description-Content-Type: text/markdown

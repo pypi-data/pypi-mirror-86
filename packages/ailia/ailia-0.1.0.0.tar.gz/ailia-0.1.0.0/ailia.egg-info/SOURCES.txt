@@ -1,0 +1,7 @@
+README.md
+setup.py
+ailia/__init__.py
+ailia.egg-info/PKG-INFO
+ailia.egg-info/SOURCES.txt
+ailia.egg-info/dependency_links.txt
+ailia.egg-info/top_level.txt
