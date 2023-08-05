@@ -1,0 +1,3 @@
+[console_scripts]
+combine-subfigs=latex_subfigs_combiner.combine_subfigures:main
+
