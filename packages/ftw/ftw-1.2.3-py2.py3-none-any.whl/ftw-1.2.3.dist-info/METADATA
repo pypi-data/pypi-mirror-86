@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: ftw
+Version: 1.2.3
+Summary: Framework for Testing WAFs
+Home-page: https://www.github.com/coreruleset/ftw
+Author: Chaim Sanders, Zack Allen
+Author-email: zma4580@gmail.com, chaim.sanders@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/coreruleset/ftw/tarball/1.2.3
+Keywords: waf
+Platform: UNKNOWN
+Requires-Dist: Brotli (==1.0.7)
+Requires-Dist: IPy (==0.83)
+Requires-Dist: PyYAML (==4.2b1)
+Requires-Dist: pytest (==4.6)
+Requires-Dist: python-dateutil (==2.6.0)
+Requires-Dist: six (==1.14.0)
+
+UNKNOWN
+
+
