@@ -1,0 +1,16 @@
+pdir/__init__.py,sha256=jWbumpP1BI0Ob3yspwEnMbyvd5G28UspiAOV36gWGfA,133
+pdir/_internal_utils.py,sha256=hjKtp1pXPk20cM9VCOC2v_sUaG5uh8cs_-SWVwz9lWY,1509
+pdir/api.py,sha256=OQxlxubuBpAANK6YtJG0LepzEVfbUvmVdsn-vRHYZwk,6932
+pdir/attr_category.py,sha256=siEif2FDa6yw-7xSySavFg9HMClCcyKPUpJSz0Mtsvk,13885
+pdir/color.py,sha256=3xna5ovbd2B9V0g5VQeOQyZjQsvuY-1tVYu3dapUiPs,1348
+pdir/configuration.py,sha256=IOt9XHvcnfRhLzz9zcERYrTs6LT9FBKoud-OW7sb-nk,2896
+pdir/constants.py,sha256=KQi5ANp96yJRUZmdMcAVobbV9q8nab6FaH1OLR9GTgU,341
+pdir/format.py,sha256=72c9xvsQeLYEPN2k2NsGZBGnMr-vrAGs82CES7_XXRw,3378
+pdir/model.py,sha256=tsWWUVwp4fYXbzp0Qt6GlEGntDxu7bM_QzFCvEQ2vmw,185
+pdir/utils.py,sha256=n7G1Z0e5v-TV6QgxeAT0uE-SqQ5vQc_Nxhx4HcgHP94,695
+pdir2-0.3.2.dist-info/LICENSE,sha256=OG3vIXbrPgMYrP1X8XXC2DAJPLtN616BdCOmVMmt64U,1064
+pdir2-0.3.2.dist-info/METADATA,sha256=QqOPXrH8GSAOvPMQJNwf6MAQvDHy8cp5zNvHda0yLUc,5196
+pdir2-0.3.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pdir2-0.3.2.dist-info/pbr.json,sha256=emQmw24AdWWAoZwUo3iPGA-Q6wLnXmqSyF2BvhA1p0g,46
+pdir2-0.3.2.dist-info/top_level.txt,sha256=v4iqozYHQpQvOAp75aaJS89Gxqq9UUHCcwyKXPBrCKY,5
+pdir2-0.3.2.dist-info/RECORD,,
