@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: temp-to-rgbw
+Version: 0.0.5
+Summary: Converts a Kelvin Temperatur to RBGW
+Home-page: https://github.com/TwoSolutions/TemperaturToRGBW
+Author: Hypercookie
+Author-email: hypercookie@gmx.de
+License: UNKNOWN
+Description: # TemperatureToRGBW
+        Convert a Kelvin Temperature to RGBW
+        
+        Usage:
+        ```python
+        from temptorgbw_pkg import TemperatureToRGBW
+        r,g,b,w = TemperatureToRGBW.kelvin_to_rgbw(temperature)
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
