@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: iTheraPY
+Version: 1.1.0
+Summary: Environment for iThera Python tools
+Home-page: UNKNOWN
+Author: ilib
+Author-email: ilib@ithera-medical.com
+License: UNKNOWN
+Description: # iThera Medical Python 3 Environment
+        
+        * This module will install base libraries for iThera Medical tools.
+        * No iThera tools will be installed upon iTheraPY installation. iThera tools must be installed separately after installing iTheraPY.
+        * When installing specific iThera tools, it might be required to install additional libraries/binary distributions (wheels). Please refer to the tool-specific installation guide. 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
