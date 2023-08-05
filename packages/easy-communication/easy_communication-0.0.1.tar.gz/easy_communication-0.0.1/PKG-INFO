@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: easy_communication
+Version: 0.0.1
+Summary: A simple communication between processes
+Home-page: https://github.com/develask/easy_communication
+Author: Mikel de Velasco
+Author-email: develascomikel@gmail.com
+License: UNKNOWN
+Description: ## Easy Communication
+        
+        It is a simmple module to create communication between diferent processes.
+        
+        #### A Server sample:
+        
+        ```python
+        import easy_communication
+        s = easy_communication.Server()
+        
+        def echo(x):
+        	print(x)
+        	return "New message"
+        
+        s.handler = echo
+        s.start()
+        ```
+        
+        #### How to send data from other proccess:
+        
+        ```python
+        import easy_communication
+        
+        data = "my data"
+        returned_data = easy_communication.send_data(data)
+        
+        assert returned_data == "New message"
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
