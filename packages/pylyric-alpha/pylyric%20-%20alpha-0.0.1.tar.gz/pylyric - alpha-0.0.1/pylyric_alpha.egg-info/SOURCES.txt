@@ -1,0 +1,10 @@
+README.md
+setup.py
+pylyric/__init__.py
+pylyric/plot.py
+pylyric_alpha.egg-info/PKG-INFO
+pylyric_alpha.egg-info/SOURCES.txt
+pylyric_alpha.egg-info/dependency_links.txt
+pylyric_alpha.egg-info/entry_points.txt
+pylyric_alpha.egg-info/requires.txt
+pylyric_alpha.egg-info/top_level.txt
