@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+villaBackendSdk/__init__.py
+villaBackendSdk/_nbdev.py
+villaBackendSdk/basket.py
+villaBackendSdk.egg-info/PKG-INFO
+villaBackendSdk.egg-info/SOURCES.txt
+villaBackendSdk.egg-info/dependency_links.txt
+villaBackendSdk.egg-info/entry_points.txt
+villaBackendSdk.egg-info/not-zip-safe
+villaBackendSdk.egg-info/requires.txt
+villaBackendSdk.egg-info/top_level.txt
