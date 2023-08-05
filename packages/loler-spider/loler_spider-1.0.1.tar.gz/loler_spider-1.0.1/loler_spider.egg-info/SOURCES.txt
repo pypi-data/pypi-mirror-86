@@ -1,0 +1,9 @@
+README.md
+setup.py
+loler_spider/HeroSpider.py
+loler_spider/__init__.py
+loler_spider.egg-info/PKG-INFO
+loler_spider.egg-info/SOURCES.txt
+loler_spider.egg-info/dependency_links.txt
+loler_spider.egg-info/requires.txt
+loler_spider.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: loler_spider
+Version: 1.0.1
+Summary: A spider to download lol-hero image
+Home-page: https://github.com/zzzzls/
+Author: zzzzls
+Author-email: 245129129@qq.com
+License: MIT
+Description: # loler_spider
+        
+        用于下载 英雄联盟 英雄图片哦!
+Keywords: lol,image,spider,download
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
