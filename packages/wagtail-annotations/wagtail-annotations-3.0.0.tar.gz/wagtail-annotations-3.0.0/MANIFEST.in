@@ -1,0 +1,2 @@
+recursive-include wagtail_annotations/static *
+recursive-include wagtail_annotations/templates *

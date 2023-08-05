@@ -1,0 +1,5 @@
+wagtail>=2.7
+Django>=2.0
+
+[testing]
+selenium==3.0.0
