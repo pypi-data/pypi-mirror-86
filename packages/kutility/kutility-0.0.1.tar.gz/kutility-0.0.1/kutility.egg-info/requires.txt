@@ -1,0 +1,6 @@
+pandas
+pymongo
+python_dotenv
+selenium
+setuptools
+undetected_chromedriver

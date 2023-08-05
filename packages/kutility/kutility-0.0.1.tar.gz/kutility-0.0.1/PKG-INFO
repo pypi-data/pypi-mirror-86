@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: kutility
+Version: 0.0.1
+Summary: Utility package to manage recurrent task (env variable management, session authentification, pathfinder ...)
+Home-page: https://github.com/Pyth314/kutility/tree/master/
+Author: Pierre-Yves Thumerel
+Author-email: pierre-yves.thumerel@icloud.com
+License: Apache Software License 2.0
+Description: # Project name here
+        > Summary description here.
+        
+        
+        This file will become your README and also the index of your documentation.
+        
+        ## Install
+        
+        `pip install your_project_name`
+        
+        ## How to use
+        
+        Fill me in please! Don't forget code examples:
+        
+        ```python
+        1+1
+        ```
+        
+        
+        
+        
+            2
+        
+        
+        
+Keywords: Utility
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
