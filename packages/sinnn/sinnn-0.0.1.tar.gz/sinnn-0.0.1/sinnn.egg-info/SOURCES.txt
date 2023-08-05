@@ -1,0 +1,15 @@
+README.md
+setup.py
+sinnn/Initialisers.py
+sinnn/Layers.py
+sinnn/Losses.py
+sinnn/Metrics.py
+sinnn/Model.py
+sinnn/Optimisers.py
+sinnn/__init__.py
+sinnn/utils.py
+sinnn.egg-info/PKG-INFO
+sinnn.egg-info/SOURCES.txt
+sinnn.egg-info/dependency_links.txt
+sinnn.egg-info/requires.txt
+sinnn.egg-info/top_level.txt
