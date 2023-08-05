@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/python_modhex
+python_modhex/__init__.py
+python_modhex/_version.py
+python_modhex/python_modhex.py
+python_modhex.egg-info/PKG-INFO
+python_modhex.egg-info/SOURCES.txt
+python_modhex.egg-info/dependency_links.txt
+python_modhex.egg-info/top_level.txt
