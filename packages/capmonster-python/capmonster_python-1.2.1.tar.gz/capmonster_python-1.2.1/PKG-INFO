@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: capmonster_python
+Version: 1.2.1
+Summary: Unofficial capmonster.cloud library for Python
+Home-page: https://github.com/alperensert/python_capmonster
+Author: Alperen Sert
+Author-email: alperenssrt@gmail.com
+License: MIT
+Download-URL: https://github.com/alperensert/python_capmonster/archive/v1.2.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.4
+Requires: requests
