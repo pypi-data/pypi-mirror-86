@@ -1,0 +1,10 @@
+future
+
+[:python_version < "3.0.0"]
+future-fstrings
+
+[dev]
+check-manifest
+
+[test]
+coverage
