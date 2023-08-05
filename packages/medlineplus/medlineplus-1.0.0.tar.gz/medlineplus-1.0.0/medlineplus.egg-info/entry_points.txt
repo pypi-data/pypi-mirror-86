@@ -1,0 +1,5 @@
+[console_scripts]
+medlineplus = medlineplus.bin.__init__:cli
+medlineplus-condition = medlineplus.bin.__init__:condition_cli
+medlineplus-gene = medlineplus.bin.__init__:gene_cli
+
