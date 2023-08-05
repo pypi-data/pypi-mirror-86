@@ -1,0 +1,7 @@
+gunicorn_logger/__init__.py,sha256=V4cPODEmGPqt8QMpkrbaRjE8LENhUdmPMLmnzd5v9oA,112
+gunicorn_logger/config.py,sha256=v6BbZoZsiOxBokbLknpoezTUc8ZkMG7DzEvmq1nRx7A,2533
+gunicorn_json_logger-0.0.3.dist-info/LICENSE,sha256=aS0fIS07W61mahzL-qjdghMT0mEUtuO1Kq_x8tCqKg0,1066
+gunicorn_json_logger-0.0.3.dist-info/METADATA,sha256=0U9hWAsQEvWgRy1Ry8ciLbXrn81Zu8VWV9u9Qd4Vxgw,880
+gunicorn_json_logger-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gunicorn_json_logger-0.0.3.dist-info/top_level.txt,sha256=kKnJI8BTw7KNFW0mUDGKmNpHcoPKu29FzgVT2mySMmQ,16
+gunicorn_json_logger-0.0.3.dist-info/RECORD,,
