@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: duco-miner-reVox96
+Version: 1.7
+Summary: Official Duino-Coin Python Miner
+Home-page: https://duinocoin.com
+Author: Robert Piotrowski
+Author-email: robik123.345@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Official Duino-Coin Miner
+![GitHub](https://github.com/revoxhere/duino-coin)
+
+
