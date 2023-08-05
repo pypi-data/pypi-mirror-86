@@ -1,0 +1,4 @@
+pandas
+tethysts
+seaborn
+tethys-utils
