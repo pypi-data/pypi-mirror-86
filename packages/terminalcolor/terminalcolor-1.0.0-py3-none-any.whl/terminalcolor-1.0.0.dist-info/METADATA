@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: terminalcolor
+Version: 1.0.0
+Summary: Change the Python terminal text color.
+Home-page: https://github.com/cheongwoli/TerminalColor
+Author: cheongwoli
+Author-email: cheong7wol@gmail.com
+License: MIT
+Keywords: Python Terminal Text Color,terminal text color,terminalcolor
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
