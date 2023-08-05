@@ -1,0 +1,4 @@
+wrapt>=1.12.1
+psutil>=5.7.0
+requests>=2.0.0
+wafec-tests-openstack-base
