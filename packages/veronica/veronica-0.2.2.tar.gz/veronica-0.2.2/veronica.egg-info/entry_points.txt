@@ -1,0 +1,3 @@
+[console_scripts]
+veronica = src.veronica.cli:main
+
