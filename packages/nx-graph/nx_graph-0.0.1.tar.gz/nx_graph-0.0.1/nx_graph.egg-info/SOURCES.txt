@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+nx_graph/NX.py
+nx_graph/__init__.py
+nx_graph/_imports_.py
+nx_graph/metadata.json
+nx_graph/nx_graph.min.js
+nx_graph/nx_graph.min.js.map
+nx_graph/package-info.json
+nx_graph.egg-info/PKG-INFO
+nx_graph.egg-info/SOURCES.txt
+nx_graph.egg-info/dependency_links.txt
+nx_graph.egg-info/top_level.txt

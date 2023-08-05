@@ -1,0 +1,7 @@
+include nx_graph/nx_graph.min.js
+include nx_graph/nx_graph.min.js.map
+include nx_graph/metadata.json
+include nx_graph/package-info.json
+include README.md
+include LICENSE
+include package.json
