@@ -1,0 +1,7 @@
+include dash_jsme/dash_jsme.min.js
+include dash_jsme/dash_jsme.min.js.map
+include dash_jsme/metadata.json
+include dash_jsme/package-info.json
+include README.md
+include LICENSE
+include package.json
