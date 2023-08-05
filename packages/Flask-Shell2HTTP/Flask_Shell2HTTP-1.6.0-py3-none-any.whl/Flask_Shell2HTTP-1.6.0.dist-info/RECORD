@@ -1,0 +1,10 @@
+flask_shell2http/__init__.py,sha256=dFisVNRLPfbvyWFzi39Z6AMO8oa8Bsou8WU9bodM_Vw,230
+flask_shell2http/api.py,sha256=5X7oDWAkpwv92_uQOncnfDsmiJtTAPPTFRTMAWSXwuA,3861
+flask_shell2http/base_entrypoint.py,sha256=LY74fO67vvohvgMbmfP9T9Cqgq1a4d6LTi1FjdDG1Bc,5431
+flask_shell2http/classes.py,sha256=bOX16c6TndNE0IVPRcCeYCFQxS5IPpyjqM2D-X1QiV4,5616
+flask_shell2http/helpers.py,sha256=d0SYdU850i23JPdy9XyLk1QExoCWTiEosr9UavT-Gec,964
+Flask_Shell2HTTP-1.6.0.dist-info/LICENSE,sha256=TgRY48BEJ9xWy1if-wnRcv9pfmkeqY3lF6J6M3dsqcM,1521
+Flask_Shell2HTTP-1.6.0.dist-info/METADATA,sha256=05qfym9Rwcv5zlSd2vmKo5V0NFfYsHtG8kc2vbdMFEg,6666
+Flask_Shell2HTTP-1.6.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Flask_Shell2HTTP-1.6.0.dist-info/top_level.txt,sha256=Z7KgiLu8wzPVEdN7LBHZDVS2ItD-BPZPR02rSY6XrqQ,17
+Flask_Shell2HTTP-1.6.0.dist-info/RECORD,,
