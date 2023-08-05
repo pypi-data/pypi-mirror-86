@@ -1,0 +1,13 @@
+hbp-service-client
+requests
+nameparser
+hbp_seafile
+
+[reports]
+Jinja2
+pyppdf
+beautifulsoup4
+hbp_archive
+
+[utils]
+sciunit
