@@ -1,0 +1,6 @@
+README.md
+setup.py
+dice_tools.egg-info/PKG-INFO
+dice_tools.egg-info/SOURCES.txt
+dice_tools.egg-info/dependency_links.txt
+dice_tools.egg-info/top_level.txt
