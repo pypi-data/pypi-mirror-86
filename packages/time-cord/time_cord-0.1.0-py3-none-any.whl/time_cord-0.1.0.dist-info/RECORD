@@ -1,0 +1,12 @@
+time-cord/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+time-cord/insights.py,sha256=o2eN2VfpiOndoQsgUHWqGEe5xAUcnxrErTGhl8G3Mqc,14425
+time-cord/monitor.py,sha256=hxQ_B_PXyDY12aS6cRzsIIVhReMjamSiJqrgeZ0scGc,7799
+time-cord/run.py,sha256=EnPKwrb1mIe7VoviCpMNGkSp3TGprp4TcCF-TFl7Y58,1564
+time-cord/schedule.py,sha256=uLjd7eUUzU0hwopwKsGVcth-IcLA887nji03TbdW-1w,2145
+time-cord/test.py,sha256=-vpz8aW01AUJbp-dTKqX6Rp0PEoCdu8XdFaAX4jie5M,129
+time-cord/traverse.py,sha256=ta_oBvwDMZHLfzTVHFaoxzeOM7UDAXqBWyjcpZEXm2s,1734
+time_cord-0.1.0.dist-info/LICENSE,sha256=c0rBvYQPy5bl7j8FuBJpVJhakqloq0I3qyzB0RzScB0,1054
+time_cord-0.1.0.dist-info/METADATA,sha256=hdZzpkx0UIcZuIB4m3ESX4X84Qbkn2DMIkSnCJEOo2Y,1290
+time_cord-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+time_cord-0.1.0.dist-info/top_level.txt,sha256=C5xDb1BXjCS_OWduRK41Ok9BhHn0iSJXutUs7uYmBaI,10
+time_cord-0.1.0.dist-info/RECORD,,
