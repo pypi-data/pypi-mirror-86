@@ -1,0 +1,12 @@
+__version__.py
+setup.py
+xnotify/__init__.py
+xnotify/__version__.py
+xnotify/notify.py
+xnotify/winsound_linux.py
+xnotify.egg-info/PKG-INFO
+xnotify.egg-info/SOURCES.txt
+xnotify.egg-info/dependency_links.txt
+xnotify.egg-info/entry_points.txt
+xnotify.egg-info/requires.txt
+xnotify.egg-info/top_level.txt
