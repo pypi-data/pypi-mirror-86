@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: delta-robot-trampoline
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Download-URL: https://github.com/RicoJia/delta_robot_trampoline/archive/0.0.1.tar.gz
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: gym
+Requires-Dist: pybullet
+Requires-Dist: numpy
+
+UNKNOWN
+
+
