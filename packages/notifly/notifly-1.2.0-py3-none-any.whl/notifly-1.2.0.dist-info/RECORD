@@ -1,0 +1,10 @@
+notifly/__init__.py,sha256=NAiY144R9FwJ9hwD8t3g8noeARsZCwlxhI9ysPNCc4M,291
+notifly/discord.py,sha256=1-thxKp2SnIzxfNJBqjOPKWhCbZGObOcTTB25mss8mg,2255
+notifly/slack.py,sha256=mTFNZeTu0_5hQxsrRiarysEjrC2XBFgbgGlAjgRRJCM,1904
+notifly/telegram.py,sha256=vIT98ikHaBmDb7nXP9QEWv2Imlv5prH0Pss7brfzZvY,4676
+notifly/tf_notifier.py,sha256=VPRJfcMPs7QIDe4grg4BR6sJzTAA1Pwr1U_bdDYW21E,7592
+notifly-1.2.0.dist-info/LICENSE,sha256=cFaYUQdW23mV0TqIPykr9llbRCr-kDbZLY43tYfpFaM,1068
+notifly-1.2.0.dist-info/METADATA,sha256=Ydw-CopbwStUV03J2Bj-wBNSOvkNAUdmFt2n-vwToPg,7530
+notifly-1.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+notifly-1.2.0.dist-info/top_level.txt,sha256=z6bCIG2-96rDA8vpGo2OV51bCOG2IQDU84crJkuTv2U,8
+notifly-1.2.0.dist-info/RECORD,,
