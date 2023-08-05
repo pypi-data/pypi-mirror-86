@@ -1,0 +1,16 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+docs/api.rst
+docs/conf.py
+docs/index.rst
+tidaloauth4mopidy/__init__.py
+tidaloauth4mopidy/models.py
+tidaloauth4mopidy.egg-info/PKG-INFO
+tidaloauth4mopidy.egg-info/SOURCES.txt
+tidaloauth4mopidy.egg-info/dependency_links.txt
+tidaloauth4mopidy.egg-info/requires.txt
+tidaloauth4mopidy.egg-info/top_level.txt
