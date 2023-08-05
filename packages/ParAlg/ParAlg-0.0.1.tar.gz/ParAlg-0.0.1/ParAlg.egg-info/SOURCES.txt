@@ -1,0 +1,16 @@
+README.md
+setup.py
+ParAlg.egg-info/PKG-INFO
+ParAlg.egg-info/SOURCES.txt
+ParAlg.egg-info/dependency_links.txt
+ParAlg.egg-info/top_level.txt
+paralg/__init__.py
+paralg/helpers.py
+paralg/experiments/__init__.py
+paralg/experiments/logger.py
+paralg/experiments/sorting.py
+paralg/sorting/__init__.py
+paralg/sorting/algorithms.py
+tests/__init__.py
+tests/test_helpers.py
+tests/test_sorting.py
