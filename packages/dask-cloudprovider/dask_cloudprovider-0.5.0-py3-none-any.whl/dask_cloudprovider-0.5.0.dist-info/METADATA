@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: dask-cloudprovider
+Version: 0.5.0
+Summary: Native Cloud Provider integration for Dask
+Home-page: https://github.com/dask/dask-cloudprovider
+License: BSD
+Keywords: dask,cloud,distributed
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: dask (>=2.2.0)
+Requires-Dist: distributed (>=2.30)
+Requires-Dist: jinja2
+Provides-Extra: all
+Requires-Dist: python-digitalocean ; extra == 'all'
+Requires-Dist: google-auth ; extra == 'all'
+Requires-Dist: azure-cli-core ; extra == 'all'
+Requires-Dist: aiobotocore (>=0.10.2) ; extra == 'all'
+Requires-Dist: google-api-python-client ; extra == 'all'
+Requires-Dist: azureml-sdk (>=1.0.83) ; extra == 'all'
+Requires-Dist: azure-mgmt-network ; extra == 'all'
+Requires-Dist: azure-mgmt-compute ; extra == 'all'
+Provides-Extra: aws
+Requires-Dist: aiobotocore (>=0.10.2) ; extra == 'aws'
+Provides-Extra: azure
+Requires-Dist: azure-mgmt-compute ; extra == 'azure'
+Requires-Dist: azure-mgmt-network ; extra == 'azure'
+Requires-Dist: azure-cli-core ; extra == 'azure'
+Provides-Extra: azureml
+Requires-Dist: azureml-sdk (>=1.0.83) ; extra == 'azureml'
+Provides-Extra: digitalocean
+Requires-Dist: python-digitalocean ; extra == 'digitalocean'
+Provides-Extra: gcp
+Requires-Dist: google-api-python-client ; extra == 'gcp'
+Requires-Dist: google-auth ; extra == 'gcp'
+
+UNKNOWN
+
+
