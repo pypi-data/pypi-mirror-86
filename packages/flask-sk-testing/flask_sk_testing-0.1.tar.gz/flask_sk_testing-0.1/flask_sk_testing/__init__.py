@@ -1,0 +1,1 @@
+from flask_sk_testing.sk_string import SkString
