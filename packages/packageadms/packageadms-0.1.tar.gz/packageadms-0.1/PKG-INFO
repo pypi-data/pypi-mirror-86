@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: packageadms
+Version: 0.1
+Summary: This is first My package for basic mathamatical operations...
+Home-page: UNKNOWN
+Author: addzz
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: packageadms is mainly use for basic calculations 
+         in  python using some funtions like, add_numbers(num1,num2),divide_numbers(num1,num2),multiply_numbers(num1,num2),substract_numbers(num1,num2)
+         all these funtions can be use for calculations. It provides ease to do some.
+Platform: UNKNOWN
