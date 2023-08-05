@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: spatialedge-analytics-mesh
+Version: 0.0.1
+Summary: Facades and common functions necessary for data science and data engineering workflows
+Home-page: UNKNOWN
+Author: Jacques du Toit, Carl du Plessis, Lydia de Lange, Bernie Lindner
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: coverage (==4.5.4)
+Requires-Dist: numpy (==1.17.0)
+Requires-Dist: pandas (==0.25.0)
+Requires-Dist: flake8 (==3.7.9)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: google-cloud-storage (>=1.24.1)
+Requires-Dist: pytz (==2019.2)
+
+# analytics-mesh
+Interfaces and facades that facilitate a common approach to analytics tasks
+
+
