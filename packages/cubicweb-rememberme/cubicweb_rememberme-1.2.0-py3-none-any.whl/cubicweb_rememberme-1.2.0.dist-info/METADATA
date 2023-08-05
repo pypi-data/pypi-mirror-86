@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cubicweb-rememberme
+Version: 1.2.0
+Summary: implementation of the Remember Me feature for the CubicWeb framework
+Home-page: http://www.cubicweb.org/project/cubicweb-rememberme
+Author: LOGILAB S.A. (Paris, FRANCE)
+Author-email: contact@logilab.fr
+License: LGPL
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: CubicWeb
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: JavaScript
+Requires-Dist: cubicweb (>=3.24.0)
+
+This cube provides an implementation of the Remember Me, so users don't have
+to login again when they come back later.
+
+It is non-obstrusive and easy to plug.
+
+

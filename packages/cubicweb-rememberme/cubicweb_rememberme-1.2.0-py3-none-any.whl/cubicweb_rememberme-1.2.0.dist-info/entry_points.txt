@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+rememberme = cubicweb_rememberme
+
