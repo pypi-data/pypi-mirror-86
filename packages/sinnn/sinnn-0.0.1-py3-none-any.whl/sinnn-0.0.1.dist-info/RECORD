@@ -1,0 +1,13 @@
+sinnn/Initialisers.py,sha256=EBaujce-ZN8SGERoiQ7iCH6vr27o_kTDmc6worKXgyk,1249
+sinnn/Layers.py,sha256=UGrQu6OUyNHzgHlM4pl_C6koq_YKlSe3-0hNFtqHNFY,5129
+sinnn/Losses.py,sha256=kR23aKiB-OJqLfMeMYoENr3dEs8JC3clnOzV3STNH0k,3836
+sinnn/Metrics.py,sha256=BfPaCS1e8ytbc8VlQcriE3eutQ_3GMS6vQyl8Se2wtw,2792
+sinnn/Model.py,sha256=LSJrzP5HNTV8fTweT1gNbHyjs0K5T3TbqPgTuck7-E0,8506
+sinnn/Optimisers.py,sha256=sLBfx8J1ci9GUVJMOifnAkjJ-l-RhWt4AWP5VJDqVbk,4872
+sinnn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sinnn/utils.py,sha256=qQGRLTRq2KRS7GAZYUtpN_JbeM9uvUIJqEbSYIdGZfw,2915
+sinnn-0.0.1.dist-info/LICENSE,sha256=TguxsE2Wt5VWZ0EK-_vB8bnl2eFGNAL4jML1V9MN5W8,1068
+sinnn-0.0.1.dist-info/METADATA,sha256=xbMZSaHvbgXRB62oKIEu01Das3VDhtKy1U2Nb0np7HE,1133
+sinnn-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sinnn-0.0.1.dist-info/top_level.txt,sha256=ROCNZ7W5Dx0LZ_4AHeLGvbiLb5AblfB0sKJXEogvTXo,6
+sinnn-0.0.1.dist-info/RECORD,,
