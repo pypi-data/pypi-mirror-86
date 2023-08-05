@@ -1,0 +1,9 @@
+scripts/__init__.py,sha256=yxhhCja36vFnMbDooZHeuQXh03PvBxKWojYF7TJySgk,24
+scripts/pyquoter.py,sha256=4jPiyokWx7tH5ll4fOWOG2PXWp10WT7PFA0GvowZApo,2559
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/database_test.py,sha256=u_aSSN85KGcKLzQGN4tRG0jYUzyCT0CIhy0_hMZwdik,2458
+pyquoter-0.0.1a5.dist-info/METADATA,sha256=Uvp38PpzGqULI22pY7QAZgmjecElKcgy-_5y_PlHBZw,1636
+pyquoter-0.0.1a5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyquoter-0.0.1a5.dist-info/entry_points.txt,sha256=z0t2XsDzZe6pAC6K2twVZw7Qy9ECskqpnNSXlrRtqKU,52
+pyquoter-0.0.1a5.dist-info/top_level.txt,sha256=CDPXqpn6NDpWFuG0FVcZYny-LHkrNSfWNsUc_U9dbEA,13
+pyquoter-0.0.1a5.dist-info/RECORD,,
