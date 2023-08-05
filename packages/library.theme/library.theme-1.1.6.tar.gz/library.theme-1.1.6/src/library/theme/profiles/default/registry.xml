@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<registry>
+  <records prefix="plone.resources/bibliotheca-custom"
+            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+      <value key="css">
+        <element>++plone++library-theme/bibliotheca_custom.less</element>
+      </value>
+  </records>
+  <records prefix="plone.bundles/bibliotheca-custom"
+            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+  <value key="resources">
+    <element>bibliotheca-custom</element>
+  </value>
+  <value key="enabled">True</value>
+  <value key="compile">True</value>
+  <value key="csscompilation">++plone++static/bibliotheca-custom-compiled.css</value>
+  <value key="last_compilation">2018-07-13 00:00:00</value>
+</records>
+</registry>

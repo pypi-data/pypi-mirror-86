@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="library.theme">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+      directory="overrides"
+      layer="library.theme.interfaces.ILibraryThemeLayer"
+      />
+
+  <!-- Publish static files -->
+  <plone:static
+      name="library.theme"
+      type="plone"
+      directory="static"
+      />
+
+  <!-- Moved viewlet registration -->
+  <browser:viewlet
+      name="plone.site_actions"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class="plone.app.layout.viewlets.common.SiteActionsViewlet"
+      permission="zope2.View"
+      layer="library.theme.interfaces.ILibraryThemeLayer"
+      />
+
+</configure>

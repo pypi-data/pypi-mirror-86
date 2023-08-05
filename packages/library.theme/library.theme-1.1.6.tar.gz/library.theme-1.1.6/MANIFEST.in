@@ -1,0 +1,13 @@
+graft src/library
+graft docs
+include *.rst
+global-exclude *.pyc
+include *.py
+include *.GPL
+include *.txt
+include *.js
+include *.json
+exclude .gitlint
+exclude .pre-commit-config.yaml
+exclude package-lock.json
+exclude Makefile

@@ -1,0 +1,249 @@
+.section-explorer .faceted-text-widget legend, .section-explorer .faceted-taxonomy_select2-widget legend, .section-explorer  .faceted-taxonomy_select2-widget label {
+	display: none;
+}
+#faceted-form .faceted-widget {
+	width: 20%;
+	float: left;
+}
+#faceted-form .section-current-search.faceted-widget {
+	width: 100%;
+	clear: both;
+}
+.section-current-search fieldset dl, .section-current-search fieldset dt, .section-current-search fieldset dd, .section-current-search .faceted-criteria-reset {
+	float: left;
+}
+.section-explorer #faceted-form .faceted-widget fieldset {
+	border: #ccc solid 0;
+}
+.section-explorer .widget-fieldset form .searchButton{
+    margin-left: 1rem;
+}
+body.template-facetednavigation_view .eea-preview-items .button-map-content .button-map {
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-ms-flex-align: center;
+	align-items: center;
+	border: none;
+	background: none;
+	text-shadow: none;
+	padding: 0;
+	margin-left: auto;
+}
+body.template-facetednavigation_view .eea-preview-items .button-map-content .button-map::after {
+	content: '\e807';
+	font-weight: 900;
+	font-family: fontello;
+	font-size: 2rem;
+	padding-left: 0.5rem;
+}
+body.template-facetednavigation_view .eea-preview-items .button-map-content .button-map.show-map::after {
+	content: '\e807';
+	font-weight: 900;
+	font-family: fontello;
+	font-size: 2rem;
+    padding-left: 0.5rem;
+    opacity: .3;
+}
+body.template-facetednavigation_view .eea-preview-items #faceted-map {
+	width: 52% !important;
+	display: inline-block !important;
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	height: 90vh !important;
+	top: 5vh !important;
+}
+body.template-facetednavigation_view .eea-preview-items #faceted-results {
+	width: 46%;
+	display: inline-block;
+    margin-right: auto;
+	margin-right: 20px;
+	.geolocated{
+		position: relative;
+		&:after{
+			content: "";
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background: url(../static/map.svg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			right: 7px;
+			top: 10px;
+		}
+	}
+	.not-geolocated{
+		position: relative;
+		&:after{
+			content: "";
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background: url(../static/no-map.svg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			right: 7px;
+			top: 10px;
+			opacity: .4;
+		}
+	}
+}
+body.template-facetednavigation_view .eea-preview-items {
+	padding: 1rem 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+body.template-facetednavigation_view .eea-preview-items .button-map-content {
+	width: 100%;
+	text-align: right;
+}
+
+body.template-facetednavigation_view .eea-preview-items .faceted-map-item {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: solid 2px#f0f0f0;
+}
+
+
+body.template-facetednavigation_view .eea-preview-items .faceted-map-item a .items-content {
+	display: -ms-flexbox;
+	display: flex;
+}
+.select2-container {
+	width: 100%;
+}
+@media screen and (max-width:1200px){
+
+#content-core #faceted-form .faceted-widget {
+	width: 92%;
+}
+#faceted-form .faceted-widget {
+	float: none;
+}
+}
+
+.faceted-text-widget .searchButton, .faceted-text-widget .searchButton:hover {
+	right: 0;
+	top: 0;
+	position: absolute;
+	width: 1em;
+	color: transparent;
+	text-shadow: none;
+}
+.faceted-text-widget form::after {
+	content: "ok";
+	float: right;
+	top: 0;
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	cursor: pointer;
+}
+.faceted-text-widget form {
+	position: relative;
+}
+body.template-facetednavigation_view .eea-preview-items .faceted-map-item a .items-content .image img {
+    display: block;
+    max-height: 222px;
+}
+body.template-facetednavigation_view .eea-preview-items .faceted-map-item a .items-content .text {
+	max-height: 200px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+    padding: 0 1.5rem;
+}
+
+body.template-facetednavigation_view .eea-preview-items #faceted-map.hidden {
+    display: none !important;
+}
+@media screen and (min-width:1200px) {
+    body.template-facetednavigation_view .eea-preview-items #faceted-map.hidden ~ #faceted-results{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    body.template-facetednavigation_view .eea-preview-items #faceted-map.hidden ~ #faceted-results .items-content{
+    max-height: 180px;
+    }
+    body.template-facetednavigation_view .eea-preview-items #faceted-map.hidden ~ #faceted-results .faceted-map-item{
+        width: 48%;
+	}
+
+}
+
+@media screen and (max-width:1200px) {
+    body.template-facetednavigation_view .eea-preview-items #faceted-map {
+        width: 100%!important;
+        margin: 0 auto;
+        position: relative!important;
+        top: 0!important;
+        height: 30vh!important;
+        margin-bottom: 2rem;
+    }
+    body.template-facetednavigation_view .eea-preview-items #faceted-results {
+        width: 100%;
+        display: inline-block;
+        margin-right: auto;
+        margin-right: 20px;
+    }
+}
+
+.plone-nav li a {
+	display: inline-block;
+}
+#formfield-form-widgets-group_identification,
+
+#formfield-form-widgets-group_localisation,
+
+#formfield-form-widgets-group_owner,
+
+#formfield-form-widgets-group_item_status,
+
+#formfield-form-widgets-group_item_description,
+
+#formfield-form-widgets-group_item_conservation,
+
+#formfield-form-widgets-group_item_history,
+
+#formfield-form-widgets-group_item_notes_and_comments{
+    font-size: 120%;
+    text-transform: uppercase;
+    margin: 3em 0 0 0;
+    line-height: 1em;
+}
+h2 label {
+    font-weight: normal;
+}
+@media screen and (min-width:768px) {
+#portal-globalnav-wrapper{
+    .plone-nav li ul li a {
+        min-width: 22em;
+    }
+    .plone-navbar-nav > li.has_subtree ul li a {
+        padding-right: 0em;
+    }
+    .plone-nav .has_subtree .has_subtree:hover > ul {
+        left: 25.2em;
+    }
+}
+
+}
+
+#portal-globalnav i.glyphicon.link-https {
+    float: left;
+    z-index: -1;
+}
+
+.col-md-pull-9 {
+    right: 0 !important;
+}
+.col-md-push-3 {
+    left: 0 !important;
+}
