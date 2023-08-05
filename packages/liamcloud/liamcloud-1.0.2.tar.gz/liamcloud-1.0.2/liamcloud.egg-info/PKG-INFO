@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: liamcloud
+Version: 1.0.2
+Summary: 云服务
+Home-page: https://github.com/py-liam/liamcloud
+Author: liam
+Author-email: 37907909@qq.com
+License: MIT
+Description: # 服务 liamcloud
+        
+        ## 目前提供的功能
+        
+        ### 聊天机器人
+        
+            `发消息 mkcloud.robot.chat('哈哈哈哈')`
+            `切换中英文服务 mkcloud.robot.setLanguage('en')`
+        
+        ### MqTT功能
+        
+        - 导入方式：
+          
+            `from mkcloud.mqtt import mqtt`
+        
+        - MQTT连接
+        
+            `mqtt.connect()`
+        
+        - 信息发送
+        
+            `mqtt.publish_message("topic", "messages")`
+        
+        - 信息接收
+        
+            `def callback(topic, data): print("CallBack -Received", data, "topic:", topic)`
+            `mqtt.subscribe_message("topic",callback)`
+        
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
