@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: RyzenUtil
+Version: 0.1.0
+Summary: common util
+Home-page: https://pypi.org/manage/project/ryzenutil/releases/
+Author: 张东旭
+Author-email: 774270974@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: requests
+
+Small methods of work!
+
+python setup.py sdist bdist_wheel
+
+twine upload dist/*
+
