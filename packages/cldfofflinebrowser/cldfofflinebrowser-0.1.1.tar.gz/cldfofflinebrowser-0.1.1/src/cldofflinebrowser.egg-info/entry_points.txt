@@ -1,0 +1,3 @@
+[cldfbench.commands]
+offline = cldfofflinebrowser.commands
+
