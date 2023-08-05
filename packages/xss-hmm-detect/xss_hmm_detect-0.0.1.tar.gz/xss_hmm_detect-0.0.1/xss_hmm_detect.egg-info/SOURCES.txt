@@ -1,0 +1,13 @@
+.DS_Store
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dist/.DS_Store
+xss_hmm_detect/.DS_Store
+xss_hmm_detect/__init__.py
+xss_hmm_detect/hmm-xss-train.pkl
+xss_hmm_detect.egg-info/PKG-INFO
+xss_hmm_detect.egg-info/SOURCES.txt
+xss_hmm_detect.egg-info/dependency_links.txt
+xss_hmm_detect.egg-info/top_level.txt
