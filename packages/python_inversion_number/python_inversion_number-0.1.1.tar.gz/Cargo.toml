@@ -1,0 +1,35 @@
+[package]
+name = "python_inversion_number"
+version = "0.1.1"
+authors = ["elbaro <elbaro@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+pyo3 = "0.12.3"
+
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
+
+[target.x86_64-apple-darwin]
+rustflags = [
+  "-C", "link-arg=-undefined",
+  "-C", "link-arg=dynamic_lookup",
+]
+
+[dev-dependencies]
+criterion = "0.3.3"
+rand = "0.7.3"
+
+[[bench]]
+name = "basic"
+harness = false
+
+[package.metadata.maturin]
+maintainer = "elbaro"
+project-url = ["https://github.com/elbaro/python-inversion-number"]
