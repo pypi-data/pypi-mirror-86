@@ -1,0 +1,26 @@
+APL 0.1:		(19/11/2020)
+//////////////////////////////
+
+
+Available commands:
+
+	========================
+	Reshape_Arabic()
+		#To use:
+		Reshape_Arabic(Any text, To reverse type #True#)
+		
+		Output is a text
+	
+	========================
+	Extract()
+		#To use:
+		Extract(Any text, Before the wanted text, After the wanted text, Wanted text min size, Wanted text max size)
+		
+		Output is an array
+	
+	========================
+	Text_Box_Fitter()
+		# To use:
+		Text_Box_Fitter(Any text, Text zone width, Lines number, New line command, New page command, Characters list: [[char 1, width], [char2, width]...])
+		
+		Output is a text
