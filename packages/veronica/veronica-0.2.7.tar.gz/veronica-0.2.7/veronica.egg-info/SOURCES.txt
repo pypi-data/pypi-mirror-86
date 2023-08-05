@@ -1,0 +1,11 @@
+README.md
+setup.py
+veronica/__init__.py
+veronica/cli.py
+veronica/common.py
+veronica/veronica.py
+veronica.egg-info/PKG-INFO
+veronica.egg-info/SOURCES.txt
+veronica.egg-info/dependency_links.txt
+veronica.egg-info/entry_points.txt
+veronica.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: veronica
+Version: 0.2.7
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Nirmal Khedkar
+Author-email: nirmalhk7@gmail.com
+License: MIT
+Description: ![Upload Python Package](https://github.com/nirmalhk7/veronica-cli/workflows/Upload%20Python%20Package/badge.svg?branch=master)
+        
+        # veronica-cli
+        
+        Your faithful Linux Assistant.
+        
+        ## Features Implemented
+        - *Google Knowledge API*: Run `info SEARCH_TERM` to get relevant information such as the who's, where's and what's.
+        - *Darksky API*
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
