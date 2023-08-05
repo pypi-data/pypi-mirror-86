@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gradslam
+Version: 0.1.0
+Summary: gradSLAM: Dense SLAM meets Automatic Differentiation
+Home-page: https://gradslam.github.io/
+Author: MontrealRobotics
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >3.6
+Requires-Dist: torch (>=1.6.0)
+Requires-Dist: chamferdist (==1.0.0)
+Requires-Dist: imageio
+Requires-Dist: kornia
+Requires-Dist: natsort
+Requires-Dist: numpy
+Requires-Dist: plotly (>=4.10)
+Requires-Dist: pyyaml
+Requires-Dist: open3d (==0.10.0.0)
+Requires-Dist: opencv-python-headless
+Provides-Extra: all
+Requires-Dist: matplot ; extra == 'all'
+Requires-Dist: tqdm ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: nbsphinx ; extra == 'dev'
+Requires-Dist: pytest (>=4.6) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.7) ; extra == 'dev'
+Requires-Dist: sphinx (==2.2.0) ; extra == 'dev'
+
+
+gradslam is a fully differentiable dense SLAM framework. It provides a repository of differentiable building blocks 
+for a dense SLAM system, such as differentiable nonlinear least squares solvers, differentiable ICP 
+(iterative closest point) techniques, differentiable raycasting modules, and differentiable mapping/fusion blocks. 
+One can use these blocks to construct SLAM systems that allow gradients to flow all the way from the outputs of the 
+system (map, trajectory) to the inputs (raw color/depth images, parameters, calibration, etc.).
+
+
