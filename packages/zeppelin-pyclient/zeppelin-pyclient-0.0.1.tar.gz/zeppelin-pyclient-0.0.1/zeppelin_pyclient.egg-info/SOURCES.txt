@@ -1,0 +1,7 @@
+README.md
+setup.py
+zeppelin_pyclient.egg-info/PKG-INFO
+zeppelin_pyclient.egg-info/SOURCES.txt
+zeppelin_pyclient.egg-info/dependency_links.txt
+zeppelin_pyclient.egg-info/requires.txt
+zeppelin_pyclient.egg-info/top_level.txt
