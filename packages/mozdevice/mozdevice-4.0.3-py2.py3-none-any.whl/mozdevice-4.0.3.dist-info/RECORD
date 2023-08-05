@@ -1,0 +1,9 @@
+mozdevice/__init__.py,sha256=6Tiw7_KRl_RYmxQ-ib9wzCtPv4qobMBChWd0RkKNcUU,6854
+mozdevice/adb.py,sha256=XJ1AkDa3qAOJVWZY7JryeHSxhkmEHWgsMQvt4-GBrS4,162585
+mozdevice/adb_android.py,sha256=c-GZBOGwCQu6K3XBkAdTWArrA8QkW2D8cnVeUe-N04Y,416
+mozdevice/version_codes.py,sha256=BtpPYVxl6_2drmyN63GGXrA7houa6IC1ogm4S9Nv8DI,1569
+mozdevice-4.0.3.dist-info/METADATA,sha256=haHXcQN4bcCwszXsS43xz7eJOr2i-9u3qtPI8qTictw,470
+mozdevice-4.0.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+mozdevice-4.0.3.dist-info/entry_points.txt,sha256=FjKvgvGyIyqokCxiGIVCvaGmkWcXwEXZ8W6zk1mtvZQ,37
+mozdevice-4.0.3.dist-info/top_level.txt,sha256=2Y-kotdJ6rNUH2k_nTfwI3EXGd6DuErDWjaMijZgGys,10
+mozdevice-4.0.3.dist-info/RECORD,,
