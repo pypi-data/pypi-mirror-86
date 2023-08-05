@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: FilterReportIPsByCount
+Version: 1.0.0
+Summary: Script to read through a report, grab IPs and check if malicious
+Home-page: https://github.com/divyaaveerama/FilterReportIPsByCount
+Author: Divyaa Kamalanathan
+Author-email: divyaa.kamalanathan@intrinium.com
+License: UNKNOWN
+Description: # FilterReportIPsByCount
+        Script to read through a report containing IP addresses that are potentially malicious and require blacklisting, check if those IPs appear in the report a number of times (count), and check if those IPs have been blacklisted. Outputs to standard out or in a chosen file.
+        
+        ## How to Use
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
