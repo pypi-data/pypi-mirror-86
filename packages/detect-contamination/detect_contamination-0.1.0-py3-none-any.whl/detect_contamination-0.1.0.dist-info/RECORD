@@ -1,0 +1,15 @@
+detect_contamination/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+detect_contamination/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+detect_contamination/__main__.py,sha256=-jH_yM6K3_AqJFJcUEcQSsQVYBG2LRbYUCezar2FBZ4,4051
+detect_contamination/detect.py,sha256=qN3QJuOed6wRkWt839NLoL_iVHhFk4J5taEK_E3i2kw,306
+detect_contamination/detect_contamination.py,sha256=SOH3yfEiQvNAxMclXcIqfDEgLidI48Rv8DSM9U_yfc4,2068
+detect_contamination/fragmentation.py,sha256=fndDaHeKS9dheRSkmiIS32Agg8XK3roqvGzuJ21Q8MU,3119
+detect_contamination/graph.py,sha256=jTifFXrzqte81Y0_l0ATmmX7DKn8tTILfK8PBCUkrRQ,498
+detect_contamination/index_builder.py,sha256=gpvSy77B2Hw15CWCA9hjO9Xxie6B9XgzqKhu0a3h7m4,856
+detect_contamination/seqtotax.py,sha256=uOAD0RVQGkILq8Pe6Y3MieU7RLXuKuLm4KDH0TrXaX0,1601
+detect_contamination/table.py,sha256=DBY2nRwz0QG9gJMUmCcq-S9ZD7oAfJqaTJ4cFsAlIqo,382
+detect_contamination-0.1.0.dist-info/entry_points.txt,sha256=xoXdToB3OhrMHimZgWMAooXxLIDARg8Pnu1A9EUwCw4,75
+detect_contamination-0.1.0.dist-info/LICENSE,sha256=vKWWaWvdp-Y229LQqR5PoYZAp5-V_8FqBnNOugDvV4c,1068
+detect_contamination-0.1.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+detect_contamination-0.1.0.dist-info/METADATA,sha256=LgbWeNwFeo15Fa3xCGuVfThUYqDL3sAzvCioS570KJs,381
+detect_contamination-0.1.0.dist-info/RECORD,,
