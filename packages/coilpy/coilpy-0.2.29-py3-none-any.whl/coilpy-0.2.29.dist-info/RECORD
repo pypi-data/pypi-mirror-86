@@ -1,0 +1,16 @@
+coilpy/__init__.py,sha256=Q7qgVVFWmkmlxNtP6IZvCBShnVNzApzGhHOleBmWW6E,577
+coilpy/booz_xform.py,sha256=PFtXuH-jdgqKOUeLuodtHP4wRCkOsT-1NkIFoIpOb8U,9217
+coilpy/coils.py,sha256=pTmPRakHCyB8EZmKkmtI336PaDLB0lqC_1eYu748tkA,17192
+coilpy/dipole.py,sha256=PGNdfCMY2pDiUZlvGrZlLMfPlzYtpDa1umBz7dt2icA,35161
+coilpy/focushdf5.py,sha256=H8PnTwyeyDXJQAu1uJ1n6W0K2uR53xkSVqgHDa-s6lc,14514
+coilpy/hdf5.py,sha256=4UAf-w4M8d3vFqeCdU-by1TIr6NdU3YX5Ny4JE65Wb8,2823
+coilpy/misc.py,sha256=n0dAQp1XmDAdye6usQGEODmFFlPI_-SiQF80EjpjgiM,13002
+coilpy/sortedDict.py,sha256=vjsa5EBDcGEfzguwpN3lgLsNqFeJ-_YPwoyTQym7UWE,45109
+coilpy/stellopt.py,sha256=LxEl6ULZHmksiweGUU74dyJ5YPEGjB-RAxLaF3_Hk34,20888
+coilpy/surface.py,sha256=VWy5ETWEu-IDFQ8SicVEIyemiw7NH5M46VdeI85rt6M,22357
+coilpy/vmec.py,sha256=FL7d51bARtmFqQk_AGkBTGFGR8MG5H-8ZNC6Uk5DJs4,5204
+coilpy-0.2.29.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+coilpy-0.2.29.dist-info/METADATA,sha256=KRRLRJP1_zz6YwZEvr6uogWV6en74tLs1oYM5XsNGjk,1355
+coilpy-0.2.29.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+coilpy-0.2.29.dist-info/top_level.txt,sha256=78uVnYtltGYOJidT7a6-EIBt7GCjdU0_FTsh3JMdbLk,7
+coilpy-0.2.29.dist-info/RECORD,,
