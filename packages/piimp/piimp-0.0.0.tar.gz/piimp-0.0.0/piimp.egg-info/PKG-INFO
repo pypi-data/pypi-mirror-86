@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: piimp
+Version: 0.0.0
+Summary: This is a Python package for post-processing ice irradiation data.
+Home-page: https://github.com/Cavenfish/PIIMP
+Author: Brian C. Ferrari
+Author-email: brian.ferrari@ucf.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
