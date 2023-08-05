@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: boostinator
+Version: 0.0.2
+Summary: Make Boost C++ libraries available for building Python C/C++ extensions
+Home-page: https://github.com/mckib2/boostinator
+Author: Nicholas McKibben
+Author-email: nicholas.bgp@gmail.com
+License: MIT
+Description: boostinator
+        ===========
+        
+        Make Boost C++ libraries available for building Python C/C++ extensions.
+        
+        NOTE: currently header only supported; shared libraries may be availble in the future.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
