@@ -1,0 +1,8 @@
+srim/docker/__init__.py,sha256=Y6Q8dxB28deMDuzHcVmBUL-pL21wsAPrDazOWfaJNQE,42
+srim/docker/executor.py,sha256=K2u5bnMT4l3itFPK_kxtFYIhZXFghaswiI1kgsmI0fs,1741
+srim/docker/sr.py,sha256=aNycB_ndrBzYDhwkle2Bl7n_6mV9uVcrSD8hcqGLhOU,254
+srim/docker/trim.py,sha256=5WMojg45R2T9DeAxQuK4eXWug2RZAXOQZH8gFr6_GVE,243
+pysrim_docker-0.1.0.dist-info/LICENSE,sha256=2LEIEOz4hwGSbB4bfc-NEEiId087Y79PZ1-BIG0vdS4,1071
+pysrim_docker-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pysrim_docker-0.1.0.dist-info/METADATA,sha256=pUezCBTO8pAFyNfHqSOA_vxnCxBeif0Zh6X6SG3Q1J8,529
+pysrim_docker-0.1.0.dist-info/RECORD,,
