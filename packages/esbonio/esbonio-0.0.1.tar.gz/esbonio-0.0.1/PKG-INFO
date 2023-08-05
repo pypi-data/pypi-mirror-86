@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: esbonio
+Version: 0.0.1
+Summary: Sphinx extension that helps to explain things.
+Home-page: UNKNOWN
+Author: Alex Carney
+Author-email: alcarneyme@gmail.com
+License: MIT
+Description: # Esbonio
+        
+        Esbonio - to explain.
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Provides-Extra: dev
