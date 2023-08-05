@@ -1,0 +1,8 @@
+setup.py
+pyerlamsa/__init__.py
+pyerlamsa.egg-info/PKG-INFO
+pyerlamsa.egg-info/SOURCES.txt
+pyerlamsa.egg-info/dependency_links.txt
+pyerlamsa.egg-info/not-zip-safe
+pyerlamsa.egg-info/requires.txt
+pyerlamsa.egg-info/top_level.txt
