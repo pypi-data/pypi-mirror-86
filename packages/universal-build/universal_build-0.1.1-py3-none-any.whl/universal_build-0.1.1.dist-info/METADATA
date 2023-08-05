@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: universal-build
+Version: 0.1.1
+Summary: Universal build utilities for containerized build pipelines.
+Home-page: https://github.com/ml-tooling/universal-build
+Author: ML Tooling Team
+Author-email: team@mltooling.org
+License: MIT
+Project-URL: Changelog, https://github.com/ml-tooling/universal-build/releases
+Project-URL: Issue Tracker, https://github.com/ml-tooling/universal-build/issues
+Project-URL: Documentation, https://github.com/ml-tooling/universal-build#documentation
+Project-URL: Source, https://github.com/ml-tooling/universal-build
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: lazydocs ; extra == 'dev'
+
+# Build Utilities
+
+_WIP: Document build utilities._
+
+## Requirements
+
+* Python 2.7+ or 3.5+
+
+## Installation
+
+Install via pip:
+
+```bash
+pip install --upgrade -e path/to/lib
+```
+
+## Usage
+
+After installation, the package can be imported:
+
+```python
+import build_py
+```
+
+
