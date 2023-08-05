@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: torchpack
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: https://github.com/zhijian-liu/torchpack
+Author: Zhijian Liu
+Author-email: zhijianliu.cs@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
