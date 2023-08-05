@@ -1,0 +1,10 @@
+git_profile_command/__init__.py,sha256=KF3hIur_Qcf57IO8hDbOzwu0YRvS0sx0bt2TAi8DcmY,7073
+git_profile_command/_vendor/__init__.py,sha256=n1bnYdeb_bNDBKASWGywTRa0Ne9hMAkal3AuVZJgovI,5
+git_profile_command/_vendor/gitconfigparser.py,sha256=89nbG_X-mJsBfLqhZPlqd4LayVEF5dxjQ9pCqPRnNJM,18760
+git_profile-1.1.1.dist-info/LICENSE.txt,sha256=9LBI1fisDbTKxXoQthyhuDZaG25wn1qaKiUxVTbRO3o,1084
+git_profile-1.1.1.dist-info/METADATA,sha256=TlYuTLucQRw6gHUkrb0qI9ldInLUIi6ebQEa8EijKSU,2227
+git_profile-1.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+git_profile-1.1.1.dist-info/entry_points.txt,sha256=yMtnvLG7Bba-s3wHP3ZniEctHQ8GuLBizoO_mq09itM,58
+git_profile-1.1.1.dist-info/top_level.txt,sha256=au8Wo2nauTgMJPPmGbLSCJz1rf8wD9RbcigGcxvzihw,20
+git_profile-1.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+git_profile-1.1.1.dist-info/RECORD,,
