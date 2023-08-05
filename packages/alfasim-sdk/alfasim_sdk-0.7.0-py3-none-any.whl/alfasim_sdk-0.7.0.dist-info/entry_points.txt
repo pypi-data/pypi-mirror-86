@@ -1,0 +1,4 @@
+[console_scripts]
+alfasim-sdk = alfasim_sdk:console_main
+alfasim_sdk = alfasim_sdk:console_main
+
