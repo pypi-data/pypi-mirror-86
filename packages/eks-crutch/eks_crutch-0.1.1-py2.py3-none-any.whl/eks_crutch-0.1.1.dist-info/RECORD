@@ -1,0 +1,10 @@
+eks_crutch/__init__.py,sha256=CAIUOJ8X9r46rvflIkzncc_tqVHBM_tuDUTwbU93U5U,137
+eks_crutch/cli.py,sha256=6Iis1sy85ICYPY-G0Ff5LmdZee0MVtkA9s858tpoVAo,1645
+eks_crutch/eks_crutch.py,sha256=B_iOf5BopGww4dDkpoyKHF2gvbSaJvQyomPEVI3l0f4,1040
+eks_crutch-0.1.1.dist-info/AUTHORS.rst,sha256=A3zT4SZg0dgstRmxw1scZ_h7zIRELxhIjJif6u-6Foc,165
+eks_crutch-0.1.1.dist-info/LICENSE,sha256=K2hFo_3ak0cYJKNnqAhU0wvDzOqGWWndLMb3HAALNII,585
+eks_crutch-0.1.1.dist-info/METADATA,sha256=qWaNSjqjeqhbHKsjeyYWgYBBNTk2m9uMrWHOQ4L_cWA,1863
+eks_crutch-0.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+eks_crutch-0.1.1.dist-info/entry_points.txt,sha256=wpQKcUoJmsbpibqM5j_33zbax0HSrGM-fO4cfBorQbs,52
+eks_crutch-0.1.1.dist-info/top_level.txt,sha256=1_COl1opVcSqw2nhIDNEf3zskaOg9X02V1DL2uoKUpM,11
+eks_crutch-0.1.1.dist-info/RECORD,,
