@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        last_watched_series=last_watched_series.main:main
+        
