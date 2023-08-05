@@ -1,0 +1,2 @@
+from gym_staticinvader.envs.staticinvader_env import StaticinvaderEnv
+from gym_staticinvader.envs.staticinvader_extrahard_env import StaticinvaderExtraHardEnv

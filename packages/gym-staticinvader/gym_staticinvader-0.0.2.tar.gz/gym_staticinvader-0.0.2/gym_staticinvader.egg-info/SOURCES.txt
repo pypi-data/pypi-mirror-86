@@ -1,0 +1,11 @@
+README.md
+setup.py
+gym_staticinvader/__init__.py
+gym_staticinvader.egg-info/PKG-INFO
+gym_staticinvader.egg-info/SOURCES.txt
+gym_staticinvader.egg-info/dependency_links.txt
+gym_staticinvader.egg-info/requires.txt
+gym_staticinvader.egg-info/top_level.txt
+gym_staticinvader/envs/__init__.py
+gym_staticinvader/envs/staticinvader_env.py
+gym_staticinvader/envs/staticinvader_extrahard_env.py
