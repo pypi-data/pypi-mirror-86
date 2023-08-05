@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "attr",
+]
+build-backend = "setuptools.build_meta"
+
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+
+[testenv]
+deps =
+    ase
+
+commands =
+    python -m unittest discover -p "*.py" -s tests
+"""

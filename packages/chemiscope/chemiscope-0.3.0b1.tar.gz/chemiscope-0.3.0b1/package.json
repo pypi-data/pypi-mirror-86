@@ -1,0 +1,63 @@
+{
+  "name": "chemiscope",
+  "version": "0.3.0-beta.1",
+  "description": "An interactive structure/property explorer for materials and molecules",
+  "author": "Guillaume Fraux <guillaume.fraux@epfl.ch>",
+  "license": "BSD-3-Clause",
+  "main": "dist/chemiscope.min.js",
+  "types": "dist/chemiscope.d.ts",
+  "engines": {
+    "npm": "^6"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmo-epfl/chemiscope.git"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "build": "webpack --mode production",
+    "download-example-input": "ts-node ./utils/download-example-input.ts",
+    "api-docs": "typedoc",
+    "start": "webpack serve --mode development --content-base ./app",
+    "chemiscope-dts": "dts-bundle-generator -o dist/chemiscope.d.ts dist/src/index.d.ts",
+    "jsmol-widget-dts": "dts-bundle-generator -o dist/jsmol-widget.d.ts dist/src/structure/widget.d.ts",
+    "merge-dts": "npm run chemiscope-dts && npm run jsmol-widget-dts",
+    "prepublishOnly": "rm -rf dist && npm run build && npm run merge-dts",
+    "lint": "eslint src && prettier --check src",
+    "pretty": "prettier --write src"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^10.0.1",
+    "@types/node": "^14.0.23",
+    "@types/plotly.js": "^1.50.15",
+    "@types/tmp": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.2",
+    "css-loader": "^5.0.0",
+    "dts-bundle-generator": "^5.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "html-loader": "^1.1.0",
+    "ify-loader": "^1.1.0",
+    "markdown-it": "^12.0.2",
+    "plotly.js": "1.54",
+    "prettier": "2.1.2",
+    "process": "^0.11.10",
+    "style-loader": "^2.0.0",
+    "tmp": "^0.2.1",
+    "ts-loader": "^8.0.1",
+    "ts-node": "^9.0.0",
+    "typedoc": "^0.17.8",
+    "typedoc-plugin-external-module-name": "^4",
+    "typescript": "^4.0.3",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
