@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: ColorStr
+Version: 1.3
+Summary: A better way to output colored text
+Home-page: https://github.com/mclt0568/ColorStr
+Author: mclt0568
+Author-email: tis7bfrankie@gmail.com
+License: UNKNOWN
+Description: ColorStr
+        ==============
+        
+        **GOTO GITHUB PAGE FOR DOCUMENTATION!**
+        
+        https://github.com/mclt0568/ColorStr
+        
+        **USE pip install ColorStr TO INSTALL**
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent

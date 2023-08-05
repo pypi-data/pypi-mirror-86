@@ -1,0 +1,9 @@
+ColorStr.py
+README
+colors.py
+colorstrparser.py
+setup.py
+ColorStr.egg-info/PKG-INFO
+ColorStr.egg-info/SOURCES.txt
+ColorStr.egg-info/dependency_links.txt
+ColorStr.egg-info/top_level.txt
