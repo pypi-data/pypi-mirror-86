@@ -1,0 +1,9 @@
+pelican/plugins/data-files/__init__.py,sha256=tALcL39YC5AEKIMmaD9ihsgLDUcTPv9eleYYwHcFxPg,136
+pelican/plugins/data-files/file_formats.py,sha256=zHYbn2fApUX_DpTPlsJPfGwIQz8b8obKolr6LvtwwQ8,152
+pelican/plugins/data-files/generators.py,sha256=fx4NLBmZfghdKIi6XoaPS8gZswTmVDrzJWwOTaxuDK0,3299
+pelican_data_files-1.0.0.dist-info/LICENSE,sha256=SNi3WnnsklMAi3xS2PLqoWb0WNF2acvaESyIx1mP6vg,1062
+pelican_data_files-1.0.0.dist-info/METADATA,sha256=jRjBev8YDpd1dEek80d5RO5F7ec1Gi6gTpSeGBG5Fzc,2737
+pelican_data_files-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pelican_data_files-1.0.0.dist-info/top_level.txt,sha256=aHPRCtnNMRizudJoziqxVbKq0z6RxJEiIMhYX7vV1pY,8
+pelican_data_files-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pelican_data_files-1.0.0.dist-info/RECORD,,
