@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+scenario_runner.egg-info/PKG-INFO
+scenario_runner.egg-info/SOURCES.txt
+scenario_runner.egg-info/dependency_links.txt
+scenario_runner.egg-info/entry_points.txt
+scenario_runner.egg-info/requires.txt
+scenario_runner.egg-info/top_level.txt
+sr/ScenarioRunner.py
+sr/__init__.py
+sr/__main__.py
