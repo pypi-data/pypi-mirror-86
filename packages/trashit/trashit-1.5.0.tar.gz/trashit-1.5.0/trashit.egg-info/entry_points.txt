@@ -1,0 +1,3 @@
+[console_scripts]
+trash = trashit.command_line:main
+
