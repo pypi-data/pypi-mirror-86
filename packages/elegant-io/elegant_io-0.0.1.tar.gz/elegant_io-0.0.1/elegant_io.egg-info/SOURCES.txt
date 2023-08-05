@@ -1,0 +1,8 @@
+README.md
+setup.py
+elegant_io/__init__.py
+elegant_io/elegant_print.py
+elegant_io.egg-info/PKG-INFO
+elegant_io.egg-info/SOURCES.txt
+elegant_io.egg-info/dependency_links.txt
+elegant_io.egg-info/top_level.txt
