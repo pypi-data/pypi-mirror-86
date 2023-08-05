@@ -1,0 +1,3 @@
+[console_scripts]
+gkdmgr = gkd:callmain
+
