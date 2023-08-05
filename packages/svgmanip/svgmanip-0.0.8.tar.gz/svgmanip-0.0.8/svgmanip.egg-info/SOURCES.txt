@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+svgmanip/__init__.py
+svgmanip/_generator.py
+svgmanip.egg-info/PKG-INFO
+svgmanip.egg-info/SOURCES.txt
+svgmanip.egg-info/dependency_links.txt
+svgmanip.egg-info/requires.txt
+svgmanip.egg-info/top_level.txt
