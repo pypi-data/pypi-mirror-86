@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: wdsnd_distributions
+Version: 0.1.2
+Summary: Binomial and Gaussian distribution objects
+Home-page: UNKNOWN
+Author: Wouter ten Brink
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: Package includes three classes:
+              
+              Parent: 
+              Distribution
+              
+              Children:
+              Gaussian
+              Binomial
+        
+              Can be used to plot histograms, read data to calculate means and add two instances of a class.
+Platform: UNKNOWN
