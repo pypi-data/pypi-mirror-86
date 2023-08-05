@@ -1,0 +1,16 @@
+django_comment_migrate/__init__.py,sha256=853hR5gzs6Fcdmvj4auzVU6v8vAdfUkJ0YPuwGv0j0c,80
+django_comment_migrate/apps.py,sha256=Uyomv7BFYs27ar6-XoH9tnlOlNzTDzBN7kA5vxFO_lo,329
+django_comment_migrate/db_comments.py,sha256=ag0o_NPVHUy2Q9oSs8qh41hZyU32FUPruTUplm_fXE0,1205
+django_comment_migrate/utils.py,sha256=iz2bCzquzE3OJd4gosDdUf75zHtl4V8DNFFIt-h0Xv4,134
+django_comment_migrate/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_comment_migrate/backends/base.py,sha256=q6KKx0NluY75g40lIwdmFaSOP1KkgcROSIvWvrqVZV0,731
+django_comment_migrate/backends/mysql.py,sha256=mBmn7RTirGlLGPeu-hC84YC8JUPqqON1MJ26jd3lx7o,1337
+django_comment_migrate/backends/postgresql.py,sha256=woeYWiKN46DCfmT7kbhQF6iY4WcjC4HsrsNWQPq-zAw,722
+django_comment_migrate/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_comment_migrate/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_comment_migrate/management/commands/migratecomment.py,sha256=PUbpv4YF17i9prdqmOZIwX_Io9DvtGwLd3WkdGegR9U,2021
+django_comment_migrate-0.0.3.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+django_comment_migrate-0.0.3.dist-info/METADATA,sha256=IyyFBPKdaor2K-MKG4UO6dfvWNwcKgv-7HBP_Z3Y9iM,2186
+django_comment_migrate-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_comment_migrate-0.0.3.dist-info/top_level.txt,sha256=ygIcYaUIw5ikeS9vQNBlm9pbagTi_Fb-LDMaB7I4DmU,23
+django_comment_migrate-0.0.3.dist-info/RECORD,,
