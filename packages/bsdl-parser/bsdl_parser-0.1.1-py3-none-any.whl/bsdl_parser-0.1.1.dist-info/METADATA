@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bsdl-parser
+Version: 0.1.1
+Summary: BSDL parser for python
+Home-page: UNKNOWN
+Author: Forest Crossman, Benedek Racz
+Author-email: betontalpfa@gmail.com
+License: ISC
+Project-URL: Source Code, https://github.com/raczben/python-bsdl-parser
+Keywords: bsdl, boundary scan descriptor language, parser
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: grako
+Provides-Extra: build
+Requires-Dist: twine ; extra == 'build'
+Requires-Dist: grako ; extra == 'build'
+Provides-Extra: test
+Requires-Dist: pylint ; extra == 'test'
+
+UNKNOWN
+
+
