@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: plotpage
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: jinja2
+Requires-Dist: mypy
+Requires-Dist: matplotlib
+Requires-Dist: markdown2
+
+UNKNOWN
+
+
