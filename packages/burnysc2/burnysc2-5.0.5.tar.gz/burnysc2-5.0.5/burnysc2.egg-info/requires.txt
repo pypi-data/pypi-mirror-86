@@ -1,0 +1,11 @@
+portpicker
+s2clientprotocol
+pyglet
+numpy
+scipy
+mpyq
+aiohttp
+typing-extensions
+loguru
+win32-setctime
+importlib-metadata
