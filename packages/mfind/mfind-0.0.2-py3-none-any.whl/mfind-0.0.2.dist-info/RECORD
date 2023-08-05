@@ -1,0 +1,12 @@
+mfind/__init__.py,sha256=vkVICbZBzrfauJM6Ut7eY0TBZ3yDarxMQIY0z1KPMpA,56
+mfind/__main__.py,sha256=pkCZenGDY6xxXoWSKJ27o9luI4qGH-j8Ra-3WyxRndo,253
+mfind/argparser.py,sha256=lRblM0OcFAkRP906Uh0fAmWVHAi858_UwQ6ig5Oniuw,279
+mfind/mfind.py,sha256=UHeBRWcMeiRtESji_vxsu5S4-LQK6x2mTEIIUEaTW1M,716
+mfind/version.py,sha256=i1yX3GxdXutI1YYCvUV8O7msNGXkA6ETlvkNrLCI_XM,116
+tests/test_version.py,sha256=a-vFysy1Lk7SZpvNUvfx3hEEWN_l5zEVAtmj6P2em7o,86
+mfind-0.0.2.dist-info/LICENSE,sha256=FEpBvIvyf76kCkXeFacXMQwU-tKl9qL3LhM6gBFdQnI,1056
+mfind-0.0.2.dist-info/METADATA,sha256=uq9WTSIZ5yaM1yzn_IjjWCDi9PJnZuS-rg_fZF7QUdw,968
+mfind-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mfind-0.0.2.dist-info/entry_points.txt,sha256=c8GBhPpjZiOmZOp02vO7j6fpwp-hcxKm9m0B1jqbTX4,47
+mfind-0.0.2.dist-info/top_level.txt,sha256=CcJdbWwm7I_hZv-GlsBs7etnZSXPrpr2V080eDYdBs4,21
+mfind-0.0.2.dist-info/RECORD,,
