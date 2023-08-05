@@ -1,0 +1,8 @@
+README.md
+setup.py
+ppgan.egg-info/PKG-INFO
+ppgan.egg-info/SOURCES.txt
+ppgan.egg-info/dependency_links.txt
+ppgan.egg-info/entry_points.txt
+ppgan.egg-info/requires.txt
+ppgan.egg-info/top_level.txt
