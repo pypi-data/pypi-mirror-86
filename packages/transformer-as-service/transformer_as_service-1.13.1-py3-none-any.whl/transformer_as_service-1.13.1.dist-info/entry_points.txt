@@ -1,0 +1,5 @@
+[console_scripts]
+serving-benchmark = transformer_serving.server.cli:benchmark
+serving-start = transformer_serving.server.cli:main
+serving-terminate = transformer_serving.server.cli:terminate
+
