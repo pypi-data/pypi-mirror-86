@@ -1,0 +1,8 @@
+setup.py
+packdemo/main.py
+packdemo.egg-info/PKG-INFO
+packdemo.egg-info/SOURCES.txt
+packdemo.egg-info/dependency_links.txt
+packdemo.egg-info/not-zip-safe
+packdemo.egg-info/top_level.txt
+packdemo/bin/hello
