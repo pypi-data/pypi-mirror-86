@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+pyrost.egg-info/PKG-INFO
+pyrost.egg-info/SOURCES.txt
+pyrost.egg-info/dependency_links.txt
+pyrost.egg-info/requires.txt
+pyrost.egg-info/top_level.txt
