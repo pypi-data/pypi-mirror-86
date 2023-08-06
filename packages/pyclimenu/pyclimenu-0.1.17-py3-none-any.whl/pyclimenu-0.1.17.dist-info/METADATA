@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyclimenu
+Version: 0.1.17
+Summary: The easy way to create command line menus
+Home-page: https://github.com/sp1thas/pyclimenu
+Author: Panagiotis Simakis
+Author-email: simakis@autistici.org
+License: UNKNOWN
+Download-URL: https://github.com/sp1thas/pyclimenu/archive/master.zip
+Keywords: menu
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
