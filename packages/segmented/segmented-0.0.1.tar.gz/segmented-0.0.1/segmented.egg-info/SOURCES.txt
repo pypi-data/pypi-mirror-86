@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+segmented/__init__.py
+segmented/muggeo.py
+segmented/segmented.py
+segmented/simple.py
+segmented/version.py
+segmented.egg-info/PKG-INFO
+segmented.egg-info/SOURCES.txt
+segmented.egg-info/dependency_links.txt
+segmented.egg-info/requires.txt
+segmented.egg-info/top_level.txt
