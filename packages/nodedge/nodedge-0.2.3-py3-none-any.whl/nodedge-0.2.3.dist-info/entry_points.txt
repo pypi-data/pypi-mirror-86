@@ -1,0 +1,3 @@
+[console_scripts]
+nodedge = nodedge.__main__:main
+
