@@ -1,0 +1,15 @@
+README.md
+setup.py
+expr_parser/__init__.py
+expr_parser/__main__.py
+expr_parser/error.py
+expr_parser/parser.py
+expr_parser/tree.py
+expr_parser/operators/__init__.py
+expr_parser/operators/base.py
+expr_parser/operators/default.py
+expr_parser/operators/dice.py
+gammelmath.egg-info/PKG-INFO
+gammelmath.egg-info/SOURCES.txt
+gammelmath.egg-info/dependency_links.txt
+gammelmath.egg-info/top_level.txt
