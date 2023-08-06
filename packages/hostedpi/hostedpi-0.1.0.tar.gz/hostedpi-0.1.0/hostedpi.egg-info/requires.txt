@@ -1,0 +1,12 @@
+setuptools
+requests
+
+[doc]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
+coverage
+mock
+pylint
