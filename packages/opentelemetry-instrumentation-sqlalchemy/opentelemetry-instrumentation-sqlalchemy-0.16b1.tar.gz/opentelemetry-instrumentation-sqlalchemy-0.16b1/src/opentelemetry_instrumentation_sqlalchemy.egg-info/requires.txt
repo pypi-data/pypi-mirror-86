@@ -1,0 +1,8 @@
+opentelemetry-api==0.16b1
+opentelemetry-instrumentation==0.16b1
+wrapt>=1.11.2
+sqlalchemy
+
+[test]
+opentelemetry-sdk==0.16b1
+pytest
