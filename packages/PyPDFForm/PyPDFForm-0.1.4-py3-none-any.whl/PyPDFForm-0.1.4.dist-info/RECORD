@@ -1,0 +1,10 @@
+PyPDFForm/__init__.py,sha256=moQJbh4hCjkfVQ3jtlGNwjAkEEH-tVj3ROesrd3KCEI,501
+PyPDFForm/core.py,sha256=VMJc-BGLdVT7iXVVR5oB0bxhmnqlsKGjPUVP3ecHKTI,18246
+PyPDFForm/element.py,sha256=YVSPbA7SXT1UUwY25e022-bjEI0FQhkk5IcJzJUnQwc,2293
+PyPDFForm/exceptions.py,sha256=RKvUmHRh_aGv4yIV7I6jdGse31MB0kBPeaebMfdpFsE,1812
+PyPDFForm/wrapper.py,sha256=3mHkZQVrrS5Ne32DTqBcRxBLYDUZPJp6hiF827yHM9A,2736
+PyPDFForm-0.1.4.dist-info/LICENSE,sha256=43awmYkI6opyTpg19me731iO1WfXZwViqb67oWtCsFY,1065
+PyPDFForm-0.1.4.dist-info/METADATA,sha256=Gizlo-1HFQMrIGDaAJWmHrHjty3U-ALKrOVKoizvw-w,3172
+PyPDFForm-0.1.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+PyPDFForm-0.1.4.dist-info/top_level.txt,sha256=GQQKuWqPUjT9YZqwK95NlAQzxjwoQrsxQ8ureM8lWOY,10
+PyPDFForm-0.1.4.dist-info/RECORD,,
