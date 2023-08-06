@@ -1,0 +1,10 @@
+notion_tqdm/__init__.py,sha256=ukxd01sSppx-wBP3J4QFlDuDAV-L3xgQhGpcD5yJSLY,28
+notion_tqdm/_std.py,sha256=Pp75O03nREL8HkexLKHXB8hSa23HPjnCsg1ObQnmPsc,3062
+notion_tqdm/constants.py,sha256=u0XTXO964lTuKabMSdnmeJdbBdqyD8d4FXMForNPRVA,569
+notion_tqdm/row.py,sha256=FNLDXoHcx0xu7T6UNuXdVTT-7pFiv9Bgotuba1P8eMs,102
+notion_tqdm/std.py,sha256=iLgmLfZ5FPbzlaMJkHm6YYArRTIGWGcF5tFfpZfOdQM,7145
+notion_tqdm-0.0.9.dist-info/LICENSE,sha256=nPt9nL5I8wXVomU5YyvsbvToWISMQ6WVlyPg8p5NXKE,1072
+notion_tqdm-0.0.9.dist-info/METADATA,sha256=Q3NFOvFcy_VCR2GZJSvOgOCfBte3M9H1nEkPqukO8qU,4229
+notion_tqdm-0.0.9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+notion_tqdm-0.0.9.dist-info/top_level.txt,sha256=HxHxC6Pq00aFcBy8RnPQ6RSsXr0IHSGBuWZpmWqy-wA,13
+notion_tqdm-0.0.9.dist-info/RECORD,,
