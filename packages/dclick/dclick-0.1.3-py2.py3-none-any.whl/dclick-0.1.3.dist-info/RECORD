@@ -1,0 +1,10 @@
+dclick/__init__.py,sha256=itt_JQBY6cZXIcCd8MMXp1H-OruEJgootUnczAQ1iSI,136
+dclick/command.py,sha256=o77l3JyiCBExpdrUSMR_dUPBZ7eNYdvUpwUkz5X0J1E,4320
+dclick/decorators.py,sha256=lTnzdo53KI7TB9XFZv5WAM2JT7bpzmmd50d6xo8ILa0,2056
+dclick-0.1.3.dist-info/AUTHORS.rst,sha256=1DueRKDXZ85M8bftvgxV_3QEgrA0Cs3o-SzIec54tFk,163
+dclick-0.1.3.dist-info/LICENSE,sha256=f7-smlCOAm9p1dd2tOeBUmaqlkP2sgCxsvelXR0vktc,1508
+dclick-0.1.3.dist-info/METADATA,sha256=T8JcLsBiup9e56O6F9ZZLV2yGIkvlWfVrmdO7fW81MM,3205
+dclick-0.1.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+dclick-0.1.3.dist-info/entry_points.txt,sha256=AG87JlKqGfXPA_iQGnSFwhqFpZQJUGn3NQI_tYFS1hM,56
+dclick-0.1.3.dist-info/top_level.txt,sha256=nNnt7yxJs26fcMW54icdTRXkFM4qGa8U2uxPN9n1mgo,7
+dclick-0.1.3.dist-info/RECORD,,
