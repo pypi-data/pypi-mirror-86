@@ -1,0 +1,8 @@
+README.md
+setup.py
+packageDemoJQL.egg-info/PKG-INFO
+packageDemoJQL.egg-info/SOURCES.txt
+packageDemoJQL.egg-info/dependency_links.txt
+packageDemoJQL.egg-info/top_level.txt
+packageTestJQL/__init__.py
+packageTestJQL/demo.py
