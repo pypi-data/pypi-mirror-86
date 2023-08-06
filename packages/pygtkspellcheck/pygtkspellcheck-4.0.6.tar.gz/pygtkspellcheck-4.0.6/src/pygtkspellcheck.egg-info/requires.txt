@@ -1,0 +1,4 @@
+pyenchant
+
+[building the documentation]
+sphinx
