@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+http_hoba_auth/__init__.py
+http_hoba_auth/hoba.py
+http_hoba_auth.egg-info/PKG-INFO
+http_hoba_auth.egg-info/SOURCES.txt
+http_hoba_auth.egg-info/dependency_links.txt
+http_hoba_auth.egg-info/top_level.txt
+test/test_basic.py
