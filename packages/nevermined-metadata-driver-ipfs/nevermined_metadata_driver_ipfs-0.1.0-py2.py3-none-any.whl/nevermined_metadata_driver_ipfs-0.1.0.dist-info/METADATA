@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: nevermined-metadata-driver-ipfs
+Version: 0.1.0
+Summary: 💧 Metadata IPFS Data Driver Implementation
+Home-page: https://github.com/nevermined-io/metadata-driver-ipfs
+Author: nevermined-io
+Author-email: root@nevermined.io
+License: Apache Software License 2.0
+Keywords: nevermined-metadata-driver-ipfs
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: coloredlogs
+Requires-Dist: nevermined-metadata-driver-interface (==0.1.4)
+Provides-Extra: dev
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: pkginfo ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: watchdog ; extra == 'dev'
+Requires-Dist: codacy-coverage ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-watch ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: codacy-coverage ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-watch ; extra == 'test'
+
+[![banner](https://raw.githubusercontent.com/nevermined-io/assets/main/images/logo/banner_logo.png)](https://nevermined.io)
+
+
+# Nevermined Metadata Driver IPFS
+
+> Nevermined Driver allowing to connect to IPFS as storage backend
+> [nevermined.io](https://nevermined.io/)
+
+
+[![PyPI](https://img.shields.io/pypi/v/nevermined-metadata-driver-ipfs.svg)](https://pypi.org/project/nevermined-metadata-driver-ipfs/)
+[![Python package](https://github.com/nevermined-io/metadata-driver-ipfs/workflows/Python%20package/badge.svg)](https://github.com/nevermined-io/metadata-driver-ipfs/actions)
+
+
+# metadata-driver-ipfs
+Nevermined Driver allowing to connect to IPFS as storage backend
+
+
+
+
+## Testing
+
+Automatic tests are setup via Github actions.
+Our tests use the pytest framework.
+
+
+## New Version
+
+The `bumpversion.sh` script helps to bump the project version. You can execute
+the script using as first argument {major|minor|patch} to bump accordingly the version.
+
+
+## Attribution
+
+This project is based in the [Ocean Protocol Brizo](https://github.com/nevermined-io/osmosis-ipfs-driver). It keeps the same Apache v2 License and adds some improvements.
+See [NOTICE file](NOTICE).
+
+## License
+
+```text
+Copyright 2020 Keyko GmbH
+This product includes software developed at
+BigchainDB GmbH and Ocean Protocol (https://www.oceanprotocol.com/)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
