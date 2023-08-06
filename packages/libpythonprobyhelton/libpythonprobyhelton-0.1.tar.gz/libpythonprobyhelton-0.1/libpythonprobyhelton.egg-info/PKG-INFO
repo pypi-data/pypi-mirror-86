@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: libpythonprobyhelton
+Version: 0.1
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/heltonteixeira92/libpythonpro
+Author: Helton Teixeira de Souza
+Author-email: heltonteixeiradesouza@hotmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Description: # libpythonpro
+        MÃ³dulo para exemplificar construÃ§Ã£o de projetos Python no curso PyTools
+        
+        Nesse curso Ã© ensinado como contribuir com projetos de cÃ³digo aberto.
+        
+        Link do curso [Python pro](https://www.python.pro.br)
+        
+        [![Build Status](https://travis-ci.com/heltonteixeira92/libpythonpro.svg?branch=main)](https://travis-ci.com/heltonteixeira92/libpythonpro)
+        [![Updates](https://pyup.io/repos/github/heltonteixeira92/libpythonpro/shield.svg)](https://pyup.io/repos/github/heltonteixeira92/libpythonpro/)
+        [![Python 3](https://pyup.io/repos/github/heltonteixeira92/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/heltonteixeira92/libpythonpro/)
+        
+        Para Instalar:
+        
+        '''console
+        python -m venv .venv
+        .venv\Scripts\activate
+        pip install -r requirements-dev.txt
+        '''
+        
+        Para conferir qualidade de cÃ³digo:
+        ''' 
+        flake8
+        '''
+        
+        TÃ³picos a serem abordados:
+        1. Git
+        2. Virtualenv
+        3. Pip
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
