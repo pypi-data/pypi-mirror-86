@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+codetrace_pse.egg-info/PKG-INFO
+codetrace_pse.egg-info/SOURCES.txt
+codetrace_pse.egg-info/dependency_links.txt
+codetrace_pse.egg-info/entry_points.txt
+codetrace_pse.egg-info/requires.txt
+codetrace_pse.egg-info/top_level.txt
+src/__init__.py
+src/codetrace_pse/__init__.py
+src/codetrace_pse/__main__.py
+src/codetrace_pse/cli.py
+src/codetrace_pse/lib/__init__.py
+src/codetrace_pse/lib/scrape.py
+tests/test_scrape.py
