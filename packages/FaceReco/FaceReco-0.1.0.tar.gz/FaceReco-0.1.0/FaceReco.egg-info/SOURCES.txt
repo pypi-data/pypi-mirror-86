@@ -1,0 +1,15 @@
+README.md
+setup.py
+FaceReco/FaceReco.py
+FaceReco/__init__.py
+FaceReco/dlib_face_recognition_resnet_model_v1.dat
+FaceReco/opencv_face_detector.pbtxt
+FaceReco/opencv_face_detector_uint8.pb
+FaceReco/shape_predictor_68_face_landmarks.dat
+FaceReco/supportFiles.py
+FaceReco.egg-info/PKG-INFO
+FaceReco.egg-info/SOURCES.txt
+FaceReco.egg-info/dependency_links.txt
+FaceReco.egg-info/not-zip-safe
+FaceReco.egg-info/requires.txt
+FaceReco.egg-info/top_level.txt
