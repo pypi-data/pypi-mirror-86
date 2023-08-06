@@ -1,0 +1,15 @@
+lsclib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lsclib/coordinate_transformations.py,sha256=I-Qh1QUeF0_YsciPHnLzYQDKvA9h6XCGPSsbsOB7zhM,571
+lsclib/external_equations.py,sha256=sobp8WUiNCxbToiz35oRoX3jLa5pG0jtGa6rD60Xmg0,387
+lsclib/lsc_calcs.py,sha256=NAHImJ-a1UuudCG7b5lNi0Jtq83GRKw5ZsoPFB2sLWY,23178
+lsclib/lsc_classes.py,sha256=29akeLENFdPaR4mJXUm4T4eJinyaJ6PGLdLwBs2a5Iw,86758
+lsclib/lsc_external_equations.py,sha256=sobp8WUiNCxbToiz35oRoX3jLa5pG0jtGa6rD60Xmg0,387
+lsclib/particle_calcs.py,sha256=UrcNEt1iOUZKPq-dvBgxD3Tp4b0t2-B3widrppSESis,2387
+lsclib/rotations.py,sha256=tL8Dqt7G3LqYb-01ZnZoKH0KnTWD8HKPkiDKvYDLagU,11062
+lsclib/run.py,sha256=sCXCGGkEtV1-e8rUXUWwhtoneII6wgh48ZBbZKedCog,16616
+lsclib/xls_read_interpolate.py,sha256=ar4z7VeD3rMp7Rel63xBjKzdy4YRFZAV0DLZxWsCx_k,1298
+lsclib-0.0.1.dist-info/LICENSE,sha256=ZzSPCd0efduynb0r_lxHjM7PtrwDuerXlyv61UDUUv4,1092
+lsclib-0.0.1.dist-info/METADATA,sha256=bw0pBcb6kgYWiobJDrlOveHK5S-3MFJFtrYf0VdQQb0,1447
+lsclib-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+lsclib-0.0.1.dist-info/top_level.txt,sha256=X-Ies-GB-g7OrNV0SzG3MB4QVXUwqSbnnMHfE6DukgM,7
+lsclib-0.0.1.dist-info/RECORD,,
