@@ -1,0 +1,15 @@
+pydantic
+
+[development]
+black
+flake8
+bump2version
+
+[pyyaml]
+pyyaml
+
+[ruamel]
+ruamel.yaml>=0.15
+
+[ruamel-old]
+ruamel.yaml<0.15
