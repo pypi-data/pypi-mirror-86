@@ -1,0 +1,12 @@
+phoenix_python_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phoenix_python_sdk/cli.py,sha256=e5eDo2L4rSMpLYaTBxgESAgOzZrt3ocJnQhN72gRXqs,1404
+phoenix_python_sdk/client.py,sha256=7qo97PMis5vznHo_OwcEpbPDA4VoU-EHLnpbRyfGq08,4797
+phoenix_python_sdk/const.py,sha256=sqL2svIvMiJNwQ5PUkY7ZIjGpyvhle_qVCReuGJjtXM,142
+phoenix_python_sdk/exception.py,sha256=2IC3XJY8FiR9hLN9InBtiEuLoUIkYGSN_dqvl_oyPe4,836
+phoenix_python_sdk/rabbitmq.py,sha256=FNzESHRdZqDZHJ2zEl4aW3g36uh9OVT1tUz-F5R0iZQ,1851
+phoenix_python_sdk/response.py,sha256=4lPmeRJhHJHu1MUBv5Mli13ZyhlQbAEiroHviQv6j0k,1017
+phoenix_python_sdk-0.1.8.dist-info/METADATA,sha256=gx2fEvHK8v9C9H9p1jeLUoMq4cRUFIz7h4k77qqbXWs,671
+phoenix_python_sdk-0.1.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+phoenix_python_sdk-0.1.8.dist-info/top_level.txt,sha256=_NXD0fABO12XAbk1WD4MZz0DhGt7iUfpKopf6HCz2Uc,19
+phoenix_python_sdk-0.1.8.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+phoenix_python_sdk-0.1.8.dist-info/RECORD,,
