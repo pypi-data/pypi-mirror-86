@@ -1,0 +1,10 @@
+opentelemetry/instrumentation/aiopg/__init__.py,sha256=cGKL9SjeSiPrmDQDsGlFArZyuI8URDjO6TNF0cIjVrE,3487
+opentelemetry/instrumentation/aiopg/aiopg_integration.py,sha256=uvssH878srcUAZBB5-5VWyPvl85ds12JrEqz077at1A,5292
+opentelemetry/instrumentation/aiopg/version.py,sha256=J1HoqnKG8W6hYRj20GTVLccRKuD6OfxJ5alMpOZGGQs,608
+opentelemetry/instrumentation/aiopg/wrappers.py,sha256=zIWHpJAaoCd_l3D1kiWNshBotp-unTimERMbJx2nHeQ,6950
+opentelemetry_instrumentation_aiopg-0.16b1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_instrumentation_aiopg-0.16b1.dist-info/METADATA,sha256=4Y2McbMc40mPqVXe3lL9Qfk7Gn9ZT8TxsdkaShWTEvQ,1747
+opentelemetry_instrumentation_aiopg-0.16b1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_instrumentation_aiopg-0.16b1.dist-info/entry_points.txt,sha256=a3FOBq7FTwkk6oYY8hkaFaDjlKCdEzzjukbfMsxpBaQ,92
+opentelemetry_instrumentation_aiopg-0.16b1.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_instrumentation_aiopg-0.16b1.dist-info/RECORD,,
