@@ -1,0 +1,3 @@
+[console_scripts]
+phbdl = phbdl.main:main
+
