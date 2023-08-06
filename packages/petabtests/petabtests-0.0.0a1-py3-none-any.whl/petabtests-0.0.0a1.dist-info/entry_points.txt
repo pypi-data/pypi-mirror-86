@@ -1,0 +1,4 @@
+[console_scripts]
+petabtests_clear = petabtests.core:clear
+petabtests_create = petabtests.core:create
+
