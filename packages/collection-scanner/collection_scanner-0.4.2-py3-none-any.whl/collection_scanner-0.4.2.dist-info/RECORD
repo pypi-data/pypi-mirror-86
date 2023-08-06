@@ -1,0 +1,10 @@
+collection_scanner/__init__.py,sha256=XUnUZ2B8Usy-Tm5QfYyJBVwOWZBK9OwFcMdCSnN8QkM,120
+collection_scanner/counter.py,sha256=E8dujuedNnWL1xDOz7JeL9YwYJZ_qEdyqJW4wULImyg,2943
+collection_scanner/scanner.py,sha256=EDj0rAyejyAWob6ZsmdNLkMHn6X9fCQw4mNhXWY5KW4,14419
+collection_scanner/utils.py,sha256=pkUMQkCFYvTqhAD2wYhoHlGn4Z9g50_owTB1coJiFSc,2069
+collection_scanner/tests/__init__.py,sha256=b1NNTKAxV5JvTtWAbobjt2o4_bLSQ2FSTp_S40QxgGw,3452
+collection_scanner-0.4.2.dist-info/LICENSE,sha256=C0mo1T2-5y1JsaO-CtC0j3cQaAYNA7YH1yS76COGqq0,1478
+collection_scanner-0.4.2.dist-info/METADATA,sha256=57red79Nl5SSMRSBdCW0IjJBJ-b7LI254l8K0aA5QOY,1428
+collection_scanner-0.4.2.dist-info/WHEEL,sha256=YO0P_oFqt6DWX0LhbH7jsyzb3BUtoq2kERtqGsXDJHs,92
+collection_scanner-0.4.2.dist-info/top_level.txt,sha256=29rF4CkSbZGJKjqnCbym7w_Knm03mMzCQ9mxF2dTQ8Y,19
+collection_scanner-0.4.2.dist-info/RECORD,,
