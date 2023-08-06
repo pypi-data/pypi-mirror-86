@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: customnoseplugins
+Version: 4.0.2
+Summary: test plan plugins for the nose testing framework
+Home-page: UNKNOWN
+Author: bao hongbin
+Author-email: hongbin.bao@gmail.com
+License: MIT
+Description: 
+            Extra plugins for the nose testing framework to load test case from a plan file and specify the execute order in test suite
+        
+            
+Platform: UNKNOWN
