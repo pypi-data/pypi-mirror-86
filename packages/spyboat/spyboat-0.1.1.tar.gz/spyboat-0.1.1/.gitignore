@@ -1,0 +1,5 @@
+*.tif
+*.png
+*.svg
+.shed.yml
+__pycache__
