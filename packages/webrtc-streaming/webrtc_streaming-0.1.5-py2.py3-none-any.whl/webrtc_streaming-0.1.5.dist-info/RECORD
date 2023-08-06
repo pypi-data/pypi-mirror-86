@@ -1,0 +1,15 @@
+webrtc_streaming/__init__.py,sha256=yYIgn6f5qxHvt2ERz5BTpUjcx6G-VFBP8FH2N2l2Fj8,135
+webrtc_streaming/negotiate.py,sha256=OrO9ApJtH6f_jNk3ILkFJgEJ-zOMtfCV8RGa10nGkac,587
+webrtc_streaming/remote.py,sha256=LaxMO4QI7BNzlyQRiFDzVjXGlm3KX_wHoslCwqxRMrg,803
+webrtc_streaming/server.py,sha256=YUxQifwdVLRR_SqzLmywl2n8pl4ipk8TUblKYtkocuI,4819
+webrtc_streaming/update_frame.py,sha256=Kp2mqq7ijfXTc67NoaCwkMjj-emYwb6EH-FTAyFUx-U,825
+webrtc_streaming/webrtc_streaming.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+webrtc_streaming/autogen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webrtc_streaming/autogen/webrtc_streaming_pb2.py,sha256=Y1oogJEDrQJl8nni8DmSVnmYglRV5q_X5gph6s_E6io,6102
+webrtc_streaming/autogen/webrtc_streaming_pb2_grpc.py,sha256=r_-zI7ObSYdIWnByXHtDBTehgfN54qmWiKS2hsdYkNs,3977
+webrtc_streaming-0.1.5.dist-info/AUTHORS.rst,sha256=9XafuVsecRgCXLne1MkfPZ46Q1H12IwXHtlo_tL_Mhw,157
+webrtc_streaming-0.1.5.dist-info/LICENSE,sha256=5EgHYfYNz9CN57-U_LZCxrFf9hMy-LUGx7ICnkyVVYs,1506
+webrtc_streaming-0.1.5.dist-info/METADATA,sha256=w_L22RIojf-1EZO1EFLCEMszj87RJ_anhABKNp7sZd4,2294
+webrtc_streaming-0.1.5.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+webrtc_streaming-0.1.5.dist-info/top_level.txt,sha256=B2cB3IETNxuSnqafr2B5QpGkBSAQ65qPGf2nViQ62ys,17
+webrtc_streaming-0.1.5.dist-info/RECORD,,
