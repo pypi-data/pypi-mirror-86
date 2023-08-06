@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: atlassian-api-py
+Version: 0.0.1
+Summary: Atlassian REST API Python Wrapper.
+Home-page: https://shenxianpeng.github.io/
+Author: Xianpeng Shen
+Author-email: xianpeng.shen@qq.com
+License: Apache License 2.0
+Project-URL: Source, https://github.com/shenxianpeng/atlassian-api-py
+Project-URL: Tracker, https://github.com/shenxianpeng/atlassian-api-py/issues
+Keywords: atlassian,jira,rest,api
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Atlassian Python APIs
+
+This library is a wrapper of Atlassian Rest APIs using Python, such as Jira(In progress), BitBucket(TODO), etc.
+
+## Purpose
+
+* In order to be better and more convenient to use.
+* The pursuit of simple, lightweight, easy to use.
+
+## QuickStart
+
+```python
+from jira import JIRA
+
+jira = Jira(url='https://jira.atlassian.com', username='username', password='password')
+status = jira.get_status('TEST-001')
+print(status)
+```
+
+
