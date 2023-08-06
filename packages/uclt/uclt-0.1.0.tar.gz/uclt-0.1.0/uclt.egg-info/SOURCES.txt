@@ -1,0 +1,8 @@
+README.md
+setup.py
+uclt/Text.py
+uclt/__init__.py
+uclt.egg-info/PKG-INFO
+uclt.egg-info/SOURCES.txt
+uclt.egg-info/dependency_links.txt
+uclt.egg-info/top_level.txt

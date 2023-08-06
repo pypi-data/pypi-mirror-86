@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: uclt
+Version: 0.1.0
+Summary: A Python Module with useful functions for creating a command line tool!
+Home-page: https://github.com/nootkroot/usefulCommandLineTools
+Author: Ariel Khais
+Author-email: arielkhais@hotmail.com
+License: MIT
+Description: A Python Module with useful functions for creating a command line tool!
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English
