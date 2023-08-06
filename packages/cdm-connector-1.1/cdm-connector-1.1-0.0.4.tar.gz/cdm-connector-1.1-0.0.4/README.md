@@ -1,0 +1,2 @@
+# skypoint-python-cdm-connector
+This repository is a clone of Microsoft's Python SDK for CDM which can be found at https://github.com/microsoft/CDM/blob/master/objectModel/Python. This respository was created in order to build on top of their standards and for our custom use cases. This will be kept updated on par with the aforementioned original and users are welcome to use and contribute to it.

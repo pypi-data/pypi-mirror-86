@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cdm-connector-1.1
+Version: 0.0.4
+Summary: Common Data Model Object Model library for Python. Customized for SkyPoint use cases.
+Home-page: https://github.com/skypointcloud/skypoint-python-cdm1.1-connector
+Author: SkyPoint Cloud
+Author-email: support@skypointcloud.com
+License: GPL-3.0
+Description: # skypoint-python-cdm-connector
+        This repository is a clone of Microsoft's Python SDK for CDM which can be found at https://github.com/microsoft/CDM/blob/master/objectModel/Python. This respository was created in order to build on top of their standards and for our custom use cases. This will be kept updated on par with the aforementioned original and users are welcome to use and contribute to it.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
