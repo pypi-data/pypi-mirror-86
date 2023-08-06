@@ -1,0 +1,9 @@
+certbot>=1.1.0
+setuptools
+zope.interface
+requests
+mock
+requests-mock
+
+[:python_version < "3.0"]
+parsedatetime<=2.5
