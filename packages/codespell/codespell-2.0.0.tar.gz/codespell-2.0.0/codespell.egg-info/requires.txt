@@ -1,0 +1,10 @@
+
+[dev]
+check-manifest
+flake8
+pytest
+pytest-cov
+pytest-dependency
+
+[hard-encoding-detection]
+chardet
