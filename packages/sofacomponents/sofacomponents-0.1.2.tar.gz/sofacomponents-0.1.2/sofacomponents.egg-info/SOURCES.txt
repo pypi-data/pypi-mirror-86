@@ -1,0 +1,13 @@
+README.md
+setup.py
+sofacomponents/Factory.py
+sofacomponents/Node.py
+sofacomponents/__init__.py
+sofacomponents.egg-info/PKG-INFO
+sofacomponents.egg-info/SOURCES.txt
+sofacomponents.egg-info/dependency_links.txt
+sofacomponents.egg-info/top_level.txt
+sofacomponents/lib/__init__.py
+sofacomponents/lib/base_component.py
+sofacomponents/lib/generated_classes.py
+sofacomponents/lib/parse_sofa_sources.py
