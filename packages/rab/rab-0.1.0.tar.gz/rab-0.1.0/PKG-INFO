@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: rab
+Version: 0.1.0
+Summary: REST API Base
+Home-page: https://github.com/JHibbard/rest-api-base
+Author: James Hibbard
+License: MIT
+Description: Rest API Base
+        =============
+        
+        Quickstart
+        ----------
+        
+        Install Remotely from GitHub:
+            
+            pip install git+https://github.com/JHibbard/rest-api-base --upgrade
+        
+        
+        Running Test Matrix
+        -------------------
+        
+        note: you can add `-s` flag to print to stderr/stdout during pytest-ing
+        
+            tox
+        
+        
+        Complexity Metrics
+        ------------------
+        
+        Cyclomatic complexity (cc):
+        
+            radon cc ./src/*
+        
+        Maintainability index:
+        
+            radon mi ./src/*
+        
+        
+        Building Distribution
+        ---------------------
+        
+        Building Wheel:
+        
+            python setup.py bdist_wheel sdist
+        
+        Installing Wheel:
+        
+            pip install /path/to/wheel/..
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: quality
