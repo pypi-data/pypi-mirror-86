@@ -1,0 +1,3 @@
+[console_scripts]
+dupper=src.dupper:main
+
