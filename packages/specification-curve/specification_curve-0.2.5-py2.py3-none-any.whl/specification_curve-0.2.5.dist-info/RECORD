@@ -1,0 +1,10 @@
+specification_curve/__init__.py,sha256=t2PVmWDmP8iLN0M7eCqcIv5u-_E-ZMGG3B1OWOjH-qI,147
+specification_curve/example.py,sha256=YYIpvWZ_2Ls_JjC8NfamCTIp_WMYoryVww-Kzsi6cOk,3410
+specification_curve/specification_curve.py,sha256=XwheeDA2E5QTII7u7T7WScK0jQMkJH9GV4AhEQNKPc0,17007
+specification_curve/data/example_data.csv,sha256=YrCyzU9sTm_mDMQvvDgVTFHwcx4jfvXFP_xsoKpFZ6g,57372
+specification_curve-0.2.5.dist-info/AUTHORS.rst,sha256=8FGmKBv-9D0tz0JS1OSyYs5cYX81AMsd2awbtGzZzzg,164
+specification_curve-0.2.5.dist-info/LICENSE,sha256=l_aAdi-x5RiHMJBXakf9WZFQjJf3DEIhJr_WPg6tceM,1073
+specification_curve-0.2.5.dist-info/METADATA,sha256=mlLB6lT9OVJBEIJVzZmQLHMKGefqu15jqN2cmGsTZNM,9345
+specification_curve-0.2.5.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+specification_curve-0.2.5.dist-info/top_level.txt,sha256=HYL2t7gsB9FbF_Kwdh3MyZGxAeP5BhcPxgb4juSpFb4,20
+specification_curve-0.2.5.dist-info/RECORD,,
