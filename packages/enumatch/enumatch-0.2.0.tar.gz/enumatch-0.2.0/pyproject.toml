@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "enumatch"
+version = "0.2.0"  # Also update __init__.py
+description = "Strictly match all the possibilities of an enum"
+license = "MIT"
+keywords = ["enum", "match", "functional"]
+homepage = "https://github.com/sayanarijit/enumatch"
+authors = ["Arijit Basu <sayanarijit@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.10.1"
+pytest-mypy = "^0.8.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
