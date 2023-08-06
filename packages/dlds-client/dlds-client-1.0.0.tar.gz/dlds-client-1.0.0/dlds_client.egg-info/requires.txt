@@ -1,0 +1,12 @@
+Click
+joblib
+requests
+tqdm
+
+[kitti]
+Pillow
+
+[worker]
+aiofiles
+aiohttp
+aiohttp_cors
