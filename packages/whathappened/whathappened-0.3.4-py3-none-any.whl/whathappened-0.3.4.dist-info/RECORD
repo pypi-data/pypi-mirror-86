@@ -1,0 +1,13 @@
+version/__init__.py,sha256=PiUSiFLCm0YX5rbHS4xOLGdqdPDC8j3etV3nmEaelzI,92
+version/_version.py,sha256=O2xp7Py-KXtftQDiSwwcCigG7vLEEIw23llAKSJOi2Y,498
+whathappened/__init__.py,sha256=9Lhd278_z4lgr6S4C9SMb8p1_0Wk4-Qgp0KObIuvBzQ,371
+whathappened/changelog.py,sha256=Y2xlhxT4shQkHeG0kJe5naUJNNNQPaYDSZZkJ5ElkOA,9398
+whathappened/changelog_all.py,sha256=G7tVFhjpFUukWo9WRqk06FXxTAcY2-HGOW6xcA5LGRM,6987
+whathappened/command_line.py,sha256=QttDuAnuNfqPYfpwo7E-cxCT2BW8zS2T4ru0cHbgOGM,1414
+whathappened/git_commits.py,sha256=Oy8xbafLF4avE47_iLcf4ykIzfIVYJG5O-B6suOxio0,1950
+whathappened-0.3.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+whathappened-0.3.4.dist-info/METADATA,sha256=1JEhTW-Cu8KnrntRRxIkNASyEjLTUFxZIE2vkMXHz8w,4786
+whathappened-0.3.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+whathappened-0.3.4.dist-info/entry_points.txt,sha256=ujovYnUEkPVUzgB_BjpY_EJ2fbB1EpWsvKC1d8z1tgY,64
+whathappened-0.3.4.dist-info/top_level.txt,sha256=fv8c_D6yA0DdvxBQCJRaiweIH_y-BEgoUlTMN6e5Lnk,21
+whathappened-0.3.4.dist-info/RECORD,,
