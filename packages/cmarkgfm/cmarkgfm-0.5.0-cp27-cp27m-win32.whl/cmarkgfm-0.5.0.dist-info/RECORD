@@ -1,0 +1,11 @@
+cmarkgfm/__init__.py,sha256=_Aax0X7HEjOVrUADeJybBmAx3VjIv6upqTUM1Da6QcA,288
+cmarkgfm/_cmark.pyd,sha256=vkFislxCuOJDpX0QB3B3_6I8HccfIG-kyhq62eKfeB4,284160
+cmarkgfm/build_cmark.py,sha256=frmFHWwi6KMjmClhcdq0luyOh8APDtmZFdPI7fzTMGg,2615
+cmarkgfm/cmark.cffi.h,sha256=be45f2b3Q9LpeHpJALaHH76yXoAfDD88_3lScrdnO0A,2511
+cmarkgfm/cmark.py,sha256=wHgxopoF_KMBhvuecUN_L9Cp7eNXwvyPvl6GZxXpRX8,6168
+cmarkgfm/cmark_module.h,sha256=utNs-0yHL0vn7LGjiqWmjZET6KbKwIh8FznEIUXTPP8,280
+cmarkgfm-0.5.0.dist-info/LICENSE.txt,sha256=DapUVoU5OVrdEVULgBTDAi14wCoUx5HKka13PjSdIms,1095
+cmarkgfm-0.5.0.dist-info/METADATA,sha256=oVQLyfV5K6wimHgJTnrxREdTGkJS2ZFY31wD75uZzD4,5625
+cmarkgfm-0.5.0.dist-info/WHEEL,sha256=oxl8FyOCib6OkfQGurRg2KzxKmNcSKAOEgYmmp4DfPI,102
+cmarkgfm-0.5.0.dist-info/top_level.txt,sha256=fqaN4Sqvnc8h0Mb5RyDseeENefnfpTtfnrL_4iHFdRc,9
+cmarkgfm-0.5.0.dist-info/RECORD,,
