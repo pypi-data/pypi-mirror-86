@@ -1,0 +1,9 @@
+README.md
+setup.py
+chino_io_scriba.egg-info/PKG-INFO
+chino_io_scriba.egg-info/SOURCES.txt
+chino_io_scriba.egg-info/dependency_links.txt
+chino_io_scriba.egg-info/requires.txt
+chino_io_scriba.egg-info/top_level.txt
+test/__init__.py
+test/test_default_api.py
