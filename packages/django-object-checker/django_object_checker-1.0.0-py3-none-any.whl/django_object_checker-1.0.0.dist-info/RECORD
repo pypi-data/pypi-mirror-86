@@ -1,0 +1,9 @@
+object_checker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+object_checker/apps.py,sha256=PGQiwViiWDe1Gsoe02l2EzCB2T8L5Fp4DKgcvqXxrgQ,102
+object_checker/base_object_checker.py,sha256=9fcKhxI3LJ2Kc_JAeak_zvHVhtLr_YjQfnwWoOWeIOU,4477
+object_checker/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+django_object_checker-1.0.0.dist-info/LICENSE,sha256=68A5ajTiiqPXHu59aXG09ERXuqDFTj8hdAB5bOeO1FY,1069
+django_object_checker-1.0.0.dist-info/METADATA,sha256=qfq7wJhof1HIxRYQpNmkpxU1cUb7U9tr2nnefnHivoA,4361
+django_object_checker-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_object_checker-1.0.0.dist-info/top_level.txt,sha256=DzgTAy5jm-06khwG2Lz19FWiDuTPv5Pli4koc-0PExo,15
+django_object_checker-1.0.0.dist-info/RECORD,,
