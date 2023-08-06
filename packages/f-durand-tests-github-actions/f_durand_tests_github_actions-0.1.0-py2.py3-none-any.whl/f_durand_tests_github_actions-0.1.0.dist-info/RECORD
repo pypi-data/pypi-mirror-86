@@ -1,0 +1,15 @@
+f_durand_tests_github_actions/__init__.py,sha256=lBqnJP9gTyqwj4eWwe6A3JaxQMDBwW4ml7WY81xJ5n0,370
+f_durand_tests_github_actions/f_durand_tests_github_actions.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+f_durand_tests_github_actions/SubPackage1/MyClass1.py,sha256=IqHpB2vZzlri6d4hxJBbwuIg_YuBoXLP9qJEQJTdddg,4676
+f_durand_tests_github_actions/SubPackage1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+f_durand_tests_github_actions/SubPackage2/MyClass2.py,sha256=9lRP3HKeLWuwhOxWt5Wgxp4zFtaovzoPjwj4EQEP2Bk,790
+f_durand_tests_github_actions/SubPackage2/MyClass3.py,sha256=THjQ3PB7F_9Fz-QS8_JVNdYinQDd6J10kPuJdfCL708,790
+f_durand_tests_github_actions/SubPackage2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=bUpMSbfA4SKZAnMZFlDoyOoVt9qYdJxhvz_49Za9xoM,59
+tests/test_f_durand_tests_github_actions.py,sha256=PYyWsC5yxYQyRuVMQ-OoOL8OLshLLlHuq-eWHonXFM0,619
+f_durand_tests_github_actions-0.1.0.dist-info/AUTHORS.rst,sha256=y8xUJSQmidy-q-pAoL9_TrmbsaB4nCGU2QACc5jCv68,161
+f_durand_tests_github_actions-0.1.0.dist-info/LICENSE,sha256=Jp2-RFg4reR9wTKfXUAzN-W-c2S_BtSNO2WXsbYvKHo,1552
+f_durand_tests_github_actions-0.1.0.dist-info/METADATA,sha256=1WDTYUj9-etMOF44j9GQDQNRBSBCKsuLnu0SthbyW50,2263
+f_durand_tests_github_actions-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+f_durand_tests_github_actions-0.1.0.dist-info/top_level.txt,sha256=RBQoIMpXzt9OFacaGf3Ll_4DXZEbCg5XNd9uN8qV0M0,36
+f_durand_tests_github_actions-0.1.0.dist-info/RECORD,,
