@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: ming-p1
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/mingderwang/ming-p1/
+License: ISC
+Author: Ming-der Wang
+Author-email: mingderwang@gmail.com
+Requires-Python: >=3.8-dev,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=1.8,<2.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=0.5.0,<0.6.0); extra == "docs"
+Requires-Dist: toml (>=0.10.2,<0.11.0); extra == "docs"
+Project-URL: Documentation, https://ming-p1.readthedocs.io/
+Project-URL: Repository, https://github.com/mingderwang/ming-p1/
+Description-Content-Type: text/x-rst
+
+.. start-include
+
+=======
+ming_p1
+=======
+
+.. image:: https://travis-ci.org/mingder78/ming-p1.svg?branch=master
+   :target: https://travis-ci.org/mingder78/ming-p1
+   :alt: Build status: Linux and OSX
+
+.. image:: https://ci.appveyor.com/api/projects/status/github/mingder78/ming-p1?branch=master&svg=true
+   :target: https://ci.appveyor.com/project/mingder78/ming-p1
+   :alt: Build status: Windows
+
+.. image:: https://readthedocs.org/projects/ming-p1/badge/?version=latest
+   :target: https://ming-p1.readthedocs.io/
+   :alt: Documentation status
+
+.. image:: https://img.shields.io/pypi/v/ming_p1.svg
+   :target: https://pypi.org/project/ming_p1/
+   :alt: Latest PyPI version
+
+.. image:: https://img.shields.io/pypi/pyversions/ming_p1.svg
+   :target: https://pypi.org/project/ming_p1/
+   :alt: Python versions supported
+
+.. end-include
+
