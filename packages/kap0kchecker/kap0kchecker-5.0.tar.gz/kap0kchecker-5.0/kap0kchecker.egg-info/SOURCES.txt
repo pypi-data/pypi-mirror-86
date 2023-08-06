@@ -1,0 +1,6 @@
+kap0kchecker.py
+setup.py
+kap0kchecker.egg-info/PKG-INFO
+kap0kchecker.egg-info/SOURCES.txt
+kap0kchecker.egg-info/dependency_links.txt
+kap0kchecker.egg-info/top_level.txt
