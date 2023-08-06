@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+melia.egg-info/PKG-INFO
+melia.egg-info/SOURCES.txt
+melia.egg-info/dependency_links.txt
+melia.egg-info/entry_points.txt
+melia.egg-info/top_level.txt
