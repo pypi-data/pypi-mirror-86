@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: OpenOPC-WF
+Version: 1.3.3
+Summary: OPC (OLE for Process Control) toolkit for Python 3.x with fixes.
+Home-page: https://github.com/bebetoalves/openopc
+Maintainer: Bebeto Alves
+Maintainer-email: bebeto@alu.ufc.br
+License: GPLv2
+Keywords: python,opc,openopc
+Platform: UNKNOWN
+Requires-Dist: Pyro4 (>=4.61)
+
+UNKNOWN
+
+
