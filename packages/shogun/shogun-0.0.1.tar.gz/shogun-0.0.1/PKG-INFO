@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: shogun
+Version: 0.0.1
+Summary: Opinionated Typed Configuration
+Home-page: https://github.com/menpo/shogun
+Author: The Menpo Team
+Author-email: hello@menpo.org
+License: UNKNOWN
+Description: # shogun
+        Opinionated Typed Configuration
+        
+        ## WIP
+        Still working on basic functionality
+        
+        Initial implementation courtesy of https://github.com/roee30/datargs
+        under the MIT license - maintained in this repository at LICENSE-datargs
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
