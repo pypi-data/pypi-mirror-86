@@ -1,0 +1,12 @@
+grab_from_libgen/__init__.py,sha256=z-0eoBzdax69dJt6kHp9stAqATjoaVUUadY-HI5plGg,32
+grab_from_libgen/convert.py,sha256=BHj9s8E6Ao51s5v1DyZc6HcTYQrLJbGCJkVEJXwFKd8,900
+grab_from_libgen/exceptions.py,sha256=ijPugqxiUtyOu8zCu2_A6y8dKI8lBLIkgYFGdaDFUeM,174
+grab_from_libgen/mirrors.py,sha256=ec0vQ4yPSdGS8HH3hJpcYQbcdo-BLfzKwgwDhoywovQ,1771
+grab_from_libgen/search.py,sha256=uR0e7cLmcRqGNZNCop1lro_4xfytoJA7kLeC6xvhoC4,8077
+grab_from_libgen/search_config.py,sha256=vVssu6mZD7Tg9UH0Qxr4XecIlD1pfLGOtw70xAKKYQY,436
+grab_from_libgen/search_parameters.py,sha256=bHA6d3qqpkDZtp3ItMZJV-inMTQKueYy6aYpl1rQpHQ,2488
+grab_convert_from_libgen-1.0.0.dist-info/LICENSE,sha256=IRLeBRIb_XSdIGrfI6c0MUPZjxR6xEeT6-WVBou5pps,1068
+grab_convert_from_libgen-1.0.0.dist-info/METADATA,sha256=-DYt7QXIAfQ2XBcwZYBiQkk15h6OTk0fnhxAyULbAms,2424
+grab_convert_from_libgen-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+grab_convert_from_libgen-1.0.0.dist-info/top_level.txt,sha256=__dBPMstfuUKEM3QISSELr0Ml75EMArDalOsqKxjhJY,17
+grab_convert_from_libgen-1.0.0.dist-info/RECORD,,
