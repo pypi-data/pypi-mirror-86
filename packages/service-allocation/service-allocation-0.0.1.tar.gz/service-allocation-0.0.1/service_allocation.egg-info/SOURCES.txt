@@ -1,0 +1,10 @@
+README.md
+setup.py
+service_allocation/__init__.py
+service_allocation/service_allocation.py
+service_allocation.egg-info/PKG-INFO
+service_allocation.egg-info/SOURCES.txt
+service_allocation.egg-info/dependency_links.txt
+service_allocation.egg-info/entry_points.txt
+service_allocation.egg-info/requires.txt
+service_allocation.egg-info/top_level.txt
