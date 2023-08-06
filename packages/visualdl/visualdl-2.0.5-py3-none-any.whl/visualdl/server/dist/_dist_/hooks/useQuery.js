@@ -1,0 +1,1 @@
+import s from"../../web_modules/query-string.js";import{useLocation as t}from"../../web_modules/react-router-dom.js";import{useMemo as o}from"../../web_modules/react.js";const n=e=>{const i=t(),r=o(()=>s.parse(i.search,e),[i.search,e]);return r};export default n;

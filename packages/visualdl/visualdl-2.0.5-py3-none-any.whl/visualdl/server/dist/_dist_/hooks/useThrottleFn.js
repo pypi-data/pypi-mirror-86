@@ -1,0 +1,1 @@
+import a from"../../web_modules/lodash/throttle.js";import c from"./useCreation.js";import{useRef as l}from"../../web_modules/react.js";function u(i,e){var t;const n=l(i);n.current=i;const s=(t=e==null?void 0:e.wait)!==null&&t!==void 0?t:1e3,r=c(()=>a((...o)=>{n.current(...o)},s,e),[]);return{run:r,cancel:r.cancel}}export default u;

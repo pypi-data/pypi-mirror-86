@@ -1,0 +1,1 @@
+import{useEffect as o,useState as r}from"../../web_modules/react.js";const c=(e,t)=>{const[i,n]=r(e);return o(()=>{const s=setTimeout(()=>{n(e)},t);return()=>clearTimeout(s)},[e,t]),i};export default c;
