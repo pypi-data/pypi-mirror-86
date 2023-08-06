@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: latex-slides
+Version: 0.0.1
+Summary: A package to make slides for repeating samples.
+Home-page: https://github.com/saeid-h/latex_slide_maker
+Author: Saeid Hosseinipoor
+Author-email: shossei1@stevens.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+
+# LaTeX Slide Maker
+This python code provides a simple python code to make LaTeX slides.
+It would be useful to put your qualitaive results in a slides automatically, when you have many examples to show. 
+
+```python
+from latex_slides.classes import *
+```
+
+Some scripts are provided as examples of how to use it.
+
+***
+_Copyright &copy; 2020 [Saeid Hosseinipoor](https://saeid-h.github.io/). Released under the [MIT License](LICENSE)._
+
