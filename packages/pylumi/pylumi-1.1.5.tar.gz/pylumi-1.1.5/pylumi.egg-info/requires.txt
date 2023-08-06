@@ -1,0 +1,15 @@
+
+[:python_version < "3.7"]
+dataclasses==0.7
+
+[dev]
+cython
+twine
+bumpversion
+wheel
+black==20.8b1
+
+[tests]
+psutil
+pytest
+boto3
