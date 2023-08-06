@@ -1,0 +1,9 @@
+README.md
+setup.py
+mc6470/__init__.py
+mc6470/mc6470.py
+python_MC6470.egg-info/PKG-INFO
+python_MC6470.egg-info/SOURCES.txt
+python_MC6470.egg-info/dependency_links.txt
+python_MC6470.egg-info/requires.txt
+python_MC6470.egg-info/top_level.txt
