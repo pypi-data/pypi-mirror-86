@@ -1,0 +1,11 @@
+databind/__init__.py,sha256=iOEMwnlORWezdO8-2vxBIPSR37D7JGjluZ8f55vzxls,81
+databind/binary/__init__.py,sha256=-PaC0Cmhbc8iis4MG_aki0JoHKa9aX9JBRwhuh5fzRc,1335
+databind/binary/_converters.py,sha256=BdRzY47H68LNC9X09WgWR9KwsDNTagVUJVSw9y7XISc,3017
+databind/binary/_types.py,sha256=iMIN2y1K4DT10sBz4-0d4AdvxdkoN0NeZx4o7KFG0P8,1249
+databind/binary/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databind/binary/test_binary.py,sha256=0ZSZ-j2jrBR3xvWanvHhw7MVn8UYKqk3R2i12et7ThY,834
+databind.binary-0.2.1.dist-info/LICENSE.txt,sha256=PTMA8TgKd7TibXuKbMOGlqATHes1D76uP9dAlPyqdEk,1002
+databind.binary-0.2.1.dist-info/METADATA,sha256=boiKmAYMM_Jh2jZAVZcLEuPKUX5YNi0dAcZpNnjYsd4,1283
+databind.binary-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+databind.binary-0.2.1.dist-info/top_level.txt,sha256=WpXq4u4e1sM5ssD0YVRw6NDZ6a0dPTSSyVMVHOr5CZ4,9
+databind.binary-0.2.1.dist-info/RECORD,,
