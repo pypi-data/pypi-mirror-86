@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+simple_face_alignment/__init__.py
+simple_face_alignment/face_aligned.py
+simple_face_alignment.egg-info/PKG-INFO
+simple_face_alignment.egg-info/SOURCES.txt
+simple_face_alignment.egg-info/dependency_links.txt
+simple_face_alignment.egg-info/requires.txt
+simple_face_alignment.egg-info/top_level.txt
