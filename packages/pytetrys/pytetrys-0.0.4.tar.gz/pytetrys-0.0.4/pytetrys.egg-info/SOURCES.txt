@@ -1,0 +1,9 @@
+README.md
+setup.py
+PyTetrys/__init__.py
+PyTetrys/constantes.py
+PyTetrys/pecas.py
+pytetrys.egg-info/PKG-INFO
+pytetrys.egg-info/SOURCES.txt
+pytetrys.egg-info/dependency_links.txt
+pytetrys.egg-info/top_level.txt
