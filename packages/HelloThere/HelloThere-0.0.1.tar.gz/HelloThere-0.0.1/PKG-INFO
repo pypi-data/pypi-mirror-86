@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: HelloThere
+Version: 0.0.1
+Summary: A Package That Has One Function.
+Home-page: UNKNOWN
+Author: Danny Wang
+Author-email: thepeeps91@gmail.com
+License: MIT
+Description: This is comes with one command, which is "hellothere(name)".
+        
+        Change Log
+        ===========
+        0.0.1 (27/11/2020)
+        ------------------
+        - First Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

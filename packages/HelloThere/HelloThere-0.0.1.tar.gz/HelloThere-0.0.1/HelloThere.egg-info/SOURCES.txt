@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+HelloThere/__init__.py
+HelloThere.egg-info/PKG-INFO
+HelloThere.egg-info/SOURCES.txt
+HelloThere.egg-info/dependency_links.txt
+HelloThere.egg-info/top_level.txt
