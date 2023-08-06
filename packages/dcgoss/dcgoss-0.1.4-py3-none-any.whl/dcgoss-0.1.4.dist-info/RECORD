@@ -1,0 +1,12 @@
+dcgoss/__init__.py,sha256=glh_S-p-WyqWrE-Ch8juH45kWta_jjmxRcg6u_SCNrA,1033
+dcgoss/__main__.py,sha256=DzGK6ZZGeJ58ipj5TfuJJuMoGDFjognsRXJoMqgU2zo,1977
+dcgoss/dcgoss.py,sha256=-DxjlThoMeLFk8PYZFojOeoPXAOxx4tJ_YlQSsigwWU,18337
+dcgoss/docker.py,sha256=8FjU7KH4xGXUsDQ8nnl4V5oUNALjdsfClsU_yQrWtvw,1609
+dcgoss/docker_compose.py,sha256=FJamySDUF0F1q5l6jNoMTaV60Aoj8YnbRPOPf_-u8UY,4611
+dcgoss/external_command.py,sha256=ucjMcDKV6r_KIP8rfPhY1Ua2VCwMpXDAkM3-tsoEFkY,2049
+dcgoss-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dcgoss-0.1.4.dist-info/METADATA,sha256=Vt4P5DZ-5k4htAmjoUhYLJ2CAnrUatfBdN4iY-e1B0Q,1297
+dcgoss-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dcgoss-0.1.4.dist-info/entry_points.txt,sha256=KyQbzTWph5I8f99hqY_rpk3NOkFrXzBGAkIrMNgeFEA,49
+dcgoss-0.1.4.dist-info/top_level.txt,sha256=pq34956daqSds60KjNiC-Jb54D-bAMrwc6TqA_8anLs,7
+dcgoss-0.1.4.dist-info/RECORD,,
