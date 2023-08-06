@@ -1,0 +1,13 @@
+matplotlib
+numpy
+scipy>=1.1.0
+
+[docs]
+sphinx_rtd_theme
+sphinxcontrib-bibtex
+
+[trees]
+networkx
+
+[zonotope]
+cvxopt==1.2.1
