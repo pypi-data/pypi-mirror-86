@@ -1,0 +1,7 @@
+Django>=1.11.2
+libsass
+psycopg2
+PyYAML
+Shapely
+six
+uk-postcode-utils
