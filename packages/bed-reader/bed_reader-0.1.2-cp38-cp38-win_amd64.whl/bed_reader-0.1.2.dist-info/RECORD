@@ -1,0 +1,17 @@
+bed_reader/__init__.py,sha256=GjmI6htrtd0Tja2jFtBgKUbaMIfjdtxFIUtaniM9eB4,166
+bed_reader/_open_bed.py,sha256=oGhvFT1eUyK7aWF4p2gyBdS-PIZjv6G2J7UBTto_Zts,43881
+bed_reader/_sample_data.py,sha256=dPYRT-jG2P-IYYCwGqFhG6MH9WCApHVaJs7nw4aGDnM,2545
+bed_reader/_to_bed.py,sha256=MHdq_BU1yiqw1js70ONbE3XoAgbqiNBfRLKGwodOrVw,9053
+bed_reader/libomp.dll,sha256=byRW75RA1KlF9zor74xJ6XSuJnjKQGqarzyrU1QFsKQ,651264
+bed_reader/wrap_matrix_subset.cp38-win_amd64.pyd,sha256=qucKlmVOO4hg1X-OjJIBampBUgylmpj83k6HeMZBWok,140288
+bed_reader/wrap_plink_parser_onep.cp38-win_amd64.pyd,sha256=OWlLBGe7mDv4jZEfEVVBfqFmc5EpHpkPfHGuEPX1bXE,197120
+bed_reader/wrap_plink_parser_openmp.cp38-win_amd64.pyd,sha256=fgACG895b6UqCHzliYvPlUDXgDKBUhX3wnywhtVmICU,110080
+bed_reader/tests/__init__.py,sha256=vOJJmWMDBJxqY1PQUgxWA8ny4GaNJexApsreRtIJhv4,43
+bed_reader/tests/registry.txt,sha256=JBHrWqQyvRdSUQTJjsfIq2gg9f3itwLKVzgx6QBM49o,1027
+bed_reader/tests/test_open_bed.py,sha256=pKhIJhZgnd6Ju4tdcTxEQsifje3qQ4mvIUHx3HJYaa8,29698
+bed_reader-0.1.2.dist-info/AUTHORS.txt,sha256=9VjAr_wz-IrMuatEKAv6HnTmxKElbTTg93S_HIS7zFQ,30
+bed_reader-0.1.2.dist-info/LICENSE.md,sha256=Ehfkp0Yy-mT3LBHLzCFdLRW6yt1R6IYOvtcYHwqZTsY,11554
+bed_reader-0.1.2.dist-info/METADATA,sha256=TjcBWD4OH7IjzsXNKF7JwPgCM4id5TKcn0MhITzhbl0,3316
+bed_reader-0.1.2.dist-info/WHEEL,sha256=9MdUI0OzwjYaHl3jWlKFDIJ5MFBPjwppNgWNtexntqg,105
+bed_reader-0.1.2.dist-info/top_level.txt,sha256=qEnM-k_LyjDoP4_MQ2zFkPv0MVvytbI5C7yyzpRddeE,28
+bed_reader-0.1.2.dist-info/RECORD,,
