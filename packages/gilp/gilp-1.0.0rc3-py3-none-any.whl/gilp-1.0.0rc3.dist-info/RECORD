@@ -1,0 +1,17 @@
+gilp/__init__.py,sha256=4WPCRTY5XmYqDKtMIuCqfqnaXV3TtX_ScDpcVDOwtco,916
+gilp/_constants.py,sha256=suPLTxZIKZhqnEbefKGbNy9bJEjgzb9Mha_6H6Q9kPA,7906
+gilp/_geometry.py,sha256=Bt5eD77eQ_GhOXeOIXXfGwZ8_kymnaSBfYOdHB4Q2_c,9277
+gilp/_graphic.py,sha256=KJl3d3FeBusXkmbYXnIbCdH12w2LnmbKKms3DxI1z_0,25182
+gilp/examples.py,sha256=afit8feUwYzXbV0g0hFLL1ZwU_I3HGnh9vLYtkfJkeA,4081
+gilp/simplex.py,sha256=h-_T8XDjvE0IL65Qo4XVEJWSPnNSH8zRkmAu85JqVfg,28819
+gilp/visualize.py,sha256=8vnIz0UGEyNMtrMnBRWZ7UdyG2qHghBxVr-3wp3BBoU,35250
+gilp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gilp/tests/test_geometry.py,sha256=nzjVb4VcWbQocTtORhvgRbz-0nSr3Cjdvh6Vu1PKoqM,9743
+gilp/tests/test_graphic.py,sha256=RxdtC8OTy_6eOZCkPZqpBbG__kuqTCoai1q5-Uop_6Y,3514
+gilp/tests/test_simplex.py,sha256=kcuBsD2LzLRfVDC-nMSXtF0qwH5kcEiVXjeDwUSxivA,17118
+gilp/tests/test_visualize.py,sha256=-ifY4Q8lKhQFLGM3h3xy_Hy6IVK_-5GyqhVHZGCYsfw,3606
+gilp-1.0.0rc3.dist-info/LICENSE,sha256=NHodLWFPK67g49bxYEoNhBrr05SG9nPLr4eg44PDTqA,1364
+gilp-1.0.0rc3.dist-info/METADATA,sha256=wk7zVllylv5z1UnDwump0pB9hUS099W5niVzv8HsXK0,5095
+gilp-1.0.0rc3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gilp-1.0.0rc3.dist-info/top_level.txt,sha256=3OlDU6rbh2ck-bERtOltQTMU1bmbnQsFY1nsQwsw49Y,5
+gilp-1.0.0rc3.dist-info/RECORD,,
