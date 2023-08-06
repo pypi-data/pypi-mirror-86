@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: regens
+Version: 0.2.0b0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ==3.7
+Description-Content-Type: text/markdown
+Requires-Dist: bed-reader (==0.1.1)
+Requires-Dist: numpy (==1.16.2)
+Requires-Dist: pandas (==1.1.2)
+Requires-Dist: matplotlib (==3.0.3)
+Requires-Dist: scipy (==1.2.1)
+Requires-Dist: scikit-learn (==0.20.3)
+
+REGENS (REcombinatory Genome ENumeration of Subpopulations) is an open source Python package that simulates whole genomes from real genomic segments. REGENS recombines these segments in a way that simulates completely new individuals while simultaneously preserving the input genomes' linkage disequilibrium (LD) pattern with extremely high fedility. REGENS can also simulate mono-allelic and epistatic single nucleotide variant (SNV) effects on a continuous or binary phenotype without perturbing the simulated LD pattern.
+
+please visit our [github page](https://github.com/EpistasisLab/regens) for more information
+
