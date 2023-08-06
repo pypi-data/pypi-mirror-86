@@ -1,0 +1,12 @@
+freehub/__init__.py,sha256=cQLbncWAS3j3aXgNoT9shTG3ctb0TSMQpto8nhwkqv4,43
+freehub/apis.py,sha256=7eUYomeB8ZQLokCHBCdKAYClRZwI2GHRD2DeYA2t_Is,3955
+freehub/git_ops.py,sha256=23EFpySpghkRpD0ctCE5i8ffTinEL5OOFbTzT6Rlq1w,4628
+freehub/utils.py,sha256=ZbPzvKf38KzqZosbi2MsTsqykvmInB-zZfQdBqf0ypQ,1146
+freehub/clitools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freehub/clitools/cli.py,sha256=nOIOnV-s3WwT8M9qrxTDEJmplPFmRNJCkTtXE_IT2Io,523
+freehub-0.0.0.8.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+freehub-0.0.0.8.dist-info/METADATA,sha256=xYHY9oNNMw72GDrbjnM03MrjY8K7wHhfO6V0pfcflEI,1088
+freehub-0.0.0.8.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+freehub-0.0.0.8.dist-info/entry_points.txt,sha256=xRc0WT0rOxEwEIeNEQlbRw_Ns0ti9fxPgo2WXhGwuCo,55
+freehub-0.0.0.8.dist-info/top_level.txt,sha256=rT_Ms44Nh9YncEMXB54aBVXzn8mC3pE-gwHMIiDNrus,8
+freehub-0.0.0.8.dist-info/RECORD,,
