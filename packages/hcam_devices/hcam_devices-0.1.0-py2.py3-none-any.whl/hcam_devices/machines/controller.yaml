@@ -1,0 +1,45 @@
+statechart:
+  name: A basic device sensor with setpoint control
+  description: |
+    Connection is handled by a separate connection handler that is bound to this machine.
+
+    This machine expects a method in it's initial context called "read". This returns
+    a value. We also need a method called "write", which
+    accepts a single value and updates the setpoint. Finally, to ensure the setpoint
+    is correct on connection, we need a method called "read_setpoint".
+  preamble: |
+    poll_time = 1
+    value = setdefault('value', 0)
+    target = setdefault('target', 0)
+  root state:
+    name: active
+    initial: offline
+    states:
+      - name: offline
+        transitions:
+        - target: online
+          event: connect
+
+
+      - name: online
+        initial: running
+        on entry: target = read_setpoint()
+        transitions:
+          - target: offline
+            event: disconnect
+
+        states:
+          - name: running
+            transitions:
+            - target: running
+              guard: after(poll_time)
+              action: |
+                value = read()
+            - target: running
+              event: targetSet
+              action: |
+                target = event.target
+                write(target)
+
+
+

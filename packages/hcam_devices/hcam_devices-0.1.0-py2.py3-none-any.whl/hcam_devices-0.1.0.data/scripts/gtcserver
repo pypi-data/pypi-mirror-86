@@ -1,0 +1,22 @@
+#!python
+import sys
+
+from autobahn.twisted.component import Component, run
+
+from hcam_devices.components import GTCComponent
+
+transport_cfg = dict(
+    type='websocket',
+    url='ws://localhost:8080/ws',
+    max_retries=-1,
+    max_retry_delay=30,
+)
+
+
+path = sys.argv[1]
+gtc = Component(
+    transports=transport_cfg, realm='realm1', session_factory=GTCComponent,
+    extra=dict(name='GTC', emulate=True, path=path)
+)
+
+run([gtc])
