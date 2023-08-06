@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+scrapy_save_to_qiniu/__init__.py
+scrapy_save_to_qiniu/pipelines.py
+scrapy_save_to_qiniu.egg-info/PKG-INFO
+scrapy_save_to_qiniu.egg-info/SOURCES.txt
+scrapy_save_to_qiniu.egg-info/dependency_links.txt
+scrapy_save_to_qiniu.egg-info/not-zip-safe
+scrapy_save_to_qiniu.egg-info/top_level.txt
