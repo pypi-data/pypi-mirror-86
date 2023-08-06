@@ -1,0 +1,6 @@
+setup.py
+molecular.egg-info/PKG-INFO
+molecular.egg-info/SOURCES.txt
+molecular.egg-info/dependency_links.txt
+molecular.egg-info/top_level.txt
+molecular.egg-info/zip-safe
