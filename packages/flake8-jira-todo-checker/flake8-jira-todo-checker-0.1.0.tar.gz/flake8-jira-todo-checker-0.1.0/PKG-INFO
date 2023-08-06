@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: flake8-jira-todo-checker
+Version: 0.1.0
+Summary: Flake8 plugin to check that every TODO, FIXME, QQ etc comment has a JIRA ID next to it.
+Home-page: https://github.com/simonstjg/flake8-jira-todo-checker
+License: GPL-3.0-or-later
+Keywords: flake8,lint,todo,jira
+Author: Simon StJG
+Author-email: Simon.StJG@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Dist: flake8 (>=3,<4)
+Project-URL: Repository, https://github.com/simonstjg/flake8-jira-todo-checker
+Description-Content-Type: text/markdown
+
+Flake8 JIRA TODO Checker
+========================
+
+Flake8 plugin to check that every `TODO`, `FIXME`, `QQ` etc comment has a JIRA ID next to it.
+
