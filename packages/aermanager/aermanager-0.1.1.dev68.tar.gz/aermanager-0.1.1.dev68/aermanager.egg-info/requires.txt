@@ -1,0 +1,6 @@
+dv
+numpy
+h5py
+lxml
+scikit-image
+torchvision
