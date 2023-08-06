@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: octomy-clockwork
+Version: 0.0.3
+Summary: OctoMY scheduler
+Home-page: https://gitlab.com/octomy/clockwork
+Author: Lennart Rolland
+Author-email: lennart@octomy.org
+Maintainer: Lennart Rolland
+Maintainer-email: lennart@octomy.org
+License: GPL-3 LGPL-3 MIT
+Description: UNKNOWN
+Keywords: octomy clockwork scheduler clock timer task queue
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Other/Nonlisted Topic
+Requires-Python: ~=3.7.4
+Description-Content-Type: text/markdown
