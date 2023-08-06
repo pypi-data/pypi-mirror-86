@@ -1,0 +1,10 @@
+biscuits
+itsdangerous
+setuptools
+
+[test]
+pytest
+
+[transaction]
+transaction
+zope.interface
