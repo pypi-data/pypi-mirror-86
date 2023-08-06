@@ -1,0 +1,5 @@
+aubio
+numpy
+pydub
+runs
+stroll

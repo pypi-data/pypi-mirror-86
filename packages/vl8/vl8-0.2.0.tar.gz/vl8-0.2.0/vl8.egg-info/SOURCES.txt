@@ -1,0 +1,10 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+vl8.py
+vl8.egg-info/PKG-INFO
+vl8.egg-info/SOURCES.txt
+vl8.egg-info/dependency_links.txt
+vl8.egg-info/requires.txt
+vl8.egg-info/top_level.txt
