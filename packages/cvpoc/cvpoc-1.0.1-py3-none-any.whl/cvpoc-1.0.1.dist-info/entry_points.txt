@@ -1,0 +1,3 @@
+[console_scripts]
+cvpoc = cvpoc.poc:main
+

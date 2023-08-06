@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cvpoc
+Version: 1.0.1
+Summary: CvPoc is an open-sourced remote vulnerability testing framework developed by the CV Team.
+Home-page: UNKNOWN
+Author: CV Team
+Author-email: 943738808@qq.com
+Maintainer: cvpoc developers
+License: GPL 2.0
+Keywords: PoC,Exp,CvPoc
+Platform: any
+Requires-Python: >=3.4
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: termcolor
+
+CvPoc is an open-sourced remote vulnerability testing and proof-of-concept development framework developed by the CV Team. 
+
+
