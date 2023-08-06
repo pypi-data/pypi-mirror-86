@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: satis
+Version: 0.0.1
+Summary: Spectral Analysis for TIme Signals
+Home-page: https://nitrox.cerfacs.fr/opentea/satis
+Author: Antoine Dauptain, Franchine Ni, Tamon Nakano, Matthieu Rossi
+Author-email: coop@cerfacs.fr
+License: UNKNOWN
+Description: # Welcome to satis
+        
+        Spectral Analysis for TImes Signals. Satis is a python3 / scipy implementation of the Fourier Spectrums in Amplitude ans Power Spectral Density.
+        
+        
+        ## Installation
+        
+        The package is available only on the nitrox server by a git clone from the [satis gitlab.com repository](https://nitrox.cerfacs.fr/opentea/satis/)
+        
+        ```
+        git clone git@nitrox.cerfacs.fr:opentea/satis.git
+        ```
+        
+        
+        ## Acknowledgements
+        
+        This package is the result of work done at Cerfacs's COOP Team.
+        The contributors of this project are:
+        - Franchine Ni
+        - Antoine Dauptain
+        - Tamon Nakano
+        - Matthieu Rossi
+Keywords: spectral analysis,CFD,signal processing
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
