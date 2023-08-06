@@ -1,0 +1,8 @@
+README.md
+setup.py
+erji/__init__.py
+erji/erji.py
+erji.egg-info/PKG-INFO
+erji.egg-info/SOURCES.txt
+erji.egg-info/dependency_links.txt
+erji.egg-info/top_level.txt
