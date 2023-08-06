@@ -1,0 +1,17 @@
+ClickReaction/BaseReaction.py,sha256=sTxDsn3f8l5CZfJ5wEQuVGwYQuzFWg11-8kRYUDu4mw,3910
+ClickReaction/Exceptions.py,sha256=5f-MbnsCSrW6xuwgnqy4XRikHb9CmzB8M_q4NbbI5wU,380
+ClickReaction/__init__.py,sha256=NhHQdkKx3WY1YHqT3ZqNAKr4il8C9L6zXGSG8T93OfY,25
+ClickReaction/Reactions/AlkalineEsterHydrolysis.py,sha256=YeumYO_FHCG8ApywFvF5ZJ65L1y_OWk76fJtcCQfLpI,810
+ClickReaction/Reactions/AmideCoupling.py,sha256=ZZPz3kkPGWIKUD8pau_pPYyJz-mdkStIpmZD64L0Pks,1096
+ClickReaction/Reactions/AmideCouplingWithAnilines.py,sha256=ADxjVtEeLlLleGCJI0nRCseUlEbEKpQv86_sh56AVKA,1310
+ClickReaction/Reactions/BocRemoval.py,sha256=_f6rp0nCb2zYp2D6nsD48JMyQYo_uCC8uaKpWenZlK8,600
+ClickReaction/Reactions/CuAAC.py,sha256=tqhGnE34uSt65yiWVRDwPXLjDndgsLF9_LJzuDzUZ0Q,754
+ClickReaction/Reactions/FmocRemoval.py,sha256=C9OewqWIiWqrY4iQV2RNP3SaEgdzQyHmqSpH9ee8ZoA,616
+ClickReaction/Reactions/SulfonAmideFormation.py,sha256=OzfRjFKM9iHo24DMxHAYd2w7enrzX_F4QmpgdIQUvKI,1000
+ClickReaction/Reactions/SuzukiMiyaura.py,sha256=Szsc7BB8Dps1Lh5GwQkzyXNlkyXjkkVXRTz1zA2KN68,939
+ClickReaction/Reactions/__init__.py,sha256=RmeW3FRoXvSNtiTVbGN1b3EQuOoiJ78LfTjnTXyWxpM,966
+ClickReaction-0.3.1.dist-info/LICENSE,sha256=hP_tIJwYe2FWYpP8RNuTEljvPhKumSNRLJ7ULTVDlxU,1099
+ClickReaction-0.3.1.dist-info/METADATA,sha256=28CsMXm3gJ5cwWrv-ozivETiL-okq0_K9swjjoU0rdE,2229
+ClickReaction-0.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ClickReaction-0.3.1.dist-info/top_level.txt,sha256=Or-qTL1k5DBTC7eLz1EywE9yjJ7ckB94SQThLpSq6n4,14
+ClickReaction-0.3.1.dist-info/RECORD,,
