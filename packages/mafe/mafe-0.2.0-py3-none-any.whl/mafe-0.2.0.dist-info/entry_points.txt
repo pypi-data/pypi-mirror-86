@@ -1,0 +1,4 @@
+[console_scripts]
+process=mafe.mafe.mafe_process:cli
+scan=mafe.mafe.mafe_scan:scan_folders
+
