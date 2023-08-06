@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Bulk-cert-generator
+Version: 1.0.0
+Summary: Easy to Make Multiple Certificate
+Home-page: https://github.com/alfiankan/bulk-cert-generator
+Author: Alfiankan
+Author-email: alfiankan19@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/bulk-cert-generator/
+Description: Bulk Cert Generator
+        
+        
+Keywords: Certificate Generator Python,Multi Certificate Generator,Make Certificate With Python
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
