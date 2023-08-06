@@ -1,0 +1,5 @@
+setup.py
+saquare.egg-info/PKG-INFO
+saquare.egg-info/SOURCES.txt
+saquare.egg-info/dependency_links.txt
+saquare.egg-info/top_level.txt
