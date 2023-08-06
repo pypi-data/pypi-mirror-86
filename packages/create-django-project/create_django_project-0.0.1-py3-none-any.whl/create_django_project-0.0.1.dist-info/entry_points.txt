@@ -1,0 +1,3 @@
+[console_scripts]
+create-django-project=create_django_project.main:main
+

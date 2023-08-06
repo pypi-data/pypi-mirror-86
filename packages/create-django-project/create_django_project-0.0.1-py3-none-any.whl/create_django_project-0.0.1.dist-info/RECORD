@@ -1,0 +1,10 @@
+create_django_project/__init__.py,sha256=-LGgpVzBvQsNFEbahLrAD1u9e1Ur3koil2eg54r1t7Y,23
+create_django_project/_parser.py,sha256=yJAClOl8vjqJVVKrj-JCyyQftR4pYlOUpDuwDcxAGbA,1225
+create_django_project/config.py,sha256=26EuX0bfixrcfs3xyZm1FfmzD57XkbbnW96e0_RppeM,3388
+create_django_project/main.py,sha256=49RjtXwKFRDZxILNjJZwMgv_TOti_1UzBinCr7T05CA,191
+create_django_project/utils.py,sha256=78ob8WCcwYmdF4qvqvAA7poE_Ffe67mZqRY_uzD3H3g,331
+create_django_project-0.0.1.dist-info/entry_points.txt,sha256=a4Gyk7d6T7OAbUb3THt0aYybBvDuElSRn9VKt1w_96M,73
+create_django_project-0.0.1.dist-info/LICENSE,sha256=JM1zL_Pu150i6U1sEWM9B1iKZl3I2NQodTuwhIq7olE,1092
+create_django_project-0.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+create_django_project-0.0.1.dist-info/METADATA,sha256=oETISTMVBPV48X70DZp5c8eGPtCfheZZNFJld0zahSc,868
+create_django_project-0.0.1.dist-info/RECORD,,

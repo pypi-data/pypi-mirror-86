@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: create-django-project
+Version: 0.0.1
+Summary: Command Line Interface (CLI) that abstract much of common pattern in creating and structuring Django project.
+Home-page: https://github.com/ZendaInnocent/create-django-project.git
+Author: Innocent Zenda
+Author-email: zendainnocent@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/ZendaInnocent/create-django-project.git
+Description-Content-Type: text/x-rst
+
+Create Django Project
+=====================
+Command Line Interface (CLI) that abstract much of common pattern in creating and structuring Django project.
+
