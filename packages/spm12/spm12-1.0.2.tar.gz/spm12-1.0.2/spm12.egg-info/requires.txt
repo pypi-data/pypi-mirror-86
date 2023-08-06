@@ -1,0 +1,22 @@
+argopt
+miutil[nii]!=0.4.0,!=0.4.1,>=0.1.0
+brainweb>=1.6.2
+numpy
+scipy
+
+[demo]
+miutil[plot]>=0.3.0
+matplotlib
+
+[dev]
+flake8
+twine
+wheel
+pytest
+pytest-cov
+pytest-timeout
+pytest-xdist
+codecov
+
+[dev:python_version >= "3.0"]
+black
