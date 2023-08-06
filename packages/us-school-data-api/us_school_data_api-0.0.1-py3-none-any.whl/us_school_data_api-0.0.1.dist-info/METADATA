@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: us-school-data-api
+Version: 0.0.1
+Summary: Python wrapper for the Urban Institute School and School Districts API
+Home-page: https://github.com/ariisrael/us-education-data-api
+Author: Ari Israel
+Author-email: ari@ariisrael.com
+License: UNKNOWN
+Keywords: united states,education data,urban institute,api wrapper,schools,school districts
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Urban Institute Education Data - Python API Wrapper
+This is a package to wrap the [Urban Institute Education Data API](https://educationdata.urban.org/documentation/) for easy use in Python.
+
+
+
+
