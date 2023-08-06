@@ -1,0 +1,13 @@
+product/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+product/admin.py,sha256=ImQU7Q0SJNTigjgz1o6mizJwFEepZle5JSCBJXheLMw,29
+product/apps.py,sha256=9AakHQnB8XXVSaN6-YE-jO5sdXoA5b93TP5ujZVP05s,533
+product/models.py,sha256=uqG71L4L-PB2YLFkc09HrBn_mATYWEgiLiexPnaV9RM,17121
+product/schema.py,sha256=G0E1D7chmCZqTqYC4EI9BMF4c7KLZloCE84ddNgtVes,2248
+product/test_helpers.py,sha256=OqNMrKXoXdqma6sLa4EVw2CpneWspFPvGjfefVk-zMo,2113
+product/urls.py,sha256=2VZHO_d8F86pUF_4xeyFtSOr6-xpwltmk0L1szOBNEw,16
+product/views.py,sha256=F42JXgnqFqK0fajXeutyJJxwOszRxoLMNkIhfc4Z7KI,26
+openimis_be_product-1.2.0rc3.dist-info/LICENSE.md,sha256=qv829pDgynxCyMDqJP9yACWRxhNQEP7jrTxY8U5m4gY,1852
+openimis_be_product-1.2.0rc3.dist-info/METADATA,sha256=_fjaIs7smSW7aM0JK0Pe1LS_Nz27k4vWoUYYWaRUn1M,785
+openimis_be_product-1.2.0rc3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+openimis_be_product-1.2.0rc3.dist-info/top_level.txt,sha256=FrxW_86o3e_ivgRQnhtrp6bWvCG39Mq7aKsxCtzKFTQ,8
+openimis_be_product-1.2.0rc3.dist-info/RECORD,,
