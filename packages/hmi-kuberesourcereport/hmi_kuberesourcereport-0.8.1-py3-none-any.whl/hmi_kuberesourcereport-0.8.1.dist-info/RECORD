@@ -1,0 +1,10 @@
+hmi_kuberesourcereport/__init__.py,sha256=GMy5Dck8Q6R7HV9ZYNd8cEJ5OJp2ieWTljXMfNjKhzY,210
+hmi_kuberesourcereport/chart.py,sha256=z467Esc-yN8UaEmHrZKGIqyvobH2zlB5O9jpO3zWss8,11286
+hmi_kuberesourcereport/py.typed,sha256=a1RlQ-hAngPdZDtrgliwTVNtPmZYUZS3wvfbMRnunHI,28
+hmi_kuberesourcereport/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hmi_kuberesourcereport/tests/test_chart.py,sha256=LwjsqQpqEZNLntrng0D47F3yQu7ji6uBqeg-EnYdndE,280
+hmi_kuberesourcereport-0.8.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+hmi_kuberesourcereport-0.8.1.dist-info/METADATA,sha256=Tu8cWZTynWqinm_j8NE5HxJEei72We5OX3G71Jm1zf8,3895
+hmi_kuberesourcereport-0.8.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+hmi_kuberesourcereport-0.8.1.dist-info/top_level.txt,sha256=gK4f-QMaikdsMD0Mgh2z7Pig13g39yc1Y0BVodA4caA,23
+hmi_kuberesourcereport-0.8.1.dist-info/RECORD,,
