@@ -1,0 +1,26 @@
+numpy
+scipy
+pandas
+click
+jinja2
+scikit-bio
+biom-format
+iow
+emperor@ https://www.github.com/biocore/emperor/archive/master.zip
+
+[all]
+numpy
+scipy
+pandas
+click
+jinja2
+scikit-bio
+biom-format
+iow
+emperor@ https://www.github.com/biocore/emperor/archive/master.zip
+flake8
+nose
+
+[test]
+flake8
+nose
