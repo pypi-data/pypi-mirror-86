@@ -1,0 +1,3 @@
+google-cloud-logging
+google-cloud-dataproc==2.0.0
+google-cloud-pubsub
