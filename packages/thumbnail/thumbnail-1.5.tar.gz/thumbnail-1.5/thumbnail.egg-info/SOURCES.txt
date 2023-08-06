@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+thumbnail/__init__.py
+thumbnail/mimedb.json
+thumbnail/thumbnail.py
+thumbnail.egg-info/PKG-INFO
+thumbnail.egg-info/SOURCES.txt
+thumbnail.egg-info/dependency_links.txt
+thumbnail.egg-info/top_level.txt
