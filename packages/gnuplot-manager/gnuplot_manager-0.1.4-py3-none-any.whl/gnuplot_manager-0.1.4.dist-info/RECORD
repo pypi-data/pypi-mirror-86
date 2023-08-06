@@ -1,0 +1,13 @@
+gnuplot_manager/__init__.py,sha256=x7gvIK-EB8Q0jYV07RfaT0Am9fiytvwps_Ilqutbxg8,6358
+gnuplot_manager/classes.py,sha256=aucP85CwGlvoQm28CwqL__zmd8XGZQewrzBIi21tG7Y,24636
+gnuplot_manager/demo.py,sha256=Q7M43F7jYscRfys5augPn0w2MUDf8EZd-7q8y2DwKF0,3432
+gnuplot_manager/errors.py,sha256=RiLXWoijqusWiC_n6j-3Sz5vvPf26RifogsMpRqc8_s,1729
+gnuplot_manager/functions.py,sha256=bMxenSNUbsTj1lR9PgInUPPVWQk0-5cilLmsObhtLNc,52598
+gnuplot_manager/funcutils.py,sha256=HGyidPwGVqqpDLZSJL3m7HbKSQtnnG9e7kLHzCaUado,6029
+gnuplot_manager/global_variables.py,sha256=g4vTH5nqTRx9cDoMIGM83_mhvVpd6ToWxu7N90k8OAI,4173
+gnuplot_manager/test.py,sha256=GpNA9MjS5zDBIdHhgqGbvdOgrqgoG9bcujHFX5f6MqE,3966
+gnuplot_manager-0.1.4.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+gnuplot_manager-0.1.4.dist-info/METADATA,sha256=jCgBtHrQlhGbrazIQB9citPGN8GOuVLILo7ljBRXDac,47189
+gnuplot_manager-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gnuplot_manager-0.1.4.dist-info/top_level.txt,sha256=4KiBH7M9q0VVhTCc_Sya7v-_BIWlS1ASwT4ZN0rDy_k,16
+gnuplot_manager-0.1.4.dist-info/RECORD,,
