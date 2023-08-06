@@ -1,0 +1,8 @@
+README.md
+poeditorexporter.py
+setup.py
+poeditorexporter.egg-info/PKG-INFO
+poeditorexporter.egg-info/SOURCES.txt
+poeditorexporter.egg-info/dependency_links.txt
+poeditorexporter.egg-info/requires.txt
+poeditorexporter.egg-info/top_level.txt
