@@ -1,0 +1,4 @@
+click
+grpcio
+grpcio-tools
+docstring_parser==0.7.3
