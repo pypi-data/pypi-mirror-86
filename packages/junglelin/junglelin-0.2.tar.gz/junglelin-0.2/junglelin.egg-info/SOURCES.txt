@@ -1,0 +1,7 @@
+setup.py
+jungle/__init__.py
+junglelin.egg-info/PKG-INFO
+junglelin.egg-info/SOURCES.txt
+junglelin.egg-info/dependency_links.txt
+junglelin.egg-info/not-zip-safe
+junglelin.egg-info/top_level.txt
