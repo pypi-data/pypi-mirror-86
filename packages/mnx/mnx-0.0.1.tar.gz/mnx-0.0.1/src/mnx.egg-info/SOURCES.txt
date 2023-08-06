@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/mnx.egg-info/PKG-INFO
+src/mnx.egg-info/SOURCES.txt
+src/mnx.egg-info/dependency_links.txt
+src/mnx.egg-info/entry_points.txt
+src/mnx.egg-info/requires.txt
+src/mnx.egg-info/top_level.txt
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
