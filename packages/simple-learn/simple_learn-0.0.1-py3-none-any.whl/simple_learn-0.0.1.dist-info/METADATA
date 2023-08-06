@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: simple-learn
+Version: 0.0.1
+Summary: A python package to simplify data modeling.
+Home-page: https://github.com/skekre98/simple_learn
+Author: Sharvil Kekre
+Author-email: sharvildev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# SimpleLearn
+
+A python package to simplify data modeling.
+
