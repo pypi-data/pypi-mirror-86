@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: recap
+Version: 0.1.0
+Summary: Reproducible configurations for any project
+Home-page: https://github.com/georgw777/recap
+License: Apache-2.0
+Keywords: flake8,markdown,lint
+Author: Georg Wölflein
+Author-email: georgw7777@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: yacs (>=0.1.8,<0.2.0)
+Project-URL: Repository, https://github.com/georgw777/recap
+Description-Content-Type: text/markdown
+
+# recap
+
+![build](https://github.com/georgw777/recap/workflows/build/badge.svg)
+
+**re**producible **c**onfigurations for **a**ny **p**roject
+
