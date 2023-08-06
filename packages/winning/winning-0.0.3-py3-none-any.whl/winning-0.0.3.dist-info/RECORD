@@ -1,0 +1,12 @@
+winning/lattice.py,sha256=u7TBNKQq44VnCPGZ9ft50fQVbCbU0GAVhouTlVtqDfw,10872
+winning/lattice_calibration.py,sha256=ID9Pgv4kivEk7VwQrSC1pzzJ840EXhhW12fMr-LQN4M,4725
+winning/lattice_conventions.py,sha256=hi3fJisZgppQ6yLOX-hyzBXoE7WAF13_gQOnGjACBF0,349
+winning/lattice_plot.py,sha256=BtDW2c8lSmA6FqeagrlSsHYteum102UNCzySoceZTkI,371
+winning/skew_calibration.py,sha256=159ocdJdNtSyVcY8jPVIjHbRXVmc7GLFIc_dTdey3s4,1512
+winning/std_calibration.py,sha256=xzV-B3qHT2Ru_vmjb5bMRAY-uhpwOvCOUmxU2V3zroY,1027
+winning-0.0.3.dist-info/LICENSE,sha256=-gdncR8bzZQa-nJ5MYEq0Hg74uYYsaY34u7TIjNJI7I,1069
+winning-0.0.3.dist-info/METADATA,sha256=lEJ-LjytZlF70JY7A3UdvSuJmfYhRsM36YKCXB-4pZ0,2845
+winning-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+winning-0.0.3.dist-info/entry_points.txt,sha256=IpSd4lOEjd3BdZ2HmqvR6_i6ZLq3-L2ROBCMHuQEMeM,51
+winning-0.0.3.dist-info/top_level.txt,sha256=aT17AfCBs8Mv0sz1ZOQ-AGTSnTXOdLqYynE8PEaFVZM,8
+winning-0.0.3.dist-info/RECORD,,
