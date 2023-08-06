@@ -1,0 +1,8 @@
+aws_cdk/aws_sso/__init__.py,sha256=pD2ZKNo3HbH5c2VnvQjKvBK3Lmnxa8mqD3L1vrn1HUI,25202
+aws_cdk/aws_sso/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_sso/_jsii/__init__.py,sha256=P-dISDv6X9AUJwVF28JoyDAkxmR8UdlB01221rwXfH4,339
+aws_cdk/aws_sso/_jsii/aws-sso@1.75.0.jsii.tgz,sha256=O_U8PE117Ur4gbKz2Aefe-Xrhe6esIQsKaTH9fe0f0g,19867
+aws_cdk.aws_sso-1.75.0.dist-info/METADATA,sha256=AvO1ecdAo40R8qj1eJ0H7PK0MbOns-TKLlehvwiFIAI,1584
+aws_cdk.aws_sso-1.75.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_sso-1.75.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_sso-1.75.0.dist-info/RECORD,,
