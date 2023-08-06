@@ -1,0 +1,3 @@
+[console_scripts]
+pelmanism = pelmanism:main
+
