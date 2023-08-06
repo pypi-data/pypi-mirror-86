@@ -1,0 +1,12 @@
+redgrease/__init__.py,sha256=BTuyxEz1gdNe7SNsBYZGZ6SBO-1XA_CaFJyUaasPTZY,227
+redgrease/client.py,sha256=yXjYmUQDsMgSthy0DcGKQfzdvRtILtfmRE7ZV2bHzZ0,1945
+redgrease/operations.py,sha256=ioxuTn-46xCr3xiBuGaQ_xwHlF6VUyH5wdTIrQH1M1Q,2119
+redgrease/requirements.py,sha256=41sZNQJh8UX1k2l79pCUDkSlv8xnDIKOKkptjfFZGPE,579
+redgrease/runtime.py,sha256=DJLuSrzTs-puZhFIQZBC_NXUobYLd541xKp-T2MxtcU,21098
+redgrease/sugar.py,sha256=5iilIo8kHutKG6uhnT9RGdDmax7FPkNszJOS3SwHtKo,1243
+redgrease/typing.py,sha256=Acb6OpWhwEd1ffV4zmtn-ZXf95iwzvzRLW-tnBCd1ZQ,482
+redgrease-0.0.5.dist-info/LICENSE,sha256=bHv0aegmFwARvY-goeVd81CShZsJUzkvEkoxqYsCHq8,1073
+redgrease-0.0.5.dist-info/METADATA,sha256=XSu9lZl-qadUcEy_5RBsjRxH_3GTq1FdT4pDcsP0nnU,3783
+redgrease-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+redgrease-0.0.5.dist-info/top_level.txt,sha256=_zAwIROOsHITF2MZlfIBFjkngORET1nyWTW3vpesiw8,10
+redgrease-0.0.5.dist-info/RECORD,,
