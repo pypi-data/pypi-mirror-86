@@ -1,0 +1,10 @@
+backgammon/__init__.py,sha256=IjlVk2hBbtF7GOzwN_DAxXrxYzSAhM-jo_W9s9yMVhE,638
+backgammon/backgammon.py,sha256=bsV5dR-da0TwsWPEFsupMPlCwZbDAYGyyD3q5GgOq0M,12291
+backgammon/board.py,sha256=NBqaGbEMiOyq7ukpU1_NjSpjKRFcM8bF2dQ_nIW3MDM,2756
+backgammon/match.py,sha256=APK6_zlIx_nqmmcsILoVPQfn_6ts0DZHXOJanN2rWDs,4497
+backgammon/position.py,sha256=7mhcjzqNRgBFGPeFhY2NmPmO2nRi8FaH4O4aD3Vn_Fc,6195
+backgammon-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+backgammon-0.1.0.dist-info/METADATA,sha256=ugqs50SrIMO-ksE2TKV_jbIsawkhCy92L3ViyhpCPxE,4441
+backgammon-0.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+backgammon-0.1.0.dist-info/top_level.txt,sha256=1nFmlHWC19jSJ0oqmE3AL5qwhnZ_k3OGvIWh_au-4W8,11
+backgammon-0.1.0.dist-info/RECORD,,
