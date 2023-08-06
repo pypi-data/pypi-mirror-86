@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pypix
+Version: 0.1.2
+Summary: Python library for generating pix codes with CRC16 validation
+Home-page: https://github.com/dyohan9/python-pix
+License: GPL-3.0 License
+Keywords: pix,banco-central,pagamento,payment
+Author: Daniel Yohan
+Author-email: dyohan9@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Project-URL: Repository, https://github.com/dyohan9/python-pix
+Description-Content-Type: text/markdown
+
+# python-pix
