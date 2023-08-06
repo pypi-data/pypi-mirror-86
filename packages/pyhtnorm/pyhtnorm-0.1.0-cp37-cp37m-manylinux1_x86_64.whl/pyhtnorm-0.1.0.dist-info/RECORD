@@ -1,0 +1,11 @@
+pyhtnorm/_htnorm.pxd,sha256=ZvvLpb5rBt9Lh_e0_iodVYA7nTyBWOsme_ALry28wqI,714
+pyhtnorm/__init__.py,sha256=YKry6YEgzUcMMl8MZ72L2JlOm186TcQArQkJHsJ5u3s,57
+pyhtnorm/__init__.pxd,sha256=vNIwQ8lEWQ2_oIiKzECxlhGiPj3AaO4xHGVNM-evRRA,35
+pyhtnorm/c_htnorm.pxd,sha256=G-EJTEqT0xrx2cDfTkka2ldUDm5tTvaZQ4YbPI-jxPQ,1379
+pyhtnorm/_htnorm.cpython-37m-x86_64-linux-gnu.so,sha256=Tz2LB-JVstYuY3DG8iGYapmVO8_A0touzWf2gcb4yXI,1146816
+pyhtnorm.libs/libopenblasp-r0-2d42bc58.2.18.so,sha256=tlrKjWMwczAC607ncC5tAL155QbqQWPsyF8Rz5TIrXg,89577424
+pyhtnorm.libs/libgfortran-bfa58d52.so.1.0.0,sha256=OijrrqTuThICQrVe1DbHiJXbMX0jqVjmveBbHYhFLzw,646840
+pyhtnorm-0.1.0.dist-info/LICENSE,sha256=GWrXq-UAMGjoxT2oo2j_xo--ZKzoQS3JEe-4to-zmjU,1513
+pyhtnorm-0.1.0.dist-info/METADATA,sha256=_i5iXCsng_mZ4_3BszDY0rsRZLVacqvmPPk_knsfiRU,8378
+pyhtnorm-0.1.0.dist-info/WHEEL,sha256=BEPK8f-pBjqC1DhvLwVBnnTUKr5rdtmlr63DlV_Jv5Y,100
+pyhtnorm-0.1.0.dist-info/RECORD,,
