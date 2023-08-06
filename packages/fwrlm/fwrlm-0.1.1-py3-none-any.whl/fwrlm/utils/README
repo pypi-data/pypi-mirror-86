@@ -1,0 +1,12 @@
+This folder contains code extracted from other open source repositories at
+
+https://github.com/paramiko/paramiko
+
+under the GNU Lesser General Public License v 2.1 and
+
+https://github.com/TACC/Lmod
+
+under the MIT license. These specific license agreements are explicitly prepended to each such contribution within this
+folder. If you are author or distributor of one of these external packages and find the way your code is redistributed
+here not appropriate, please contact Johannes L. Hörmann via johannes.hoermann@imtek.uni-freiburg.de or
+johannes.laurin@gmail.com.
