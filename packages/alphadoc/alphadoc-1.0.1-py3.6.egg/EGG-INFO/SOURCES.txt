@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+alphadoc.egg-info/PKG-INFO
+alphadoc.egg-info/SOURCES.txt
+alphadoc.egg-info/dependency_links.txt
+alphadoc.egg-info/entry_points.txt
+alphadoc.egg-info/not-zip-safe
+alphadoc.egg-info/requires.txt
+alphadoc.egg-info/top_level.txt
