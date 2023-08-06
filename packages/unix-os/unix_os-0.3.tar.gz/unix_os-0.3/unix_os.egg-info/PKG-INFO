@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: unix-os
+Version: 0.3
+Summary: `os` and `glob` builtin packages always using UNIX file conventions independently of OS
+Home-page: https://omfit.io
+Author: OMFIT developers
+Author-email: meneghini@fusion.gat.com
+License: UNKNOWN
+Description: `os` and `glob` builtin packages always using UNIX file conventions independently of OS
+        
+        Sample usage:
+        
+        >> import unix_os as os
+        >> import unix_os as glob
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
