@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: anit
+Version: 0.0.10
+Summary: May the force be with you.
+Home-page: UNKNOWN
+Author: Animite Software Foundation
+Author-email: shaurya.p.singh21@gmail.com
+License: UNKNOWN
+Description: # Anit
+        ## Provided by Animite Software Foundation
+        ## Created by Shaurya Pratap Singh
+        ## For Python3 and above
+        ## Anit 0.0.9
+        
+        ### Installation
+        type the following command in command line
+        ```
+        pip install anit
+        ```
+        then in your .py file type this,
+        ```python
+        from anit import *
+        ```
+        
+        ### Email
+        
+        First we have to create a message class,
+        ```python
+        msg = Message('Hello World', """
+            May the force be with you.
+        """)
+        ```
+        
+        You can also pass in a html file,
+        ```python
+        msg = Message('Hello World', 'something.html')
+        ```
+        
+        Then, create a new class,
+        ```python
+        mailer = Mailer('email', 'password')
+        ```
+        
+        to send it, do this,
+        ```python
+        mailer.send_message('Your message class here.')
+        mailer.send_to('recievers email')
+        ```
+        
+        Done!
+        
+        Mailer and Message mixin classes:
+        
+        ```python
+        class MyMessage(MessageMixin):
+            subject = None
+            message = None
+        ```
+        
+        ```python
+        class MyMailer(MailerMixin):
+            email = None
+            pwd = None
+            person = 'the person who youare sending to'
+        ```
+        
+        ### You can also use the terminal command:
+        ```
+        anit -i mailer
+        ```
+        
+        ### Open browser url,
+        ```python
+        open_browser_url('why do we love star wars?')
+        ```
+        
+        ### Terminal command for this:
+        ```
+        anit -i open
+        ```
+        
+        ### Creating package structure 
+        ```python
+        create_package('name of package')
+        ```
+        
+        ### Terminal command for this:
+        ```
+        anit -i package
+        ```
+        
+        ### Anit variables
+        ```python
+        print(anit.OS)# returns your os
+        print(anit.VERSION) #returns anit version 
+        print(anit.DATE) # returns the date
+        print(anit.TIMESTAMP) # returns the timestamp
+        
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

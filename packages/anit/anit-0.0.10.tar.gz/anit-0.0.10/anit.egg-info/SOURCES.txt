@@ -1,0 +1,10 @@
+README.md
+setup.py
+anit/__init__.py
+anit/tests.py
+anit.egg-info/PKG-INFO
+anit.egg-info/SOURCES.txt
+anit.egg-info/dependency_links.txt
+anit.egg-info/requires.txt
+anit.egg-info/top_level.txt
+bin/anit
