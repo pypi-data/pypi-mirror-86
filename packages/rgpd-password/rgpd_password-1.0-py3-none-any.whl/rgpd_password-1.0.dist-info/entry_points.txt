@@ -1,0 +1,3 @@
+[console_scripts]
+rgpd_gen = pwd_gen.randomize:generate_rgpd_password
+
