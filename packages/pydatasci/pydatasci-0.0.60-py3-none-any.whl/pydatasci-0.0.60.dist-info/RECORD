@@ -1,0 +1,14 @@
+pydatasci/__init__.py,sha256=_ALocB4YFoVu3yUVLcPbxGGH2ilsmYsqrWDnh2hQK00,7724
+pydatasci/aidb/__init__.py,sha256=4YDnQGYhbUuspaONJKXnF9zwvc3Z-tBHEN00ZFiUP-M,59286
+pydatasci/data/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+pydatasci/data/housing.csv,sha256=7W-B-ZlrI4wxgB7psDVqIcSAkWvvYHJSI_cRluv1cSk,31353
+pydatasci/data/iris.tsv,sha256=EX0b5VVjP5oj1BcJPsjeI0s2T3tuTltnvdOwR092zhw,2616
+pydatasci/data/iris_10x.tsv,sha256=Okn7umR6h-DX0Lf_93MLP388HZ36zBADVmygvuwCPmk,25638
+pydatasci/data/iris_noHeaders.csv,sha256=FEZAD1K92is9BZzadBWpIEZVQlVdUZ0ub_b9RigCUm0,3000
+pydatasci/data/sonar.csv,sha256=WX2RQCnF4zmjebIafPgO2dTdWP2g527quf-Uov4tWgY,86037
+pydatasci/data/.ipynb_checkpoints/sonar-checkpoint.csv,sha256=6QQ0zb8A_Pk_-pEf5EeuJWBpeWWOYPHTLhVcO1JAI00,87776
+pydatasci-0.0.60.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+pydatasci-0.0.60.dist-info/METADATA,sha256=HxQVB2AWJLJom0feKcqLMa_BFrtF1n7N8y2lvZomc7A,25240
+pydatasci-0.0.60.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pydatasci-0.0.60.dist-info/top_level.txt,sha256=jGixSklFOzivAbKQcNb7cOJdYX2XF7KSs8a1xYB29ds,10
+pydatasci-0.0.60.dist-info/RECORD,,
