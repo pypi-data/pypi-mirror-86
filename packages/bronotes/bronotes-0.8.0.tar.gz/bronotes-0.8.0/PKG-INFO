@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bronotes
+Version: 0.8.0
+Summary: A commandline note organization tool.
+Home-page: https://github.com/jwizzle/bronotes
+Author: j wizzle
+Author-email: info@hossel.net
+License: UNKNOWN
+Description: # Bronotes
+        
+        Basically a wrapper to access notes in a directory on your system anywhere from the commandline.
+        Still in development. Not much configuration possible yet.
+        
+        Functionality so far:
+          * Create a note directory on your system on first start
+          * Add new notes
+          * Remove notes
+          * Move notes and directories around
+          * Edit notes with your $EDITOR
+          * List notes dir in a tree
+        
+        Todo:
+          * Add -r flag where necessary, eg. file creation and rm on non empty folders
+          * Stop forcing my chosen notes directory on the user
+          * Add some intial configuration questions and possibly allow a user config yaml somewhere
+          * Add some kind of 'set' action to manipulate the user config yml
+          * Add something to keep folder in sync with git
+          * ZSH completions
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
