@@ -1,0 +1,10 @@
+acanban/__init__.py,sha256=x4Yw9prP_Ju-vmRbkyTNpFzzj0BnLrPwi8WAmqkanOw,1001
+acanban/__main__.py,sha256=30I4iEHvWyKFhmmsQCBFw8i-1Iy-yf_cTxOJ3jLmoMo,1075
+acanban/config.py,sha256=HhHtdom-c_x_aLnc2SdcbLRVpjq6MppNl-RZk7V4-Cs,1098
+acanban/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acanban/static/__init__.py,sha256=9yH3OvPGMSFEszi8UMN3hEsX687YbSWkXhbBUzSccmI,997
+acanban/static/index.html,sha256=1EbyHlbNpk_uURNDpdKgbR8vksJbt6nGhtry_QewALI,117
+acanban-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+acanban-0.0.1.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+acanban-0.0.1.dist-info/METADATA,sha256=3VKWuywrzGtPvisfTSBEHtHX7YAfKFzg0dpX0Fg18i4,2291
+acanban-0.0.1.dist-info/RECORD,,
