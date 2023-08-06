@@ -1,0 +1,10 @@
+README.md
+setup.py
+messari/__init__.py
+messari/__version__.py
+messari/messari.py
+messari.egg-info/PKG-INFO
+messari.egg-info/SOURCES.txt
+messari.egg-info/dependency_links.txt
+messari.egg-info/requires.txt
+messari.egg-info/top_level.txt
