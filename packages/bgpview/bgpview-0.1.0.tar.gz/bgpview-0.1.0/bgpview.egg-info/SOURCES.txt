@@ -1,0 +1,10 @@
+README.md
+setup.py
+bgpview/__init__.py
+bgpview/api_client.py
+bgpview/util.py
+bgpview.egg-info/PKG-INFO
+bgpview.egg-info/SOURCES.txt
+bgpview.egg-info/dependency_links.txt
+bgpview.egg-info/requires.txt
+bgpview.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: bgpview
+Version: 0.1.0
+Summary: API client for BGPView.io API
+Home-page: https://gitlab.com/Scrumplex/pyqis
+Author: Sefa Eyeoglu
+Author-email: contact@scrumplex.net
+License: GPL3
+Description: UNKNOWN
+Keywords: bgpview client library bgp asn as ip
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
