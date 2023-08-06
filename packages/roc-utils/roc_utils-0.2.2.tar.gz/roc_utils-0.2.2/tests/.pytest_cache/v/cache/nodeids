@@ -1,0 +1,4 @@
+[
+  "test.py::TestColors::test_named_colors",
+  "test.py::TestsIris::test_sklearn_consistentcy"
+]
