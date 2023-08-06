@@ -1,0 +1,31 @@
+\documentclass[12pt,final]{article}
+
+\usepackage{svglatex}
+\usepackage[bookmarks=false]{hyperref}
+\graphicspath{{./img/}}
+
+\newcounter{desccount}
+\newcommand{\descitem}[1]{%
+        \refstepcounter{desccount}\label{#1}
+}
+\newcommand{\descref}[2][\undefined]{%
+    \ifx#1\undefined%
+    \hyperref[#2]{#2}%
+    \else%
+        \hyperref[#2]{#1}%
+    \fi%
+}%
+
+\begin{document}
+\begin{figure}
+    \includesvg[width=\textwidth]{./img/cflow0}
+\end{figure}
+
+\newpage
+\clearpage
+
+\begin{figure}[h!]
+    \includesvg[width=\textwidth]{./img/cflow1}
+\end{figure}
+
+\end{document}
