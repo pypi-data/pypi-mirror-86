@@ -1,0 +1,45 @@
+# Configure the home desktop. Applications launched on this desktop
+# will be moved to their own new 'misc' desktop unless whitelisted
+home:
+  name: ""
+# The name of 'misc' desktops
+misc: "•"
+# A list of desktops, with the applications that should be put on them
+# If two desktops have the same name, and extra_name is defined, the desktops
+# will be renamed to '{name} {extra_name}'
+desktops:
+  - name: ""
+    extra_name: ''
+    order: 220
+    applications:
+      - class: Chromium
+  - name: ﭮ
+    extra_name: discord
+    order: 210
+    applications:
+      - class: discord
+  - name: ""
+    extra_name: pycharm
+    order: 320
+    applications:
+      - class: jetbrains-pycharm
+  - name: ""
+    extra_name: phpstorm
+    order: 315
+    applications:
+      - class: jetbrains-phpstorm
+  - name: ""
+    extra_name: webstorm
+    order: 310
+    applications:
+      - class: jetbrains-webstorm
+  - name: ""
+    extra_name: idea
+    order: 330
+    applications:
+      - class: jetbrains-idea
+  - name: ""
+    extra_name: VS Code
+    order: 340
+    applications:
+      - class: code-oss
