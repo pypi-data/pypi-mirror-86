@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: phbdl
+Version: 0.1.2
+Summary: a tiny and smart cli video downloader for pxxxhub
+Home-page: https://github.com/yontonl/phbdl
+Author: sunbless
+Author-email: sunblessliu@gmail.com
+License: MIT
+Description: # A tiny video downloader
+        
+Keywords: video downloader
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
