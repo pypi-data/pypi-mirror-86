@@ -1,0 +1,6 @@
+README.txt
+setup.py
+onhandcal.egg-info/PKG-INFO
+onhandcal.egg-info/SOURCES.txt
+onhandcal.egg-info/dependency_links.txt
+onhandcal.egg-info/top_level.txt
