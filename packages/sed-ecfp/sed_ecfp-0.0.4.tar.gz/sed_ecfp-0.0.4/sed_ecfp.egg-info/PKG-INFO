@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sed-ecfp
+Version: 0.0.4
+Summary: Predicting Bioactivities of Ligand Molecules Targeting G Protein-coupled Receptors by Merging Sparse Screening of Extended Connectivity Fingerprints and Deep Neural Nets
+Home-page: UNKNOWN
+Author: xhj
+License: UNKNOWN
+Description: # sed  
+        Predicting Bioactivities of Ligand Molecules Targeting G Protein-coupled Receptors by Merging Sparse Screening of Extended Connectivity Fingerprints and Deep Neural Nets
+        Accurate prediction and interpretation of ligand bioactivities are essential for virtual screening and drug discovery.
+        SED, was proposed to predict ligand bioactivities and to recognize key substructures associated with GPCRs through the coupling of screening for Lasso of long extended-connectivity fingerprints (ECFPs) with deep neural network training.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
