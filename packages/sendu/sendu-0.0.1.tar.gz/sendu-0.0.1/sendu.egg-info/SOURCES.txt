@@ -1,0 +1,6 @@
+README.md
+setup.py
+sendu.egg-info/PKG-INFO
+sendu.egg-info/SOURCES.txt
+sendu.egg-info/dependency_links.txt
+sendu.egg-info/top_level.txt
