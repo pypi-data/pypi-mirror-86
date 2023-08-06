@@ -1,0 +1,8 @@
+setup.py
+cservice/__init__.py
+cservice/demonizers.py
+cservice.egg-info/PKG-INFO
+cservice.egg-info/SOURCES.txt
+cservice.egg-info/dependency_links.txt
+cservice.egg-info/requires.txt
+cservice.egg-info/top_level.txt
