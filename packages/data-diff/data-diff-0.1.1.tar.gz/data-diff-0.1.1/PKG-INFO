@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: data-diff
+Version: 0.1.1
+Summary: 
+Author: Bartosz Tyrala
+Author-email: automationdream@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.1.4,<2.0.0)
