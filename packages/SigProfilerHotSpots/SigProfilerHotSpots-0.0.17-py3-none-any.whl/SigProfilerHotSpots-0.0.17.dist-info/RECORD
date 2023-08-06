@@ -1,0 +1,11 @@
+SigProfilerHotSpots/SigProfilerHotSpots.py,sha256=yQaFFBq15TPccnHd07Rtc6CvwOLI7ZPTwc5FtI4poRk,28462
+SigProfilerHotSpots/__init__.py,sha256=86R3kPXTji0XI67Ie2oZaWb3Jttvlz4gV8CywdoVJIA,50
+SigProfilerHotSpots/classifyFunctions.py,sha256=4PdeDbWJ-OoT5bsIgzqL45Tw4mG7YtTueLrxg7CBGNc,28471
+SigProfilerHotSpots/hotspot.py,sha256=ZeCeAr_ysrKCVVY3-gOW_EokBFvgoJdecrxsiNzhIrM,46935
+SigProfilerHotSpots/plottingFunctions.py,sha256=wH_uZM1vg_t2sPRX5pHJxTa9xvbYhKxdAHiC_562xUU,75425
+SigProfilerHotSpots/version.py,sha256=VCKEjcjGQgBHMsd9mZMpSgH7AeTBmDdkmX6xnosKZaU,106
+SigProfilerHotSpots-0.0.17.dist-info/LICENSE,sha256=zil8dsok0iKcEbIVOdOhzIAJ3Eu7cMVyB5oawFdVKR8,1341
+SigProfilerHotSpots-0.0.17.dist-info/METADATA,sha256=9CC7Job3cctOISnLwR71JHdFs8JjnhNph-bMPGPXdLI,7178
+SigProfilerHotSpots-0.0.17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+SigProfilerHotSpots-0.0.17.dist-info/top_level.txt,sha256=4siNpexutmFF2H7FWbKIoQSU-SrfBx982m5wEI5Ok9w,20
+SigProfilerHotSpots-0.0.17.dist-info/RECORD,,
