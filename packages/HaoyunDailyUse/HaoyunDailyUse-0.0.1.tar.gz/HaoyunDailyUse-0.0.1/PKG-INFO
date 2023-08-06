@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: HaoyunDailyUse
+Version: 0.0.1
+Summary: 日常使用的包
+Home-page: http://www.haoyun.tech
+Author: haoyun
+Author-email: 1469779169@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
