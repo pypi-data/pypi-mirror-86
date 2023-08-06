@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hxid
+Version: 0.1.0
+Summary: A package to generate and validate HomeX ID's (HXID's)
+Home-page: https://github.com/HomeXLabs/hxid-python
+Author: Peter Morgan, HomeX LLC
+Author-email: pmorgan@homex.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# hxid-python
+Python package for generating HXID's
+
+
