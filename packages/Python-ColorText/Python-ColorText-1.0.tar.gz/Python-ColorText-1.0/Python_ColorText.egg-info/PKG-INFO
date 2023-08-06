@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Python-ColorText
+Version: 1.0
+Summary: Color Strings in Python easily
+Home-page: https://github.com/Sebastian-byte/ColorText
+Author: Sebastian-byte
+Author-email: sebastianmontoya209@gmail.com
+License: GPL v3
+Download-URL: https://github.com/Sebastian-byte/ColorText/archive/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: color python text
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
