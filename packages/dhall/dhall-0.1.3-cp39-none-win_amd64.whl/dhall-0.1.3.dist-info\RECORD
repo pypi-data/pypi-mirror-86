@@ -1,0 +1,7 @@
+dhall-0.1.3.dist-info/METADATA,sha256=r3NDj3S98WNshCBmP89fh6shLkvdVVNM4SiqOWj5lB4,4422
+dhall-0.1.3.dist-info/WHEEL,sha256=x2gyg9EQdHtaMi21liKjTp2Nevenl-DtEMuWKvJ35FE,94
+dhall/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhall/__init__.py,sha256=Kztoq8OkohEJQCnZ68mnO7QzhLi_J7DrxPNAICdKSJY,58
+dhall/__init__.pyi,sha256=qUz9crheYzS4RAWBnnQAPRON7tiItvFWKKkZkMLLGis,479
+dhall/dhall.cp39-win_amd64.pyd,sha256=GRFeprNti4ls5-XuWVIfpB86R5_NAJqBtiLbMMYHsx0,6083072
+dhall-0.1.3.dist-info\RECORD,,
