@@ -1,0 +1,14 @@
+transformer_serving/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+transformer_serving/server/__init__.py,sha256=MbZe4PdL-P7HSpowbIrkD0h1uolTJsq-SNCjrBVm6kY,32467
+transformer_serving/server/benchmark.py,sha256=fjK3ZwEhNLQMFOIYAMmi6kfx670HzAfZzR3bAuaSpY8,3207
+transformer_serving/server/graph.py,sha256=_Nqf8BBiKmNlGrT4mRWO8mF2uY7k-onxZFK5_wd_F-I,13177
+transformer_serving/server/helper.py,sha256=rdALl8GjUUzDY7stVS97mm05dl_YVqHXHKgW1vzv1Yg,15933
+transformer_serving/server/http.py,sha256=mJZpFFZWfxngAfRORTjG3L8nzyIX7hsVcBaiqE5urFw,2695
+transformer_serving/server/model_config.py,sha256=BBv5_q6OSeFY0dd72UjaKQlKGv54SObb0zBRCPIp96c,3686
+transformer_serving/server/zmq_decor.py,sha256=AGbTR-CsRTOejRIHMtcRQDpmAWuLtNIkKpZS_jK7AK8,1929
+transformer_serving/server/cli/__init__.py,sha256=IxBorVIpYoedHM-HYehilMYI-C43iIi196IROS75eoM,671
+transformer_as_service-1.11.0.dist-info/METADATA,sha256=XPmN7MRLONokWFkVFtZrtwQ1ITPwJfp4W1oE_3HaS9s,1387
+transformer_as_service-1.11.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+transformer_as_service-1.11.0.dist-info/entry_points.txt,sha256=Nw8G3dE_ejuF89zGAExWcrUIuqEIZzyz5R7tfGmVGmo,208
+transformer_as_service-1.11.0.dist-info/top_level.txt,sha256=wg9Yaw5zmMsYJPPvmdwyNQ570H8699sQKT2dWj0u1d0,20
+transformer_as_service-1.11.0.dist-info/RECORD,,
