@@ -1,0 +1,9 @@
+LaTeXDatax/__init__.py,sha256=kN5yfiabQEl_b4bbQNj9nGkMEirt0TQHZeZ0Zjde67M,41
+LaTeXDatax/datax.py,sha256=14uroveZW8wo0u15prrE5EBKbYXUuZTlkTZPGxPXLWo,2568
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_LaTeXDatax.py,sha256=UH4wPHk78ezI9p4_6rvVnC1vQBd3FPV88_jLJhRL9qw,918
+LaTeXDatax-1.0.dist-info/LICENSE,sha256=nWJ0oHhf-q6mHy3Qb3nGS1LoBPsdIwkgKoIaSCQuIUE,1121
+LaTeXDatax-1.0.dist-info/METADATA,sha256=VV03M3uPK2M1CqsId1d2Tqybl3BVGoWoh0Va37Nywno,1489
+LaTeXDatax-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+LaTeXDatax-1.0.dist-info/top_level.txt,sha256=mvF7onwATnmMt5U1VOvGqSHOKnXtmQ7mPxF05CIbfaE,17
+LaTeXDatax-1.0.dist-info/RECORD,,
