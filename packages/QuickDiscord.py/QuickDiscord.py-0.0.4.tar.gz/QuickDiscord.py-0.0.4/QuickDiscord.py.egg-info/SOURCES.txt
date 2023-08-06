@@ -1,0 +1,13 @@
+README.md
+setup.py
+QuickDiscord.py.egg-info/PKG-INFO
+QuickDiscord.py.egg-info/SOURCES.txt
+QuickDiscord.py.egg-info/dependency_links.txt
+QuickDiscord.py.egg-info/requires.txt
+QuickDiscord.py.egg-info/top_level.txt
+quickdiscord/__init__.py
+quickdiscord/client.py
+quickdiscord/lib/__init__.py
+quickdiscord/lib/util/__init__.py
+quickdiscord/lib/util/exceptions.py
+quickdiscord/lib/util/objects.py
