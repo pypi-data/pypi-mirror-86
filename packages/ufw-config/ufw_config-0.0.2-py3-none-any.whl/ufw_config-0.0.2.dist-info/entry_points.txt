@@ -1,0 +1,3 @@
+[console_scripts]
+ufw-config=ufw_config.ufw:main
+
