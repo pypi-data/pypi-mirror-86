@@ -1,0 +1,3 @@
+[console_scripts]
+run_alignment = aics_tf_registration.bin.run_alignment:main
+
