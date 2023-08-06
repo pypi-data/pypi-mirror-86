@@ -1,0 +1,11 @@
+outcome/logkit/__init__.py,sha256=AnIkB3qCCGDf9qfKLoRE9GyvuR_fBauIZICfXOZ-UHU,186
+outcome/logkit/context.py,sha256=lGuZWHjPf8UK24WWBt5w-9ehSQPiJZ2LeWrCLPzFJfc,425
+outcome/logkit/filters.py,sha256=48m7zIB1atJISIb0NP9ALlOVJupmnTkpslgY7spk6R0,280
+outcome/logkit/init.py,sha256=nMabBJa17e1GkXxLho49AvwtgJFepCKIKroJmRD3Hp4,5010
+outcome/logkit/intercept.py,sha256=iQVMve8M5pavLw0GnK3fC1Mt7OocIQQX3H5Xx0XwZzk,7322
+outcome/logkit/logger.py,sha256=M0gkJLVlOpaKr6XYT0yw_MgRHK8l1yBg2Re4ssz4gSE,290
+outcome/logkit/proxy.py,sha256=fNVS6SAyyNv8FPnpk1PR8iJRJOUSZQrtyVe71y8dcao,1082
+outcome/logkit/stackdriver.py,sha256=9G9yQJwRQGkafxLs1-5jCw16j1r43ujToZoYvWFT5mc,1107
+outcome_logkit-0.3.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+outcome_logkit-0.3.0.dist-info/METADATA,sha256=4NcKFpe7Q5IMxNvz2dbBsVxTPqjgx5Z93o4zh8gn9rs,3633
+outcome_logkit-0.3.0.dist-info/RECORD,,
