@@ -1,0 +1,5 @@
+authlib>=0.15.0
+cryptography>=2.6
+django>=1.8.0
+djangorestframework>=3.0.0
+requests>=2.20.0
