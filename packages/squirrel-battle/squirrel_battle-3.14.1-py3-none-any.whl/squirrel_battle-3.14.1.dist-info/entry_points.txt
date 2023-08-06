@@ -1,0 +1,3 @@
+[console_scripts]
+squirrel-battle = squirrelbattle.bootstrap:Bootstrap.run_game
+
