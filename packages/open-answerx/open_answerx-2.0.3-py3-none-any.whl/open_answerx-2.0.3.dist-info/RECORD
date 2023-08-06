@@ -1,0 +1,13 @@
+open_answerx-2.0.3-py3.8-nspkg.pth,sha256=ZsTL3mV2wd8q1i3YmEwniuB8NSRTtt1Kn_X6mhWt1F0,539
+akamai/edgegrid/__init__.py,sha256=Kf6HBivOZz-GigxWqpvdvdDoXQSDMqXEJR0_XmtrYsY,1875
+akamai/edgegrid/edgegrid.py,sha256=oYd87yba6gNL8mcSSfct-02Zzk7sc4jdtEKbhpU_Drc,7830
+akamai/edgegrid/edgerc.py,sha256=meXqrVBxWoIuOTVTKE8BMrdoDHnwoJqrHqr6ixN8_LY,1677
+akamai/edgegrid/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+akamai/edgegrid/test/test_edgegrid.py,sha256=1eXNH40X2AgtKTtPSRdnXHHR3acpTBAvakkMMRo3-bU,7737
+open_answerx-2.0.3.data/scripts/open-answerx.py,sha256=60qr1C59MlOY3HE6tE4A7kMsfpQ0paE33DsKS-a6WLI,7963
+open_answerx-2.0.3.dist-info/LICENSE.txt,sha256=c7p036pSC0mkAbXSFFmoUjoUbzt1GKgz7qXvqFEwv2g,10273
+open_answerx-2.0.3.dist-info/METADATA,sha256=btlYLUm_ypQZJEidixg4r3W3K0YyG003kBgXwvo3oFU,1773
+open_answerx-2.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+open_answerx-2.0.3.dist-info/namespace_packages.txt,sha256=szjzYJ0FacUGu9R1JEkJrBHjlQroKtnCz0zkAhCvyKw,7
+open_answerx-2.0.3.dist-info/top_level.txt,sha256=szjzYJ0FacUGu9R1JEkJrBHjlQroKtnCz0zkAhCvyKw,7
+open_answerx-2.0.3.dist-info/RECORD,,
