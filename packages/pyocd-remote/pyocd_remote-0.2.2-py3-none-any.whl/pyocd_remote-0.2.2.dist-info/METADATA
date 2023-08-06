@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pyocd-remote
+Version: 0.2.2
+Summary: PyOCD remote execution wrapper
+Home-page: https://github.com/patrislav1/pyocd_remote
+Author: Patrick Huesmann
+Author-email: info@patrick-huesmann.de
+License: BSD
+Keywords: pyocd remote jtag swd cmsis-dap
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: paramiko (>=2.7.0)
+Requires-Dist: scp (>=0.13.0)
+Requires-Dist: sshtunnel (>=0.3.0)
+
+# pyocd_remote
+
+Remote execution wrapper for [PyOCD](https://github.com/pyocd/pyOCD).
+
+This tool runs `pyocd` on a remote SSH server and does additional copying / tunneling, so it looks like `pyocd` is running locally.
+Usage:
+```
+pyocd_remote user@host:port [--cmd pyocd_executable] [pyocd_args ...]
+```
+
+## Prerequisites
+
+For this tool to work, the local SSH client needs to be authorized at the remote server using a public key, and the remote server needs to be in the list of known hosts.
+
+## Examples
+
+```
+pyocd_remote user@host:port erase --chip
+```
+Erases the chip connected to the remote host.
+
+```
+pyocd_remote user@host:port flash image.bin
+```
+Copies `image.bin` to the remote host, then flashes it there.
+
+```
+pyocd_remote user@host:port gdbserver --port 50000
+```
+Starts a gdbserver on the remote host and creates a tunnel, so it looks like a local gdbserver to the debugger.
+
+

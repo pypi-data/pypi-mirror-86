@@ -1,0 +1,3 @@
+[console_scripts]
+pyocd_remote = pyocd_remote.pyocd_remote:main
+
