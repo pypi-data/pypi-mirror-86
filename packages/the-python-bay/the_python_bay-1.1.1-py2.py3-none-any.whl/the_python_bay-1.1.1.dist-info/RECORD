@@ -1,0 +1,10 @@
+the_python_bay/__init__.py,sha256=2biGd63-iBxz-XHCFmiWel8WAzLABrD5zy6vYbmC8gY,63
+the_python_bay/main.py,sha256=FQ4jDXv9FGQaiNYdNZRQhOx5giqKJrBqDFmhPlcgOng,1587
+the_python_bay/search.py,sha256=YY03YLm0x-OlKfZQbp7vqgYNgBKYrACD1zsZ5AkaTr0,363
+the_python_bay/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+the_python_bay/tests/test_the_python_bay.py,sha256=cSHpDrMCjEmMMbHqBELSzePtxuwVJKhRAzTvydbjW_A,549
+the_python_bay-1.1.1.dist-info/LICENCE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+the_python_bay-1.1.1.dist-info/METADATA,sha256=Ndt1a8CyQNusT04Sd59yvKt0OnFOLlu-NEhgBXleong,1012
+the_python_bay-1.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+the_python_bay-1.1.1.dist-info/top_level.txt,sha256=I3CfZ4ZD3cxjIeKPRrvPEnQRhzfmOkJsGBPYrshFpic,15
+the_python_bay-1.1.1.dist-info/RECORD,,
