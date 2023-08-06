@@ -1,0 +1,3 @@
+[console_scripts]
+install-webdrivers = webdrivers.cli:main
+
