@@ -1,0 +1,10 @@
+README.md
+setup.py
+hop/__init__.py
+hop/hop.py
+hop_file_browser.egg-info/PKG-INFO
+hop_file_browser.egg-info/SOURCES.txt
+hop_file_browser.egg-info/dependency_links.txt
+hop_file_browser.egg-info/entry_points.txt
+hop_file_browser.egg-info/requires.txt
+hop_file_browser.egg-info/top_level.txt
