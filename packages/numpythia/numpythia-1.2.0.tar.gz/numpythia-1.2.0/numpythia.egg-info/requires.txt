@@ -1,0 +1,8 @@
+numpy
+six
+
+[dev]
+pytest
+
+[test]
+pytest
