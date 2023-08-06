@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fifa_simulator
+Version: 1.0.0
+Summary: A Python Package for Simulation of fifa-like tournament fixtures
+Home-page: https://github.com/Abhishek741119/fifa_simulator
+Author: Marupaka Sai Abhishek
+Author-email: abhishekabhishek83414@gmail.com
+License: MIT
+Description: #FIFA Simulator
+        
+        A Python Package for Simulation of fifa-like tournament fixtures
+        
+        #Running the program
+        
+        Following python statements can be used...
+        ```
+        import fifa_simulator.fixtures
+              or
+        from fifa_simulator import fixtures
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
