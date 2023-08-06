@@ -1,0 +1,34 @@
+[OSTI]
+url = https://www.osti.gov/iad2test/api/records
+#url = https://www.osti.gov/iad2/api/records
+user = username
+password = secret
+release_input_schematron = config/IAD3_scheematron.sch
+input_xsd                = config/iad_schema.xsd
+
+[PDS4_DICTIONARY]
+url = https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_JSON_1D00.JSON
+pds_node_identifier = 0001_NASA_PDS_1.pds.Node.pds.name
+
+[LANDING_PAGES]
+# template url, arguments are
+# 1) product_class suffix, after _
+# 2) lid
+# 3) vid
+url = https://pds.nasa.gov/ds-view/pds/view{}.jsp?identifier={}&version={}
+
+[OTHER]
+doi_publisher = NASA Planetary Data System
+global_keyword_values = PDS; PDS4;
+pds_uri = http://pds.nasa.gov/pds4/pds/v1
+transaction_dir = ./transaction_history
+db_file = doi.db
+db_table = doi
+emailer_local_host = localhost
+emailer_port       = 25
+emailer_sender     = pdsen-doi-test@jpl.nasa.gov 
+emailer_receivers  = pdsen-doi-test@jpl.nasa.gov 
+draft_validate_against_xsd_flag = True
+release_validate_against_xsd_flag = True
+reserve_validate_against_xsd_flag = True
+pds_registration_doi_token = 10.17189

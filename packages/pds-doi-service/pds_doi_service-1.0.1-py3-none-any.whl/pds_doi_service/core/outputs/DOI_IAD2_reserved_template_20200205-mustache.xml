@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+    {{#dois}}
+    <record status="{{status}}"> 
+        {{#id}}
+        <id>{{id}}</id>
+        {{/id}}
+        {{^id}}
+        <id></id>
+        {{/id}}
+        <title>{{title}}</title>
+        <sponsoring_organization>National Aeronautics and Space Administration (NASA)</sponsoring_organization>
+        <accession_number>{{related_identifier}}</accession_number>
+        <publisher>{{publisher}}</publisher>
+          {{#doi}}
+        <doi>{{doi}}</doi>
+        {{/doi}}
+        <availability></availability>
+        <publication_date>{{publication_date}}</publication_date>
+        {{#site_url}}
+        <site_url>{{site_url}}</site_url>
+        {{/site_url}}
+        {{^site_url}}
+        <site_url>N/A</site_url>
+        {{/site_url}}
+        <product_type>{{product_type}}</product_type>
+        <product_type_specific>{{product_type_specific}}</product_type_specific>
+        <date_record_added>{{date_record_added}}</date_record_added>
+        <keywords>PDS; PDS4;</keywords>
+        <authors>
+            {{#authors}}
+             <author>
+                {{#last_name}}
+                <last_name>{{last_name}}</last_name>
+                {{/last_name}}
+                {{#first_name}}
+                <first_name>{{first_name}}</first_name>
+                {{/first_name}}
+                {{#middle_name}}
+                <middle_name>{{middle_name}}</middle_name>
+                {{/middle_name}}
+                {{#full_name}}
+                <full_name>{{full_name}}</full_name>
+                {{/full_name}}
+            </author>
+            {{/authors}}
+        </authors>
+        <contributors>
+            {{#editors}}
+            <contributor>
+                <email/>
+                {{#last_name}}
+                <last_name>{{last_name}}</last_name>
+                {{/last_name}}
+                {{#first_name}}
+                <first_name>{{first_name}}</first_name>
+                {{/first_name}}
+                {{#middle_name}}
+                <middle_name>{{middle_name}}</middle_name>
+                {{/middle_name}}
+                {{#full_name}}
+                <full_name>{{full_name}}</full_name>
+                {{/full_name}}
+                <contributor_type>DataCurator</contributor_type>
+                <affiliations/>
+            </contributor>
+            {{/editors}}
+            <contributor>
+                <full_name>Planetary Data System: {{contributor}} Node</full_name>
+                <contributor_type>DataCurator</contributor_type>
+            </contributor>
+        </contributors>
+        <contact_name>PDS Operator</contact_name>
+        <contact_org>PDS</contact_org>
+        <contact_email>pds-operator@jpl.nasa.gov</contact_email>
+        <contact_phone>818.393.7165</contact_phone>
+    </record>
+    {{/dois}}
+</records>
+
+

@@ -1,0 +1,159 @@
+Metadata-Version: 2.1
+Name: pds-doi-service
+Version: 1.0.1
+Summary: short description of my pds module, less than 100-120 characters
+Home-page: https://github.com/NASA-PDS/pds-template-python
+Author: pds 
+Author-email: pds_operator@jpl.nasa.gov
+License: apache-2.0
+Download-URL: https://github.com/NASA-PDS/pds-template-python/releases/download/....
+Keywords: pds,doi,osti,dataCite
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: appdirs (>=1.4)
+Requires-Dist: beautifulsoup4 (==4.8.2)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: jsonschema (==2.6.0)
+Requires-Dist: connexion[swagger-ui] (==2.2.0)
+Requires-Dist: distlib (==0.3.1)
+Requires-Dist: filelock (==3.0.12)
+Requires-Dist: idna (==2.9)
+Requires-Dist: importlib-metadata (==1.5.0)
+Requires-Dist: importlib-resources (==3.0.0)
+Requires-Dist: lxml (>=4.5)
+Requires-Dist: nltk (==3.5)
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: pandas (>=1.0)
+Requires-Dist: pystache (>=0.5)
+Requires-Dist: python-dateutil (>=2.8)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: requests (>=2.23)
+Requires-Dist: six (>=1.14)
+Requires-Dist: soupsieve (>=2.0)
+Requires-Dist: urllib3 (>=1.25)
+Requires-Dist: Werkzeug (==0.16.0)
+Requires-Dist: xlrd (>=1.2)
+Requires-Dist: xmltodict (>=0.12)
+Requires-Dist: zipp (>=3.1)
+Requires-Dist: flask-testing (==0.8.0)
+Requires-Dist: sphinx-rtd-theme (==0.5.0)
+Requires-Dist: sphinx-argparse (==0.2.5)
+Requires-Dist: behave (==1.2.6)
+Requires-Dist: allure-behave (==2.8.13)
+Requires-Dist: behave-testrail-reporter (==0.4.0)
+Requires-Dist: dataclasses (==0.7) ; python_version <= "3.6"
+
+# NASA PDS DOI Service
+
+This tools provides services for PDS operators to mint DOIs.
+
+
+## Prerequisites
+
+- python 3.6 or above
+- a login to OSTI server
+
+## User Documentation 
+
+    https://nasa-pds.github.io/pds-doi-service/ 
+
+## Developers
+
+Get the code and work on a branch
+
+    git clone ...
+    git checkout -b "#<issue number>"
+
+
+Install virtual env
+
+    pip install virtualenv
+    python -m venv venv
+    source venv/bin/activate
+
+
+Deploy dependancies:
+
+    pip install -r requirements_dev.txt
+
+or
+
+    pip intall -e .
+
+
+## Launch api server (to be re-worked)
+
+    pds_doi_api
+
+
+## Test 
+
+### Unit tests:
+
+    python setup.py test
+
+### Behavioral testing
+
+Then you can run the behavioral tests:
+
+    behave
+
+Note this will download reference test data. If they need to be updated you have to first remove your local copy of the reference data (`test/aaDOI_production_submitted_labels`)
+
+You can also run them for a nicer reporting:
+
+    behave -f allure_behave.formatter:AllureFormatter -o ./allure ./features 
+    allure service allure
+
+#### To report to testrail
+
+Test report can be pushed to testrail: https://cae-testrail.jpl.nasa.gov/testrail/
+
+Project: Planetary Data System (PDS)
+Test suite: pds-doi-service
+
+Set you environment:
+
+    export TESTRAIL_USER=<your email in testrail>
+    export TESTRAIL_KEY=<your API key in tesrail>
+
+Run the tests:
+
+    behave
+
+See the results in https://cae-testrail.jpl.nasa.gov/testrail/index.php?/projects/overview/168
+
+## Documentation management
+
+### Design :
+
+See in this repository:
+
+https://github.com/NASA-PDS/pds-doi-service/tree/master/docs
+
+### User documentation
+
+Managed with sphynx
+
+    brew install sphinx-doc
+    pip install -r requirements_dev.txt
+    cd docs
+    sphinx-build -b html source build -a 
+
+
+
+## Build & Release
+
+The build and release process is managed in github actions.
+
+
+
+
+
+

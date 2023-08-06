@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: pds-doi-api
+Version: 0.1.0
+Summary: Planetary Data System DOI Service API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description:     PDS API for managing DOI registration with OSTI service.
+            
+Keywords: Swagger,Planetary Data System DOI Service API
+Platform: UNKNOWN
