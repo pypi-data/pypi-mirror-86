@@ -1,0 +1,9 @@
+README.md
+setup.py
+azure_cli_local.egg-info/PKG-INFO
+azure_cli_local.egg-info/SOURCES.txt
+azure_cli_local.egg-info/dependency_links.txt
+azure_cli_local.egg-info/requires.txt
+azure_cli_local.egg-info/top_level.txt
+bin/azlocal
+bin/azlocal.bat
