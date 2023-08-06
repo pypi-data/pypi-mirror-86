@@ -1,0 +1,9 @@
+itk/SkullStripPython.py,sha256=PG-UXEBVklZBI4ZbDaE8tAg2u1fdhPFunidRDPjNz5U,2839
+itk/_SkullStripPython.so,sha256=kia-XQBUtaxTcGEKcv7chF-uZGS6rAnlXXfeF7ei7to,5525816
+itk/itkStripTsImageFilterPython.py,sha256=riFTBixNQnyNkSVrSY_W4c8MVO7LnEYWMQGBrh_rfXs,17950
+itk/Configuration/SkullStripConfig.py,sha256=LXz_Yiy50MKezmPbbMEIyRaLHoKcX4CIcMU69pXlAr0,1105
+itk_skullstripping-0.0.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_skullstripping-0.0.1.dist-info/METADATA,sha256=OnStNb2T6OUPd0Vo4wH4LjQxL9f64e9GfcW-eTVQPY8,1508
+itk_skullstripping-0.0.1.dist-info/WHEEL,sha256=dVaE8boSvAsaWuT-mIwHIolzKRGVN47MyEuSepi3C9Q,103
+itk_skullstripping-0.0.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_skullstripping-0.0.1.dist-info/RECORD,,
