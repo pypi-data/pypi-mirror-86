@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kenworthy
+Version: 0.1.1
+Summary: Astronomy routines for extrasolar planets, exorings and dust scattering
+Home-page: https://github.com/mkenworthy/kenworthy
+Author: Matthew Kenworthy
+Author-email: matthew.kenworthy@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: astropy
+
+UNKNOWN
+
+
