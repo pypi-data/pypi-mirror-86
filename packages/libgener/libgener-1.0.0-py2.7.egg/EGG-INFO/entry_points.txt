@@ -1,0 +1,3 @@
+[console_scripts]
+libgener-torrents = libgener:libgener_torrents
+

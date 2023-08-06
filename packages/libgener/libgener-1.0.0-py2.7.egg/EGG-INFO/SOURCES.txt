@@ -1,0 +1,9 @@
+README.md
+libgener.py
+setup.py
+libgener.egg-info/PKG-INFO
+libgener.egg-info/SOURCES.txt
+libgener.egg-info/dependency_links.txt
+libgener.egg-info/entry_points.txt
+libgener.egg-info/requires.txt
+libgener.egg-info/top_level.txt
