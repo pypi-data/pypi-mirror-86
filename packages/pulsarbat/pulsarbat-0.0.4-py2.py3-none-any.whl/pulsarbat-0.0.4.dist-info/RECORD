@@ -1,0 +1,17 @@
+pulsarbat/__init__.py,sha256=pNnbhetJzFRMnzzPl_1oY_rmfncU8LOhOt3XFdjMFy0,369
+pulsarbat/core.py,sha256=UqvGDL_6FxzaLq1qaVqppCphk-0BMM527kaBF8s0i_I,23277
+pulsarbat/utils.py,sha256=vmoabICU0yLJm_ZPIxq-SphBn1gv_ZnH1NjrjzrgHXA,2087
+pulsarbat/pulsar/__init__.py,sha256=gI4_dkTcUrhMh5xmlbXMMtw3nx5GE17EzVq8VtPQav0,48
+pulsarbat/reader/__init__.py,sha256=HCv2b9ZL5w37ASK3R8yDVuf1yEQbI9Yp4DFZ1f37zHs,201
+pulsarbat/reader/base.py,sha256=tGmRFcv6PbuqPO-FkwbQXxtezHv12nXoo1yiPzfLvvQ,4990
+pulsarbat/reader/baseband_readers.py,sha256=rNKgqLPgwPYu4mYNKoYQvpHGGXdCXFWoPsSjYT9TdK0,8507
+pulsarbat/reader/dask_baseband_readers.py,sha256=xtqH8aVpe_6u-x8xgt-W9sALRUV1NYw0MqQ6OeqTZDk,1644
+pulsarbat/signal_funcs/__init__.py,sha256=ZcRGtKxVRnjZKxPgabdJw-Tb1VVdsQ4puEhmDRAzvLQ,216
+pulsarbat/signal_funcs/core.py,sha256=HWa-nK31co-0VikPrpDFdJm1yJ996cRAmh3GRDhSv5w,2848
+pulsarbat/signal_funcs/dedispersion.py,sha256=UNBAd5ltPNPP5AKc9YLBKMeMLhaq-iVbCnJB9JQHCzg,4479
+pulsarbat-0.0.4.dist-info/AUTHORS.rst,sha256=Yp_ZqzWUNkX6zM0M6dm5Dn7Pn7ZGfqdaWFQvZDtdnzs,199
+pulsarbat-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pulsarbat-0.0.4.dist-info/METADATA,sha256=l_Dw4pYqJZ_wNNY-FeS6B75nUJ_kyH8BO73nZUTNyFs,2596
+pulsarbat-0.0.4.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pulsarbat-0.0.4.dist-info/top_level.txt,sha256=cb5HGwYzRNk4NtfBNN5Tmkp4H4_q_tTJgzq99aFVBnw,10
+pulsarbat-0.0.4.dist-info/RECORD,,
