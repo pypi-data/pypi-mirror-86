@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyviewercloud
+Version: 0.1.2
+Summary: Python bindings for viewercloud
+Keywords: python
+Home-Page: https://github.com/ThomAub/viewercloud
+Author: Thomaub <github.thomaub@gmail.com>
+Author-Email: Thomaub <github.thomaub@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# pyviewercloud
+
+pyviewercloud are the bindings to use viewercloud directly in python.
+
