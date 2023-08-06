@@ -1,0 +1,8 @@
+click
+toml
+python-gitlab
+requests
+yaspin
+
+[:python_version == "2.6"]
+importlib

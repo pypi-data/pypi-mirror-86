@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/glap/__init__.py
+src/glap/cli.py
+src/glap.egg-info/PKG-INFO
+src/glap.egg-info/SOURCES.txt
+src/glap.egg-info/dependency_links.txt
+src/glap.egg-info/entry_points.txt
+src/glap.egg-info/requires.txt
+src/glap.egg-info/top_level.txt
