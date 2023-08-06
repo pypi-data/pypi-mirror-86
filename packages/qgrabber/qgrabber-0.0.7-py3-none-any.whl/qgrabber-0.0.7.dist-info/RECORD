@@ -1,0 +1,8 @@
+qgrabber/__init__.py,sha256=6wvQeLcZlM9bbQduirx2xqJwlLM3QXsHwCAUyENadrc,105
+qgrabber/controller.py,sha256=lyS_DNJRTvE8AFwDnaE_eHa7D1acfLOqknD-8UAucsw,1555
+qgrabber/model.py,sha256=AA7N3dczbw6kFyANlFxB1uM6oNpyF78pU0wDQn24UEs,1839
+qgrabber/view.py,sha256=O_jrUFScKsOHk7q0VLSrkqSN7X6i_pMpBOgYvkEXHVQ,1559
+qgrabber-0.0.7.dist-info/LICENSE,sha256=KaFbJ2yXCOaQA99oAAsr77ucj1LEeGdEOb_GdAaB5LA,1104
+qgrabber-0.0.7.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+qgrabber-0.0.7.dist-info/METADATA,sha256=bWqYLgIX8EAPnrhMVjkgL4Y6etqWmnQKO_Z1TddRFqY,799
+qgrabber-0.0.7.dist-info/RECORD,,
