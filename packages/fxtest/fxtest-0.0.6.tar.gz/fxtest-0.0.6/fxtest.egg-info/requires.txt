@@ -1,0 +1,9 @@
+py
+ansi2html
+pytest
+allure-pytest
+pytest-fxtest
+openpyxl
+pyyaml
+selenium
+Appium-Python-Client
