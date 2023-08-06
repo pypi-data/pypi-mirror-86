@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+PCA2/__init__.py
+PCA2/_nbdev.py
+PCA2/core.py
+PCA2.egg-info/PKG-INFO
+PCA2.egg-info/SOURCES.txt
+PCA2.egg-info/dependency_links.txt
+PCA2.egg-info/entry_points.txt
+PCA2.egg-info/not-zip-safe
+PCA2.egg-info/top_level.txt
