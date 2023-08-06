@@ -1,0 +1,11 @@
+doxyqml/__init__.py,sha256=0wMdkWH1BQ7C0NUj9hoKx_v4LgQNAP4bl7TKH6-QazA,73
+doxyqml/lexer.py,sha256=wP1LdMmqoU9VyRdFjVDntEJ_KHhh1cj4y-ZJEzc2Z4M,5888
+doxyqml/main.py,sha256=_VMSBqbVjmL0rXeu5PN2v9WyimXNBgnOVpndEKi2-nw,4670
+doxyqml/qmlclass.py,sha256=HM11odK7PIzJvg8eVV-6ynzMbHN_PvM83QjhevDh4II,10255
+doxyqml/qmlparser.py,sha256=k4mQyP0yby0tXAQZSq5d0YJByBAfBG3lBfuDCcyLW1Y,7218
+doxyqml-0.5.1.dist-info/LICENSE,sha256=HW8SiejQTEHkeXf7lF7wpQY8QsGMI_k9svRUIsCsSxk,1300
+doxyqml-0.5.1.dist-info/METADATA,sha256=6qEfVvsojZE8Bj-N-aiLRJcibHRwInmNg6ZK7CFjxC8,3340
+doxyqml-0.5.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+doxyqml-0.5.1.dist-info/entry_points.txt,sha256=nKp6eXyE5FNkIQQy4pmJaOUZI1ajMAkL16vSii9vKDQ,47
+doxyqml-0.5.1.dist-info/top_level.txt,sha256=TJGb4oeBdkh0NSON8TjPEJ0ISasRHycrlAWsEo2aAfM,8
+doxyqml-0.5.1.dist-info/RECORD,,
