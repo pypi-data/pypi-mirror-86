@@ -1,0 +1,7 @@
+opentelemetry/instrumentation/dbapi/__init__.py,sha256=d6ntYp1b7sWcp2dLC_TsoNGmKq3bPF-T2tJVMP2Mqc8,13800
+opentelemetry/instrumentation/dbapi/version.py,sha256=sAdzDRBmzsiTtzW_4Pv1dUhjjQXWT5ocpIRH4Xh0Mnc,608
+opentelemetry_instrumentation_dbapi-0.16b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_instrumentation_dbapi-0.16b0.dist-info/METADATA,sha256=1hm8zJ4sHC_BE6nCZ-PPGAoipgqGf9yvnI9SecKQ6-s,1681
+opentelemetry_instrumentation_dbapi-0.16b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_instrumentation_dbapi-0.16b0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_instrumentation_dbapi-0.16b0.dist-info/RECORD,,
