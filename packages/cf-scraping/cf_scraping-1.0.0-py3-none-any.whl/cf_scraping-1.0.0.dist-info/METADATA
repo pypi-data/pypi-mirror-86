@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: cf-scraping
+Version: 1.0.0
+Summary: Web Scraping for ClowdFlows
+Home-page: https://github.com/xflows/cf_scraping
+Author: Janez Kranjc
+Author-email: janez.kranjc@ijs.si
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: goose3
+
+#cf_scraping
+
+Thisisa[ClowdFlows3.0](https://github.com/xflows/clowdflows-backend)packagewhichcontainswidgetsforcollectingdatafromthewebandextractingboilerplatecode.
+
+##Installation
+Installthispackagebyrunning:`pipinstallcf_scraping`.
+ToenableitintheClowdFlowsBackend,editthe`local_settings.py`filelikeshownbelow:
+```
+PACKAGE_TREE=[
+{
+"name":"WebScraping",
+"packages":['cf_scraping'],
+"order":1
+}
+]
+```
+Thenrun`./manage.pyimport_packagecf_scraping`fromtheClowdFlowsBackenddirectorytoimportwidgetsintotheplatform.
+
+
+
