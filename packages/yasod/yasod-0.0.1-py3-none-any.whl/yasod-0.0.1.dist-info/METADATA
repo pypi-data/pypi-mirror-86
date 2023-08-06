@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: yasod
+Version: 0.0.1
+Summary: Yet another simple object detector
+License: MIT
+Author: Michael Druk
+Author-email: 2467184+michdr@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.3.1,<6.0.0)
+Requires-Dist: numpy (>=1.19.4,<2.0.0)
+Requires-Dist: opencv-python (>=4.4.0,<5.0.0)
+Requires-Dist: pydantic (>=1.7.2,<2.0.0)
