@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: riffraff
+Version: 0.0.5
+Summary: Uncommon list and array manipulation
+Home-page: https://github.com/RealPolitiX/riffraff
+Author: R. Patrick Xian
+Author-email: xrpatrick@gmail.com
+License: MIT
+Download-URL: https://github.com/RealPolitiX/riffraff/tarball/0.0.5
+Description: # riffraff
+        Uncommon list and array manipulation
+        
+        including riffling, extrapolation, etc.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

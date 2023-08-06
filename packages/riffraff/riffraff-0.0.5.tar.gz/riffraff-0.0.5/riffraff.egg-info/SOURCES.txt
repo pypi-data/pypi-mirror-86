@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+riffraff/__init__.py
+riffraff/extrapolate.py
+riffraff/riffle.py
+riffraff.egg-info/PKG-INFO
+riffraff.egg-info/SOURCES.txt
+riffraff.egg-info/dependency_links.txt
+riffraff.egg-info/top_level.txt
