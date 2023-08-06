@@ -1,0 +1,16 @@
+_mdict_c/i32_i32.cp36-win_amd64.pyd,sha256=6Xo_HDTC150xTUYq6qKxz0-vwFXcdCMp57Qqx_tyqSg,23552
+_mdict_c/i32_i64.cp36-win_amd64.pyd,sha256=A9k61PeA8XRDPjzLDCXaYNXRE2cEoB9wHbfJBqR1DuY,23552
+_mdict_c/i64_i32.cp36-win_amd64.pyd,sha256=YliWVZYrF8lIMqBrswWC_MyGqsnT2XxoL1I89wcRNRM,23552
+_mdict_c/i64_i64.cp36-win_amd64.pyd,sha256=v-BrVDexN_dmnrpfP3RaH1a5R74HgW-FZ381tS1zVJg,23552
+_mdict_c/str_str.cp36-win_amd64.pyd,sha256=t1wupXgq5JGGmNYmIZNE5DGAPi2gdHc8Tykoxjv5CP0,27648
+microdict/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microdict/mdict.py,sha256=v8FzYZtNTnYd2_6hcy-4psKN330Fp-G5KLxKo59Rs4c,1368
+microdict/run_tests.py,sha256=inBZ9WK2liqeyi-oTb2Lc8wwoJM9-oZjO0N9QnE20xo,219
+microdict/microdict_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microdict/microdict_tests/test_int.py,sha256=cg0dNBUQ5toqSEokiQJJ_LRBx1c2nvfCIZrnqs7uO8c,7462
+microdict/microdict_tests/test_str.py,sha256=3jQDdHC9ybCfYotkK-bjm-h5aZ2325856pG8w366wSo,5851
+microdict-0.1.1.dist-info/LICENSE,sha256=MWL7zOeMHHkyoZa3FZ1F-tohLdyNbz_vuC6k3HryrA8,1069
+microdict-0.1.1.dist-info/METADATA,sha256=JK9HnyjLrRyAYrRXEJATzJhxwVG3NS06O2HHQRrdNOU,12454
+microdict-0.1.1.dist-info/WHEEL,sha256=SktxJNdVgf2GQ0Rnj47KhGrFXFhp4j6ROtWy0UXB1eM,106
+microdict-0.1.1.dist-info/top_level.txt,sha256=TPOI_LXyP2xOifYztdmD4xpBUouojKXB-cMm0pW6ub4,112
+microdict-0.1.1.dist-info/RECORD,,
