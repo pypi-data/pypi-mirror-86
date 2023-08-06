@@ -1,0 +1,12 @@
+sam_io/__init__.py,sha256=rrApY90wG-dc0OcJvvlt8_ABtq54GR9FUsZLNdazGmo,329
+sam_io/_reader.py,sha256=VI82dJMGY0zmf1wrtbJu9qGif3NyV8yQ4_yviTxZwQQ,9089
+sam_io/_version.py,sha256=49OlvJZx5zIN7H4_kF5MeKbCAKURy9CzPj81SGR7yAg,49
+sam_io/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sam_io/test/examples.tar.gz,sha256=6fX2p9Ig4-7npHtonqZLLE4YhAHLSiJRfqFnV2bd_yg,12025
+sam_io/test/test_reader.py,sha256=TmW7-M33lCkMX_xCjvkEsGLde6YRFIPsDe4dKR_9bh0,5844
+sam_io-0.0.2.dist-info/LICENSE.md,sha256=y1BOm5GlNr1Lksi4g7xNkgFgiHhqhW-31ORwHrLGro8,1105
+sam_io-0.0.2.dist-info/METADATA,sha256=boKts_cqyNulYEGWLGI7yfL9N3MUgdZ4plrOBbC6rL4,1014
+sam_io-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sam_io-0.0.2.dist-info/top_level.txt,sha256=3ZRrzLJ2fFCpCkN4NIEy3n_nKHxhE9JYYjS_zUrx4Io,7
+sam_io-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sam_io-0.0.2.dist-info/RECORD,,
