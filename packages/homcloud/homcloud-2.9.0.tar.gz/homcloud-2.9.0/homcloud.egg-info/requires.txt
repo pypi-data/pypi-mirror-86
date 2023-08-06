@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scipy
+scikit-learn
+msgpack-python
+Pillow
+pulp
+forwardable
+imageio
+ripser
+Cython

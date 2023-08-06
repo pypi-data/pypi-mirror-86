@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: homcloud
+Version: 2.9.0
+Summary: homcloud base tools
+Home-page: http://www.wpi-aimr.tohoku.ac.jp/hiraoka_labo/homcloud
+Author: Ippei Obayashi
+Author-email: ippei.obayashi@riken.jp
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: Science/Research
