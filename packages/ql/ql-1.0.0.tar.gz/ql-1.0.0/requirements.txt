@@ -1,0 +1,5 @@
+pandas
+parse
+pyyaml
+gitpython
+bs4
