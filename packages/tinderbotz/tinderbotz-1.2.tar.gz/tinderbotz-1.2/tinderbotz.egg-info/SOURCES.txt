@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+tinderbotz/LocationGuardExtension.crx
+tinderbotz/__init__.py
+tinderbotz/session.py
+tinderbotz.egg-info/PKG-INFO
+tinderbotz.egg-info/SOURCES.txt
+tinderbotz.egg-info/dependency_links.txt
+tinderbotz.egg-info/requires.txt
+tinderbotz.egg-info/top_level.txt
