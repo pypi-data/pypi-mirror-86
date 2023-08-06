@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: vl8
+Version: 0.2.0
+Summary: 🔉 vl8: Sort audio granularly 🔉
+Home-page: https://github.com/rec/vl8
+Author: Tom Ritchford
+Author-email: tom@swirly.com
+License: MIT
+Keywords: audio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: aubio
+Requires-Dist: numpy
+Requires-Dist: pydub
+Requires-Dist: runs
+Requires-Dist: stroll
+
+🔉 vl8: Create derivative works that might not be copyright violations 🔉
+----------------------------------------------------------------------------
+
+This is a tool to create derivative works of pieces of music.
+
+
