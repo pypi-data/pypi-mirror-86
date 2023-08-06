@@ -1,0 +1,24 @@
+Changelog
+=========
+
+1.3 - (2020-11-24)
+---------------------------
+* Change: Added @geodata RestAPI endpoint
+  [iulianpetchesi refs #122622]
+
+1.2 - (2020-11-23)
+---------------------------
+* Change: Modified the structure of the imported xmls
+  [iulianpetchesi refs #122622]
+
+1.1 - (2020-11-10)
+---------------------------
+* Change: Added geotags information and a script that imports said information
+  as taxonomies
+  [iulianpetchesi refs #122622]
+
+1.0 - (2020-10-22)
+-----------------------
+
+* Initial release: Configure Google and Geonames via controlpanel and @geolocation RestAPI endpoint
+  [@avoinea refs #122622]
