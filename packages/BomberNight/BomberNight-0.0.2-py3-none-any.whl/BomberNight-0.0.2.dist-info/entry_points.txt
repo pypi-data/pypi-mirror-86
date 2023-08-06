@@ -1,0 +1,3 @@
+[console_scripts]
+bombernight = BomberNight.__main__:main
+
