@@ -1,0 +1,8 @@
+README.md
+setup.py
+viff.py
+viffIO.egg-info/PKG-INFO
+viffIO.egg-info/SOURCES.txt
+viffIO.egg-info/dependency_links.txt
+viffIO.egg-info/requires.txt
+viffIO.egg-info/top_level.txt
