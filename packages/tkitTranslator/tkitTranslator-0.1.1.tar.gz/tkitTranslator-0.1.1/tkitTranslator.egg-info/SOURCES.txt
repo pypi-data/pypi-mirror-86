@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/__init__.py
+src/translator.py
+test/test.py
+tkitTranslator.egg-info/PKG-INFO
+tkitTranslator.egg-info/SOURCES.txt
+tkitTranslator.egg-info/dependency_links.txt
+tkitTranslator.egg-info/requires.txt
+tkitTranslator.egg-info/top_level.txt

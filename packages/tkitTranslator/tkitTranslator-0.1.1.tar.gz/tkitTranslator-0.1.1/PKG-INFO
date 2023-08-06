@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tkitTranslator
+Version: 0.1.1
+Summary: Terry tkitTranslator 翻译
+Home-page: https://www.terrychan.org/translator/
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Description: # 一个创建库的demo
+        便于快速创建自己的第三方库
+        
+        ## 快速上传操作
+        可以自动查找依赖，然后上传
+        ```
+        sh upload.sh
+        ```
+        
+        文档查看
+        
+        https://www.terrychan.org/translator/index.html
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
