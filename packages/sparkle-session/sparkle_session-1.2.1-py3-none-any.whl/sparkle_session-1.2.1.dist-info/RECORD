@@ -1,0 +1,12 @@
+sparkle_session/__init__.py,sha256=jPX6XLTXZjiQ0roJXP2mjL4sRjXYsyc6SyV9JX3Hr4I,307
+sparkle_session/create_table.py,sha256=_rTv9p-wR47ofm8GHV2a0oenVYwP9BCIEnzwHFdYaVs,2171
+sparkle_session/dataframe.py,sha256=rLJDWir4fApyyhBpufQKQj3ToRVV0EZGEK0BsqvzKv0,5785
+sparkle_session/session.py,sha256=93Q8bcNbJqQaJTfGJT-V_PYot0HyACZH2QOLdZSTy2M,4542
+sparkle_session/spark_and_log.py,sha256=AxiDp-IwsXPznUuV7aSzYODcqSKDuH7Pb75BK-z00v0,535
+sparkle_session/spark_logger.py,sha256=-RH56r00Yo6DC1zSGmnckGG5G5tvQiAjL3BySmJpayM,860
+sparkle_session/struct_type.py,sha256=41smkDwSmNs2-p4eNJNAW3YJ30lofgDDR2p6WxMoSbU,1129
+sparkle_session/utils.py,sha256=iJxTbtQt2amheKVSjqeqwuHnppLQ9ZbHbUNDjQa5em8,803
+sparkle_session-1.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sparkle_session-1.2.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+sparkle_session-1.2.1.dist-info/METADATA,sha256=4Jpo9GB_YSB3_1tA8uIgJKkYnmoGiabdnl18PIQQ5V4,586
+sparkle_session-1.2.1.dist-info/RECORD,,
