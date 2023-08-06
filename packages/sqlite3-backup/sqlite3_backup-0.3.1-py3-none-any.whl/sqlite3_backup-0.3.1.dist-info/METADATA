@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sqlite3-backup
+Version: 0.3.1
+Summary: implements missing backup functionality in sqlite3 module
+Home-page: https://sissource.ethz.ch/schmittu/sqlite3_backup
+License: MIT
+Author: Uwe Schmitt
+Author-email: uwe.schmitt@id.ethz.ch
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://sissource.ethz.ch/schmittu/sqlite3_backup
