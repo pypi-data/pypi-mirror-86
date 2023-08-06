@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: debtsum
+Version: 1.0.0
+Summary: A tool that allows to summarize medic mobile debt files
+Home-page: https://github.com/eliaswalyba/debtsum
+Author: Elias W. BA
+Author-email: eliaswalyba@gmail.com
+License: MIT
+Download-URL: https://github.com/eliaswalyba/debtsum/archive/v1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: DEBT,SUMMARIZE,PYTHON
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
