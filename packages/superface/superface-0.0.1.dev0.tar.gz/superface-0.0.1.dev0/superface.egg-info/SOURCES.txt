@@ -1,0 +1,8 @@
+README.md
+setup.py
+superface/__init__.py
+superface/help.py
+superface.egg-info/PKG-INFO
+superface.egg-info/SOURCES.txt
+superface.egg-info/dependency_links.txt
+superface.egg-info/top_level.txt

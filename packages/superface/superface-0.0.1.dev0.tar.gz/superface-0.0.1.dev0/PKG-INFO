@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: superface
+Version: 0.0.1.dev0
+Summary: Superface is the core SDK of the Superface project.
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Superface
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
