@@ -1,0 +1,10 @@
+requests
+pandas
+beautifulsoup4
+translators
+fuzzywuzzy
+ngender
+MyQR
+pyforest
+wget
+urllib3
