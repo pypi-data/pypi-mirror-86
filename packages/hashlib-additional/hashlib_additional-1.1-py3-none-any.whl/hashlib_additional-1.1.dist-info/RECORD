@@ -1,0 +1,7 @@
+hashlib_additional/__init__.py,sha256=fk6UUVNycNWGios6QK7z2mfiWIyABsZimTGMAAeYnL8,14164
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hashlib_additional.py,sha256=5TUx8TxOiScF7ykkUsTLOiGkcaBsRExK2WeAgvaybFo,7888
+hashlib_additional-1.1.dist-info/METADATA,sha256=vPkJ81cQcGYezNqTH1-LbxFhuZWRNPmjPOTiLvnSW9A,3525
+hashlib_additional-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hashlib_additional-1.1.dist-info/top_level.txt,sha256=ZcvdS2v7zJLhxYqc9pnF-ghnJVyreqwf061HvoomQH8,25
+hashlib_additional-1.1.dist-info/RECORD,,
