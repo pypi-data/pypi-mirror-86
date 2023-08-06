@@ -1,0 +1,12 @@
+---
+- import_tasks: register.yml
+
+- import_tasks: config.yml
+
+- import_tasks: bootstrap.yml
+
+- include_tasks: clone.yml
+  when: freezer_dev_mode | bool
+
+- name: Flush handlers
+  meta: flush_handlers

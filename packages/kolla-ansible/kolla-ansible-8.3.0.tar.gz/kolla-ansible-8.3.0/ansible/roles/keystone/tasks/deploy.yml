@@ -1,0 +1,19 @@
+---
+- import_tasks: config.yml
+
+- include_tasks: clone.yml
+  when:
+    - keystone_dev_mode | bool
+
+- import_tasks: bootstrap.yml
+
+- name: Flush handlers
+  meta: flush_handlers
+
+- include_tasks: init_fernet.yml
+  when:
+    - keystone_token_provider == 'fernet'
+
+- import_tasks: register.yml
+
+- import_tasks: check.yml
