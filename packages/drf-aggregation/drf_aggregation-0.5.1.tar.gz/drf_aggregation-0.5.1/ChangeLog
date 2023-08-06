@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.5.1
+-----
+
+* fixed the order of fields in groupByField influenced the result
