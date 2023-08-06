@@ -1,0 +1,19 @@
+[tool.poetry]
+authors = ["Alex Orfanos <alexandros@mailerlite.com>", "Nikola Milojević <nikola@mailerlite.com>"]
+description = "Python SDK for MailerSend"
+homepage = "https://github.com/mailersend/mailersend-python"
+license = "MIT"
+name = "mailersend"
+repository = "https://github.com/mailersend/mailersend-python"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
