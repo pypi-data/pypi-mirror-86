@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: treedecomp
+Version: 1.0.1
+Summary: Python Class for Tree Decomposition
+Home-page: https://gitlab.inria.fr/amibio/treedecomp
+Author: Sebastian Will
+Author-email: sebastian.will@polytechnique.edu
+Maintainer: Sebastian Will
+Maintainer-email: sebastian.will@polytechnique.edu
+License: UNKNOWN
+Description: # TreeDecomp
+        
+        TreeDecomp is a simple python package for storing and manipulating tree decompositions.
+        It was originally written as part of [infrared](https://gitlab.inria.fr/amibio/Infrared), a generic C++/Python hybrid library for efficient (fixed-parameter tractable) Boltzmann sampling.
+        By default, TreeDecomp runs `treewidth_min_fill_in` from `networkx` $`20`$ times _on randomized input_ and returns the one with the smallest treewidth as `treedecomp.TreeDecomposition`.
+        
+        ## Simple Usage
+        
+        The class `TreeDecompositionFactory` creates a tree decomposition for a given hypergraph. The result is stored in `TreeDecomposition`.
+        A hypergraph is a pair of integer and a list of lists, where the former one is the number of nodes and the later one is the list of hyperedges.
+        ```python
+        >>> import treedecomp as td
+        >>> nb_nodes = 6
+        >>> hyperedges = [[0,1,5], [2,4], [2,5], [3,4,5]]
+        >>> tree = treedecomp.TreeDecompositionFactory().create(nb_nodes, hyperedges)
+        >>> tree.get_bags()
+        [[4, 5, 3], [4, 5, 2], [5, 1], [5, 0, 1]]
+        >>> tree.get_edges()
+        [(0, 1), (0, 2), (2, 3)]
+        >>> tree.toposorted_bag_indices()
+        [0, 2, 3, 1]
+        >>> with open('tree.dot', 'w') as output:
+        ...     td.writeTD(output)
+        ```
+        
+        
+        ## Future Work
+        One can notice TreeDecomp offers two other tree decompoistion factories `HTDTreeDecompositionFactory` and `TDLibTreeDecompositionFactory`.
+        These two are for supporting tree decompoitions using [libhtd](https://github.com/mabseher/htd) (via python wrapper) or calling TDlib (written in java) that will be included in the future
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
