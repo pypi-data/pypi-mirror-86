@@ -1,0 +1,15 @@
+Change Log
+============
+
+0.0.1 (22/11/2020)
+-----------------------
+- First Release
+
+0.0.5 (29/11/2020)
+----------------------
+-Fifth Realease
+
+Added Data Visualization
+
+
+
