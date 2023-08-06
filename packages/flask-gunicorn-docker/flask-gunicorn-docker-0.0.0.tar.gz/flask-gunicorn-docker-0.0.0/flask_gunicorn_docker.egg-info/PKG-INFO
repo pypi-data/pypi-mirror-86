@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: flask-gunicorn-docker
+Version: 0.0.0
+Summary: Flask Template Application for the Generator
+Home-page: https://github.com/kungfuai/flask-gunicorn-docker/
+Author: endurance
+Author-email: endurance.idehen@kungfu.ai
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
