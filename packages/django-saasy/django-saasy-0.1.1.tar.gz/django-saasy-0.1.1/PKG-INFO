@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: django-saasy
+Version: 0.1.1
+Summary: A simple project for setting up common features of SaaS based applications
+Home-page: https://github.com/renderbox/django-saasy/
+Author: Grant Viklund
+Author-email: renderbox@gmail.com
+License: MIT license
+Description: 
+        
+        .. image:: https://github.com/renderbox/django-saasy/workflows/Saasy%20CI/badge.svg?branch=master
+           :target: https://github.com/renderbox/django-saasy/workflows/Saasy%20CI/badge.svg?branch=master
+           :alt: Saasy CI
+        
+        
+        
+        .. image:: https://github.com/renderbox/django-saasy/workflows/Saasy%20Develop/badge.svg?branch=develop
+           :target: https://github.com/renderbox/django-saasy/workflows/Saasy%20Develop/badge.svg?branch=develop
+           :alt: Saasy CI
+        
+        
+        
+        .. image:: https://readthedocs.org/projects/django-saasy/badge/?version=latest
+           :target: https://django-saasy.readthedocs.io/en/latest/?badge=latest
+           :alt: Documentation Status
+        
+        
+        This project is very much Pre-Alpha and changing a lot so it's reconmeneded not to be used quite yet.
+        
+        Saasy
+        =====
+        
+        A simple project for setting up common features of SaaS based applications
+        
+        Developer
+        ---------
+        
+        How to dump developer data
+        
+        .. code-block:: bash
+        
+           ./manage.py dumpdata --indent=4 -e contenttypes -e auth.permission -e sessions -e admin.logentry > fixtures/develop.json
+        
+Keywords: django,app
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: prod
+Provides-Extra: build
+Provides-Extra: docs
