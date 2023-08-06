@@ -1,0 +1,10 @@
+geometric_primitives/brick.py,sha256=QyDnCE5975AvQI4oo0VEdkInydygpM0rC4hF2Db2L5A,3104
+geometric_primitives/bricks.py,sha256=5yBdAsv_2qiTnNV5WKcZ2B01zJH_NbF-kAdeGPm5RmU,13746
+geometric_primitives/rules.py,sha256=i2PNRefqgncgrVv8E8PJxUGBej_EERpIVtqGoV_n-e8,1923
+geometric_primitives/utils.py,sha256=9s21RwqWUj4BeBgE9RvZ3fn-cDOn84Gcp3WdZmZw5ZA,5275
+geometric_primitives/voxels.py,sha256=C8Z-n1WnBZn0H5skF03agECC-sb_yAno0zM-qOSajnY,1069
+geometric_primitives-0.1.0.dist-info/LICENSE,sha256=Wfj2bw4IDwYbQdqRrS1xzmztpXwBxsibmVhc__PXbXk,1070
+geometric_primitives-0.1.0.dist-info/METADATA,sha256=poVvUzWHngUV5-6btM0DSFQAd-8_8bZTtXdElPyVK14,768
+geometric_primitives-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+geometric_primitives-0.1.0.dist-info/top_level.txt,sha256=Qdv89T0bYY3EeH2lMNid9Pu5idwZtCqBcYMOqsmbtuc,21
+geometric_primitives-0.1.0.dist-info/RECORD,,
