@@ -1,0 +1,39 @@
+{% extends "releasenotes/base.html" %}
+{% load markdownify %}
+{% load i18n %}
+
+{% block title %}{{ object.project.name }} {{object.version_name}} - Release Notes{% endblock %}
+
+{% block release_content %}
+<h1>{{ object.project.name }}</h1>
+
+<h3>Release: <a href="{{object.get_absolute_url}}">{{object.version_name}}</a></h3>
+
+{% if new_features %}
+<h4>New Features</h4>
+{% for new_feature in new_features %}
+{% if new_feature.audience %}<p><h6>{{ new_feature.audience.name }}</h6>{% endif %}
+{{ new_feature.description|markdownify }}
+{% endfor %}
+<p>
+{% endif %}
+
+{% if bug_fixes %}
+<h4>Bug Fixes</h4>
+{% for bug_fix in bug_fixes %}
+{% if bug_fix.audience %}<p><h6>{{ bug_fix.audience.name }}</h6>{% endif %}
+{{ bug_fix.description|markdownify }}
+{% endfor %}
+<p>
+{% endif %}
+
+{% if known_issues %}
+<h4>Known Issues</h4>
+{% for known_issue in known_issues %}
+{% if known_issue.audience %}<p><h6>{{ known_issue.audience.name }}</h6>{% endif %}
+{{ known_issue.description|markdownify }}
+{% endfor %}
+<p>
+{% endif %}
+
+{% endblock %}
