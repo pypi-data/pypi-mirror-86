@@ -1,0 +1,4 @@
+pyobjc-core>=7.0
+pyobjc-framework-Cocoa>=7.0
+pyobjc-framework-Quartz>=7.0
+pyobjc-framework-CoreML>=7.0
