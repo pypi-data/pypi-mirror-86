@@ -1,0 +1,10 @@
+hzdplugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hzdplugins/aiidaplugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hzdplugins/aiidaplugins/constants.py,sha256=YYY2OrQFaTv-TpLfsloaGbo5rHBsX2lhcC9sZWxoIKE,1410
+hzdplugins/aiidaplugins/info.py,sha256=dQyUlZmb75WFDVyrLGl2Wvif3FwPUYtP71hDyJpZPrg,4853
+hzdplugins/aiidaplugins/io.py,sha256=A9ecg5Rbe-pxDoNP29J2WYlZK3EBCzo9t8xrVcJu3MA,5210
+hzdplugins/aiidaplugins/submit.py,sha256=GQ1Axxnm1v7U_3MGcyQ-S_E4nFJpnXmWp5_tc73XOm0,12785
+hzdplugins-0.0.13.dist-info/METADATA,sha256=I_Bdd5CsqYdUD2Wb20xxuUlue78nNoCzayFo2xniU3s,377
+hzdplugins-0.0.13.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hzdplugins-0.0.13.dist-info/top_level.txt,sha256=WzwhltsfsssgkZMCOn17eynLtInouuMybiU7xpcH6QQ,11
+hzdplugins-0.0.13.dist-info/RECORD,,
