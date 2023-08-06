@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: jssh
+Version: 4.0.8
+Summary: GUI,ssh to multiple servers
+Home-page: https://github.com/fnhchaiyin/jssh
+Author: jhy
+Author-email: fnhchaiying@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: paramiko
+
+# jssh
+A GUI software,YOU can use ssh protocol to manage multiple servers,upload files to servers or download files from them
+Use ssh to manage multiple servers, you can upload files to servers or download files from them
+
+
+install:
+pip install jssh
+
+
+startup:
+python jssh.py
+
+
