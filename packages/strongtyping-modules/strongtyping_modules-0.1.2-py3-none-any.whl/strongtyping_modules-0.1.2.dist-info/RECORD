@@ -1,0 +1,9 @@
+strongtyping_modules/__init__.py,sha256=8zh8q35j_x7fxIlMJR_HxWLWu4KP9hT7BN5_sIM2OWk,168
+strongtyping_modules/install.py,sha256=l_lWSBKt2Tr2x3m8m9NnzxIPlE8RlTWj3xGzUsab-oU,327
+strongtyping_modules/strongtyping_modules.pyx,sha256=1r_ZLoMJQdbDI2Jvnaj5zbZNTibfMeJ6_LnnEqctS-4,7097
+strongtyping_modules/sttypingmodule.c,sha256=wDzxziv3zlViyO9zjmu8zcnujE7Q05gqwumjQ5G8_vs,15407
+strongtyping_modules-0.1.2.dist-info/LICENSE.md,sha256=mEKDM_Tv3GmnZzLpsdFEp7vmhE1rTvk33XsRUa4KqNw,1071
+strongtyping_modules-0.1.2.dist-info/METADATA,sha256=DbLZ6awAdUm8vw3vO7KoKEtHnB_xOghsnd76EEoNJrU,5097
+strongtyping_modules-0.1.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+strongtyping_modules-0.1.2.dist-info/top_level.txt,sha256=CTT6VEkKOxF11yuyA-3OX-c58DiipFTeypF3gB2d5Ps,21
+strongtyping_modules-0.1.2.dist-info/RECORD,,
