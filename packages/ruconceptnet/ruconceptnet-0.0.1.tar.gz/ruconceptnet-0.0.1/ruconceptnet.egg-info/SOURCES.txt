@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+ruconceptnet/__init__.py
+ruconceptnet/conceptnet.py
+ruconceptnet/meta.py
+ruconceptnet/sparse_representation.py
+ruconceptnet.egg-info/PKG-INFO
+ruconceptnet.egg-info/SOURCES.txt
+ruconceptnet.egg-info/dependency_links.txt
+ruconceptnet.egg-info/not-zip-safe
+ruconceptnet.egg-info/top_level.txt
+ruconceptnet/data/__init__.py
+ruconceptnet/data/russian-conceptnet.pickle.bz2
