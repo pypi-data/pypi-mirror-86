@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bup
+Version: 0.0.1
+Summary: all your AWS S3 buckets and DynamoDB tables, and github repos to a backup directory/folder
+Home-page: https://github.com/jamesabel/bup
+Author: abel
+Author-email: j@abel.co
+License: MIT License
+Download-URL: https://github.com/jamesabel/bup
+Keywords: aws,dynamodb,s3,github,backup
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: ismain
+Requires-Dist: balsa
+Requires-Dist: boto3
+Requires-Dist: typeguard
+Requires-Dist: hashy
+Requires-Dist: dictim
+Requires-Dist: awsimple
+Requires-Dist: pressenter2exit
+Requires-Dist: awscli
+Requires-Dist: GitPython
+Requires-Dist: github3.py
+
+
+# bup
+
+backup for github repos and AWS S3 and DynamoDB
+
+
