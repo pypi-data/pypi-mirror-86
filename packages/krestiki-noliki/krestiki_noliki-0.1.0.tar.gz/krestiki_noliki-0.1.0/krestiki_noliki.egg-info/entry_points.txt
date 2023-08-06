@@ -1,0 +1,3 @@
+[console_scripts]
+krestiki_noliki --start = krestiki_noliki.game:main
+

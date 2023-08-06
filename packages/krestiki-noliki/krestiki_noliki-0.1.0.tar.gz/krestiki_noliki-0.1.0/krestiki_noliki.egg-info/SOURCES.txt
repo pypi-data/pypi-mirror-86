@@ -1,0 +1,14 @@
+MANIFEST.in
+requirements.txt
+setup.py
+krestiki_noliki/__init__.py
+krestiki_noliki/board.py
+krestiki_noliki/dagger.py
+krestiki_noliki/game.py
+krestiki_noliki/zero.py
+krestiki_noliki.egg-info/PKG-INFO
+krestiki_noliki.egg-info/SOURCES.txt
+krestiki_noliki.egg-info/dependency_links.txt
+krestiki_noliki.egg-info/entry_points.txt
+krestiki_noliki.egg-info/requires.txt
+krestiki_noliki.egg-info/top_level.txt
