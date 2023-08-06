@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        nfreezer=nfreezer:console_script
+    
