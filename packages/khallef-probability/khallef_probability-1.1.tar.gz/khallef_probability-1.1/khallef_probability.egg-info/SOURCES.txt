@@ -1,0 +1,10 @@
+setup.py
+khallef_probability/Binomialdistribution.py
+khallef_probability/Gaussiandistribution.py
+khallef_probability/Generaldistribution.py
+khallef_probability/__init__.py
+khallef_probability.egg-info/PKG-INFO
+khallef_probability.egg-info/SOURCES.txt
+khallef_probability.egg-info/dependency_links.txt
+khallef_probability.egg-info/not-zip-safe
+khallef_probability.egg-info/top_level.txt
