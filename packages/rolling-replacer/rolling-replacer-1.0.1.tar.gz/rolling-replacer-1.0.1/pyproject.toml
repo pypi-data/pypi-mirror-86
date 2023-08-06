@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "rolling-replacer"
+version = "1.0.1"
+description = "Rolling replacer utility for deploy your AWS EC2 cluster."
+authors = ["Matteo Martinelli <matteomartinelli1992@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/emdotem/rolling-replacer"
+repository = "https://github.com/emdotem/rolling-replacer"
+keywords = ["aws", "rolling", "deploy", "blue-green"]
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.scripts]
+rolling-replacer = "src:rolling_replacer"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "*"
+click = "~=7.1"
+
+[tool.poetry.dev-dependencies]
+black = "==19.10b0"
+coverage = "~=4.5"
+mypy = "~=0.770"
+pytest = "~=3.10"
+pytest-cov = "~=2.8"
+pytest-lazy-fixture = "~=0.6"
+
