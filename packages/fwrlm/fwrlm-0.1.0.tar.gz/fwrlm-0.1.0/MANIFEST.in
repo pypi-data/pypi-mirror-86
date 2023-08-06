@@ -1,0 +1,3 @@
+recursive-include fireworks/templates *
+recursive-include fireworks/examples *
+recursive-include fwrlm-/utils/README

@@ -1,0 +1,4 @@
+[console_scripts]
+fwrlm = fwrlm.cli.fwrlm_run:main
+render = fwrlm.cli.render_run:main
+

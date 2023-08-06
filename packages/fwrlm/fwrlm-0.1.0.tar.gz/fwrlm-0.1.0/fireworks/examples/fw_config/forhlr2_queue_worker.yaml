@@ -1,0 +1,4 @@
+name: forhlr2_queue_worker
+category: [ 'forhlr2_queue' ]
+query: '{}'
+env:
