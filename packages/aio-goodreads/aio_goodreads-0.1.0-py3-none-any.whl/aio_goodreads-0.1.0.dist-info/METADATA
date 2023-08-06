@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: aio-goodreads
+Version: 0.1.0
+Summary: 
+Author: Mykola Solodukha
+Author-email: mykola.soloduha@gmail.com
+Requires-Python: >=3.8.4,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
