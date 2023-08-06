@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+transformer_as_client.egg-info/PKG-INFO
+transformer_as_client.egg-info/SOURCES.txt
+transformer_as_client.egg-info/dependency_links.txt
+transformer_as_client.egg-info/not-zip-safe
+transformer_as_client.egg-info/requires.txt
+transformer_as_client.egg-info/top_level.txt
+transformer_serving/__init__.py
+transformer_serving/client/__init__.py
+transformer_serving/client/_py2_var.py
+transformer_serving/client/_py3_var.py
