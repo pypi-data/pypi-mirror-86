@@ -1,0 +1,10 @@
+README.md
+setup.py
+enumpaths/__init__.py
+enumpaths/main.py
+enumpaths.egg-info/PKG-INFO
+enumpaths.egg-info/SOURCES.txt
+enumpaths.egg-info/dependency_links.txt
+enumpaths.egg-info/entry_points.txt
+enumpaths.egg-info/requires.txt
+enumpaths.egg-info/top_level.txt
