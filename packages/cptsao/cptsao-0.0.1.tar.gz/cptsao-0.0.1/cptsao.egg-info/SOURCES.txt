@@ -1,0 +1,8 @@
+README.md
+setup.py
+IsPrime/IsPrime.py
+IsPrime/__init__.py
+cptsao.egg-info/PKG-INFO
+cptsao.egg-info/SOURCES.txt
+cptsao.egg-info/dependency_links.txt
+cptsao.egg-info/top_level.txt
