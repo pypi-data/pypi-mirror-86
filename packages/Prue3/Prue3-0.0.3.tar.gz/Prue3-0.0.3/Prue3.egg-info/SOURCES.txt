@@ -1,0 +1,5 @@
+setup.py
+Prue3.egg-info/PKG-INFO
+Prue3.egg-info/SOURCES.txt
+Prue3.egg-info/dependency_links.txt
+Prue3.egg-info/top_level.txt
