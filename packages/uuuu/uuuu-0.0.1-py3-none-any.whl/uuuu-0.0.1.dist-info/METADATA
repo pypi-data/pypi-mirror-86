@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: uuuu
+Version: 0.0.1
+Summary: Miscellaneous utilies using only the standard library.
+Home-page: https://github.com/kjson/uuuu
+Author: kjson
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# uuuu
+
+
