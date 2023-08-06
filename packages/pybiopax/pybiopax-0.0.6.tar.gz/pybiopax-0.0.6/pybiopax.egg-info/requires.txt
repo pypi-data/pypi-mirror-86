@@ -1,0 +1,7 @@
+lxml
+requests
+tqdm
+
+[test]
+nose
+coverage
