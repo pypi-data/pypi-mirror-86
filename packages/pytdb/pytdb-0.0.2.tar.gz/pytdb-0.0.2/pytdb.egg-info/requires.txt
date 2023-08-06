@@ -1,0 +1,5 @@
+pytdb_cc>=0.0.5
+pandas
+numpy
+protobuf
+pytest
