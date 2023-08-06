@@ -1,0 +1,9 @@
+README.md
+setup.py
+test/test_sasl.py
+test/test_sasl_prep.py
+tinysasl/__init__.py
+tinysasl.egg-info/PKG-INFO
+tinysasl.egg-info/SOURCES.txt
+tinysasl.egg-info/dependency_links.txt
+tinysasl.egg-info/top_level.txt
