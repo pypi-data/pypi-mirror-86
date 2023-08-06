@@ -1,0 +1,4 @@
+[console_scripts]
+gen-compose=gencompose:main
+gen-compose-convert=convcompose:main
+
