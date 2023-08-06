@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: energymeter
+Version: 1.1.0
+Summary: Wrapper for Minimalmodbus to use with ABB Energy Meters.
+Home-page: https://finetuned.nl/
+Author: Stan Janssen
+Author-email: stanjanssen@finetuned.nl
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: ABB Energy Meter Modbus
+Platform: UNKNOWN
