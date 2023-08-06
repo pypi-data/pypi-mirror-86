@@ -1,0 +1,11 @@
+README.md
+setup.py
+discord_to_sqlite/__init__.py
+discord_to_sqlite/cli.py
+discord_to_sqlite/utils.py
+discord_to_sqlite.egg-info/PKG-INFO
+discord_to_sqlite.egg-info/SOURCES.txt
+discord_to_sqlite.egg-info/dependency_links.txt
+discord_to_sqlite.egg-info/entry_points.txt
+discord_to_sqlite.egg-info/requires.txt
+discord_to_sqlite.egg-info/top_level.txt
