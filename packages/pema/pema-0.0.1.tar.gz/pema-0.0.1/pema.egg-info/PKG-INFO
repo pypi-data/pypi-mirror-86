@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pema
+Version: 0.0.1
+Summary: Peak matching for XENON simulations
+Home-page: https://github.com/XENONnT/peakmatching
+Author: The XENON collaboration
+License: UNKNOWN
+Description: # PEMA: Peak matching for clustering and classification
+        ![Test package](https://github.com/XENONnT/peak_matching/workflows/Test%20package/badge.svg)
+        ## PeakMatching
+        Peak clustering and classification validation using the WFsim
+        
+        
+        # Install
+        ```bash
+        git clone https://github.com/XENONnT/peak_matching
+        pip install -e ./peak_matching
+        ```
+        
+        # TODO
+         - example
+         - setup
+        
+        **Based on ported software from PAX**
+          * https://github.com/XENON1T/XeAnalysisScripts/tree/master/PeakFinderTest
+        
+        **Perquisites**
+          * https://github.com/XENONnT/straxen
+          * https://github.com/AxFoundation/strax
+          * https://github.com/XENONnT/WFSim
+        
+        
+        0.0.1 / 2020-11-25
+        --------------------
+        - Further prepare the package and prepare for deployment
+        
+        0.0.0 / 2020-11-23
+        --------------------
+        - Initial commits
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
