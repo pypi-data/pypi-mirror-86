@@ -1,0 +1,44 @@
+{
+  "name": "wreqr.injector",
+  "version": "0.3.0",
+  "homepage": "https://github.com/stephanebachelier/wreqr.injector",
+  "author": {
+    "name": "Stéphane Bachelier",
+    "email": "<stephane.bachelier@gmail.com>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephanebachelier/wreqr.injector.git"
+  },
+  "description": "A really simple dependency injection based on Backbone.Wreqr.RequestResponse",
+  "keywords": [
+    "backbone",
+    "marionette",
+    "dependency",
+    "injector"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "time-grunt": "~0.2.10",
+    "grunt-jscs-checker": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.4.0",
+    "load-grunt-config": "~0.7.1",
+    "glob": "~3.2.9",
+    "grunt-release-it": "~0.1.1",
+    "grunt-conventional-changelog": "~1.1.0",
+    "grunt-docco": "~0.3.3",
+    "mocha": "~1.17.1",
+    "mocha-phantomjs": "~3.3.2",
+    "grunt-umd": "~1.6.2",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
