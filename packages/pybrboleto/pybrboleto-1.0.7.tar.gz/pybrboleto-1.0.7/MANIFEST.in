@@ -1,0 +1,7 @@
+include README.rst
+include LICENSE
+recursive-include pybrboleto/media *
+recursive-include pybrboleto/templates *
+recursive-include tests *
+include bin/pdf_pybrboleto_sample.py
+include bin/html_pybrboleto_sample.py
