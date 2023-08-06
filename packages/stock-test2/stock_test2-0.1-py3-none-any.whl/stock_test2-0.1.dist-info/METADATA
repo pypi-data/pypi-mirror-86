@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: stock-test2
+Version: 0.1
+Summary: for test about pypi stock
+Home-page: https://github.com/JungYeonHee/stock_test.git
+Author: JungYeonHee
+Author-email: judy6647@naver.com
+License: UNKNOWN
+Download-URL: https://github.com/JungYeonHee/stock_test.git/test.zip
+Keywords: pypi deploy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
+
