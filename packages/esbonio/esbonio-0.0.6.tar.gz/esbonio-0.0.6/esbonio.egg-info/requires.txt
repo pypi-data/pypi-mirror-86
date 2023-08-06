@@ -1,0 +1,12 @@
+Sphinx
+nbformat
+
+[dev]
+black
+flake8
+pytest
+pytest-cov
+
+[lsp]
+appdirs
+pygls
