@@ -1,0 +1,5 @@
+setup.py
+NeelScifiiIncKolkata3897.egg-info/PKG-INFO
+NeelScifiiIncKolkata3897.egg-info/SOURCES.txt
+NeelScifiiIncKolkata3897.egg-info/dependency_links.txt
+NeelScifiiIncKolkata3897.egg-info/top_level.txt
