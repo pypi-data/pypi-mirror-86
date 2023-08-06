@@ -1,0 +1,7 @@
+README.md
+setup.py
+deltalanguage/__init__.py
+deltalanguage.egg-info/PKG-INFO
+deltalanguage.egg-info/SOURCES.txt
+deltalanguage.egg-info/dependency_links.txt
+deltalanguage.egg-info/top_level.txt
