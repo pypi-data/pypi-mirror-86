@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+indy_credx/__init__.py
+indy_credx/bindings.py
+indy_credx/error.py
+indy_credx/types.py
+indy_credx/version.py
+indy_credx.egg-info/PKG-INFO
+indy_credx.egg-info/SOURCES.txt
+indy_credx.egg-info/dependency_links.txt
+indy_credx.egg-info/top_level.txt
