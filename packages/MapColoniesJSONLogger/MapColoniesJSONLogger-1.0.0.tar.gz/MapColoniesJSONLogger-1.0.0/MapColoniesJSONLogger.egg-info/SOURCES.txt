@@ -1,0 +1,9 @@
+README.md
+setup.py
+MapColoniesJSONLogger/__init__.py
+MapColoniesJSONLogger/logger.py
+MapColoniesJSONLogger.egg-info/PKG-INFO
+MapColoniesJSONLogger.egg-info/SOURCES.txt
+MapColoniesJSONLogger.egg-info/dependency_links.txt
+MapColoniesJSONLogger.egg-info/requires.txt
+MapColoniesJSONLogger.egg-info/top_level.txt
