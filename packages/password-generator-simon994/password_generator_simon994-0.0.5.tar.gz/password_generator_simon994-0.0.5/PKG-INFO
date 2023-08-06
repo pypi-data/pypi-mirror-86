@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: password-generator-simon994
+Version: 0.0.5
+Summary: A simple password generator. Generates, prints and copies a password to the clipboard
+Author: SimonN
+Author-email: 65023744+Simon994@users.noreply.github.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyperclip (>=1.8.1,<2.0.0)
+Project-URL: Homepage, https://github.com/Simon994/python_practice_projects/tree/main/password_generator

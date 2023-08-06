@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "password_generator_simon994"
+version = "0.0.5"
+description = "A simple password generator. Generates, prints and copies a password to the clipboard"
+authors = ["SimonN <65023744+Simon994@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pyperclip = "^1.8.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Simon994/python_practice_projects/tree/main/password_generator"
+[tool.poetry.urls]
+"Homepage" = "https://github.com/Simon994/python_practice_projects/tree/main/password_generator"
+
+[tool.poetry.scripts]
+generate-pw = "password_generator_simon994.password_generator_simon994:generate_password"
