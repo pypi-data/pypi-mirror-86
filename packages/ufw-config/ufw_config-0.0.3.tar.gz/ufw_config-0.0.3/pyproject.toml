@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ufw_config"
+version = "0.0.3"
+description = "A tool for opening and closing ports with UFW."
+authors = ["NeonDevelopment <root@neon-is.fun>", "Theo Paris <theo@toes.tech>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = { version = "^20.8b1", allow-prereleases = true }
+poethepoet = "^0.9.0"
+
+[tool.poetry.scripts]
+ufw-config = 'ufw_config.ufw:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+format = "black ufw_config"
