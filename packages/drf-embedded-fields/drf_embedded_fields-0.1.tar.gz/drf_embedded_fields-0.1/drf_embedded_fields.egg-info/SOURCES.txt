@@ -1,0 +1,12 @@
+README.md
+setup.py
+drf_embedded_fields/__init__.py
+drf_embedded_fields/api_fields.py
+drf_embedded_fields/base.py
+drf_embedded_fields/exceptions.py
+drf_embedded_fields/model_fields.py
+drf_embedded_fields.egg-info/PKG-INFO
+drf_embedded_fields.egg-info/SOURCES.txt
+drf_embedded_fields.egg-info/dependency_links.txt
+drf_embedded_fields.egg-info/requires.txt
+drf_embedded_fields.egg-info/top_level.txt
