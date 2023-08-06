@@ -1,0 +1,12 @@
+freud_api_crawler/__init__.py,sha256=H6n_L0kT_KhhnpJns77mtqvrRrT1DgN3SswhcDTSJew,145
+freud_api_crawler/cli.py,sha256=zD5DsI1p0TaSBTmzhDOnGMt3j3mOxzAxZUbLSSfSNvc,1708
+freud_api_crawler/freud_api_crawler.py,sha256=nBvVvyIJq6mybL4c5LgN1fMwxu5giLC-7LC-sRniB8k,13630
+freud_api_crawler/string_utils.py,sha256=ttsNc6GfPspWdCVLkm_TdlECFt2mqRM9iO1uI546T1k,892
+freud_api_crawler/tei_utils.py,sha256=S6CB_fsZHh_39ELilgkkGrsfau4BXzL-1mc7jeXdXmo,338
+freud_api_crawler-0.10.0.dist-info/AUTHORS.rst,sha256=Ipby9-LDs-1lcmVP00LBzuaxxB6SD1NetUdx2zj9TDA,165
+freud_api_crawler-0.10.0.dist-info/LICENSE,sha256=lHlwOTiT0S2MzMU2VMJIwJE_fb1SWrkLMdtWPz5PuoQ,1073
+freud_api_crawler-0.10.0.dist-info/METADATA,sha256=912ZSiVm3Vgqq7Q1ECMl80_es7CqJer4DEDsMuAI3As,1750
+freud_api_crawler-0.10.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+freud_api_crawler-0.10.0.dist-info/entry_points.txt,sha256=d2oOeRsAooeizN7HRTPSAyvV48HwTCXdz42TgPiU8Bo,109
+freud_api_crawler-0.10.0.dist-info/top_level.txt,sha256=VO-I615IbN9OmAsiD6ASkgNO0KXxOYbf7zhk6AMrhzk,18
+freud_api_crawler-0.10.0.dist-info/RECORD,,
