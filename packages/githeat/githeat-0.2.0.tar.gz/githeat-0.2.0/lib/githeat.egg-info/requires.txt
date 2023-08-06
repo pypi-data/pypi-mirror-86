@@ -1,0 +1,12 @@
+blessed
+gitdb
+GitPython
+py
+python-dateutil
+pytz
+PyYAML
+six
+smmap
+wcwidth
+wheel
+xtermcolor
