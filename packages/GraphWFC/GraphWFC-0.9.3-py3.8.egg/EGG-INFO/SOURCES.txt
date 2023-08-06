@@ -1,0 +1,11 @@
+README.md
+setup.py
+GraphWFC.egg-info/PKG-INFO
+GraphWFC.egg-info/SOURCES.txt
+GraphWFC.egg-info/dependency_links.txt
+GraphWFC.egg-info/requires.txt
+GraphWFC.egg-info/top_level.txt
+graphwfc/GraphWFCState.py
+graphwfc/__init__.py
+graphwfc/__main__.py
+graphwfc/helpers.py

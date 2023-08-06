@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: GraphWFC
+Version: 0.9.3
+Summary: Colors a networkx (Di)Graph based on patterns extracted from an colored example (Di)Graph
+Home-page: https://github.com/lamelizard/GraphWaveFunctionCollapse
+Author: lamelizard
+Author-email: florian.drux@rwth-aachen.de
+License: MIT
+Description: A python 3.x package to color a graph based on patterns extracted from an colored example graph. More infos on https://github.com/lamelizard/GraphWaveFunctionCollapse
+Platform: UNKNOWN
+Requires-Python: >=3.0
