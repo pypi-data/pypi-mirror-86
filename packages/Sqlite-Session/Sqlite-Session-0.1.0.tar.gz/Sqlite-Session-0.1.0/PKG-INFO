@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Sqlite-Session
+Version: 0.1.0
+Summary: Use SQLite to store session data on the server.
+Home-page: https://github.com/lc6464/Sqlite-Session
+License: MIT License
+Description: # Sqlite-Session
+        
+        - 服务端使用 pickle 将 Python 对象转为二进制数据
+        - 将二进制数据存入 SQLite 数据库
+        - 仅需在客户端使用 Cookie 储存一个 UUID
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
