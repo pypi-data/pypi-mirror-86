@@ -1,0 +1,11 @@
+CamundaLibrary/CamundaResources.py,sha256=UipGRaavgugT4ZXbHHw2fWMleEA_mNj7VQnmYExUHB0,1131
+CamundaLibrary/Deployment.py,sha256=fo45XujpaG4_uFQ8vHGdGmxP8j1DVT5EmgDnlyfsT6E,1746
+CamundaLibrary/ExternalTask.py,sha256=9foTpgMIGQcl-_iiKkN06mpgVHDE5RzLYcbG2JvysFo,6046
+CamundaLibrary/ProcessDefinition.py,sha256=-lA6dTCOIfgfbFYPgIwOl9pRTMOJVMQr0OGqX08A5i4,1772
+CamundaLibrary/ProcessInstance.py,sha256=g_kZ1gGpigQ2Fdb5xhSxamLA9-pc1lXVmfeD0IXEH3o,2191
+CamundaLibrary/__init__.py,sha256=9YW6s96UpDBMPS0B5BuJVYRUm8hVT1Vyr-wumJdLr-Q,168
+robotframework_camunda-0.5.0.dist-info/LICENSE,sha256=-pBXSEFgRrqA_16rZuFdZeAvh0wwMWTIgUXg8dHOLxQ,10779
+robotframework_camunda-0.5.0.dist-info/METADATA,sha256=Cbw245wk6LGA-EeMLCt-tizUGqlecnO-TgOJqYQ4TNg,3882
+robotframework_camunda-0.5.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+robotframework_camunda-0.5.0.dist-info/top_level.txt,sha256=mnH29PswsIRIW67FMIye_EBGg5Piic4NDmoW79JXH-o,15
+robotframework_camunda-0.5.0.dist-info/RECORD,,
