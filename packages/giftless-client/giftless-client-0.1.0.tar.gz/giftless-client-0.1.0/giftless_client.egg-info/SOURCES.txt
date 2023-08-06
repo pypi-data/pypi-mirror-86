@@ -1,0 +1,14 @@
+README.md
+setup.py
+giftless_client/__init__.py
+giftless_client/client.py
+giftless_client/exc.py
+giftless_client/main.py
+giftless_client/transfer.py
+giftless_client/types.py
+giftless_client.egg-info/PKG-INFO
+giftless_client.egg-info/SOURCES.txt
+giftless_client.egg-info/dependency_links.txt
+giftless_client.egg-info/entry_points.txt
+giftless_client.egg-info/requires.txt
+giftless_client.egg-info/top_level.txt
