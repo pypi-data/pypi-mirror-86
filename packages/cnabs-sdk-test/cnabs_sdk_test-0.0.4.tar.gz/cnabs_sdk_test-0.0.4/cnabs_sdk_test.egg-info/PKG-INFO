@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cnabs-sdk-test
+Version: 0.0.4
+Summary: CNABS OPENAPI SDK Test
+Home-page: https://github.com/cnabs
+Author: Bo Pan
+Author-email: bo.pan@cn-abs.com
+License: GPLv3
+Description: # CNABS Openapi Python Sdk Test
+        
+        本模块为CNABS OPENAPI的 Python SDK Test
+        
+        使用帮助
+        1. 引入cnabssdk_test包
+        ```
+            import cnabs_test.deals
+            import cnabs_test.projects
+            import cnabs_test.securities
+            import cnabs_test.assets
+        
+        ```
+        2. 初始化token
+        Token 获得地址： https://www.cn-abs.com/openapi.html#/my-token
+        
+        3. 测试接口
+        ```
+            token = "20200915-20210915--xxx-xxxxx"
+            cnabs_test.org.run_test(token)
+            cnabs_test.deals.run_test(token)
+            cnabs_test.projects.run_test(token)
+            cnabs_test.securities.run_test(token)
+            cnabs_test.assets.run_test(token)
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
