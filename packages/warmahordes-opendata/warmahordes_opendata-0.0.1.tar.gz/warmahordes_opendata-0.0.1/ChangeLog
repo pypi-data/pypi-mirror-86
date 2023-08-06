@@ -1,0 +1,26 @@
+CHANGES
+=======
+
+0.0.1
+-----
+
+* add apache license
+* restore pbr and commit translations
+* add translation tests
+* add translate
+* add get\_available\_languages
+* bump requirements to python 3.9
+* add install requires
+* fix wrapping
+* remove mo file
+* Update warmahordes\_opendata.po (POEditor.com)
+* Create warmahordes\_opendata.mo (POEditor.com)
+* disable coverage for now
+* black
+* get rid of pbr for now
+* wrap messages
+* update readme
+* Fix typo in ADVANCED\_DEPLOYMENT
+* finish first round of keywords
+* initial import
+* initial structure
