@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: shrm
+Version: 0.1.0
+Summary: shrm
+Home-page: https://github.com/carpedm43/shrm.git
+Author: hyeonbaekong
+Author-email: carpedm43@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: scipy (==1.5.4)
+Requires-Dist: numpy (==1.19.4)
+Requires-Dist: torch (==1.7.0)
+
+UNKNOWN
+
+
