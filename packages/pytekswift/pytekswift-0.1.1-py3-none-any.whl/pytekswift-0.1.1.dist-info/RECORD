@@ -1,0 +1,10 @@
+tekswift/__init__.py,sha256=e_NIFXg9zIGpNTYD7JXchPYB73G8S_ZWBsX9XG4KIIk,649
+tekswift/cli.py,sha256=MJHrTI632xH7drdr0n-G0-0XPZClS6IdjvvRpOqN9Xc,2968
+tekswift/dataloader.py,sha256=kHeFx9W3prXCssZMQEusSBk7NVm5seuxpRM91NTZivQ,2866
+tekswift/utils.py,sha256=UwwU3Sa8cfE_3yJfzXRLC0U4ACcnnBM8Vc8AZGC8OSw,3093
+pytekswift-0.1.1.dist-info/LICENSE,sha256=-JHhLXXB2RRUeojKiRRTDHyJ1QiOCtrDfwbahUOb6Yc,35150
+pytekswift-0.1.1.dist-info/METADATA,sha256=KzK4BcDcAF1XImW1RnRCIzQ5ed1BkVeOywDfoWj3KVE,6642
+pytekswift-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytekswift-0.1.1.dist-info/entry_points.txt,sha256=69ya2MLMNThJNzNz8mBztQcJmqEmpZS99w4wlNgGk70,48
+pytekswift-0.1.1.dist-info/top_level.txt,sha256=St-qsRV_ealz1bWtRcl3vvnlmhshvIZf5YJav3FHgaI,9
+pytekswift-0.1.1.dist-info/RECORD,,
