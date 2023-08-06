@@ -1,0 +1,9 @@
+wild_relation_network/__init__.py,sha256=qhz9eauS7qzCBSue6NjHPM3z9D8ox39gb33KpUZAK14,128
+wild_relation_network/layers.py,sha256=wOi9s4YooRq5Hk136vKFaoZHTB94LNMTN1gNm5V47iA,5176
+wild_relation_network/relation_network.py,sha256=MPZVO7um_9JJ9VTQDbTPoz3Zx6cL0MMBsJqiHs44CLI,3137
+wild_relation_network/wild_relation_network.py,sha256=6dMpPw1yadtIkc5p3QsfcQFBPmBwweSCBdamcsGPoF4,4398
+wild_relation_network-0.1.0.dist-info/LICENSE,sha256=bLYBSHzZ4QV5-tTk88Lgfha_gc4Q-LIOX1Y053mah30,1077
+wild_relation_network-0.1.0.dist-info/METADATA,sha256=wzstNNdhoyvK7MuVpbfHCEUfrMDuvNqMMUo5n0oe6zg,2660
+wild_relation_network-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wild_relation_network-0.1.0.dist-info/top_level.txt,sha256=Ly4oSbcH65VZpvKpyUY_GkHp-kEBDIsRmOyUx2yXnNc,22
+wild_relation_network-0.1.0.dist-info/RECORD,,
