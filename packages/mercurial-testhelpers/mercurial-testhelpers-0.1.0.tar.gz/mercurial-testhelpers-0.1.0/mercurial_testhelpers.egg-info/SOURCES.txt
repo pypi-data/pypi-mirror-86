@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+install-requirements.txt
+setup.py
+mercurial_testhelpers/__init__.py
+mercurial_testhelpers.egg-info/PKG-INFO
+mercurial_testhelpers.egg-info/SOURCES.txt
+mercurial_testhelpers.egg-info/dependency_links.txt
+mercurial_testhelpers.egg-info/requires.txt
+mercurial_testhelpers.egg-info/top_level.txt
