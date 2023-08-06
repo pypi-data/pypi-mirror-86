@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: cdm-connector-1.1
+Version: 0.0.4
+Summary: Common Data Model Object Model library for Python. Customized for SkyPoint use cases.
+Home-page: https://github.com/skypointcloud/skypoint-python-cdm1.1-connector
+Author: SkyPoint Cloud
+Author-email: support@skypointcloud.com
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: adal (==1.2.4)
+Requires-Dist: asn1crypto (==0.24.0)
+Requires-Dist: astroid (==2.2.5)
+Requires-Dist: atomicwrites (==1.3.0)
+Requires-Dist: attrs (==19.1.0)
+Requires-Dist: autopep8 (==1.4.4)
+Requires-Dist: certifi (==2019.6.16)
+Requires-Dist: cffi (==1.12.3)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: colorama (==0.4.1)
+Requires-Dist: cryptography (==2.8)
+Requires-Dist: idna (==2.8)
+Requires-Dist: importlib-metadata (==0.19)
+Requires-Dist: isort (==4.3.4)
+Requires-Dist: lazy-object-proxy (==1.3.1)
+Requires-Dist: nest-asyncio (==1.4.0)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: more-itertools (==7.2.0)
+Requires-Dist: mypy (==0.720)
+Requires-Dist: mypy-extensions (==0.4.1)
+Requires-Dist: packaging (==19.1)
+Requires-Dist: pathlib2 (==2.3.4)
+Requires-Dist: pluggy (==0.12.0)
+Requires-Dist: py (==1.8.0)
+Requires-Dist: pycodestyle (==2.5.0)
+Requires-Dist: pycparser (==2.19)
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: pyparsing (==2.4.2)
+Requires-Dist: pytest (==5.0.1)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: regex (==2019.8.19)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: rope (==0.14.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: typed-ast (==1.4.0)
+Requires-Dist: typing-extensions (==3.7.4)
+Requires-Dist: urllib3 (==1.25.8)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: wrapt (==1.11.1)
+Requires-Dist: zipp (==0.5.2)
+
+# skypoint-python-cdm-connector
+This repository is a clone of Microsoft's Python SDK for CDM which can be found at https://github.com/microsoft/CDM/blob/master/objectModel/Python. This respository was created in order to build on top of their standards and for our custom use cases. This will be kept updated on par with the aforementioned original and users are welcome to use and contribute to it.
+
