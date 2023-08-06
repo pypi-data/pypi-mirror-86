@@ -1,0 +1,3 @@
+[console_scripts]
+eslite-movie = eslite_movie.cli:main
+
