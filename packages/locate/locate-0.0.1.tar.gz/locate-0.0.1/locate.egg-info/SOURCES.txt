@@ -1,0 +1,8 @@
+README.md
+setup.py
+locate/__init__.py
+locate/locate.py
+locate.egg-info/PKG-INFO
+locate.egg-info/SOURCES.txt
+locate.egg-info/dependency_links.txt
+locate.egg-info/top_level.txt
