@@ -1,0 +1,5 @@
+argparse
+pathlib
+matplotlib
+numpy
+scipy
