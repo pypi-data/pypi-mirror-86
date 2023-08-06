@@ -1,0 +1,10 @@
+serdelicacy/__init__.py,sha256=wpxGqzn6oKH0t-iaG_rbsDoSKgGINFzvd9qVz3NaW0w,494
+serdelicacy/deserialize.py,sha256=5cSOn2NSTJ632y2UcPw-u9PG9MwMjlBzP26QqUGe7Ww,18204
+serdelicacy/errors.py,sha256=knM8L20potYVJJK6oo6Hw7bIi-2Y2VJz0ZSVVpiRycA,2066
+serdelicacy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serdelicacy/serialize.py,sha256=6Pps-Axr0PpHZ5qoRde0YFeivCrjSAJeKjh1CaE9A2c,2310
+serdelicacy/typedefs.py,sha256=Uzff1u6ml9naXl4mOG_Kswi0aIz12ZxwJceo-bSA9eM,1642
+serdelicacy-0.10.0.dist-info/LICENSE,sha256=BREMMIgRsMOg9mbadg6vJ_Blw46QXe1moLWWUnQp024,1052
+serdelicacy-0.10.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+serdelicacy-0.10.0.dist-info/METADATA,sha256=nrAXtLCsRwDYYP-IORuH4LanGV22wzaGdhaHaxMq1PY,14103
+serdelicacy-0.10.0.dist-info/RECORD,,
