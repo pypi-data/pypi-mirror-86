@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+setup.cfg
+setup.py
+smuport_ts_middleground_server.egg-info/PKG-INFO
+smuport_ts_middleground_server.egg-info/SOURCES.txt
+smuport_ts_middleground_server.egg-info/dependency_links.txt
+smuport_ts_middleground_server.egg-info/top_level.txt
