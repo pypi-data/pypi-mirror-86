@@ -1,0 +1,13 @@
+README.md
+setup.py
+firefly_cli/__init__.py
+firefly_cli/__main__.py
+firefly_cli/api_driver.py
+firefly_cli/cli.py
+firefly_cli/configs_manager.py
+firefly_cli.egg-info/PKG-INFO
+firefly_cli.egg-info/SOURCES.txt
+firefly_cli.egg-info/dependency_links.txt
+firefly_cli.egg-info/entry_points.txt
+firefly_cli.egg-info/requires.txt
+firefly_cli.egg-info/top_level.txt
