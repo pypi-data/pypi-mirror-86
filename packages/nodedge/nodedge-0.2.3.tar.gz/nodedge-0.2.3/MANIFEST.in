@@ -1,0 +1,40 @@
+include AUTHORS.rst
+include CONTRIBUTING.rst
+include HISTORY.rst
+include LICENSE
+include README.rst
+include requirements.txt
+include setup.py
+include readthedocs.yml
+include mypy.ini
+include .bumpversion.cfg
+include CODE_OF_CONDUCT.md
+include logging.yaml
+
+include .flake8
+include .isort.cfg
+include .pre-commit-config.yaml
+include requirements_dev.txt
+include requirements_docs.txt
+include requirements_tests.txt
+include tox.ini
+include pytest.ini
+include .coveragerc
+
+recursive-include nodedge/qss *
+recursive-include nodedge/resources *
+recursive-include tests *
+recursive-include examples *
+recursive-include tools *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include docs *.rst *.py Makefile make.bat *.png
+recursive-include docs/source/_templates *
+recursive-exclude docs/build *
+
+include *.txt
+recursive-include nodedge *
+
+recursive-exclude logs *
+recursive-exclude demos *

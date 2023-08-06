@@ -1,0 +1,13 @@
+black
+codecov
+flake8
+mypy
+pre-commit
+pydocstyle
+pytest
+pytest-cov
+pytest-mock
+pytest-qt
+pytest-xdist
+pytest-xvfb
+tox
