@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cell_execution_status/__init__.py
+nb_cell_execution_status.egg-info/PKG-INFO
+nb_cell_execution_status.egg-info/SOURCES.txt
+nb_cell_execution_status.egg-info/dependency_links.txt
+nb_cell_execution_status.egg-info/not-zip-safe
+nb_cell_execution_status.egg-info/requires.txt
+nb_cell_execution_status.egg-info/top_level.txt
