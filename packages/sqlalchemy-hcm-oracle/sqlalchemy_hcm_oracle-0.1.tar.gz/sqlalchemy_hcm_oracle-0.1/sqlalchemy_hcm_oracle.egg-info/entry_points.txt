@@ -1,0 +1,4 @@
+[sqlalchemy.dialects]
+HCMoracle = sqlalchemy_oracle.cx_oracle:OracleDialect_cx_oracle
+HCMoracle.cx_oracle = sqlalchemy_oracle.cx_oracle:OracleDialect_cx_oracle
+
