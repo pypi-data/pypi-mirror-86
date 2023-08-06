@@ -1,0 +1,3 @@
+[console_scripts]
+bunseki = bunseki.analyze:main
+
