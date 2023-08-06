@@ -1,0 +1,7 @@
+README.md
+setup.py
+seesoup/__init__.py
+seesoup.egg-info/PKG-INFO
+seesoup.egg-info/SOURCES.txt
+seesoup.egg-info/dependency_links.txt
+seesoup.egg-info/top_level.txt
