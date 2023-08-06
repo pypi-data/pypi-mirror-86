@@ -1,0 +1,15 @@
+os_sdk_light/__init__.py,sha256=66cAKh7wghl-KPjMbLJ1r9RCu7ziHDi1eNG3uMum5Ts,34
+os_sdk_light/client.py,sha256=D_hbB00FnwAHjTGVLebWjbEN2cXveWmwQolLj_0JpUA,6193
+os_sdk_light/exceptions.py,sha256=zxmjaJ1Ume30yFg9j3PaA3-krZdlysTY6g764xIg-EI,1358
+os_sdk_light/schemas/compute.yaml,sha256=_nOohP06_Pb2TTCal4TPs1KFvxue7KN-dWsWJecDiNA,4281
+os_sdk_light/schemas/image.yaml,sha256=pbwyV9g9cjLuayeWZoXthBSKRpdmwX8DBDup48aocck,572
+os_sdk_light/schemas/network.yaml,sha256=FXzlKB_i5BJljBGe4nXX8wZ7YdLraG4-Clsd9T0hlB0,684
+os_sdk_light/schemas/placement.yaml,sha256=mQnI2A7kHEKKiwOhVyV68h-C0fD6rmMh3xZBteugsgI,6595
+os_sdk_light/tests/__init__.py,sha256=DF4PAxPa0cEcDIzX0fZekYF5U3LMZnM6-vkhb-g67ts,58
+os_sdk_light/tests/test_common.py,sha256=IQy4F-60YKVhu8EomCYnCQfAchnGylHh7XP1-K9T9fo,3777
+os_sdk_light/tests/test_compute.py,sha256=vaow7i9xbWDvbG-L0mqTbWmTbq3e-ULWlGbIzq4q8ek,1912
+os_sdk_light/tests/test_placement.py,sha256=gLIhvO6SinLqtWooE-_7hkxF1Wpy9n9KvkjslUkmFNQ,1809
+os_sdk_light-0.2.1.dist-info/METADATA,sha256=UBqx0Eow09OIStx9ncLGDmAnuSM2JMPWZLQVrc09390,772
+os_sdk_light-0.2.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+os_sdk_light-0.2.1.dist-info/top_level.txt,sha256=JDu3HamkiJqibV_aGNyYtorR9YjdwSzNIRT4_ltBBFQ,13
+os_sdk_light-0.2.1.dist-info/RECORD,,
