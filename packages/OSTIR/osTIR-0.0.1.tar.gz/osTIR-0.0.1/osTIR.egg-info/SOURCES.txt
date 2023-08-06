@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+osTIR.egg-info/PKG-INFO
+osTIR.egg-info/SOURCES.txt
+osTIR.egg-info/dependency_links.txt
+osTIR.egg-info/entry_points.txt
+osTIR.egg-info/top_level.txt
+ostir/ViennaRNA.py
+ostir/__init__.py
+ostir/ostir.py
+ostir/ostir_factory.py
+ostir/ostir_validation.py
+ostir/ostir_validation_table.json
+ostir/rna_turner1999.par
+ostir/salis_2009_input.csv

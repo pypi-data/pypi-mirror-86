@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ostir=ostir.ostir:main
+        
