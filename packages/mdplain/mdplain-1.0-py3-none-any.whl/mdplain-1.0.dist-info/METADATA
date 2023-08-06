@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mdplain
+Version: 1.0
+Summary: convert markdown to plain text
+Home-page: https://github.com/icaijy/mdplain
+Author: caijunyi
+Author-email: caijunyi08@outlook.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: beautifulsoup4
+Requires-Dist: markdown
+
+usage
+=====
+
+Convert markdown to plain text. It's great to use it for
+markdown-article's summary.
+
+install
+========
+use command:
+``pip install mdplain``
+
+or download the source code run:
+``python setup.py install``
+
+
