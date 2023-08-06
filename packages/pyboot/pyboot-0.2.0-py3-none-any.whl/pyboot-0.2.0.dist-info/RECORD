@@ -1,0 +1,10 @@
+pyboot/__init__.py,sha256=G4sl6elFLCkKa07Hoq90GcLRXY-ITf8iWmJXQKjG2dg,63
+pyboot/cli.py,sha256=ogs1nF9gBMaNzICiJ53Sc9T0GT3O_6VHRq9V-EWxcko,1563
+pyboot/pyboot.py,sha256=JzG4KLRjhpyrDQVT7aCgrmUBfN6Yy8LJDYZuk-Y1Mmg,2156
+tests/__init__.py,sha256=h9HgL5wHQhCqmd44_JrAKR2pvOogorA-Cwklf1svUho,41
+tests/test_command.py,sha256=-XlC2PjPUr2Nu6HIM11YLbblvyy2s6ZeN1lUSRFWppo,526
+pyboot-0.2.0.dist-info/METADATA,sha256=3Em2BcH3kT3Ct5KKyuQAnug69okL1gHUsup9HP0XPUE,1106
+pyboot-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyboot-0.2.0.dist-info/entry_points.txt,sha256=rx7fyzgWViNVzPFCPXYGi-hZMj523IiNFik-0RN2T8A,44
+pyboot-0.2.0.dist-info/top_level.txt,sha256=XqPDkvC-CjoMCrSRFMJVODdxgm9mw0gby1sGrgpCQz0,13
+pyboot-0.2.0.dist-info/RECORD,,
