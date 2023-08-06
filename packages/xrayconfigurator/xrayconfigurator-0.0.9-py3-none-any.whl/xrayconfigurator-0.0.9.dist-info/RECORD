@@ -1,0 +1,6 @@
+celery/__init__.py,sha256=CeYLy3--pmlZkHZJemXYYDuRFaNmQI59bdQepB4b9Cw,98
+celery/patch.py,sha256=883wgLj43Kyu59i9T4bhGUSBfIfd6aNPSxdwERMlkGA,2169
+xrayconfigurator-0.0.9.dist-info/METADATA,sha256=nicCbNbbP9AqoaYRXKx6QJjRIx-5cBFSqHhPzQTLW9Q,485
+xrayconfigurator-0.0.9.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+xrayconfigurator-0.0.9.dist-info/top_level.txt,sha256=sQQ-a5HNsZIi2A8DiKQnB1HODFMfmrzIAZIE8t_XiOA,7
+xrayconfigurator-0.0.9.dist-info/RECORD,,
