@@ -1,0 +1,9 @@
+README.md
+pyinstailor.py
+setup.py
+pyinstailor.egg-info/PKG-INFO
+pyinstailor.egg-info/SOURCES.txt
+pyinstailor.egg-info/dependency_links.txt
+pyinstailor.egg-info/entry_points.txt
+pyinstailor.egg-info/requires.txt
+pyinstailor.egg-info/top_level.txt
