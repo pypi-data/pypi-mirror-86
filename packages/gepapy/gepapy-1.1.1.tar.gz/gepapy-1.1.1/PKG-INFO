@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gepapy
+Version: 1.1.1
+Summary: Developing a library with Cuda and Python for solving scheduling problems on GPU
+Home-page: https://github.com/mandalarotation/GenSchedulingCuda-GSC
+Author: Jean Carlo Jimenez Giraldo
+Author-email: mandalarotation@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
