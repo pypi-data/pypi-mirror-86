@@ -1,0 +1,14 @@
+itk/PhaseSymmetryPython.py,sha256=ImNgHruYbNyaDL9JKJdSq03jJ1THMJ40d6AbXyk5cqo,2725
+itk/_PhaseSymmetryPython.so,sha256=sdyMWLfppDyMhNIA-neBlcNbKTpX9lcWdyNwSMvdBbc,3712672
+itk/itkButterworthFilterFreqImageSourcePython.py,sha256=P7YjcRJchCNWMrKiJ70xKJxymYXKKj1GlSDSlEILOnY,16919
+itk/itkLogGaborFreqImageSourcePython.py,sha256=UgJ1xM2U0x3Bgr3CjgHgUp_heVzHVrIvcS-zuEA-Y-Q,15532
+itk/itkPhaseSymmetryImageFilterPython.py,sha256=nku8L_GbM4x0TF78TB1DMSf7gHp8XjLD_b1Yb0GtY4A,18167
+itk/itkSinusoidImageSourcePython.py,sha256=xm1rBDcFPuXsf79PinFQd_KgtAlc5KHyUhl7X1eyrC4,15010
+itk/itkSinusoidSpatialFunctionPython.py,sha256=_QJWdDC6KUxsnMwKPjFmzyLjnA4JEw5ma5IflqUDVO0,13114
+itk/itkSteerableFilterFreqImageSourcePython.py,sha256=bHXwLm5MWqU-PsgAALlgM5Ni2z9XwcHEWMaRNyhyX5w,20969
+itk/Configuration/PhaseSymmetryConfig.py,sha256=nSOm39ymbz4cN3bAI_yD3xRMLKvxAs5zYdj1gXENAz0,3662
+itk_phasesymmetry-1.0.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_phasesymmetry-1.0.4.dist-info/METADATA,sha256=0IGWlPeaNGkNiSMYGd42eqBn_t2zG4pRSWUgkY0aWUM,1571
+itk_phasesymmetry-1.0.4.dist-info/WHEEL,sha256=z9qir6Vi_mkOsxGi50wLYU-N2ok_4rABw72J-twhmMA,102
+itk_phasesymmetry-1.0.4.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_phasesymmetry-1.0.4.dist-info/RECORD,,
