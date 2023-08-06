@@ -1,0 +1,4 @@
+paramiko
+pyyaml>=5.3.1
+scp
+click
