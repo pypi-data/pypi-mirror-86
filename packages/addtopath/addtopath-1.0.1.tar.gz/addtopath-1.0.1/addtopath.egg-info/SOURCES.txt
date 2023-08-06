@@ -1,0 +1,9 @@
+README.md
+setup.py
+addtopath/__init__.py
+addtopath/entrypoint.py
+addtopath.egg-info/PKG-INFO
+addtopath.egg-info/SOURCES.txt
+addtopath.egg-info/dependency_links.txt
+addtopath.egg-info/entry_points.txt
+addtopath.egg-info/top_level.txt
