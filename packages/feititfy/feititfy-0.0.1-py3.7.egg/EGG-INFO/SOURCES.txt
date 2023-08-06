@@ -1,0 +1,6 @@
+README.md
+setup.py
+feititfy.egg-info/PKG-INFO
+feititfy.egg-info/SOURCES.txt
+feititfy.egg-info/dependency_links.txt
+feititfy.egg-info/top_level.txt
