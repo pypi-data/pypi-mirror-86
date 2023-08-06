@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "telegram-garnet"
+version = "0.5.0"
+description = "garnet - cool add-on for Telethon"
+authors = ["Martin Winks <cat@snejugal.ru>"]
+readme = 'readme.rst'
+homepage = "https://github.com/uwinx/garnet"
+repository = "https://github.com/uwinx/garnet"
+keywords = ['telegram', 'telethon', 'telegram-bot', 'bot']
+classifiers = [
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.8",
+]
+packages = [
+    {include = "_garnet", from = "src"},
+    {include = "garnet", from = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Telethon = "^1.10.8"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+ipython = "^7.15.0"
+import-linter = "^1.1"
+flake8 = "^3.8.3"
+isort = "^5.5.2"
+pytest = "^6.1.2"
+PySocks = "^1.7.1"
+mypy = "^0.790"
+python-dotenv = "^0.15.0"
+
+[tool.black]
+line-length = 80
+target-version = ['py38']
+exclude = '''
+(
+    \.eggs
+  | \.git
+  | \.tox
+  | build
+  | dist
+  | venv
+  | docs
+)
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
