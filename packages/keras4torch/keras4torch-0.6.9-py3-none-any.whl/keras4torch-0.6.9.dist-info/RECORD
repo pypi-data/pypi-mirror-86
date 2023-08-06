@@ -1,0 +1,15 @@
+keras4torch/__init__.py,sha256=Sn3LtF9duxmZJXopNuhX9Nu8JJXn6Bvg2O0xYWWrBpA,99
+keras4torch/_training.py,sha256=Uu0Fv7KQcO3yjpXBqdh9mDEq7S7uqBndus1b-CtvHY0,7629
+keras4torch/callbacks.py,sha256=YMpnQRULD6xPhbb_xNeTl3XG0lAp_LsKUFBdeE7cyHg,5372
+keras4torch/layers.py,sha256=8WH_HMFq6SdpWi-_ASsC6O2tGnJCdquMk1swOcs7uwc,5605
+keras4torch/losses.py,sha256=lDZPdNmr4NXE7Q3-mXLKK6asHsBmEgPA9rrsoRdsgvE,1357
+keras4torch/metrics.py,sha256=sTrLrN9YxZkiu5dIqx6wPieXwX173vM9Kyn4ZWVXiR8,3615
+keras4torch/optimizers.py,sha256=pxVP6rdjza1DGJfGp0WMVdKjmBndsHo6dQevIdYQdPo,505
+keras4torch/utils.py,sha256=EExaMhaSf0gJynVsahGAIKph9yjyiq-L0BqYiFvUeqw,871
+keras4torch/models/__init__.py,sha256=_hVOQNAJnjgqWc-Kz5tzag9JwewyjZ5ylkMqQGO23E8,8351
+keras4torch/models/xwbank2020.py,sha256=ans_7HWKenurK0sWmUAoy9DwkLVDuX1wu0Uy5cEgztM,2062
+keras4torch-0.6.9.dist-info/LICENSE,sha256=wJtxg8Bfb5N85Eplc0J4FWE97fxG-nwttbMVmVzlzqM,1088
+keras4torch-0.6.9.dist-info/METADATA,sha256=vjt9NT2TqWpCrq9kx2Y89kCXLl3CQ-3NUJ6hOL2YzLU,4851
+keras4torch-0.6.9.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+keras4torch-0.6.9.dist-info/top_level.txt,sha256=W3OnSJMspc8AfFTpz9CPZ7xCZ5AcKSVNAndsSbjk7qE,12
+keras4torch-0.6.9.dist-info/RECORD,,
