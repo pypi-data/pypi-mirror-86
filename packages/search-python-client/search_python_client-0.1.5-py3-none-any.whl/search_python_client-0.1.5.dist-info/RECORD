@@ -1,0 +1,8 @@
+covidcloud_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+covidcloud_search/search.py,sha256=NhjKDxwzNy_R3ZhRRvnF4YC3u3P2_0Fitxw6foLTEEU,2073
+search_python_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+search_python_client/search.py,sha256=6l1qFVW8sUyjD3jlBq0xaUUwQbiVTGYdjtJPEDLwUU4,6245
+search_python_client-0.1.5.dist-info/METADATA,sha256=UxmCXIfvvUT6cbO7p04zEZSnJLv-KsrV9Uwhx6ZCDX0,262
+search_python_client-0.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+search_python_client-0.1.5.dist-info/top_level.txt,sha256=_xYxSQHBztcHwcAVx41Ul0okYK5EU-vnp8VF7Fjg2pM,21
+search_python_client-0.1.5.dist-info/RECORD,,
