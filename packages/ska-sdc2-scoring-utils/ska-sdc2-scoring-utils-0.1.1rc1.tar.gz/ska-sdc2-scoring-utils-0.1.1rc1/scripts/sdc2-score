@@ -1,0 +1,119 @@
+#!/usr/bin/env python
+"""Utility script for interacting with the SDC2 scoring service."""
+import sys
+import os
+import argparse
+import logging
+from ska_sdc2_scoring_utils.logs import init_logger
+from ska_sdc2_scoring_utils import api
+
+SDC_SCORE_AUTH_HOST = os.getenv("SDC_SCORE_AUTH_HOST", "130.246.212.32")
+SDC_SCORE_AUTH_PORT = os.getenv("SDC_SCORE_AUTH_PORT", "8080")
+SDC_SCORE_API_HOST = os.getenv("SDC_SCORE_API_HOST", "130.246.212.180")
+SDC_SCORE_API_PORT = os.getenv("SDC_SCORE_API_PORT", "3000")
+
+LOG = logging.getLogger(__name__)
+
+
+def get_login_credentials(args):
+    """Get log-in credentials.
+
+    Returns username and password either from arguments or envirment variables.
+    An error message is deplayed if either one of these is not resolved.
+
+    Args:
+        args (argparse.args): Command line parser args object
+    """
+    username = args.user
+    password = args.password
+    if not username:
+        username = os.getenv("SDC2_SCORER_USER", None)
+    if not password:
+        password = os.getenv("SDC2_SCORER_PASSWORD", None)
+    if not username:
+        LOG.error(
+            "User not specified. Please see CLI arguments [-h] or set "
+            "env variable 'SDC2_SCORER_USER'"
+        )
+    if not password:
+        LOG.error(
+            "Password not specified. Please see CLI arguments [-h] or set "
+            "env variable 'SDC2_SCORER_USER'"
+        )
+    if not password or not username:
+        sys.exit(1)
+    return username, password
+
+
+def set_up_arg_parser():
+    """Set up command line arugment parser."""
+    parser = argparse.ArgumentParser("sdc2-score")
+
+    parser.add_argument(
+        "--verbose",
+        "-v",
+        action="store_true",
+        help="Display additional debugging inforomation",
+    )
+
+    subparsers = parser.add_subparsers(help="commands", dest="command")
+
+    # 'create-submission' command
+    subparser = subparsers.add_parser("create-submission")
+    subparser.add_argument(
+        "--user",
+        "-u",
+        help="SDC2 scorer username",
+    )
+    subparser.add_argument(
+        "--password",
+        "-p",
+        help="SDC2 scorer password",
+    )
+    subparser.add_argument(
+        "catalogue_file", metavar="CATALOG_FILE", help="Path to catalog file to submit."
+    )
+
+    # 'get-submission' (status) command
+    subparser = subparsers.add_parser("get-submission")
+    subparser.add_argument(
+        "submission_uuid",
+        metavar="UUID",
+        help="Submission id.",
+    )
+
+    # 'leaderboard' command
+    subparser = subparsers.add_parser("leaderboard")
+
+    return parser
+
+
+def process_commands(args):
+    """Process commands."""
+    if args.command == "create-submission":
+        username, password = get_login_credentials(args)
+        api.create_submission(username, password, args.catalogue_file)
+
+    if args.command == "get-submission":
+        api.display_submission_status(args.submission_uuid)
+
+    if args.command == "leaderboard":
+        api.display_leaderboard()
+
+
+def main():
+    """."""
+    parser = set_up_arg_parser()
+    args = parser.parse_args()
+
+    init_logger(logging.DEBUG if args.verbose else logging.INFO, args.verbose)
+
+    process_commands(args)
+
+    if len(sys.argv) < 2:
+        parser.print_usage()
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

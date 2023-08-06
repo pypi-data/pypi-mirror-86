@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: ska-sdc2-scoring-utils
+Version: 0.1.1rc1
+Summary: Utility scripts for interacting with SKA SDC2 scoring service.
+Home-page: https://gitlab.com/ska-telescope/sdc/sdc2-scoring-utils
+Author: SKA Organisation
+License: License :: OSI Approved :: BSD License
+Description: # SDC2 Submission scripts
+        
+        This repo contains two CLI clients for interaction with the SDC2 scoring service.
+        
+        These are:
+        
+        - `sdc2-score` : A CLI client to the SDC2 scoring service for SDC2 participants for uploading and checking the status of submissions.
+        - `sdc2-score-admin`: A CLI client providing admin functions for the SDC2 scoring service.
+        
+        ## Quickstart
+        
+        Install with:
+        
+        ```console
+        pip install ska-sdc2-scoring-utils
+        ```
+        
+        Run directly from checked out code with:
+        
+        ```console
+        pipenv install
+        pipenv run python ./scripts/{sdc2-score,sdc2-score-admin}
+        ```
+        
+        or install package locally:
+        
+        ```console
+        pipenv install
+        pipenv shell
+        pip install .
+        ```
+        
+        ## Using `sdc2-score`
+        
+        Basic usage:
+        
+        ```console
+        sdc2-score [-h] [--verbose] {create-submission,get-submission,leaderboard} ...
+        ```
+        
+        ### *Note:*
+        
+        *A user account is required creating a submission. This can be either set*
+        *from the CLI flags when using the `create-submission` command or by setting*
+        *the enviroment variables:*
+        
+        - *`SDC2_SCORER_USER`*
+        - *`SDC2_SCORER_PASSWORD`*
+        
+        *(CLI flags override values in the enviroment variables)*
+        
+        ## Using `sdc2-score-admin`
+        
+        Basic usage:
+        
+        ```console
+        sdc2-score-admin [-h] [--verbose] {list-groups,add-group,delete-group,list-users,add-user,delete-user} ...
+        ```
+        
+        This client app requires that the following enviroment variables are set:
+        
+        - `SDC2_SCORER_ADMIN_USER`
+        - `SDC2_SCORER_ADMIN_PASSWORD`
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
