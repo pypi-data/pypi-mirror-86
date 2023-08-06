@@ -1,0 +1,14 @@
+numpy
+
+[full]
+sphinx
+sphinx-gallery
+recommonmark
+sphinxcontrib-httpdomain
+sphinx_rtd_theme
+breathe
+matplotlib
+imageio
+torch
+gpytorch
+scikit-learn
