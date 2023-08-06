@@ -1,0 +1,8 @@
+README.md
+setup.py
+vipcode_summer/__init__.py
+vipcode_summer/vipcode_summer.py
+vipcode_summer.egg-info/PKG-INFO
+vipcode_summer.egg-info/SOURCES.txt
+vipcode_summer.egg-info/dependency_links.txt
+vipcode_summer.egg-info/top_level.txt

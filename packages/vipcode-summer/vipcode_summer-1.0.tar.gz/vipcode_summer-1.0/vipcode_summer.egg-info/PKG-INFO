@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vipcode-summer
+Version: 1.0
+Summary: UNKNOWN
+Home-page: https://www.vipcode.com
+Author: vipcode_summer
+Author-email: 930172567@qq.com
+License: UNKNOWN
+Description: 少儿编程,值得信赖
+        1v1在线教育,首选VIPCODE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
