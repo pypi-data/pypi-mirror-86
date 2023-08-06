@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+mafe.egg-info/PKG-INFO
+mafe.egg-info/SOURCES.txt
+mafe.egg-info/dependency_links.txt
+mafe.egg-info/top_level.txt
