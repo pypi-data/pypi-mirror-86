@@ -1,0 +1,14 @@
+setup.py
+python3_midi.egg-info/PKG-INFO
+python3_midi.egg-info/SOURCES.txt
+python3_midi.egg-info/dependency_links.txt
+python3_midi.egg-info/top_level.txt
+scripts/mididump.py
+scripts/mididumphw.py
+scripts/midiplay.py
+src/__init__.py
+src/constants.py
+src/containers.py
+src/events.py
+src/fileio.py
+src/util.py
