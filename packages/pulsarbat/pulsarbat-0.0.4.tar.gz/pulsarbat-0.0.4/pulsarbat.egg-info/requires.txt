@@ -1,0 +1,4 @@
+astropy>=4.1
+numpy>=1.19
+scipy>=1.5
+baseband>=4.0.2
