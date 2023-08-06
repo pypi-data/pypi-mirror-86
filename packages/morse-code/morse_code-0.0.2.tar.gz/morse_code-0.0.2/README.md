@@ -1,0 +1,1 @@
+This library takes string of inputs and either encrypt or decrypt the messsage to and from morse code respectively.

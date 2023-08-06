@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: morse_code
+Version: 0.0.2
+Summary: Encrypt and decrypt morse-code.
+Home-page: https://github.com/pypa/sampleproject
+Author: Kumar Aditya
+Author-email: aditya.g.2005001@gmail.com
+License: UNKNOWN
+Description: This library takes string of inputs and either encrypt or decrypt the messsage to and from morse code respectively.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
