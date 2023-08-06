@@ -1,0 +1,6 @@
+README.txt
+setup.py
+denememiaf.egg-info/PKG-INFO
+denememiaf.egg-info/SOURCES.txt
+denememiaf.egg-info/dependency_links.txt
+denememiaf.egg-info/top_level.txt
