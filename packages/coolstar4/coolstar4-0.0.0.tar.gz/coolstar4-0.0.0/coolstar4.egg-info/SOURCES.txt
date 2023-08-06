@@ -1,0 +1,7 @@
+setup.py
+coolstar4.egg-info/PKG-INFO
+coolstar4.egg-info/SOURCES.txt
+coolstar4.egg-info/dependency_links.txt
+coolstar4.egg-info/top_level.txt
+demo/__init__.py
+demo/hello.py
