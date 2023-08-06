@@ -1,0 +1,9 @@
+setup.py
+src/City.cpp
+src/MurmurHash3.cpp
+src/xhashs.cpp
+src/xwCHash.cpp
+xwHash.egg-info/PKG-INFO
+xwHash.egg-info/SOURCES.txt
+xwHash.egg-info/dependency_links.txt
+xwHash.egg-info/top_level.txt
