@@ -1,0 +1,10 @@
+README.md
+setup.py
+GitOS/EasyOS.py
+GitOS/__init__.py
+GitOS/main.py
+GitOS.egg-info/PKG-INFO
+GitOS.egg-info/SOURCES.txt
+GitOS.egg-info/dependency_links.txt
+GitOS.egg-info/requires.txt
+GitOS.egg-info/top_level.txt
