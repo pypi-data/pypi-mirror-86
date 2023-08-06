@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: pydantic-yaml
+Version: 0.2.1
+Summary: Adds some YAML functionality to the excellent `pydantic` library.
+Home-page: https://github.com/nowanilfideme/pydantic_yaml
+Author: Anatoly Makarevich
+Author-email: anatoly_mak@yahoo.com
+License: MIT
+Description: # pydantic-yaml
+        
+        This is a small helper library that adds some YAML capabilities to [pydantic](https://github.com/samuelcolvin/pydantic), namely dumping to yaml via the `yaml_model.yaml()` function, and parsing from strings/files using `YamlModel.parse_raw()` and `YamlModel.parse_file()`. It also adds an `Enum` subclass that gets dumped to YAML as a string, and fixes dumping of some typical types.
+        
+        ## Usage
+        
+        Example usage is seen below.
+        
+        ```python
+        from pydantic_yaml import YamlEnum, YamlModel
+        
+        
+        class MyEnum(str, YamlEnum):
+            a = "a"
+            b = "b"
+        
+        
+        class MyModel(YamlModel):
+            x: int = 1
+            e: MyEnum = MyEnum.a
+        
+        m1 = MyModel(x=2, e="b")
+        yml = m1.yaml()
+        
+        m2 = MyModel.parse_raw(yml, proto="yaml")
+        assert m1 == m2
+        
+        m3 = MyModel.parse_raw(yml, content_type="application/yaml")
+        assert m1 == m3
+        ```
+        
+        ## Installation
+        
+        `pip install pydantic_yaml`
+        
+        Make sure to install `ruamel.yaml` (recommended) or `pyyaml` as well. These are optional dependencies:
+        
+        `pip install pydantic_yaml[ruamel]`
+        
+        `pip install pydantic_yaml[pyyaml]`
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: pyyaml
+Provides-Extra: ruamel
+Provides-Extra: ruamel-old
+Provides-Extra: development
