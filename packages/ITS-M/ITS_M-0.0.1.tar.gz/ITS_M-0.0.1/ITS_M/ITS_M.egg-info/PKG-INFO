@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ITS-M
+Version: 0.0.1
+Summary: Open source document management system (DMS)
+Home-page: http://www.smartcs.co.kr/
+Author: smartcs
+Author-email: botyagp@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

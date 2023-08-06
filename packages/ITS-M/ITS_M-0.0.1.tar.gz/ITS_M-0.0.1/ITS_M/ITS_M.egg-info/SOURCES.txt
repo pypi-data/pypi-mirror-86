@@ -1,0 +1,6 @@
+README.md
+setup.py
+ITS_M/ITS_M.egg-info/PKG-INFO
+ITS_M/ITS_M.egg-info/SOURCES.txt
+ITS_M/ITS_M.egg-info/dependency_links.txt
+ITS_M/ITS_M.egg-info/top_level.txt
