@@ -1,0 +1,17 @@
+agentpy/__init__.py,sha256=oINd4MoDZqXTaPexWpuWAmHfsN286sqghxPApyFpWcQ,881
+agentpy/analysis.py,sha256=M_T4cm0p1moCIk9Np8L8gC4CHGwzCkuHwsyaDDh9Bn8,7181
+agentpy/experiment.py,sha256=T7rFN57xlgiCr3UKxPhVGdBewGIdHwBA9rIvOgEKlHk,5986
+agentpy/framework.py,sha256=EDaC8v5PYQVdGcxF6yXwU03WyXBsIxUuOljwlLB4wLY,32547
+agentpy/output.py,sha256=2V0rAbmXxswKG2FY9Ty8SUUajtUIYhLBa_RL149bP-o,13862
+agentpy/sampling.py,sha256=Lw23F3U-yljw403mfdVfOeaXxle40EFVFwzLgbRALAc,3750
+agentpy/tools.py,sha256=UMMZDTlkwp_V0WWYgS6N127omcZr6LWw_YOuTZ_d0xQ,1782
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_agent_list.py,sha256=X-YglF0FXZgVW6x46iNQTq2-CjfH1RfkhjYGqroJ0oc,1469
+tests/test_environments.py,sha256=mrZSkLAnK1eHE2gzLG557uiPsk7VBTNkGxDcPpaENKM,893
+tests/test_experiment.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_framework.py,sha256=tYgrXUb5Bu3dQ2MoXK8hKnudUjZoSpKi3kwIAcemvs4,1553
+agentpy-0.0.4.dist-info/LICENSE,sha256=8veRdT5iTwd-WzhTPhqNygIUr1qiFfAKQXRshgImUq0,1527
+agentpy-0.0.4.dist-info/METADATA,sha256=kWvZB7M2Ke0EFgsK24F6F50ea9TlNOuJsb6kX_0fqLo,1806
+agentpy-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+agentpy-0.0.4.dist-info/top_level.txt,sha256=I7BQIjBTZLRB8XwRjV-aQRPwP9ffdExcj88PU32PAbc,14
+agentpy-0.0.4.dist-info/RECORD,,
