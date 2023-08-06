@@ -1,0 +1,12 @@
+wappdriver/__init__.py,sha256=Dj60duyf5ysYjK6kaBncvou5zp2SkrODTsz36ELQE5U,824
+wappdriver/cli.py,sha256=YEQ2MEwvCOFpV9GfBJBsN9SE8O3EAmd06s3L4uKorJE,703
+wappdriver/driver.py,sha256=u75houxIcVrlMH4YfAdhbfyNOYbRU_9tGsX-xCxSnL4,4422
+wappdriver/error.py,sha256=YKFE5rTxMuHfKwfR9JUH0y3XRtvtKzRriAS9RcwsKYE,4128
+wappdriver/local.py,sha256=78D97eXjgiKoPDQjoPfDn6TIUNq676sGNTplkOl1xXI,3407
+wappdriver/whatsapp.py,sha256=_nHHK2OJOT5sLmZcInSuqCfOOccrvtOlAlscnyZVDN4,4034
+wappdriver-0.6.2.dist-info/LICENSE,sha256=QoZGyiA-h0QoadE7teULo3yKx7uRzYdZbSCkoMgcRLA,1067
+wappdriver-0.6.2.dist-info/METADATA,sha256=pFlo_cQDK7AbUQ62Gc8u9WZYT9bUlucTtcJu8TTB5M0,2009
+wappdriver-0.6.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wappdriver-0.6.2.dist-info/entry_points.txt,sha256=Lsqoh0sGEgtZlA1CpKkdNGsM2cQJCzeTp6mbTwhohgo,61
+wappdriver-0.6.2.dist-info/top_level.txt,sha256=aWmohwxU1F3snYGZjzXB7Xxz-hPSahmX0VX9S1hp0Uc,11
+wappdriver-0.6.2.dist-info/RECORD,,
