@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: click-conf-file
+Version: 0.1.2
+Summary: Allows use of configuration files for setting options on click apps.
+Author: Tyler Gannon
+Author-email: tgannon@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
