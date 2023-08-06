@@ -1,0 +1,15 @@
+iminspect/__init__.py,sha256=aN1gn25XAw9XfS6kFBqPOgnuDC6P45IhPYmjgafWWfw,763
+iminspect/__main__.py,sha256=2AL9KOBTUEoQxVTTihgN0RNTgcX2f3uby6UbzTunipk,452
+iminspect/imgview.py,sha256=DDL6d6S-uYv1djJYP7DCIn_Kr6-Z1Jv61WN1MgaC1NE,23878
+iminspect/inputs.py,sha256=KreZHahpgOalQmhlfrEVE0Q_xzC6YVCzgFlPjN9SXEg,38882
+iminspect/inspection_utils.py,sha256=PLrAVo5gAG1UqLBR6bR9tp1u6hk-deNIst21mW7tMPk,4695
+iminspect/inspection_widgets.py,sha256=lKsfNV0d6EgxFEBqnG-hBvxo227VP5W8HPZqaVGDgPs,22344
+iminspect/inspector.py,sha256=uAEnnGUsvoK8e_SCqNqDfxFXBmndFKj1DoyAraPoJy0,59917
+iminspect/version.py,sha256=ejHyy8zORCf0PfUyyfPDzlV1k5vn5lI98S7TxKzblZc,22
+iminspect/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iminspect/tests/test_inspector.py,sha256=sHX0_xMZlBXnQceEnGCevpkmzOMo8BgczIfYbkSA_GM,2518
+iminspect-1.3.7.dist-info/LICENSE,sha256=YarcpiS1q54UyYIFJgCPfCo7ew3IvyA1XkVKbGf_RI8,1066
+iminspect-1.3.7.dist-info/METADATA,sha256=3ttjMjN6ouDNlOJgX5kZz7LSXmh0LuBZhkx7y56onq8,6559
+iminspect-1.3.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+iminspect-1.3.7.dist-info/top_level.txt,sha256=JfJm7USi_KgjDM1NnMNv8JIFIIYcDqJ5Zl6EEKQAEwU,10
+iminspect-1.3.7.dist-info/RECORD,,
