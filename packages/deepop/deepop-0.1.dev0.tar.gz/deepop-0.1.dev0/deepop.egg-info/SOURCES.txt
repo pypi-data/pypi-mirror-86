@@ -1,0 +1,14 @@
+README.md
+setup.py
+deepop.egg-info/PKG-INFO
+deepop.egg-info/SOURCES.txt
+deepop.egg-info/dependency_links.txt
+deepop.egg-info/requires.txt
+deepop.egg-info/top_level.txt
+deepops/__init__.py
+deepops/gpu_kernels.py
+deepops/ops.py
+deepops/states.py
+deepops/tensor.py
+tests/__init__.py
+tests/test_gpuops.py
