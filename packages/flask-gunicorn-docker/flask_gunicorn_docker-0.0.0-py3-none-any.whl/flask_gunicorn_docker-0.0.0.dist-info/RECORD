@@ -1,0 +1,11 @@
+app/__init__.py,sha256=t9jPlfeZe8xY9kfleofXqKL4PC7hQzDVQ6Ns0XvWFek,74
+app/app_factory.py,sha256=BSsorwAtJY4__E3kL6hq0EjlTzZEDu1J5vV3C6Igr7Q,254
+app/logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/logging/log_config.py,sha256=sqY43-V9O0HQE-obd8SwWWDOQdf8Zu2VHPLqUdAYFXg,1321
+routes/__init__.py,sha256=DBjzAgyRQjVPiCpGt1sLKLQjN2K_xlmdEdTP7L9MH24,186
+routes/healthcheck_route.py,sha256=qGD00D4zZuoTb7lJQjdlG0TAuJM6yc1uQ6osiZUNbU4,518
+routes/prediction_route.py,sha256=EwGhvkkfqsBLnXhS2qtZRRkuVGfLfuDkoQOIuLu4DJA,807
+flask_gunicorn_docker-0.0.0.dist-info/METADATA,sha256=6O5VZHXg2dTV1kmjWbEfqj__gZahy8qglJUew5rdKCw,282
+flask_gunicorn_docker-0.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+flask_gunicorn_docker-0.0.0.dist-info/top_level.txt,sha256=sBDmHFpS5TbIFnn5nsyqeDv0U1vmOebJAwmFEYd0SNk,11
+flask_gunicorn_docker-0.0.0.dist-info/RECORD,,
