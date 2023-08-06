@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: deluge-search
+Version: 0.1.0
+Author: kintsu
+Author-email: k@kintsu.io
+Requires-Python: ==3.*,>=3.9.0
+Requires-Dist: black==20.*,>=20.8.0.b1; extra == "dev"
+Requires-Dist: click==7.*,>=7.1.2
+Requires-Dist: deluge-client==1.*,>=1.9.0
+Requires-Dist: dephell==0.*,>=0.8.3; extra == "dev"
+Requires-Dist: iterfzf==0.*,>=0.5.0
+Requires-Dist: neovim==0.*,>=0.3.1; extra == "dev"
+Requires-Dist: neovim-remote==2.*,>=2.4.0; extra == "dev"
+Requires-Dist: pylint==2.*,>=2.6.0; extra == "dev"
+Requires-Dist: pynvim==0.*,>=0.4.2; extra == "dev"
+Requires-Dist: rope==0.*,>=0.18.0; extra == "dev"
+Requires-Dist: shell==1.*,>=1.0.1
+Requires-Dist: twine==3.*,>=3.2.0; extra == "dev"
+Provides-Extra: dev
