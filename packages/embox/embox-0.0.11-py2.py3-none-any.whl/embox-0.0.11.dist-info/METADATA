@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: embox
+Version: 0.0.11
+Summary: Fundamentals of Electromagnetic with Python
+Home-page: https://github.com/WilliamCodeBox/embox
+Author: WilliamCodeBox
+Author-email: codequote@163.com
+License: GNU General Public License v3 (GPLv3)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: mpi4py (>=3.0.3)
+Provides-Extra: postprocessor
+Requires-Dist: matplotlib (>=3.3.2) ; extra == 'postprocessor'
+Provides-Extra: test
+Requires-Dist: coverage (>=5.3.0) ; extra == 'test'
+
+
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Open Source Love](https://badges.frapsoft.com/os/gpl/gpl.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Build Status](https://travis-ci.org/WilliamCodeBox/embox.svg?branch=main)](https://travis-ci.org/WilliamCodeBox/embox)
+[![codecov](https://codecov.io/gh/WilliamCodeBox/embox/branch/main/graph/badge.svg?token=KIEFL7Q4CV)](https://codecov.io/gh/WilliamCodeBox/embox)
+
+[![PyPI version](https://badge.fury.io/py/embox.svg)](https://badge.fury.io/py/embox)
+[![GitHub version](https://badge.fury.io/gh/WilliamCodeBox%2Fembox.svg)](https://badge.fury.io/gh/WilliamCodeBox%2Fembox)
+[![Code Lines](https://tokei.rs/b1/github/XAMPPRocky/tokei)](https://github.com/WilliamCodeBox/embox)
+
+# embox
+
+Fundamentals of Electromagnetic with Python
+
+## Install
+
+```bash
+> pip search embox
+> pip install embox
+```
+
+## Developer
+
+### Testing
+
+`embox` is tested by using the [pytest](https://pypi.org/project/pytest/) package, and the test coverage is checked by using the [coverage](https://pypi.org/project/coverage/) package.
+
+A `.coveragerc` config file is created and located in the `embox` package root dir. This config file stores the sub commands `run` and `report` of `coverage`.
+
+Run the following command to test coverage
+
+```bash
+coverage run -m pytest
+```
+
+Run the following command to show the test coverage report
+
+```bash
+coverage report
+```
+
+
