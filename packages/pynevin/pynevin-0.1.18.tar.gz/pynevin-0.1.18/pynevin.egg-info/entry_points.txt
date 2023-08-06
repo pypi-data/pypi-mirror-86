@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            pynevin=pynevin.cli:cli
+        
