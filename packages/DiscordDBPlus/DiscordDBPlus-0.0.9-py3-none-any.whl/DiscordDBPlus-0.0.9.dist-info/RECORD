@@ -1,0 +1,10 @@
+discordDBPlus/__init__.py,sha256=1BrP5HBDa529gI5hA-yLmu3KwOtFT3WZVkGDdwQI_nU,92
+discordDBPlus/db.py,sha256=or9uCG2jhyws9Oj1mzKJamkRXf6XMeSH9ErTRDZBZb0,6590
+discordDBPlus/models/__init__.py,sha256=JUlHj5WsJmPaNepMDp66LoFP4Cfz8DVqj-RjtXwlHKc,109
+discordDBPlus/models/errors.py,sha256=N58MaUuKdpZw_cVs3NWNjs3hytmP3CxVjBWKrVIncKo,109
+discordDBPlus/models/types.py,sha256=gdzIp7mqRuFOsf8CNDqHWndDK6EtLxjT6g6v9pSFHMc,413
+DiscordDBPlus-0.0.9.dist-info/LICENSE,sha256=jEGAR2MdFEzwD1Qvl8DZ30inzXSgVhqydhgGDaT5Gkw,1087
+DiscordDBPlus-0.0.9.dist-info/METADATA,sha256=7pZR8en74CEHl9o1UjLvC2mNLzgqaXa5Wp8COPXpHVw,3200
+DiscordDBPlus-0.0.9.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+DiscordDBPlus-0.0.9.dist-info/top_level.txt,sha256=IshwpbylykSYe8g056QejvyJXYY0NOyewmOiJDdxW04,14
+DiscordDBPlus-0.0.9.dist-info/RECORD,,
