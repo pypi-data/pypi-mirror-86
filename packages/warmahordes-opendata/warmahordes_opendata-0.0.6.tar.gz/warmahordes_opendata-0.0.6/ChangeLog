@@ -1,0 +1,46 @@
+CHANGES
+=======
+
+0.0.6
+-----
+
+* update translations
+
+0.0.5
+-----
+
+* fix AOE description
+
+0.0.4
+-----
+
+* update translation files to include combat rules
+* Add a portion of Combat rules
+
+0.0.3
+-----
+
+* adds movement and rename keywords to rules
+* add translation link
+* add makefile and fix missing header
+* fix readme linebreaks
+* add apache license
+* restore pbr and commit translations
+* add translation tests
+* add translate
+* add get\_available\_languages
+* bump requirements to python 3.9
+* add install requires
+* fix wrapping
+* remove mo file
+* Update warmahordes\_opendata.po (POEditor.com)
+* Create warmahordes\_opendata.mo (POEditor.com)
+* disable coverage for now
+* black
+* get rid of pbr for now
+* wrap messages
+* update readme
+* Fix typo in ADVANCED\_DEPLOYMENT
+* finish first round of keywords
+* initial import
+* initial structure
