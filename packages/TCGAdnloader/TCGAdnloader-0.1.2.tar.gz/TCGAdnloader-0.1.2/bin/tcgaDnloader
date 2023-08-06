@@ -1,0 +1,47 @@
+#!/usr/bin/env python
+
+from TCGAdnloader import downloader
+from TCGAdnloader.setting import CANCER_LIST
+import argparse,os
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Tools to download public genomic data", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('-o', '--output', type=str, required=True, help="Output directory")
+    parser.add_argument('-r', '--ref', nargs='+',
+                        required=False, help="Aligned Reference",default=['hg19','hg38'])
+    parser.add_argument('-c', '--cancer', nargs='+',default=CANCER_LIST,
+                        required=False,help="Cancer type included")
+    parser.add_argument('--no-meta',dest='meta',action='store_false',help='Do not install meta information')
+    parser.set_defaults(meta=True)
+    parser.add_argument('--no-drug', dest='drug', action='store_false',
+                        help='Do not install drug information')
+    parser.set_defaults(drug=True)
+    parser.add_argument('-t', '--datatype', nargs='+', default=['rnaseq','cnv','rppa','snv'],
+                        required=False,help="Data type included")
+                        
+    args = parser.parse_args()
+    for cancer in args.cancer:
+        if 'hg19' in args.ref:
+            dl = downloader.FireBrowseDnloader(parental_dir=args.output+'/hg19',
+                                            cancer=cancer,
+                                            workflow=args.datatype)
+            dl.run()
+               
+        if 'hg38' in args.ref:
+            dl = downloader.GdcDnloader(parental_dir=args.output+'/hg38',
+                                        cancer=cancer,
+                                        workflow=args.datatype)
+            dl.run()
+               
+        if args.meta == True:
+            dl = downloader.GdcApi(parental_dir=args.output,
+                                        cancer=cancer)
+            dl.metaDownload()
+
+        if args.drug == True:
+            dl = downloader.GdcApi(parental_dir=args.output,
+                                   cancer=cancer)
+            dl.drugDownload()
+                
+   
