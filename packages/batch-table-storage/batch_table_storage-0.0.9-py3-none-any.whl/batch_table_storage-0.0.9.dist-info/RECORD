@@ -1,0 +1,8 @@
+batch_table_service/__init__.py,sha256=w5wNlh3EjfGomr6kfVBbPFatyRyI90iBspkCZbu6sRc,78
+batch_table_service/_batch_table.py,sha256=xpUQg1lxr55osmnHwFS5RUAuValM37awyADcTHWg-No,236
+batch_table_service/_table_service.py,sha256=xx9aQ5P19pT8VmHBD1TaRbDCMpk9bknOrrocU6tQZ-w,18606
+batch_table_storage-0.0.9.dist-info/LICENCE,sha256=3EuGs3X32Yp65wNuerPNz75zRlk5-tfvXbEi_Icg6p0,1060
+batch_table_storage-0.0.9.dist-info/METADATA,sha256=BZ3pyba_lL3Hz9R180cVkQFvAVclv9XeFPKiljwJ8OI,2325
+batch_table_storage-0.0.9.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+batch_table_storage-0.0.9.dist-info/top_level.txt,sha256=y9nvK50m_cvdmWYaeLeD0QdgkuDGYMtfp12QSyP2abY,20
+batch_table_storage-0.0.9.dist-info/RECORD,,
