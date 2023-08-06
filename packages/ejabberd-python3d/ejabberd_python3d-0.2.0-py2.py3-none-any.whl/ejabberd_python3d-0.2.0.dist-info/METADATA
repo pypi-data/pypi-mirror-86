@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ejabberd-python3d
+Version: 0.2.0
+Summary: A library to make XML-RPC calls to ejabberd
+Home-page: https://github.com/Dedaldino3D/ejabberd-python3d
+Author: Dedaldino Antonio
+Author-email: dedaldinoantonio7@gmail.com
+License: MIT
+Keywords: python,mix,django-ejabberd,django-auth,ejabberd,xmlrpc,api,client,xmpp,chat,muc
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: asgiref (==3.3.0)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: coverage (==5.3)
+Requires-Dist: Django (==3.1.3)
+Requires-Dist: idna (==2.10)
+Requires-Dist: pytz (==2020.4)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: sqlparse (==0.4.1)
+Requires-Dist: urllib3 (==1.25.11)
+
+A python lib to run ejabberd XML-RPC commands
+
+
