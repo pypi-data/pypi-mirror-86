@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pydualsense
+Version: 0.0.1
+Summary: control your dualsense controller with python
+Home-page: https://github.com/flok/pydualsense
+Author: Florian Kaiser
+Author-email: shudson@anl.gov
+License: BSD 2-clause
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: hid (>=1.0.4)
+
+# pydualsense
+controll your dualsense through python
+
+
