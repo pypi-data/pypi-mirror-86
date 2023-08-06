@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ardio
+Version: 1.1.0
+Summary: Journal article to audio book
+Home-page: https://github.com/dermatologist/ardio
+Author: Bell Eapen
+Author-email: github@gulfdoctor.net
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Dist: gTTS (>=1.2.2,<2.0.0)
+Requires-Dist: gTTS-token (>=1.1.4,<2.0.0)
+Requires-Dist: pdfminer.six (>=20201018,<20201019)
+Project-URL: Repository, https://github.com/dermatologist/ardio
+Description-Content-Type: text/markdown
+
+# Ardio
+Ardio (a python package) converts academic journal articles into mp3 files for listening at leisure. It removes figures, references and other contents that cannot be 'listened to.' The idea is to use it as a base application for machine learning to separate useful stuff from the rest.
+
+## Usage
+```
+pip install ardio
+ardio input.pdf output.mp3
+```
+
+## Contributor(s)
+[Bell Eapen](https://nuchange.ca)
+
+
