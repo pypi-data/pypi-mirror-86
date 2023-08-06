@@ -1,0 +1,9 @@
+README.md
+setup.py
+gigsebook/__init__.py
+gigsebook/fetch.py
+gigsebook.egg-info/PKG-INFO
+gigsebook.egg-info/SOURCES.txt
+gigsebook.egg-info/dependency_links.txt
+gigsebook.egg-info/requires.txt
+gigsebook.egg-info/top_level.txt
