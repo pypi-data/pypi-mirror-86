@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: countdown-pkg-mcollison
+Version: 0.0.5
+Summary: A simulation of the countdown game show used for demonstration.
+Home-page: https://github.com/mcollison/CA1-countdown
+Author: Matt Collison
+Author-email: m.collison@exeter.ac.uk
+License: UNKNOWN
+Description: # The Countdown Simulation
+        
+        ## Introduction
+        This project is a model answer from the first coursework assignment set for ECM1400 in 2019. The purpose is to demonstrate how code can not only be used to run locally but can be published and extended within the Python ecosysetm.
+        
+        The code in this project runs a simulation of the channel 4 gameshow countdown.
+        
+        ## Prerequisites
+        To run this code you will need Python 3.7 or above.
+        
+          - Author: Matt Collison - mcollison
+          - License: Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/
+        
+        ## User instructions
+        To use the repository install and import the package as shown below.
+        
+        $ pip install countdown-pkg-mcollison
+        
+        from countdown import ca1_model_answer as countdown
+        countdown.tests()
+        countdown.game_play()
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
