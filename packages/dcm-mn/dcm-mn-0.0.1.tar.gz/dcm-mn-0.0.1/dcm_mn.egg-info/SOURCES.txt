@@ -1,0 +1,6 @@
+README.md
+setup.py
+dcm_mn.egg-info/PKG-INFO
+dcm_mn.egg-info/SOURCES.txt
+dcm_mn.egg-info/dependency_links.txt
+dcm_mn.egg-info/top_level.txt
