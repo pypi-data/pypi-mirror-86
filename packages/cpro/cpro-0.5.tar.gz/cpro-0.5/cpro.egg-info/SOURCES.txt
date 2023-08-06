@@ -1,0 +1,9 @@
+setup.py
+cpro/__init__.py
+cpro/handlefilesystemevents.py
+cpro.egg-info/PKG-INFO
+cpro.egg-info/SOURCES.txt
+cpro.egg-info/dependency_links.txt
+cpro.egg-info/entry_points.txt
+cpro.egg-info/requires.txt
+cpro.egg-info/top_level.txt
