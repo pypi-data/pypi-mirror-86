@@ -1,0 +1,12 @@
+honeybee_3dm/__init__.py,sha256=-gxIVyLXLO_7P1_SfQzw81ki8JjxaULmadEolQQq3LY,29
+honeybee_3dm/face.py,sha256=hIEv-p2Iawey9Qt637Wz3R84Hv7w5Zuy7ki5UwsSVb8,3847
+honeybee_3dm/grid.py,sha256=-OBbiht6GuHfgzLejn2qqpS5h-g2USITsg541pq6OJ0,2366
+honeybee_3dm/helper.py,sha256=bASr7Uv7EYRi1aY3-ZDBSOC8Y6yCcbkaX1rI91aA_XU,2512
+honeybee_3dm/model.py,sha256=7S_lQyXy62I2WCzZWBCjFcRxN1P0Mdb_pPO1HnnFk1I,2655
+honeybee_3dm/room.py,sha256=ms9_1tdOdQsAPkMItOUitYw_L4oDxjtWZru_z0RKHOk,2474
+honeybee_3dm/togeometry.py,sha256=PmB50CsZIICSvaHXaH60HeG3KUK2VpMAhc4gE8vw7YE,11441
+honeybee_3dm-0.2.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+honeybee_3dm-0.2.1.dist-info/METADATA,sha256=5i8Gu85qqkOWGcfze3aHM5V6R4fTFqptgmXeCOTxNrQ,1842
+honeybee_3dm-0.2.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+honeybee_3dm-0.2.1.dist-info/top_level.txt,sha256=5MgxmgJZt6Pn642KUwLNT9xNFoxU-ovdO5IwOBv21wI,13
+honeybee_3dm-0.2.1.dist-info/RECORD,,
