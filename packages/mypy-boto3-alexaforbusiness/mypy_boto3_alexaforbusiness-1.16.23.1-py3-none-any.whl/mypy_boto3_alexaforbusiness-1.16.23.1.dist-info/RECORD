@@ -1,0 +1,15 @@
+mypy_boto3_alexaforbusiness/__init__.py,sha256=4bb9c-JpuCrYdoYKIba0LO36e-LNOf5eXg6nY1LQjcQ,3380
+mypy_boto3_alexaforbusiness/__init__.pyi,sha256=QxCRzYeLZnXwI7Git3KjC9IDv2M0tRJ5c8wMzKKsOHI,3379
+mypy_boto3_alexaforbusiness/__main__.py,sha256=9rcU2frzeimFsztA82JGa22kCq_f4rBgK25_0ikmAUg,412
+mypy_boto3_alexaforbusiness/client.py,sha256=pqh3Zn-6DWrFWlCjlTIwXjBfl3Xyt4bfa7QL4dqaq0E,46595
+mypy_boto3_alexaforbusiness/client.pyi,sha256=SDCqth5MyHc14kk-t36oygGOIfkqT_LKEkvjU1CTIz8,46482
+mypy_boto3_alexaforbusiness/paginator.py,sha256=qaAVhQlxUn54na16N9wESGiI49qhlBsdIAGu0fNYwvQ,12576
+mypy_boto3_alexaforbusiness/paginator.pyi,sha256=mNV_Qq0bdibUnFqHXuPTKsWd5WUO11mRzbn-gkOB6Sg,12562
+mypy_boto3_alexaforbusiness/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_alexaforbusiness/type_defs.py,sha256=2n9pUifYrcGHjsQHzxLgCySPEhrBS7wP_6NXcak7jbA,25927
+mypy_boto3_alexaforbusiness/type_defs.pyi,sha256=4rXtoG818JV_ujDDVd-i1BXseCFRUfYYXtMzPe6Ejz0,25926
+mypy_boto3_alexaforbusiness/version.py,sha256=zfb_Dk31ihDi7J7t8uumRVYIfPum-xRB66z1LOiEbtg,57
+mypy_boto3_alexaforbusiness-1.16.23.1.dist-info/METADATA,sha256=4TfduilRvFDW0lS33JRGzFjXCsO8-TbQikD_ehSk-PI,11573
+mypy_boto3_alexaforbusiness-1.16.23.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mypy_boto3_alexaforbusiness-1.16.23.1.dist-info/top_level.txt,sha256=V6yzFq3Z5TcsaQSHgPcUIx2wRNl9py85g-6T9FQdwYo,28
+mypy_boto3_alexaforbusiness-1.16.23.1.dist-info/RECORD,,
