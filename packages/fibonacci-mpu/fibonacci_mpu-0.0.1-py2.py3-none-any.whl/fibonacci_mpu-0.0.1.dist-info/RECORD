@@ -1,0 +1,10 @@
+fibonacci_mpu/__init__.py,sha256=GLHVIu8KE8nK63K3S7N8t9Gzr_vt0QjeUcqA5eDIe5I,137
+fibonacci_mpu/cli.py,sha256=uYQ2aHDY2XXN-KswL7iYNmq1mNakOJ7cA_z9ZQy85QQ,417
+fibonacci_mpu/fibonacci_mpu.py,sha256=_w-SuMnSpzV7Rtd6Y1cLN-b9dOat5iWT55vuylkqzIQ,54
+fibonacci_mpu-0.0.1.dist-info/AUTHORS.rst,sha256=8uWOTHbkt_omHQXEGGLKH3-OdBZsDXFEs5zgs2v0ltg,162
+fibonacci_mpu-0.0.1.dist-info/LICENSE,sha256=ZM9-mIv2gs77epfnWI2RvDsfibTqlx81zB49WU7_1sw,1072
+fibonacci_mpu-0.0.1.dist-info/METADATA,sha256=A9fV-3fpvOYAhdjOdkdkuGux0VJ9ghiUzTOtGKe0DYQ,1748
+fibonacci_mpu-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+fibonacci_mpu-0.0.1.dist-info/entry_points.txt,sha256=JHxE9tQZbBGEjBcRntfv9uVyE3bywzSW5C3fasn3ayI,58
+fibonacci_mpu-0.0.1.dist-info/top_level.txt,sha256=Lt0xaQCwMMovtc7jB67eIE4PRGMXG1j9dNk6XpmllH4,14
+fibonacci_mpu-0.0.1.dist-info/RECORD,,
