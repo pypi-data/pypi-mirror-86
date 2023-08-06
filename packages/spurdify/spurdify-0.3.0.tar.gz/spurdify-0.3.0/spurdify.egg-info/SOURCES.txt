@@ -1,0 +1,8 @@
+README.md
+setup.py
+spurdify/__init__.py
+spurdify/client.py
+spurdify.egg-info/PKG-INFO
+spurdify.egg-info/SOURCES.txt
+spurdify.egg-info/dependency_links.txt
+spurdify.egg-info/top_level.txt
