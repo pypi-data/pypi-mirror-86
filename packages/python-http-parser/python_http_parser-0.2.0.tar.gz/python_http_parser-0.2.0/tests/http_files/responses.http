@@ -1,0 +1,30 @@
+<========>
+HTTP/1.1 200 OK
+Server: Example.ca
+Date: Sat, 31 Oct 2020 04:36:59 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Status: 200 OK
+Vary: X-PJAX
+ETag: W/"c17463a62f548cae3c6d0428268ba1d7"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: no-referrer-when-downgrade
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+
+<========>
+HTTP/1.1 404 Not Found
+SERVER: Example.net
+date: Wed, 10 Nov 2010 05:20:11 GMT
+cONTENT-TYPe: text/html; charset=utf-8
+x-frame-options: deny
+x-CONTENT-type-OPTIONS: nosniff
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding, Accept, Accept-Language
+vARY: X-PJAX
+cOnTeNt-eNcOdInG: gzip
+TRANSFER-ENCODING: chunked
