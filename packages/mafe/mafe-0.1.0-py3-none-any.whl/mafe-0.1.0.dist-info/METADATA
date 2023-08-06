@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mafe
+Version: 0.1.0
+Summary: Music Audio Feature Extractor: generate trainable data set from music files
+Home-page: UNKNOWN
+Author: Lene Preuss
+License: MIT
+Project-URL: Source, https://gitlab.com/lilacashes/mafe.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# Music Audio Feature Extractor
+
+## `mafe_scan.py`
+
+```bash
+$ mafe_scan.py --help
+Usage: mafe_scan.py [OPTIONS]
+
+Options:
+  -f, --base-folders TEXT  Directory to scan  [required]
+  -p, --parallel           Use parallel execution
+  -q, --quiet              Suppress warnings and progress messages
+  --help                   Show this message and exit.
+```
+
