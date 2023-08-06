@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: roombapy
+Version: 1.6.2
+Summary: Python program and library to control Wi-Fi enabled iRobot Roombas
+Home-page: https://github.com/pschmitt/roombapy
+License: MIT
+Author: Philipp Schmitt
+Author-email: philipp@schmitt.co
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Requires-Dist: paho-mqtt (>=1.5.1,<2.0.0)
+Project-URL: Repository, https://github.com/pschmitt/roombapy
