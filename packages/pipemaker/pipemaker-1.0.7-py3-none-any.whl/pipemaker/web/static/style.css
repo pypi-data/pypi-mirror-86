@@ -1,0 +1,48 @@
+/*headers and text*/
+body            { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+a, h1, h2       { color: #377ba8; }
+h1              { border-bottom: 2px solid #eee; }
+h2              { font-size: 1.2em; }
+
+/*table content*/
+table.dataframe, .dataframe th, .dataframe td {
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  border-collapse: collapse;
+  text-align:center;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 0.9em;
+}
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)	{ background-color:#fff; }
+
+tr:hover            { background-color: #ffff99;}
+
+.center {
+  margin: auto;
+  width: 60%;
+}
+/*table header*/
+.dataTables_length {
+  display:inline-block;
+  width:auto;
+}
+.dataTables_filter {
+  display:inline-block;
+  padding-left: 30px;
+  width:auto;
+  text-align:right;
+}
+/*column headers*/
+.sorting:hover, sorting_asc:hover, sorting_desc:hover {
+  cursor: s-resize;
+}
+/*pagination*/
+.paginate_button.disabled , .paginate_button.current {
+  color: grey;
+}
+.paginate_button:not(.disabled):not(.current):hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
