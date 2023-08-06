@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dog-whistle
+Version: 0.7.0
+Summary: For Easy Integration of DataDog and LogFactory
+Home-page: https://github.com/istresearch/
+Author: Madison Bahmer
+Author-email: madison.bahmer@istresearch.com
+License: MIT
+Description: UNKNOWN
+Keywords: datadog,logfactory
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: docs
+Provides-Extra: all
+Provides-Extra: lint
