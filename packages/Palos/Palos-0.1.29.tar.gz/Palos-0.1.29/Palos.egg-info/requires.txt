@@ -1,0 +1,9 @@
+future
+future-fstrings
+h5py
+matplotlib
+numpy
+scipy
+sqlalchemy
+statsmodels
+tables
