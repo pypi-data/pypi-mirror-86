@@ -1,0 +1,11 @@
+vidio/__init__.py,sha256=G2rYXa1xtq7kUcliLAo-2WJ5xIUTs9vssOSRxF9p95E,91
+vidio/constants.py,sha256=O5aMOZh8IFcQGGvtoEpAfrK0GYba54hjuB8uHCFiBhs,156
+vidio/convert.py,sha256=0xbYv4-xr-eGhgN-_oBXiQZ9QKLWuiwlolMJZX4-CCI,399
+vidio/play.py,sha256=-z-vUjbS73N4t81dsOeJANmZd_ElUE3sJousghDZ9DI,2755
+vidio/read.py,sha256=lZzSXo4S5Zbh_rK7qxNBIAY8A37KVHjy-TBNnqBrMHw,6601
+vidio/utils.py,sha256=tXRlC3-BedJJc6OQH9ZJZ_BWk4ScHbUxDfzyaEbZgBQ,1562
+vidio/write.py,sha256=Y0vNaPlViyVrErwjoeAfE25LDNXurumvu3fIVv0eRjc,15635
+vidio-0.0.1.dist-info/METADATA,sha256=OpgHD_TzVS6RtvFT7__qO73R0LPLZPevNtMSN3WOkEg,477
+vidio-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+vidio-0.0.1.dist-info/top_level.txt,sha256=DNCd3jA7tYw-xkunbdnr5I9hNr6dnudRpAetlUjKjJQ,6
+vidio-0.0.1.dist-info/RECORD,,
