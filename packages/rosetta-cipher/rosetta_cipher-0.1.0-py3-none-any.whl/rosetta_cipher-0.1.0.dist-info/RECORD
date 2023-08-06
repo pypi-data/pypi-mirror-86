@@ -1,0 +1,12 @@
+rosetta_cipher/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+rosetta_cipher/adjectives.py,sha256=WQ0XYniDCuQ7xhZAz3y-AcY9gb7yDCj5qmKtM2DMLaI,1660
+rosetta_cipher/cipher.py,sha256=9r428plVqwBb0L8ezYMH08zrsHjhEsJkuugD6TrwL2g,3009
+rosetta_cipher/cli.py,sha256=lHFr-mb1VycQvYbY_s04gm9f5DVQLuHn2pqIVSH9it8,1011
+rosetta_cipher/scientists.py,sha256=jm9nz8772HZi9tWC2do-P_v1mJ8XBMk3HnZusxxrSc8,51155
+rosetta_cipher/web.py,sha256=69n5sPjaoHk-Dqoa2ooAfXbxPTRznJZTYHazhx8TA7k,1238
+rosetta_cipher/wsgi.py,sha256=y0zQULalch-NP656DwT0zhjepiXveNfAqPLUcZufzog,77
+rosetta_cipher-0.1.0.dist-info/entry_points.txt,sha256=h6P4QbxjmiCFBk8J-zSZn5q-xYkTH67l6XzhIKuZ5TU,61
+rosetta_cipher-0.1.0.dist-info/LICENSE,sha256=yRGaC9Y5QANR18csXr8yHXDXcTdOEAtMjUhRl9iXU0A,1074
+rosetta_cipher-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+rosetta_cipher-0.1.0.dist-info/METADATA,sha256=ldp3ODUKP_AianDwqC7z307HTFfnqo3XyI06Baitxlc,742
+rosetta_cipher-0.1.0.dist-info/RECORD,,
