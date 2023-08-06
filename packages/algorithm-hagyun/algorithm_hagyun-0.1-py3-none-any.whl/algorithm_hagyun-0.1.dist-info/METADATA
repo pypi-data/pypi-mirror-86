@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: algorithm-hagyun
+Version: 0.1
+Summary: Python Algorithm
+Home-page: https://github.com/hagyun93/algorithm_hagyun
+Author: Ha Gyun Kim
+Author-email: imkimhagyun@naver.com
+License: UNKNOWN
+Download-URL: https://github.com/hagyun93/algorithm_hagyun/archive/master.zip
+Keywords: pypi deploy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
+
+UNKNOWN
+
+
