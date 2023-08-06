@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+
+recursive-include smuport_ts_middleground_server
