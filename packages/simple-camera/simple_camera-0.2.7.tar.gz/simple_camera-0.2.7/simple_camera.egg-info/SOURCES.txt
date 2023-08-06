@@ -1,0 +1,13 @@
+README.md
+setup.py
+simple_camera/__init__.py
+simple_camera/ops.py
+simple_camera/render.py
+simple_camera.egg-info/PKG-INFO
+simple_camera.egg-info/SOURCES.txt
+simple_camera.egg-info/dependency_links.txt
+simple_camera.egg-info/requires.txt
+simple_camera.egg-info/top_level.txt
+simple_camera/lib/mesh_core.cpp
+simple_camera/lib/mesh_core.h
+simple_camera/lib/mesh_core_cython.pyx

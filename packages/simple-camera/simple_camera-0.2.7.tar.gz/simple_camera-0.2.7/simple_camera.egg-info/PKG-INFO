@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: simple-camera
+Version: 0.2.7
+Summary: UNKNOWN
+Home-page: https://github.com/kostyaev/simple_camera
+Author: Dmitry Kostyaev
+Author-email: dm.kostyaev@gmail.com
+License: UNKNOWN
+Description: # Simple Camera
+        
+        Minimum dependencies library for fast rendering of triangle meshes.
+        
+        ## Setup
+        Inside cloned repository run the following:
+        
+        ```console
+        foo@bar:~$ pip install -r requirements.txt
+        foo@bar:~$ python setup.py install
+        ```
+        
+        ## Usage
+        ```python
+        from simple_camera import render_perspective_camera
+        
+        img = render_perspective_camera(vertices, faces,
+                                        width=256, height=256, 
+                                        angles=[0,0,0], translation=[0,0,0], 
+                                        scale=0.75) 
+        Image.fromarray(img)
+        ```
+        ![screenshot](assets/example.png)
+        
+        ## Acknowledgements
+        * This library is based on [Face3D](https://github.com/YadiraF/face3d) code.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
