@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: cservice
+Version: 0.2
+Summary: helper-module to make creation of control-systems daemons easier
+Home-page: UNKNOWN
+Author: Fedor Emanov
+License: gpl-3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Requires-Dist: pid
+Requires-Dist: python-daemon-3K
+
+UNKNOWN
+
+
