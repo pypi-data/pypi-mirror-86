@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block body %}
+<style>
+  input[type="submit"] {
+    height: 30px;
+    background: #5eb9d7;
+    border: 0;
+    color: white;
+    border-radius: 2px;
+    margin-top: 1px;
+    font-weight: 400;
+    border: 1px solid #5eb9d7;
+    transition: all .3s ease-out;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background: white;
+  color: #5eb9d7;
+}
+#res_table{
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 15px;
+</style>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Entity Results</h2>
+            <table class="table table-striped" id='res_table'>
+              <tr>
+                <th>data in dev</th>
+                <th>data in prod</th>
+                <th>Delete</th>
+              </tr>
+              {% for table in tables %}
+                <form class="form-inline" action="{{url_for('mappings_deletetable')}}">
+                  <tr>
+                    <td>{{table.data_dev}}</td>
+                    <td>{{table.data_prod}}</td>
+                    <td><input type="submit" value="Delete" class="form-control"></td>
+                    <input type="text" name="tableid" value="{{table._id}}" hidden>
+                  </tr>
+                </form>
+              {% endfor %}
+            </table>
+            <h2>Select</h2>
+            <form method="POST">
+                {{ df_form.entity_dev }}
+                {{ df_form.entity_prod }}
+                {{ df_form.submit }}
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+{% endblock %}

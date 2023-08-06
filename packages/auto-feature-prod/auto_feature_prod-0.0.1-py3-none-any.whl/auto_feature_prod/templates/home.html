@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<!-- Begin page content -->
+<div class="container">
+    <div class="page-header">
+      <h1>Feature engineering in Prod</h1>
+    </div>
+    <form method="POST">
+    <p class="lead">We are in <b>{{path}}</b>, you could <a style="color:red" href="/re_directory"><b>Reset</b></a>;</p>
+    <p class="lead">1. We are using the configure file: <b>{{config_name}}</b>; and schema file: <b>{{schema_name}}</b>;</p>
+    <p class="lead">2. Please firstly go to <a style="color:red" href="/data_selection"><b>Data_Selection</b></a> to select the data used in production;</p>
+    <p class="lead">3. Define the output name: <b>{{output_name}}</b> and <a style="color:red" href="{{ url_for('run_wait') }}" target="_blank" onclick="return confirm('Begin to run?')"><b>Run</b></a> the feature entineering process;</p>
+    </form>
+</div>
+
+
+{% endblock %}

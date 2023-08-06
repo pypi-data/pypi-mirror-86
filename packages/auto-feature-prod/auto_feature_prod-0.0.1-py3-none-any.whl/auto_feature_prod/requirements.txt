@@ -1,0 +1,15 @@
+Flask==1.0.2
+flask_wtf
+Jinja2==2.10
+pyarrow
+pandas
+numpy
+boto3
+s3fs
+xlsxwriter
+xlrd
+pymongo
+bs4
+featuretools
+v-ft
+smart_open
