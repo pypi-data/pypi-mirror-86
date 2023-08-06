@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: th2-check2-recon
+Version: 2.2.1
+Summary: th2_check2_recon
+Home-page: https://gitlab.exactpro.com/vivarium/th2/th2-core-open-source/th2-check2-recon
+Author: TH2-devs
+Author-email: th2-devs@exactprosystems.com
+License: Apache License 2.0
+Description: This repository is a library for creating th2-check2-recon applications.
+Platform: UNKNOWN
+Requires-Python: >=3.7
