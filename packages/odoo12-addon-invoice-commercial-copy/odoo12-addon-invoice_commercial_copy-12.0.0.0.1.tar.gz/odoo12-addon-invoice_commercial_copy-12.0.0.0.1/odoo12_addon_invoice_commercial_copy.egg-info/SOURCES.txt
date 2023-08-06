@@ -1,0 +1,11 @@
+setup.py
+odoo/addons/invoice_commercial_copy/__init__.py
+odoo/addons/invoice_commercial_copy/__manifest__.py
+odoo/addons/invoice_commercial_copy/account_invoice.py
+odoo/addons/invoice_commercial_copy/__pycache__/account_invoice.cpython-37.pyc
+odoo12_addon_invoice_commercial_copy.egg-info/PKG-INFO
+odoo12_addon_invoice_commercial_copy.egg-info/SOURCES.txt
+odoo12_addon_invoice_commercial_copy.egg-info/dependency_links.txt
+odoo12_addon_invoice_commercial_copy.egg-info/not-zip-safe
+odoo12_addon_invoice_commercial_copy.egg-info/requires.txt
+odoo12_addon_invoice_commercial_copy.egg-info/top_level.txt
