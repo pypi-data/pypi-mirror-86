@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dankag
+Version: 0.1.1
+Summary: utilities for kaggle competitions
+Home-page: UNKNOWN
+Author: Dan Suh
+Author-email: kaehops@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: tensorflow
+
+UNKNOWN
+
+
