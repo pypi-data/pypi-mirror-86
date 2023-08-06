@@ -1,0 +1,14 @@
+filer_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filer_api/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+filer_api/apps.py,sha256=QmGQq9txkOlEIo5PSM5tIllz7WBojR4SNGd1kdMFE_I,87
+filer_api/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+filer_api/serializer.py,sha256=mBpz_BqAWBVpwnlZiyizh_D8Z7MrXyKBWFLs_M73yLs,557
+filer_api/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+filer_api/urls.py,sha256=DrM64kXMKtq9nrm4fpwzc3bJYm1oa8PVfbuOxS5df88,334
+filer_api/views.py,sha256=ulCzP2s-PbG6MR71dUvFyuU44Mv6MY2DmJUSGqlUmRA,757
+filer_api/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_filer_api-0.1.dist-info/LICENCE,sha256=rnp6UQJjQIpuLkvYi6m7VmPzr_KIu6dX8Nzyrn2lSCA,1652
+django_filer_api-0.1.dist-info/METADATA,sha256=7vabVYQEz9z3-voUXNHpqIGLokdhPzzpBtyMBlTAR7A,966
+django_filer_api-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_filer_api-0.1.dist-info/top_level.txt,sha256=UuFMw3Sd011sJnMb_AUoMFi7zhV30pW-Kg99t-_4gwo,10
+django_filer_api-0.1.dist-info/RECORD,,
