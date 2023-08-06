@@ -1,0 +1,7 @@
+README.md
+setup.py
+teleshell/teleshell.egg-info/PKG-INFO
+teleshell/teleshell.egg-info/SOURCES.txt
+teleshell/teleshell.egg-info/dependency_links.txt
+teleshell/teleshell.egg-info/requires.txt
+teleshell/teleshell.egg-info/top_level.txt
