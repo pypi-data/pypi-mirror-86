@@ -1,0 +1,225 @@
+Metadata-Version: 2.1
+Name: wykop-sdk-reborn
+Version: 0.1.4
+Summary: Client library for Wykop API v2
+Home-page: https://github.com/krasnoludkolo/wykop-sdk-reborn
+Author: Jan Danecki
+Author-email: janek@projmen.pl
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: six (==1.15.0)
+
+Fork biblioteki [wykop-sdk](https://github.com/p1c2u/wykop-sdk) w której
+staram się poprawiać sdk wraz z (nie)udokumentowanymi zmianami w api
+wykopu.
+
+Stan implementacji metod api
+
+### Addlink
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Draft|:x:|
+|Images|:x:|
+|Add|:x:|
+
+### Entries
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Stream|`get_stream_entries`|
+|Hot|`get_hot_entries`|
+|Active|:x:|
+|Observed|:x:|
+|Entry|`get_entry`|
+|Add|:x:|
+|Edit|:x:|
+|VoteUp|:x:|
+|VoteRemove|:x:|
+|Upvoters|:x:|
+|Delete|:x:|
+|Comment|:x:|
+|CommentAdd|:x:|
+|CommentEdit|:x:|
+|CommentDelete|:x:|
+|CommentVoteUp|:x:|
+|CommentVoteRemove|:x:|
+|ObservedComments|:x:|
+|Favorite|:x:|
+|SurveyVote|:x:|
+|CommentFavorite|:x:|
+
+### Hits
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Popular|`get_hits_popular`|
+|Day|:x:|
+|Week|:x:|
+|Month|`get_hits_month`|
+|Year|:x:|
+
+### Links
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Promoted|`get_links_promoted`|
+|Upcoming|:x:|
+|Observed|:x:|
+|Link|:x:|
+|VoteUp|:x:|
+|VoteRemove|:x:|
+|VoteDown|:x:|
+|Upvoters|:x:|
+|Downvoters|:x:|
+|Top|:x:|
+|Comments|:x:|
+|CommentVoteUp|:x:|
+|CommentVoteDown|:x:|
+|CommentVoteCancel|:x:|
+|CommentAdd|:x:|
+|CommentEdit|:x:|
+|CommentDelete|:x:|
+|Comment|:x:|
+|Related|:x:|
+|RelatedAdd|:x:|
+|RelatedVoteUp|:x:|
+|RelatedVoteDown|:x:|
+|Favorite|:x:|
+
+### Login
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Index|:x:|
+|Connect|:x:|
+
+### Mywykop
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Index|:x:|
+|Tags|:x:|
+|Users|:x:|
+|Entries|:x:|
+|Links|:x:|
+
+### Notifications
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Index|:x:|
+|Count|:x:|
+|HashTags|`get_hashtags_notifications`|
+|HashTagsCount|`get_hashtags_notifications_count`|
+|Total|:x:|
+|TotalCount|`get_notifications_count`|
+|ReadAllNotifications|:x:|
+|ReadDirectedNotifications|:x:|
+|ReadHashTagsNotifications|:x:|
+|MarkAsRead|`mark_notification_as_read`|
+
+### PM
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|ConversationsList|`get_conversations_list`|
+|Conversation|`get_conversation`|
+|SendMessage|`send_message`|
+|DeleteConversation|:x:|
+
+### Profiles
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Index|:x:|
+|Actions|:x:|
+|Added|:x:|
+|Commented|:x:|
+|Comments|:x:|
+|Published|:x:|
+|Entries|:x:|
+|CommentedEntries|:x:|
+|EntriesComments|:x:|
+|Related|:x:|
+|Followers|:x:|
+|Followed|:x:|
+|Badges|:x:|
+|Digged|:x:|
+|Buried|:x:|
+|Rank|:x:|
+|Observe|`observe_profile`|
+|UnObserve|`unobserve_profile`|
+|Block|`block_profile`|
+|UnBlock|`unblock_profile`|
+|AvailableColors|:x:|
+
+### Search
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Links|:x:|
+|Entries|:x:|
+|Profiles|:x:|
+
+### Settings 
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Profile|:x:|
+|Avatar|:x:|
+|Background|:x:|
+|Password|:x:|
+|ResetPassword|:x:|
+
+### Suggest
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Tags|:x:|
+|Users|:x:|
+
+### Tags
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Index|:x:|
+|Links|:x:|
+|Entries|:x:|
+|Observe|:x:|
+|Unobserve|:x:|
+|Notify|:x:|
+|Dontnotify|:x:|
+|Block|:x:|
+|Unblock|:x:|
+
+### Terms
+
+|||
+|--- |--- |
+|Metoda API|Metoda SDK|
+|Index|:x:|
+|Confirm|:x:|
+
+
