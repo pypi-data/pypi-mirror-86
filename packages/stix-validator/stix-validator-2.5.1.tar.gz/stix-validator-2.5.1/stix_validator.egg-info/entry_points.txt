@@ -1,0 +1,6 @@
+[console_scripts]
+cybox-validator = sdv.scripts.cybox_validator:main
+profile-to-sch = sdv.scripts.profile_to_sch:main
+profile-to-xslt = sdv.scripts.profile_to_xslt:main
+stix-validator = sdv.scripts.stix_validator:main
+
