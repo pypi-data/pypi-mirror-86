@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+ofekWOG.egg-info/PKG-INFO
+ofekWOG.egg-info/SOURCES.txt
+ofekWOG.egg-info/dependency_links.txt
+ofekWOG.egg-info/top_level.txt
