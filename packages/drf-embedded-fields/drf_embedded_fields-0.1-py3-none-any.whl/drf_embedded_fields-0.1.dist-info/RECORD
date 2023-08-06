@@ -1,0 +1,10 @@
+drf_embedded_fields/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_embedded_fields/api_fields.py,sha256=EIF12TF3-2l26P0QTZDAYWjOvF2Eblnxr1uf75zrqRA,4126
+drf_embedded_fields/base.py,sha256=uvViVYPwYfq2_4Hw7arff2C8TuzaeLPRmx8OCgsjXko,3327
+drf_embedded_fields/exceptions.py,sha256=zYNUZ3SuyvgZHxYe61qr4xAGyqP-7EqnADlb--HQ2JE,334
+drf_embedded_fields/model_fields.py,sha256=lFF7bcZV_crxZZ0V3jXZ_O4nC_1MPIIKjbNMyTIkxoc,3319
+drf_embedded_fields-0.1.dist-info/LICENSE,sha256=dP7N8Ci20h1iuutbch5c8e37wnHfPSyvVQ5kY9EW6vU,1086
+drf_embedded_fields-0.1.dist-info/METADATA,sha256=loAoaiTAxVidHdQOX2Rit5kI4_ZqMqQRGGygnTfYUvg,698
+drf_embedded_fields-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+drf_embedded_fields-0.1.dist-info/top_level.txt,sha256=uq-ROezCWuxEh-UY3QKMfCjozDaFHC7IEZJ_KuJGwko,20
+drf_embedded_fields-0.1.dist-info/RECORD,,
