@@ -1,0 +1,8 @@
+README.rst
+setup.py
+mypackage_liujiahai/__init__.py
+mypackage_liujiahai/main.py
+mypackage_liujiahai.egg-info/PKG-INFO
+mypackage_liujiahai.egg-info/SOURCES.txt
+mypackage_liujiahai.egg-info/dependency_links.txt
+mypackage_liujiahai.egg-info/top_level.txt

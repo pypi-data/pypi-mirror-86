@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: mypackage-liujiahai
+Version: 1.0.0
+Summary: A small example package
+Home-page: https://github.com/ljhtest2017
+Author: liujiahai
+Author-email: 406948714@qq.com
+License: BSD License
+Description: Student info.
+        ** First package **
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
