@@ -1,0 +1,10 @@
+cst_modeling/__init__.py,sha256=JIoQVbsxLfx_3SXeyK_Oa5-beHj8Iu8Ami4k3EuvqLk,50
+cst_modeling/auxiliary.py,sha256=QM-scVNtGQ6cTvmFHKQ9U4twDI_QWSZW6QA6CwYXOQc,10231
+cst_modeling/foil.py,sha256=Xlj-YwKFBIGhvy4CoxC75vVGm5YBBQy5F9a5yI3AzlA,40249
+cst_modeling/naca.py,sha256=rGGqVnOrfOjnOonLa4-hlqtMWHx8LK5_Us_f5lLb-K0,8614
+cst_modeling/surface.py,sha256=7Ay046zxHJ_hhlcioWwLWbtXuTzheV0rpvsdoJ04KYk,54278
+cst_modeling3d-0.1.9.dist-info/LICENSE,sha256=mA_EDlN-xxxUKXjUlh_NpZ2rJ_0r2pNfmoQ9ScfX1zY,1088
+cst_modeling3d-0.1.9.dist-info/METADATA,sha256=yDtkgv79jIu7I8VUtz6AuVFuDTlcALsa1vK7uFaxEdY,475
+cst_modeling3d-0.1.9.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+cst_modeling3d-0.1.9.dist-info/top_level.txt,sha256=GOZpQR926iOSIqQ-whaaMuWlygza70Hsp7qXHMv2I1Q,13
+cst_modeling3d-0.1.9.dist-info/RECORD,,
