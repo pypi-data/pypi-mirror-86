@@ -1,0 +1,9 @@
+sdvclient/__init__.py,sha256=ur5s-xUFHjfHY_kgFOuLwNb_hQ6F4LVYye5yTElkPMU,132
+sdvclient/api.py,sha256=nij74LX94MmwWPxeac095OlbSAExCpQirWRvMT9FEN8,2555
+sdvclient/models.py,sha256=_txMpVOAqRebteZBMX8bl4tSXleq1NcPmForo7D_UGA,1375
+sdvclient/processing.py,sha256=kjsUChHRC0Z_j3SNE95bnvaaRuzYdmm6YAq_iB-oBnE,6091
+sdvclient/utils.py,sha256=VYkOXf4q2hbuv5w5gcYAx4gx05QH7zyg7V-M5nII0Gw,1437
+sdvclient-0.3.0.dist-info/LICENSE,sha256=vJB_XwJKPFcOtJ6Yj27bAysi9t-8tCPTNEaFNqOL1hE,1070
+sdvclient-0.3.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+sdvclient-0.3.0.dist-info/METADATA,sha256=RUZtdTK9rwc5kVRbeXxd-IKiwzFsBXpTEpyIfhx6Bx4,7405
+sdvclient-0.3.0.dist-info/RECORD,,
