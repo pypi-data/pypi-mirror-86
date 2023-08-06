@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: KivyMD-AKivymd-Sylvia-Dynamic
+Version: 0.1.1
+Summary: This package is a dynamic library that helps you to manipulate kivymd and akivymd to your taste, it gives you more options to change
+Home-page: https://github.com/kengoon/KivyMD-AKivymd-Sylvia-Dynamic
+Author: Akubue Kenechukwu
+Author-email: kengoon19@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: kivy (>=1.10.1)
+Requires-Dist: kivymd (>=0.104.1)
+Requires-Dist: akivymd
+
+UNKNOWN
+
+
