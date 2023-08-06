@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: majel
+Version: 0.1.0
+Summary: A front-end for Mycroft that allows you to do cool things like stream video or surf the web
+Home-page: https://gitlab.com/danielquinn/majel
+License: AGPL-3.0-or-later
+Author: Daniel Quinn
+Author-email: code@danielquinn.org
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: kodi-json (>=1.0.0,<2.0.0)
+Requires-Dist: mycroft-messagebus-client (>=0.8.1,<0.9.0)
+Requires-Dist: python-mpv (>=0.4.6,<0.5.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: selenium (>=3.141.0,<4.0.0)
