@@ -1,0 +1,9 @@
+setup.py
+django_hugepagination.egg-info/PKG-INFO
+django_hugepagination.egg-info/SOURCES.txt
+django_hugepagination.egg-info/dependency_links.txt
+django_hugepagination.egg-info/requires.txt
+django_hugepagination.egg-info/top_level.txt
+hugepagination/__init__.py
+hugepagination/pagination.py
+hugepagination/views.py
