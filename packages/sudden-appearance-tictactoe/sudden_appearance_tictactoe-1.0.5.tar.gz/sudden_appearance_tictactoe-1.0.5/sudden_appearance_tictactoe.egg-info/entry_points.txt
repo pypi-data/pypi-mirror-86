@@ -1,0 +1,3 @@
+[console_scripts]
+tic-tac-toe = sudden_appearance_tictactoe.Game:run
+
