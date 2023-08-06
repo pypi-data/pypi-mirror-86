@@ -1,0 +1,9 @@
+detection/__init__.py,sha256=mq9orrXH7m6q_YDAIsel0V8dXrtJ5l8B5PJug72I7Qc,46
+detection/detection.py,sha256=EqXac1mknlsyPLAbJrzRjPZ_rMUlHsCwViuMF3dVZr8,1847
+textdetection/__init__.py,sha256=Upw4_bosa1yoLIdE0-yX8G9nxH8Lmg_TJpSb63pyaVc,46
+textdetection/detection.py,sha256=3WHoYiJRnZ4gGk_2W_VSkwFSOiympGQmHRYxtX3R29A,2192
+textdetection-0.1.3.dist-info/LICENSE,sha256=GjdAAIXagN5EjAVWamJjWbpXAbU0s5_-u5OB7K3YTBE,1074
+textdetection-0.1.3.dist-info/METADATA,sha256=PnxN4PAyOMTAXHABhtrWDyKev6k9HbJHejgXPqHK01I,1187
+textdetection-0.1.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+textdetection-0.1.3.dist-info/top_level.txt,sha256=FPfqI_Op0MJBKCTlg1MG6NYC6aoARb4TTdIeacBcxSA,14
+textdetection-0.1.3.dist-info/RECORD,,
