@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: glap
+Version: 0.1.2
+Summary: A GitLab Artifact Puller / Downloader
+Home-page: UNKNOWN
+Author: Alexander Lindermayr
+Author-email: alexander.lindermayr97@gmail.com
+License: MIT
+Description: README.md
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
