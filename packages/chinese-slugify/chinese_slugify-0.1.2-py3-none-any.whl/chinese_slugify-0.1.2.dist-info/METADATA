@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: chinese-slugify
+Version: 0.1.2
+Summary: A more powerful slugify module for Chinese
+Home-page: https://github.com/oldcai/chinese-slugify
+Author: oldcai
+Author-email: oldcai@live.com
+License: GNU GPLv3
+Keywords: slugify,chinese
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: awesome-slugify
+Requires-Dist: jieba
+Requires-Dist: pypinyin
+
+UNKNOWN
+
+
