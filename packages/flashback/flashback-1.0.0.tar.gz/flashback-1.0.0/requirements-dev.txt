@@ -1,0 +1,4 @@
+# Documentation
+pdoc3==0.9.1
+
+-r requirements.txt
