@@ -1,0 +1,21 @@
+- hosts: downloaders
+  tasks:
+    - name: Install epel
+      dnf:
+        name:
+          - epel-release
+        state: latest
+    - name: Install aria2 and tmux
+      dnf:
+        name:
+          - tmux
+          - transmission-daemon
+        state: latest
+  vars:
+    packages_host:
+      tmux:
+        version: latest
+      aria2:
+        version: latest
+
+  remote_user: root
