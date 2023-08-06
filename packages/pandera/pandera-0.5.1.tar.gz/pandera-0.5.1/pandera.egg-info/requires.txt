@@ -1,0 +1,20 @@
+packaging>=20.0
+numpy>=1.9.0
+pandas>=0.23.0
+typing_inspect>=0.6.0
+wrapt
+
+[:python_version < "3.8"]
+typing_extensions
+
+[all]
+scipy
+black
+pyyaml>=5.1
+
+[hypotheses]
+scipy
+
+[io]
+pyyaml>=5.1
+black
