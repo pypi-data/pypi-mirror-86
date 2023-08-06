@@ -1,0 +1,10 @@
+PyQt5
+numpy
+sip
+
+[optional]
+astropy
+h5py
+iminuit
+pyemf
+sampy
