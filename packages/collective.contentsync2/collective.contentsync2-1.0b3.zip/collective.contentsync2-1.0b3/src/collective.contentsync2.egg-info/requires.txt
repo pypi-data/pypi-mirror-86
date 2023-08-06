@@ -1,0 +1,13 @@
+setuptools
+requests
+z3c.jbot
+plone.api>=1.8.4
+plone.restapi
+plone.app.dexterity
+
+[test]
+plone.app.testing
+plone.testing>=5.0.0
+plone.app.contenttypes
+plone.app.robotframework[debug]
+collective.z3cform.datagridfield
