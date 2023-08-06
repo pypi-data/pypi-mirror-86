@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+layout_helper.py
+requirements.txt
+setup.cfg
+setup.py
+test_vm.py
+variantmap.py
+variantmap_app.py
+version.py
+variantmap.egg-info/PKG-INFO
+variantmap.egg-info/SOURCES.txt
+variantmap.egg-info/dependency_links.txt
+variantmap.egg-info/requires.txt
+variantmap.egg-info/top_level.txt
