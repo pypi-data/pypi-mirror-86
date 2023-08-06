@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: libcfbf
+Version: 0.4
+Summary: An implementation of Microsoft's Compound File Binary Format
+Home-page: https://git.rcarz.net/bobc/libcfbf
+Author: Bob Carroll
+Author-email: bob.carroll@alum.rit.edu
+License: UNKNOWN
+Description: # libcfbf
+        libcfbf is a Python implementation of Microsoft's Compound File Binary Format. Note this library does not have support for writing or modifying documents.
+        
+        ```python
+        from libcfbf import CfbfDocument
+        
+        with CfbfDocument.open('foo.doc') as document:
+            for x in document.root_entry.children:
+                print(x.entry_name)
+        ```
+        
+        Specification:
+        https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/53989ce4-7b05-4f8d-829b-d08d6148375b
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business :: Office Suites
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
