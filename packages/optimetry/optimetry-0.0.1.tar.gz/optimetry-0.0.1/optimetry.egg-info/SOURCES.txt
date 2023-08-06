@@ -1,0 +1,6 @@
+README.md
+setup.py
+optimetry.egg-info/PKG-INFO
+optimetry.egg-info/SOURCES.txt
+optimetry.egg-info/dependency_links.txt
+optimetry.egg-info/top_level.txt
