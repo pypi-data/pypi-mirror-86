@@ -1,0 +1,3 @@
+[console_scripts]
+hop = run_hop.hop:main
+

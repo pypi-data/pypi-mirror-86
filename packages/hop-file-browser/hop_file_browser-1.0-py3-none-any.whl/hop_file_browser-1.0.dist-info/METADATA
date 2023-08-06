@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hop-file-browser
+Version: 1.0
+Summary: Hop is a TUI file browser
+Home-page: https://github.com/benrrutter/hop
+Author: Ben Rutter
+Author-email: benrrutter@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Hop!
+
+Hop is a python based TUI file browser.
+
+After pip install, type 'hop' at anytime in the terminal to use hop. From there you can move/copy/delete files, or run terminal commands directly.
+
+
