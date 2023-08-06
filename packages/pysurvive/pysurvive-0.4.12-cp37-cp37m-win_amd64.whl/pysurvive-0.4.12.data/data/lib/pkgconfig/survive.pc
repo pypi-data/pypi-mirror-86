@@ -1,0 +1,10 @@
+prefix=C:/Users/justin/AppData/Local/Temp/pip-req-build-vcxfz6it/_skbuild/win-amd64-3.7/cmake-install
+exec_prefix=C:/Users/justin/AppData/Local/Temp/pip-req-build-vcxfz6it/_skbuild/win-amd64-3.7/cmake-install
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libsurvive
+
+Name: libsurvive
+Description: Libsurvive
+Version: 0
+Libs: -L${libdir} -lsurvive 
+Cflags: -I${includedir} -I${includedir}/redist
