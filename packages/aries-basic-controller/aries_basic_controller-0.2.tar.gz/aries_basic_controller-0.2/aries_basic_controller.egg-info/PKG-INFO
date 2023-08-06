@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aries-basic-controller
+Version: 0.2
+Summary: A simple python package for controlling an aries agent through the admin-api interface
+Home-page: https://github.com/OpenMined/PyDentity/tree/master/libs/aries-basic-controller
+Author: Will Abramson
+License: UNKNOWN
+Description: # Aries Basic Controller Python
+        
+        A simple pip installable package for controlling aries agents through admin API calls.
+        
+        # Install
+        
+        Current version 0.2
+        
+        `python3 -m pip install aries_basic_controller`
+        
+        
+        ## Tutorial
+        
+        Find out how to use this package by taking our [jupyter notebook tutorial series](../../tutorials/aries-basic-controller).
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.3
+Description-Content-Type: text/markdown
