@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: deluge-search
+Version: 0.1.1
+Author: kintsu
+Author-email: k@kintsu.io
+Requires-Python: ==3.*,>=3.9.0
+Provides-Extra: dev

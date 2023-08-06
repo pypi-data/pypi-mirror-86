@@ -1,0 +1,15 @@
+click==7.*,>=7.1.2
+deluge==2.*,>=2.0.3
+deluge-client==1.*,>=1.9.0
+iterfzf==0.*,>=0.5.0
+shell==1.*,>=1.0.1
+
+[dev]
+black==20.*,>=20.8.0.b1
+dephell==0.*,>=0.8.3
+neovim==0.*,>=0.3.1
+neovim-remote==2.*,>=2.4.0
+pylint==2.*,>=2.6.0
+pynvim==0.*,>=0.4.2
+rope==0.*,>=0.18.0
+twine==3.*,>=3.2.0

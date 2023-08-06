@@ -1,0 +1,7 @@
+setup.py
+deluge_search/torrent.py
+deluge_search/client.py
+deluge_search/__init__.py
+deluge_search/cli.py
+deluge_search/ctx.py
+deluge_search/tool.py
