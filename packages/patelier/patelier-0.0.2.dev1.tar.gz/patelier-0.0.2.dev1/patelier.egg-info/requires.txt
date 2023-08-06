@@ -1,0 +1,7 @@
+eel
+mecab-python-windows
+natsort
+regex
+pyperclip
+python-docx
+pywin32
