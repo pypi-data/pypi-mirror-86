@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: saquare
+Version: 1.2.0
+Summary: It squares the number
+Home-page: https://github.com/uditvashisht/saral-square
+Author: Udit Vashisht
+Author-email: admin@saralgyaan.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# SaralGyaan Square
+It takes an integer as an input and prints it square.
+
+## Installation
+```pip install saral-square```
+
+## How to use it?
+Open terminal and type square and then input the integer
+
+## License
+
+Â© 2020 Udit Vashisht
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
+
