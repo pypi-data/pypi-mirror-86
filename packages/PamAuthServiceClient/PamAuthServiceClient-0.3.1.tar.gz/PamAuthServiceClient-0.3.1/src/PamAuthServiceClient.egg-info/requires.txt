@@ -1,0 +1,12 @@
+cryptography
+jsonschema
+requests-unixsocket
+requests
+setuptools
+recommonmark
+sphinx_rtd_theme
+Sphinx
+
+[testing]
+pytest
+pytest-cov
