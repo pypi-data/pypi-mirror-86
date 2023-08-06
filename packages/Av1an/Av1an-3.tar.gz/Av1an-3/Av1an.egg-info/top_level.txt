@@ -1,0 +1,9 @@
+Av1an
+Chunks
+Encoders
+Project
+Scenedetection
+Startup
+TargetQuality
+VMAF
+av1an
