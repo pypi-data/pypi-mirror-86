@@ -1,0 +1,12 @@
+asencis/__init__.py,sha256=y82xyFkgGgHSJcsgfFJJORP7etLnPPxBDkrBu7gRnZ4,468
+asencis/client.py,sha256=CIg8VOCRgx4Pi6DDqDpI6vaXXXyEsOZpsTKHBf7dKWE,4034
+asencis/exceptions.py,sha256=5qq1wxTdwZFfeCKo3VpZxaLlySqwe8uAJQMnnRz5Jq8,257
+asencis/mixins.py,sha256=ynBShAYBUY_4HM9MkyW4FnccZYfHJ2B42iM-9vPjOtg,2045
+asencis/response.py,sha256=JeDRvoQfXJO3zM7effM34JOm5OHYElznPg5TtF0gOak,2105
+asencis/utils.py,sha256=wv9hjCtLm8t_xhPAyh7amWPr2mp09EG-CchuHXwIeFg,755
+asencis/version.py,sha256=CpXi3jGlx23RvRyU7iytOMZrnspdWw4yofS8lpP1AJU,18
+asencis-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+asencis-0.1.0.dist-info/METADATA,sha256=Fb247GlDX9Sw5YvJBSq9I2PiwfNI9u9NV74VnYGGRr8,6367
+asencis-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+asencis-0.1.0.dist-info/top_level.txt,sha256=lpCNhFyZfK3tny-Fxy-BuOpmOoLd9QJG_IzQ9SfaOyE,8
+asencis-0.1.0.dist-info/RECORD,,
