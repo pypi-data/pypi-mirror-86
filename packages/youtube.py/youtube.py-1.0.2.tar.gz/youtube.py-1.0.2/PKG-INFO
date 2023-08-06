@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: youtube.py
+Version: 1.0.2
+Summary: YouTube.py is a light python module for youtube.
+Home-page: https://github.com/youtube-py/youtube.py
+Author: Mayank Gupta
+Author-email: mayankfawkes@gmail.com
+License: MIT
+Description: [![banner](https://github.com/youtube-py/youtube.py/raw/master/img/header.jpg)](https://mayankfawkes.xyz/youtube-py)
+        
+        # YouTube Python
+        
+        YouTube Python is a light python module for youtube videos/playlist.
+        
+        # Status
+        We are coming soon.
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
