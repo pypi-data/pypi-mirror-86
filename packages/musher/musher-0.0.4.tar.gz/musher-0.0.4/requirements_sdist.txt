@@ -1,0 +1,2 @@
+pybind11>=2.6.0
+setuptools_scm>=4.1.2

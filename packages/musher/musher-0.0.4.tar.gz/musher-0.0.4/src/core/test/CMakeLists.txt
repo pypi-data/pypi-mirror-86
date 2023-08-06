@@ -1,0 +1,21 @@
+project_test(musher-core-test
+    SOURCES
+        gtest_extras.h
+        main.cpp
+        utils.h
+        utils.cpp
+        test_audio_decoders.cpp
+        test_framecutter.cpp
+        test_hpcp.cpp
+        test_key.cpp
+        test_mono_mixer.cpp
+        test_musher_utils.cpp
+        test_peak_detect.cpp
+        test_spectrum.cpp
+        test_windowing.cpp
+    DEPENDENCIES
+        INTERNAL
+            musher-core
+        CONAN
+            gtest
+)
