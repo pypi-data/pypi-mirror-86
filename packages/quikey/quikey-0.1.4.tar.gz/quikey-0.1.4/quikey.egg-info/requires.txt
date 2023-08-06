@@ -1,0 +1,9 @@
+click
+python-daemon
+inotify-simple
+tinydb
+pynput
+terminaltables
+pyxdg
+humanize
+pick
