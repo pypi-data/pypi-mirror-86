@@ -1,0 +1,4 @@
+schedule>=0.6.0
+octomy-common>=0.0.6
+octomy-batch>=0.0.4
+
