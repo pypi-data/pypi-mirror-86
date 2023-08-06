@@ -1,0 +1,3 @@
+[console_scripts]
+goosepaper = goosepaper:cli
+

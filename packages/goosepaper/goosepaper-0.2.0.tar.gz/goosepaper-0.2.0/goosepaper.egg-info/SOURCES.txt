@@ -1,0 +1,10 @@
+README.md
+setup.py
+goosepaper/__init__.py
+goosepaper/styles.py
+goosepaper.egg-info/PKG-INFO
+goosepaper.egg-info/SOURCES.txt
+goosepaper.egg-info/dependency_links.txt
+goosepaper.egg-info/entry_points.txt
+goosepaper.egg-info/requires.txt
+goosepaper.egg-info/top_level.txt
