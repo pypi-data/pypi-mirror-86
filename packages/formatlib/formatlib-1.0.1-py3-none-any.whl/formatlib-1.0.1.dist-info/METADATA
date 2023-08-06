@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: formatlib
+Version: 1.0.1
+Summary: A small example package
+Home-page: http://pedago-service.univ-lyon1.fr:2325/tfroute/tp_packaging
+Author: Timothée Frouté
+Author-email: timotheefroute@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+Une implémenation laborieuse des fonctions du tp FormatLib.
+
+
