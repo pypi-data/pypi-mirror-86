@@ -1,0 +1,16 @@
+requests
+backoff
+
+[dev]
+flake8
+black
+pytest
+pytest-cov
+requests-mock
+mypy
+backoff-stubs
+twine
+parameterized
+
+[docs]
+sphinx
