@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: recruiter-utils
+Version: 0.0.3
+Summary: Package with util functions for recruiter
+Author: ArcLightSlavik
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
