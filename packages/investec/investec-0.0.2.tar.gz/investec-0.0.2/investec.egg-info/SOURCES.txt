@@ -1,0 +1,8 @@
+README.md
+setup.py
+investec/__init__.py
+investec/api_client.py
+investec.egg-info/PKG-INFO
+investec.egg-info/SOURCES.txt
+investec.egg-info/dependency_links.txt
+investec.egg-info/top_level.txt
