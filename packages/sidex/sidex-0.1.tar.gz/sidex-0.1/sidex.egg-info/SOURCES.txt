@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+sidex.egg-info/PKG-INFO
+sidex.egg-info/SOURCES.txt
+sidex.egg-info/dependency_links.txt
+sidex.egg-info/requires.txt
+sidex.egg-info/top_level.txt
