@@ -1,0 +1,17 @@
+gnupg_mails/__init__.py,sha256=Zk9dwl5B1cIDGCjJBnurcMT0vUfJJ8XgmbTUGVRY3-U,52
+gnupg_mails/message.py,sha256=S9f6O_uFqFKF1jIChOVBToNPPTCPW6lpjNa7V2ll4qg,3114
+gnupg_mails/__pycache__/__init__.cpython-38.pyc,sha256=pF7CtrWm_pg8xqf2HH3J-F3ILteYNQBYSehl6b1eY2I,207
+gnupg_mails/__pycache__/message.cpython-38.pyc,sha256=1PwBhDNSQANwEdX7pndcrV30CJ_7ktwGz0_8xyjcyDs,3183
+gnupg_mails/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gnupg_mails/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gnupg_mails/tests/test_message.py,sha256=GVeBheFXAGhjPM6VJ5KCFgmU7je5y6m1OCgtGUadQEI,3869
+gnupg_mails/tests/test_settings.py,sha256=QdbI4IlUjR5tj2ZipoSkdyFbzFnFiKT__BMySVNaXDM,233
+gnupg_mails/tests/__pycache__/__init__.cpython-38.pyc,sha256=SkAPx4wHjOzax_Wi6qMqWP7BAtsk-wMIIN9szhyu3ng,158
+gnupg_mails/tests/__pycache__/test_message.cpython-38.pyc,sha256=GB6BmeZRTFSk3BGtLVe0VWCoQ3QUjQYajViaQp9M5B4,4340
+gnupg_mails/tests/__pycache__/test_settings.cpython-38.pyc,sha256=ffqZfAz1jr2iqQTYiuXa7zdRbkwBK7T8ckkb8h15Ivw,388
+django_gnupg_mails-0.4.0.dist-info/AUTHORS,sha256=EE2Xek9jLHjHBRSJqn7t90J64L_ONmG5KiIe-ZcV2Fg,17
+django_gnupg_mails-0.4.0.dist-info/LICENSE,sha256=8gAyX5YopBsPzar9VeAQ0gGzHDwRfwQmhPSDS7XapIY,1086
+django_gnupg_mails-0.4.0.dist-info/METADATA,sha256=Fwcj5kGJtzWR7ylbKgay_PaOHJ9lIj4bUY0hAimaYk4,2562
+django_gnupg_mails-0.4.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+django_gnupg_mails-0.4.0.dist-info/top_level.txt,sha256=l0Moq33rtf_Bxs3IM83PIrNepyr_fW4JH7ciYDmF6_Y,12
+django_gnupg_mails-0.4.0.dist-info/RECORD,,
