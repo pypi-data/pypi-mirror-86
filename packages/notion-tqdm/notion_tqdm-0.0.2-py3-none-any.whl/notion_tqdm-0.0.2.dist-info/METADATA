@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: notion-tqdm
+Version: 0.0.2
+Summary: Progress Bar displayed in Notion like tqdm for Python
+Home-page: https://github.com/shunyooo/notion-tqdm
+Author: shunyooo
+Author-email: shunyo.kawamoto@gmail.com
+License: MIT License
+Keywords: progress,tqdm,notion
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: notion (==0.0.27)
+
+# notion-tqdm
+Progress Bar displayed in Notion like tqdm for Python.
+
