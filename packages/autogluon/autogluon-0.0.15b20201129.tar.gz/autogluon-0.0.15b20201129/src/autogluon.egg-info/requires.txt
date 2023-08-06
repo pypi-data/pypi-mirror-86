@@ -1,0 +1,7 @@
+autogluon.core==0.0.15b20201129
+autogluon.tabular==0.0.15b20201129
+autogluon.mxnet==0.0.15b20201129
+autogluon.extra==0.0.15b20201129
+autogluon.text==0.0.15b20201129
+autogluon.vision==0.0.15b20201129
+pytest
