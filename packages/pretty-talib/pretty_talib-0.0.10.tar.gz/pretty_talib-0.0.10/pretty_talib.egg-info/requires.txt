@@ -1,0 +1,6 @@
+TA_Lib
+jsoncodable
+pandas
+funcmeasure
+numpy
+talib
