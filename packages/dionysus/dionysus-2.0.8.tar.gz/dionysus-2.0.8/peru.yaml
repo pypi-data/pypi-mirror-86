@@ -1,0 +1,18 @@
+imports:
+    hera: ./ext/hera
+    pybind11: ./bindings/python/pybind11
+
+git module hera:
+    url: git@bitbucket.org:grey_narn/hera.git
+    pick:
+        - license.txt
+        - bottleneck
+        - wasserstein
+    drop:
+        - bottleneck/tests
+        - wasserstein/tests
+    rev: b73ed1face2c609958556e6f2b7704bbd8aaa263
+
+git module pybind11:
+    url: gh:pybind/pybind11
+    rev: 028812ae7eee307dca5f8f69d467af7b92cc41c8
