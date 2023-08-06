@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: datatosk
+Version: 1.1.0
+Summary: Python library for fetching data from different sources
+Home-page: https://github.com/bethinkpl/datatosk
+License: Apache-2.0
+Keywords: data
+Author: Miłosz Bednarzak
+Author-email: milosz.bednarzak@bethink.pl
+Maintainer: Miłosz Bednarzak
+Maintainer-email: milosz.bednarzak@bethink.pl
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: google-cloud-bigquery[pyarrow,pandas] (>=2.4.0,<3.0.0)
+Requires-Dist: mysqlclient (>=2.0.1,<3.0.0)
+Requires-Dist: pandas (>=1.0.1,<2.0.0)
+Requires-Dist: pymongo (>=3.11.0,<4.0.0)
+Requires-Dist: sqlalchemy (>=1.3.13,<2.0.0)
+Project-URL: Repository, https://github.com/bethinkpl/datatosk
+Description-Content-Type: text/markdown
+
+<div style="text-align: center"> 
+<img src="datatosk_logo.jpg" alt="Datatosk">
+<h1>Datatosk</h1>
+</div>
+
+> Python library for fetching data from different sources
+
+# Usage
+Datatosk reads configuration from the `environment variables`.
+
+## MySQL
+
+Provide particular enviroment variables:
+```
+MYSQL_HOST_[SOURCE_NAME]=
+MYSQL_PORT_[SOURCE_NAME]=
+MYSQL_USER_[SOURCE_NAME]=
+MYSQL_PASS_[SOURCE_NAME]=
+MYSQL__DB_[SOURCE_NAME]=
+```
+
+## GoogleBigQuery
+
+Provide particular enviroment variables:
+```
+GBQ_PROJECT_ID_[SOURCE_NAME]=
+```
+
