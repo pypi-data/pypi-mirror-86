@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: GitOS
+Version: 0.1.0
+Summary: Package for Using Git and Colab and Drive
+Home-page: https://github.com/rama96/GitOS.git
+Author: Ramamurthi
+Author-email: ramamurthi96@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# GitUtils
+Development of helper functions which can be used through python to commit push / Pull from repo
+
+# Process
+create a config file in the same template as test_config.ini
+
+
+
