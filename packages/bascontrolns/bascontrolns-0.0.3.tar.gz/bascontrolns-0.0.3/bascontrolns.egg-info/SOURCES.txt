@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+bascontrolns/__init__.py
+bascontrolns/bascontrolns.py
+bascontrolns.egg-info/PKG-INFO
+bascontrolns.egg-info/SOURCES.txt
+bascontrolns.egg-info/dependency_links.txt
+bascontrolns.egg-info/requires.txt
+bascontrolns.egg-info/top_level.txt
