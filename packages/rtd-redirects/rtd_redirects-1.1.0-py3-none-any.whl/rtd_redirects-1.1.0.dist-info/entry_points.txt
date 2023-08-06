@@ -1,0 +1,3 @@
+[console_scripts]
+rtd-redirects=rtd_redirects:main
+
