@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>pool.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="commando.html">
+                commando.js
+              </a>
+            
+              
+              <a class="source" href="default.html">
+                default.js
+              </a>
+            
+              
+              <a class="source" href="promise.html">
+                promise.js
+              </a>
+            
+              
+              <a class="source" href="pool.html">
+                pool.js
+              </a>
+            
+              
+              <a class="source" href="utils.html">
+                utils.js
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>pool.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>import DefaultLauncher from <span class="hljs-string">'commando/launcher/default'</span>;
+import PromiseLauncher from <span class="hljs-string">'commando/launcher/promise'</span>;
+import { isArray } from <span class="hljs-string">'commando/utils'</span>;
+
+export <span class="hljs-keyword">default</span> CommandPool;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <h2 id="command-pool-constructor">Command pool constructor</h2>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>Accepts these args:</p>
+<ul>
+<li><code>eventHub</code>: Object to use to bind events to command calls</li>
+<li><code>commandMap</code>: Object which is basically a map to bind event to command call.
+Useful to create binding at startup</li>
+<li><code>options</code>: Object to set some options. Supported options:<ul>
+<li>launcher: String (‘default’, ‘promise’): enable the setup of the launcher
+using the default ones provided. If you want to setup a custom launcher use
+the <code>withLauncher(object)</code> method</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">CommandPool</span><span class="hljs-params">(eventHub, commandMap, options)</span> {</span>
+  <span class="hljs-keyword">var</span> _this = <span class="hljs-keyword">this</span>;
+  <span class="hljs-keyword">this</span>.eventHub = eventHub;
+  <span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> event <span class="hljs-keyword">in</span> commandMap) {
+    _this.addCommand(event, commandMap[event]);
+  }
+  <span class="hljs-keyword">this</span>.options = options;
+};
+
+CommandPool.prototype = {
+  _commands: {},</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>to setup a custom launcher
+return this to enable chaining calls.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  withLauncher: <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(launcher)</span> {</span>
+    <span class="hljs-keyword">this</span>._launcher = launcher;
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <p>execute a <code>command</code> using command launcher</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  execute: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(command, args)</span> {</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>this.launcher().execute(command, args).catch(this.commandError);</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>.launcher().execute(command, args, {error: <span class="hljs-keyword">this</span>.commandError});
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>main error handler to override</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  commandError: <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(error)</span> {</span>},</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>return existing launcher or create a new one if it does not exist
+override this method to provide a new implementation</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  launcher: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> {</span>
+    <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">this</span>._launcher) {
+      <span class="hljs-keyword">this</span>._launcher = <span class="hljs-keyword">new</span> DefaultLauncher();
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._launcher;
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p>internal function to bind an <code>event</code> to a <code>command</code> call</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  _bindCommand: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event, command)</span> {</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.eventHub.on(event, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> {</span>
+      <span class="hljs-keyword">this</span>.execute(command, <span class="hljs-built_in">arguments</span>);
+    }, <span class="hljs-keyword">this</span>);
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-10">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-10">&#182;</a>
+              </div>
+              <p>internal function to unbind an <code>event</code> to a <code>command</code> call</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  _unbindCommand: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event, command)</span> {</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.eventHub.off(event, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> {</span>
+      <span class="hljs-keyword">this</span>.execute(command, <span class="hljs-built_in">arguments</span>);
+    }, <span class="hljs-keyword">this</span>);
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-11">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-11">&#182;</a>
+              </div>
+              <p>internal command which add an (<code>event</code>, <code>command</code>) couple to command pool</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  _addCommand: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event, Command)</span> {</span>
+    <span class="hljs-keyword">var</span> commands;
+    <span class="hljs-keyword">this</span>._bindCommand(event, Command);
+    commands = <span class="hljs-keyword">this</span>.getCommands(event);
+    <span class="hljs-keyword">if</span> (commands) {
+      commands.push(Command);
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">this</span>._commands[event] = [Command];
+    }
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-12">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-12">&#182;</a>
+              </div>
+              <p>internal command which remove an (<code>event</code>, <code>command</code>) couple to command pool
+support also the removal of all commands binded to <code>event</code> by passing a <code>null</code> <code>command</code>.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  _delCommand: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event, command)</span> {</span>
+    <span class="hljs-keyword">var</span> commands;
+    <span class="hljs-keyword">if</span> (!event) {
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+    }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-13">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-13">&#182;</a>
+              </div>
+              <p>unbind <code>command</code></p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>._unbindCommand(event, command);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-14">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-14">&#182;</a>
+              </div>
+              <p>remove commands</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">if</span> (!command) {
+      <span class="hljs-keyword">delete</span> <span class="hljs-keyword">this</span>._commands[event];
+    } <span class="hljs-keyword">else</span> {
+      commands = <span class="hljs-keyword">this</span>.getCommands(event);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-15">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-15">&#182;</a>
+              </div>
+              <p>remove any commands found</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>      <span class="hljs-keyword">var</span> index = commands.indexOf(command);
+      <span class="hljs-keyword">if</span> (-<span class="hljs-number">1</span> != index) {
+        commands.splice(index, <span class="hljs-number">1</span>);
+      }
+    }
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-16">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-16">&#182;</a>
+              </div>
+              <p>find the commands binded to an <code>event</code></p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  getCommands: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> {</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._commands[event];
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-17">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-17">&#182;</a>
+              </div>
+              <p>add <code>commands</code> to pool and bind them to <code>event</code></p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  addCommand: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event, commands)</span> {</span>
+    <span class="hljs-keyword">var</span> commandsArr,
+      _this = <span class="hljs-keyword">this</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-18">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-18">&#182;</a>
+              </div>
+              <p>nothing to do</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">if</span> (!event) {
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+    }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-19">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-19">&#182;</a>
+              </div>
+              <p>add support for single command</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">if</span> (!isArray(commands)) {
+      commandsArr = [commands];
+    }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-20">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-20">&#182;</a>
+              </div>
+              <p>now add the commands</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    commandsArr.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(command)</span> {</span>
+      _this._addCommand(event, command);
+    });
+
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-21">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-21">&#182;</a>
+              </div>
+              <p>replace <em>all</em> existing <code>commands</code> binded to an <code>event</code></p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  setCommand: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event, commands)</span> {</span>
+    <span class="hljs-keyword">if</span> (!event) {
+      <span class="hljs-keyword">return</span>;
+    }
+    <span class="hljs-keyword">this</span>.delCommand(event);
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.addCommand(event, commands);
+  },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-22">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-22">&#182;</a>
+              </div>
+              <p>delete <code>commands</code> binded to <code>event</code></p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  delCommand: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event, commands)</span> {</span>
+    <span class="hljs-keyword">var</span> commandsArr,
+      _this = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">if</span> (!event) {
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+    }
+    <span class="hljs-keyword">if</span> (!commands) {
+      <span class="hljs-keyword">this</span>._delCommand(event);
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">if</span> (isArray(commands)) {
+        commandsArr = [commands];
+      }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-23">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-23">&#182;</a>
+              </div>
+              <p>now delete the commands</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>      commandsArr.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(command)</span> {</span>
+        _this._delCommand(event, command);
+      });
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+  }
+};</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>
