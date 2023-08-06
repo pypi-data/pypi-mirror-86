@@ -1,0 +1,6 @@
+README.md
+setup.py
+enpix.egg-info/PKG-INFO
+enpix.egg-info/SOURCES.txt
+enpix.egg-info/dependency_links.txt
+enpix.egg-info/top_level.txt
