@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cvebased
+Version: 0.1.7
+Summary: A utility library to ease interactions with cvebase.com data
+Home-page: https://www.cvebase.com/
+License: MIT
+Keywords: cvebase
+Author: cvebase
+Author-email: hello@cvebase.com
+Maintainer: cvebase
+Maintainer-email: hello@cvebase.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ruamel.yaml (>=0.16.12,<0.17.0)
+Project-URL: Repository, https://github.com/cvebase/cvebased
+Description-Content-Type: text/markdown
+
+# cvebased
