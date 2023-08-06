@@ -1,0 +1,5 @@
+
+[dev]
+tox==3.*
+wheel==0.*
+twine
