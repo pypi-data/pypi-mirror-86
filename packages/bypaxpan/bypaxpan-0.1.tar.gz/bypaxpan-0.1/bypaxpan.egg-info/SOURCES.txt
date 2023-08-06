@@ -1,0 +1,8 @@
+README.md
+setup.py
+bypaxpan/__init__.py
+bypaxpan.egg-info/PKG-INFO
+bypaxpan.egg-info/SOURCES.txt
+bypaxpan.egg-info/dependency_links.txt
+bypaxpan.egg-info/requires.txt
+bypaxpan.egg-info/top_level.txt
