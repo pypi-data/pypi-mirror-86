@@ -1,0 +1,3 @@
+[console_scripts]
+inferfuzzy=inferfuzzy.main:app
+
