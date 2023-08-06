@@ -1,0 +1,14 @@
+package_vehicules/__init__.py,sha256=oZhV0tL3fs-7Dl4WAG62i_Y1iZhmBrDB_CRwXxrmG1g,175
+package_vehicules/plane.py,sha256=0UOafHelNa93Agv441Nv6aTyiy9TL2BDbeWhf2E7s5o,97
+package_vehicules/land/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_vehicules/land/green.py,sha256=VNBgOFbWcPRxXQFBH7yBKu23H544I3IFSmetrZNzoLE,228
+package_vehicules/land/motor.py,sha256=OowAD8Guzi5vPNYKaq9TQH8qCAlJ4-wLIJh9fAhDRJk,70
+package_vehicules/sea/__init__.py,sha256=PmnQrRVRHzUfdgVpIUGWFMexuqLjyet2oIPhWJP9Vbs,59
+package_vehicules/sea/motor.py,sha256=wZsDt89gOu3FX8deYLrGd0KUkSNPXPEDlmFDPlhjbiE,91
+package_vehicules/sea/sail.py,sha256=h_Rl7sCZEWAwHSapbk1mDvpDM2kkLfLphs_d5h9ixxg,359
+package_vehicules-1.0.0.data/data/vehicule_speed/speed.dat,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_vehicules-1.0.0.dist-info/METADATA,sha256=DaAy_6qsauvIymqnuDShybVhk_1nS53Ec5vNIF8WGSU,1355
+package_vehicules-1.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+package_vehicules-1.0.0.dist-info/entry_points.txt,sha256=lexK7RzT1xMyCvalZCkEXUV_pXjWKxyNU2NGRfSYmuo,40
+package_vehicules-1.0.0.dist-info/top_level.txt,sha256=jmVpKQDf3hMfG741XwuMs3dusrGwOPE7uOi-xIxGLGE,18
+package_vehicules-1.0.0.dist-info/RECORD,,

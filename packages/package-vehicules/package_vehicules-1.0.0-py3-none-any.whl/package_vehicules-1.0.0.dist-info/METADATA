@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: package-vehicules
+Version: 1.0.0
+Summary: Tutorial Python Packaging M2BINF
+Home-page: http://pedago-service.univ-lyon1.fr:2325/POO/scratch_package
+Author: Y.R. Teacher
+Author-email: m2binf@univ-lyon1.fr
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/pypa/sampleproject/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/pypa/sampleproject/
+Keywords: vehicules,air,sea
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Requires-Dist: requires
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# A package to learn how to distribute python code
+
+```python
+tutorial.test()
+```
+
+
