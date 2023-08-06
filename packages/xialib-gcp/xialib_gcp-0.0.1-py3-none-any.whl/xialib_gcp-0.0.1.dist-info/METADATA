@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: xialib-gcp
+Version: 0.0.1
+Summary: X-I-A Library
+Home-page: https://github.com/X-I-A/xialib-gcp
+Author: Soral
+Author-email: soral@x-i-a.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: xialib
+Requires-Dist: google-auth
+Requires-Dist: gcsfs
+
+# X-I-A Library for Google Cloud Platform
+Xeed-Insight-Agent Data Solution Library - Google Cloud Platform extention
+## Introduction
+This library defines the basic units of Google Cloud Platform of Xeed, Insight and Agent Solution. 
+### Storer
+*  Google Cloud Storage Storer
+### Depositor
+* 
+

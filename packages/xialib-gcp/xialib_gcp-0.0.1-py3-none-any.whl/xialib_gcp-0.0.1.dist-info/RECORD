@@ -1,0 +1,8 @@
+xialib_gcp/__init__.py,sha256=UvpC9nxtOPw44fTmsunXn177vuVMuwVSK1P-6oaKtYA,135
+xialib_gcp/storers/__init__.py,sha256=QwR0TGT3NHh5OvEMvKqSAEYhs45130qMp6QUXTyibIw,80
+xialib_gcp/storers/gcs_storer.py,sha256=ETxToO_-6BlddvyeBmVauZMAXfR73mlPux2FR1b3_bo,1245
+xialib_gcp-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+xialib_gcp-0.0.1.dist-info/METADATA,sha256=RY4yykn-wNBv9PFKeTSv8M_mZiB30NND2UfboDjhCYk,802
+xialib_gcp-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+xialib_gcp-0.0.1.dist-info/top_level.txt,sha256=aS_qHxwRni9542SO47YYHPcHKIwcgMUP_yfXi9cUVIw,11
+xialib_gcp-0.0.1.dist-info/RECORD,,
