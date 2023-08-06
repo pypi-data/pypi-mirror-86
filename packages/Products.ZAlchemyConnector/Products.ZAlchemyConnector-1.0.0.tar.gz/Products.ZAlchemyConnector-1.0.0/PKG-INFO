@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Products.ZAlchemyConnector
+Version: 1.0.0
+Summary: Connector and Query object for zope & sqlalchemy
+Home-page: https://github.com/huine/ZAlchemyConnector
+Author: Gabriel Diniz Gisoldo
+Author-email: gabrielgisoldi@gmail.com
+License: UNKNOWN
+Description: # ZAlchemyConnector
+        Connector and Query object for zope &amp; sqlalchemy
+        
+Keywords: Zope Database adapter SQLAlchemy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Zope
+Classifier: Framework :: Zope :: 4
+Classifier: Framework :: Zope :: 5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
