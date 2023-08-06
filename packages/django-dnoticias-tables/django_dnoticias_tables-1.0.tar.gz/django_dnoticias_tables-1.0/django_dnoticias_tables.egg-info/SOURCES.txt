@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_dnoticias_tables.egg-info/PKG-INFO
+django_dnoticias_tables.egg-info/SOURCES.txt
+django_dnoticias_tables.egg-info/dependency_links.txt
+django_dnoticias_tables.egg-info/top_level.txt
+dnoticias_tables/__init__.py
+dnoticias_tables/apps.py
+dnoticias_tables/utils.py
