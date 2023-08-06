@@ -1,0 +1,11 @@
+oci/__init__.py,sha256=pN8JXk4oIhsrhugcV1P51yMY3x9V9ZiUpirivhVloWA,7490
+oci/_util.py,sha256=0BYg2kqiMH811mT7qKJQmH_8ec8we0XDFlb23or7v6o,8685
+oci/auth.py,sha256=v-EKZe6kSGxsB_ZJfbnshTgGGDqVLUARMBZmoJiNqQI,3193
+oci/model.py,sha256=RuqaPeL9BnDKwjcSBp8rfGMOu5a_NmoefqrMVnBdh4A,485
+oci/util.py,sha256=AF6yQNkIlmnsBTh3BJDPIXZrgEsueDSLEqkiozbXwRk,737
+gardener_oci-1.924.0.dist-info/LICENSE.md,sha256=vyUwddAe_QeM16VSl653nLjInNWYW1G0Ai9GNUjlBe0,17007
+gardener_oci-1.924.0.dist-info/METADATA,sha256=3-mLosOfIwjKJ0MYnUaRGucE8Y5sOtY2gz8FBApdAvA,260
+gardener_oci-1.924.0.dist-info/NOTICE.md,sha256=fadLo4qkOfLIElP2kXAU_cIKF4-oR941p7IaIdfjZnM,132
+gardener_oci-1.924.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gardener_oci-1.924.0.dist-info/top_level.txt,sha256=pgglgZ-UkgKkBLQ5llsxngMQuoQAv7iMaJvRTJJccVg,4
+gardener_oci-1.924.0.dist-info/RECORD,,
