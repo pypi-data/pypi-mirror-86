@@ -1,0 +1,16 @@
+README
+setup.cfg
+setup.py
+osa/__init__.py
+osa/client.py
+osa/message.py
+osa/method.py
+osa/wsdl.py
+osa/xmlnamespace.py
+osa/xmlparser.py
+osa/xmlschema.py
+osa/xmltypes.py
+osa.egg-info/PKG-INFO
+osa.egg-info/SOURCES.txt
+osa.egg-info/dependency_links.txt
+osa.egg-info/top_level.txt
