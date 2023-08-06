@@ -1,0 +1,16 @@
+import mariadb 
+
+c=mariadb.connect()
+cursor=c.cursor()
+cursor.execute("SELECT /*! ? */", (1,))
+row= cursor.fetchall()
+print(row)
+cursor.execute("SELECT /*M! ? */", (2,))
+row= cursor.fetchall()
+print(row)
+cursor.execute("SELECT /*!50301 ? */", (4,))
+row= cursor.fetchall()
+print(row)
+cursor.execute("SELECT /*M!150702 ? */", (3,))
+row= cursor.fetchall()
+print(row)
