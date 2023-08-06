@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: eslite-movie
+Version: 1.0.1
+Summary: eslite movie crawler
+Home-page: https://github.com/CliffLin/eslite-movie
+Author: Cliff Lin
+Author-email: zylintw@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (==4.6.3)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: tabulate (==0.8.7)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: texttable (==1.6.2)
+
+## ESLITE Movie
+
+### Installation
+`$ pip install eslite-movie`
+
+### Usage
+`$ eslite-movie`
+
+
