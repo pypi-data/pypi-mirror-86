@@ -1,0 +1,2 @@
+pyarrow>=2
+strawberry-graphql>=0.42
