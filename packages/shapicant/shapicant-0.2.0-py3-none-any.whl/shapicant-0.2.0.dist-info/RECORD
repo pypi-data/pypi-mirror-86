@@ -1,0 +1,11 @@
+shapicant/__init__.py,sha256=seqQD0ks0BxYqrz-7cDRjFsQEwifV02OwbkZQmUTIW8,326
+shapicant/_base.py,sha256=XyWHDllQ4Y-1KJIGwr2ArZdty5XXzyDS77houvQSoKs,3664
+shapicant/_pandas_selector.py,sha256=jW5iMlCktmLommGj5GJRKnJ7AQOtmB_O1MzB4dnqdyU,8267
+shapicant/_spark_selector.py,sha256=Mhxit19hH3hLkfQkm__667iXUtr8vidrpL5ltrO43NA,12782
+shapicant/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shapicant/tests/test_selector.py,sha256=ZVijqpOc5fx6UmRbHXjiv-tqV9YuMM6vDXl8x7ROVr0,1673
+shapicant-0.2.0.dist-info/LICENSE,sha256=GGZ6FNHELfTCNf5ri4cdG-LNr3yBwjMoerJnb4htVfs,1094
+shapicant-0.2.0.dist-info/METADATA,sha256=L7d2wL2uWey7Zei1lm1g82PJrwT0nmHmKzJRpChlhQ0,10599
+shapicant-0.2.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+shapicant-0.2.0.dist-info/top_level.txt,sha256=aTVY6B5bzBYO7ec-8KT5ovIpdtOFluDSfF1T7IPnrR4,10
+shapicant-0.2.0.dist-info/RECORD,,
