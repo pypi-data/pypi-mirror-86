@@ -1,0 +1,14 @@
+mt5b3/__init__.py,sha256=fCf2fOyyF3iapKPPtsTzMek540PInL4jSv9McQFM8Jo,713
+mt5b3/ai_utils.py,sha256=GZbmTwQtBpwEsCtLIWV21-yJVBy78kn1o3hh6MVMrTs,6160
+mt5b3/backtest.py,sha256=6r1jN2c2TDlGUYj2I8AL9syj4AkbCqp3QeOM-qK1EzM,17186
+mt5b3/broker.py,sha256=3DGFVCKWIDTxF-tXExCK7phNdisljHtmwboBQH22ElI,12553
+mt5b3/finmath.py,sha256=fzV6tJSnM1qBV0AFMQ6HK96xjNECZAFJuKbeBAA-748,4105
+mt5b3/mt5b3.py,sha256=o-YSlL5zp81sMUHvIYGXRy_hIDNUQTn3pKsEVB4tshI,22854
+mt5b3/operations.py,sha256=3bUZdlI5CnNrWi9otAkfCuCN8c58rUivxda3t7dK_IQ,9580
+mt5b3/sampleTraders.py,sha256=q7vxXCa2_I4rgeejSb9ej7oQU3dCys6dQc-SmseUymc,4862
+mt5b3/tech.py,sha256=RQAxKGh6AHDUsGXa2LJ3surnRzHC22Jdqa_nGO8DsmI,648
+mt5b3-0.0.2.dist-info/LICENSE.txt,sha256=eiXMbvJl4WqICHMULXeKAG5kWvn6TZ88KvF_zzKnVXc,2400
+mt5b3-0.0.2.dist-info/METADATA,sha256=GISoHpvGMm8cqz6tdXzo1CE2TQA1idnLJ4FyPTum0Cc,783
+mt5b3-0.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+mt5b3-0.0.2.dist-info/top_level.txt,sha256=-PTvC8L_H8GxcltrS4optotomZg1y1dr1BqDlLK3B2s,6
+mt5b3-0.0.2.dist-info/RECORD,,
