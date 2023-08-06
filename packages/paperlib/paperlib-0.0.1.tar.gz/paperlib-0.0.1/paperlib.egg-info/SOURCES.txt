@@ -1,0 +1,5 @@
+setup.py
+paperlib.egg-info/PKG-INFO
+paperlib.egg-info/SOURCES.txt
+paperlib.egg-info/dependency_links.txt
+paperlib.egg-info/top_level.txt
