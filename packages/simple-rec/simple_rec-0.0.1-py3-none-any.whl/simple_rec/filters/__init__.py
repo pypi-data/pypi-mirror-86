@@ -1,0 +1,1 @@
+from simple_rec.filters.collaborative import CollaborativeFilter
