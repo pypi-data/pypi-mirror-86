@@ -1,0 +1,2 @@
+bitstring~=3.1
+iotile-core~=5.0
