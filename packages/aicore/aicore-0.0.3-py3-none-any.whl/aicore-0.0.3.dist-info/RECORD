@@ -1,0 +1,15 @@
+aicore/__init__.py,sha256=IXNbmnHzi5oaFT-r299seKF7iQ_UqudFUTO9e-IAogw,51
+aicore/_version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+aicore/ml/__init__.py,sha256=-VX4XzcVAEI82agRBna-hd7SP-w_CJka1-zU9Vk0q2g,32
+aicore/ml/data.py,sha256=MvYNemkWtTTzDKIFmtME0eVUVBZ2CQR-3HwlI7ajsUM,3690
+aicore/ml/plot.py,sha256=LT6Fb3y6MSrR08-IbP-R_gJuVP4CHXi7_R2q6MP9v8k,2468
+aicore/ml/graph/__init__.py,sha256=Ul6oQ8phQZtS1S-MF78YXESj2rsytHk7JMHgU9VR0hE,127
+aicore/ml/graph/_graph.py,sha256=OANt4zndR3mgZgH2CAf93cGfxLtWCwi2OkGR45sgjJ8,5469
+aicore/ml/graph/_operations.py,sha256=Dg7U-GBxaIdViU_rlY09dVEpUVs01OeTSNjMx9Oys9k,7729
+aicore/ml/graph/_parameter.py,sha256=T87kFAWYYhMivb23GLIJqe6IQb5NOEcFmuaKBQbtQu4,3240
+aicore/ml/graph/models.py,sha256=PJ6SYZxoQ3nTxFMM6eAj8H4LBVLTja4-g74Jm0PU15E,2560
+aicore/ml/graph/optimizers.py,sha256=JeV7yI0gV3jS3GDnuhNZREcDcXlnh7d-gKesvmSVoOw,1745
+aicore-0.0.3.dist-info/METADATA,sha256=q_RvHNz-J1bjlSfy_dSLljO5WCpmDUjhCIdvwBCbCiE,1232
+aicore-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aicore-0.0.3.dist-info/top_level.txt,sha256=e2uqZIrUKlK2jeezhMNDCzUxCH2h9l2O-AblDBIIhn8,7
+aicore-0.0.3.dist-info/RECORD,,
