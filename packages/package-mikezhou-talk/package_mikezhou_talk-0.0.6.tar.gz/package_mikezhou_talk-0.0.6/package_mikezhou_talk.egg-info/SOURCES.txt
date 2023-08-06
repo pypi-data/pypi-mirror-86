@@ -1,0 +1,8 @@
+README.rst
+setup.py
+package_mikezhou_talk/__init__.py
+package_mikezhou_talk/main.py
+package_mikezhou_talk.egg-info/PKG-INFO
+package_mikezhou_talk.egg-info/SOURCES.txt
+package_mikezhou_talk.egg-info/dependency_links.txt
+package_mikezhou_talk.egg-info/top_level.txt
