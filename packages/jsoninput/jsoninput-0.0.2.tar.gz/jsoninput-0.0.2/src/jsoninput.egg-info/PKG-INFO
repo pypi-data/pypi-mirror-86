@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: jsoninput
+Version: 0.0.2
+Summary: A utility for loading and checking JSON files against a schema
+Home-page: https://github.com/rileychall/json-input
+Author: Riley Hall
+Author-email: riley.hall.va@gmail.com
+License: UNKNOWN
+Description: # json-input
+        
+        A utility for loading and checking JSON files against a schema.
+        
+        [![PyPI](https://img.shields.io/pypi/v/jsoninput)](https://pypi.org/project/jsoninput/) [![Conda](https://img.shields.io/conda/v/hallrc/jsoninput)](https://anaconda.org/hallrc/jsoninput) 
+        
+        ## Installation
+        
+        PIP:
+        ``` plaintext
+        pip install jsoninput
+        ```
+        
+        Conda:
+        ``` plaintext
+        conda install -c hallrc jsoninput
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
