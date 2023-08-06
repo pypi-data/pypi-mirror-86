@@ -1,0 +1,17 @@
+cloudamqp:
+  host: xxxxxxxxxxxxxxxx
+  user: xxxxxxxxxx
+  password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  vhost: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+rabbitmq:
+  host: localhost
+  user: guest
+  password: guest
+  vhost: /
+  
+docker:
+  host: rabbitmq
+  user: guest
+  password: guest
+  vhost: /
