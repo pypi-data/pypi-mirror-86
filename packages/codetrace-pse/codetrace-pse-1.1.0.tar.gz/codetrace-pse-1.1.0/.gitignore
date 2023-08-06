@@ -1,0 +1,18 @@
+# ide files
+.idea/
+.venv/
+.*pyc
+__pycache__/
+
+
+# build files
+.eggs/
+/build
+/dist
+/*.egg-info
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*

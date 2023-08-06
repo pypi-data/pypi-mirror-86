@@ -1,0 +1,65 @@
+include:
+    - local: '.env.yml'
+
+stages:
+  - build
+  - test
+  - deploy
+
+build_installer:
+  image: python:3.7
+  stage: build
+  script:
+    - pip install setuptools
+    - pip install wheel
+    - python setup.py sdist bdist_wheel
+  artifacts:
+    paths:
+      - dist/*
+
+unittest37:
+  stage: test
+  image: python:3.7
+  except:
+    - master
+  script:
+    - pip install tox
+    - tox -e py37
+
+unittest38:
+  stage: test
+  image: python:3.8
+  except:
+    - master
+  script:
+    - pip install tox
+    - tox -e py38
+
+publish_pypi:
+  stage: deploy
+  image: python:3.8
+  only:
+    - master
+  script:
+    - pip install twine
+    - twine upload dist/* --repository-url $PYPI_URL -u $PYPI_USER -p $PYPI_PW
+
+publish_server:
+  stage: deploy
+  tags:
+    - codetrace-demo
+  script:
+    - hostname
+    - ipconfig
+    - Copy-Item -Path dist/* -Destination "$SERVER\$DUMP_FILE"
+
+upload_to_s3:
+  stage: deploy
+  tags:
+    - codetrace-demo
+  when: manual
+  script:
+    - pwd
+    - cd scripts
+    - pwd
+    - .\UploadTo-S3Bucket.ps1
