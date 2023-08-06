@@ -1,0 +1,6 @@
+include LICENCE_GPLv3.txt
+include README.txt
+include cbmpy/*
+include cbmpy/models/*
+include cbmpy/nosetests/*
+include cbmpy/fluxmodules/*
