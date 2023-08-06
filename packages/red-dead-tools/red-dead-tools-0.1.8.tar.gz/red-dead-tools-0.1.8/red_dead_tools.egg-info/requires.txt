@@ -1,0 +1,4 @@
+gspread
+attrs
+httpx
+decopatch
