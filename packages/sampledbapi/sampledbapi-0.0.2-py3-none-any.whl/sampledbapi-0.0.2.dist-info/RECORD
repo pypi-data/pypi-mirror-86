@@ -1,0 +1,14 @@
+sampledbapi/__init__.py,sha256=cGPvdf-hAeiEd_lns4WXq49aZ3j0HBf51KKSjjlXjgk,725
+sampledbapi/actions.py,sha256=5YJEiCQgVL3n8ILwl3HtTmeuX9g6ZZF-L00As1Rl7yo,393
+sampledbapi/actiontypes.py,sha256=8JilBEGGUfzaZ3pLRpnonkV7c9Oyvacpyx05kyqA9rw,399
+sampledbapi/files.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sampledbapi/instruments.py,sha256=qbjPHrY4K1i1Y8PeBJrAIQwmevIVLA7bfFFu7IqCwFk,3905
+sampledbapi/locations.py,sha256=q5GtRyZ-Jt5BSP9pzWMIWz5nHgu84XXUK1wpR47gVZo,409
+sampledbapi/objects.py,sha256=o0ZzToSgAep3xj7jucCjOC06x2UhgdQgWgtFRf4JR8Q,4626
+sampledbapi/users.py,sha256=ot-tQtbdhCfy-xDj2K94X4nKpp0j-c_C5wVXdi6SSXk,482
+sampledbapi-0.0.2.dist-info/LICENSE,sha256=PX9GujZ0bUHnX083M7YqB8Q8Co2SWWtpSyKJr9Wyd88,1067
+sampledbapi-0.0.2.dist-info/METADATA,sha256=O06Y1pgRvz9P1p-66JBWI5AcRNn1CwMW2JucBl5SWGQ,1027
+sampledbapi-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sampledbapi-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+sampledbapi-0.0.2.dist-info/top_level.txt,sha256=ZfvJfyVXSFAaiOQRIjJg36z1pG00l1-dckHFZyMuoG4,12
+sampledbapi-0.0.2.dist-info/RECORD,,
