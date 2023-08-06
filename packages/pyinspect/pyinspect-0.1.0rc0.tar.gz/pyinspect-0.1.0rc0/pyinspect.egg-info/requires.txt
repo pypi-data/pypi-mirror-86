@@ -1,0 +1,9 @@
+rich>=9.2.0
+numpy
+google
+bs4
+click
+
+[dev]
+coverage-badge
+click
