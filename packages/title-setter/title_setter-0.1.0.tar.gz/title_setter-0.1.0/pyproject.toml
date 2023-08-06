@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "title_setter"
+version = "0.1.0"
+description = ""
+authors = ["azartoosa <azartoosa@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pathlib = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
