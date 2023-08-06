@@ -1,0 +1,3 @@
+[console_scripts]
+pytrains = pytrains.cli:main
+
