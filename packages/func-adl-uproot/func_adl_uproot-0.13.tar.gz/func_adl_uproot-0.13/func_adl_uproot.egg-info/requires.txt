@@ -1,0 +1,4 @@
+awkward0>=0.12.17
+numpy
+qastle>=0.7
+uproot3>=3.6
