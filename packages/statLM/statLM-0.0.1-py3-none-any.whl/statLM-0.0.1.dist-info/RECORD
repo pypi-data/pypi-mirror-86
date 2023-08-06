@@ -1,0 +1,12 @@
+statLM/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statLM/ngram.py,sha256=8VKpWUg93X884DXEHGfHmfwqnpGAJqP1GMAY-xXXlLk,7875
+statLM/statistical_models.py,sha256=giQpyfWTbshdkO33Xp8H2bAs9804W0KMeWWqOhzG5EU,7519
+tests/__init__.py,sha256=feBwfiWCpvMRNOvTAyDn9sKLB3V5LCovJnFH4E4N3Bg,13
+tests/context.py,sha256=dZPWpzT7QZtCzKGcEDXlSLmqRgC3DMRwqmqUpAM8beQ,198
+tests/test.py,sha256=o_aeOx_RjjvDC4M3HC3bw1AsD6PuUP-EmV4x0w9hbmw,819
+tests/test_models.py,sha256=W88F8pPhukkL83sH0sUfGLoSF7YQ-Xad1erks1kJmvs,1358
+statLM-0.0.1.dist-info/LICENSE.txt,sha256=SIH4r8w1Qee67SgQSwtQWOA4L6gAZsE0x-7bmkoDdAE,1289
+statLM-0.0.1.dist-info/METADATA,sha256=9STtrEG_RfqLQifSSo-i40fElrPIAz-HvuliQAuJZzQ,1499
+statLM-0.0.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+statLM-0.0.1.dist-info/top_level.txt,sha256=PfBMAzUhvbs3lCpmDIFGBpNiRqPn7QiZjQxLZuytiZo,13
+statLM-0.0.1.dist-info/RECORD,,
