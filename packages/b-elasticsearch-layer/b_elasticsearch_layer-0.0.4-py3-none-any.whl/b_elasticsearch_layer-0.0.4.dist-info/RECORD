@@ -1,0 +1,12 @@
+b_elasticsearch_layer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b_elasticsearch_layer/layer.py,sha256=KJGEHqsdd3Q6yZNZI2YwwuWMGh77Jx5gXanxpaJKBNs,1791
+b_elasticsearch_layer/source/__init__.py,sha256=E_31_HPFuRCgvpfcAzPp3kshXaXEXbhtlIadfoW4Kck,61
+b_elasticsearch_layer/source/requirements.txt,sha256=sh6MvX7tXRvATv9MN3XfiyhLd1X2oBYKU1OoijABjKU,84
+b_elasticsearch_layer_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b_elasticsearch_layer_test/testing_app.py,sha256=X4uMIZB0iV6omRb0cZr9YkyDZ6gM_5DIih2dazoXgDg,340
+b_elasticsearch_layer_test/testing_infrastructure.py,sha256=tYXSq9jgRu6EOG3LxDB-2yXBKGidJhqwxSrHr-lX7oE,707
+b_elasticsearch_layer-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+b_elasticsearch_layer-0.0.4.dist-info/METADATA,sha256=UwKqVHv6rr1U6ZFvVhFPbbZHtnNOjmSKQeWZ4ST9BOY,903
+b_elasticsearch_layer-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+b_elasticsearch_layer-0.0.4.dist-info/top_level.txt,sha256=ZIYeePfgm40xI2XOYG2Ksey-9SHhh_VoPzGaWpWbUgE,49
+b_elasticsearch_layer-0.0.4.dist-info/RECORD,,
