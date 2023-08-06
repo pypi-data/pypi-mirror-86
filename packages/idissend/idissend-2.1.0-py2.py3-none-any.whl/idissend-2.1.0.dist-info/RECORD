@@ -1,0 +1,16 @@
+idissend/__init__.py,sha256=kfqjRphQ2-uZkgWWPghuLu__RWO8Mvmn3y33ttFKpoo,159
+idissend/admin.py,sha256=SNk6iDsVIRB3ixetzV_L7CZUslDSUI5nuuay5y5EgVQ,4014
+idissend/cli.py,sha256=B8B9EyAul3H7xAmXbEbi_BOLFeOG2FHlpOMf4gIw6xk,412
+idissend/core.py,sha256=gEeYdHnJNyaNTgreknL9I1EBIkUJjANBA6SWNEbc9gU,10119
+idissend/exceptions.py,sha256=0aXMtzxgjqyBvG-xZ7Mrpj5Cx15aCUWS1MN-tm_4WtU,92
+idissend/orm.py,sha256=a8dGdDol2qrUMq00_kIBNlUW6Azyjxg-JZOgbfFcgoQ,748
+idissend/persistence.py,sha256=ZKi8PFxo4HnEMk6eZ0BgcWHxAlFD4BxC8gXU6PS_YtQ,5545
+idissend/pipeline.py,sha256=gxEpOyAnw_uu5GmJZVszRm5T9YYLfV5zwrwZILh9hWk,7601
+idissend/stages.py,sha256=KA62YQGEfdqGv7EGGx3Z_cSZXKPRfM1pKq55qLOliBY,13659
+idissend-2.1.0.dist-info/AUTHORS.rst,sha256=nwKEhICVC57CxK8bjbFb_QFiwUjVJ6GE47yJ49Q8jys,163
+idissend-2.1.0.dist-info/LICENSE,sha256=Gapin0nX4unz58AMMogTEuggcyk9AZvsbA3Rd4QL5QU,1578
+idissend-2.1.0.dist-info/METADATA,sha256=MLE3MkjxAJ9yjKxdAShEPcKnHb67gWQcUdIfb2QoXMc,2310
+idissend-2.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+idissend-2.1.0.dist-info/entry_points.txt,sha256=gWW6lzYb-zpaiw2QVp14lHY0KqGm4DGNUtDBu4Pf-_8,48
+idissend-2.1.0.dist-info/top_level.txt,sha256=gESfWwgV4atGUa5Q9tVnn9dHdBWLvFgNLppIYFCIinc,9
+idissend-2.1.0.dist-info/RECORD,,
