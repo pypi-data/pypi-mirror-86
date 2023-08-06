@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ravioliboosting
+Version: 0.0.2
+Summary: level tems
+Home-page: https://github.com/thiloschild/
+Author: Thilo Schild
+Author-email: work@thilo-schild.de
+License: MIT
+Description: # ravioliboosting
+        
+        levels tems
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ravioliboosting.
+        
+        ```bash
+        pip install ravioliboosting
+        ```
+        
+        ## Usage
+        
+        ask me
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
