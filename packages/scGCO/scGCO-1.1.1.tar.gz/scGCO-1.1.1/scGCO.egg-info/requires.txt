@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+scipy
+sklearn
+seaborn
+parmap
+Cython
+pygco
+tqdm
+networkx
+shapely
+statsmodels
+hdbscan
+pillow
+scikit-image
+pysal==2.0.0
