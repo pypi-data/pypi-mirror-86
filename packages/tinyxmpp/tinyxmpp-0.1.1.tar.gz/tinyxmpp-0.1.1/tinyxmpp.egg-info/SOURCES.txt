@@ -1,0 +1,8 @@
+README.md
+setup.py
+tinyxmpp/__init__.py
+tinyxmpp.egg-info/PKG-INFO
+tinyxmpp.egg-info/SOURCES.txt
+tinyxmpp.egg-info/dependency_links.txt
+tinyxmpp.egg-info/requires.txt
+tinyxmpp.egg-info/top_level.txt
