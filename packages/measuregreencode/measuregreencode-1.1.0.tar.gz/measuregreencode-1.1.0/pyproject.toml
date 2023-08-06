@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "measuregreencode"
+author = "David Harris"
+author-email = "d_h449@txstate.edu"
+home-page = "https://git.txstate.edu/d-h449/measure"
+
