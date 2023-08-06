@@ -1,0 +1,8 @@
+README.md
+setup.py
+data_to_html/__init__.py
+data_to_html/main.py
+data_to_html_connosieurofdoom.egg-info/PKG-INFO
+data_to_html_connosieurofdoom.egg-info/SOURCES.txt
+data_to_html_connosieurofdoom.egg-info/dependency_links.txt
+data_to_html_connosieurofdoom.egg-info/top_level.txt
