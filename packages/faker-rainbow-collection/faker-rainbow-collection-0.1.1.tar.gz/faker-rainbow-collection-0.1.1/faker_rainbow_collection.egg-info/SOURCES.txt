@@ -1,0 +1,12 @@
+setup.py
+faker_rainbow_collection/__init__.py
+faker_rainbow_collection/providers.py
+faker_rainbow_collection.egg-info/PKG-INFO
+faker_rainbow_collection.egg-info/SOURCES.txt
+faker_rainbow_collection.egg-info/dependency_links.txt
+faker_rainbow_collection.egg-info/requires.txt
+faker_rainbow_collection.egg-info/top_level.txt
+faker_rainbow_collection/data/army.yml
+faker_rainbow_collection/data/education.yml
+faker_rainbow_collection/data/plants.yml
+faker_rainbow_collection/data/sport.yml

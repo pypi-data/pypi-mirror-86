@@ -1,0 +1,5 @@
+rstr>=2.2.6
+pyyaml>=5.3.1
+faker>=4.17.1
+faker-vehicle>=0.2.0
+russian-names>=0.1.2
