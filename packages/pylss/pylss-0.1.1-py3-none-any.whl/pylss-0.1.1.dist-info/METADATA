@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pylss
+Version: 0.1.1
+Summary: Python implementation of the common unix `ls` command
+Home-page: https://github.com/saptarshibasu15/py-ls.git
+Author: Saptarshi Basu
+Author-email: 123saptarshi.basu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pylss
+
+Python implementation of `ls` command
+
+## **`ls is a command to list computer files in Unix and Unix-like operating systems.`**
+
+## Usage
+
+_`pip install pylss`_
+
+- in terminal
+  ```py
+  python -u pylss
+  ```
+- importing as a function
+  ```py
+  from pylss import getDirList
+  ```
+
+
