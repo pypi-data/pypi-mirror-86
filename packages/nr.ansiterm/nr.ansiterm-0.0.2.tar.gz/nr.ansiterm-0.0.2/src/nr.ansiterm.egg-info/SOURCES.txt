@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+package.yml
+setup.py
+src/nr/__init__.py
+src/nr/ansiterm.py
+src/nr.ansiterm.egg-info/PKG-INFO
+src/nr.ansiterm.egg-info/SOURCES.txt
+src/nr.ansiterm.egg-info/dependency_links.txt
+src/nr.ansiterm.egg-info/requires.txt
+src/nr.ansiterm.egg-info/top_level.txt
+src/nr.ansiterm.egg-info/zip-safe
