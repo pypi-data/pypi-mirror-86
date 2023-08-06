@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+genesyscloudcli.egg-info/PKG-INFO
+genesyscloudcli.egg-info/SOURCES.txt
+genesyscloudcli.egg-info/dependency_links.txt
+genesyscloudcli.egg-info/entry_points.txt
+genesyscloudcli.egg-info/requires.txt
+genesyscloudcli.egg-info/top_level.txt
