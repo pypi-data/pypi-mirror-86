@@ -1,0 +1,5 @@
+setup.py
+nerEvaFunc.egg-info/PKG-INFO
+nerEvaFunc.egg-info/SOURCES.txt
+nerEvaFunc.egg-info/dependency_links.txt
+nerEvaFunc.egg-info/top_level.txt
