@@ -1,0 +1,5 @@
+================
+collective.debug
+================
+
+User documentation

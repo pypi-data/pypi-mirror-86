@@ -1,0 +1,34 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:ugent="http://namespaces.portaal.ugent.be/ugent"
+    i18n_domain="ugent.policy">
+
+    <!-- disabled after migration, delete if no longer needed/wanted 
+
+    <browser:page 
+        name="debug"
+        permission="zope2.View"
+        class=".debug.Debug"
+        template="debug.pt"
+    />
+
+    <browser:page 
+        name="debug-test"
+        permission="zope2.View"
+        class=".debug.Debug"
+        attribute="test"
+    />
+
+    <browser:page 
+        name="doc-test"
+        permission="cmf.ManagePortal"
+        class=".debug.Debug"
+        attribute="doc_test"
+    />
+   -->
+
+</configure>
