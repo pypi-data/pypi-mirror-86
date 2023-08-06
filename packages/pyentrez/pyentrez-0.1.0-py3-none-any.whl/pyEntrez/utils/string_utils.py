@@ -1,0 +1,15 @@
+def get_entrez_help():
+    hlp =  "efetch Retrieves records in the requested format from a list of one or more primary IDs or from the user’s environment"
+    hlp += "\nepost Posts a file containing a list of primary IDs for future use in the user’s environment to use with subsequent"
+    hlp += "\nsearch strategies esearch Searches and retrieves primary IDs (for use in EFetch, ELink, and ESummary) and term" 
+    hlp += "\ntranslations and optionally retains results for future use in the user’s environment."
+    hlp += "\nelink Checks for the existence of an external or Related Articles link from a list of one or more primary IDs." 
+    hlp += "\nRetrieves primary IDs and relevancy scores for links to Entrez databases or Related Articles; creates a hyperlink to"
+    hlp += "\nthe primary LinkOut provider for a specific ID and database, or lists LinkOut URLs and Attributes for multiple IDs."
+    hlp += "\neinfo Provides field index term counts, last update, and available links for each database.esummary Retrieves document "
+    hlp += "\nsummaries from a list of primary IDs or from the user’s environment. "
+    hlp += "\negquery Provides Entrez database counts in XML for a single search using Global Query."
+    hlp += "\nespell Retrieves spelling suggestions."
+    hlp += "\necitmatch Retrieves PubMed IDs (PMIDs) that correspond to a set of input citation strings."
+    hlp += "\nread Parses the XML results returned by any of the above functions. Typical usage is:"
+    return hlp
