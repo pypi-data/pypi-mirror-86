@@ -1,0 +1,11 @@
+ska_sdc2_scoring_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ska_sdc2_scoring_utils/admin_api.py,sha256=e0-gFqy9tQkV50I4aPTkkjaEaEs2OpmfKda9Dn9mne8,9205
+ska_sdc2_scoring_utils/api.py,sha256=ddgrG6-mQnWbRABVN8d4l7nmPLcUeFOsSChmtfOzHuQ,3705
+ska_sdc2_scoring_utils/logs.py,sha256=oEFBfBUpB94FcDyQ4RL-1iBiFDbj34VmK4aUJFsnq14,576
+ska_sdc2_scoring_utils-0.1.1rc3.data/scripts/sdc2-score,sha256=VBgE5U-MjnHyGqvgyxCdM7V2gdZDYmTkQH7HAsSDAKs,3275
+ska_sdc2_scoring_utils-0.1.1rc3.data/scripts/sdc2-score-admin,sha256=SF5-XOgcxkbLCetbsA5sc5Mf5WixECcfX0Q3t3NH9Gs,4055
+ska_sdc2_scoring_utils-0.1.1rc3.dist-info/LICENSE,sha256=Wa4bFRZYyFWJY1jOM1SUbX6PTECcNT8uXfP1K6fE9H4,1516
+ska_sdc2_scoring_utils-0.1.1rc3.dist-info/METADATA,sha256=mT8M0SUzj-Dgi_gbJtWC_xf0UPYsuO5kkDYYkhW11GE,1534
+ska_sdc2_scoring_utils-0.1.1rc3.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+ska_sdc2_scoring_utils-0.1.1rc3.dist-info/top_level.txt,sha256=COCoTC1tEd9GuUXxSH0u1Vjif4aNAewN0o1YlZOcbD8,23
+ska_sdc2_scoring_utils-0.1.1rc3.dist-info/RECORD,,
