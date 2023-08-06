@@ -1,0 +1,6 @@
+dnspython
+PyYAML
+cacheout
+
+[SOCKS]
+pysocks
