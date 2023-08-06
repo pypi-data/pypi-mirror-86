@@ -1,0 +1,3 @@
+[console_scripts]
+iotaescrow = iotaescrow.escrow:main
+
