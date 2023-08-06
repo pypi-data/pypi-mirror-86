@@ -1,0 +1,10 @@
+opentelemetry/exporter/zipkin/__init__.py,sha256=WNeT0Yk5gLN9y96hnW9i3sh3fK1ZvRg7Cp8ZHz9LQ-Q,13959
+opentelemetry/exporter/zipkin/version.py,sha256=J1HoqnKG8W6hYRj20GTVLccRKuD6OfxJ5alMpOZGGQs,608
+opentelemetry/exporter/zipkin/gen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentelemetry/exporter/zipkin/gen/zipkin_pb2.py,sha256=yBEgF9WPtJiwGtpE7Zm7H9iw8pGAKzlVe2lHtt-5c-M,18283
+opentelemetry_exporter_zipkin-0.16b1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_exporter_zipkin-0.16b1.dist-info/METADATA,sha256=e5bag3lgHFBm06XCcmLTdLhGsOCRmDchHAOMxtnOV8Y,1645
+opentelemetry_exporter_zipkin-0.16b1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_exporter_zipkin-0.16b1.dist-info/entry_points.txt,sha256=Xv0RrjE3Hox8xQTprq1ex6c_fputsfGSc8xrUxmn47A,84
+opentelemetry_exporter_zipkin-0.16b1.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_exporter_zipkin-0.16b1.dist-info/RECORD,,
