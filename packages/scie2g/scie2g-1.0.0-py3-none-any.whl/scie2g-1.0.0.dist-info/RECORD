@@ -1,0 +1,13 @@
+scie2g/__init__.py,sha256=sY7-GLyBBN6Xvv1HVoaM1DZWDCUgNMCaT2cY1Lvs6Qg,1669
+scie2g/__main__.py,sha256=wyByPpZAabMaEuNoJxiCyLvGLHpjlraEODdL0m7rrLQ,8801
+scie2g/base.py,sha256=rK24aN-CIE4vYMmZoA0Gop3ycqj88U07Igd8VpRH258,26486
+scie2g/bed.py,sha256=XjnkZ85Os93Q5g2URuU0rrkSDyqY64Id5mxqs6jPwrA,9201
+scie2g/csv.py,sha256=ePUh9XWmjOPYJ22ksr9absZhhO4SbApUSnKAy5LlojM,10282
+scie2g/errors.py,sha256=ns-QLN2hkq-_f88vSRQft5xzGhiZeyVZoPEb5aYB4mI,408
+scie2g-1.0.0.data/data/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scie2g-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scie2g-1.0.0.dist-info/METADATA,sha256=bcN1U_J_AFIFN177czyW1jaeicqg7ug-5FSFsPsYd3s,3983
+scie2g-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scie2g-1.0.0.dist-info/entry_points.txt,sha256=KrmTS4tXWqU2O4GQ5RFpAp3GN1pubWwucwlkTBHcW5M,49
+scie2g-1.0.0.dist-info/top_level.txt,sha256=Z7JLigIpiyKmhduAIPxG0Uqij5d8lDpVT6tl5GCwZDM,7
+scie2g-1.0.0.dist-info/RECORD,,
