@@ -1,0 +1,10 @@
+setup.py
+unix_os/__init__.py
+unix_os/path.py
+unix_os/setup.py
+unix_os/unix_glob.py
+unix_os/version
+unix_os.egg-info/PKG-INFO
+unix_os.egg-info/SOURCES.txt
+unix_os.egg-info/dependency_links.txt
+unix_os.egg-info/top_level.txt
