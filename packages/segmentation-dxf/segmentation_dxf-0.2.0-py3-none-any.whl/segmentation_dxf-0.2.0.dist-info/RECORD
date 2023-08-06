@@ -1,0 +1,7 @@
+segmentation_dxf/PNGtoDXF.py,sha256=MSh2yTfU1WJiEUHwhHmsErMzNKUumFoJoc8NS-l6awc,2337
+segmentation_dxf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+segmentation_dxf/test_PNGtoDXF.py,sha256=l6yaV1I8koNrxb1Sqy2L1_Sm4V8TdZoqDlZCchpE56M,154
+segmentation_dxf-0.2.0.dist-info/LICENSE,sha256=XudxEgNioG8Dg7nVU3iAyWJ3RvkdeQdTblakew3WOuA,90835
+segmentation_dxf-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+segmentation_dxf-0.2.0.dist-info/METADATA,sha256=STrs6-HARGKpNTZFJRMssVob8kkdenb_9_u1R8hTuu8,601
+segmentation_dxf-0.2.0.dist-info/RECORD,,
