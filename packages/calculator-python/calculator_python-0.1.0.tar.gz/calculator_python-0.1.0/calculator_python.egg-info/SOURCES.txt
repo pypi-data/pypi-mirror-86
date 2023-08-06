@@ -1,0 +1,12 @@
+MANIFEST.in
+requirements.txt
+setup.py
+calculator/__init__.py
+calculator/calculator.py
+calculator/operation.py
+calculator_python.egg-info/PKG-INFO
+calculator_python.egg-info/SOURCES.txt
+calculator_python.egg-info/dependency_links.txt
+calculator_python.egg-info/entry_points.txt
+calculator_python.egg-info/requires.txt
+calculator_python.egg-info/top_level.txt
