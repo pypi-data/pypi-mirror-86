@@ -1,0 +1,3 @@
+[console_scripts]
+mapargs = mapargs.command_line:main
+
