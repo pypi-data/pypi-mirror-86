@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: cgshop2021-pyutils
+Version: 0.0.5
+Summary: Utilities for the CG:SHOP 2021 Optimization Competition on Coordinated Motion Planning.
+Home-page: https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2021/
+Author: TU Braunschweig, IBR, Algorithms Group (Phillip Keldenich and Dominik Krupke)
+Author-email: keldenich@ibr.cs.tu-bs.de, krupke@ibr.cs.tu-bs.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: chardet
+
+# Official Python Utilities for the CG:SHOP 2021 Optimization Competition.
+
+We provide basic code to ease your participation in this year's [challenge](https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2021/).
+Due to it popularity and simplicity, the choice has fallen on Python.
+
+This python module allows you to easily read the instance and potentially convert them
+into an easier format.
+The JSON format is simple but it is very common and allows to easily add metadata.
+Further, this module allows you to verify your instances.
+It uses the same core as the server so if this code accepts your solution, so will our server.
+
+The code is not perfect but we will work to improve this code during the competition.
+Feedback is welcome.
+
+This time, the code is pure Python and should run on all machines.
+The source code will be soon published.
+We are currently deciding for the right platform (probably GitHub).
+
+## Features
+
+* Reading and writing instance files.
+* Reading and writing solution files.
+* Verifying solutions for feasibility.
+
+The exact same implementation will be used on the submission server.
+Thus, if this library will accept your solution, so will the submission server.
+
+## Installation
+
+The installation is trivial using pip.
+
+```
+pip install cgshop2021-pyutils
+```
+
+Note that you have to use `_` instead of `-` when importing the module.
+
+Maybe you need to add to `--user` flag to save the package into your home directory instead of the system's directory.
+
+You will also be able to simply copy the source code into your code without any installation.
+However, please keep this library updated as there will probably be some forgotten corner cases.
+(Actually, at the time I am writing this, the code has not been properly tested as we had to prioritize instance generation and the server. Give us a few days.)
+
+```
+pip install cgshop2021-pyutils --upgrade
+```
+
+## Reading the instances from the Zip
+
+Best use the instance database. You simply download the .zip and then you can access all instances via
+
+```python
+from cgshop2021_pyutils import InstanceDatabase
+idb = InstanceDatabase("path/to/zip.zip")
+for i in idb:
+    print("Instance:", i)
+```
+
+## Working with an instance
+
+```python
+from cgshop2021_pyutils import Instance
+
+i: Instance #just to enable typing
+
+for r in range(i.number_of_robots):
+    print("Robot", i, "starts at", i.start_of(r)," and has to go to ", i.target_of(r))
+
+for o in i.obstacles:
+    print(o, "is blocked")
+
+```
+
+## Create a solution
+
+```python
+from cgshop2021_pyutils import Solution, SolutionStep, SolutionZipWriter, Direction
+from cgshop2021_pyutils import Instance
+
+instance: Instance
+solution = Solution(instance) 
+
+# First time step in the solution
+step_1 = SolutionStep()
+step_1[2]=Direction.NORTH # Robot 2 moves north
+step_1[1]=Direction.WEST # Robot 1 moves west
+solution.add_step(step_1)
+
+# Second time step in the solution
+step_2 = SolutionStep()
+step_2[0]=Direction.SOUTH # Robot 0 moves north
+step_2[2]=Direction.WEST # Robot 2 moves west
+solution.add_step(step_2)
+
+print("Makespan:", solution.makespan)
+
+print("SUM:", solution.total_moves)
+```
+
+
+## Write solutions
+
+You can easily write solutions to an uploadable zip.
+
+```python
+from cgshop2021_pyutils import SolutionZipWriter, Solution
+s1: Solution
+s2: Solution
+s3: Solution
+
+with SolutionZipWriter("output.zip") as szw:
+    szw.add_solution(s1)
+    szw.add_solutions([s1, s2])
+
+```
+
+
+## Validate your solution
+
+Solutions can be validate via `validate`.
+This function does not return anything but will throw an exception if something is wrong.
+The exception will contain an explanation (by type and message).
+
+```python
+from cgshop2021_pyutils import InstanceDatabase, ZipSolutionIterator, validate, ZipReaderError, InvalidSolutionError
+idb = InstanceDatabase("path/to/instances.zip")
+try:
+    for solution in ZipSolutionIterator(idb)("/path/to/my_solutions.zip"):
+        validate(solution)
+except ZipReaderError as zre:
+    print("Bad Zip:", zre)
+except InvalidSolutionError as ise:
+    print("Bad Solution:", ise)
+```
+
