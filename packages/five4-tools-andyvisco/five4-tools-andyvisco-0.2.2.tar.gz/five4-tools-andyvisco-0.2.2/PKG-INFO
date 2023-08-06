@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: five4-tools-andyvisco
+Version: 0.2.2
+Summary: Tools for Data Manipulation and Cleaning
+Home-page: https://github.com/andresvisco
+Author: Andres Visco
+Author-email: visco.andres@gmail.com
+License: UNKNOWN
+Description: # FIVE4 Tools for Data Manipulation and Cleaning
+        ```language
+        from five4_tools import five4_utils
+        
+        datos = five4_utils.Datos(#path a tu dataset(csv)#)
+        
+        print(datos.analizarDatos())
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
