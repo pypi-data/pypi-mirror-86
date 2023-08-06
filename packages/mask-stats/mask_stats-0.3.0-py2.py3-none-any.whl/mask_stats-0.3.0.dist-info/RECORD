@@ -1,0 +1,14 @@
+mask_stats/__init__.py,sha256=b0us0GIV4sciZJbeHyRoNA6wqWdeZnQ1bFMOkiBUdUw,163
+mask_stats/_overlap.py,sha256=jc29uuoNQAidcuU_sf-dK7Gn2Pqhh3ElEcVdnV2Z5J0,6537
+mask_stats/_surface_distance.py,sha256=Un3IMVjfLBCE3iaimNTnvjwCA8Icc0j7aYmuaAod1w8,4393
+mask_stats/mask_stats.py,sha256=jX8N-MIUKmy8Rp0FvZcMHE_GqhRu0ssEK_1cB6aHsmU,11330
+mask_stats/__pycache__/__init__.cpython-38.pyc,sha256=GGog_bmdJb327CW8adAO4JQ6TSbe0FRWvGMGdYj8Ud0,297
+mask_stats/__pycache__/_overlap.cpython-38.pyc,sha256=oh6r94dXhbYpblyGAcuot34wUkzPEi9CRdNHN-aWLfk,6284
+mask_stats/__pycache__/_surface_distance.cpython-38.pyc,sha256=YtNxDcVj4u6gT0ypFP7kThvl1SI_mO-bAyOwwZDCRRY,3941
+mask_stats/__pycache__/mask_stats.cpython-38.pyc,sha256=E9P1L7SUq5_y5nqYd8X50BrCeBkLSiMWFh1BSJsysTo,9332
+mask_stats-0.3.0.dist-info/AUTHORS.rst,sha256=-puyJx501t59Op4TTNNjVoMi2b70woTpzrIhBQ57gcA,163
+mask_stats-0.3.0.dist-info/LICENSE,sha256=sWjh_yx01JgO-R8aOVTQu33rAc5BaOBpdY85WClOhxk,1075
+mask_stats-0.3.0.dist-info/METADATA,sha256=Yb-CfkRC31J3ddm3CEf5DFy29qWnNbbgos9Hsq2jNHo,1205
+mask_stats-0.3.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+mask_stats-0.3.0.dist-info/top_level.txt,sha256=oHz9mIsFKHEnTGi43DCHJ-DWqbzw8ulf0yo_gRT-IXg,11
+mask_stats-0.3.0.dist-info/RECORD,,

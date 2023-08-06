@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: mask-stats
+Version: 0.3.0
+Summary: Compute summary statistics between two binary masks.
+Home-page: https://github.com/yngvem/mask_stats
+Author: Yngve Mardal Moe
+Author-email: yngve.m.moe@gmail.com
+License: "MIT license",
+Keywords: mask_stats
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+
+==========
+Mask stats
+==========
+
+Compute summary statistics between two sets of N-dimensional binary masks.
+
+Installation instructions
+-------------------------
+
+.. code::
+
+    pip install mask_stats
+
+
+Usage
+-----
+
+.. code:: python
+
+        from mask_stats import compute_evaluations_for_mask_pairs
+
+        true_masks = [mask1, mask2, ..., maskN]
+        pred_masks = [pred1, pred2, ..., predN]
+
+        true_eval, pred_eval = compute_evaluations_for_mask_pairs(true_masks, pred_masks)
+
+Todo
+----
+
+* Documentation
+* More tests
+* Function to evaluate single mask pair
+
+
