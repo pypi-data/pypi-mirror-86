@@ -1,0 +1,9 @@
+oligo/__init__.py,sha256=TY5vpJglZDyhAoUCZOk5uOmUdz14-gp_PH4dCo0Wkm8,23
+oligo/iber.py,sha256=K5c_GPWbpwp2zYxi7S1mIBjnbbFp37Lz7QhTV21XM8o,8837
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_iber.py,sha256=_bUptnisAExjpgDL3YBfpihMh3Fv0iOy8qp8pD5dZBo,228
+oligo-1.2.0.dist-info/LICENSE,sha256=L21lbcoXp7bSUJzTDe2csjOpdLOWoQgrFOPj5W4Tqpw,1100
+oligo-1.2.0.dist-info/METADATA,sha256=-CFQqZAPxpgZrOY0MxdFlBmO70uLN7AfvYSutWyH5fM,2872
+oligo-1.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+oligo-1.2.0.dist-info/top_level.txt,sha256=JFCqFVAP1bXD1EbIiAi17_596Gm_GKkpf0A0cbDjVMQ,12
+oligo-1.2.0.dist-info/RECORD,,
