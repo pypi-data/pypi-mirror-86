@@ -1,0 +1,2 @@
+include etc/example_session.yaml
+include etc/tmux_default.conf
