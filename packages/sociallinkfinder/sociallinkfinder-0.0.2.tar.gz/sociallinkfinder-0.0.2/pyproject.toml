@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sociallinkfinder"
+version = "0.0.2"
+description = "input: company's website url  , output: company's facebook, linkedin, twitter, instagram links in a dictionary"
+authors = ["Priyank Mishra <priyank.m9320@gmail.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rapidfuzz = "^0.13.3"
+google = "^3.0.0"
+bs4 = "^0.0.1"
+requests = "^2.25.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
