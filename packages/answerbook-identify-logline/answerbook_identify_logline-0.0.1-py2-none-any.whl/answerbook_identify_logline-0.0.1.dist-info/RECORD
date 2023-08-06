@@ -1,0 +1,9 @@
+identify_logline/__init__.py,sha256=Jv-1YeHw47sH6MlOSVTSmLEY5G0Pe00UjyIUhLFD03w,46
+identify_logline/identify.py,sha256=RM2dfolTWMht47yCB4lrWTF0eHOVALandi2s6wcEXPk,6814
+identify_logline/identify_logline.py,sha256=mjMXJWdjmvRzfpuhnT7RFWWB1Y2MDbBQ_9j52SVqaMw,6811
+identify_logline/schema.py,sha256=CruvmAsyPU9a_CyqrZuRN6t822GFD5PkYPaL-3m3UMU,7791
+answerbook_identify_logline-0.0.1.dist-info/METADATA,sha256=3SsRyg2Wg7ZA7ZM0TYHJkIrL2DENsvRHg3bm3PMTz-U,316
+answerbook_identify_logline-0.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+answerbook_identify_logline-0.0.1.dist-info/entry_points.txt,sha256=FT5Tk8jsiGWWmTeLGXbB2eb9fJ5sCvx6uEf7RWlnGtA,80
+answerbook_identify_logline-0.0.1.dist-info/top_level.txt,sha256=liyuVA8vDeCIKxzpmURLZXUObxH7bMYe_NycRNcyuSs,17
+answerbook_identify_logline-0.0.1.dist-info/RECORD,,

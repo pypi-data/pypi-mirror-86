@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: answerbook-identify-logline
+Version: 0.0.1
+Summary: answerbook_identify_logline - Identify log lines
+Home-page: https://github.com/jondkelley/identify_logline
+Author: Jonathan Kelley
+Author-email: jonkelley@gmail.com
+License: Copyleft
+Platform: UNKNOWN
+Requires-Dist: cerberus
+
+UNKNOWN
+
+
