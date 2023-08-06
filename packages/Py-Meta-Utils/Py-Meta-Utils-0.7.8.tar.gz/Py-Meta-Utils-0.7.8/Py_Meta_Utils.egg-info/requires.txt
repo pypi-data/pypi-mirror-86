@@ -1,0 +1,5 @@
+
+[docs]
+m2r
+sphinx<3
+sphinx-material
