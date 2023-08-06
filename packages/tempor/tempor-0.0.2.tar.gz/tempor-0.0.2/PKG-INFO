@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: tempor
+Version: 0.0.2
+Summary: Ephemeral VPS Creation
+Home-page: UNKNOWN
+Author: Wh1t3Fox
+Author-email: dev@exploit.design
+License: GPT3
+Description: # tempor
+        
+        ### Usage
+        ```
+        ➜ make
+        Option			Description
+        build                   Build Docker Containers
+        build-nc                Build Docker Containers w/out Cache
+        clean                   Cleanup VPS and Files
+        run                     Run Terraform
+        show                    Show VPS Options
+        test                    Live Testing with Terraform
+        destroy                 Destroy VPS'
+        ```
+        
+        ### Setup
+        
+        ```
+        ➜ cat api_tokens.mk
+        do_token=
+        #li_token=
+        #vultr_token=
+        ```
+        \# to comment out API token
+        
+Keywords: ssh
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
