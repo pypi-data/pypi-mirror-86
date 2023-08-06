@@ -1,0 +1,10 @@
+README.md
+setup.py
+tinysbus/__init__.py
+tinysbus/crc.py
+tinysbus/instrument.py
+tinysbus.egg-info/PKG-INFO
+tinysbus.egg-info/SOURCES.txt
+tinysbus.egg-info/dependency_links.txt
+tinysbus.egg-info/requires.txt
+tinysbus.egg-info/top_level.txt
