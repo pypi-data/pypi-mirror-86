@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: netack
+Version: 0.0.1
+Summary: python library for basic network attacks
+Home-page: UNKNOWN
+Author: akash sharma and akshat sharma
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: python library for basic network attacks
+        
+        
+        Change Log
+        ==============
+        
+        0.0.1 (27/11/220)
+        _________________
+        - First Release
+        
+Keywords: network security
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
