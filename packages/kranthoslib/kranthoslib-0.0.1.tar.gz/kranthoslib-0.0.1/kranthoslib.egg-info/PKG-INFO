@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: kranthoslib
+Version: 0.0.1
+Summary: Kranthos Python Library
+Home-page: https://github.com/Kranthos/
+Author: Kranthos
+Author-email: kranthosathens@gmail.com
+License: UNKNOWN
+Description: Kranthos Python Library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
