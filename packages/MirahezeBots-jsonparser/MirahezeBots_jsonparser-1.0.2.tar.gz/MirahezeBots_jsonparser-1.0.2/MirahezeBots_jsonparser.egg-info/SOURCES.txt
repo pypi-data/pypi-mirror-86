@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+MirahezeBots_jsonparser/__init__.py
+MirahezeBots_jsonparser.egg-info/PKG-INFO
+MirahezeBots_jsonparser.egg-info/SOURCES.txt
+MirahezeBots_jsonparser.egg-info/dependency_links.txt
+MirahezeBots_jsonparser.egg-info/top_level.txt
+MirahezeBots_jsonparser/jsonparser/__init__.py
