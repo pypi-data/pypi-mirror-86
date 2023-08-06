@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: SamplerBox
+Version: 0.0.1
+Summary: SamplerBox is an open-source audio sampler project based on RaspberryPi.
+Home-page: https://github.com/josephernest/SamplerBox
+Author: Joseph Ernest
+Author-email: contact@samplerbox.org
+License: CC BY-SA 3.0
+Description: No release on PyPI yet, see https://github.com/josephernest/SamplerBox.
+Platform: any
+Classifier: Development Status :: 1 - Planning

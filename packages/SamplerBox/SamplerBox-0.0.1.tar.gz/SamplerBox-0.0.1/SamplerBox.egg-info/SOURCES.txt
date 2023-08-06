@@ -1,0 +1,5 @@
+setup.py
+SamplerBox.egg-info/PKG-INFO
+SamplerBox.egg-info/SOURCES.txt
+SamplerBox.egg-info/dependency_links.txt
+SamplerBox.egg-info/top_level.txt
