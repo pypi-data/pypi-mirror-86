@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "pyramid_resourceful"
+version = "1.0a1"
+description = "Resourceful routes & views for Pyramd"
+authors = ["Wyatt Baldwin <self@wyattbaldwin.com>"]
+readme = "README.txt"
+license = "MIT"
+homepage = "https://github.com/wylee/pyramid_resourceful"
+repository = "https://github.com/wylee/pyramid_resourceful"
+keywords = ["REST", "resource", "Pyramid", "SQLAlchemy", "Web"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: Pyramid",
+]
+
+packages = [
+    { include = "pyramid_resourceful", from = "src" }
+]
+
+include = [
+    "docs/*",
+    "examples/*.ini",
+    "examples/*.mako",
+    "examples/*.py",
+    "CHANGELOG.rst",
+    "LICENSE",
+    "README.rst",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pyramid = "*"
+dataclasses = { version = "*", python = "3.6" }
+
+[tool.poetry.dev-dependencies]
+black = { version = "*", allow-prereleases = true }
+coverage = "*"
+flake8 = "*"
+mypy = "*"
+pyramid_mako = "*"
+runcommands = { version = "*", allow-prereleases = true }
+sphinx = "*"
+sqlalchemy = "*"
+tox = "*"
+waitress = "*"
+pyramid_debugtoolbar = "*"
+
+[tool.black]
+target-version = ["py36"]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
