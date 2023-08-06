@@ -1,0 +1,4 @@
+pytdb_cc>=0.0.2
+pandas
+numpy
+pytest
