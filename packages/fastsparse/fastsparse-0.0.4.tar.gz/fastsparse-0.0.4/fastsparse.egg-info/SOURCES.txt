@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+fastsparse/__init__.py
+fastsparse/_nbdev.py
+fastsparse/core.py
+fastsparse.egg-info/PKG-INFO
+fastsparse.egg-info/SOURCES.txt
+fastsparse.egg-info/dependency_links.txt
+fastsparse.egg-info/entry_points.txt
+fastsparse.egg-info/not-zip-safe
+fastsparse.egg-info/requires.txt
+fastsparse.egg-info/top_level.txt
