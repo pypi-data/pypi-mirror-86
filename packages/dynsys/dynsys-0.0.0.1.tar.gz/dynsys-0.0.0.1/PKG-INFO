@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dynsys
+Version: 0.0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/modelflat/dynsys
+Author: modelflat
+License: UNKNOWN
+Project-URL: Issues, https://github.com/modelflat/dynsys/issues
+Description: # dynsys
+        
+        [![GitHub version](https://badge.fury.io/gh/modelflat%2Fdynsys.svg)](https://badge.fury.io/gh/modelflat%2Fdynsys)
+        
+        This is a work-in-progress.
+        
+Keywords: opencl research nonlinear dynamical-systems
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown

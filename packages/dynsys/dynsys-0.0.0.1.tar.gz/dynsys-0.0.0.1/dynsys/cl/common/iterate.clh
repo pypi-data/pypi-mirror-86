@@ -1,0 +1,147 @@
+<% if mako_include_guard(globals()["_template_uri"]): return STOP_RENDERING %>
+
+<%include file="/common/types.clh" />
+<%include file="/common/util.clh" />
+<%namespace name="util" file="/common/util.clh" />
+
+
+inline void do_step(PARAMETERS* params, int id, int i, point_t* point) {
+    <%call expr="util.system_eval(system, 'point', 'params')" />
+}
+
+<%def name="init()">
+    // linear id
+    const int id = (
+          (get_global_id(2) - get_global_offset(2)) * get_global_size(1) * get_global_size(0)
+        + (get_global_id(1) - get_global_offset(1)) * get_global_size(0)
+        + (get_global_id(0) - get_global_offset(0))
+    );
+    // this is needed because on some platforms passing struct by value is broken
+    PARAMETERS params = *params_;
+    ${caller.body()}
+</%def>
+
+<%def name="skip()">
+    for (int i = 0; i < skip; ++i) {
+        do_step(&params, id, i, &point);
+        ${caller.body()}
+    }
+</%def>
+
+<%def name="iter()">
+    for (int i = 0; i < iter; ++i) {
+        do_step(&params, id, i, &point);
+        ${caller.body()}
+    }
+</%def>
+
+% if system.dimensions == 1:
+#define pt_should_discard(x, infinity_check) (isnan(x) || fabs(x) > (infinity_check))
+#define pt_similar(x, y, tolerance) (fabs((x) - (y)) < (tolerance))
+% elif system.dimensions in {2, 3, 4, 8, 16}:
+#define pt_should_discard(x, infinity_check) (any(isnan(x)) || any(fabs(x) > (infinity_check)))
+#define pt_similar(x, y, tolerance) (all(fabs((x) - (y)) < (tolerance)))
+% else:
+inline int pt_should_discard(point_t x, real_t infinity_check) {
+    return (
+    % for i in range(system.dimensions):
+        isnan(x.s${i}) || fabs(x.s${i}) > infinity_check ${"||" if i != system.dimensions - 1 else ""}
+    % endfor
+    );
+}
+inline int pt_similar(point_t x, point_t y, real_t tolerance) {
+    return (
+    % for i in range(system.dimensions):
+        fabs(x.s${i} - y.s${i}) < tolerance ${"&&" if i != system.dimensions - 1 else ""}
+    % endfor
+    );
+}
+% endif
+
+<%def name="iterate_with_periods()">
+kernel void iterate_with_periods(
+    const int skip,
+    const int iter,
+    const real_t tolerance,
+    const real_t infinity_check,
+    ${caller.args()}
+    const global PARAMETERS* params_,
+    global uint* periods
+) {
+    <%self:init>
+    ${caller.init()}
+    </%self:init>
+
+    % for line in system.before_start:
+    ${line};
+    % endfor
+
+    <%self:skip>
+    </%self:skip>
+
+    const point_t base = point;
+
+    int period = iter;
+
+    <%self:iter>
+        if (pt_should_discard(point, infinity_check)) {
+            period = 0;
+            break;
+        }
+
+        if (pt_similar(base, point, tolerance)) {
+            period = i + 1;
+            break;
+        }
+    </%self:iter>
+
+    periods[id] = period;
+}
+</%def>
+
+
+<%def name="iterate_capture_with_periods()">
+kernel void iterate_capture_with_periods(
+    const int skip,
+    const int iter,
+    const real_t tolerance,
+    const real_t infinity_check,
+    ${caller.args()}
+    const global PARAMETERS* params_,
+    global real_t* points,
+    global uint* periods
+) {
+    <%self:init>
+    ${caller.init()}
+    </%self:init>
+
+    % for line in system.before_start:
+    ${line};
+    % endfor
+
+    <%self:skip>
+    </%self:skip>
+
+    const size_t output_coord = id * iter;
+    const point_t base = point;
+
+    int period = iter;
+    int period_ready = 0;
+
+    <%self:iter>
+        pt_store(point, output_coord + i, points);
+
+        if (!period_ready && pt_should_discard(point, infinity_check)) {
+            period = 0;
+            period_ready = 1;
+        }
+
+        if (!period_ready && pt_similar(base, point, tolerance)) {
+            period = i + 1;
+            period_ready = 1;
+        }
+    </%self:iter>
+
+    periods[id] = period;
+}
+</%def>
