@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: teleshell
+Version: 0.0.1
+Summary: A shell for telethon
+Home-page: https://notabug.org/EgTer/teleshell
+Author: EgTer
+Author-email: annom2017@mail.ru
+License: UNKNOWN
+Project-URL: Source, https://notabug.org/EgTer/teleshell
+Keywords: telethon,shell
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Requires-Dist: telethon
+
+# teleshell
+Install:
+
+```
+pip install teleshell
+```
+
+Sample usage:
+```python
+from teleshell import *
+from telethon import TelegramClient
+
+client = TelegramClient('bot', api_id, 'api_hash').start(bot_token='token')
+
+
+async def add_user(event):
+    for user in users:
+        if user == event.chat_id:
+            return None
+    users.append(event.chat_id)
+
+shell = ClientShell(client=client, default_first=add_user)
+handle = shell.handle
+users = []
+
+
+@handle(text='hi', lower=True, first=False)
+async def func(event):
+    await event.reply('Hello!')
+
+@handle(text=r'he(l){1,7}o', lower=True, regular=True)
+async def func(event):
+    await event.reply('Hellllllllo!')
+
+
+@handle(command='start')
+async def func(event):
+    await event.reply('Start!')
+
+
+@handle(command='help', first=add_user)
+async def func(event):
+    await event.reply('Help!')
+
+client.run_until_disconnected()
+```
+
