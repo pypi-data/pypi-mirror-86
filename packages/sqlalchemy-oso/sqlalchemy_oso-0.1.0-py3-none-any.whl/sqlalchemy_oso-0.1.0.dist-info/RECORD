@@ -1,0 +1,15 @@
+sqlalchemy_oso/__init__.py,sha256=SwNPMITNrEOpVD65tgXXzSoeSODhZKIDfaHW_WvSY8c,158
+sqlalchemy_oso/auth.py,sha256=EGbt9SWIpZZsn4bkhzAnFTsP8QyBfjxirzTQT3mf_pM,3001
+sqlalchemy_oso/hooks.py,sha256=hMToB9QkTFGd1YAGhCEPcsgvSXUBmu6ggv9JUNbYato,5549
+sqlalchemy_oso/partial.py,sha256=FdU0uqvLiQNzyBXpjB5gNXMndMbO4iXygOY5nfumjss,5914
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=1j6SDLblkqBPYPy3dzuH1QZa6j3bJX0j1MSR-gszA8c,2889
+tests/models.py,sha256=Te5jbWKjJH3Lg0Fk9ugStLoAXMMZhP7n1PzUQIGaEyo,1933
+tests/test_partial.py,sha256=BZZplsUk-aSgwUJC69zmsYF1IspzdTgWaLs8LcccOgU,546
+tests/test_post_relationship.py,sha256=OZjPU5mjR55WHHkhcvuzH1FMn-1wLzf2Kk_MsngkVyM,13661
+tests/test_sqlalchemy.py,sha256=0UBHRo6kf99HUTXVRFWHSFvURtySZPXQ26jhAcRxRII,9813
+sqlalchemy_oso-0.1.0.dist-info/METADATA,sha256=bKHY6gQDOKDtVmSRhh79joL34N6Y3AaBtPTe-GwWCY4,4686
+sqlalchemy_oso-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sqlalchemy_oso-0.1.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+sqlalchemy_oso-0.1.0.dist-info/top_level.txt,sha256=vgltJ6HeUg5Bu-ippbw1xAeaikcFNQQKAPlkdjoUrIU,21
+sqlalchemy_oso-0.1.0.dist-info/RECORD,,
