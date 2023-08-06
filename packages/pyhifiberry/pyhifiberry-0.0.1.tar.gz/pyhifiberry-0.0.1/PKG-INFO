@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyhifiberry
+Version: 0.0.1
+Summary: Python library to interface with Hifiberry OS API.
+Home-page: https://github.com/dgomes/pyhifiberry
+Author: Diogo Gomes
+Author-email: diogogomes@gmail.com
+License: MIT License
+Description: # pyhifiberry
+        Python library to interface with Hifiberry OS API
+        
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

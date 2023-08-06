@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyhifiberry/__init__.py
+pyhifiberry/audiocontrol2.py
+pyhifiberry/consts.py
+pyhifiberry.egg-info/PKG-INFO
+pyhifiberry.egg-info/SOURCES.txt
+pyhifiberry.egg-info/dependency_links.txt
+pyhifiberry.egg-info/requires.txt
+pyhifiberry.egg-info/top_level.txt
+pyhifiberry.egg-info/zip-safe
