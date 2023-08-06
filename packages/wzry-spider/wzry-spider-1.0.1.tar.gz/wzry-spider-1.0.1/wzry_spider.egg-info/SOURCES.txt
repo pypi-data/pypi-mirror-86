@@ -1,0 +1,8 @@
+setup.py
+wzry_spider/__init__.py
+wzry_spider/wzry_spider.py
+wzry_spider.egg-info/PKG-INFO
+wzry_spider.egg-info/SOURCES.txt
+wzry_spider.egg-info/dependency_links.txt
+wzry_spider.egg-info/requires.txt
+wzry_spider.egg-info/top_level.txt
