@@ -1,0 +1,6 @@
+CodeConvert
+TimeConvert
+django-admin>=1.2.4
+django-models-ext>=1.1.10
+furl
+shortuuid
