@@ -1,0 +1,8 @@
+README.md
+setup.py
+StereoMiddleburyEval/__init__.py
+stereo_mideval.egg-info/PKG-INFO
+stereo_mideval.egg-info/SOURCES.txt
+stereo_mideval.egg-info/dependency_links.txt
+stereo_mideval.egg-info/requires.txt
+stereo_mideval.egg-info/top_level.txt
