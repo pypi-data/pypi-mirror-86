@@ -1,0 +1,13 @@
+backplane/__init__.py,sha256=2dgAGt45Ol9B8abBgCK7WX3g50iQDrIrpWWHxrgeQnw,250
+backplane/__main__.py,sha256=ihl4VEhLfGsrTANhCVvW8wQ_k3eirgf6bpM3ixIjUJM,49
+backplane/app.py,sha256=SystUDRVPiy8yXDLvKKI1iDmqp-yFUKZML76cT4MIeY,11779
+backplane/config.py,sha256=rG9JXsEhNtEzUeFW-cT5AhvgT0Wndjw6nC-k6Y7-b68,4634
+backplane/errors.py,sha256=Gol4OMZbwN86H6KfqKQhrhb-KKR5wIKFXNyVTELBgR4,604
+backplane/main.py,sha256=LxUTpqhVfX0hwwXgEoMO6XzSBcqfd9kwbpCz24nraWw,14899
+backplane/service.py,sha256=_YPS2RCeQqwNlj1rToLRzj5-kxj38hgBdNAO-CiULSg,16968
+backplane/utils.py,sha256=dbp2xtns7h8yYbGqh-ylZBuyIcYboRMbqmXojv3rxWc,6042
+backplane-0.7.1.dist-info/entry_points.txt,sha256=aR32KJNFf0R1Z3PPODxK-WK0Nq_T1xt59Yxam4271CA,48
+backplane-0.7.1.dist-info/LICENSE.md,sha256=NvcCqR5BwcE7z7xYnY7vyWqoYatOGmyQHplj63WKLqI,12369
+backplane-0.7.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+backplane-0.7.1.dist-info/METADATA,sha256=wquriQXjuOoC6ID_suK7txVZEF8nfP74w8-DVVdgR6k,16429
+backplane-0.7.1.dist-info/RECORD,,
