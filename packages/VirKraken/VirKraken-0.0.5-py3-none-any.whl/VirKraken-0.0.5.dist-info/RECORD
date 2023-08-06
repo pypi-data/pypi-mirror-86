@@ -1,0 +1,10 @@
+VirKraken-0.0.5.data/scripts/spades_virkraken,sha256=I-T74LWv7ekzMEz6ywisz10Ss4B3U72tSgKmAA4asqw,2663
+VirKraken-0.0.5.data/scripts/virkraken,sha256=13_uE-hr1UkaijP9y1kvunjaw06rNIZPJYVuITI6nwA,3176
+VirKraken-0.0.5.dist-info/DESCRIPTION.rst,sha256=_X4qLc7dRLZ1LKilqqTaUGKmL6N_fp_tQv7hPC8dYiM,173
+VirKraken-0.0.5.dist-info/METADATA,sha256=LqCdewSR7HNJUMNOx3CFucTB96HQ0pgfQNvn8NZ9tAI,725
+VirKraken-0.0.5.dist-info/RECORD,,
+VirKraken-0.0.5.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+VirKraken-0.0.5.dist-info/metadata.json,sha256=SUEOR2KLIDPwxRg9JqAwlCuRizgrQ3k5RMqYdKhiJpk,716
+VirKraken-0.0.5.dist-info/top_level.txt,sha256=2hsYEBpDjrZBGPvEtodAhe37im6vHhJh4cffDKgY9os,10
+virkraken/__init__.py,sha256=zW0gRebsaarmKn5dnQgeXJjFLtq36B4y-TkWb7Yt5k4,158
+virkraken/data/TaxID.csv,sha256=ydHVzZxXZaooibQDmVDjiXoxgr5zGPirJWpbk4j-QYc,38127113

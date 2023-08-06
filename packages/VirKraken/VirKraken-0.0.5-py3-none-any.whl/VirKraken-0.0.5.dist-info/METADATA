@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: VirKraken
+Version: 0.0.5
+Summary: An extension to Kraken2
+Home-page: https://github.com/Strong-Lab/VirKraken
+Author: Cody Glickman
+Author-email: glickman.cody@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: biopython
+Requires-Dist: importlib-resources
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+
