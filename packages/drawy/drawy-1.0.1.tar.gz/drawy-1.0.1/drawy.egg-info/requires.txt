@@ -1,0 +1,2 @@
+skia-python==86.1
+glfw==2.0.0
