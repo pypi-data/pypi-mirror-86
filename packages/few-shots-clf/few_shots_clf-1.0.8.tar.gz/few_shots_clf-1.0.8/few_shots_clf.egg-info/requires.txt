@@ -1,0 +1,11 @@
+tqdm
+annoy
+numpy
+pylint
+pytest
+imutils
+easydict
+autopep8
+pre-commit
+opencv-python
+opencv-contrib-python
