@@ -1,0 +1,7 @@
+signal_envelope/__init__.py,sha256=3Q4Bh1pk7imvcHI_XX-xLF3f-WwZummiy_IVsUw0XHc,869
+signal_envelope/envelope.dll,sha256=7c7L2H4vLW2klSXMsYmlHbRWYT8L-pJU4sGfzLCjJho,19968
+signal_envelope/envelope.py,sha256=MUKLzyQLb6p3f3AOHAKKC-Oem_7Y53ILsumZb2YVBhM,4952
+signal_envelope-0.1.4.dist-info/METADATA,sha256=Hp4lFeGwHlh-snJ33TF9FhcfrRuoUb77FQX3tSv5bFM,2357
+signal_envelope-0.1.4.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+signal_envelope-0.1.4.dist-info/top_level.txt,sha256=z5T3P9GtpeLBLQrBFaXcs0oiSmG-PwBlaXndmv1CvZU,16
+signal_envelope-0.1.4.dist-info/RECORD,,
