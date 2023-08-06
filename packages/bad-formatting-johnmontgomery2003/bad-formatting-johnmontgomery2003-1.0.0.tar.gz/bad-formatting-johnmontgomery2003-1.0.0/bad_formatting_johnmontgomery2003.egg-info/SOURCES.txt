@@ -1,0 +1,6 @@
+README.md
+setup.py
+bad_formatting_johnmontgomery2003.egg-info/PKG-INFO
+bad_formatting_johnmontgomery2003.egg-info/SOURCES.txt
+bad_formatting_johnmontgomery2003.egg-info/dependency_links.txt
+bad_formatting_johnmontgomery2003.egg-info/top_level.txt
