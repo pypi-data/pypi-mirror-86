@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+scikit-image
+opencv-contrib-python
+imageio
+click
+sk-video
+rx
+
+[dev]
+
+[test]
+tox
