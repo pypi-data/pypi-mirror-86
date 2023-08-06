@@ -1,0 +1,17 @@
+droppy/__init__.py,sha256=Pn7CJbpjxI7MjchRx0SGV1lHwmNN0Wu2d5ODOGT-a_I,412
+droppy/__main__.py,sha256=ePvFhp_gdv_8gqN3PZEGT9xhlqtfoZN3glXanEXZJYs,32
+droppy/_version.py,sha256=FHcaV4TZkRxZ9Xs8XCIc5d2XegFdCxB3dtIHTxz2xXA,523
+droppy/bafits.py,sha256=lWhRkAk8FXeKm4SDWOSJkAm_t6TUN2yke25sDA7Tf2M,3303
+droppy/circularfits.py,sha256=SLRi8qG5hzP6L5G9mcBfP7YKDXmpaNQhetE620_vS00,4923
+droppy/common.py,sha256=RNj2Y0mQgQ4i5xslL3D0h2jbk1eBQyPhCc8S2KxEMf8,2813
+droppy/droppy.py,sha256=zstxYjrYwqzz4OxWwoESXWc-0L3euwaktQE18ZiQAXs,21661
+droppy/edgedetection.py,sha256=6TOZciFMsqGi4OsjfXVrPNSQztkjDbWUJc4Nkhea5S4,4495
+droppy/imageanalysis.py,sha256=jCkEO7YsOWFeOHGdoGr3sGX_j6Si2o0yfklQP0heGCQ,8415
+droppy/linearfits.py,sha256=ZGgPWo7KdMnfb8h_lQ_QQQ2t5nuI1d5Etd4VvkasEMA,2978
+droppy/moviehandling.py,sha256=-Be9143L_ZIMT9xeuTtZbtKAhVKIi-BAOzeS2gK8ffQ,3045
+droppy-1.0.0b0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+droppy-1.0.0b0.dist-info/METADATA,sha256=eB9VMTYFNmhS-wD2fL_ANSqdAz3ZaRcK8pLdJCnVJIc,3587
+droppy-1.0.0b0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+droppy-1.0.0b0.dist-info/entry_points.txt,sha256=UPhWxNbhg1X9hUlB_O72EWpN9jxHtQ1iVvpKgne37mM,47
+droppy-1.0.0b0.dist-info/top_level.txt,sha256=5hgK8Ci7LFpT7410QHHD1a5uSVCmZpgvIUKzKHsA1e0,7
+droppy-1.0.0b0.dist-info/RECORD,,
