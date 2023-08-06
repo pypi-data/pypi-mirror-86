@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: logicbankutils
+Version: 0.3.0
+Summary: Utility functions for LogicBase
+Home-page: https://github.com/valhuber/logicbankutils
+Author: Val Huber
+Author-email: valjhuber@gmail.com
+License: BSD
+Project-URL: Docs, https://github.com/valhuber/logicbankutils/wiki
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.8
+Description-Content-Type: text/x-rst
+
+Logic Bank Utility Functions
+============================
+
+.. code-block:: Python
+
+    def add_python_path(project_dir: str, my_file: str) -> (str, str):
+        """
+        @param project_dir: enclosing path node (e.g., LogicBank
+        @param my_file: callers __file__ variable
+        @result (path_was_fixed, path)
+        """
+
+
+Depends on:
+-----------
+- Python 3.8
+
+
+
+Change Log
+----------
+
+0.0.1 - Initial Version
+
+
