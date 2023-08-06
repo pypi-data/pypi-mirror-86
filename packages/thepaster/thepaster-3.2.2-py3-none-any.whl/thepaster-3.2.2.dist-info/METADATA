@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: thepaster
+Version: 3.2.2
+Summary: Command-line client interface for https://dpaste.com/ pastebin
+License: MIT
+Author: adder46
+Author-email: dedmauz69@gmail.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pygments (>=2.7.2,<3.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: click-aliases (>=1.0.1,<2.0.0)
+Requires-Dist: pyperclip (>=1.8.1,<2.0.0)
+Requires-Dist: requests (>=2.25.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# dpaster
+
+[![Build Status](https://travis-ci.org/adder46/dpaster.svg?branch=master)](https://travis-ci.org/adder46/dpaster) [![Coverage Status](https://coveralls.io/repos/github/adder46/dpaster/badge.svg?branch=master)](https://coveralls.io/github/adder46/dpaster?branch=master) [![PyPI version](https://badge.fury.io/py/thepaster.svg)](https://pypi.org/project/thepaster/3.2.2/) [![PyPI](https://img.shields.io/badge/status-stable-brightgreen.svg)](https://pypi.org/project/thepaster/3.2.2/)
+
+**dpaster** is a command-line client interface for [dpaste](https://dpaste.com/).
+
+## Installing dpaster
+
+```sh
+pip install thepaster
+```
+
+## Using dpaster
+
+```sh
+$ dpaster --help
+Usage: dpaster [OPTIONS] COMMAND [ARGS]...
+
+  Client interface for https://dpaste.com/ pastebin
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  config (c)  Configure available settings
+  paste (p)   Paste to dpaste.com
+```
+
+## Configuring dpaster
+
+```sh
+$ dpaster config --help
+Usage: dpaster config [OPTIONS]
+
+  Configure available settings
+
+Options:
+  --show                          View current settings
+  --enable-autocp / --disable-autocp
+                                  Automatically copy the URL to clipboard
+  --enable-raw / --disable-raw    Always get raw URL
+  --default-syntax OPT            Choose default syntax (e.g. python, java,
+                                  bash)
+
+  --default-expires OPT           Choose default expiry time in days (e.g. 10)
+  --help                          Show this message and exit.
+```
+
+## Licensing
+
+Licensed under the [MIT License](https://opensource.org/licenses/MIT). For details, see [LICENSE](https://github.com/adder46/dpaster/blob/master/LICENSE).
+
+
+
