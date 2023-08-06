@@ -1,0 +1,18 @@
+pybase64
+python-rapidjson
+apply
+blosc
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[dev]
+pytest
+numpy
+numpy
+qtpy
+PyQt5
+
+[test]
+pytest
+numpy
