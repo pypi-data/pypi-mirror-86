@@ -1,0 +1,7 @@
+setup.py
+demo/__init__.py
+demo/hello.py
+goodstar.egg-info/PKG-INFO
+goodstar.egg-info/SOURCES.txt
+goodstar.egg-info/dependency_links.txt
+goodstar.egg-info/top_level.txt
