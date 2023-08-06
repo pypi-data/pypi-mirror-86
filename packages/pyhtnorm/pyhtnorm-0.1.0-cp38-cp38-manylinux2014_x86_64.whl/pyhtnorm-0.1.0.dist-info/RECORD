@@ -1,0 +1,12 @@
+pyhtnorm/_htnorm.pxd,sha256=ZvvLpb5rBt9Lh_e0_iodVYA7nTyBWOsme_ALry28wqI,714
+pyhtnorm/__init__.py,sha256=YKry6YEgzUcMMl8MZ72L2JlOm186TcQArQkJHsJ5u3s,57
+pyhtnorm/__init__.pxd,sha256=vNIwQ8lEWQ2_oIiKzECxlhGiPj3AaO4xHGVNM-evRRA,35
+pyhtnorm/c_htnorm.pxd,sha256=G-EJTEqT0xrx2cDfTkka2ldUDm5tTvaZQ4YbPI-jxPQ,1379
+pyhtnorm/_htnorm.cpython-38-x86_64-linux-gnu.so,sha256=k-r_ZAqypQd8F7kHqqvFsBDy7UDPKiPszJBlojCB6ho,1617856
+pyhtnorm.libs/libquadmath-96973f99.so.0.0.0,sha256=l82oXdtRY-Labh7bTh1rVXgzqZpA7aB5rjflA5Rltl0,247608
+pyhtnorm.libs/libgfortran-91cc3cb1.so.3.0.0,sha256=yG4uC4CkJbuXNkV2kISH0t7i_MNYl1Y8rUbu79S2j5c,1259664
+pyhtnorm.libs/libopenblasp-r0-37b5f859.3.3.so,sha256=I0sDCqNZDOi6FkRsfpIFE2lISGQk_cLy5hFsX8N_dvw,37970416
+pyhtnorm-0.1.0.dist-info/LICENSE,sha256=GWrXq-UAMGjoxT2oo2j_xo--ZKzoQS3JEe-4to-zmjU,1513
+pyhtnorm-0.1.0.dist-info/METADATA,sha256=_i5iXCsng_mZ4_3BszDY0rsRZLVacqvmPPk_knsfiRU,8378
+pyhtnorm-0.1.0.dist-info/WHEEL,sha256=o9SwliY3iicpUQuRgEI9YiIY6plUpMhMPr8d_B29ofQ,102
+pyhtnorm-0.1.0.dist-info/RECORD,,
