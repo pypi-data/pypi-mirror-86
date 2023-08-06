@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: traceroute-win
+Version: 1.8.0
+Summary: Traceroute with Python for Windows
+Home-page: UNKNOWN
+Author: Javed & Emeric
+Author-email: jsyedk@gmail.com
+License: MIT
+Keywords: traceroute python package windows fastjaved
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: scapy
+Requires-Dist: requests
+Requires-Dist: progressbar
+
+Traceroute with Python for Windows
+
+
