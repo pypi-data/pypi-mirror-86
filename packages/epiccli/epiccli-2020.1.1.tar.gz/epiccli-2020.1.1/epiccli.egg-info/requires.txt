@@ -1,0 +1,9 @@
+Click
+requests
+pyfiglet
+boto3
+botocore
+pyepic>=0.0.6
+pytz
+python-dateutil
+hurry.filesize
