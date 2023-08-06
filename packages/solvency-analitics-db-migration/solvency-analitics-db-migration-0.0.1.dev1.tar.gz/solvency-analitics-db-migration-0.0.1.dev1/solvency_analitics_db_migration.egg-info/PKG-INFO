@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: solvency-analitics-db-migration
+Version: 0.0.1.dev1
+Summary: Nano db migration framework
+Home-page: https://github.com/andraskohlmann/solvency-analitics-db-migration
+Author: Andras Kohlmann
+Author-email: metuoku@outlook.com
+License: UNKNOWN
+Description: # Solvency Analitics BD migration
+        
+        No rollbacks, no guarantees.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
