@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: timebomb
+Version: 0.0.1
+Summary: A set of utilities to 
+Home-page: http://packages.python.org/timebomb
+Author: Evin Sellin
+Author-email: evinism@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ~=3.6
