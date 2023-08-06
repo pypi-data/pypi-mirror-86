@@ -1,0 +1,3 @@
+[console_scripts]
+ardio=ardio.ardio:main_routine
+
