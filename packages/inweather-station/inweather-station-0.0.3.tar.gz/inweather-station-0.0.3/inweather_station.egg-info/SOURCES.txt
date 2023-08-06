@@ -1,0 +1,7 @@
+README.md
+setup.py
+game/indoor_weather_station.py
+inweather_station.egg-info/PKG-INFO
+inweather_station.egg-info/SOURCES.txt
+inweather_station.egg-info/dependency_links.txt
+inweather_station.egg-info/top_level.txt
