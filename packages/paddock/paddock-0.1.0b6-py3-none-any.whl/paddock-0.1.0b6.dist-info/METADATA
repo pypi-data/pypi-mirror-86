@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: paddock
+Version: 0.1.0b6
+Summary: An unofficial iRacing SDK based on ir_webstats.
+Home-page: https://mikeholler.github.io/paddock
+Author: Mike Holler
+Author-email: support@mikeholler.me
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: decorator (<5,>=4.4.2)
+Requires-Dist: requests (<3,>=2.24)
+Requires-Dist: marshmallow-dataclass (<8,>=7.2)
+Requires-Dist: marshmallow-enum (<2,>=1.5)
+Requires-Dist: marshmallow-oneofschema (<3,>=2.0)
+Requires-Dist: marshmallow (<4,>=3.3)
+
+UNKNOWN
+
+
