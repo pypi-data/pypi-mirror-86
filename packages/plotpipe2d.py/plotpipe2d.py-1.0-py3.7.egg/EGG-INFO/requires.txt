@@ -1,0 +1,4 @@
+nmrglue
+matplotlib
+numpy
+click
