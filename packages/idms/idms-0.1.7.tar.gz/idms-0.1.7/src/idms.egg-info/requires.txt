@@ -1,0 +1,11 @@
+requests>=2.25.0
+mimetype-description==0.0.5
+
+[dev]
+check-manifest
+python-dotenv>=0.15.0
+pandas>=1.1.4
+openpyxl
+
+[test]
+coverage
