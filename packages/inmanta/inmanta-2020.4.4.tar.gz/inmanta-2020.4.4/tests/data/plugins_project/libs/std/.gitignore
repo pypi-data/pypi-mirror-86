@@ -1,0 +1,9 @@
+*.swp
+*.pyc
+*~
+.mypy_cache
+.env
+.vscode
+.pytest_cache
+env_vars
+junit*
