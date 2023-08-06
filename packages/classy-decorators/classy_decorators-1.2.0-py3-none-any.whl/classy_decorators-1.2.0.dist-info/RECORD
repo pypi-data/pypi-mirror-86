@@ -1,0 +1,12 @@
+classy_decorators/__init__.py,sha256=Q75Nif0XOquMYkAGTCbegVp_tQ0mhA6H2CYsyw9Nkm4,45
+classy_decorators/decorators.py,sha256=ya6KLLd0B5n4nbaO32POy4LfMPUg8rdqMhoCw8eXUnQ,17672
+classy_decorators/function_types.py,sha256=U7hMSv0b7jPi3QlHJeQNsfLBQqnAcCabFIRxvXZoXDI,3998
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/double.py,sha256=OvbLC94h8yzZ06UjKkQ_IXpnrCLU6M0JKwa0ffOyoR8,652
+examples/inheritance.py,sha256=qdt86or-W7h5-32zeTZWzwAvE4TOnjywKmEesAe_e_4,298
+examples/multiply.py,sha256=9xGllUlhqhtgbIMCoqtfJ6dxilzsgMI0mcz-rgzxzXc,406
+classy_decorators-1.2.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+classy_decorators-1.2.0.dist-info/METADATA,sha256=QlVe36ppXqFbk2d6stSbNaPWGWu48NHAJVUcf2xoeHc,5062
+classy_decorators-1.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+classy_decorators-1.2.0.dist-info/top_level.txt,sha256=WkKrcO1upZbugGjXMyUXPUHiHRbL9aHdK1RzkFjKfTI,27
+classy_decorators-1.2.0.dist-info/RECORD,,
