@@ -1,0 +1,8 @@
+TechfinDataPipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TechfinDataPipeline/data_tools.py,sha256=Kcqv3w0MRyN1-JEkh4G0n1k0JVt62mLV0zT1VTtbfGw,19239
+TechfinDataPipeline/invoice_struct.py,sha256=IvvTyu1yPxtUj_15rFGhTfianKWg8SlY7AAleFMUiqU,4014
+TechfinDataPipeline/nfe_xml_parser.py,sha256=89HzCB9z3EJ3D0BMICcjXAs9VlYkpQLSZT28hjvKOcY,2139
+TechfinDataPipeline-0.0.6.dist-info/METADATA,sha256=XZ3ET2ukvQ95lcQ52hzci3AqeWflYzIZBi1xJqfy0IM,1474
+TechfinDataPipeline-0.0.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+TechfinDataPipeline-0.0.6.dist-info/top_level.txt,sha256=ngEozY78S8GMKl0QpbbPQl2so0xoLclOv6w1O2-H5hY,20
+TechfinDataPipeline-0.0.6.dist-info/RECORD,,
