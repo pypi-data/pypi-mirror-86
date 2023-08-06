@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: package-mikezhou-talk
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://mp.weixin.qq.com/s/9FQ-Tun5FbpBepBAsdY62w)
+Author: mikezhou_talk
+Author-email: 762357658@qq.com
+License: BSD License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+
+# Example Package
+# 关注公众号：「测试开发技术」
+
+
+微信公众号： 「测试开发技术」，专注于软件测试开发领域，内容覆盖:
+- 主流的开源技术
+- 自动化测试
+- 性能测试
+- 安全测试
+- Python开发实战
+- CI/CD
+- Docker
+- DevOps
+- 职场经验分享
+
+
+[联系作者](https://mp.weixin.qq.com/s/9FQ-Tun5FbpBepBAsdY62w)
+
+
+
+
