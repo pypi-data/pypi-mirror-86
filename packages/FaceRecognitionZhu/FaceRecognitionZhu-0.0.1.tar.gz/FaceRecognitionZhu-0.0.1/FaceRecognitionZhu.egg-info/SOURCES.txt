@@ -1,0 +1,6 @@
+README.md
+setup.py
+FaceRecognitionZhu.egg-info/PKG-INFO
+FaceRecognitionZhu.egg-info/SOURCES.txt
+FaceRecognitionZhu.egg-info/dependency_links.txt
+FaceRecognitionZhu.egg-info/top_level.txt
