@@ -1,0 +1,8 @@
+README.md
+setup.py
+asyroro/asyroro.py
+asyroro.egg-info/PKG-INFO
+asyroro.egg-info/SOURCES.txt
+asyroro.egg-info/dependency_links.txt
+asyroro.egg-info/requires.txt
+asyroro.egg-info/top_level.txt
