@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Ripgrep{% if pattern %}: {{ pattern }}{% endif %}{% endblock %}
+
+{% block extra_head %}
+<style>
+pre a:link {
+    text-decoration: none;
+    color: #666;
+}
+</style>
+{% endblock %}
+
+{% block nav %}
+    <p class="crumbs">
+        <a href="{{ urls.instance() }}">home</a>
+    </p>
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+<h1>Ripgrep</h1>
+
+<form action="{{ urls.path("/-/ripgrep") }}" method="get">
+    <input type="search" name="pattern" value="{{ pattern }}">
+    <input type="submit" value="Search">
+</form>
+
+{% if time_limit_hit %}<p>Time limit exceeded.</p>{% endif %}
+
+{% for result in results %}
+    {% if result.type == "begin" %}
+        <h3>{{ fix_path(result.data.path.text) }}</h3>
+    {% endif %}
+    {% if result.type == "match" %}
+        <pre><a href="{{ urls.path("/-/ripgrep/view/" + fix_path(result.data.path.text)) }}#L{{ result.data.line_number }}">{{ "%-4s" | format(result.data.line_number) }}</a> {{ result.data.lines.text }}</pre>
+    {% endif %}
+{% endfor %}
+
+{% endblock %}
