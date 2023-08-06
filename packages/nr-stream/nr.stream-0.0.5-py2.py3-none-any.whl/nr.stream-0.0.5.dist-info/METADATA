@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: nr.stream
+Version: 0.0.5
+Summary: Use iterators like Java streams.
+Home-page: https://git.niklasrosenstein.com/NiklasRosenstein/nr
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: nr.collections (<1.0.0,>=0.0.1)
+Requires-Dist: nr.pylang.utils (<1.0.0,>=0.0.1)
+Requires-Dist: six (<2.0.0,>=1.11.0)
+
+
+> Note: This package is in the dangerous land of `0.x.y` versions and may be subject to breaking
+> changes with minor version increments.
+
+# nr.stream
+
+Provides the `Stream` class with useful helper methods. All methods are both instance and class
+methods at the same time.
+
+## Example
+
+```py
+from nr.stream import Stream
+
+values = [3, 6, 4, 7, 1, 2, 5]
+assert list(Stream.chunks(values, 3, fill=0).map(sum)) == [13, 10, 5]
+```
+
+---
+
+<p align="center">Copyright &copy; 2020 Niklas Rosenstein</p>
+
+
+
