@@ -1,0 +1,13 @@
+macrodemos/__init__.py,sha256=qc8B4ggXW4sl5R0GXQAF2eeSrtH7F4z2ZB7KdOZtuF4,859
+macrodemos/captura.py,sha256=eJ6D79TT3_YQHD8RcdMzvliqclPuohYjEhXzTj6bRrs,8654
+macrodemos/common_components.py,sha256=WU1ohEZw4nKEHwRhVIOXAukUpiFw3mv8f6nBFsQ6eno,4474
+macrodemos/constants.py,sha256=yJoJR28HUSdh60dsv-05VEUEUKXvpKSqhn0NcQzLDlc,6525
+macrodemos/demo_ARMA.py,sha256=mQrekfV94NSJb94wUavDxAji7iZyt3CljRt-6hTg0Uk,23787
+macrodemos/demo_Markov.py,sha256=n3vLPrxGcCofdIE9JUyMUVrzmuUINsWZxN9OLiBdgtE,11108
+macrodemos/demo_Solow.py,sha256=18yO42X4vzbRrnvnM5bbs4r8rJRgqW43OhoGFXxAhuY,11571
+macrodemos/demo_filters.py,sha256=GJFHC-XHxUvBowOuevaUvF2qMrd2YLGqgGsexh4pCHU,23047
+macrodemos/data/IFS_GDP.xlsx,sha256=4Aly84OUdhl9tLhT2IZyc-ej_jQGEaemJ2ucoPVLGpQ,227875
+macrodemos-2020.11.20.dist-info/METADATA,sha256=SqB33QMp5rz9Ht_LbWzi3erwOWwaLVE98JKgIXVXSsc,424
+macrodemos-2020.11.20.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+macrodemos-2020.11.20.dist-info/top_level.txt,sha256=Bl40XOraxDePP3KjCzhfM4n8uoBAnZNuACQZyOFyj5U,11
+macrodemos-2020.11.20.dist-info/RECORD,,
