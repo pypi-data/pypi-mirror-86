@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: morpcc
+Version: 0.1.0a4
+Summary: Morp Control Center
+Home-page: http://github.com/morpframework/morpcc
+Author: Izhar Firdaus
+Author-email: kagesenshi.87@gmail.com
+License: GPLv3
+Description: Morp Control Center
+        ====================
+        
+        Control center framework for MORP
+        
+        0.1.0a4 (2020-11-23)
+        --------------------
+        
+        - First release with changelog
+        
+Keywords: framework cms
+Platform: UNKNOWN

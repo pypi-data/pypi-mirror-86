@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<metal:master metal:use-macro="load_template('master/page.pt').macros.master">
+
+    <body>
+        <h3>
+            <span metal:fill-slot="page-title">
+                ${page_title}
+            </span>
+        </h3>
+        <metal:body fill-slot="page-body">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div metal:use-macro="load_template('master/panel.pt').macros.panel">
+                        <h2 metal:fill-slot="panel-title">General</h2>
+                        <ul>
+                            <metal:macro fill-slot="panel-toolbox">
+                                <metal:toolbox use-macro="load_template('master/crud/form.pt').macros.toolbox" />
+                            </metal:macro>
+                        </ul>
+                        <div metal:fill-slot="panel-content">
+                            <div
+                                tal:replace="structure:form.render(appstruct=form_data, readonly=True, request=request, context=context)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 metal:fill-slot="panel-title">Entities</h2>
+            <a id="upgrade-schema-btn" tal:attributes="style '' if need_update else 'display:none'"
+                href="${request.link(context,'+schema-upgrade')}">
+                <button class="btn btn-danger">
+                    <i class="fa fa-arrow-up"></i>
+                    Upgrade Database Schema</button>
+            </a>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                    <tal:repeat repeat="entity entities">
+                        <div class="col-md-2 col-sm-3 col-xs-4" tal:define="card_icon entity.__parent__['icon'] or 'database';
+                                card_icon_link request.link(entity.ui())">
+                            <metal:card use-macro="load_template('master/card.pt').macros.card">
+                                <metal:body fill-slot="card_content">
+                                    <h4 style="text-align:center"><a
+                                            href="${request.link(entity.ui())}">${entity.__parent__['title']}</a>
+                                    </h4>
+                                    <p tal:content="entity.__parent__['description']"></p>
+                                </metal:body>
+                            </metal:card>
+                        </div>
+                    </tal:repeat>
+                </div>
+            </div>
+
+        </metal:body>
+    </body>
+</metal:master>
+
+</html>
