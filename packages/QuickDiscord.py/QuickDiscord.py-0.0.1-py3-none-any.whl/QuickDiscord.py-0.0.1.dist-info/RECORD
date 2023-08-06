@@ -1,0 +1,11 @@
+quickdiscord/__init__.py,sha256=Ueg8e1yoGpb50LaI6vFrhBfjoLWtPE9KLU1S35os9Gw,650
+quickdiscord/client.py,sha256=x5D5RdfZX_M8eqO0Cygkj15XPIPiY8TvvIWGqp6d9M8,234
+quickdiscord/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickdiscord/lib/util/__init__.py,sha256=BffNps09GeaGNJWwjBeVikJZh4tw_kLzjkLLKa6C-a4,49
+quickdiscord/lib/util/exceptions.py,sha256=FJC7NPWv6bza4ne1ofU8932tK10BUBHaBHW-1fft8uI,437
+quickdiscord/lib/util/objects.py,sha256=Co_OotQ0lD6BwwgZ88qqDXqN0tBSb2D32Df47znSdWc,70
+QuickDiscord.py-0.0.1.dist-info/LICENSE,sha256=EqRIG2vO174SNYiGJsTwwhOqo0XDM7o9YJFFlc4I4uQ,1063
+QuickDiscord.py-0.0.1.dist-info/METADATA,sha256=mcNqhikLgqVZwvOcQ30LzdFhclPs8tzG-wr6OUVUeVA,377
+QuickDiscord.py-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+QuickDiscord.py-0.0.1.dist-info/top_level.txt,sha256=2itn74SQzjkWy0Zl__Dx8HsMK-Qni53qK78-tiMnzOc,13
+QuickDiscord.py-0.0.1.dist-info/RECORD,,
