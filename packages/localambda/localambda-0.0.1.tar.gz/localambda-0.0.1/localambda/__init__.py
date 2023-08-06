@@ -1,0 +1,1 @@
+LOLA_REDIS_LIST_NAME = 'lola-tasks'

@@ -1,0 +1,6 @@
+aws-sam-cli==1.12.0
+cfn-flip==1.2.3
+click==7.1.2
+redis==3.5.3
+PyYAML==5.3.1
+mitmdump==1.1.2

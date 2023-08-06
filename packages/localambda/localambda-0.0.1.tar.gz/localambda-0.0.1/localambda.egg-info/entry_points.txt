@@ -1,0 +1,3 @@
+[console_scripts]
+lola = localambda.cli.cli:entry
+
