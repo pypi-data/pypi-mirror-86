@@ -1,0 +1,11 @@
+hentai/__init__.py,sha256=FTOGzIcFWUrsTiihyL8YGFnxHAxQzmabAU2qWCmbjto,48
+hentai/hentai.py,sha256=C7pjOCB2F7z2VGdk7Y2SEFVWdS-YUSsVmmPwus7CWKI,27695
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hentai.py,sha256=J8NA41R9OA4Rj5gP3NP6BKgXHIZSyCQHBnV6koiNy20,3514
+tests/test_requesthandler.py,sha256=LBJRi6KPnm3sWTR1CZz4ZDPYk-lrfys6dt3dZNZ8PMc,371
+tests/test_utils.py,sha256=MvCsjvY_Zfu0dhw1vWDEvBx3fo14fFbkVTL3XmQWEy0,5392
+hentai-3.1.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+hentai-3.1.3.dist-info/METADATA,sha256=aE7fy7tnXpmR2t2tJ2wgFlRjjF02ImgZ3iDIuDV3lgo,5860
+hentai-3.1.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+hentai-3.1.3.dist-info/top_level.txt,sha256=BggSlxcdYthm5ztu2TvTcrv_4l12PktkXvYjLidBdJI,13
+hentai-3.1.3.dist-info/RECORD,,
