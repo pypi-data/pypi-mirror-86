@@ -1,0 +1,15 @@
+fun/__init__.py,sha256=Y5fJMHrdCpb4v7jBWPpNFQ0SVScsSwW02CKsqprnjMs,300
+fun/bin/examples.py,sha256=1AMUrVG-QikRKTCpz_KUKXYdGw_pNPFoDM2zSFRNOFY,1921
+fun/communications/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fun/communications/communicator.py,sha256=NC84wLSTJ-yphqTQ9wYF192kCCcWLdNhGKP2LOlkYp0,24760
+fun/communications/contact_list.json,sha256=ZRViEGi5yo369zo6nLdOepJL_yFoIZku3pP0c3R0ROk,553
+fun/communications/email_template.txt,sha256=iZ9cCDg3gUHLfpLYBf0crFvubLRfcQLMGPL2YPfW4Gs,7
+fun/communications/liveline_logo.png,sha256=R-nmjPkBEr2HJBRBNJPoortvM5KNFF_59_CM8d1EMwM,7868
+fun/communications/sms_email_stubs.json,sha256=Hat7_4--RpxMkGJOA1IrsH73z8n1loGmw8DSGjgyqkE,129
+fun/printing/__init__.py,sha256=pPMBLZ09OcO1YZDO9iRK5mjwvARjMUCXsI1gmiBi2NI,1816
+fun/printing/formatted_console_print.py,sha256=e4x8SW2uikqFz1z01rjzRZB2T5HJ-BT075aAgAny9EQ,13981
+fun_supergus-0.1.3.dist-info/LICENSE,sha256=KyDbRmUTCHa9GuCH953D8rQl1qoSXtazsxwLeLYzqWc,1071
+fun_supergus-0.1.3.dist-info/METADATA,sha256=EVjOKf18Mt10oeFCjZI6fgcEpM5U8oIf4Z8eo-JnTNY,4906
+fun_supergus-0.1.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+fun_supergus-0.1.3.dist-info/top_level.txt,sha256=puIAcI1UdF8A7AQFDalED9uwp3ZR3hEwA0GIieMB_vY,4
+fun_supergus-0.1.3.dist-info/RECORD,,
