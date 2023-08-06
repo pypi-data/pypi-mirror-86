@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/markdownup.egg-info/PKG-INFO
+src/markdownup.egg-info/SOURCES.txt
+src/markdownup.egg-info/dependency_links.txt
+src/markdownup.egg-info/requires.txt
+src/markdownup.egg-info/top_level.txt
