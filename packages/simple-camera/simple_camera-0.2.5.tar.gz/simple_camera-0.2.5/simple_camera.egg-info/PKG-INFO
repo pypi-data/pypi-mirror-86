@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: simple-camera
+Version: 0.2.5
+Summary: UNKNOWN
+Home-page: https://github.com/kostyaev/simple_camera
+Author: Dmitry Kostyaev
+Author-email: dm.kostyaev@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
