@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: cython-pocketfft
+Version: 0.0.12
+Summary: Cython wrapper for PocketFFT
+Home-page: UNKNOWN
+Author: Matthew Reid
+Author-email: matt@nomadic-recording.com
+License: MIT
+Project-URL: Source Code, https://github.com/nocarryr/cython-pocketfft
+Project-URL: Documentation, https://cython-pocketfft.readthedocs.io/en/latest/
+Description: # cython-pocketfft
+        
+        ## Description
+        
+        A [Cython] wrapper for [PocketFFT]
+        
+        ## Links
+        
+        * Documentation:
+          * https://cython-pocketfft.readthedocs.io/en/latest/
+        * Source code:
+          * https://github.com/nocarryr/cython-pocketfft
+        
+        ## Usage
+        
+        *TODO*
+        
+        ## Installation
+        
+        *TODO*
+        
+        ## License
+        
+        ### PocketFFT
+        
+        Copyright (C) 2010-2019 Max-Planck-Society - (See [pocketfft/LICENSE.md](cypocketfft/_pocketfft_lib/LICENSE.md) for details)
+        
+        Source code available at https://gitlab.mpcdf.mpg.de/mtr/pocketfft
+        
+        ### cython-pocketfft (this project)
+        
+        Copyright (c) 2019 Matthew Reid - (See [LICENSE](LICENSE) for details)
+        
+        Source code available at https://github.com/nocarryr/cython-pocketfft
+        
+        
+        [Cython]: https://cython.org/
+        [PocketFFT]: https://gitlab.mpcdf.mpg.de/mtr/pocketfft
+        
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
