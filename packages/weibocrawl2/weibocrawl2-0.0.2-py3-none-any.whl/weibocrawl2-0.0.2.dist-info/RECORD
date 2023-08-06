@@ -1,0 +1,9 @@
+WeiboCrawl2/VERSION.txt,sha256=y-NTX1iTRVRydKI09GknkRSUGWd6Z3N7bhfzcbY_3e0,5
+WeiboCrawl2/__init__.py,sha256=xFn7hAgM9WLpNgZOzXUmdUIJ4147RT7QDsxibqEHPNM,169
+WeiboCrawl2/config.json,sha256=BwRBnZToLQUXnzPZ5FWjTS9g8U4rUJAL1HnNhMKwrFc,454
+WeiboCrawl2/logging.conf,sha256=bfl38C_YTTdWLxQ6y98Wi_QUhNbEvc0xVz_AQxySUXQ,923
+WeiboCrawl2/weibo.py,sha256=Ur1DuOq_8FqbdbliiiFtDBgmEUsxd1ck99RwgkezUfs,52190
+weibocrawl2-0.0.2.dist-info/METADATA,sha256=DrzxNelc3x3brqsKCuJvc6xW0l7IUjfiOEj0NGLeD6U,2147
+weibocrawl2-0.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+weibocrawl2-0.0.2.dist-info/top_level.txt,sha256=AyZ0_j2pthYsqYhUr75axE2DtjdgPQHZK6VMCoT9ipI,12
+weibocrawl2-0.0.2.dist-info/RECORD,,
