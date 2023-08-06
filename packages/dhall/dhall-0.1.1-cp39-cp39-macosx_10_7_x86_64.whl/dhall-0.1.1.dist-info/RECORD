@@ -1,0 +1,7 @@
+dhall-0.1.1.dist-info/METADATA,sha256=Vy8Kl6TefaqNC19mmxk_CqFOnkbN2l8kFuD47VWz7Gk,4317
+dhall-0.1.1.dist-info/WHEEL,sha256=I1onC5YScbxXmtOwWNxRTTQPAJMO7CIqFQxo4rGSuSY,103
+dhall/__init__.pyi,sha256=Rwz_jZSMD4ypNGm7OOhQU_O8yae8bKuyo3IdKXeXE5c,464
+dhall/__init__.py,sha256=3VJbrp6ZK8Bzz4Xd7eI-JBw40Bd0VaI0V-M0ni5ovpA,57
+dhall/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhall/dhall.cpython-39-darwin.so,sha256=mgKvpMKsPHn5Nev3cl4922D6-w-hblbBfiegeFkusf8,4985920
+dhall-0.1.1.dist-info/RECORD,,
