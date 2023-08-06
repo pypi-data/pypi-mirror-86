@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: progress-text
+Version: 0.0.1
+Summary: Python script for printing progress in text.
+Home-page: https://github.com/LinjianLi/progress-text
+Author: Linjian Li
+Author-email: author@example.com
+License: UNKNOWN
+Description: # progress-text
+        
+        Python script for printing progress in text.
+        
+        ## Why not [tqdm](https://github.com/tqdm/tqdm)
+        
+        [tqdm](https://github.com/tqdm/tqdm) is awesome, but I just want to print the progress to a log file by `nohup`.
+        
+        ## Install
+        
+        ```shell
+        pip3 install --upgrade progress-text
+        ```
+        
+        ## Usage
+        
+        ```python
+        from progress_text import ProgressText
+        
+        for i in ProgressText(range(7)):
+            pass
+        
+        for i in ProgressText(range(50)):
+            pass
+        
+        for i in ProgressText(range(1000), every_percent=20):
+            pass
+        
+        for i in ProgressText([1,3,5,7,9,11]):
+            pass
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
