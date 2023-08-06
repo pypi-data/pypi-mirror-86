@@ -1,0 +1,11 @@
+README.md
+setup.py
+cmind/__init__.py
+cmind/__main__.py
+cmind/cli.py
+cmind.egg-info/PKG-INFO
+cmind.egg-info/SOURCES.txt
+cmind.egg-info/dependency_links.txt
+cmind.egg-info/entry_points.txt
+cmind.egg-info/not-zip-safe
+cmind.egg-info/top_level.txt

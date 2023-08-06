@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cmind
+Version: 0.0.1
+Summary: Collective Mind
+Home-page: https://cKnowledge.io/@gfursin
+Author: Grigori Fursin
+Author-email: gfursin@gmail.com
+License: Apache Software License (Apache 2.0)
+Description: # Collective Mind
+        
+        
+Keywords: collective mind,collective database
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
