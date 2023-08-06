@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django-editorjs"
+version = "1.0a1"
+description = "Django plugin for using Editor.js in admin"
+authors = ["vlzh <vlzh@pm.me>"]
+repository = "https://github.com/VLZH/django-editorjs"
+documentation = "https://github.com/VLZH/django-editorjs"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pydantic = "^1.7.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+Django = "^3.0.0"
+black = "^19.10b0"
+flake8 = "^3.8.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
