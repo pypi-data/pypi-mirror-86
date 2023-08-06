@@ -1,0 +1,10 @@
+tac_tasks_validation/__init__.py,sha256=0oSJW-dTy5ZVwtf9O343LSDXobxZuekDek9DTuJHOhQ,133
+tac_tasks_validation/base.py,sha256=wUz7D7stpS3bpYSQ4KWgmclCEtXzS98Bv0RiQVPqIkg,7205
+tac_tasks_validation/exceptions.py,sha256=InFivvyOHidrimxJv5wVY-2_tZ6Ds_fj-xkrimN3pAQ,89
+tac_tasks_validation/old_to_new.py,sha256=Nr5CkC_kLPROGvvkV5R5BWvcEyeORtBsyMwQPVYmnks,3570
+tac_tasks_validation/ont_migration.py,sha256=LnG6w6W0Rt72zmG-qKhvRE9u-nBN0kCTeNvX9DKelcA,2363
+tac_tasks_validation-0.2.dist-info/LICENSE.txt,sha256=96Etr_J6H2WaouVLk26eMIeVbmvTYJ6NNcnXEq9oWlU,1068
+tac_tasks_validation-0.2.dist-info/METADATA,sha256=QLeJufqta_qsb0wg4Nc397yqbXe5ntPZqT3HdfRj4fc,1361
+tac_tasks_validation-0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tac_tasks_validation-0.2.dist-info/top_level.txt,sha256=PdLcs1d-GJJxw3qshfpb5MSj1HF7vQhOsAmBiTI0Ga4,21
+tac_tasks_validation-0.2.dist-info/RECORD,,
