@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: agilentaspparser
+Version: 0.0.4
+Summary: Parser for Agilent IR .asp files
+Home-page: https://github.com/egonik-unlp/agilent_ir
+Author: Eduardo Gonik
+Author-email: gonik@quimica.unlp.edu.ar
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Agilent IR spectrum file parsers
+
+
+
+In our lab we have an Agilent Cary 660 ATR-IR spectrometer. The ASCII files produced by this device are a nuissance to work with beacause they don't feature a wavenumber column. This 'library' intends to make work with said files a bit easier by parsing spectra and adding missing information.
+
+
