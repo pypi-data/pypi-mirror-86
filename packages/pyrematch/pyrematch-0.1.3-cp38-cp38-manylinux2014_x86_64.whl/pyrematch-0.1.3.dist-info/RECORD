@@ -1,0 +1,10 @@
+pyrematch-0.1.3.dist-info/top_level.txt,sha256=rTJm-7OnJ6VppwGTJPU63K-992LTj_Fdis5KTQxU-ew,10
+pyrematch-0.1.3.dist-info/RECORD,,
+pyrematch-0.1.3.dist-info/METADATA,sha256=uPmDycFuwvcvtB1piAKSI8BlLZ4mQH_YUteOwRtuJJE,7185
+pyrematch-0.1.3.dist-info/WHEEL,sha256=kyTh19hYapxFQnJ2J_oso2bAphHNwCojNuQrMpP_-Ug,111
+pyrematch/rematchlib.py,sha256=oy8uTTy6-_rZjpdKtqgmk5LWiYL-jiGjMAK9lCTX8fA,3561
+pyrematch/simple-test.py,sha256=onYB8hdp4RSXQ5XsRd-Op589vo89cYuNaPmR-DoZ5xk,863
+pyrematch/test_basic_operation.py,sha256=UewyOUf1pg6m9fsGE9JGaVksjhXwpw11FRnCskDF4c8,5689
+pyrematch/_rematch.so,sha256=GwvOh8aem1oDB2YH3oF9EhCM6RwITOzjPVDEfb74U9s,2559328
+pyrematch/rematch.py,sha256=dmFXE2MW0UxwAPxvFCvDH2bdqgZ8q1HbOQdMpIaVjhE,11409
+pyrematch/__init__.py,sha256=3LMcVW60xCvvZoFV-FZEo0BLL0HcEtCnQxFn7FiUiUw,45
