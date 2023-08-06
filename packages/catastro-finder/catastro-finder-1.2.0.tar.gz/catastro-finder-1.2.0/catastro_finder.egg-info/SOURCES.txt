@@ -1,0 +1,12 @@
+README.md
+__init__.py
+catastro_finder.py
+license.txt
+setup.cfg
+setup.py
+usage_example.py
+catastro_finder.egg-info/PKG-INFO
+catastro_finder.egg-info/SOURCES.txt
+catastro_finder.egg-info/dependency_links.txt
+catastro_finder.egg-info/requires.txt
+catastro_finder.egg-info/top_level.txt
