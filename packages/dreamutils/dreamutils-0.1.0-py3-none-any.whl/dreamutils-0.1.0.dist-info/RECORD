@@ -1,0 +1,17 @@
+dreamutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dreamutils/_internal.py,sha256=AHCSXzxLj4m4QbxlI-o5DW54zYH10DuqM2-Kprmr5tA,124
+dreamutils/encoding.py,sha256=RL8DQhoxW14ZgDgqHQEGJZvKQ_1zqm5-PGr3HdWlGgU,71
+dreamutils/file.py,sha256=ODS8c6Khz9j0D1dAvTDfzF-gr6wpF1p1TKDyYJpTfaw,3133
+dreamutils/net.py,sha256=5jRH-Uz6wH5iwWso4drWXRq3X0nNDymTc6x9ZEPdHqQ,1713
+dreamutils/os.py,sha256=6ZUMiS9qXe--ZXB8iwUqMHOoXqAC0dSICeOMg6mDLG4,1352
+dreamutils/python.py,sha256=HkUaIRDBCPE1ZjPWBr_p10GjEMxFFMwFIihvvVIgIiQ,4771
+dreamutils/sort.py,sha256=wUKSXF_0wiuErgrob6cXvJw-19pePoRmgRN3O9Xb-wI,5055
+dreamutils/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dreamutils/types/dict.py,sha256=IlEIy3itydhR0YiVn2LwRqaLR1FyiowCKxY-ndC1RdI,959
+dreamutils/types/string.py,sha256=cVHGqF7vLYkL_sXhrWMbKXWMLYofIQt_GMWdthztsv4,1954
+dreamutils/types/xml.py,sha256=UDLhA7MrpPO9IUPB7xhn6Ay88Y_MwOSTwN3CjjzV_JI,8144
+dreamutils-0.1.0.dist-info/LICENCE,sha256=3Bq4vItqMXXSnBQX7-qjIAegM_zTmwQkqxC72IFLAFI,7378
+dreamutils-0.1.0.dist-info/METADATA,sha256=6a1UJNe1bUaYHb3MHvSPOWQY3WrM0jWOapOWcGWbxbQ,2910
+dreamutils-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dreamutils-0.1.0.dist-info/top_level.txt,sha256=bsu2qUHF6B_vwqvzTZ-AnrFUKqxDDOBhwuWB7Q-ldh0,11
+dreamutils-0.1.0.dist-info/RECORD,,
