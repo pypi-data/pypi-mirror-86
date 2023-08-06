@@ -1,0 +1,15 @@
+README.md
+setup.py
+cddns/__init__.py
+cddns/config.py
+cddns/dnspod.py
+cddns/email.py
+cddns/ftqq.py
+cddns/ip.py
+cddns/log.py
+cddns/record.py
+cddns.egg-info/PKG-INFO
+cddns.egg-info/SOURCES.txt
+cddns.egg-info/dependency_links.txt
+cddns.egg-info/requires.txt
+cddns.egg-info/top_level.txt
