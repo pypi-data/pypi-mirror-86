@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: iterdecor
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/cinegemadar/iterabledecorator/
+Author: David Balogh
+Author-email: david.balogh@gmail.com
+License: UNKNOWN
+Keywords: decorator,iterable,iter
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+
+# Iter Decor pip package
+Python package that makes your classes iterable.
+## Description
+If you add the `@Iterable` decorator to your class, the `__iter__` member function is being implemented in a way that iteration goes through all member values within the decorated class.
+## Examples
+Please check [source code](./iterdecor.py) for more detailes and examples.
+
+
