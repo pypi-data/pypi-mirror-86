@@ -1,0 +1,11 @@
+pretty_talib/__init__.py,sha256=EOem76EwBaRDw5ccYm04AIj_1oezmNn4VDNMbxdZvVo,107
+pretty_talib/func_details.py,sha256=CRDIFPVK8jRiawm2GUwZXkwbtO8IYg-fZJW2a5-WIuA,38599
+pretty_talib/pretty_talib.py,sha256=9zwKfqPYgW5VzdJoqH6qxqhXuhitHz9eaOV0OO7UtoE,7695
+pretty_talib/returns.py,sha256=NNX3814FwOupFnmySnSQ5Q7Pl57WpSHqdv0ZE1iOg4w,6545
+pretty_talib/enums/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pretty_talib/enums/function_name.py,sha256=4iuugQr7VjImmbQTPm8N_rdvKGFpo0bopwvbl1aNCBs,6628
+pretty_talib-0.0.10.dist-info/LICENSE,sha256=fpoAq-19W9yDhw5HO22d8KHmAoEx15dfgl5x2ImqAHQ,1080
+pretty_talib-0.0.10.dist-info/METADATA,sha256=hsJPN9hPQfsehMCmX_e_GXyU2tcAI2HC-KZszqF3l2Y,3458
+pretty_talib-0.0.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pretty_talib-0.0.10.dist-info/top_level.txt,sha256=DdjIiIp-b3OqttpLtCJ-A-OxrCP1tP0soY93Y1FYF9k,13
+pretty_talib-0.0.10.dist-info/RECORD,,
