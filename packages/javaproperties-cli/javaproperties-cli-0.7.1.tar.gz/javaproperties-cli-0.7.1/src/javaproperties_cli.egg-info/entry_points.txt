@@ -1,0 +1,5 @@
+[console_scripts]
+javaproperties = javaproperties_cli.__main__:javaproperties
+json2properties = javaproperties_cli.fromjson:json2properties
+properties2json = javaproperties_cli.tojson:properties2json
+
