@@ -1,0 +1,13 @@
+README.md
+setup.py
+colour_stacking/__init__.py
+colour_stacking/__main__.py
+colour_stacking/input.py
+colour_stacking/input_config.py
+colour_stacking/models.py
+colour_stacking/solver.py
+colour_stacking.egg-info/PKG-INFO
+colour_stacking.egg-info/SOURCES.txt
+colour_stacking.egg-info/dependency_links.txt
+colour_stacking.egg-info/requires.txt
+colour_stacking.egg-info/top_level.txt
