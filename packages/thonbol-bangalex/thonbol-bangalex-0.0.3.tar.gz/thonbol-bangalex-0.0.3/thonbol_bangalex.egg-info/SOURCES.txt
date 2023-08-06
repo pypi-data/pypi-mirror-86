@@ -1,0 +1,9 @@
+README.md
+setup.py
+thonbol/__init__.py
+thonbol/_people.py
+thonbol/_version.py
+thonbol_bangalex.egg-info/PKG-INFO
+thonbol_bangalex.egg-info/SOURCES.txt
+thonbol_bangalex.egg-info/dependency_links.txt
+thonbol_bangalex.egg-info/top_level.txt
