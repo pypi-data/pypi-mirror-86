@@ -1,0 +1,14 @@
+idms/__init__.py,sha256=HJu3xfhWH3AhO0sNhwGkVSI3f-sKHHKgOCNF6pbGScg,13
+idms/functions.py,sha256=PI8Ow6pQR6-8la5SDWFUA0o5kVPWV-D4pVLK2qzy51M,254
+idms/api/__init__.py,sha256=HJu3xfhWH3AhO0sNhwGkVSI3f-sKHHKgOCNF6pbGScg,13
+idms/api/contentserver.py,sha256=5VZUqyhv7Mpqvml5-o-sWD3XNZUKJgh0bzUeK5_wIFE,10049
+idms-0.1.7.data/data/my_data/data_file,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+sample/__init__.py,sha256=eJUhUcyOxh8swfmDZgrUugpBVnbIWSkbZxcmwT5GmDw,111
+sample/package_data.dat,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+sample/simple.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+idms-0.1.7.dist-info/LICENSE.txt,sha256=qqtool-NFbN8v0dyc6w-z8NeyBQqsqr5o-3QUoX0tRA,1079
+idms-0.1.7.dist-info/METADATA,sha256=vj0dRbI-tGH6puem9F6oqOVqjIvR-0DNZNbp2xlGKOg,2087
+idms-0.1.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+idms-0.1.7.dist-info/entry_points.txt,sha256=lexK7RzT1xMyCvalZCkEXUV_pXjWKxyNU2NGRfSYmuo,40
+idms-0.1.7.dist-info/top_level.txt,sha256=FS-acsoEdGZdrnppP8eiYE9g-ToM5P-c5if5jJmhHgw,12
+idms-0.1.7.dist-info/RECORD,,
