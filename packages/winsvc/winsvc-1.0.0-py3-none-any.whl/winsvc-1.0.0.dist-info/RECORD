@@ -1,0 +1,8 @@
+winsvc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winsvc/_svc.py,sha256=aplbSOjkMC4J0rYMxSswHtPzXEGeNbgpNTRUyTz7qUQ,1269
+winsvc/cmd.py,sha256=C2rVNUWkcl9fLvsF7x0pdwxiSjADTuIQgSnSJj5s9t8,3714
+winsvc/svc.py,sha256=sz4EYQoFlXHR-Hf_Fmmevv8mZFg-vFIrd-XOZ_9gBss,895
+winsvc-1.0.0.dist-info/METADATA,sha256=8M6OenXm1ygGoX2dTkSVZRnpeJcf-tOB_jhe2OkXgOE,1613
+winsvc-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+winsvc-1.0.0.dist-info/top_level.txt,sha256=-H1nVE_x3EVgcOh14zEiZeKFSjXDejJZItUMvclRKaQ,7
+winsvc-1.0.0.dist-info/RECORD,,
