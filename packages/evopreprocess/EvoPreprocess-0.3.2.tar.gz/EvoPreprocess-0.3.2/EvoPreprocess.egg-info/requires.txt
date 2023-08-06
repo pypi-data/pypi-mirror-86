@@ -1,0 +1,3 @@
+numpy
+scipy
+scikit-learnimbalanced-learnNiaPy>=2.0.0rc11
