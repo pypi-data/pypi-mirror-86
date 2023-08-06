@@ -1,0 +1,9 @@
+identity_number_validator/__init__.py,sha256=DiHPg-PDheJ5uGCBCZN3QOmpC_F9RY86q986L3IoteE,43
+identity_number_validator/main.py,sha256=clOsF1qZOL9AuAf9VNZ7O2L6v2LHq8ZiZmCJ_sR488w,398
+identity_number_validator/countries/__init__.py,sha256=QWejujLGcs6H7uwV7jC17-QAl2R3xVYvJrqfnIC3OeQ,52
+identity_number_validator/countries/ecuador.py,sha256=a8UyEVCUYigE3SmtDdpcltC1zQ_Y3IiHWQ1SCBtKcPQ,1127
+identity_number_validator-0.0.5.dist-info/LICENSE,sha256=iTF8SC5gUG_Mf2Y8wJUMVE0skomzonBu2HbeT041SA8,1072
+identity_number_validator-0.0.5.dist-info/METADATA,sha256=j2rcD-BUdz7MX7iF5HAeouCTejgQhXvzOpX2gectQmM,1189
+identity_number_validator-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+identity_number_validator-0.0.5.dist-info/top_level.txt,sha256=ljC-Neoys4qY5vVHXrxiK9rFX1fTJ3Xk2wkA78xluV4,26
+identity_number_validator-0.0.5.dist-info/RECORD,,

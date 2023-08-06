@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: identity-number-validator
+Version: 0.0.5
+Summary: A package for validating identity numbers from different countries
+Home-page: https://github.com/DavidArmendariz/identity-number-validator-python
+Author: David Armendariz
+Author-email: davidarmendariz1998@gmail.com
+License: UNKNOWN
+Keywords: identity,cedula,ecuador
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Identity number validator
+
+<a href="https://www.buymeacoffee.com/darmendarizp"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=darmendarizp&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
+
+## Installation
+
+With `pip`:
+
+```bash
+pip install identity-number-validator
+```
+
+## Usage
+
+```python
+from identity_number_validator import identity_number_validator
+# Should print true
+print(identity_number_validator("0922553508", "EC"))
+```
+
+## Country Codes supported
+
+| Country | Code |
+| ------- | ---- |
+| Ecuador | EC   |
+
+
