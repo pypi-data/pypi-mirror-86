@@ -1,0 +1,3 @@
+[console_scripts]
+af = autoflow.main:main
+
