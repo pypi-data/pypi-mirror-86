@@ -1,0 +1,14 @@
+drfauto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drfauto/apps.py,sha256=rhZq4wa6WcgFmmGfXJMD2vsalZX7rkWBO1uJCAIMpZE,91
+drfauto/dynamic.py,sha256=5Ugvk2X8SdwwufinPDdx7_Qzw_PBMwL0m-DHiJq7Zpw,2070
+drfauto/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drfauto/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drfauto/management/commands/makefilter.py,sha256=kDyGVXgUg8d6vGtohUXFPk0ZWSVOIUVaXa94roS5-2A,881
+drfauto/management/commands/makeserializer.py,sha256=QONJJRkeMhWJ06PTcXkUusVKfaSpolSrn5Lh7A4q2nc,933
+drfauto/management/commands/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drfauto/management/commands/core/command.py,sha256=C6yLJn_dZqnXV_l4ecXTP_urNvBpJjBUzqiV7Tx2ZpY,1755
+drfauto/management/commands/core/file_writer.py,sha256=nku70ijPDCEznwlHox6HbfyeogZcupolR5HlCSjFNJo,3792
+drfauto-1.2.dist-info/METADATA,sha256=flwDPgbT62glJ89G0p9TUSrw7T1jDvqnwDYG__IUSEg,933
+drfauto-1.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+drfauto-1.2.dist-info/top_level.txt,sha256=LJ0AQqF_gVYsquzoDYFXAcEd-rpUQgdg0Gm_I3ASibA,8
+drfauto-1.2.dist-info/RECORD,,
