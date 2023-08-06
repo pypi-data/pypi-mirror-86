@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: scrapy-save-to-qiniu
+Version: 0.2.0
+Summary: Pipeline to save scrapy item field attachment to qiniu
+Home-page: https://github.com/etng/scrapy-save-to-qiniu
+Author: etng
+Maintainer: etng
+Maintainer-email: etng2004@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Scrapy
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires: scrapy
+Requires: selenium
+Requires: requests
+Description-Content-Type: text/markdown
+
+# Pipeline to save scrapy item field attachment to qiniu
+
+
+## Installation
+
+Install scrapy-save-to-qiniu using pip::
+
+    $ pip install scrapy-save-to-qiniu
+
+## Configuration
+
+1. Add the  ``settings.py`` of your Scrapy project like this:
+
+```python
+QINIU_AK = ''
+QINIU_SK = ''
+QINIU_BUCKET = ''
+QINIU_DOMAIN = ''
+QINIU_DEL_SRC = True
+QINIU_FIELDS = [
+    'pdf_url',
+]
+```
+
+2. Enable the pipeline by adding it to ``ITEM_PIPELINES`` in your ``settings.py`` file and changing HttpCompressionMiddleware
+ priority:
+
+```python
+ITEM_PIPELINES = {
+    'scrapy_save_to_qiniu.pipelines.SaveToQiniuPipeline': -1,
+}
+```
+The order should before your persist pipeline such as save to database and after your preprocess pipeline.
+
+## Usage
+
+no need to change your code
+
+## Getting help
+
+Please use github issue
+
+## Contributing
+
+PRs are always welcomed.
+
+## Changes
+
+### 0.1.0 (2020-12-26)
+
+Initial release
+
