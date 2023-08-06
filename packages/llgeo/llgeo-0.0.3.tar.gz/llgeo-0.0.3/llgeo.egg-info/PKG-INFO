@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: llgeo
+Version: 0.0.3
+Summary: Python library for Geotechnical Engineering
+Home-page: UNKNOWN
+Author: Laura Luna
+Author-email: lauralunacabrera@gmail.com
+License: UNKNOWN
+Description: # LLGEO
+        ### A Python Library for Geotechnical Engineering Applications
+        
+        This is a test version!
+        
+        
+        version 0.0.3
+        - llgeo/quad4m/genfiles.py : added genfiles.py, which generates input files for QUAD4M. Note that KSAV and KOUT flags were not coded in so far, and will need to be added in later.
+        - llgeo/quad4m/geometry.py : fixed orientation of nodes (was clockwise instead of counter-clockwise)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
