@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: selinux-please-lie-to-me
+Version: 1.0.0
+Summary: Fake selinux module that always says SELinux is off
+Home-page: https://github.com/goneri/selinux_please_lie_to_me
+Author: Gonéri Le Bouder
+Author-email: goneri@lebouder.net
+License: MIT
+Project-URL: Bug Tracker, https://github.com/goneri/selinux_please_lie_to_me/issues
+Keywords: selinux
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+# SELinux: please lie to me! 😭
+
+This package provides a fake `selinux` module. This mocked `selinux` module
+will always pretend SELinux is not enabled on the system.
+
+## But why? 😕
+
+If your system runs SELinux and run Ansible in a virtualenv you will probably
+face this error:
+
+    Aborting, target uses selinux but python bindings (libselinux-python) aren't installed!
+
+## Example
+
+    $ virtualenv -p python3.6 venv
+    $ source venv/bin/active
+    $ pip install selinux_please_lie_to_me
+    $ python3 -c 'import selinux; print(f"SELinux is enabled: {selinux.is_selinux_enabled()}, (which is probably a lie 🤫)")'
+    SELinux is enabled: False, (which is probably a lie 🤫)
+
+
