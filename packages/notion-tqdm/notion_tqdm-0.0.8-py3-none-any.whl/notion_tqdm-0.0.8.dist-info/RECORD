@@ -1,0 +1,9 @@
+notion_tqdm/__init__.py,sha256=ukxd01sSppx-wBP3J4QFlDuDAV-L3xgQhGpcD5yJSLY,28
+notion_tqdm/_std.py,sha256=Pp75O03nREL8HkexLKHXB8hSa23HPjnCsg1ObQnmPsc,3062
+notion_tqdm/constants.py,sha256=u0XTXO964lTuKabMSdnmeJdbBdqyD8d4FXMForNPRVA,569
+notion_tqdm/std.py,sha256=mY2OcErvD_byjCRZM4RgeYNcBW4QZTz6Rgt03Uszv-w,6668
+notion_tqdm-0.0.8.dist-info/LICENSE,sha256=nPt9nL5I8wXVomU5YyvsbvToWISMQ6WVlyPg8p5NXKE,1072
+notion_tqdm-0.0.8.dist-info/METADATA,sha256=4BM1-CZAnEpkPV2EWia_KyqS1_PX3s-QJjnLrXR7KNY,4229
+notion_tqdm-0.0.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+notion_tqdm-0.0.8.dist-info/top_level.txt,sha256=HxHxC6Pq00aFcBy8RnPQ6RSsXr0IHSGBuWZpmWqy-wA,13
+notion_tqdm-0.0.8.dist-info/RECORD,,
