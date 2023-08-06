@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: duckdown
+Version: 0.0.25
+Summary: UNKNOWN
+Home-page: https://github.com/blueshed/duckdown/
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: invoke
+Requires-Dist: convoke
+Requires-Dist: tornado
+Requires-Dist: markdown
+Requires-Dist: markdown-strikethrough
+Requires-Dist: python-dotenv
+Requires-Dist: boto3
+
+# duckdown
+
+A light weight markdown site.
+
+### To use ###
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install duckdown
+duckdown create site
+duckdown run site
+```
+
+You view the site on: http://localhost:8080
+
+You can edit the site at http://localhost:8080/edit
+
+the defaut username/password:
+```
+username: admin
+password: admin
+```
+
+---
+
+### Dev ###
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r dev-requirements.txt
+inv server
+```
+
+
