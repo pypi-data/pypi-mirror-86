@@ -1,0 +1,6 @@
+README.md
+setup.py
+IntelliPy.egg-info/PKG-INFO
+IntelliPy.egg-info/SOURCES.txt
+IntelliPy.egg-info/dependency_links.txt
+IntelliPy.egg-info/top_level.txt
