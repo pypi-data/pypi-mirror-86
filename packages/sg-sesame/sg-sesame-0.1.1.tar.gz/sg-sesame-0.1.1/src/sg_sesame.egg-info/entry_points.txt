@@ -1,0 +1,3 @@
+[console_scripts]
+sg-sesame = sg_sesame.sg_sesame:sg_sesame
+
