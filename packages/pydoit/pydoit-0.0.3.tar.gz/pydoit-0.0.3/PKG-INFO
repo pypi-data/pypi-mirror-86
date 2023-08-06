@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pydoit
+Version: 0.0.3
+Summary: Wrapper around the i-doit API
+Home-page: https://github.com/aaronlyy/pydoit
+Author: Aaron Levi Can (aaronlyy)
+Author-email: aaronlevican@gmail.com
+License: GPL-3.0 License
+Download-URL: https://github.com/aaronlyy/pydoit/archive/v0.0.3.tar.gz
+Description: # pydoit: An API Wrapper around the i-doit API
+        
+        ## currently supported methods
+        
+        - idoit.login
+        - idoit.logout
+        - idoit.search
+        - idoit.version
+        - idoit.constants
+        
+        - cmdb.object.create
+        - cmdb.object.read
+        - cmbd.object.update
+        - cmdb.object.delete
+        
+Keywords: api,wrapper,json,jsonrpc,http
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
