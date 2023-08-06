@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+package/BinarySearchProgram.egg-info/PKG-INFO
+package/BinarySearchProgram.egg-info/SOURCES.txt
+package/BinarySearchProgram.egg-info/dependency_links.txt
+package/BinarySearchProgram.egg-info/entry_points.txt
+package/BinarySearchProgram.egg-info/top_level.txt
