@@ -1,0 +1,9 @@
+itk/IOFDFPython.py,sha256=tz7Qip-lcj2iWD5Rx2H48aXWmfbcOQvP8sbNp-yapgo,2325
+itk/_IOFDFPython.so,sha256=GnoHuwYHaK6bf4SX7MzHwRD8N5zRiZSFz42fo25k4ZY,535000
+itk/itkFDFImageIOPython.py,sha256=e4_xiZ2Njcrb--Tp6VT_C5gIRZUoHQgj_ZXCQqKLfEA,6501
+itk/Configuration/IOFDFConfig.py,sha256=O8vl7Tc2w6OGsTPG2IP7Idn-uImA40cqbB2G5k36l_8,227
+itk_iofdf-1.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_iofdf-1.0.0.dist-info/METADATA,sha256=fLYJTCCcsLIT-nItRGBSQW-H9PdQREOiUSkrAgmfPtA,1307
+itk_iofdf-1.0.0.dist-info/WHEEL,sha256=SBUEAC-N0AeHfNqGnu3mGNhnxQZGRpPz4smQ0D1SFSQ,103
+itk_iofdf-1.0.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_iofdf-1.0.0.dist-info/RECORD,,
