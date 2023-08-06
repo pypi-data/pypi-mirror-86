@@ -1,0 +1,5 @@
+lark-parser==0.8.2
+Django<=3.0,>=2.2.16
+
+[drf]
+djangorestframework>=3.9
