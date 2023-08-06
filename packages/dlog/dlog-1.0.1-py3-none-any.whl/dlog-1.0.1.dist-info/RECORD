@@ -1,0 +1,10 @@
+dlog/__init__.py,sha256=9Rp2myoQeOkstWCECpEVImq2znzs7S5qFzJelsQ-Gns,331
+dlog/decorator.py,sha256=PDeHBFzWz6THw9Xbv6N1MUMVnaI5-RrfvOwJKsuSOh0,1445
+dlog/logger.py,sha256=0or68_t_64tyz82voPsjSY32_pftgCtpvCY-Y9QBvLM,2291
+dlog/conf/__init__.py,sha256=ZHJGG6MEmoupRwRO_GsQmNgAT3ceYoHouAzWixlspHw,24
+dlog/conf/split_by_maxBytes.py,sha256=Ak7ybMHQ2wyaC_7kcspE7dRatfAOVbfzWD6WDItMXt0,3128
+dlog/conf/split_by_time.py,sha256=3R_3BI0GHCXulRE33fVuseteRJNWyHFsbUV90JFiUys,2986
+dlog-1.0.1.dist-info/METADATA,sha256=manpqSDT7BafHXMrMPGjFiM0DG9I7hVnzDq9you7T3s,1806
+dlog-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dlog-1.0.1.dist-info/top_level.txt,sha256=b_Eik-uD8CLvZAyKJKl6sDk01tVXGKdnt1l-_3-6pzA,5
+dlog-1.0.1.dist-info/RECORD,,
