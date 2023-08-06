@@ -1,0 +1,4 @@
+
+    [console_scripts]
+        rab=rab.cli:cli
+    
