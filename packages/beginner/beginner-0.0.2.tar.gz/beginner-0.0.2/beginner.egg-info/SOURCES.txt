@@ -1,0 +1,10 @@
+README.md
+setup.py
+beginner/__init__.py
+beginner/program.py
+beginner/web.py
+beginner.egg-info/PKG-INFO
+beginner.egg-info/SOURCES.txt
+beginner.egg-info/dependency_links.txt
+beginner.egg-info/requires.txt
+beginner.egg-info/top_level.txt
