@@ -1,0 +1,11 @@
+encodeproject
+pandas
+cache_decorator[all]
+
+[test]
+pytest
+pytest-cov
+coveralls
+validate_version_code
+codacy-coverage
+dict_hash
