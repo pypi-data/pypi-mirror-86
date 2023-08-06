@@ -1,0 +1,11 @@
+angular_django/__init__.py,sha256=CswSRywXUg9qTPEA_S-UZ4r9xINqTlt_GfvRn7XbiT8,150
+angular_django/rest_framework.py,sha256=EHuU1W1xrA3YDFrFgLme-VkTYxY3CJRseS9WQFUeqrs,1154
+angular_django/typescript.py,sha256=27i9NK1fgTuVYZCYDwu85cBPghP30lX9rYvTx-hPfRI,2630
+angular_django/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+angular_django/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+angular_django/management/commands/angular2.py,sha256=_tuJiSzGLjHLUeWuxnmZbxRy34QasA3wVddOf0lMKLU,413
+angular_django-0.0.0.dist-info/LICENSE,sha256=WlfDh5LVgjhyx8LvH1MygYv08PDJ7Xj-qqVc4oh048A,1065
+angular_django-0.0.0.dist-info/METADATA,sha256=yoiR8PmUdRgQQO-nFmtir11xZMN154u5nXf6YjT6KEo,2426
+angular_django-0.0.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+angular_django-0.0.0.dist-info/top_level.txt,sha256=uYaPyNERwvFheJ17VcI-mH7eXSigA3J4S7XaRjS9qvw,15
+angular_django-0.0.0.dist-info/RECORD,,
