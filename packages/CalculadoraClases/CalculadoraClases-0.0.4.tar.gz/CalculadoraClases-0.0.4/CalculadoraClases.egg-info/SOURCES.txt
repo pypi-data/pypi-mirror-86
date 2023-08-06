@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+CalculadoraClases/__init__.py
+CalculadoraClases.egg-info/PKG-INFO
+CalculadoraClases.egg-info/SOURCES.txt
+CalculadoraClases.egg-info/dependency_links.txt
+CalculadoraClases.egg-info/top_level.txt
+CalculadoraClases/pytransform/__init__.py
