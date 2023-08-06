@@ -1,0 +1,15 @@
+cabarchive/__init__.py,sha256=N1Y-q_6sH3ioiVbzn92ZLLDJ4UY6nfC71Zn4suvmK-Y,294
+cabarchive/__init__.pyi,sha256=tL_4puHIG6cYChyvu8wSNPCbXE7Ps0oaiPzS04Iof1o,208
+cabarchive/archive.py,sha256=cu2oM7hfmWoccNUpI6Hr0z8eEn3yUbxDxJtTRoxoDRw,13288
+cabarchive/archive.pyi,sha256=t-jJnHENx5OQxS13pgbrGnOI8H4EPdarKLLBFTweBvY,680
+cabarchive/errors.py,sha256=V67nY7dKciCSy1DWOc8stkg1MWPySCVsPUYc_sZQaTM,242
+cabarchive/errors.pyi,sha256=ru3l5EmpP_RTsoxAtV9Z0nKmyncHgH2JpZr4CP-ceMc,78
+cabarchive/file.py,sha256=-62Ynzovxa1RjOFslumBkBK3oeJ1iNCnFt9s3OxpCL0,3672
+cabarchive/file.pyi,sha256=4mBXUgp0qNKrXCsOCwZeT61DrS8GELUF8QKCYdyRs9o,564
+cabarchive/py.typed,sha256=zlBhTdAQBRfJxeJXD-QnlXiZYsiAJYYkr3mbEsmwSac,64
+cabarchive/test_misc.py,sha256=ngX5QQQbesqfcu7VMUzbotsJKNsVFzEB8Y5lnchPI68,7796
+cabarchive-0.2.1.dist-info/LICENSE,sha256=VSX70JEbjcvcbwwIGsJ_1Vt11tJhxi-gW5vcC3K0gfY,26462
+cabarchive-0.2.1.dist-info/METADATA,sha256=rBBgteuzhQ1ZfNdVbhL5SEOVbFWyUQ7s1fNLgfMM6VM,1174
+cabarchive-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cabarchive-0.2.1.dist-info/top_level.txt,sha256=8WZE7B22gcb5Jwa7FICuCFzMJZ9MraDiN8iNsTqr-NI,11
+cabarchive-0.2.1.dist-info/RECORD,,
