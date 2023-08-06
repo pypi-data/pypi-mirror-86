@@ -1,0 +1,3 @@
+[console_scripts]
+webexcortex = webexcortex.__main__:init
+
