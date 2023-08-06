@@ -1,0 +1,14 @@
+/env
+*.pyc
+/config.ini
+!/config.ini.example
+secrets
+/build
+/dist
+__pycache__
+~*
+*.sw[o|p]
+*.db
+*.coverage
+/.eggs
+/mtls_server.egg-info

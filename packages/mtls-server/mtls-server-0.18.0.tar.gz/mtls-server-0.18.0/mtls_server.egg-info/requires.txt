@@ -1,0 +1,6 @@
+Flask
+Jinja2
+cryptography
+psycopg2-binary
+python-gnupg
+uWSGI

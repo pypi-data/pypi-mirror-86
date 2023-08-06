@@ -1,0 +1,30 @@
+[mtls]
+; Minimum lifetime in seconds
+min_lifetime=60
+; Maximum lifetime in seconds, if 0 it is disabled
+max_lifetime=0
+; The directory to pull gpg key seeds from
+; seed_dir=/tmp/seeds/
+
+[ca]
+key=secrets/certs/authority/RootCA.key
+cert=secrets/certs/authority/RootCA.pem
+issuer=My Company Name
+; Multiple alt names can be added comma separated
+alternate_name=*.myname.com
+
+[gnupg]
+; Location of the folder that will house the user gnupg keys
+user=secrets/gnupg/
+; Location of the folder that with house the admin gnupg keys
+admin=secrets/gnupg_admin/
+; The interval with with to refresh keys from a keyserver
+; sync_interval=600
+; The keyserer to pull keys from
+; keyserver=keyserver.ubuntu.com
+
+[storage]
+engine=sqlite3
+
+[storage.sqlite3]
+db_path=mtls-server.db
