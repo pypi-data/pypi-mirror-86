@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: FastFuels
+Version: 0.1
+Summary: 3D fuelscapes for the contiguous US
+Home-page: https://github.com/holtzforestry/FastFuels
+Author: Lucas Wells
+Author-email: lucas@holtzforestry.com
+License: GNU GPLv3
+Download-URL: https://github.com/holtzforestry/FastFuels/archive/v0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: fire model,fuelscape,wildfire
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
