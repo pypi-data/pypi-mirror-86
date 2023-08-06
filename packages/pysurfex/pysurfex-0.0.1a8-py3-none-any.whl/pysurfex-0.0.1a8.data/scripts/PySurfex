@@ -1,0 +1,6 @@
+#!python
+import scheduler
+import sys
+
+kwargs = scheduler.parse_surfex_script(sys.argv[1:])
+scheduler.surfex_script(**kwargs)
