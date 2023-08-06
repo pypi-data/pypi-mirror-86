@@ -1,0 +1,13 @@
+from setuptools import setup, find_packages
+
+setup(name="${DUNE_MOD_NAME}",
+    namespace_packages=['dune'],
+    description="${DUNE_ALUGRID_DESCRIPTION}",
+    version="${DUNE_ALUGRID_VERSION}",
+    author="${DUNE_ALUGRID_AUTHOR}",
+    author_email="${DUNE_ALUGRID_AUTHOREMAIL}",
+    packages = find_packages(),
+    zip_safe = 0,
+    package_data = {'': ['*.so']}
+    install_requires = "${DUNE_ALUGRID_PYTHON_REQUIRES}".split(' ')
+  )
