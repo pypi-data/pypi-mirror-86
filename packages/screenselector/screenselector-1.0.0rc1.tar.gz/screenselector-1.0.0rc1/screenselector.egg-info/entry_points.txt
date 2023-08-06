@@ -1,0 +1,3 @@
+[console_scripts]
+screenselector = screenselector.screenselector:main
+

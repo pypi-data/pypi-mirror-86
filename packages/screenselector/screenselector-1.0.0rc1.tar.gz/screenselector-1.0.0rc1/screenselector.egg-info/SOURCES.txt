@@ -1,0 +1,10 @@
+README.md
+setup.py
+screenselector/__init__.py
+screenselector/_version.py
+screenselector/screenselector.py
+screenselector.egg-info/PKG-INFO
+screenselector.egg-info/SOURCES.txt
+screenselector.egg-info/dependency_links.txt
+screenselector.egg-info/entry_points.txt
+screenselector.egg-info/top_level.txt
