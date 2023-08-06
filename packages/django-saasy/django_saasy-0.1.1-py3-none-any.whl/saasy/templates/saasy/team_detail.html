@@ -1,0 +1,21 @@
+{% extends "saasy/base.html" %}
+
+{% block title %}Team Detail{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      {% include "./includes/settings_menu.html" with active="team" %}
+    </div>
+    <div class="col-9">
+
+    <h2>{{ object.name }}</h2>
+
+    Organization: {{ object.organization }}<br>
+    Members: {{ object.members.all }}
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "saasy/base.html" %}
+
+{% block title %}Teams{% endblock %}
+
+{% block content %}
+
+
+  <div class="row">
+    <div class="col">
+      {% include "./includes/settings_menu.html" with active="team" %}
+    </div>
+
+    <div class="col-9">
+
+      <div class="row">
+        <div class="col">
+          <h2>Teams</h2>
+        </div>
+        <div class="col-4 text-right">
+          <a href="{% url "saasy:team-create" %}" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Add Team</a>
+        </div>
+      </div>
+
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            {% comment %} <th scope="col"></th> {% endcomment %}
+            <th scope="col" class="text-left">Name</th>
+            <th scope="col" class="text-left">Members</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for team in object_list %}
+          <tr>
+            {% comment %} <th scope="row"></th> {% endcomment %}
+            <td class="text-left"><a href="{{ team.get_absolute_url }}">{{ team.name }}</a></td>
+            <td class="text-left">(3)</td>
+            <td class="text-right"><a href="{{ team.get_update_url }}" class="btn btn-outline-secondary btn-sm" role="button" aria-pressed="true">Update</a></td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    
+    </div>
+  </div>
+
+{% endblock %}

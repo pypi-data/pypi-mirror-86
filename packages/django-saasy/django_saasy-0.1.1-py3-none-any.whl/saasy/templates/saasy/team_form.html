@@ -1,0 +1,24 @@
+{% extends "saasy/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Team Edit{% endblock %}
+
+{% block content %}
+
+  <div class="row">
+    <div class="col">
+      {% include "./includes/settings_menu.html" with active="team" %}
+    </div>
+
+    <div class="col-9">
+      <h3>Team: {% if object %}{{ object.name }}{%else%}Add{%endif%}</h3>
+      <hr>
+        <form method="post" action="{% if object %}{{ object.get_update_url }}{%else%}{% url 'saasy:team-create' %}{%endif%}">
+          {% csrf_token %}
+          {{ form|crispy }}
+          <a class="btn btn-warning" href="{% url 'saasy:team-list' %}" role="button">Cancel</a> <button type="submit" class="btn btn-primary">{% if object %}Update{%else%}Add{%endif%}</button>
+        </form>
+    </div>
+  </div>
+
+{% endblock %}

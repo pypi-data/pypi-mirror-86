@@ -1,0 +1,24 @@
+{% extends "saasy/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Project Edit{% endblock %}
+
+{% block content %}
+
+  <div class="row">
+    <div class="col">
+      {% include "./includes/settings_menu.html" with active="organization" %}
+    </div>
+
+    <div class="col-9">
+      <h3>Organization: {% if object %}{{ object.name }}{%else%}Add{%endif%}</h3>
+      <hr>
+        <form method="post"  action="{% url 'saasy:organization-create' %}">
+          {% csrf_token %}
+          {{ form|crispy }}
+          <a class="btn btn-warning" href="{% url 'saasy:organization-list' %}" role="button">Cancel</a> <button type="submit" class="btn btn-primary">{% if object %}Update{%else%}Add{%endif%}</button>
+        </form>
+    </div>
+  </div>
+
+{% endblock %}
