@@ -1,0 +1,10 @@
+bspp/__init__.py,sha256=IWcDcuGdT6AAw1wcOeCP32uS4lP7REt1wn7xkjBmU8M,105
+bspp/bspp.py,sha256=NvrftWX5nKgeYT8WKBrFKe8ZV6uRmqzbtlscIxse7u4,6275
+bspp/hash.py,sha256=9gZcqsWm8Y0-Vno3f5BzXBP67nIEcqeFPUxq9FWuQlY,1182
+bspp/model.py,sha256=3ViblIc2LclSidlkRMIPDtql9Gqq-pyQja7Dvm1mwZ4,1699
+bspp/out_plain_text.py,sha256=4sL659pqIAf1db8j3809kT6_lMvLT1P4pQor1XC9qM8,5464
+bspp/postprocess.py,sha256=2kl525LAoHLOS2yYdyyEcq1biQ8XyqmYHaRTyl7fIFI,3284
+bspp-1.0.0.dist-info/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+bspp-1.0.0.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+bspp-1.0.0.dist-info/METADATA,sha256=jGbyI2z-SFVk5aGcqxZaYFBWL9gD1Y_2NSxRoPaszIY,7094
+bspp-1.0.0.dist-info/RECORD,,
