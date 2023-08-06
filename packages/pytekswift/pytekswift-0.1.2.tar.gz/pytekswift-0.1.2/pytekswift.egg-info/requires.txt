@@ -1,0 +1,5 @@
+PyYaml
+nltk
+shtab
+pycctek
+fuzzywuzzy
