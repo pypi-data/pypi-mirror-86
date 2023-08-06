@@ -1,0 +1,9 @@
+README.rst
+setup.py
+sphinx-mathjax-offline/__init__.py
+sphinx_mathjax_offline.egg-info/PKG-INFO
+sphinx_mathjax_offline.egg-info/SOURCES.txt
+sphinx_mathjax_offline.egg-info/dependency_links.txt
+sphinx_mathjax_offline.egg-info/not-zip-safe
+sphinx_mathjax_offline.egg-info/requires.txt
+sphinx_mathjax_offline.egg-info/top_level.txt
