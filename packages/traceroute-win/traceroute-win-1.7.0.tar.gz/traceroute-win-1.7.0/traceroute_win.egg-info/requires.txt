@@ -1,0 +1,4 @@
+scapy
+requests
+progressbar
+python-firebase>=2.0.0beta
