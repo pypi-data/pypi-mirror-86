@@ -1,0 +1,4 @@
+[console_scripts]
+helios = helios.main:main
+helios-update-db = helios.webapp.databases.update:main
+

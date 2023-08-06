@@ -1,0 +1,8 @@
+pyOpenSSL>=0.14beautifulsoup4
+requests
+selenium
+filelock
+msgpack
+
+[:python_version == "2.7"]
+futures
