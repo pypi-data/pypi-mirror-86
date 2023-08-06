@@ -1,0 +1,6 @@
+decorator<5,>=4.4.2
+requests<3,>=2.24
+marshmallow-dataclass<8,>=7.2
+marshmallow-enum<2,>=1.5
+marshmallow-oneofschema<3,>=2.0
+marshmallow<4,>=3.3
