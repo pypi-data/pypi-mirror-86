@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: qbiz-airflow-presto
+Version: 0.1rc1
+Summary: A containerized Presto cluster for AWS.
+Home-page: https://github.com/QBizinc/airflow-presto
+Author: Soren Archibald, Cameron Cole and Paco Valdez
+Author-email: soren@qbizinc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (>=1.7.84)
+Requires-Dist: botocore (>=1.10.84)
+Requires-Dist: apache-airflow (>=1.10.12)
+Requires-Dist: PyHive (>=0.6.2)
+
+The QBiz, inc. Airflow-Presto package provides an _Airflow Operator_ which
+is designed to run containerized Presto nodes using Amazon's _Elastic Container Service_.  It is designed to dynamically create and destroy
+_Fargate_ compute resources to minimize cost.  This package does not include
+the Docker Image nor will it attempt to create other AWS resources necessary
+launch ECS tasks -- although examples are provided.  A Dockerfile to
+build your own image can be found in the [Qbiz Code Repository](https://github.com/Qbizinc/airflow-presto/blob/master/docker/Dockerfile).
+
+

@@ -1,0 +1,8 @@
+qbizinc/airflow/__init__.py,sha256=kYb9VncrJG_DhJA9RY_kNJ1hOfDcPB-6YvMmwSpjHUw,45
+qbizinc/airflow/presto_ecs_operator.py,sha256=dn6RrwKm5Ofg8VTQ1J4ullB1apYHFN1k4vskuFl0Sqc,8562
+qbizinc/airflow/presto_kubernetes_operator.py,sha256=jBkc9r_kLUi0uimCtS72vdaBBr6NyNtdkI1bKzBj6BU,8357
+qbiz_airflow_presto-0.1rc1.dist-info/LICENSE,sha256=IrmnkzKjtmcqDh-n5KmlF98MV-wOg8qNHmEJ4ZNjiJo,1064
+qbiz_airflow_presto-0.1rc1.dist-info/METADATA,sha256=jHkcv05xdzlWh-voQWgasY7ez9lsVAMkKx_HAqoMc3k,1217
+qbiz_airflow_presto-0.1rc1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+qbiz_airflow_presto-0.1rc1.dist-info/top_level.txt,sha256=LCZvqMxbOeFhRap4GQYvQS8fd-JIAzSLAKj9lMZ16WE,8
+qbiz_airflow_presto-0.1rc1.dist-info/RECORD,,
