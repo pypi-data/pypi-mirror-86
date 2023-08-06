@@ -1,0 +1,3 @@
+[console_scripts]
+protobuf_inspector = protobuf_inspector.__main__:main
+
