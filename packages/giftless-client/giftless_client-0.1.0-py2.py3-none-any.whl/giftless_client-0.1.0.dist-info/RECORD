@@ -1,0 +1,12 @@
+giftless_client/__init__.py,sha256=lUXtmAhx_9nhimdAX8c7YTc5sj-aG9fSih2gSLLY3Og,92
+giftless_client/client.py,sha256=e9wEH8XXrqMpwDhJP8NoHOtlWxALouSqit4voOVosac,4850
+giftless_client/exc.py,sha256=1ORxVksGNGGH2Y0cEzy6ONlHQ39xgBwpvt3ZuPJwThk,271
+giftless_client/main.py,sha256=mPuKq1FwayHxayZvs_EB_SN4Bmy41-jM-y3tHq7_BXs,1687
+giftless_client/transfer.py,sha256=7q7WhBX0SvhO3KczY_CsRx-F73ZPFK9XN1awRdu_bTY,5481
+giftless_client/types.py,sha256=3mEvCmXQSF3DtXpx_BHE9SJSIP3-i9yu4fmvFWB2KRI,1555
+giftless_client-0.1.0.dist-info/LICENSE,sha256=WbeuItujB0GvACEOs0litZ1S4k1KDW7Zgc8FkglkThk,1064
+giftless_client-0.1.0.dist-info/METADATA,sha256=8abhcB7gjNDGdKFkk_OcDi7xrQrDwAmF3g41L_0dcBc,2115
+giftless_client-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+giftless_client-0.1.0.dist-info/entry_points.txt,sha256=k_nveDgKm4XUFJNfgs68aB2-Q6J-qwwLqlgQwq0ZDVo,63
+giftless_client-0.1.0.dist-info/top_level.txt,sha256=Tczc1SC6oOzO4rbR442oZQ1LOADkFA9x5PcP-L_MSuQ,16
+giftless_client-0.1.0.dist-info/RECORD,,

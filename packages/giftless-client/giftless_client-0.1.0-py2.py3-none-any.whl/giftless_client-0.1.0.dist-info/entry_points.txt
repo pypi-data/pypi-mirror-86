@@ -1,0 +1,3 @@
+[console_scripts]
+giftless-client = giftless_client.main:main
+
