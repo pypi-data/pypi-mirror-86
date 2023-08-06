@@ -1,0 +1,12 @@
+PyYAML
+argcomplete
+prettytable
+pyxdg
+toolrack>=3.0.0
+
+[i18n]
+Babel
+
+[testing]
+pytest
+pytest-mock
