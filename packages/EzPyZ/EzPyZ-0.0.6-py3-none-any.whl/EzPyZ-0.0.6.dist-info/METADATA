@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: EzPyZ
+Version: 0.0.6
+Summary: An easy-to-use statistics package for Python 3.
+Home-page: https://github.com/EGuthrieWasTaken/EzPyZ
+Author: Ethan Guthrie
+Author-email: guthrieec@cofc.edu
+License: GNU GPLv3
+Keywords: stats
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: numpy (==1.19.4)
+Requires-Dist: pandas (==1.1.4)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2020.4)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: xlrd (==1.2.0)
+
+# EzPyZ
+
+Welcome to EzPyZ! This project seeks to provide an easy-to-use statistical library for Python 3. This project was inspired in concept by the [ez](https://github.com/mike-lawrence/ez) library available in R.  
+
+**This project is under development, and will likely not work as intended. You have been warned.**
+
+
