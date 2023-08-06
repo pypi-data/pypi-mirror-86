@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyvdk
+Version: 0.0.3
+Summary: VK toolkit
+License: MIT
+Keywords: vk,vk-api,bot
+Author: lightmanLP
+Author-email: liteman1000@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: jinja2 (>=2.11.2,<3.0.0)
+Requires-Dist: pydantic (>=1.7.2,<2.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Requires-Dist: vbml (>=1.1,<2.0)
+Project-URL: Documentation, https://pyvdk.readthedocs.io/
