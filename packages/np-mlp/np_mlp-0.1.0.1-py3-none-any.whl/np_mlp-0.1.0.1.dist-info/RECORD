@@ -1,0 +1,17 @@
+np_mlp/__init__.py,sha256=OTlv0Rl7Uwwwjy-TuRhvvevy1oDzHbxamJMMoCo7AVE,870
+np_mlp/activations.py,sha256=AKllAtrPD_Til6cX41S6T7LHdydvEaeNNYvlqytVRJQ,6098
+np_mlp/data_processing.py,sha256=gqnCBeywV2qXhFmL-Wx4jTdLQ9l7XcQJkknqMsvoplA,2588
+np_mlp/helpers.py,sha256=BOy0WWzRrI0maqI8eikiIsW5TFgn-kRU014UPDZog5M,2161
+np_mlp/initializers.py,sha256=eNG5zrRjdgkafYerqoCRpwS62gUsk6KxYlLrsMV3oMM,1998
+np_mlp/layers.py,sha256=QzJP_fguo5V2rcKTqDVv3QLXyMp0ciskr_0HATf7CO4,5792
+np_mlp/losses.py,sha256=18OexLbU8DJ6tztKQVM-u3ByaSxG9VrVqRhP5n-alH8,5540
+np_mlp/model_utils.py,sha256=tgmszm_kU_4NFhGdnTkgGO-R8k4ojSWy8d9TIrOq720,1911
+np_mlp/models.py,sha256=w3-cALJQ53krfsRxk6L5ThlK81nfkCRIrHzhpJslP08,8513
+np_mlp/optimizers.py,sha256=XgcIDkegkuVAxMgdnqTXhBdmcE-x9cRP-QjiXHnxtnQ,4630
+np_mlp/tensor.py,sha256=SGAnHdzRmsadO2y_xW9Ma5Ohp2Lc6YCH-k3La357Z7M,886
+np_mlp/train.py,sha256=SfgHtH05Ad8eIlzG1rcho-pc8NPGKi58W7Vl4SIvwK0,6667
+np_mlp-0.1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+np_mlp-0.1.0.1.dist-info/METADATA,sha256=IIjMqjpXisrXmE-LO_JBJA7hfE943jzcigp0qQsRKPE,3139
+np_mlp-0.1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+np_mlp-0.1.0.1.dist-info/top_level.txt,sha256=IiZb5ITCg5xg2iZrTMGuMWnXvlTFFfEcEIN3gfKfyW0,7
+np_mlp-0.1.0.1.dist-info/RECORD,,
