@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: PyTetrys
+Version: 0.0.3
+Summary: Versão 0.3 do futuro jogo PyTetrys
+Home-page: https://github.com/LucasBSousa04/PyTetris
+Author: Equipe PyTetrys
+Author-email: adnan.bezerra@ccc.ufcg.edu.br
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
