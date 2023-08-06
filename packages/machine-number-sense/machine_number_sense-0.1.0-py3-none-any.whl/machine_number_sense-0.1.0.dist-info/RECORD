@@ -1,0 +1,15 @@
+mns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mns/dataset.py,sha256=QY5-bmWuBz9Ozo32mqAc_M5SO7cQiffP9vZmHyS7IZU,899
+mns/module.py,sha256=3m64OPYsKK9Iyk2SB05_nj1dkU71aIb118Xe6R977Ag,7644
+mns/model/__init__.py,sha256=iKMyBnOyUDpvv3rU-aSHvv3T30793n_kUdFGE3hwfsM,148
+mns/model/convlstm.py,sha256=L-K3Mwzs7BWLYegoSmUnQ89Z0yLAMvX0O2aSfFVsFjg,1032
+mns/model/convmlp.py,sha256=4-IO1Dl__2sLf2mFgjkxmA9n4Q7aCBX_aG5CUXATzrs,886
+mns/model/convnalu.py,sha256=2eq8nYoPFpaF_ZwWrvcI2PWBDVWK9DyywcCwvt6-2jQ,782
+mns/model/layers.py,sha256=QbjEzB07KD85wq47T0Z3I99LhvkHTabV66IA7o9n0NQ,1392
+mns/model/nalu.py,sha256=syNVQGUtH3oiaVDbFou2tjA3OJebp5nGxUAXDX8uO8M,2344
+mns/model/scl.py,sha256=Bf1uronWdU9VO66Yd8M3PY854UDH1Q_8_p3G2msFZMg,1981
+machine_number_sense-0.1.0.dist-info/LICENSE,sha256=bLYBSHzZ4QV5-tTk88Lgfha_gc4Q-LIOX1Y053mah30,1077
+machine_number_sense-0.1.0.dist-info/METADATA,sha256=W-sthvuJKPx-3iMxuv8Yav_-zsXquZHz9Uq0ZbIYauQ,4513
+machine_number_sense-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+machine_number_sense-0.1.0.dist-info/top_level.txt,sha256=NbjKORGhHFp7ZxCTU_ZDIerY0-Bn9y8F1EFfE1s9Po8,4
+machine_number_sense-0.1.0.dist-info/RECORD,,
