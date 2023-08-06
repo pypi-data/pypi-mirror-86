@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+docs/index.md
+docs/release.md
+justlog/classes.py
+justlog/formatter.py
+justlog/justlog.py
+justlog/settings.py
+justlog.egg-info/PKG-INFO
+justlog.egg-info/SOURCES.txt
+justlog.egg-info/dependency_links.txt
+justlog.egg-info/requires.txt
+justlog.egg-info/top_level.txt
