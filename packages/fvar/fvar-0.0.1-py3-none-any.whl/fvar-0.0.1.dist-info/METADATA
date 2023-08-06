@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fvar
+Version: 0.0.1
+Summary: Scratch-based weakly typed variables
+Home-page: https://github.com/dantechguy/fv
+Author: Dan W-B
+Author-email: d@nielwb.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# [Fluid Variables](https://github.com/dantechguy/fv)
+
+Scratch based variables which support automatic conversion between ints, floats, strings and lists.
+
