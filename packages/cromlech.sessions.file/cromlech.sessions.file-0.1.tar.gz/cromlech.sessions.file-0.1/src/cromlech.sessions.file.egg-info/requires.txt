@@ -1,0 +1,7 @@
+cromlech.marshallers
+cromlech.session
+setuptools
+
+[test]
+WebTest
+pytest

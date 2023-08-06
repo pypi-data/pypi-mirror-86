@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cromlech.sessions.file
+Version: 0.1
+Summary: Session handling for wsgi applications using files
+Home-page: http://gitweb.dolmen-project.org/
+Author: The Dolmen team
+Author-email: dolmen@list.dolmen-project.org
+License: ZPL
+Description: cromlech.sessions.file
+        **********************
+        
+        Implementation of HTTP sessions using files as a backend with a
+        session id that is secured by a signature.
+        
+        Changelog
+        =========
+        
+        0.1 (2020-11-27)
+        ----------------
+        
+        - First release
+        
+Keywords: Cromlech Session
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Provides-Extra: test
