@@ -1,0 +1,15 @@
+swyft/__init__.py,sha256=BIYz37EiSb6Kn1pfDj45qMqQ0f7_wVlflqDTQinWH74,591
+swyft/cache.py,sha256=KGPRBMhlKBjcB17LB5AlQfEUwSBcK38sJD2Rc2ieUl4,9419
+swyft/estimation.py,sha256=Y_w3v3glrrKlIFpsm7mgIKutnUWnvBFNaBJHQ_HlpNE,11335
+swyft/eval.py,sha256=qQarfEcuPWknKZCG-c1acCo_HOr4-fKD2SovEQNAT4Q,2045
+swyft/intensity.py,sha256=f5gCs-IKI5-vaE-JJGmWnQ-drFaQrO5Vus7PKrMBkoo,10583
+swyft/network.py,sha256=v1IomIP5hFhS5A2OCgXUvLKm3FDOPgSXsC-ecuMwdks,5850
+swyft/plot.py,sha256=5-5jOImn4rsoOU_cV0ww6UyMT1mz-LRgQ23f9p7UQjg,4007
+swyft/train.py,sha256=oNpCdVKEoJ7e2SbT4v414m2-kkib1Ihlk7mG3QulDfQ,8595
+swyft/types.py,sha256=lcQtIXjdgyfpde1hInSxYpCiU0WV2tMZawCCNnvwPwE,630
+swyft/utils.py,sha256=FlAHGeyGcOHjLttZSKRdgmAaCBsouSX1UDlWg3Y_0j8,4457
+swyft-0.0.1.dev0.dist-info/LICENSE,sha256=A0nr4foZUKYdGdMHMS3ycXE0vVuMgSk7Q1IOv6ZMW5c,1107
+swyft-0.0.1.dev0.dist-info/METADATA,sha256=Laq6fh1ZXSWHwmi0GrxT7vKNpFu31DhxB9XIwf0XO4U,2651
+swyft-0.0.1.dev0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+swyft-0.0.1.dev0.dist-info/top_level.txt,sha256=uRMfQbvJiRddriW0_Na1hfg3_rbyViBeznTRdvhLfNM,6
+swyft-0.0.1.dev0.dist-info/RECORD,,
