@@ -1,0 +1,13 @@
+simplelayout/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplelayout/__main__.py,sha256=T8749yEPHL8UHlsWB29_FmbCxfYNWZ3PcfFHEott4ek,667
+simplelayout/cli/__init__.py,sha256=FeNCGU3XYxBZHt_urDQ4AvJ81qrXm41Jeel11XBCDjg,49
+simplelayout/cli/cli_generate.py,sha256=5GNOqHFeDRV8Z9Sl_dm-AQorjD7T2YuiRw83p0rdX0c,984
+simplelayout/generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplelayout/generator/core.py,sha256=MlrODArnryAx6LKe2OnFjd8wY12xzOT7KFTXvKPhmfQ,1336
+simplelayout/generator/utils.py,sha256=qXDYK-NSovLFDs3YUbH5auZnTIFo8inqY9SGQ7pZXtc,467
+simplelayout_tang_agui-0.0.3.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+simplelayout_tang_agui-0.0.3.dist-info/METADATA,sha256=1xJ1qMVWjRyt11hKbKTQaAn37B8MKR-EjyN1S2sLGSw,4322
+simplelayout_tang_agui-0.0.3.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+simplelayout_tang_agui-0.0.3.dist-info/entry_points.txt,sha256=O_HKPZSBcDfZv_LmquDG4CdYB74vabMb-T4NCjP-A-s,61
+simplelayout_tang_agui-0.0.3.dist-info/top_level.txt,sha256=iFIi60UoADwVgRZlfkvG5r_zYD2rGEOll3P-m2Tj0Uw,13
+simplelayout_tang_agui-0.0.3.dist-info/RECORD,,
