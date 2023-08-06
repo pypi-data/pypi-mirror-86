@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+mercury/__init__.py
+mercury/app.py
+mercury_py.egg-info/PKG-INFO
+mercury_py.egg-info/SOURCES.txt
+mercury_py.egg-info/dependency_links.txt
+mercury_py.egg-info/requires.txt
+mercury_py.egg-info/top_level.txt
