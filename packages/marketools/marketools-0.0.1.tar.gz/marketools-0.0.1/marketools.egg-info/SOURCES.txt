@@ -1,0 +1,6 @@
+README.md
+setup.py
+marketools.egg-info/PKG-INFO
+marketools.egg-info/SOURCES.txt
+marketools.egg-info/dependency_links.txt
+marketools.egg-info/top_level.txt
