@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pyentrez"
+version = "0.1.0"
+description = "pyEntrez tool suite wrapped in pyCUI TUI"
+authors = ["William Slattery <slatte26@msu.edu>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/BGASM/pyEntrez"
+documentation = "https://pyentrez.readthedocs.io/en/latest/"
+include = ["README.rst"]
+exclude = ["tests"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+keyring = "^21.5.0"
+py-cui = "^0.1.2"
+loguru = "^0.5.3"
+biopython = "^1.78"
+PyYAML = "^5.3.1"
+ConfigArgParse = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+run = "pyEntrez:main"
