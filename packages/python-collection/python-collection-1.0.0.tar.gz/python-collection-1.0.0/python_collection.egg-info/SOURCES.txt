@@ -1,0 +1,7 @@
+README.md
+setup.py
+collection/__init__.py
+python_collection.egg-info/PKG-INFO
+python_collection.egg-info/SOURCES.txt
+python_collection.egg-info/dependency_links.txt
+python_collection.egg-info/top_level.txt
