@@ -1,0 +1,13 @@
+qjobs/__init__.py,sha256=3mdv1PGACkBK-ZJDqIUrmmcOxDIXkw8GLLcEmkHz-U0,630
+qjobs/__main__.py,sha256=p0mOvpiUX8_VK9rkrUpfglr00ay7SzCE04_ENd5lZYY,198
+qjobs/commands.py,sha256=5e8vW9kqpQSVv-O3JDPqi-wjyrrvaJMQZFW3Zk1787Y,2390
+qjobs/config.py,sha256=2i4CDUQQRPwMTcqGmZNBcJXaR8J6yrO16pW3iYso7UM,2612
+qjobs/constants.py,sha256=7U5VoblDAuVw8otiHpYnRnTL8_99Po96N0gnOw02JKE,841
+qjobs/job.py,sha256=PerDWXQiVVMPsiUD7R8Cgtko6uTG934jvMhg-v-Swcc,6046
+qjobs/misc.py,sha256=0E3TDhE0qRbjy20eLv89gXsxhXRBRR36r5yUyGXV_Gs,1938
+qjobs-0.2.0.dist-info/LICENSE.rst,sha256=ZhwfyZscyRbm5yNmk5ZGF5NMfOJwMMebfYLmGb_pCMk,1088
+qjobs-0.2.0.dist-info/METADATA,sha256=664gXl9OvJZvV9bYLSfDs4suZ6iT5nqhm_V6s5kqE2M,1616
+qjobs-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+qjobs-0.2.0.dist-info/entry_points.txt,sha256=bWyuD6xcMLa5Gs8EciAOjeV41XcGTR_X3nF1DUy107E,47
+qjobs-0.2.0.dist-info/top_level.txt,sha256=SUkgnc64Xyq0YddMBS7Q_E8D6YkQuDxSifmnX7C0tPQ,6
+qjobs-0.2.0.dist-info/RECORD,,
