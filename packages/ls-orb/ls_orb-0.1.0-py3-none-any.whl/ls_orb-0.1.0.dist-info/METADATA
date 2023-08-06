@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ls-orb
+Version: 0.1.0
+Summary: Livspace Orb core library
+Home-page: UNKNOWN
+Author: vivek.paidi@livspace.com
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: Django (==2.2.6)
+Requires-Dist: djangorestframework (==3.10.3)
+Requires-Dist: django-filter (==2.2.0)
+Requires-Dist: newrelic (==5.6.0.135)
+Requires-Dist: jsonschema (==3.1.1)
+Requires-Dist: drf-yasg (==1.17.1)
+Requires-Dist: django-cors-headers (==3.1.1)
+Requires-Dist: pylint (==2.4.3)
+Requires-Dist: pylint-django (==2.0.13)
+Requires-Dist: google-api-python-client (==1.8.0)
+Requires-Dist: google-auth-httplib2 (==0.0.3)
+Requires-Dist: google-auth-oauthlib (==0.4.1)
+
+UNKNOWN
+
+
