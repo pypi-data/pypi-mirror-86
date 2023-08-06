@@ -1,0 +1,13 @@
+google_drive-0.1.0.dist-info/DESCRIPTION.rst,sha256=4jUG5BPZBdX5ux6IvH0ffgZWMcEYyX5MbiYHnq90b-M,28
+google_drive-0.1.0.dist-info/METADATA,sha256=dUOd6DVGwrmvknv9s5rIIJj16-6PwHZNQDsfJBiRRzg,1100
+google_drive-0.1.0.dist-info/RECORD,,
+google_drive-0.1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+google_drive-0.1.0.dist-info/entry_points.txt,sha256=wKnGl94Xe5yYUJZ6ZP7NnlSd7PwMFrKbBJ9GphUCE90,71
+google_drive-0.1.0.dist-info/metadata.json,sha256=otxMbJZkuUgv3p7vO7JeQBGp-KSGTstKN-fyp1pfDzA,1300
+google_drive-0.1.0.dist-info/top_level.txt,sha256=bp8iK81MjO_dVnzFX3l6teTevaOzRpYQ1CLiAeptFLE,12
+googledrive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+googledrive/__main__.py,sha256=G-73TDauC29XpNX-u5GKG2LYNMG-1Xy5Wb56R_CZBoU,95
+googledrive/api.py,sha256=yzZ-AAW9FZbAgPWf4y13N9p29-XcBAikzAPKpqqVyWU,14782
+googledrive/google_drive.py,sha256=AWKu4pcIu089gMOAK-WvTHnaFhCVpDBkZ4sN_uEqHlM,1475
+googledrive/mappers.py,sha256=MeAwP7QFoxn8PhxJmCO4I-sr7RiXGiAoQOD5X7Yo6S4,385
+googledrive/models.py,sha256=-L11vEtfDcETmpxf8T2n1_uTJccNBsh0nlJE1x3-O9M,184
