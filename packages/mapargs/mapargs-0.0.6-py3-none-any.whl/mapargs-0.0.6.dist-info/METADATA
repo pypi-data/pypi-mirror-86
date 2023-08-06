@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: mapargs
+Version: 0.0.6
+Summary: Python type code generator
+Home-page: https://github.com/conanfanli/mapargs
+Author: Conan Li
+Author-email: conanlics@gmail.com
+License: MIT
+Keywords: Python,TypeScript,Dataclass,Code Generation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ~=3.8
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+
+mapargs
+=======
+
+Generate boilerplate that maps arguments.
+
+usage: command_line.py [-h] infile
+
+positional arguments:
+  infile
+
+optional arguments:
+  -h, --help  show this help message and exit
+
+
