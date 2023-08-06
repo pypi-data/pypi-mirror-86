@@ -1,0 +1,70 @@
+Metadata-Version: 1.1
+Name: pyobject
+Version: 1.1
+Summary: 一个Python对象浏览器模块。A python object browser with tkinter and command-lines.
+Keywords: pyobject,python,object
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
+Home-page: UNKNOWN
+Author: 七分诚意 qq:3076711200 邮箱:3416445406@qq.com
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description:
+pyobject - 一个Python对象浏览器模块。A python object browser with tkinter and command-lines.
+
+所包含模块 Included modules: 
+============================
+
+pyobject.browser - 以图形方式浏览Python对象
+pyobject.search - 搜索python对象
+pyobject.newtypes - 定义一些新的类型
+
+包含的函数 Functions:
+===========================
+objectname(obj)
+
+    objectname(obj) - 返回一个对象的名称,形如xxmodule.xxclass。
+    如:objectname(int) -> 'builtins.int'
+
+bases(obj, level=0, tab=4)
+
+    bases(obj) - 打印出该对象的基类
+    tab:缩进的空格数,默认为4。
+
+describe(obj, level=0, maxlevel=1, tab=4, verbose=False, file=sys.stdout, mode='w' encoding='utf-8')
+
+    "描述"一个对象,即打印出对象的各个属性。
+    参数说明:
+    maxlevel:打印对象属性的层数。
+    tab:缩进的空格数,默认为4。
+    verbose:一个布尔值,是否打印出对象的特殊方法(如__init__)。
+    file:一个类似文件的对象。
+
+
+browse(object, verbose=False, name='obj')
+
+    以图形方式浏览一个Python对象。
+    verbose:与describe相同,是否打印出对象的特殊方法(如__init__)
+
+新增函数 New Functions:
+=============================
+
+make_list(start_obj, recursions=2, all=False)
+
+    创建一个对象的列表。
+    start:开始搜索的对象
+    recursion:递归次数
+    all:是否将对象的特殊属性(如__init__)加入列表
+
+
+search(obj, start, recursions=3)
+
+    从一个起点开始搜索对象
+    obj:待搜索的对象
+    start:起点对象
+    recursion:递归次数
+
+作者 Author:
+*七分诚意 qq:3076711200 邮箱:3416445406@qq.com*
+
