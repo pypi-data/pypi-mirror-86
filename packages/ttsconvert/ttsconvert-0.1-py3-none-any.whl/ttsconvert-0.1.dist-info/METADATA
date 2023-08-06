@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ttsconvert
+Version: 0.1
+Summary: TTS Package. Use ttsconvert.help() for help.
+Author: Nekit
+Requires-Python: >=3.8,<3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
