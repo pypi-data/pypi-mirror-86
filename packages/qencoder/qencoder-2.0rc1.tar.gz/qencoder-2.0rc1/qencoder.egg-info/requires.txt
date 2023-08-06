@@ -1,0 +1,6 @@
+PyQt5
+numpy
+opencv-python
+psutil
+scenedetect[opencv,progress_bar]
+scipy
