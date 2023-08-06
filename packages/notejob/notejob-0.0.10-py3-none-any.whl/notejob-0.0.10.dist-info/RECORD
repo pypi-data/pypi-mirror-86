@@ -1,0 +1,15 @@
+notejob/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notejob/core/__init__.py,sha256=IJEW3qVbGZvMYtvJIwdWWUouQ0BJ4TwewWzhBmVSwp0,26
+notejob/core/core.py,sha256=Ezrviq3ZTbq1hvp-EI4htcv1cdCVeSBVYACyjmcKWT8,802
+notejob/run/__init__.py,sha256=LF4F2r1hzZlpzLendTXigk7eYXVJeoOwruIzl-ZaIKQ,458
+notejob/run/core.py,sha256=HY5XdYZrnCRMzO9AhDClz1pOfQ-Z86GlLPK3if07xs4,1624
+notejob/tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notejob/tasks/ba.py,sha256=rdUSsc01C04IuJkUNCxBHaW8BH3Ux2s9rv7kLbC35ow,3408
+notejob/tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notejob/tool/mail.py,sha256=mz_np6aDlVg878H3LlNxkky8pOOGL3DEw-wiBSqbyMY,1113
+notejob-0.0.10.dist-info/LICENSE,sha256=5Swery3mGxKxAikjLMt9JaDBbMuzEBY9SWoM2xiAx3Q,9228
+notejob-0.0.10.dist-info/METADATA,sha256=weFCxDISol0zXeWZgaSzhOSeQIsva3nGY7FRdh8a8b0,235
+notejob-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+notejob-0.0.10.dist-info/entry_points.txt,sha256=2gJk0GuTIX0ut5Qirr4wqodVo2Q_FwmlfDQaMkkMFZA,50
+notejob-0.0.10.dist-info/top_level.txt,sha256=Z9dZS3SgD4e7a0WUMPkyzReX0z4gifosAHw4IZMqgpI,8
+notejob-0.0.10.dist-info/RECORD,,
