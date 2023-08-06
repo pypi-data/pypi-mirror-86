@@ -1,0 +1,3 @@
+[console_scripts]
+melia = melia.main:start
+
