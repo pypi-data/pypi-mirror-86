@@ -1,0 +1,8 @@
+flask
+gevent>=1.3
+supervisor
+zerorpc
+blinker
+maya
+requests
+prompt_toolkit>=2
