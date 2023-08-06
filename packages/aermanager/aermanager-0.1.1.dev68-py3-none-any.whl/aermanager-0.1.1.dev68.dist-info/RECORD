@@ -1,0 +1,17 @@
+aermanager/aerparser.py,sha256=AD1xi51fjsiGagnYAv5NerfWe6qirVWQR3SFOa9LPA4,8662
+aermanager/annotate_aedat.py,sha256=Q58jkIqtrVREN-f_aCk1KY6eJyI4NXDuOVfEoM2mdA8,1627
+aermanager/dataset_generator.py,sha256=3FpSkZK9ZLg5Yvq6SF6zXEG1kCgU-oCogp8yoa7ta-k,10235
+aermanager/datasets.py,sha256=53qQA-7iZgmf542VAjPMg5dM2L1WO7E8TqJFL6YZKiQ,2018
+aermanager/liveaer.py,sha256=aS7zAB7l16Jp8xIUY1hRO9ZlJ9Hmo0L33gePW3k9B14,2747
+aermanager/preprocess.py,sha256=YTzOR-wAC59NGvX_l5WMA2oMqoVRaEOSSBGJhh0WJUE,3560
+aermanager/transform.py,sha256=jCkEoLQlqIEXVHY6uZU7a3X_Z62Lz0TRduRrnm6kitE,2707
+aermanager/cvat/aedat_to_video.py,sha256=Y7Lt5CvjHUrgoFvqY7xfXjzGs4Iyh-2idGSDVpR-_Cw,1379
+aermanager/cvat/load_annotations.py,sha256=bs3T8gxNXvKTXrKg3moOftm_9lueeAMasunnqpNBZTQ,2927
+aermanager/cvat/load_labels.py,sha256=5cl0nSB89LzrFMErV9ZDAHcimYpWYAIiv-hacLyRBko,405
+aermanager-0.1.1.dev68.dist-info/AUTHORS,sha256=gTGZd7yheq2QS6SX7-OdLep0NUIqv6uFJ-OK_ksDIYg,279
+aermanager-0.1.1.dev68.dist-info/LICENSE,sha256=BTGzlCQyGwYd9GJ7oVKOaWdM_S3zgfxU6a-mPTvb7Jg,34503
+aermanager-0.1.1.dev68.dist-info/METADATA,sha256=rD_pScGdbb5QINZw4O3WzCcNhT0qAAKQejIiABU2rTw,1650
+aermanager-0.1.1.dev68.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aermanager-0.1.1.dev68.dist-info/pbr.json,sha256=wGD4pkiuFNMNmwWonK2g8150F9rvr6uVDmoJcR5mTeM,47
+aermanager-0.1.1.dev68.dist-info/top_level.txt,sha256=EPYcpJBbJKg_QWwR0RrLAbtaNlGzvYqd3LuFhALbFr0,11
+aermanager-0.1.1.dev68.dist-info/RECORD,,
