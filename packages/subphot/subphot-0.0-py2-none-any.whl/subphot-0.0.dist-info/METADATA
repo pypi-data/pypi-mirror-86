@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: subphot
+Version: 0.0
+Summary: SubPhot library. Image Subtraction photometry pipeline for astronomy.
+Home-page: https://astro.subhashbose.com/software/subphot
+Author: Subhash Bose
+Author-email: email@subhashbose.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: ConfigParser
+Requires-Dist: os
+Requires-Dist: numpy
+Requires-Dist: glob
+Requires-Dist: time
+Requires-Dist: astropy
+Requires-Dist: tempfile
+Requires-Dist: zipfile
+Requires-Dist: shutil
+
+This is placeholder
+
+For package details visit https://astro.subhashbose.com/software/subphot
+
