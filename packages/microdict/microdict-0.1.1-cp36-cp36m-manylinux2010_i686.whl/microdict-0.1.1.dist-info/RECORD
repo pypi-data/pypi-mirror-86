@@ -1,0 +1,16 @@
+microdict/run_tests.py,sha256=inBZ9WK2liqeyi-oTb2Lc8wwoJM9-oZjO0N9QnE20xo,219
+microdict/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microdict/mdict.py,sha256=v8FzYZtNTnYd2_6hcy-4psKN330Fp-G5KLxKo59Rs4c,1368
+microdict/microdict_tests/test_int.py,sha256=cg0dNBUQ5toqSEokiQJJ_LRBx1c2nvfCIZrnqs7uO8c,7462
+microdict/microdict_tests/test_str.py,sha256=3jQDdHC9ybCfYotkK-bjm-h5aZ2325856pG8w366wSo,5851
+microdict/microdict_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_mdict_c/i64_i32.cpython-36m-i386-linux-gnu.so,sha256=NPlQBN6IMclR0nEdADJmuCnnd2_uiymP21WQ3c4WL_g,86544
+_mdict_c/i32_i64.cpython-36m-i386-linux-gnu.so,sha256=5DlT1VayM4v4ap2IarlBWso_D22Abbsu0H7Mxn-KoXQ,85772
+_mdict_c/i32_i32.cpython-36m-i386-linux-gnu.so,sha256=ore9ptVD6ySMy--X2IH1fhju714jk9PkCr5ACex7AVw,85584
+_mdict_c/str_str.cpython-36m-i386-linux-gnu.so,sha256=Bou_0EjaxxPnVHv01sfKBDPLLHS5w3QKZRtXNrDII8k,214772
+_mdict_c/i64_i64.cpython-36m-i386-linux-gnu.so,sha256=kUX1HerxqBjFRnn3SZY9INj2k4GmuwFJXaZMASmhl8A,86492
+microdict-0.1.1.dist-info/WHEEL,sha256=XXthjiQwRQ6RS1db2McZBNK6QXDJgns6N8yf4aeJFgk,110
+microdict-0.1.1.dist-info/METADATA,sha256=JK9HnyjLrRyAYrRXEJATzJhxwVG3NS06O2HHQRrdNOU,12454
+microdict-0.1.1.dist-info/RECORD,,
+microdict-0.1.1.dist-info/top_level.txt,sha256=E1KvayI1s-6eqsReRMr8PuZeO0oLzzIpRIE1SCb2K0A,112
+microdict-0.1.1.dist-info/LICENSE,sha256=MWL7zOeMHHkyoZa3FZ1F-tohLdyNbz_vuC6k3HryrA8,1069
