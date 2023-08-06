@@ -1,0 +1,5 @@
+mypy
+scikit-learn
+
+[examples]
+pandas==1.1.3

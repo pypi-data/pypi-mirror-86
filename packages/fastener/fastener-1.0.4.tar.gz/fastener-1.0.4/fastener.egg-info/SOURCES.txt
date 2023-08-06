@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fastener/__init__.py
+fastener/fastener.py
+fastener/item.py
+fastener/random_utils.py
+fastener.egg-info/PKG-INFO
+fastener.egg-info/SOURCES.txt
+fastener.egg-info/dependency_links.txt
+fastener.egg-info/requires.txt
+fastener.egg-info/top_level.txt
