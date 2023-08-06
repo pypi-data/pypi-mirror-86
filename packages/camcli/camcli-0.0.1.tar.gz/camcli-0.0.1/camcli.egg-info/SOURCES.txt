@@ -1,0 +1,10 @@
+README.md
+setup.py
+camcli/__init__.py
+camcli/client.py
+camcli.egg-info/PKG-INFO
+camcli.egg-info/SOURCES.txt
+camcli.egg-info/dependency_links.txt
+camcli.egg-info/not-zip-safe
+camcli.egg-info/requires.txt
+camcli.egg-info/top_level.txt
