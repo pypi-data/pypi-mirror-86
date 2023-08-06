@@ -1,0 +1,9 @@
+func_adl_uproot/__init__.py,sha256=KUWL167bOUWtA1VF6SatWAfNHahXucjiBApDF4cL_NQ,78
+func_adl_uproot/executor.py,sha256=s7Ym8l3OjLc4-gQXBWn6jYGF14kT3-aLHsxREXH7-eM,189
+func_adl_uproot/transformer.py,sha256=Vf5kxDBKj0f4KcgoJcZSerW9gRWjKr_bOp1iSeqxrNc,13600
+func_adl_uproot/translation.py,sha256=dJ3RFU_s6ZC174LZWDj3FPLWI99pp_CHOcViEupz5CI,920
+func_adl_uproot-0.13.dist-info/LICENSE,sha256=GwwnK57YoXSWvc8gj-v3TTRMdZOTtKvStR3z3wpiVU0,1058
+func_adl_uproot-0.13.dist-info/METADATA,sha256=3NOjLQ5ePt_k4TjVUVBEdQi6Y0Ltaj6iFdGKu36mOI0,947
+func_adl_uproot-0.13.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+func_adl_uproot-0.13.dist-info/top_level.txt,sha256=UnIMvqHtuCWvhFzkX5AQgzGsRcXjR02IoiE2nGJptoY,16
+func_adl_uproot-0.13.dist-info/RECORD,,
