@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        discord-to-sqlite=discord_to_sqlite.cli:cli
+    
