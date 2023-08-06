@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: numfile
+Version: 0.1.0
+Summary: Automatically assign an increasing sequence number to file names.
+Home-page: https://github.com/bzaczynski/numfile
+Author: Bartosz Zaczyński
+Author-email: bartosz.zaczynski@gmail.com
