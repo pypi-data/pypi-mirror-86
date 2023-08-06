@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/formatLibPackage.egg-info/PKG-INFO
+src/formatLibPackage.egg-info/SOURCES.txt
+src/formatLibPackage.egg-info/dependency_links.txt
+src/formatLibPackage.egg-info/requires.txt
+src/formatLibPackage.egg-info/top_level.txt
