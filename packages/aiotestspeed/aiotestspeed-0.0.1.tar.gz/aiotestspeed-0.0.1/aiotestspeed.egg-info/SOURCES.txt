@@ -1,0 +1,12 @@
+README.md
+setup.py
+aiotestspeed/__init__.py
+aiotestspeed/__main__.py
+aiotestspeed/aio.py
+aiotestspeed/cli.py
+aiotestspeed/version.py
+aiotestspeed.egg-info/PKG-INFO
+aiotestspeed.egg-info/SOURCES.txt
+aiotestspeed.egg-info/dependency_links.txt
+aiotestspeed.egg-info/requires.txt
+aiotestspeed.egg-info/top_level.txt
