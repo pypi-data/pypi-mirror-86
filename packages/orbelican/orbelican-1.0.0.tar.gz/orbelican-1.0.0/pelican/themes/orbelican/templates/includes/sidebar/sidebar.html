@@ -1,0 +1,32 @@
+<div class="sidebar-wrapper">
+    <div class="profile-container">
+        {% if DATA_CONFIG['site']['profile'] %}
+        <img class="profile" src="{{ SITEURL }}/images/{{ DATA_CONFIG['site']['profile'] }}" />
+        {% else %}
+        <img class="profile" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/profile.png" />
+        {% endif %}
+
+        {% if DATA_PROFILE['info']['firstname'] and DATA_PROFILE['info']['lastname'] %}
+        <h1 class="name">{{ DATA_PROFILE['info']['firstname'] }}</h1>
+        <h1 class="name">{{ DATA_PROFILE['info']['lastname'] }}</h1>
+        {% else %}
+        <h1 class="name">Alan</h1>
+        <h1 class="name">Doe</h1>
+        {% endif %}
+
+        {% if DATA_PROFILE['info']['tagline'] %}
+        <h3 class="tagline">{{ DATA_PROFILE['info']['tagline'] }}</h3>
+        {% else %}
+        <h3 class="tagline">Web Developer</h3>
+        {% endif %}
+
+        {% if DATA_PROFILE['info']['age'] %}
+        <h3 class="age">{{ DATA_PROFILE['info']['age'] }}</h3>
+        {% else %}
+        <h3 class="age">24 yo</h3>
+        {% endif %}
+    </div>
+    {% include 'includes/sidebar/infos.html' %}
+    {% include 'includes/sidebar/language.html' %}
+    {% include 'includes/sidebar/skills.html' %}
+</div>

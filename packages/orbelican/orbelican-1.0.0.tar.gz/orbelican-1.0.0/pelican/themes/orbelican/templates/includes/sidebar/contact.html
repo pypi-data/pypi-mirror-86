@@ -1,0 +1,69 @@
+{% if DATA_PROFILE['contact']['website'] %}
+<li class="website"><i class="fas fa-globe-americas"></i>
+    <a href="https://{{ DATA_PROFILE['contact']['website'] }}"
+        target="_blank">{{ DATA_PROFILE['contact']['website'] }}</a>
+</li>
+{% endif %}
+
+{% if DATA_PROFILE['contact']['twitter'] %}
+<li class="twitter"><i class="fab fa-twitter"></i>
+    <a href="https://twitter.com/{{ DATA_PROFILE['contact']['twitter'] }}"
+        target="_blank">{{ DATA_PROFILE['contact']['twitter'] }}</a>
+</li>
+{% endif %}
+
+{% if DATA_PROFILE['contact']['linkedin'] %}
+<li class="linkedin"><i class="fab fa-linkedin"></i>
+    <a href="https://linkedin.com/in/{{ DATA_PROFILE['contact']['linkedin'] }}"
+        target="_blank">{{ DATA_PROFILE['contact']['linkedin'] }}</a>
+</li>
+{% endif %}
+
+{% if DATA_PROFILE['contact']['github'] %}
+<li class="github"><i class="fab fa-github"></i>
+    <a href="https://github.com/{{ DATA_PROFILE['contact']['github'] }}"
+        target="_blank">{{ DATA_PROFILE['contact']['github'] }}</a>
+</li>
+{% endif %}
+
+{% if DATA_PROFILE['contact']['gitlab'] %}
+<li class="gitlab"><i class="fab fa-gitlab"></i>
+    <a href="https://gitlab.com/{{ DATA_PROFILE['contact']['gitlab'] }}"
+        target="_blank">{{ DATA_PROFILE['contact']['gitlab'] }}</a>
+</li>
+{% endif %}
+
+{% if DATA_PROFILE['contact']['bitbucket'] %}
+<li class="bitbucket"><i class="fab fa-bitbucket"></i>
+    <a href="https://bitbucket.com/{{ DATA_PROFILE['contact']['bitbucket'] }}"
+        target="_blank">{{ DATA_PROFILE['contact']['bitbucket'] }}</a>
+</li>
+{% endif %}
+
+{% if DATA_PROFILE['contact']['stackoverflow'] %}
+<li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+    <a href="https://stackoverflow.com/users/{{ DATA_PROFILE['contact']['stackoverflow'] }}"
+        target="_blank">{{ DATA_PROFILE['contact']['stackoverflow'] }}</a>
+</li>
+{% endif %}
+
+{% if DATA_PROFILE['contact']['telegram'] %}
+<li class="telegram"><i class="fab fa-telegram"></i>
+    <a href="https://t.me/{{ DATA_PROFILE['contact']['telegram'] }}"
+        target="_blank">{{ DATA_PROFILE['contact']['telegram'] }}</a>
+</li>
+{% endif %}
+
+{% if DATA_PROFILE['contact']['codewars'] %}
+<li class="codewars"><i class="fas fa-code"></i>
+    <a href="https://www.codewars.com/users/{{ DATA_PROFILE['contact']['codewars'] }}/completed_solutions"
+        target="_blank">{{ DATA_PROFILE['contact']['codewars'] }}</a>
+</li>
+{% endif %}
+
+{% if DATA_PROFILE['contact']['goodreads'] %}
+<li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
+    <a href="https://www.goodreads.com/user/show/{{ DATA_PROFILE['contact']['goodreads'] }}"
+        target="_blank">{{ DATA_PROFILE['contact']['goodreads'] }}</a>
+</li>
+{% endif %}

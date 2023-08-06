@@ -1,0 +1,7 @@
+pelican
+pelican-data-files>=1.1.0
+
+[dev]
+libsass>=0.20.0
+invoke
+twine
