@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: netbox-vcenter
+Version: 0.1.1
+Summary: vCenter integration for NetBox
+Home-page: https://github.com/sjm-steffann/netbox-vcenter
+Author: Sander Steffann
+Author-email: sander@steffann.nl
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Requires-Dist: pyvmomi (~=6.7.0)
+Requires-Dist: setuptools
+
+# vCenter integration plugin for NetBox
+
+This plugin shows live data from vCenter clusters in NetBox, making it easier for administrators to make sure that reality reflects what is documented in NetBox.
+
+## Compatibility
+
+This plugin in compatible with [NetBox](https://netbox.readthedocs.org/) 2.8 and later.
+
+
