@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sunbird
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: http://www.sunbird.ml
+Author: ['Vivek Pisal', 'Vaishnavi Ghadge']
+Author-email: vivekpisal12345@gmail.com
+License: UNKNOWN
+Description: Sunbird library is created for feature engineering purpose.In this library you will get different different techniques to handle outliers ,missing values,variety of encoding techniques, normalization and feature selection techniques.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
