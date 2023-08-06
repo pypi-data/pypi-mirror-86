@@ -1,0 +1,1 @@
+solvency_analitics_db_migration
