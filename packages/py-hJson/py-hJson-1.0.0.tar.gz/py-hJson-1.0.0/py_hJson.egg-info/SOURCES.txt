@@ -1,0 +1,7 @@
+README.md
+setup.py
+hJson/__init__.py
+py_hJson.egg-info/PKG-INFO
+py_hJson.egg-info/SOURCES.txt
+py_hJson.egg-info/dependency_links.txt
+py_hJson.egg-info/top_level.txt
