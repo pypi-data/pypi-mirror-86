@@ -1,0 +1,7 @@
+README.md
+setup.py
+pauliopt/__init__.py
+pauliopt.egg-info/PKG-INFO
+pauliopt.egg-info/SOURCES.txt
+pauliopt.egg-info/dependency_links.txt
+pauliopt.egg-info/top_level.txt
