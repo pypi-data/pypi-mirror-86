@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ignorefile
+Version: 0.1.0
+Summary: Download .gitignore file for a language of your choice
+Home-page: https://github.com/Otman404/ignorefile
+Author: Otmane Boughaba
+Author-email: otmaneboughaba@gmail.com
+License: MIT
+Description: # ignorefile
+        
+        Download .gitignore file for a language of your choice.
+        
+        ## Install
+        
+        ```
+        pip install ignorefile
+         ```
+        
+        
+        ## Usage
+        
+        `ignorefile <language>`: Download .gitignore for \<language> and adds it the current directory.
+        ex:
+        ```
+        ignorefile python
+        ```
+        if a .gitignore file already exists, the user will have the choice:
+        
+        ```
+        ignorefile django
+        .gitignore already exists, [A]ppend, [O]verride, [Q]uit?
+        ```
+        If you choose append option, all duplicates in the .gitignore file will be removed.
+        ex:
+        ```
+        ### C ###
+        *.obj
+        *.out
+        ### C++ ##
+        *.obj
+        *.out
+        
+        ```
+        
+        ### Options
+        
+        ```
+        Options:
+          --list     list all available languages/Frameworks.
+          --version  Show the version and exit.
+          --help     Show this message and exit.
+        ```
+        
+        ### License
+        MIT
+Keywords: gitignore github generate
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
