@@ -1,0 +1,32 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+data/spkrinfo_spkrsent.txt
+data/timit_core_test.json
+data/timit_phones_60-48-39.map
+docs/Amazon - Lessons from building acoustic models with a million hours of speech.pdf
+docs/Dhaka, Salvi - Sparse autoencoder based semi-supervised learning for phone classification with limited annotations.pdf
+docs/Ke et al. - Dual Student, Breaking the Limits of the Teacher in Semi-supervised Learning.pdf
+docs/Lin, Fang, Amir, Sung - Semi-supervised learning with soften probabilistic labels.pdf
+docs/report.pdf
+docs/report.zip
+dualstudent/__init__.py
+dualstudent/datasets/__init__.py
+dualstudent/datasets/timit.py
+dualstudent/io/__init__.py
+dualstudent/io/_sphere.py
+dualstudent/io/_transcription.py
+dualstudent/metrics/__init__.py
+dualstudent/metrics/_per.py
+dualstudent/metrics/_utils.py
+dualstudent/models/__init__.py
+dualstudent/models/_dual_student.py
+dualstudent/models/_utils.py
+dualstudent/preprocess/__init__.py
+dualstudent/preprocess/_speech.py
+dualstudent/preprocess/_utils.py
+dualstudent_asr.egg-info/PKG-INFO
+dualstudent_asr.egg-info/SOURCES.txt
+dualstudent_asr.egg-info/dependency_links.txt
+dualstudent_asr.egg-info/top_level.txt
