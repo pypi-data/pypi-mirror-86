@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: red-dead-tools
+Version: 0.1.8
+Summary: Tools for playing Red Dead Redemption 2 online
+Home-page: https://github.com/red-dead-tools/red-dead-tools
+Author: Tom Viner
+Author-email: red-dead-tools@viner.tv
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: gspread
+Requires-Dist: attrs
+Requires-Dist: httpx
+Requires-Dist: decopatch
+
+UNKNOWN
+
+

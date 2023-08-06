@@ -1,0 +1,12 @@
+red_dead/__init__.py,sha256=dYFE_oBu1tP6bFHfZ7YXtgpuBna3SAB5NCgp1Ywacos,67
+red_dead/caching.py,sha256=c9rXmuruCTyv5LPXchBhdgbT_1-GypaM52XBAGzYrxI,1182
+red_dead/export.py,sha256=2jhmvDC86uyH_TO1C6qajFA2Nm_lN_cFKudeIet6r1g,2337
+red_dead/gsheets.py,sha256=3TikvAhagKW_jWsIX-WEa_wqMo0ibRORDl5KgcwrX3w,475
+red_dead/items.py,sha256=-JMRhd6N73UEZlEJbVO4sD1QC0pQw-XTx1fhgusZYyA,2984
+red_dead/models.py,sha256=_W6tjcJOUGZvxrB5Br3cjABAwIk-iYEXwgdL7FwAlms,1755
+red_dead/sheet_transform.py,sha256=M71iOqOuRyxdIDZOu5dNmporfGCzRmCGLA36-_09t_Q,1205
+red_dead_tools-0.1.8.dist-info/LICENSE,sha256=0bNWLavUNCvcrMeX5U-pBil3l3B0we8gkifh45Lt7q4,1062
+red_dead_tools-0.1.8.dist-info/METADATA,sha256=BMSJHzNAAdrpHuF28vtwerVqza2rdwLetepwHChxMi0,512
+red_dead_tools-0.1.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+red_dead_tools-0.1.8.dist-info/top_level.txt,sha256=Irb8lBeWK_G-RdXj7HkBPRr932dol6QLNQbGeM15oew,9
+red_dead_tools-0.1.8.dist-info/RECORD,,
