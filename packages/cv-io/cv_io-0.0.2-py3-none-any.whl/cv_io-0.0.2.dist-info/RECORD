@@ -1,0 +1,10 @@
+cv_io/__init__.py,sha256=YkASQLzIyer53O92cC1bRcpWKq15vafZJkLWKuwWPXk,695
+cv_io/collection.py,sha256=0R362HNW4vUAy6pJaD5unZkjbJVRbvmUFvrcRQty_9Y,5475
+cv_io/flowlib.py,sha256=kmNfo5U7uyAY7i-KwTw4hheRBkguIEnqX3zCC6duTNA,15839
+cv_io/pfmutil.py,sha256=8GxzsyM9-y08VS0krL0VC1HcU5nkdYqq6eLH4gsR7rg,1743
+cv_io/sintel_io.py,sha256=orwR17KZgseAnu6v_JvgLYg3ilrfhU1xcaXWrSZUvuo,6776
+cv_io-0.0.2.dist-info/LICENSE,sha256=mXKCtoABYSOGQI0KTtIuW-q8tKRuiRwobVxuKtmygRw,1084
+cv_io-0.0.2.dist-info/METADATA,sha256=qXvLfziL-ZoSxhTUHqQtY1KhJ-lt9D4yA7sTx0em5RU,2250
+cv_io-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cv_io-0.0.2.dist-info/top_level.txt,sha256=ICjo5Z3ik01D8tYy0r7tICyzfGUV5n_qDoiK4IJIJFA,6
+cv_io-0.0.2.dist-info/RECORD,,
