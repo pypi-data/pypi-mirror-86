@@ -1,0 +1,10 @@
+airtouch4pyapi/__init__.py,sha256=1fuf5wUnUIM0_ySes_Hdsi-8m537WD6fQ_0TZ2rZmQ4,45
+airtouch4pyapi/airtouch.py,sha256=Vxza-9czWySj15TL3T5PlzuEUbrf7RF-OUrxyf3sfx0,14395
+airtouch4pyapi/communicate.py,sha256=JneLYkjLq5Ws7Huon_Hc9d5oWzQ1qYY1TYXOg1MnzPw,3282
+airtouch4pyapi/helper.py,sha256=AWSLh5tR14CnkoUo4vLklclEQpEE54LipHF5ti9R9vQ,172
+airtouch4pyapi/packetmap.py,sha256=gh9mBfG92NSlu16Fc_XaR8PI6SMvv6ZDCoPdvWvzlQ8,4684
+airtouch4pyapi-0.0.18.dist-info/LICENSE,sha256=zd3qeDBIeD51cjLQw6FxnzBVYcCadXSsqxdpmsteILs,1068
+airtouch4pyapi-0.0.18.dist-info/METADATA,sha256=Q_mPlRdzD3V0HA2PepO8H8b-H8EcUnx1_1U42mmhM_M,1390
+airtouch4pyapi-0.0.18.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+airtouch4pyapi-0.0.18.dist-info/top_level.txt,sha256=LUJOaWZx1ecCx5-TjgGpYPJx8xygXlFaU3zF-UigjAo,15
+airtouch4pyapi-0.0.18.dist-info/RECORD,,
