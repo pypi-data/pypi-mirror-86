@@ -1,0 +1,5 @@
+tensorflow>=2.0
+tensorflow-addons>=0.11
+tf-keras-vis>=0.5.3
+matplotlib
+pillow
