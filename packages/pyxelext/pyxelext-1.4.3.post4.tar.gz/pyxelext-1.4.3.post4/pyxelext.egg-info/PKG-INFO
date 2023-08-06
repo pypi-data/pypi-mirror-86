@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: pyxelext
+Version: 1.4.3.post4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: MIT
+Description: **PyxelExt** are lazy Pyxel extensions.
+        
+        This is my personal collection of functions that I need, or _might need_ for my game(s).
+        
+        ## Install
+        
+            pip install pyxelext
+            
+        ## Functions
+        
+        ### Take a look in `pyxelext/examples`
+        
+        `# pyxelext/line.py`
+        ```python
+        from pyxelext.line import *
+        line(x1: int, y1: int, x2: int, y2: int, col: int)  # like pyxel.line but returns length of the line in pixel
+        aline(x: int, y: int, length: int, col: int, angle: int = 0)
+        poly(*args: ((int, int),), col: int)  # draw a polygon
+        ```
+        
+        ![draw aline in action](pyxelext/examples/images/draw_aline.gif "draw aline in action")
+        
+        `# pyxelext/input.py`
+        ```python
+        from pyxelext.input import *
+        btn_pressed()  # returns button that is currently pressed
+        ```
+        
+        `# pyxelext/text.py`
+        ```python
+        from pyxelext.text import *
+        text(x: int, y: int, txt: str)  # pyxel.text but with inline text palette support
+        textblock(x: int, y: int, txt: str, nl_px: int = 6, drop_whitespace: bool = True)  # Text block with screen wrap
+        ```
+        
+        ![text in action](pyxelext/examples/images/text.gif "text in action")
+        
+        `# pyxelext/physics.py`
+        Needs `pymunk` in order to work.
+        ```python
+        debug_draw_options() #  pretty much similar to pygame function in pymunk.
+        static_rect(x: int, y: int, w: int, h: int, col: int, space: pymunk.Space, **kwargs)  # static rectangle from pyxel
+        static_circ(x: int, y: int, r: int, col: int, space: pymunk.Space, **kwargs)  # static circle
+        oopv_sleep(space: pymunk.Space, r=0)  # put this in your draw function so bodies in space will be inactive once they've left the pyxel screen
+        ```
+        
+        `# pyxelext/system.py`
+        Adds features to pyxel that are currently not implemented in the main library
+        ```python
+        set_fullscreen(real_fullscreen: bool = False)  # enables fullscreen, real_fullscreen changes desktop resolution as well
+        set_windowed()  # enables windowed mode
+        set_window_icon(icon: PathLike, bytes_per_pixel: int = 4)  # lets you set your own icon for the window title. tested with png and .ico with alpha
+        ```
+        
+        MIT License
+        
+        Copyright (c) 2020 Pierre Geier
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: physics
+Provides-Extra: images
