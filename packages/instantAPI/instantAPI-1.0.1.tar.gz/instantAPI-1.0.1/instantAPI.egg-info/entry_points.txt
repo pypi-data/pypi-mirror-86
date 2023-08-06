@@ -1,0 +1,3 @@
+[console_scripts]
+instant-API = instant_API.instantAPI:main
+

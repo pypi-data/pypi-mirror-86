@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+instantAPI.egg-info/PKG-INFO
+instantAPI.egg-info/SOURCES.txt
+instantAPI.egg-info/dependency_links.txt
+instantAPI.egg-info/entry_points.txt
+instantAPI.egg-info/top_level.txt
+instant_API/__init__.py
+instant_API/instantAPI.py
