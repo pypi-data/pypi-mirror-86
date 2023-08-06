@@ -1,0 +1,6 @@
+README.md
+setup.py
+iterdecor.egg-info/PKG-INFO
+iterdecor.egg-info/SOURCES.txt
+iterdecor.egg-info/dependency_links.txt
+iterdecor.egg-info/top_level.txt
