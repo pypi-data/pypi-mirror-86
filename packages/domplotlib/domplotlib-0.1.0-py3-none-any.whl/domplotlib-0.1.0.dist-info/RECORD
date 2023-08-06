@@ -1,0 +1,11 @@
+domplotlib/__init__.py,sha256=F3TGPA-5euUn6VgagG_wcwUqwjnH_YRUExabXqOaHMM,9073
+domplotlib/styles/__init__.py,sha256=IAmr05ZkVCoM5F1ZPRlB5veE2_lrCP1d1Lr4IiDxa9s,2011
+domplotlib/styles/_plt.py,sha256=md7TkaU9ZubZDGthuhXEYJY6HzpAnhfHnnZufMT-GiA,1552
+domplotlib/styles/default.py,sha256=SwRjOkNGO0bAXsvj2S_PrnQ8gAJ5Pq-nslzomIUWGt0,1290
+domplotlib/styles/domdf.mplstyle,sha256=nKTg31J7A0st_-OISu3EWrZHDTcg5Hx_OXiE80N3tyg,1570
+domplotlib/styles/domdf.py,sha256=ZT18S9m_hlnssUWDaT0cDnl5BdCZohUQsFOA-mjHjGg,1485
+domplotlib-0.1.0.dist-info/LICENSE,sha256=BigaIaJbg4wCjk6MjLC_5kuevxdEotWApzfvN8Y9LMM,1064
+domplotlib-0.1.0.dist-info/METADATA,sha256=zyEgTdAy4U6-KhUVTNp8--zC9E0X_1Uj9jW_4pnvf9s,5506
+domplotlib-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+domplotlib-0.1.0.dist-info/top_level.txt,sha256=suTrmiY0QDplozfzDHJbT_evXDY6pyrt9un2m5Veo5I,11
+domplotlib-0.1.0.dist-info/RECORD,,
