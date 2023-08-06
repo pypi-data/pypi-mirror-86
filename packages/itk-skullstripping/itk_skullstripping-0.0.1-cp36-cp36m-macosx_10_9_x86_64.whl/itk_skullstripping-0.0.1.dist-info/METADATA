@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: itk-skullstripping
+Version: 0.0.1
+Summary: Automatic skull-stripping for neuroimage analysis
+Home-page: https://github.com/InsightSoftwareConsortium/ITKSkullStrip
+Author: Stefan Bauer
+Author-email: stefan.bauer@istb.unibe.ch
+License: Apache
+Download-URL: https://github.com/InsightSoftwareConsortium/ITKSkullStrip
+Keywords: ITK InsightToolkit neuroimaging neuroimaging-analysis
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Dist: itk (>=5.1.1)
+
+ITKSkullStrip provides a class to perform automaticskull-stripping for neuroimage analysis.
+Please refer to:Bauer S., Fejes T., Reyes M.,“Skull-Stripping Filter for ITK”, Insight Journal, http://hdl.handle.net/10380/3353, 2012.
+
