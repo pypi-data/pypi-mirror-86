@@ -1,0 +1,6 @@
+#!python
+
+import pickupline
+
+if __name__ == "__main__":
+    pickupline.main()

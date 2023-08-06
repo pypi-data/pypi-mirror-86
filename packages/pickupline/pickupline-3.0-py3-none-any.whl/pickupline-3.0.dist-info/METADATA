@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: pickupline
+Version: 3.0
+Summary: Get PickupLines on various categories from web
+Home-page: http://github.com/prdpx7/pickup-line
+Author: Pradeep Khileri
+Author-email: pradeepchoudhary009@gmail.com
+License: MIT
+Keywords: cli pickupline humour geek
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4 (==4.9.3)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: certifi (==2020.11.8)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: html5lib (==1.1)
+Requires-Dist: idna (==2.10)
+Requires-Dist: pyperclip (==1.8.1)
+Requires-Dist: requests (==2.25.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: soupsieve (==2.0.1)
+Requires-Dist: urllib3 (==1.26.2)
+Requires-Dist: webencodings (==0.5.1)
+
+UNKNOWN
+
+
