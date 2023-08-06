@@ -1,0 +1,9 @@
+requests
+pandas
+numpy
+tabulate
+ffmpeg
+pydub
+librosa
+matplotlib
+youtube_dl
