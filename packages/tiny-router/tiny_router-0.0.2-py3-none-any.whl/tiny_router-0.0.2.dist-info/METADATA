@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tiny-router
+Version: 0.0.2
+Summary: Tiny HTTP router
+Home-page: https://github.com/nekonoshiri/tiny-router
+License: MIT
+Keywords: router
+Author: Shiri Nekono
+Author-email: gexira.halen.toms@gmail.com
+Maintainer: Shiri Nekono
+Maintainer-email: gexira.halen.toms@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries
+Project-URL: Documentation, https://github.com/nekonoshiri/tiny-router
+Project-URL: Repository, https://github.com/nekonoshiri/tiny-router
+Description-Content-Type: text/markdown
+
+# tiny-router
+
+A tiny HTTP router.
+
+## Usage
+
+See `examples/` directory of [repository](https://github.com/nekonoshiri/tiny-router).
+
+
