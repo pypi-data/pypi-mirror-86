@@ -1,0 +1,8 @@
+README.md
+setup.py
+makhzoom13pckg.egg-info/PKG-INFO
+makhzoom13pckg.egg-info/SOURCES.txt
+makhzoom13pckg.egg-info/dependency_links.txt
+makhzoom13pckg.egg-info/top_level.txt
+pckg/__init__.py
+pckg/hw.py
