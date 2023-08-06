@@ -1,0 +1,11 @@
+opentelemetry/exporter/otlp/__init__.py,sha256=On9_AFk8iYg8BxT6R5c9zUw6FFr1Ef-tmeiIvwUOTrI,2435
+opentelemetry/exporter/otlp/exporter.py,sha256=epwwuuz-yGnmp2sQcNDNxfhma59bGYZa8sljYEbTrQc,9164
+opentelemetry/exporter/otlp/version.py,sha256=J1HoqnKG8W6hYRj20GTVLccRKuD6OfxJ5alMpOZGGQs,608
+opentelemetry/exporter/otlp/metrics_exporter/__init__.py,sha256=IHzobYINBznAhUQ7H3iHMZP9k-XUjvK_cMRkX7S9QGg,12558
+opentelemetry/exporter/otlp/trace_exporter/__init__.py,sha256=bl8h_TjINL2LKRMpaIuE0Hq5OWZWQq-F4WDFTAlqw1o,9911
+opentelemetry_exporter_otlp-0.16b1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_exporter_otlp-0.16b1.dist-info/METADATA,sha256=0xh3ODW58zc7Yzrha9WH1ekKKMfBOZkBMx9RVKr-pv4,1987
+opentelemetry_exporter_otlp-0.16b1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_exporter_otlp-0.16b1.dist-info/entry_points.txt,sha256=TVEgi2VUJFNXsFckzqdpdi66RdeKCqdmLi43PMbwU0I,177
+opentelemetry_exporter_otlp-0.16b1.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_exporter_otlp-0.16b1.dist-info/RECORD,,
