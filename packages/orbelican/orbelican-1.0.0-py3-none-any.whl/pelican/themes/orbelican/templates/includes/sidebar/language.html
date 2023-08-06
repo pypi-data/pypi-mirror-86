@@ -1,0 +1,22 @@
+{% if DATA_PROFILE['languages'] %}
+<div class="languages-container container-block">
+    <h2 class="container-block-title">
+        {% if DATA_PROFILE['languages']['title'] %}
+        {{ DATA_PROFILE['languages']['title'] }}
+        {% else %}
+        Languages
+        {% endif %}
+    </h2>
+    <ul class="list-unstyled interests-list">
+        {% for language in DATA_PROFILE['languages']['list'] %}
+        <li>
+            {{ language['idiom'] }}
+            {% if language['level'] %}
+            <span class="lang-desc">({{ language['level'] }})</span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
+{% endif %}

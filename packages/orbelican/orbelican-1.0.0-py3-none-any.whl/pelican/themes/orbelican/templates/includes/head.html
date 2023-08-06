@@ -1,0 +1,40 @@
+<head>
+    <!-- SITE CONFIGURATION -->
+    <title>{{ SITENAME }}</title>
+    <meta charset="utf-8">
+
+    {% if DATA_CONFIG['site']['description'] %}
+    <meta name="description" content="{{ DATA_CONFIG['site']['description'] }}">
+    {% endif %}
+
+    {% if DATA_CONFIG['site']['robots'] %}
+    <meta name="robots" content="{{ DATA_CONFIG['site']['robots'] }}">
+    {% endif %}
+
+    {% if DATA_CONFIG['site']['favicon'] %}
+    <link rel="shortcut icon" href="{{ SITEURL }}/images/{{ DATA_CONFIG['site']['favicon'] }}">
+    <link rel="icon" href="{{ SITEURL }}/images/{{ DATA_CONFIG['site']['favicon'] }}">
+    {% else %}
+    <link rel="shortcut icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/favicon.ico">
+    <link rel="icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/favicon.ico">
+    {% endif %}
+
+    <!-- STYLE CONFIGURATION -->
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/plugins/fontawesome/fontawesome.min.css">
+
+    {% if DATA_CONFIG['theme']['color'] %}
+    <link id="theme-style" rel="stylesheet"
+        href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/orbit-{{ DATA_CONFIG['theme']['color'] }}.css">
+    {% else %}
+    <link id="theme-style" rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/orbit-1.css">
+    {% endif %}
+
+    {% if DATA_CONFIG['theme']['browser_color'] %}
+    <meta name="theme-color" content="{{ DATA_CONFIG['theme']['browser_color'] }}">
+    {% endif %}
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
