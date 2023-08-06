@@ -1,0 +1,10 @@
+README.md
+pycompose.py
+pyproject.toml
+setup.cfg
+setup.py
+pycompose.egg-info/PKG-INFO
+pycompose.egg-info/SOURCES.txt
+pycompose.egg-info/dependency_links.txt
+pycompose.egg-info/not-zip-safe
+pycompose.egg-info/top_level.txt
