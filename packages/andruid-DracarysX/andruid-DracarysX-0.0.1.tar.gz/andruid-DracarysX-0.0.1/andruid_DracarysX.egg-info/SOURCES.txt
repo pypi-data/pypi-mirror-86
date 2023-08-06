@@ -1,0 +1,6 @@
+README.md
+setup.py
+andruid_DracarysX.egg-info/PKG-INFO
+andruid_DracarysX.egg-info/SOURCES.txt
+andruid_DracarysX.egg-info/dependency_links.txt
+andruid_DracarysX.egg-info/top_level.txt
