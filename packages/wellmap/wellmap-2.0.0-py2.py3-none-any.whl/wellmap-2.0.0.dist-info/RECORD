@@ -1,0 +1,9 @@
+wellmap/__init__.py,sha256=b-b4jPQZtpBlt5PvrLMMC9hulIITN1qiV655NIyssR4,178
+wellmap/file.py,sha256=3xsU58HenEyBPpCoL9O9fuXTCqRdyLl4xZjrGvnUVGU,30199
+wellmap/plot.py,sha256=nMmOanVny8cqgDRQKSNygpN8lSy9pcPoNv6-PZzNeLg,15770
+wellmap/util.py,sha256=VEhazgkgcXiioaCAeHXwuxlna9mmQIj7QEpXcEAbYoU,6208
+wellmap-2.0.0.dist-info/entry_points.txt,sha256=YDQsfzwygDcJYxo7mqhvc0l3zztlrVtbFMxxkupCpHk,45
+wellmap-2.0.0.dist-info/LICENSE.txt,sha256=hV5oaBI3HIjUi61UYZf8laH_cqtaEsuXV60GtWt5Cog,1079
+wellmap-2.0.0.dist-info/WHEEL,sha256=NLqmsx-ZFZ6gDavYgh2oH0ZSN-KRmpcdEXIZDnYy9Pg,99
+wellmap-2.0.0.dist-info/METADATA,sha256=v3iQYhep6a3MdWtHwfifCt35_2KGkUR-BXHauROx66I,3562
+wellmap-2.0.0.dist-info/RECORD,,
