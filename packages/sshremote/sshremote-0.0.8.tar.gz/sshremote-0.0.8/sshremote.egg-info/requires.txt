@@ -1,0 +1,2 @@
+pyngrok>=4
+pydropbear==0.0.6

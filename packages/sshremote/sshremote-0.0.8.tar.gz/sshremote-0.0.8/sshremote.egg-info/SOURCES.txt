@@ -1,0 +1,9 @@
+README.md
+setup.py
+sshremote/__init__.py
+sshremote/__main__.py
+sshremote.egg-info/PKG-INFO
+sshremote.egg-info/SOURCES.txt
+sshremote.egg-info/dependency_links.txt
+sshremote.egg-info/requires.txt
+sshremote.egg-info/top_level.txt
