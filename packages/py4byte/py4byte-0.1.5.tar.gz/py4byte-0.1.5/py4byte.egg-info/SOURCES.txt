@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+py4byte/__init__.py
+py4byte/api.py
+py4byte/meta.py
+py4byte.egg-info/PKG-INFO
+py4byte.egg-info/SOURCES.txt
+py4byte.egg-info/dependency_links.txt
+py4byte.egg-info/requires.txt
+py4byte.egg-info/top_level.txt
+test/test_functions.py
