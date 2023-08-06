@@ -1,0 +1,8 @@
+lxml
+watchdog
+websockets
+jinja2
+qrcode
+importlib-resources
+netifaces
+PyYAML
