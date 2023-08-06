@@ -1,0 +1,3 @@
+[console_scripts]
+mongofastlogger = mongofastlogger:run
+
