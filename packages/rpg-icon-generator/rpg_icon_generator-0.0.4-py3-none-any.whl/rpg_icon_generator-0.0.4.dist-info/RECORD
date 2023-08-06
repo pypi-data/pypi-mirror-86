@@ -1,0 +1,16 @@
+rpg_icon_generator/__init__.py,sha256=TnfZVkH_55Cv9OF-z-VcbVGM4Jws6KugVNyMHoG8zCE,45
+rpg_icon_generator/generator/__drawing.py,sha256=fcFgFgH3ecdDulUA2QiFJFtkAtujyWoQ0TD2GzrOYhM,883
+rpg_icon_generator/generator/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rpg_icon_generator/generator/blade.py,sha256=DzUSYsxegUWqPRcFb_lpZ9yosK5o5LR-_EosX1UJY-k,12551
+rpg_icon_generator/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpg_icon_generator/utils/bound.py,sha256=-FYkaQDmwfDkDmfwyLLYh2vjhO_zlUG_Gx-c_PPJnu8,550
+rpg_icon_generator/utils/color.py,sha256=9oKZSP3pUoJeshcBFJOBOUmGV2SLNBGqLsAIbxa1gK4,1583
+rpg_icon_generator/utils/random.py,sha256=KAFQ2x_pVZpFhu1j0KKO94ELSpM9oY4CoE8K--aPoJY,646
+rpg_icon_generator/utils/vector.py,sha256=c-QR7wHJE1iJ1fhBVV3Zye2eWXst6VGjB414jYoIvAg,1625
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_blade_generator.py,sha256=OYBM6a9w1ex1O8T_nbN5NM6BUv5AuADkB3ld6p0Gov0,781
+rpg_icon_generator-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+rpg_icon_generator-0.0.4.dist-info/METADATA,sha256=bsxD4Ej1c8mXaeRCdDPiWNZ0RVopZjdqy6TsfVb0oJw,1327
+rpg_icon_generator-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+rpg_icon_generator-0.0.4.dist-info/top_level.txt,sha256=ctTW8q1pEaWIf63RwNLMDQdDHo2srYpIabQXcXmohLs,24
+rpg_icon_generator-0.0.4.dist-info/RECORD,,
