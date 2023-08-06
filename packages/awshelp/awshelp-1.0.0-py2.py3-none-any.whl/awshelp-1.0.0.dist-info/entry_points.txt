@@ -1,0 +1,3 @@
+[console_scripts]
+awshelp = awshelp:main
+
