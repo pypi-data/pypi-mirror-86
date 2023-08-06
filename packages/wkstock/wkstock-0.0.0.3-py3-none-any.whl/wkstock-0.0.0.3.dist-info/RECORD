@@ -1,0 +1,10 @@
+wkstock/__init__.py,sha256=Sasc7DFgP1z_w6xTmSepean1p_SIScPYiFe3lqIcnNQ,50
+wkstock/data/stock-info-20201123.txt,sha256=dc_8YHJnZv1nkDtrrkTZW6P3wQweg60ORt6lKe0nsVs,2187494
+wkstock/utils/__init__.py,sha256=dr74_7-PN8zTLCXEHe6HL_Gr3VPKotTzuRXWwLQWPro,59
+wkstock/utils/get_stock_info.py,sha256=aQsdUcCjIK0Wy8BLanl7GfJCkRmGkWetd_LA78wEz0k,1586
+wkstock-0.0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+wkstock-0.0.0.3.dist-info/METADATA,sha256=EldrgBBNg81LZuQ0bDdEs1Qb1li_6ehD-PNhalXJ8HE,542
+wkstock-0.0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wkstock-0.0.0.3.dist-info/entry_points.txt,sha256=ZqSoZxJTPRen2jFMti3Imy6CeeUzPvG2oZHF717728k,55
+wkstock-0.0.0.3.dist-info/top_level.txt,sha256=JtdY658WZNoDXYgPL48Qn64UhStH40M-KyGBwc5pXGA,8
+wkstock-0.0.0.3.dist-info/RECORD,,
