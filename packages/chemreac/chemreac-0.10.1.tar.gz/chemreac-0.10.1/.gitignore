@@ -1,0 +1,66 @@
+# Lockfiles and auto-save files
+\#*\#
+*/\#*\#
+.\#*
+*/.\#*
+*~
+*/*~
+
+# Output files from examples
+examples/*.png
+examples/*.pkl
+examples/*.html
+examples/profile.out
+*.pkl
+
+# Rendered sources
+tests-native/chemreac.cpp
+
+# Files from compilation
+build/
+*.pyc
+*/*.pyc
+*/*/*.pyc
+*/*.o
+*/*.mod
+*/*.so
+tests-native/test_chemreac
+tests-native/test_chemreac_sundials
+tests-native/test_chemreac_catch
+tests-native/catch.hpp
+tests-native/*.mod
+tests-native/*.o
+tests-native/.coverage*
+
+# Output files
+tests-native/*.out
+
+# Generated files for source distribution
+runtests.py
+src/exprs.pkl
+MANIFEST
+dist/
+chemreac/_chemreac.cpp
+src/chemreac.cpp
+.metadata_subsd
+
+# Generated files from docs
+doc/_build
+doc/_build.log
+
+
+# Various
+__conda_version__.txt
+.*cache/
+.metadata_CompilerRunner
+.coverage
+htmlcov/
+scripts/chemreac_logo.*
+dec_cha.ipynb
+.ipynb_checkpoints/
+*.egg-info
+*.egg
+*.log
+examples/analytic_N_scaling_output/
+.eggs/
+tmp/

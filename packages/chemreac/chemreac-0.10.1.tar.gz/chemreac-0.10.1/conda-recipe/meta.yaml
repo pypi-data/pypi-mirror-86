@@ -1,0 +1,67 @@
+{% set name = "chemreac" %}
+{% set version = GIT_DESCRIBE_TAG | replace("v", "") %}
+{% set number = GIT_DESCRIBE_NUMBER | int %}
+{% if number > 0 %}
+   {% set version = version + ".post" + GIT_DESCRIBE_NUMBER %}
+{% endif %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  git_url: ../
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+  host:
+    - libblas
+    - liblapack
+    - python
+    - setuptools
+    - pip
+    - cython
+    - sundials
+    - mako
+    - quantities >=0.12.1
+    - block_diag_ilu >=0.4.0
+    - finitediff
+    - pycvodes >=0.11.9
+    - numpy >=1.14.0
+  run:
+    - python
+    - {{ pin_compatible('numpy') }}
+    - scipy
+    - quantities >=0.12.1
+    - block_diag_ilu >=0.4.0
+    - finitediff
+    - pycvodes >=0.11.9
+    - pyodesys >0.12.0
+    - chempy >0.7.0
+
+test:
+  requires:
+    - periodictable
+    - argh
+    - pytest
+  imports:
+    - chemreac
+    - chemreac.util
+  commands:
+    - MPLBACKEND=Agg python -m pytest --pyargs chemreac
+
+about:
+  home: https://chemreac.github.io/
+  license: BSD 2-Clause
+  license_file: LICENSE
+  summary: 'Python package for modelling chemical kinetics with diffusion and drift'
+  doc_url: https://chemreac.github.io/docs/master/
+  dev_url: https://github.com/chemreac/chemreac
+
+extra:
+  recipe-maintainers:
+    - bjodah
