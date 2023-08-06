@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: rolling-replacer
+Version: 1.0.2
+Summary: Rolling replacer utility for deploy your AWS EC2 cluster.
+Home-page: https://github.com/emdotem/rolling-replacer
+License: MIT
+Keywords: aws,rolling,deploy,blue-green
+Author: Matteo Martinelli
+Author-email: matteomartinelli1992@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3
+Requires-Dist: click (>=7.1,<8.0)
+Project-URL: Repository, https://github.com/emdotem/rolling-replacer
+Description-Content-Type: text/markdown
+
+# Rolling Replacer
+
+## Usage
+```bash
+$ rolling-replacer <strategy> <asg-blue> <tg-blue> <asg-green> <tg-green> <alb-name>
+```
+
+## Contributing
+To contribute, please open a PR, make sure that the new code is properly tested and all the steps performed in the CI pipeline are completed successfully. 
+
+We follow the Conventional Commits specification.
+
+### Publish
+```bash
+$ poetry version <x.y.z>
+$ poetry publish
+```
