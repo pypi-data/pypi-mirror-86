@@ -1,0 +1,10 @@
+README.md
+setup.py
+convren/__init__.py
+convren/renamer.py
+imgconvren.egg-info/PKG-INFO
+imgconvren.egg-info/SOURCES.txt
+imgconvren.egg-info/dependency_links.txt
+imgconvren.egg-info/not-zip-safe
+imgconvren.egg-info/requires.txt
+imgconvren.egg-info/top_level.txt
