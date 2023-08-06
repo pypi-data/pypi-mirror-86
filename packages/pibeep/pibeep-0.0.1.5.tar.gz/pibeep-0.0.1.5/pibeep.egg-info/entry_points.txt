@@ -1,0 +1,3 @@
+[console_scripts]
+beep = pibeep.beep:main
+
