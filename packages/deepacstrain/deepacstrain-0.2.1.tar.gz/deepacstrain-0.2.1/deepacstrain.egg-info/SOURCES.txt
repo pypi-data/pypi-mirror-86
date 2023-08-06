@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+deepacstrain/__init__.py
+deepacstrain/command_line.py
+deepacstrain.egg-info/PKG-INFO
+deepacstrain.egg-info/SOURCES.txt
+deepacstrain.egg-info/dependency_links.txt
+deepacstrain.egg-info/entry_points.txt
+deepacstrain.egg-info/not-zip-safe
+deepacstrain.egg-info/requires.txt
+deepacstrain.egg-info/top_level.txt
+deepacstrain/builtin/config/nn-patric-strain-rapid-sensitive-cnn.ini
+deepacstrain/builtin/weights/nn-patric-strain-rapid-sensitive-cnn.h5
