@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: corpusinterface
+Version: 0.0.1
+Summary: tools for loading corpora
+Home-page: https://github.com/DCMLab/CorpusInterface
+Author: Robert Lieck
+Author-email: robert.lieck@epfl.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# CorpusInterface
+![tests](https://github.com/DCMLab/CorpusInterface/workflows/tests/badge.svg)
+[![codecov](https://codecov.io/gh/DCMLab/CorpusInterface/branch/master/graph/badge.svg?token=BooAiwbcyk)](https://codecov.io/gh/DCMLab/CorpusInterface)
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+Repo to collect various functionality to read in and access the musical corpora
+
+## Installation
+
+Clone the git repo and install locally from source with pip
+
+```pip install -e <path/to/python-util>```
+
+the `-e` installs in _editable_ mode so you can `git pull` without reinstalling the package to get updates.
+
+## Usage
+
+See the [Tutorial](Tutorial.ipynb) for some initial examples.
+
+

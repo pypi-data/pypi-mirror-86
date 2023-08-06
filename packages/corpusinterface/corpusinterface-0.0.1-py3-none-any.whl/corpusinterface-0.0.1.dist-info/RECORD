@@ -1,0 +1,14 @@
+CorpusInterface/__init__.py,sha256=4yh2dEBKpIdboh0b6JdmXvKwZgdOunGxERXF_xRGY7Q,36
+CorpusInterface/config.py,sha256=WLnDjyIhOH4K0sj2cohnUYRooPjcYlCtd_LT8afdBYk,5169
+CorpusInterface/corpus_.py,sha256=7e4D3R29ioHJY1_8tzm3krJCwVAF8lwafuwEAZ4c1A0,9865
+CorpusInterface/loading.py,sha256=8yDURyvhlmOVK1gdk7rCqFmv2byJsxd9ARaXmlksKig,4622
+CorpusInterface/loading_.py,sha256=xPGzDWF1vD8o_LJ4lyFlvuDG8AtQspRfZS63uUjfp0M,5930
+CorpusInterface/readers_.py,sha256=06-QOh-_Xog7_ZM7b5tF0qHk4AIS0Yek1V2acdl-r9E,6480
+tests/__init__.py,sha256=4yh2dEBKpIdboh0b6JdmXvKwZgdOunGxERXF_xRGY7Q,36
+tests/_test_corpora.py,sha256=9hDW1MkHnfhaU6dEOrqoS8vxX_ywTkcFg6v4IwXQQ4I,2141
+tests/test_config.py,sha256=_Iwl4F5NGdIZgZsitcpGFqjmNW_8l5UH1zHtTAY0IJE,7884
+tests/test_loading.py,sha256=dtDAfFJT2Rl8Jcnf3vJNyokiRt8S6awvHoOJpFJH0sc,3701
+corpusinterface-0.0.1.dist-info/METADATA,sha256=Oq5ngWyUugas4gUOhb9PMSO3Wj7kOepEXteaZ4_bmZQ,1222
+corpusinterface-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+corpusinterface-0.0.1.dist-info/top_level.txt,sha256=oetkrOTclGRNDUZ-XMwRw8atfySTq9-MWSXKKwRhOa8,22
+corpusinterface-0.0.1.dist-info/RECORD,,
