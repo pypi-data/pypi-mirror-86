@@ -1,0 +1,12 @@
+simplelayout/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+simplelayout/__main__.py,sha256=GhmLDPjnvRGNwpU-2X1zeBuQ5HlGx2vIeNPphaWgAEQ,641
+simplelayout/cli/__init__.py,sha256=UMYUpjjSr4kPkX3mkAxrTSQb1_7QjPLTDpzFaTFUOZ0,46
+simplelayout/cli/cli_generate.py,sha256=0MszrshzgwayeDrW4Ps9yEeDAiJ91FY1YrIL_7nL5vw,1397
+simplelayout/generator/__init__.py,sha256=G2icK1_dA420OeiXdpyAcTHFGnrb2Yx7Ctg141PJ0og,100
+simplelayout/generator/core.py,sha256=2833KMGvkHKuH5gsgg5eplH9ofeCt-rwOhTuZcNpkVw,917
+simplelayout/generator/utils.py,sha256=66aR5WDh3okAceSM-eUaLoDW2kst4iwwbb9BhDFvjLk,393
+simplelayout_aoweiie-1.0.0.dist-info/METADATA,sha256=jYTmBymujrkxrP3hd7LS1-UzIQZu5xjT2BDMsVcdZMQ,2347
+simplelayout_aoweiie-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+simplelayout_aoweiie-1.0.0.dist-info/entry_points.txt,sha256=O_HKPZSBcDfZv_LmquDG4CdYB74vabMb-T4NCjP-A-s,61
+simplelayout_aoweiie-1.0.0.dist-info/top_level.txt,sha256=iFIi60UoADwVgRZlfkvG5r_zYD2rGEOll3P-m2Tj0Uw,13
+simplelayout_aoweiie-1.0.0.dist-info/RECORD,,
