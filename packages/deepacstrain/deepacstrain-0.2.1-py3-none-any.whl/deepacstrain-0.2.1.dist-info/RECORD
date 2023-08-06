@@ -1,0 +1,10 @@
+deepacstrain/__init__.py,sha256=zybdxzjC_FDHUyb-JMNJU6Uqhl10OGyqZuohTbB4ERQ,75
+deepacstrain/command_line.py,sha256=N4twGulanvCFtRKKFyhKa7ZU-uHAVLnF9_jSBMQtvl8,1628
+deepacstrain/builtin/config/nn-patric-strain-rapid-sensitive-cnn.ini,sha256=2AOvcezlvwBb3CAm3dddvZwpaLf8l8zCqeOzmgaX418,4590
+deepacstrain/builtin/weights/nn-patric-strain-rapid-sensitive-cnn.h5,sha256=XxiqhhJ8IVtkMAWTyAzpNOt3wapTLIOeRSB_HbKHdKE,32465680
+deepacstrain-0.2.1.dist-info/LICENSE,sha256=l3zjVrh95ij12XWUCRPR1hIO6pNKK3wb3wolKJWHSoc,1078
+deepacstrain-0.2.1.dist-info/METADATA,sha256=kjD1WQa_FMxtF1VHqty3yCG0yTQoV4pNliARpTIm-tk,5334
+deepacstrain-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+deepacstrain-0.2.1.dist-info/entry_points.txt,sha256=ixRBGPkE5z_omZHY0UPN3fUeEEdD_y3sTlc1_FdG0u4,66
+deepacstrain-0.2.1.dist-info/top_level.txt,sha256=FrlKv_7AR_GXoz2pqMExP3M7u6Ixy2ut44rfUi48Ss0,13
+deepacstrain-0.2.1.dist-info/RECORD,,

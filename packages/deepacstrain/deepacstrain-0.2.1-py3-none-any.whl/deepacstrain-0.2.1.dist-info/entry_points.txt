@@ -1,0 +1,3 @@
+[console_scripts]
+deepac-strain = deepacstrain.command_line:main
+
