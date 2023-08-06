@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: tornado-openapi3
+Version: 0.1.0
+Summary: Tornado OpenAPI 3 request and response validation library
+License: MIT
+Author: Correl Roush
+Author-email: correl@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: openapi-core (>=0.13.4,<0.14.0)
+Requires-Dist: tornado (>=4,<7)
+Description-Content-Type: text/x-rst
+
+===================
+ Tornado OpenAPI 3
+===================
+
+Tornado OpenAPI 3 request and response validation library.
+
+Provides integration between the `Tornado`_ web framework and `Openapi-core`_
+library for validating request and response objects against an `OpenAPI 3`_
+specification.
+
+
+.. _Tornado: https://www.tornadoweb.org/
+.. _Openapi-core: https://github.com/p1c2u/openapi-core
+.. _OpenAPI 3: https://swagger.io/specification/
+
