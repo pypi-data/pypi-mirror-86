@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pysumma
+Version: 3.0.3
+Summary: A python wrapper for SUMMA
+Home-page: https://github.com/UW-Hydro/pysumma.git
+Author: YoungDon Choi, Andrew Bennett
+Author-email: choiyd1115@gmail.com, andrbenn@uw.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: xarray (>=0.15.0)
+Requires-Dist: pandas
+Requires-Dist: netcdf4 (>=1.2.5)
+Requires-Dist: numpy (>=1.11.2)
+Requires-Dist: dask
+Requires-Dist: distributed
+Requires-Dist: toolz
+Requires-Dist: pytest
+Requires-Dist: matplotlib
+Requires-Dist: geopandas
+Requires-Dist: hs-restclient
+Provides-Extra: plotting
+Requires-Dist: fiona ; extra == 'plotting'
+Requires-Dist: cartopy ; extra == 'plotting'
+Requires-Dist: shapely ; extra == 'plotting'
+Requires-Dist: seaborn ; extra == 'plotting'
+
+UNKNOWN
+
+
