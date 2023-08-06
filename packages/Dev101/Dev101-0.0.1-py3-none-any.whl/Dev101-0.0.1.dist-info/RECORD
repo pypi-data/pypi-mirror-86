@@ -1,0 +1,11 @@
+diffs/__init__.py,sha256=QWFQyrAFJqe4X9TxFeFsJpARyhLuow8xgRiICwbnlTM,107
+diffs/diffs.py,sha256=qRkDvSycmE-LGS0DWaSq9RFl4raJKC6q6f6I5UIMU-Q,5646
+tests/__init__.py,sha256=_SeFXfXlh8yQIFmF2YJNeuhuk0h32CuS06lB_T43foA,62
+tests/helpers.py,sha256=bSLdcGBXZoyhrHBwuDADOUal2KTdgBXeSITpMhJ5Uu4,183
+tests/test_clean_diffs.py,sha256=2SR_unTNqYUYXd-Z23llu8VEBlbbTB2zo2sP1hGrv0I,8664
+tests/test_diff_info.py,sha256=EJ2vOR0keB3ReI0HDtxEDwlR91MVAcqp_ZVaMblL3bc,3481
+Dev101-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+Dev101-0.0.1.dist-info/METADATA,sha256=JYNt8rahT0q7WxzfjSUmHzWSkyQffTk3U4mxR711K4s,568
+Dev101-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Dev101-0.0.1.dist-info/top_level.txt,sha256=7v6IqK5nNVs3HIUxeae1WGbYsJZWvolkykiSS5jrz78,12
+Dev101-0.0.1.dist-info/RECORD,,
