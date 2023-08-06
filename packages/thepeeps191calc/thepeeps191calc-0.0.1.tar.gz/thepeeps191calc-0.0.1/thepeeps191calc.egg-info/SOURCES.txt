@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Calculator/__init__.py
+thepeeps191calc.egg-info/PKG-INFO
+thepeeps191calc.egg-info/SOURCES.txt
+thepeeps191calc.egg-info/dependency_links.txt
+thepeeps191calc.egg-info/top_level.txt
