@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+bin/cottontail
+cottontail/__init__.py
+cottontail/rabbitmq_management.py
+cottontail/utils.py
+cottontail_offensive.egg-info/PKG-INFO
+cottontail_offensive.egg-info/SOURCES.txt
+cottontail_offensive.egg-info/dependency_links.txt
+cottontail_offensive.egg-info/not-zip-safe
+cottontail_offensive.egg-info/requires.txt
+cottontail_offensive.egg-info/top_level.txt
