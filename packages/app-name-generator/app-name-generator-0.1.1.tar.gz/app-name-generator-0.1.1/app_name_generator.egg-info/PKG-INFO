@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: app-name-generator
+Version: 0.1.1
+Summary: Generate available app names
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # App name generator
+        
+        [![pypi icon](https://pypi.org/static/images/logo-small.6eef541e.svg) View on pypy](https://pypi.org/project/app-name-generator)
+        
+        ## Installation
+        
+        ### For end user
+        ```
+        pip install app-name-generator
+        ```
+        
+        ### For development
+        
+        * Clone the project 
+        ```
+        git clone https://github.com/sylvanld/app-name-generator.git
+        cd app-name-generator
+        ```
+        
+        * Install dev dependencies
+        
+        Using pipenv
+        
+        ```
+        pipenv install --dev
+        ```
+        
+        Using pip
+        
+        ```
+        pip install requirements/development
+        ```
+        
+        ## Example usage
+        
+        Generate 5 randoms domains, available for either .io, .com, or .fr TLD with a max length of 6 characters.
+        ```bash
+        appname generate 5 --max-length 6 --tlds io,com,fr
+        ```
+        
+        Output lists of domains on which names are available.
+        
+        ```python
+        ['stics.io']
+        ['slewer.io', 'slewer.fr']
+        ['nbaci.io', 'nbaci.com', 'nbaci.fr']
+        ['affixe.io', 'affixe.fr']
+        ```
+        
+        ## Documentation
+        
+        ```
+        appname generate -h
+        ```
+        
+        ```
+        usage: appname generate [-h] [--min-length MIN_LENGTH] [--max-length MAX_LENGTH] [--tlds TLDS] [--exclusive] number
+        
+        positional arguments:
+          number                number names to generate
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          --min-length MIN_LENGTH
+                                minimum length of names to generates
+          --max-length MAX_LENGTH
+                                maximum length of names to generates
+          --tlds TLDS           comma separated list of TLDs without spaces (e.g: com,fr)
+          --exclusive           Decide wether domain should be available for all TLDs
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
