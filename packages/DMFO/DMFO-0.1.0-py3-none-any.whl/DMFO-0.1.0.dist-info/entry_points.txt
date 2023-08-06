@@ -1,0 +1,3 @@
+[console_scripts]
+dmfo = dmfo.__main__:main
+
