@@ -1,0 +1,11 @@
+faqap/__init__.py,sha256=RTkfpmMte8hKixJi54-ZcwfkW6BwP26kj8yXqoIWvKI,160
+faqap/fw.py,sha256=YmrHQtEFCUOyExtCkHNJ4nQ_AzHjISo5_qDaA_4pYsI,5229
+faqap/misc.py,sha256=n3DjlPUAvpF1J8oOsaeWlcRW_Yduo355Pn4YvT-7jRg,511
+faqap/permutation.py,sha256=fVh3u6dzRtCQmaqBJmCHP51nqgeVHoJmsQG_XAjD2Eg,717
+faqap/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faqap/test/permutation.py,sha256=Vtp91m_aeg4zu9g-CmXSlHidKvg9Y9gsod7TFteavRk,422
+faqap/test/test.py,sha256=WDqbPHDOcfQ4oUpwfo25HszZiGQ9lsGk-z8ijpGvFsg,3069
+faqap-0.2.0.dist-info/METADATA,sha256=wJO_kysZqHq3x1aPUsmDZHtLz3W4o-FpOruiWPdCQlw,2250
+faqap-0.2.0.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+faqap-0.2.0.dist-info/top_level.txt,sha256=L2uSleWvKdrQk4zJ0F76_E8t2XFAIPhvmaf9EarSX7U,6
+faqap-0.2.0.dist-info/RECORD,,
