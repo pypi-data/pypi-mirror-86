@@ -1,0 +1,3 @@
+[console_scripts]
+arrive-the-spaceship = src.__main__:start
+
