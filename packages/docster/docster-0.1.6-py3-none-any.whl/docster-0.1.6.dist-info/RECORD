@@ -1,0 +1,11 @@
+docster/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docster/helpers.py,sha256=wSgFfwENVj0g7AseJ0oAm3TXDWnufhNPl77lE0LKN5k,1800
+docster/main.py,sha256=_EFbnlpHyHSaib3xmlf9kdauaK8xnjSwes6xOh8Jlf0,3114
+docster/models.py,sha256=bWZ6fDdn8pD1XSAyF4U16VDr5bBFnFkHDApitaYcXLA,4811
+docster/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docster/visitor.py,sha256=ZbNY3QSHUXDod6OFdzbACqS5f1gl55SqTwP5FGHLsZg,4169
+docster-0.1.6.dist-info/entry_points.txt,sha256=l_HkvssgK-RMW-XcMj5_wKm4VPLcnCwU9th-cMl5zsw,44
+docster-0.1.6.dist-info/LICENSE,sha256=-KOb5cPCCD4Dh1BEdn71CGpqyx8I7Ta-231gFEP5fKE,1068
+docster-0.1.6.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+docster-0.1.6.dist-info/METADATA,sha256=HYh4VUtd1kJ4STbupLoLrGcpj13GuVf5dixvUjYmg_g,1388
+docster-0.1.6.dist-info/RECORD,,
