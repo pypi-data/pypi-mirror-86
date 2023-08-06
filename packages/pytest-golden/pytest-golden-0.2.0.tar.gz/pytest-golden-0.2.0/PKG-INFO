@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pytest-golden
+Version: 0.2.0
+Summary: Plugin for pytest that offloads expected outputs to data files
+Home-page: https://github.com/oprypin/pytest-golden
+License: MIT
+Keywords: pytest,pytest-plugin
+Author: Oleh Prypin
+Author-email: oleh@pryp.in
+Requires-Python: >=3.6,<4.0
+Classifier: Framework :: Pytest
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: atomicwrites (>=1.4.0,<2.0.0)
+Requires-Dist: dataclasses (>=0.7,<0.8); python_version < "3.7"
+Requires-Dist: pytest (>=6.1.2,<7.0.0)
+Requires-Dist: ruamel.yaml (>=0.16.12,<0.17.0)
+Requires-Dist: testfixtures (>=6.15.0,<7.0.0)
+Project-URL: Repository, https://github.com/oprypin/pytest-golden
