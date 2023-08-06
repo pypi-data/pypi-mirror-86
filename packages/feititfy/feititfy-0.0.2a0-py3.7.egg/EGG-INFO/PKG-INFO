@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: feititfy
+Version: 0.0.2a0
+Summary: Notify you using feishu custom bot by webhook
+Home-page: https://github.com/cjsoft/feitify
+Author: cjsoft
+Author-email: egwcyh@gmail.com
+License: UNKNOWN
+Description: Notify you using feishu custom bot by webhook
+            Plese refer to project homepage to get usage introduction.
+Platform: UNKNOWN
+Requires-Python: >=3.5
