@@ -1,0 +1,3 @@
+[console_scripts]
+arrive-the-spaceship = arrive_the_spaceship.__main__:start
+
