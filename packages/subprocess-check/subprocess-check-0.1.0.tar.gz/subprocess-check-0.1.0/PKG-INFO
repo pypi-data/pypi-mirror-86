@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: subprocess-check
+Version: 0.1.0
+Summary: subprocess wrapper that shows sub-process stdout/stderr in error text.
+Home-page: https://github.com/chrahunt/subprocess-check
+Author: Chris Hunt
+Author-email: chrahunt@gmail.com
