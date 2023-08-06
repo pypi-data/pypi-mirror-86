@@ -1,0 +1,14 @@
+janet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+janet/__main__.py,sha256=SPua1ktvYYQcXVhzy7ixGmwR4-7nZWlTm5oUC44KrMk,1794
+janet/main.py,sha256=k76249g2sLvORuhe8S9z0VTFhAv4GRsleI4DUT0wu1U,1546
+janet/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+janet/api/autocompleter.py,sha256=3_49pZEDbli9pIE8H_MpwKEZ7kQOc7fsoKAxWZDLei8,564
+janet/api/check_for_imports.py,sha256=zZSl0FUgv_-c0QU7L1ucn8k9j6058cEkg0IBVyJFDlk,3847
+janet/api/cli_utils.py,sha256=PHrkv8OMD5ramGX3LYoRNvDYj7MgB9n9wwZFhUiQ7sY,2178
+janet/api/janet_record.py,sha256=ysCcOUyLIu-m0Bc_ebvHx6sC75EJ9MZIcannXw4G8UE,3061
+janet/api/run.py,sha256=cAXj2VypnM-tnhJQAFj_N310RTbzJeUcjHP-eHw7dSU,882
+janet-0.1.7.dist-info/LICENSE,sha256=L8vFn9ZHT3RRpTtzuzhkgDTutx_NNhMzCw_9YpbZR4Q,35129
+janet-0.1.7.dist-info/METADATA,sha256=_cDOnn8QMRGMnaQnRwolVBapiAWRj4A4_HC1cz_cFHU,3529
+janet-0.1.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+janet-0.1.7.dist-info/top_level.txt,sha256=Ux5zWeRoPO3Tu87toTRoiwMkIQNQylV9aRO2g7KqNW4,6
+janet-0.1.7.dist-info/RECORD,,
