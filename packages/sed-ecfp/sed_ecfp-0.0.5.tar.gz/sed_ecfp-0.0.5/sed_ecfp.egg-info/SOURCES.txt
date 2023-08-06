@@ -1,0 +1,16 @@
+README.md
+setup.py
+sed/P08908_ECFP12_1024_Top300.csv
+sed/__init__.py
+sed/demo_new.py
+sed/dpc_screening.py
+sed/gen_ecfp.py
+sed/rf_test.py
+sed/sed_common.py
+sed/slep.py
+sed/utils.py
+sed_ecfp.egg-info/PKG-INFO
+sed_ecfp.egg-info/SOURCES.txt
+sed_ecfp.egg-info/dependency_links.txt
+sed_ecfp.egg-info/requires.txt
+sed_ecfp.egg-info/top_level.txt
