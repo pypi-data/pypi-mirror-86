@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nauti
+Version: 0.1.0
+Summary: Network Automation Tools Integrator
+Home-page: UNKNOWN
+Author: Jeremy Schulman
+License: UNKNOWN
+Description: **WORK IN PROGRESS**
+        
+        # Network Automation Tools Integrator
+        
+        This package conains the core `nauti` libraries.  Future repositories will be become
+        available to support various systems and tools that are used for network automation workflows.
+        
+        Stay tuned for more.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Description-Content-Type: text/markdown
