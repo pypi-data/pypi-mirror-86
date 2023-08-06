@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: blesonwin
+Version: 0.0.12
+Summary: Windows 10 WinRT Extension for BluetoothLE
+Home-page: https://github.com/TheCellule/blesonwin
+Author: TheCellule
+Author-email: thecellule@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.5
+
+UNKNOWN
+
+
