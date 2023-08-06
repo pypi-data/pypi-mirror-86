@@ -1,0 +1,16 @@
+README.md
+setup.py
+CorpusInterface/__init__.py
+CorpusInterface/config.py
+CorpusInterface/corpus_.py
+CorpusInterface/loading.py
+CorpusInterface/loading_.py
+CorpusInterface/readers_.py
+corpusinterface.egg-info/PKG-INFO
+corpusinterface.egg-info/SOURCES.txt
+corpusinterface.egg-info/dependency_links.txt
+corpusinterface.egg-info/top_level.txt
+tests/__init__.py
+tests/_test_corpora.py
+tests/test_config.py
+tests/test_loading.py
