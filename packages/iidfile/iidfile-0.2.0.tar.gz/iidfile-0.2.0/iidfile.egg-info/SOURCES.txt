@@ -1,0 +1,12 @@
+README.md
+setup.py
+iidfile/__init__.py
+iidfile/iidfile.py
+iidfile.egg-info/PKG-INFO
+iidfile.egg-info/SOURCES.txt
+iidfile.egg-info/dependency_links.txt
+iidfile.egg-info/top_level.txt
+tests/__init__.py
+tests/default.py
+tests/graphs.py
+tests/sketch.py
