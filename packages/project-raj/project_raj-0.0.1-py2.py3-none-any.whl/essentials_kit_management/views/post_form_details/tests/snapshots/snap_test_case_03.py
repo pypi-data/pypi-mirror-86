@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+# snapshottest: v1 - https://goo.gl/zC4yUc
+from __future__ import unicode_literals
+
+from snapshottest import Snapshot
+
+
+snapshots = Snapshot()
+
+snapshots['TestCase03PostFormDetailsAPITestCase::test_case status'] = 404
+
+snapshots['TestCase03PostFormDetailsAPITestCase::test_case body'] = {
+    'http_status_code': 404,
+    'res_status': 'INVALID_BRAND_EXCEPTION',
+    'response': 'Please send valid brand id'
+}
+
+snapshots['TestCase03PostFormDetailsAPITestCase::test_case header_params'] = {
+    'content-language': [
+        'Content-Language',
+        'en'
+    ],
+    'content-length': [
+        '108',
+        'Content-Length'
+    ],
+    'content-type': [
+        'Content-Type',
+        'text/html; charset=utf-8'
+    ],
+    'vary': [
+        'Accept-Language, Origin, Cookie',
+        'Vary'
+    ],
+    'x-frame-options': [
+        'SAMEORIGIN',
+        'X-Frame-Options'
+    ]
+}
+
+snapshots['TestCase03PostFormDetailsAPITestCase::test_case http_status_code'] = 404
+
+snapshots['TestCase03PostFormDetailsAPITestCase::test_case res_status'] = 'INVALID_BRAND_EXCEPTION'
+
+snapshots['TestCase03PostFormDetailsAPITestCase::test_case response'] = 'Please send valid brand id'
