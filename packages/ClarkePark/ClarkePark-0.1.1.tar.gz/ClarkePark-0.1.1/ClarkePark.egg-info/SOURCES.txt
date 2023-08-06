@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ClarkePark/ClarkePark.py
+ClarkePark/__init__.py
+ClarkePark.egg-info/PKG-INFO
+ClarkePark.egg-info/SOURCES.txt
+ClarkePark.egg-info/dependency_links.txt
+ClarkePark.egg-info/requires.txt
+ClarkePark.egg-info/top_level.txt
