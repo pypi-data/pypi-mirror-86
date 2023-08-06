@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: glap
+Version: 0.1.0
+Summary: A GitLab Artifact Puller / Downloader
+Home-page: UNKNOWN
+Author: Alexander Lindermayr
+Author-email: alexander.lindermayr97@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: toml
+Requires-Dist: python-gitlab
+Requires-Dist: requests
+Requires-Dist: yaspin
+Requires-Dist: importlib ; python_version == "2.6"
+
+UNKNOWN
+
+
