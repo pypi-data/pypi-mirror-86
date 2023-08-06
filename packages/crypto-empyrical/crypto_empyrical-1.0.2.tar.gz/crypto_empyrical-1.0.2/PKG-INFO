@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: crypto_empyrical
+Version: 1.0.2
+Summary: crypto_empyrical is a fork of Quantopian's Empyrical package modified to work for 24/7 markets of cryptocurrency
+Home-page: https://github.com/jesse-ai/crypto-empyrical
+Maintainer: Jesse.Trade
+Maintainer-email: info@jesse.trade
+License: Apache License, Version 2.0
+Description: A fork of Quantopian's Empyrical package modified to work for 24/7 markets of cryptocurrency.
+        
+        Website: https://jesse.trade
+        Docs: https://docs.jesse.trade
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Operating System :: OS Independent
+Provides-Extra: dev
