@@ -1,0 +1,10 @@
+LICENSE
+README.md
+drcontrol.py
+setup.cfg
+setup.py
+drcontrol.egg-info/PKG-INFO
+drcontrol.egg-info/SOURCES.txt
+drcontrol.egg-info/dependency_links.txt
+drcontrol.egg-info/requires.txt
+drcontrol.egg-info/top_level.txt
