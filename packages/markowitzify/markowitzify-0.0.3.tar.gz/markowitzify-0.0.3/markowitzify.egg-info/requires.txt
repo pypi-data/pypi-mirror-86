@@ -1,0 +1,6 @@
+requests
+pandas
+numpy
+sklearn
+pandas_datareader
+scipy
