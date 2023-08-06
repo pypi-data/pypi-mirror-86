@@ -1,0 +1,15 @@
+region_estimators/__init__.py,sha256=2aqzTaeTwoVu_w4pyUnMM78Vnk0GnLUeON7kyTi3F2k,92
+region_estimators/diffusion_estimator.py,sha256=1PuZtKaSsFXB1TUG0DsAMyA8BvtoAbeF65N71RvuIV8,6051
+region_estimators/distance_simple_estimator.py,sha256=oGeLw0WrDGtgsTn3hhHMLFGHycuEJcPAeiDEb00CZvI,3262
+region_estimators/region_estimator.py,sha256=Xi3L5-x4zqAi4_gWsAmljBLmwrTJY3ObMKeM4iRS2iE,14109
+region_estimators/region_estimator_factory.py,sha256=vUvhD8fjNSEbCW9Yo2dJCmEijEGuta69BOX_8mG9AyM,1091
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_region_estimator.py,sha256=wDcltDYlugf-kncZrbq_tFLojQE5E-pQo_RqY7E4o10,3438
+test/test_region_estimator_factory.py,sha256=0EeqMFUfftL1oeeoz0OmEu_OBsu6HAkd4T01OlBr5qk,625
+test/test_regions_diffusion_edge_cases.py,sha256=sslpBpC6hgXjR49p8g7uCMwHe7KJ4GLjGRO1Ji34njU,6676
+test/test_regions_distance_edge_cases.py,sha256=wnUgvFlG1O2SDctmDDAQ5f3HTXmX863cL3e5muSSxbU,6272
+region_estimators-0.1.38.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+region_estimators-0.1.38.dist-info/METADATA,sha256=nMPXsVN9yLqic79R-K-2_h5XVzcYMcxYrgyYqDAhH64,5839
+region_estimators-0.1.38.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+region_estimators-0.1.38.dist-info/top_level.txt,sha256=K2yon7hDZfqNzKS7dA-rzty9l8P4XTa7RCL2HnUl_Xo,23
+region_estimators-0.1.38.dist-info/RECORD,,
