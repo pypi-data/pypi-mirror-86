@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: sca2d
+Version: 0.0.5
+Summary: An experimental static code analyser for OpenSCAD.
+Home-page: https://gitlab.com/bath_open_instrumentation_group/sca2d
+Author: Julian Stirling
+Author-email: julian@julianstirling.co.uk
+License: GPLv3
+Project-URL: Bug Tracker, https://gitlab.com/bath_open_instrumentation_group/sca2d/issues
+Project-URL: Source Code, https://gitlab.com/bath_open_instrumentation_group/sca2d
+Keywords: OpenSCAD,Linting
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+Requires-Dist: lark-parser
+
+# SCA2D - Static Code Analysis for SCAD
+
+![](identity/SCA2D.png)
+
+This is an experimental linter for OpenSCAD. The focus is to properly lex the `.scad` files so that we can test for dangerous code like redefining variable from other scopes. SCA2D is in a very early stage of development.
+
+## How to install
+
+If you have Python 3.6 or later installed on your machine (and on the PATH) you can install SCA2D from PyPi by running the following command from a terminal
+
+    pip install sca2d
+
+to upgrade your current versions of SCA2D run:
+
+    pip install sca2d --upgrade
+
+You can check that SCA2D is installed by running the following:
+
+    sca2d -h
+
+you should see a help screen.
+
+### Install issues
+
+If you have problems with installation possible problems include:
+
+* You may need to run `pip3` instead of `pip`
+* Python may not be on the PATH, this often happens in Windows depending on how python was installed
+* Python and PIP are on the path but SCA2D isn't. This normally happens if Python is installed through the Windows store. It is best to install Python from [python.org](https://www.python.org/downloads/)
+
+## How to run
+
+To analyse a `.scad` file run:
+
+    sca2d filename.scad
+This will print the any code messages to the screen.
+
+If you wish to inspect the parse tree that SCA2D generates and then uses you can instead run:
+
+    sca2d --output-tree filename.scad
+the tree will be printed into a file called `output.sca2d`.
+
+## What works
+
+* Parsing most `.scad` files. We don't yet to extensive testing. Please raise an issue if you find a parsing error in SCA2D.
+* Parsing included and used `.scad` files and checking variable, function, and module usage in different scopes.
+* Checking for a minimal number of code errors
+
+## What needs work
+
+* List comprehensions are parsed and lexed but not analysed yet!
+* Need to decide a useful set of conventions and rules to check for.
+* The messaging system is not customisable yet.
+* Need to build up a decent set of tests examples, to test that the analysis is working correctly.
+* Complexity criteria are simplistic and need improving.
+
+## How to get involved
+
+The best way to get involved is to find bugs and then [open an issue](https://gitlab.com/bath_open_instrumentation_group/sca2d/-/issues). You could also make changes and open a merge request.
+
+
