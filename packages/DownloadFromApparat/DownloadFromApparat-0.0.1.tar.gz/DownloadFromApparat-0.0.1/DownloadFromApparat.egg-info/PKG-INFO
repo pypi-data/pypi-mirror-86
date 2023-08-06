@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: DownloadFromApparat
+Version: 0.0.1
+Summary: Download videos from https://www.aparat.com
+Home-page: UNKNOWN
+Author: Abbas Niroomandi
+Author-email: 46645.niroo@gmail.com
+License: UNKNOWN
+Description: ## Downloading Videoes From Apparat Web_Site
+        
+        
+        '''
+        from DownloadFromApparat import Main
+        
+        vid = Main(url , quality)
+        
+        vid.download()
+        
+        '''
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
