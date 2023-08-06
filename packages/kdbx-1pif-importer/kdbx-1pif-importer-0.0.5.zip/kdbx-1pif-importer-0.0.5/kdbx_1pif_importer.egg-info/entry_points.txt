@@ -1,0 +1,3 @@
+[console_scripts]
+kdbx-1pif-importer = kdbx_1pif_importer:main
+
