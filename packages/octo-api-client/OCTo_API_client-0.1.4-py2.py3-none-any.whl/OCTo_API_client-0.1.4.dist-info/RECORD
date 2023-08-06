@@ -1,0 +1,9 @@
+octo_client/__init__.py,sha256=IwYkMC67VQVt8QZmENZd4LtsjXvpl_hB475yZox_nAg,111
+octo_client/client.py,sha256=MWZMqDlRamLMSb3uI9t3G3cG58G-JzeVx2-p4mrPsBQ,11874
+octo_client/dacite_patch.py,sha256=Bvbi-97j1agb4x3wCSveeBn6I8ewv2cQC4S8_ijsX60,834
+octo_client/exceptions.py,sha256=g8FOAAX8_ZUaSj052z2PmGlvo2WEinPj6rIgJMeHrSc,426
+octo_client/models.py,sha256=FPjhX-4Oo3H9c6UD-neqQZwI9mIVPLLUvDPCJuBJQkQ,7632
+OCTo_API_client-0.1.4.dist-info/METADATA,sha256=51NHbf03_2xFddeev4SfSpyliAhxzDypPjlYGdJAHvY,1730
+OCTo_API_client-0.1.4.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+OCTo_API_client-0.1.4.dist-info/top_level.txt,sha256=yXKmlVffgy3BRjtlwXj46armh3Szalv0YnrAfEOtTHs,12
+OCTo_API_client-0.1.4.dist-info/RECORD,,
