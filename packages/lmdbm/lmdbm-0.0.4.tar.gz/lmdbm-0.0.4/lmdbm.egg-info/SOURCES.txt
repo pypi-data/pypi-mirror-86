@@ -1,0 +1,12 @@
+pyproject.toml
+setup.cfg
+setup.py
+lmdbm/__init__.py
+lmdbm/lmdbm.py
+lmdbm/py.typed
+lmdbm.egg-info/PKG-INFO
+lmdbm.egg-info/SOURCES.txt
+lmdbm.egg-info/dependency_links.txt
+lmdbm.egg-info/requires.txt
+lmdbm.egg-info/top_level.txt
+lmdbm.egg-info/zip-safe
