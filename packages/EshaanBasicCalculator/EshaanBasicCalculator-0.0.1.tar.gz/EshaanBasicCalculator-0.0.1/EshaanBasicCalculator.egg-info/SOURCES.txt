@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+EshaanBasicCalculator/__init__.py
+EshaanBasicCalculator.egg-info/PKG-INFO
+EshaanBasicCalculator.egg-info/SOURCES.txt
+EshaanBasicCalculator.egg-info/dependency_links.txt
+EshaanBasicCalculator.egg-info/top_level.txt

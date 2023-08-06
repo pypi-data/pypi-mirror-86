@@ -1,0 +1,1 @@
+A simple calculator that takes 2 operands and returns the result.
