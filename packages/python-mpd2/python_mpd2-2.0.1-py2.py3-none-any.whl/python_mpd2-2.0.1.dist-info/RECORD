@@ -1,0 +1,11 @@
+mpd/__init__.py,sha256=rjBlPawu6oFo1ag89E1drLCN1ti8TfNTA3F_QQ_ZbhE,1356
+mpd/asyncio.py,sha256=f2_dtB0pe6p2aVEbySrKn71vnPR8E9kpOLLxwT2yl68,13035
+mpd/base.py,sha256=7kNVAgppvvwV_SU5n5ANVaxyEfMCL8sIsAmNxN5Ajgc,28428
+mpd/tests.py,sha256=KGS8BKrP_zYu7kxMiJqeluvU9HhgPltvKyjQ-f7CS-M,47511
+mpd/twisted.py,sha256=8hYXwRDU3nd3didz-kpfubm8Og6jz9F-5-ZHsWccbh0,9177
+python_mpd2-2.0.1.dist-info/LICENSE.txt,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+python_mpd2-2.0.1.dist-info/METADATA,sha256=nt1SYOzxxbS33qJlkpk9Jm9pH8A3Wt5-Dc-NH-_LD1I,4988
+python_mpd2-2.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+python_mpd2-2.0.1.dist-info/top_level.txt,sha256=r8a6KZTk_DqTq1PUzxXRWz2n_K7WKms5JohEjBHn_28,4
+python_mpd2-2.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+python_mpd2-2.0.1.dist-info/RECORD,,
