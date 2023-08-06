@@ -1,0 +1,8 @@
+README.md
+setup.py
+badFormatter/__init__.py
+badFormatter/forms.py
+badFormatter.egg-info/PKG-INFO
+badFormatter.egg-info/SOURCES.txt
+badFormatter.egg-info/dependency_links.txt
+badFormatter.egg-info/top_level.txt
