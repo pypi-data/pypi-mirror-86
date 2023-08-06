@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: django-eveonline-timerboard
+Version: 1.1.0
+Summary: A simple timerboard extension with EVE Online flavor
+Home-page: https://github.com/KryptedGaming/django-eveonline-timerboard
+Author: porowns
+Author-email: porowns@gmail.com
+License: MIT License
+Description: # Django EVE Online Timerboard
+        A simple Django extension that offers timerboard functionality with EVE Online flavor.
+        
+        # Installation
+        1. Add `django_eveonline_timerboard` to your INSTALLED_APPS
+        2. Include the `django_eveonline_timerboard` URLs in your urls.py
+        3. Run `python3 manage.py migrate` to create the django_eveonline_timerboard models
+        
+        # Provided URLs
+        | URL Name | Description |
+        | ------------- | ------------- |
+        |  django-eveonline-timerboard-add-timer   | Add a timer |
+        |  django-eveonline-timerboard-remove-timer (int: timer_pk) | Remove a timer specified by timer_pk |
+        |  django-eveonline-timerboard-view  | View the timerboard |
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown

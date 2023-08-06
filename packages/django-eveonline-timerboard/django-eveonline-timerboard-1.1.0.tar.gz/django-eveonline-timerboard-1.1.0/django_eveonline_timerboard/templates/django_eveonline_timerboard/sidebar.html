@@ -1,0 +1,7 @@
+{% if perms.django_eveonline_timerboard.view_evetimer %}
+<li>
+    <a href="{% url 'django-eveonline-timerboard-view' %}">
+        <i class="fa fa-clock-o"></i> <span>Timerboard</span>
+    </a>
+</li>
+{% endif %}
