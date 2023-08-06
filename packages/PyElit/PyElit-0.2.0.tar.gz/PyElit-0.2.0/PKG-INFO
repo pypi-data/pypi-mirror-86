@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: PyElit
+Version: 0.2.0
+Summary: Extraction of Locations and Issues of a Text
+Home-page: https://github.com/Rickecr/PyElit
+Author: Rich Ramalho
+Author-email: richelton14@gmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/Rickecr/PyElit
+Description: ![](https://i.imgur.com/ccaix2x.png)
+        ![PyPI](https://img.shields.io/pypi/v/PyElit)
+        ![PyPI - License](https://img.shields.io/pypi/l/PyElit)
+        
+        > Extraction of Locations and Issues of a Text
+        
+        ## Why this library exist ?
+        
+        It started with a research at [LSI-UFCG](https://sites.google.com/view/lsi-ufcg) and the activities are with Geoparsing and Topic Modeling. With the activities carried out, it was decided that it would be appropriate to create this library to be made available to the community.
+        
+        ## Objective:
+        
+        - The objective of the library is to create a Geoparsing and an Urban Problem Classifier.
+        - The output from this library will be used in another application in the area of ​​smart cities.
+        - Contribute to the Geoparsing and Topic Modeling community.
+        
+        ## Library documentation:
+        
+        - [Documentation](https://richecr.github.io/PyElit/)
+        - [PyPI](https://pypi.org/project/PyElit/)
+        
+        ## Contributing:
+        
+        Contributions, issues and features are welcome. We have the file `CONTRIBUTING.md` to help contributors.
+        
+        ## Author:
+        
+        - Rich Elton
+          - GitHub: [@rickecr](https://github.com/richecr)
+          - Twitter: [@rickzinho_ecr](https://twitter.com/rickzinho_ecr)
+        
+Keywords: geoparsing topic modeling locations text issues problems urbans
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
