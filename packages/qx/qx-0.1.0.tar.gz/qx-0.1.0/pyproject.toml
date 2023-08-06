@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qx"
+version = "0.1.0"
+description = "A tool and file format for encoding and decoding data with an ASCII key"
+authors = ["Evan Pratten <ewpratten@gmail.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pydoctor = "^20.7.2"
+pytest = "^6.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
