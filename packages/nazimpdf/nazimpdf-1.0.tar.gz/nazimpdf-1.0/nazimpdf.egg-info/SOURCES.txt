@@ -1,0 +1,6 @@
+README.md
+setup.py
+nazimpdf.egg-info/PKG-INFO
+nazimpdf.egg-info/SOURCES.txt
+nazimpdf.egg-info/dependency_links.txt
+nazimpdf.egg-info/top_level.txt
