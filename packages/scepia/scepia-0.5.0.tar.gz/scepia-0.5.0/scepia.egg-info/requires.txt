@@ -1,0 +1,16 @@
+adjustText
+biofluff>=3.0.4
+geosketch
+gimmemotifs>=0.15.2
+leidenalg
+loguru
+matplotlib
+numba
+numpy
+pandas
+scanpy
+scikit-learn
+scipy
+seaborn
+tqdm
+xdg
