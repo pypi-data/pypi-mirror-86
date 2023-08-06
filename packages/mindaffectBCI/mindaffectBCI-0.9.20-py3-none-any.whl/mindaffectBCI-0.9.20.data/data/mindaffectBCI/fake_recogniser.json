@@ -1,0 +1,20 @@
+{
+    "acquisition":"fakedata",
+
+    "acq_args":{
+        "board_id":0,
+        "serial_port":"com4"
+    },
+
+    "decoder":"mindaffectBCI.decoder.decoder",
+    "decoder_args":{
+        "stopband" : [[45,65],[0,3],[25,-1]],
+        "out_fs" : 100,
+        "evtlabs" : ["re","fe"],
+        "tau_ms" : 450,
+        "calplots" : true,
+        "predplots" : false
+    },
+
+    "presentation":false
+}

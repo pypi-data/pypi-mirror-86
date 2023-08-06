@@ -1,0 +1,30 @@
+{
+    "acquisition":"brainflow",
+    "acq_args":{
+        "board_id":1,
+        "serial_port":"com3"
+    },
+
+    "decoder":"decoder",
+    "decoder_args":{
+        "stopband" : [[45,65],[0,1],[12,-1]],
+        "out_fs" : 100,
+        "evtlabs" : ["re","ntre"],
+        "tau_ms" : 750,
+        "calplots" : true,
+        "predplots" : false
+    },
+
+    "presentation":"selectionMatrix",
+    "presentation_args":{
+        "ncal":20,
+        "npred":10,
+        "selectionThreshold":0.1,
+        "symbols":"symbols.txt",
+        "stimfile":"rc5x5.png",
+        "framesperbit":3,
+        "fullscreen":false,
+        "fullscreen_stimulus":true,
+        "host":"-"
+    }
+}
