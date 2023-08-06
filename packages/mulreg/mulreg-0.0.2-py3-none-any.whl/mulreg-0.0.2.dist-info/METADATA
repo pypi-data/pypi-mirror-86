@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: mulreg
+Version: 0.0.2
+Summary: Useful tools to work with multiple regressions in Python
+Home-page: https://github.com/SimonTeg/multiple_regressions
+Author: Simon Teggelaar
+Author-email: simonteggelaar@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/multiple-regressions/
+Keywords: Marketing Mix Modeling,Multiple linear regressions,MMM
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: statsmodels (==0.11.1)
+Requires-Dist: tqdm (==4.48.2)
+Requires-Dist: plotly (==4.5.4)
+
+
+Useful tools to work with multiple linear regressions and Marketing Mix Media in Python
+
+# Description
+
+It consists of the module:
+
+- `MultipleRegressions`: a class that allows you to estimate multitple linear regression models and visualize the results
+
+# Installation
+
+## Normal installation
+
+```bash
+pip install mulreg
+```
+
+## Development installation
+
+```bash
+git clone https://github.com/SimonTeg/multiple_regressions.git
+cd multiple-regressions
+pip install --editable .
+```
+
+# Change log
+
+### Added
+- `HISTORY.md`
+- `long_description` in setup.py that contains content of `README.md` and `HISTORY.md`
+
+### Changed
+- `N/A`
+
+### Removed
+- `N/A`
+
+### Added
+
+### Changed
+
+### Removed
+
