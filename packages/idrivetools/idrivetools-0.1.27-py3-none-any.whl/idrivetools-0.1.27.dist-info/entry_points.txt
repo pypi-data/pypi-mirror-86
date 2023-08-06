@@ -1,0 +1,6 @@
+[console_scripts]
+bmwconvert=idrivetools.process_files:convert_music_folder
+bmwcreatenewbackup=idrivetools.process_files:create_new_backup
+bmwpack=idrivetools.process_files:pack_files
+bmwunpack=idrivetools.process_files:unpack_files
+
