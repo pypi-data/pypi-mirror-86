@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: covidcloud-search
+Version: 0.1.0
+Summary: DNAstack CovidCloud Search Library
+Home-page: UNKNOWN
+Author: Ayman A
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests (==2.22.0)
+
+UNKNOWN
+
+
