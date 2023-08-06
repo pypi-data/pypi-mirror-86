@@ -1,0 +1,11 @@
+iidfile/__init__.py,sha256=oh3haWmzdAK7nwdn9uVl9-S9Brm2HciD-3xA_a0-Vxw,36
+iidfile/iidfile.py,sha256=9qN9gVZbDhgaWhY1Z11_L5vem9p9YtS0DAdVFOdyKqo,33027
+tests/__init__.py,sha256=Of_16VoJtSgS02pHzVM4kL-D_gkip1wKzdMt2S-GiT8,25
+tests/default.py,sha256=diye9TCr73D6FgVrQIOf1pyKIhsvqA-iKM5hzg2FwKI,4014
+tests/graphs.py,sha256=95hYoei1iOLWi35cxkwwFDSFLEwpyG8uyCEsVw3-IS8,593
+tests/sketch.py,sha256=_BfB1PbbB4i5wR82YMDczcBcJZ8ltxul7HzHKiUzOyQ,61
+iidfile-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+iidfile-0.2.0.dist-info/METADATA,sha256=OTKJPwBQx7Zu_dTSa61Zs0akcEBu2iISu0HkBeBScHY,8945
+iidfile-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+iidfile-0.2.0.dist-info/top_level.txt,sha256=6D7oVR1cBZ_Nux51MEEbnm_FkDNv9_FcVSJ6tSR4suY,14
+iidfile-0.2.0.dist-info/RECORD,,
