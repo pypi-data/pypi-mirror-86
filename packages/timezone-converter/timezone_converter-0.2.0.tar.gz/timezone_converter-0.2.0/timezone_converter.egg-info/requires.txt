@@ -1,0 +1,5 @@
+pytz>=2020.1
+rich>=5.0.0
+
+[:python_version < "3.8"]
+importlib-metadata
