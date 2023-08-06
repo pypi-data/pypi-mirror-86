@@ -1,0 +1,14 @@
+
+
+=======
+History
+=======
+
+0.1.0 (2020-11-21)
+------------------
+* Extendable plugin mechanism: register your custom converters at entry point :code:`freephil.converter`
+* :code:`freephil` can now import scope objects from other PHIL implementations
+
+0.0.1 (2020-11-20)
+------------------
+* Technology demonstration

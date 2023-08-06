@@ -1,0 +1,45 @@
+=========
+Free PHIL
+=========
+
+
+.. image:: https://img.shields.io/pypi/v/freephil.svg
+        :target: https://pypi.python.org/pypi/freephil
+        :alt: PyPI release
+
+.. image:: https://img.shields.io/pypi/pyversions/freephil.svg
+        :target: https://pypi.python.org/pypi/freephil
+        :alt: Supported Python versions
+
+.. image:: https://img.shields.io/lgtm/alerts/g/Anthchirp/freephil.svg?logo=lgtm&logoWidth=18
+        :target: https://lgtm.com/projects/g/Anthchirp/freephil/alerts/
+        :alt: Total alerts
+..
+  .. image:: https://readthedocs.org/projects/python-freephil/badge/?version=latest
+          :target: https://python-freephil.readthedocs.io/en/latest/?badge=latest
+          :alt: Documentation Status
+
+.. image:: https://codecov.io/gh/Anthchirp/freephil/branch/main/graph/badge.svg
+        :target: https://codecov.io/gh/Anthchirp/freephil
+        :alt: Test coverage
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+        :target: https://github.com/psf/black
+        :alt: Code style: black
+
+* Free software: BSD license. Some files fall under the BSD-3-Clause-LBNL.
+
+
+Installation
+------------
+
+:code:`pip install freephil`
+
+
+Credits
+-------
+
+This package is based on previous work by
+Ralf W. Grosse-Kunstleve, Nathaniel Echols, Billy Poon, Richard Gildea, Markus Gerstel,
+youdar, Johan Hattne, Derek Mendez, Oleg Sobolev, Graeme Winter, Pavel Afonine,
+Nicholas Devenish, Luc J Bourhis, JJHeadd, which we gratefully acknowledge.
