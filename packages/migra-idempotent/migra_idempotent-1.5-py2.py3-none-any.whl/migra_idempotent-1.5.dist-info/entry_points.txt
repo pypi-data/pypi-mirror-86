@@ -1,0 +1,3 @@
+[console_scripts]
+migra=migra_idempotent:do_command
+
