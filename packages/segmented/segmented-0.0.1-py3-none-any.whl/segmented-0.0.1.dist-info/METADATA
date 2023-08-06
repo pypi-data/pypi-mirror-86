@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: segmented
+Version: 0.0.1
+Summary: segmented: A toolbox for segmented regression.
+Home-page: http://github.com/cluhmann/segmented
+Maintainer: Christian Luhmann <cluhmann@gmail.com>
+Maintainer-email: cluhmann@gmail.com
+License: MIT
+Download-URL: https://github.com/cluhmann/segmented/archive/0.0.1.tar.gz
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.13.0)
+Requires-Dist: scipy (>=0.18.1)
+Requires-Dist: pandas (>=0.18.0)
+Requires-Dist: patsy (>=0.5.1)
+
+# Segmented
+
+segmented is a Python toolbox for segmented regression.
+
+## Installation
+
+segmented is written for Python 3.7+.  To install...
+
+## Features
+- 0.0.1
+    - single change point
+    - identity link functions
+    - single predictor
+- 0.0.2
+    - single, parametric change point
+    - identity link functions
+    - single predictor
+- >= 0.0.3
+    - user-specified number of segments (>2)
+    - link functions
+    - etc.
+
+
+## How to Use segmented
+
+```py
+import segmented as sgmt
+import pandas as pd
+
+data = pd.read_csv('mydata.csv')
+
+###############################################################################
+# 2 segment model (1 change point)
+
+# specify 2 model specifications: pre- and post-changepoint
+model = sgmt.segment(models=['y~x', 'y~x'], data=data)
+
+# specify a single model specification that will be used for each segment
+model = sgmt.segment(models=['y~x'], num_segments=2, data=data)
+
+# might need to provide some initial guesses at to-be-estimated parameters
+model = sgmt.segment(models=['y~1', 'y~x'], x0=.5, data=data)
+
+# might provide GLM capabilities
+model = sgmt.segment(models=['y~x'], family=['binomial'], num_segments=2, data=data)
+model = sgmt.segment(models=['y~x'], family=['binomial'], num_segments=2, data=data)
+
+# estimate parameters
+model.fit()
+# check out estimates
+print(model.summary())
+
+```
+
+OR
+
+```
+###############################################################################
+# 2 segments, each segments has an intercept and slope associated with x
+
+# the changepoint is a single value of x
+model = sgmt.segment(models='y~x', changepoint='~1', num_segments=2, data=data)
+# is equivalent to:
+model = sgmt.segment(models='y~x', num_segments=2, data=data)
+
+# 2 segments, each segments has an intercept and slope associated with x
+# changepoint is parametric, with it's own intercept and slope associated with z
+model = sgmt.segment(models='y~x', changepoint='~z', num_segments=2, data=data)
+
+model = sgmt.segment(models=['y~x','y~x','y~x'], changepoint=['~z','~w'], data=data)
+```
+
+# References
+- TBD
+
+

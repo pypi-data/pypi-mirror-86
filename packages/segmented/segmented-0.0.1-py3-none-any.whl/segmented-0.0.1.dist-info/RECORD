@@ -1,0 +1,10 @@
+segmented/__init__.py,sha256=AACN5_Ig9Xv9Xk9s0h-8RaUQWojsrLs9zv3mJcYtvqc,106
+segmented/muggeo.py,sha256=Ewpj779e_8MGG2ICNiXMOu8_s_dUBjeZG_v6dFYjvCA,1583
+segmented/segmented.py,sha256=r5a2zLf5Wb_w5q4cTGv2sMgn_69LJuELQhaRsLPfkzY,6933
+segmented/simple.py,sha256=THsrM_9d5krxX2lsR5oAMaXwyp6DJ1UrI3f66M-S8sI,3249
+segmented/version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+segmented-0.0.1.dist-info/LICENSE.txt,sha256=goisqqBFntuRYCgFRVtyh-qEwq-KjtNU8b118HjXPYw,1078
+segmented-0.0.1.dist-info/METADATA,sha256=WND5uJpAAAVLnOCN_yLMGbv2cozZipcO1ZwWyi7w8ME,2568
+segmented-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+segmented-0.0.1.dist-info/top_level.txt,sha256=hwE0DQylikQoSsNxuCT6hTGiSmfdIpU0Odk9uxk8A5s,10
+segmented-0.0.1.dist-info/RECORD,,
