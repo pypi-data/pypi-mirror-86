@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: setuptools-zig
+Version: 0.0.0
+Summary: A setuptools extension for building cpython extensions written in zig.
+Home-page: https://sourceforge.net/p/setuptools-zig/code/ci/default/tree
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: Copyright Ruamel bvba 2020
+Description: 
+        A setuptools extension for building cpython extensions written in zig.
+        
+Keywords: setuptools zig
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst

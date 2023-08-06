@@ -1,0 +1,9 @@
+README.rst
+setup.py
+./__init__.py
+./setuptools-zig.py
+setuptools_zig.egg-info/PKG-INFO
+setuptools_zig.egg-info/SOURCES.txt
+setuptools_zig.egg-info/dependency_links.txt
+setuptools_zig.egg-info/namespace_packages.txt
+setuptools_zig.egg-info/top_level.txt
