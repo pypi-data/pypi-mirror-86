@@ -1,0 +1,17 @@
+Results of doctest builder run on 2020-10-27 12:54:50
+=====================================================
+
+Document: shellcraft/mips
+-------------------------
+1 items passed all tests:
+  41 tests in default
+41 tests in 1 items.
+41 passed and 0 failed.
+Test passed.
+
+Doctest summary
+===============
+   41 tests
+    0 failures in tests
+    0 failures in setup code
+    0 failures in cleanup code
