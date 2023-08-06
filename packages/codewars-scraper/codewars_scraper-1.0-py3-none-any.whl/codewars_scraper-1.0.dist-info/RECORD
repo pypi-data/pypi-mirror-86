@@ -1,0 +1,10 @@
+codewars_scraper/__init__.py,sha256=ig4L-XEROnahGAmkbXuAwp9xYCg2CpgK_-WE3tSpHmw,272
+codewars_scraper/__main__.py,sha256=ggHhi_R1XVkeOTsDC89xsT-wbR7P_MPm9FPPBvTn7YA,1626
+codewars_scraper/file_extensions.py,sha256=RC8TlQxmrpVGL2mIo4-GifDb21YmbcavByryaAkJuPg,354
+codewars_scraper/scraper.py,sha256=ZLXinvwBftSrbv2KCMbf3d1PfowWavIvnCO3V_vxsEI,4990
+codewars_scraper/speedups.py,sha256=0ge0yvyuHBH8-GjnBT1duOVan0ehHxZM11zy4L7rGHs,86
+codewars_scraper-1.0.dist-info/entry_points.txt,sha256=CLwV6U_DOpans-b621TgUr3yV-FywvGh5Mg37e2zlKo,67
+codewars_scraper-1.0.dist-info/LICENSE,sha256=oU4d1P5BknnbbfdKGssmKB7_zUoNxhrca8xbHRT60no,1076
+codewars_scraper-1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+codewars_scraper-1.0.dist-info/METADATA,sha256=DvsiVZpP6M2rtwMwcQJaIITIs0B9KoV7iylYkFNXtZA,636
+codewars_scraper-1.0.dist-info/RECORD,,
