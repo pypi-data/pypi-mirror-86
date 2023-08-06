@@ -1,0 +1,3 @@
+[console_scripts]
+faker.py = pyrwrapper.cmdl:run_cls
+
