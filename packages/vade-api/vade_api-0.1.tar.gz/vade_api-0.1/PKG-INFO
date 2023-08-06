@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vade_api
+Version: 0.1
+Summary: An easy to use wrapper for vade realtime api
+Home-page: UNKNOWN
+Author: Christain Burke
+Author-email: christian@vadepark.com
+License: UNKNOWN
+Description: refer to the README.txt file instead
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
