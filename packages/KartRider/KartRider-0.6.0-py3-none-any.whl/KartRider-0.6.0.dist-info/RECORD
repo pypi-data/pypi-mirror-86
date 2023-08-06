@@ -1,0 +1,12 @@
+KartRider/__init__.py,sha256=WVnFW2BDHy9sqHZl6qNTgQ7yKyKNPTSkVSLGZpz66nc,550
+KartRider/apiwrapper.py,sha256=4FQUVw0Cd3u0T2tz6LmE2s3gWlMfME_aqhlhZsgZg_Q,7499
+KartRider/basedata.py,sha256=Too7Eo9Q5T1rJb9p5BLv4yLWM1hRDOROjvvC0J5rqZY,1644
+KartRider/match.py,sha256=O79xD6_IMohnyWVam-s8mSZr2AKsuk-jdJSk9raYioI,11313
+KartRider/metadata.py,sha256=4qyCS-jjS0uZ1oPnbgqt8bfFoVrxTAzHHU3k-1xLBZE,7498
+KartRider/user.py,sha256=4qk3eZBeu2ppTMz1e-nG4NohhgXwhDK-H7gHScZDQbA,3536
+KartRider/utils.py,sha256=k0sqzVG92xOb6Mm9qEcm91wCSAKTIs-uXAr1tULBtb4,1111
+KartRider-0.6.0.dist-info/LICENSE,sha256=aKfqb58PFOCXXpilihxGqUCRRRiX9qYHV9FVA4J3bQs,1064
+KartRider-0.6.0.dist-info/METADATA,sha256=gid6wxFuw1XlX7jF5qukPfO3V9RrumL5VZkxhf7b2ZY,1375
+KartRider-0.6.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+KartRider-0.6.0.dist-info/top_level.txt,sha256=8wgStqtCUcWbtiC79Lojhzga0DV5JK0BMcpUfGdXxVw,10
+KartRider-0.6.0.dist-info/RECORD,,
