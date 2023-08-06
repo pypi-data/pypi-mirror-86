@@ -1,0 +1,3 @@
+[console_scripts]
+pycells = pycells.cli:cli
+
