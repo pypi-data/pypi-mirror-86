@@ -1,0 +1,83 @@
+# Blip Flow Analysis
+Blip Flow Analysis provides a solution for chatbot constructors to identify problems in flow structure 
+that can be originated from bad structuring or poor organization.
+
+# Installation
+Use [pip](https://pip.pypa.io/en/stable/) to install:
+
+```shell script
+pip install blip_flowanalysis
+```
+
+# Usage
+
+## Missing Trackings analysis
+
+Using the `MissingTrackigns` analyser:
+
+```python
+import blip_flowanalysis as bfa
+
+# replace __chatbot_as_json__ parameter by your json bot
+bot_flow = bfa.Flow(__chatbot_as_json__)
+analyser = bfa.MissingTrackings(minimum=1)
+
+# return `True` if amount of Trackings is above minimum, `False` otherwise
+print(analyser.analyse(bot_flow)) 
+```
+
+## Process HTTP Return Validation analysis
+
+Two types of validation are performed for each HTTP request in the chatbot flow:
+ - **Next action validation:** check if request is validated by the action immediately after it.
+ - **Outputs validation:** check if the request is validated by the outputs of the request's state.
+
+The HTTP request validation process has three possible outcomes:
+ - **status validation:** validation found using the request's status variable (best practice);
+ - **body validation:** validation found using the request's body variable (warning);
+ - **no validation:** validation wasn't found using either status or body variable (warning).
+
+Using the `ProcessHTTPReturnValidation` analyser:
+
+```python
+import blip_flowanalysis as bfa
+
+# replace __chatbot_as_json__ parameter by your json bot
+bot_flow = bfa.Flow(__chatbot_as_json__)
+http_analyser = bfa.ProcessHTTPReturnValidation()
+
+# return validation report with "summary" and "warnings"
+validation_report = http_analyser.analyse(bot_flow)
+
+print(validation_report)
+```
+
+The structure of the validation report is presented bellow.
+
+```
+{
+    "summary":
+    {
+        "total": number of HTTP requests found,
+        "status validation": number of requests with validation of status variable,
+        "body validation": number of requests with validation of body variable,
+        "no validation": number of requests without validation of either status or body variable
+    },
+    "warnings":
+    [
+        {
+            "state id": state id in which the request action is located,
+            "action type": either "inputActions" or "outputActions",
+            "status variable": status variable name,
+            "body variable": body variable name,
+            "validation": either "body validation" or "no validation"
+        }
+    ]
+}
+```
+
+# Author
+[Take Data&Analytics Research](anaytics.dar@take.net)
+
+# License
+[MIT License](LICENSE)
