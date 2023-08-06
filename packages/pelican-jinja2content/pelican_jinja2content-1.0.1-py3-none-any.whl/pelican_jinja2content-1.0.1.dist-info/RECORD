@@ -1,0 +1,5 @@
+pelican/plugins/jinja2content/__init__.py,sha256=okXCHLyoIkrBXXmbpZPlu24iwcYad8OW8po1dIQMI_s,37
+pelican/plugins/jinja2content/jinja2content.py,sha256=duaJ4Nw0ismpqNH5e30M_s3IsOQdDsozfPfmAkr8xQo,2509
+pelican_jinja2content-1.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pelican_jinja2content-1.0.1.dist-info/METADATA,sha256=MX_zEvFOIE3H38r8n59gCagOfRnpyBVBVCzxFu2U3Eo,6342
+pelican_jinja2content-1.0.1.dist-info/RECORD,,
