@@ -1,0 +1,13 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+synthizer/synthizer.cpp
+synthizer/synthizer.pxd
+synthizer/synthizer.pyx
+synthizer/synthizer_constants.pxd
+synthizer/synthizer_properties.pxd
+synthizer.egg-info/PKG-INFO
+synthizer.egg-info/SOURCES.txt
+synthizer.egg-info/dependency_links.txt
+synthizer.egg-info/not-zip-safe
+synthizer.egg-info/top_level.txt
