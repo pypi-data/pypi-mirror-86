@@ -1,0 +1,9 @@
+aiohttp
+aiojobs
+aiojobs-stubs>=0.2.2.post1
+attrs
+backoff
+frozenlist
+
+[sqlite]
+aiosqlite
