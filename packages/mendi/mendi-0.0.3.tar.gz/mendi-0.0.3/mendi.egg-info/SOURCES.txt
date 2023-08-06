@@ -1,0 +1,9 @@
+README.md
+setup.py
+mendi/__init__.py
+mendi/mendi.py
+mendi.egg-info/PKG-INFO
+mendi.egg-info/SOURCES.txt
+mendi.egg-info/dependency_links.txt
+mendi.egg-info/not-zip-safe
+mendi.egg-info/top_level.txt
