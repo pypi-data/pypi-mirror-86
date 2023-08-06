@@ -1,0 +1,13 @@
+icondetection/__init__.py,sha256=vq_am-Pi8vH4f2RMCYwXQOwKfFQ9jRsWJj5BjdI6Z5I,61
+icondetection/box.py,sha256=MKqQNofSOQskPf8gUB1lnNlCduDI3tu4ogQDp07zi5U,5248
+icondetection/helpers.py,sha256=l_0tziqdr78uYqDFmf8bQcN6xFTErcyUgr-pxG9P0Ds,542
+icondetection/manual_test.py,sha256=ClzU0a2CtpFOq-aEQjNHShitM-Sf5IiQxYIMUyeusCE,1157
+icondetection/rectangle.py,sha256=3CDRXzE6Nm5krfIbCDz7wCmZZ_bhEwBpWKvCHbZAZ_Y,4443
+icondetection/weighted_quick_unionUF.py,sha256=gJpMmg1w0M9vGWF-hk1nXzj0GdDKJ3e1f14azcpqTHM,3537
+icondetection/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icondetection/demo/demo.py,sha256=Lkpn39zgEmTfLeCHqm2l5JxooI80G_awHDQi8N2bMSM,4114
+icondetection-0.1.0.dist-info/LICENSE.txt,sha256=W8dic_MavVx8ck6mvRAyNOvoocjxXulFkoCAFWPX68w,1068
+icondetection-0.1.0.dist-info/METADATA,sha256=XMD0JwnpkrI_plA_PYdmXIO5JEkRhDmZlkIpcVzEPLE,5388
+icondetection-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+icondetection-0.1.0.dist-info/top_level.txt,sha256=Acw-Qb4VcTJEW05_wGMPsBCp-YJotm5rDZOD6l0kEo8,14
+icondetection-0.1.0.dist-info/RECORD,,
