@@ -1,0 +1,1 @@
+Deltasimulator is a build system developed by Riverlane. The system can be used to compile SystemC modules for nodes in a Deltaflow graph and wire the nodes up. From there a complete runtime executable can be compiled, or the graph can be connected to a larger platform representing physical devices such as the ARTIQ platform via a Hardware Abstraction Layer (HAL).
