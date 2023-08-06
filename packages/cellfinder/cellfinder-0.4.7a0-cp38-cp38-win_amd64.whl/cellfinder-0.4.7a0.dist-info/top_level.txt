@@ -1,0 +1,6 @@
+build
+cellfinder
+dist
+resources
+tests
+travis
