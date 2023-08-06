@@ -1,0 +1,546 @@
+# Document Information
+
+SPDXVersion: SPDX-1.2
+DataLicense: CC0-1.0
+DocumentName: continuous-delivery-scripts-1.0.1
+SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdx/spdxdocs/continuous-delivery-scripts-1.0.1-d9e2187c-30b4-11eb-adc1-0242ac120002
+DocumentComment: <text>This document was created automatically using available information from python packages.</text>
+ExternalDocumentRef: Jinja2-2.11.2 http://spdx.org/spdxdocs/Jinja2-2.11.2-c516e27b-ffe1-8bbd-83e3-d574c7dab892 SHA1:255fed5f33ae3dcfb3012dedea9d6743b2a58728
+ExternalDocumentRef: jellyfish-0.8.2 http://spdx.org/spdxdocs/jellyfish-0.8.2-50622c1e-91a8-20d5-1d25-f7835d684ea2 SHA1:746f582e07b240d177a5bd47f23f79bb547054e2
+ExternalDocumentRef: wcmatch-7.1 http://spdx.org/spdxdocs/wcmatch-7.1-7db806ef-2e49-0e76-71e2-dcdc70dd26da SHA1:daf107a5cd994e97a8be8d2ed20527aba96bc23b
+ExternalDocumentRef: license-expression-1.2 http://spdx.org/spdxdocs/license-expression-1.2-0a6fb368-2b38-d88a-7515-17ca2f21b7ad SHA1:a4a5200c483eed6096d605f185ee3d32e1436b0a
+ExternalDocumentRef: spdx-tools-0.6.1 http://spdx.org/spdxdocs/spdx-tools-0.6.1-4d536489-011c-553e-cc3f-8b1a412b1c9e SHA1:790ad4ef4b8e34872f6c119027af2870d8f0b8d8
+ExternalDocumentRef: licenseheaders-0.8.5 http://spdx.org/spdxdocs/licenseheaders-0.8.5-e03e0cf6-3adb-1bdc-e450-22591cc143e4 SHA1:8102cf47a52c75fb9be7cea4515893b6d222b179
+ExternalDocumentRef: packaging-20.4 http://spdx.org/spdxdocs/packaging-20.4-83e17002-dbf1-9dc9-e86b-7ed02db5c1fa SHA1:9f557ac2b91202bb33e812ba5593065c977af6be
+ExternalDocumentRef: boto3-1.16.25 http://spdx.org/spdxdocs/boto3-1.16.25-4a0e06c9-9104-84a9-fcfa-4356c4c094ee SHA1:515845f164d929c2d4d832c0fce0a64d2d6d38bb
+ExternalDocumentRef: twine-3.2.0 http://spdx.org/spdxdocs/twine-3.2.0-3122df0e-5d97-fef5-3d94-84cd316e9a59 SHA1:a130ea790ac9e4d86b39abb19b0c902b6657d3ba
+ExternalDocumentRef: python-dotenv-0.15.0 http://spdx.org/spdxdocs/python-dotenv-0.15.0-e080376d-2fd8-22b2-badb-778f75dec634 SHA1:006a0ca03c6dfe94bcdc251e85da776a7be0d20a
+ExternalDocumentRef: toml-0.10.2 http://spdx.org/spdxdocs/toml-0.10.2-e5787dfe-1584-d671-1c3a-cd698fb8ff55 SHA1:306171effba3b5802e19e9af250a9b597878030a
+ExternalDocumentRef: pdoc3-0.9.2 http://spdx.org/spdxdocs/pdoc3-0.9.2-6db594cf-622d-ac32-c163-5ff71336984e SHA1:c39e5be405ed8f9507a617d3fe16b1bd6add660b
+ExternalDocumentRef: pyautoversion-1.2.0 http://spdx.org/spdxdocs/pyautoversion-1.2.0-40d58e10-712d-e437-e446-98b1e6fe55fc SHA1:c17da11d6782e1b5f1ef1b2c599a4c10fd0eb22a
+ExternalDocumentRef: towncrier-19.2.0 http://spdx.org/spdxdocs/towncrier-19.2.0-5b6de395-b0c2-b16a-5fe1-b044f124bc87 SHA1:27c7975b434a7cbb6309fe9e1b2d0bcc61dad2c7
+ExternalDocumentRef: GitPython-3.1.11 http://spdx.org/spdxdocs/GitPython-3.1.11-cb4a473d-8146-dd40-699f-95b37f6a4089 SHA1:6e9f29edd9847e8dd0c4e71ba0bc156eb4125a79
+ExternalDocumentRef: MarkupSafe-1.1.1 http://spdx.org/spdxdocs/MarkupSafe-1.1.1-933be105-705d-8bdf-6004-9645c7c99d72 SHA1:881b55a226a1e31183b726866d2eaaa53bb4a37f
+ExternalDocumentRef: bracex-2.0.1 http://spdx.org/spdxdocs/bracex-2.0.1-96f2a653-8f37-556c-230f-eeed1b2554d6 SHA1:4dd89bb8ec52cef6e86f15d7c9f28e365d80575d
+ExternalDocumentRef: backrefs-4.5 http://spdx.org/spdxdocs/backrefs-4.5-560abad0-843f-9fa0-022c-fc6d0b9fcbf3 SHA1:785ba51dd1987f79208615c484b2969e8301d899
+ExternalDocumentRef: boolean.py-3.8 http://spdx.org/spdxdocs/boolean.py-3.8-01de3e4c-dd7d-37d2-312b-f19f90debd39 SHA1:d6eef2b27360e82826553cf4ebeb14192f403961
+ExternalDocumentRef: six-1.15.0 http://spdx.org/spdxdocs/six-1.15.0-fb6ef580-0263-87f0-c87b-f3696ec1b681 SHA1:72a55a6861fbf1bb4902252c1614b2bda28a02da
+ExternalDocumentRef: PyYAML-5.3.1 http://spdx.org/spdxdocs/PyYAML-5.3.1-48582f96-d53f-4746-eaca-355a9b428be7 SHA1:34fc501147a4efec69fef1c67aab669f7abd0b1c
+ExternalDocumentRef: rdflib-5.0.0 http://spdx.org/spdxdocs/rdflib-5.0.0-970141c9-8453-2c00-6809-de246ab72e1b SHA1:1ebf84d45d19aeb59a3d73df842177ec28bdc7f1
+ExternalDocumentRef: xmltodict-0.12.0 http://spdx.org/spdxdocs/xmltodict-0.12.0-6dfc0e80-8946-13ef-ea16-baa716529181 SHA1:c295f5e90c5d85817f16b0529042033abe410a67
+ExternalDocumentRef: ply-3.11 http://spdx.org/spdxdocs/ply-3.11-e04e4432-9776-b366-27e3-a05ebb987f6f SHA1:15b002898917fb9a269613465f6299997a616a02
+ExternalDocumentRef: regex-2020.11.13 http://spdx.org/spdxdocs/regex-2020.11.13-c3b62ede-5a07-a679-7381-8192f1124043 SHA1:bddf8006ea01c7e0c237818dcf9ded96a978c763
+ExternalDocumentRef: pyparsing-2.4.7 http://spdx.org/spdxdocs/pyparsing-2.4.7-6554aeed-02e0-ac45-9041-eddb2f14ba3f SHA1:16501680a5d64a85f412b0e8fe33df9000729e28
+ExternalDocumentRef: s3transfer-0.3.3 http://spdx.org/spdxdocs/s3transfer-0.3.3-6b8b362c-6997-75d7-0483-97bc303c53b8 SHA1:ef8aba3258f20c10202620ac05f8dd9ee3e6717d
+ExternalDocumentRef: botocore-1.19.25 http://spdx.org/spdxdocs/botocore-1.19.25-cbec2646-162c-dad5-af92-367393699741 SHA1:eff12565bda15a88e25e431fab88a72530849a28
+ExternalDocumentRef: jmespath-0.10.0 http://spdx.org/spdxdocs/jmespath-0.10.0-f1340e29-e782-2aac-a3c6-29b4c85c298f SHA1:90ce1dfe7747e8da486712ff236e05a85a68c2eb
+ExternalDocumentRef: tqdm-4.53.0 http://spdx.org/spdxdocs/tqdm-4.53.0-eb890dcc-3984-88d6-35f7-787f011b831d SHA1:a1dfeeb49d9ab9cc143186284a41c4c9b92ad30a
+ExternalDocumentRef: rfc3986-1.4.0 http://spdx.org/spdxdocs/rfc3986-1.4.0-5ba87b0c-e71a-bb70-4230-67606425a0eb SHA1:38cd36193bf8fe88add7c2eb86e8aefb2f7e58f0
+ExternalDocumentRef: keyring-21.5.0 http://spdx.org/spdxdocs/keyring-21.5.0-299b3a2f-e181-1c30-d032-850aa183e875 SHA1:d9b57ec66abf9d9e99bb4dfb2ee1aee3fc79f442
+ExternalDocumentRef: requests-toolbelt-0.9.1 http://spdx.org/spdxdocs/requests-toolbelt-0.9.1-103fd7ce-5337-2cd0-a1cb-f85f03418531 SHA1:80d62a55ffe0fed63f1a6a733c4d1a1534407232
+ExternalDocumentRef: requests-2.25.0 http://spdx.org/spdxdocs/requests-2.25.0-ea898f3e-7842-5df9-db03-3bde397dd981 SHA1:ac9bef9f5e08c9c1422f0cb36d4d16b8b3494628
+ExternalDocumentRef: setuptools-50.3.2 http://spdx.org/spdxdocs/setuptools-50.3.2-9b36c628-2176-2b58-e0f9-28142f2314e6 SHA1:cb9a5ecc493c1dd0ae047b147abf282bbea9de41
+ExternalDocumentRef: readme-renderer-28.0 http://spdx.org/spdxdocs/readme-renderer-28.0-662cd5ce-abe6-c296-1192-6c1776c32ac2 SHA1:6609eb463b2fd6d537a8811f6bcaf28be540e5c4
+ExternalDocumentRef: importlib-metadata-3.1.0 http://spdx.org/spdxdocs/importlib-metadata-3.1.0-2afefc80-2a88-738a-9d8b-c6e95db999c0 SHA1:94f1ce48fdfe0a2e0bd550c06c8b144ec61682e3
+ExternalDocumentRef: colorama-0.4.4 http://spdx.org/spdxdocs/colorama-0.4.4-37660e66-de64-0593-e3b1-f752c08f2046 SHA1:823d3ed30fbb991a5193cd399eacef54a5d4419c
+ExternalDocumentRef: pkginfo-1.6.1 http://spdx.org/spdxdocs/pkginfo-1.6.1-61172df4-8551-c3d4-1db4-e68d977bd170 SHA1:e8c066e03f346fbf464eb5e2ac097a93602a856e
+ExternalDocumentRef: Markdown-3.3.3 http://spdx.org/spdxdocs/Markdown-3.3.3-fe8875f5-d61b-3d49-7816-7104fd190981 SHA1:d0c317c3f67245679b2efc490f60de29a3f98739
+ExternalDocumentRef: Mako-1.1.3 http://spdx.org/spdxdocs/Mako-1.1.3-ee04a279-e850-54c1-69e3-ad8d1a0ac9d5 SHA1:166f22b4d511993f66a329ec35010fdbc7490f1a
+ExternalDocumentRef: semver-2.13.0 http://spdx.org/spdxdocs/semver-2.13.0-baaded3e-32af-ec68-8ca9-1ce044efe8d1 SHA1:75e316dea68dc7bd4e783d31c1b823ec8b195ff1
+ExternalDocumentRef: click-7.1.2 http://spdx.org/spdxdocs/click-7.1.2-b62a3a94-1128-d23e-e58e-db91d976858f SHA1:e38abafced71289790618865cf46ec1fde0c52d5
+ExternalDocumentRef: incremental-17.5.0 http://spdx.org/spdxdocs/incremental-17.5.0-e93644a6-ab2e-0163-0a9a-ef12d9f037d5 SHA1:be31797e40d1ae4e4836645346743d3b5a54d432
+ExternalDocumentRef: gitdb-4.0.5 http://spdx.org/spdxdocs/gitdb-4.0.5-1d0b403b-c585-a140-14cb-b86ac7e1588b SHA1:a04d128f5f306aebee5aa13ba7ced74d34fff43e
+ExternalDocumentRef: pyparsing-2.4.7 http://spdx.org/spdxdocs/pyparsing-2.4.7-6554aeed-02e0-ac45-9041-eddb2f14ba3f SHA1:16501680a5d64a85f412b0e8fe33df9000729e28
+ExternalDocumentRef: isodate-0.6.0 http://spdx.org/spdxdocs/isodate-0.6.0-5820ee89-2cb8-a361-fc73-77e61f353dd1 SHA1:c684c8f44088b78fbfc2c48494d7c986b527f0dc
+ExternalDocumentRef: botocore-1.19.25 http://spdx.org/spdxdocs/botocore-1.19.25-cbec2646-162c-dad5-af92-367393699741 SHA1:eff12565bda15a88e25e431fab88a72530849a28
+ExternalDocumentRef: urllib3-1.26.2 http://spdx.org/spdxdocs/urllib3-1.26.2-574edf80-86b0-9854-07c2-9df15fc0d305 SHA1:d6fce2944a6084e1b545e9ca372a326ac7a903e7
+ExternalDocumentRef: python-dateutil-2.8.1 http://spdx.org/spdxdocs/python-dateutil-2.8.1-6333bd74-3615-0a44-cd69-a476622bb554 SHA1:debce24ef835eef44869b20bf3258ca8aef55eb3
+ExternalDocumentRef: SecretStorage-3.3.0 http://spdx.org/spdxdocs/SecretStorage-3.3.0-b6c3784a-ce06-3871-f6db-ad9d677f8e75 SHA1:a45130471bd64697ca138a71684cb1b0d253e35c
+ExternalDocumentRef: importlib-metadata-3.1.0 http://spdx.org/spdxdocs/importlib-metadata-3.1.0-2afefc80-2a88-738a-9d8b-c6e95db999c0 SHA1:94f1ce48fdfe0a2e0bd550c06c8b144ec61682e3
+ExternalDocumentRef: jeepney-0.6.0 http://spdx.org/spdxdocs/jeepney-0.6.0-a9eddf60-e96d-e904-8dc1-3a587ca38156 SHA1:60f9124143076b44206f66ba29f739be7d013949
+ExternalDocumentRef: requests-2.25.0 http://spdx.org/spdxdocs/requests-2.25.0-ea898f3e-7842-5df9-db03-3bde397dd981 SHA1:ac9bef9f5e08c9c1422f0cb36d4d16b8b3494628
+ExternalDocumentRef: chardet-3.0.4 http://spdx.org/spdxdocs/chardet-3.0.4-4cfc5f3b-869d-9f39-7e77-9acb3368681a SHA1:90b211df92ee420ecc83dd3e840b8e1b67113269
+ExternalDocumentRef: urllib3-1.26.2 http://spdx.org/spdxdocs/urllib3-1.26.2-574edf80-86b0-9854-07c2-9df15fc0d305 SHA1:d6fce2944a6084e1b545e9ca372a326ac7a903e7
+ExternalDocumentRef: certifi-2020.11.8 http://spdx.org/spdxdocs/certifi-2020.11.8-cbfee610-0fe1-0f28-2976-9bc40e546e4a SHA1:f611a45d291abe9ead366d4a3f6cbc9080118843
+ExternalDocumentRef: idna-2.10 http://spdx.org/spdxdocs/idna-2.10-7f995d70-7f6a-faac-8381-a831595e240e SHA1:687c26cd32a7e1cbb2097190e230c4ee587ca4bc
+ExternalDocumentRef: Pygments-2.7.2 http://spdx.org/spdxdocs/Pygments-2.7.2-1a3a01c2-e712-5a06-e3ce-7f58bfe67d5e SHA1:2e3f1da06ba16e4b28c568b569c5d01edf155e35
+ExternalDocumentRef: docutils-0.16 http://spdx.org/spdxdocs/docutils-0.16-2a36beed-56a7-cfa5-7b8b-93f2f41dc7c4 SHA1:5a52f2b40dbdc0120448f158c8471c91c3a737d5
+ExternalDocumentRef: bleach-3.2.1 http://spdx.org/spdxdocs/bleach-3.2.1-bfa95f94-ac9e-7e26-749e-72278a3ad9c3 SHA1:040db40d3084a6e77c7adb9e30b461888edf21a8
+ExternalDocumentRef: zipp-3.4.0 http://spdx.org/spdxdocs/zipp-3.4.0-2c7741f4-d77d-5ab8-9e94-60838cf99d10 SHA1:3e27c9bccdf787019a4590b7de201a57ec43a1b6
+ExternalDocumentRef: MarkupSafe-1.1.1 http://spdx.org/spdxdocs/MarkupSafe-1.1.1-933be105-705d-8bdf-6004-9645c7c99d72 SHA1:881b55a226a1e31183b726866d2eaaa53bb4a37f
+ExternalDocumentRef: smmap-3.0.4 http://spdx.org/spdxdocs/smmap-3.0.4-f00c7f71-dfa7-048a-2f12-325456754dda SHA1:020e13c99367a21a293255846584bfbf3e11a4c5
+ExternalDocumentRef: six-1.15.0 http://spdx.org/spdxdocs/six-1.15.0-fb6ef580-0263-87f0-c87b-f3696ec1b681 SHA1:72a55a6861fbf1bb4902252c1614b2bda28a02da
+ExternalDocumentRef: cryptography-3.2.1 http://spdx.org/spdxdocs/cryptography-3.2.1-57496bd8-aef3-4ee4-5ae3-2a08f4853c2c SHA1:6565e081c4d8a29a0eb29abbc2fa8789d6347770
+ExternalDocumentRef: jeepney-0.6.0 http://spdx.org/spdxdocs/jeepney-0.6.0-a9eddf60-e96d-e904-8dc1-3a587ca38156 SHA1:60f9124143076b44206f66ba29f739be7d013949
+ExternalDocumentRef: webencodings-0.5.1 http://spdx.org/spdxdocs/webencodings-0.5.1-6fa3a0ac-728d-b5ba-9592-8131cdec72d7 SHA1:60ef55e7326452e24e56895bc35aa3fc0867cab4
+ExternalDocumentRef: six-1.15.0 http://spdx.org/spdxdocs/six-1.15.0-fb6ef580-0263-87f0-c87b-f3696ec1b681 SHA1:72a55a6861fbf1bb4902252c1614b2bda28a02da
+ExternalDocumentRef: cffi-1.14.4 http://spdx.org/spdxdocs/cffi-1.14.4-df54819c-40cf-5d2f-9d88-5fcffbc6d5fe SHA1:b0c1d70aa0fc959475a84cba3de7cbec8c1621e0
+ExternalDocumentRef: six-1.15.0 http://spdx.org/spdxdocs/six-1.15.0-fb6ef580-0263-87f0-c87b-f3696ec1b681 SHA1:72a55a6861fbf1bb4902252c1614b2bda28a02da
+ExternalDocumentRef: pycparser-2.20 http://spdx.org/spdxdocs/pycparser-2.20-7e0b11ad-141d-537f-9134-623ec9f59f10 SHA1:d6342720297f6c2bfb437ecde48f73445c59c785
+
+
+# Creation Info
+
+Creator: Person: CMSIS team (adrien.cabarbaye@arm.com)
+Creator: Organization: Arm Mbed (support@mbed.com)
+Creator: Tool: mbed-spdx-generator
+Created: 2020-11-27T14:20:07Z
+
+
+# Review
+
+Reviewer: Person: Monty Bot (monty-bot@arm.com)
+ReviewDate: 2020-11-27T14:20:07Z
+
+
+# Package
+
+PackageName: continuous-delivery-scripts
+SPDXID: SPDXRef-f0cfd7a4-30b4-11eb-adc1-0242ac120002
+PackageVersion: 1.0.1
+PackageDownloadLocation: NONE
+FilesAnalyzed: True
+PackageSummary: <text>Continuous Delivery scripts to increase automation</text>
+PackageFileName: continuous-delivery-scripts
+PackageOriginator: Person: CMSIS team (adrien.cabarbaye@arm.com)
+PackageChecksum: SHA1: NOASSERTION
+PackageVerificationCode: 5c700f395c7f61367c4c169ccffadce20dc4c92f
+PackageDescription: <text>NOASSERTION</text>
+PackageLicenseDeclared: Apache-2.0
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+PackageHomePage: https://github.com/ARMmbed/continuous-delivery-scripts
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/__init__.py
+SPDXID: SPDXRef-1aaffa40-1654-273f-4ef1-bb9c4f11b050
+FileType: SOURCE
+FileChecksum: SHA1: fe149c6ed8fb58301d8a24664f3038a6187faec5
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/_version.py
+SPDXID: SPDXRef-15e6fc01-7089-ed2e-76c2-f56ac9330802
+FileType: SOURCE
+FileChecksum: SHA1: 04b80af7fb345a7b0e5a4467435294137de9b14c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/assert_news.py
+SPDXID: SPDXRef-737172aa-1cba-39ae-b23e-4bc8dbad7387
+FileType: SOURCE
+FileChecksum: SHA1: 185cb600dad4d79e33f9eb23dcec39dbafd659d9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/create_news_file.py
+SPDXID: SPDXRef-b58738b6-438f-d1c9-7bed-6d74837924fa
+FileType: SOURCE
+FileChecksum: SHA1: ec33782f25c4b95a2dd95b2e6d6cd30854020bf0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/generate_docs.py
+SPDXID: SPDXRef-571c5424-4e31-e5d5-5d9d-0ea73ceb7d2b
+FileType: SOURCE
+FileChecksum: SHA1: b0e9fa8f2ed431dde92799c7c8a280a29ece7fd9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/generate_news.py
+SPDXID: SPDXRef-627b6ba5-e0e8-3164-f0ea-a77191af45cb
+FileType: SOURCE
+FileChecksum: SHA1: 5f5e77d8b1cd3b250f6f680c04c6fbc2fc89e3af
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/get_config.py
+SPDXID: SPDXRef-73ca1978-cd22-2dd0-950c-2058eaa07fcd
+FileType: SOURCE
+FileChecksum: SHA1: 81a0efafa91dcb8d0f4797ccef09d0b258fa6486
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/license_files.py
+SPDXID: SPDXRef-77ac6574-5e7e-f78b-dd7d-57f33110054f
+FileType: SOURCE
+FileChecksum: SHA1: 34498a3713e9657aff58cc9b253ed7df9c121b02
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/report_third_party_ip.py
+SPDXID: SPDXRef-92024d5c-a0ab-acc2-1c6c-26804b101837
+FileType: SOURCE
+FileChecksum: SHA1: e5538e8a7c2601b6f1b37181cce2664b2cd2a9c5
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/__init__.py
+SPDXID: SPDXRef-827e6466-485f-327a-f1aa-7ddb192bd8cc
+FileType: SOURCE
+FileChecksum: SHA1: 8f91d2e84eefbb2db8d50dc05e70a680d1e4020e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/spdx_dependency.py
+SPDXID: SPDXRef-6d8a9e97-9f68-8d68-47a3-2388718c6cec
+FileType: SOURCE
+FileChecksum: SHA1: 185fbb8c6f9ed32804c3171116618afa34f6c854
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/spdx_document.py
+SPDXID: SPDXRef-49326407-f7a7-250a-ccf1-46c7e3e1fbeb
+FileType: SOURCE
+FileChecksum: SHA1: 6d714b4e7e9bab36a7182392743611c6d1aa172a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/spdx_file.py
+SPDXID: SPDXRef-f1aad198-b585-12ba-275b-a316c11a1b58
+FileType: SOURCE
+FileChecksum: SHA1: c2a640e06d45863ca087841f18bdf8b4f592802e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/spdx_helpers.py
+SPDXID: SPDXRef-84cda4ea-794f-36e7-5210-0f293ccfe2ca
+FileType: SOURCE
+FileChecksum: SHA1: 4ad808e2c99385ed9c45fb453d109fdefe32629d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/spdx_package.py
+SPDXID: SPDXRef-c9b30c00-df3e-2b93-a85b-0ff84a15c760
+FileType: SOURCE
+FileChecksum: SHA1: 38ef35c358371929c3bb5ae18b6b6d9c117d4bc1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/spdx_project.py
+SPDXID: SPDXRef-9a4d6544-0537-7e14-2f36-e0edcdf8e697
+FileType: SOURCE
+FileChecksum: SHA1: 897a054e71f288d6f327df19c1a9de439799a56e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/spdx_summary.py
+SPDXID: SPDXRef-5eaacd8f-9c7a-8171-2c44-0b30063d9b46
+FileType: SOURCE
+FileChecksum: SHA1: b80a02818730198242495afaea0701665a659aa0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/templates/third_party_IP_report.csv.jinja2
+SPDXID: SPDXRef-9975380d-da31-b852-7fb2-5d110a7c1300
+FileType: SOURCE
+FileChecksum: SHA1: fed2378c3bd8ba74236b142c0d4d1d97c8fabfcf
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NONE
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/templates/third_party_IP_report.html.jinja2
+SPDXID: SPDXRef-ec3e0d51-3265-8a25-2724-bac55e9e5e7b
+FileType: SOURCE
+FileChecksum: SHA1: 000c867252b5c10c49a1ef15b55c329989f20433
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NONE
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/spdx_report/templates/third_party_IP_report.txt.jinja2
+SPDXID: SPDXRef-85dd129a-579a-3573-dc34-2f6d685523c4
+FileType: SOURCE
+FileChecksum: SHA1: 826077288b43e791fac891e9552af484382176e8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NONE
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/tag_and_release.py
+SPDXID: SPDXRef-efced172-e76a-d6fd-cb9b-842ea6c73f48
+FileType: SOURCE
+FileChecksum: SHA1: 88f4fa0da2684f4d69e7e1ff99382d32671ddaf8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/__init__.py
+SPDXID: SPDXRef-5dd8b5b7-21f9-360c-25cc-29e4989df6d7
+FileType: SOURCE
+FileChecksum: SHA1: ce089911542a5e9279ca42b5b83ea552a1f4e7ed
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/aws_helpers.py
+SPDXID: SPDXRef-695438a2-4f6a-a65d-e490-d2b7ff17dbc2
+FileType: SOURCE
+FileChecksum: SHA1: f8219e840bffaca27bdb8818d15d7220765e4761
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/configuration.py
+SPDXID: SPDXRef-c7e4f2fd-85ad-2080-e0c7-cb4cbdfc116d
+FileType: SOURCE
+FileChecksum: SHA1: b7e6e9115cf194d2a9973a2d77b70a93586cdf0c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/definitions.py
+SPDXID: SPDXRef-95f8b1c3-8cfe-ce72-cb57-bada1af67fc8
+FileType: SOURCE
+FileChecksum: SHA1: 13e8549e2911302d32ebe3f91c6806be97156622
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/filesystem_helpers.py
+SPDXID: SPDXRef-abe4e38a-5020-8c6b-121e-3384158147d6
+FileType: SOURCE
+FileChecksum: SHA1: 1d71b12706d9d11f7a600af6a6774fa4cea888b8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/git_helpers.py
+SPDXID: SPDXRef-33c3f704-d022-8bca-706d-341e16a28bc4
+FileType: SOURCE
+FileChecksum: SHA1: 9c71acd3181421061600b7a92e5e2b7706e5db55
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/hash_helpers.py
+SPDXID: SPDXRef-5f9ff98d-6a0a-c768-fc77-4bbea76ccd58
+FileType: SOURCE
+FileChecksum: SHA1: 708f307e33da38d0abf2a8b21f595240ba88818a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/logging.py
+SPDXID: SPDXRef-fb4046c7-3d6f-bc6b-31bd-740d8d2cd59b
+FileType: SOURCE
+FileChecksum: SHA1: 7c276229d45e257f685edc2f2dcd4af8d2880ebb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/package_helpers.py
+SPDXID: SPDXRef-2dfa8bdf-6659-b2b8-9e2e-daaf28bb4696
+FileType: SOURCE
+FileChecksum: SHA1: aa07e96b681dba37295912bb82a643638f481ece
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/python_helpers.py
+SPDXID: SPDXRef-d9678399-42e2-8e46-a51f-c6e9aaee8ee9
+FileType: SOURCE
+FileChecksum: SHA1: d7a47f9ff413863cf00930fefa5ca8375b1c4878
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/string_helpers.py
+SPDXID: SPDXRef-01c9aa6a-a88b-ae82-01ec-0c0b689c687f
+FileType: SOURCE
+FileChecksum: SHA1: d6eb574f8c5d651c154234568b0cbb61c12807c4
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# File
+
+FileName: ./continuous_delivery_scripts/utils/third_party_licences.py
+SPDXID: SPDXRef-6aacd951-f728-73d9-e42a-e71e9b62b9a7
+FileType: SOURCE
+FileChecksum: SHA1: d884ac79a657f7d5cff23bc288f7decbed3e82f6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2020 Arm Mbed. All rights reserved.</text>
+FileComment: <text>NONE</text>
+
+
+# Extracted Licenses
+
