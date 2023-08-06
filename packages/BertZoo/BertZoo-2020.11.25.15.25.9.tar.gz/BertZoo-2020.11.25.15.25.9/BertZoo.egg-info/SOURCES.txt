@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pypi.sh
+requirements.txt
+setup.py
+BertZoo.egg-info/PKG-INFO
+BertZoo.egg-info/SOURCES.txt
+BertZoo.egg-info/dependency_links.txt
+BertZoo.egg-info/entry_points.txt
+BertZoo.egg-info/requires.txt
+BertZoo.egg-info/top_level.txt
+bertzoo/__init__.py
