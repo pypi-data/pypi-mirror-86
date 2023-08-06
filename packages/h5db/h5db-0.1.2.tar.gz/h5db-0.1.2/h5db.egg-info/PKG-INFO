@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: h5db
+Version: 0.1.2
+Summary: 利用h5来做一个分布式的kv磁盘存储工具
+Home-page: https://www.zhihu.com/people/feifeiaphy
+Author: Larryjianfeng
+Author-email: 244060203@qq.com
+License: UNKNOWN
+Description: 
+        安装
+        ----
+        
+        pip install -U h5db
+        
+        目前测试版本为python3，python2不支持
+        
+        入门
+        ----
+        
+        读写数据
+        ^^^^^^^^
+        
+        例如需要储存和读取下面一个词典
+        
+        .. code-block:: python
+        
+           import h5db
+           import numpy as np
+        
+        
+           # make sure save_dir exist 
+           save_dir = './data'
+           save_dat = [['1', np.random.random([10, 1024])], ['2', np.random.random([4, 1024])]]
+           h5db.simple_add(save_dir, save_dat)
+           print(h5db.simple_search(save_dir, ['1', '2']))
+        
+        说明
+        ^^^^
+        
+        
+        #. 
+           h5db默认使用简单hash函数将key分成100个部分，存储到100个对应的h5文件，搜索的时候会同时开启100个进程进行搜索，最后返回一个dict类型: {key: value}, 如果没有搜索到，则value是None；
+        
+        #. 
+           对于可以转换成int的类型的key, 默认的hash函数为 int(key) % 100, 对于str类型的key，默认用其sha1值的10位数 % 100；
+        
+        #. 
+           目前主要支持{str: np.ndarray} 和 {str: str}这两种数据类型，其他复杂类型未测试
+        
+        详细用法
+        --------
+        
+        主要的类是H5
+        
+        .. code-block:: python
+        
+           class H5:
+               '''
+               H5DB的类
+               save_dir: h5文件储存目录
+               logger_path: logger储存目录
+               l1_size: 一级分类个数
+               l2_size: 二级分类个数（h5文件中的groups)
+               hash_l1: 可以自定义一级hash函数
+               hash_l2：可以自定义二级hash函数
+               '''
+        
+               def __init__(self,
+                            save_dir: str = None,
+                            logger_path: str = None,
+                            l1_size: int = 100,
+                            l2_size: int = 2000,
+                            hash_l1: callable = None,
+                            hash_l2: callable = None):
+        
+        可以自定义key的hash函数，也可以使用默认的hash函数，默认的hash函数可以见gen_mod_hash和gen_mod_hash_shift
+        
+        主要作用的两个函数
+        
+        插入数据
+        ^^^^^^^^
+        
+        .. code-block:: python
+        
+        
+               def multiple_file_add(self,
+                                     data_pairs: list,
+                                     save_prefix: str = 'part.',
+                                     replacement: bool = False):
+        
+        data_pairs：[k, v]对的list
+        replacement：遇到重复的key，value对，是否进行覆盖
+        
+        搜索数据
+        ^^^^^^^^
+        
+        .. code-block:: python
+        
+               def search(self,
+                          vids: list,
+                          save_prefix: str = 'part.',
+                          max_parallel: int = None):
+        
+        save_prefix必须与插入数据时候设定的prefix一致
+        
+        max_parallel最高的并发数量，注意到本身是多文件存储的，因此最低并发数是初始化类时的l1_size，注意当io是瓶颈时，继续增大max_parallel并不会加快搜索速度
+        
+        默认使用multiprocessing.Manager.dict进行多进程沟通，也可以自己修改代码使用其他框架。
+        
+        一个基础例子
+        ^^^^^^^^^^^^
+        
+        .. code-block:: python
+        
+           from h5db import H5
+           import json
+        
+           h5 = H5(save_dir='./data',
+                   l1_size=10)
+        
+           file_to_save = {'1': {'name': 'lr', 'age': 27},
+                           '2': {'attr': 'cd', 'attr-2': 26.5},}
+        
+           # 注意到这里必须转换成str类型，dict类型不支持
+           file_to_save = [[k, json.dumps(v)] for k, v in file_to_save.items()]
+           h5.multiple_file_add(file_to_save)
+           print(h5.search(['1', '2', '3']))
+        
+        输出
+        
+        .. code-block::
+        
+           11/26/2020 19:40:01-INFO-Filename ./data/part.1.h5 will write 1 lines
+           11/26/2020 19:40:01-INFO-Filename ./data/part.2.h5 will write 1 lines
+           11/26/2020 19:40:01-INFO-dumping vids to idx.bin
+           11/26/2020 19:40:01-INFO-all Processes finished!
+           [('1', b'{"name": "lr", "age": 27}'), ('2', b'{"attr": "cd", "attr-2": 26.5}')]
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst

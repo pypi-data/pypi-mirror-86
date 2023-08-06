@@ -1,0 +1,10 @@
+README.rst
+setup.py
+h5db/__init__.py
+h5db/h5_utils.py
+h5db.egg-info/PKG-INFO
+h5db.egg-info/SOURCES.txt
+h5db.egg-info/dependency_links.txt
+h5db.egg-info/entry_points.txt
+h5db.egg-info/requires.txt
+h5db.egg-info/top_level.txt
