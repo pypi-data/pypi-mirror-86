@@ -1,0 +1,9 @@
+README.md
+setup.py
+africanwordnet/__init__.py
+africanwordnet/nltk.py
+africanwordnet.egg-info/PKG-INFO
+africanwordnet.egg-info/SOURCES.txt
+africanwordnet.egg-info/dependency_links.txt
+africanwordnet.egg-info/requires.txt
+africanwordnet.egg-info/top_level.txt
