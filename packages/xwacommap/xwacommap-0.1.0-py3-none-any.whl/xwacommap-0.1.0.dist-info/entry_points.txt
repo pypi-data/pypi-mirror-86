@@ -1,0 +1,3 @@
+[console_scripts]
+xwacommap=xwacommap:main
+

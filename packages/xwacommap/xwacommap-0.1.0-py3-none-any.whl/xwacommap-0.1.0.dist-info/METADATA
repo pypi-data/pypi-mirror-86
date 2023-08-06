@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: xwacommap
+Version: 0.1.0
+Summary: Interactive utility to map Wacom tablets to screen areas
+Home-page: https://edugit.org/nik/xwacommap
+License: Apache-2.0
+Author: Dominik George
+Author-email: nik@naturalnet.de
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-xrectsel (>=1.3,<2.0)
+Requires-Dist: sh (>=1.14.1,<2.0.0)
+Project-URL: Repository, https://edugit.org/nik/xwacommap
+Description-Content-Type: text/markdown
+
+xwacommap - Interactively map Wacom table to screen area
+========================================================
+
+Synopsis
+--------
+
+`xwacommap` is a small utility that helps configuring a Wacom
+tablet to map to a selected area of the screen. It allows to
+draw a rectangular region on the screen, then passes the
+geometry to the `xsetwacom` tool. If the selected area is higher
+than wide, the tablet is also rotated.
+
+Requirements
+------------
+
+This tool requires the `xsetwacom` tool from the
+`xserver-xorg-input-wacom` package (on Debian systems).
+
+Licence
+-------
+
+This tool is licenced under the Apache 2.0 licence.
+
