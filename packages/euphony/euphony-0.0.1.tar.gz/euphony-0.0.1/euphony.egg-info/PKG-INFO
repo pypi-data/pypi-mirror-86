@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: euphony
+Version: 0.0.1
+Summary: Play music while your code runs
+Home-page: https://github.com/vinaykale64/euphony
+Author: Vinay Dinkar Kale
+Author-email: vinaykale64@protonmail.com
+License: MIT
+Description: # euphony
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
