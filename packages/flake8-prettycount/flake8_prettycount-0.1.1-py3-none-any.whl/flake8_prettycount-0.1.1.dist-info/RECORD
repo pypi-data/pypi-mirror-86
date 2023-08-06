@@ -1,0 +1,10 @@
+flake8_prettycount/__init__.py,sha256=wGQ-bW0S1MdM6g1JGb36wPmCqv2SRp7U7FO23uMOdLg,1454
+flake8_prettycount/__main__.py,sha256=c9RrfbJB7_NzXNSPMXld-p-0xn3KS1dft2JJKyyNQcU,1770
+flake8_prettycount/application.py,sha256=w3fm9IeKBGLxmvgj4SZNdU1eec7ktym2o7aWox3WzFI,4036
+flake8_prettycount/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake8_prettycount-0.1.1.dist-info/LICENSE,sha256=BigaIaJbg4wCjk6MjLC_5kuevxdEotWApzfvN8Y9LMM,1064
+flake8_prettycount-0.1.1.dist-info/METADATA,sha256=NKFqaNUJf-N4oQ9E7GS7T7Wqxwxikc8nvsHxM-9IazU,5392
+flake8_prettycount-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+flake8_prettycount-0.1.1.dist-info/entry_points.txt,sha256=wIj71fG3QEHpRFnPfdOvJvQHvGYnU7ll7CINH0D0P7A,127
+flake8_prettycount-0.1.1.dist-info/top_level.txt,sha256=LwoJrb_cKk5lk_vtInIb-DdYsjZLxXH4PakHU3kGSQ8,19
+flake8_prettycount-0.1.1.dist-info/RECORD,,
