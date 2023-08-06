@@ -1,0 +1,17 @@
+README.md
+setup.py
+Kenworthy.egg-info/PKG-INFO
+Kenworthy.egg-info/SOURCES.txt
+Kenworthy.egg-info/dependency_links.txt
+Kenworthy.egg-info/requires.txt
+Kenworthy.egg-info/top_level.txt
+kenworthy/__init__.py
+kenworthy/exorings3.py
+kenworthy/isocosa.py
+kenworthy/kepler3.py
+kenworthy/tag_plot.py
+kenworthy.egg-info/PKG-INFO
+kenworthy.egg-info/SOURCES.txt
+kenworthy.egg-info/dependency_links.txt
+kenworthy.egg-info/requires.txt
+kenworthy.egg-info/top_level.txt
