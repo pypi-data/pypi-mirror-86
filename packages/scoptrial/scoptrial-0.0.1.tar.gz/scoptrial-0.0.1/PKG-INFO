@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: scoptrial
+Version: 0.0.1
+Summary: SCOP Trial Version
+Home-page: https://github.com/mikiokubo/scoptrial/tree/master/
+Author: Mikio Kubo
+Author-email: kubo@kaiyodai.ac.jp
+License: Apache Software License 2.0
+Description: # Project name here
+        > Summary description here.
+        
+        
+        This file will become your README and also the index of your documentation.
+        
+        ## Install
+        
+        `pip install your_project_name`
+        
+        ## How to use
+        
+        Fill me in please! Don't forget code examples:
+        
+        ```
+        1+1
+        ```
+        
+        
+        
+        
+            2
+        
+        
+        
+Keywords: optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Japanese
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
