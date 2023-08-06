@@ -1,0 +1,4 @@
+[console_scripts]
+bmwpack=idrivetools.pack:pack_files
+bmwunpack=idrivetools.unpack:unpack_files
+
