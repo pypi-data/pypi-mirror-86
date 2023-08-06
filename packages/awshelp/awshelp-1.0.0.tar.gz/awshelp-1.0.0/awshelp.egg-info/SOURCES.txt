@@ -1,0 +1,10 @@
+LICENSE
+README.md
+awshelp.py
+setup.cfg
+setup.py
+awshelp.egg-info/PKG-INFO
+awshelp.egg-info/SOURCES.txt
+awshelp.egg-info/dependency_links.txt
+awshelp.egg-info/entry_points.txt
+awshelp.egg-info/top_level.txt
