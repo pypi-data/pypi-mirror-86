@@ -1,0 +1,8 @@
+README.md
+setup.py
+benford_law/__init__.py
+benford_law/benford_law.py
+benford_law.egg-info/PKG-INFO
+benford_law.egg-info/SOURCES.txt
+benford_law.egg-info/dependency_links.txt
+benford_law.egg-info/top_level.txt
