@@ -1,0 +1,6 @@
+README.md
+setup.py
+NerEva.egg-info/PKG-INFO
+NerEva.egg-info/SOURCES.txt
+NerEva.egg-info/dependency_links.txt
+NerEva.egg-info/top_level.txt
