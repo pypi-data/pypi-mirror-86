@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_noob/__init__.py
+src/cdk_noob/py.typed
+src/cdk_noob.egg-info/PKG-INFO
+src/cdk_noob.egg-info/SOURCES.txt
+src/cdk_noob.egg-info/dependency_links.txt
+src/cdk_noob.egg-info/requires.txt
+src/cdk_noob.egg-info/top_level.txt
+src/cdk_noob/_jsii/__init__.py
+src/cdk_noob/_jsii/cdk-noob@0.1.2.jsii.tgz
