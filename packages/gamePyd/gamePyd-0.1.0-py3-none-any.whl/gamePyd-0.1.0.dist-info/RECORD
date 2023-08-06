@@ -1,0 +1,14 @@
+gamepyd/__init__.py,sha256=L8FTsPyc3dnE59FRbbxE54OVUUQ0bpdRJeAh_Z1ltuc,936
+gamepyd/readPad.py,sha256=raOCwg5ieMwgjyv5vGRSagvxSRalO_uXQH_OBRpy52U,7043
+gamepyd/writePad.py,sha256=AGE_EI9hlJf-jLA6lfPdmxLorUwsmelpGwIEZcnrLrQ,8131
+gamepyd/vXboxInterface-x64/msvcp120.dll,sha256=Kr8Kq1o8WulCS2Tp0Z2dbUrrxngU1-kuSSe5eY_vKEg,660128
+gamepyd/vXboxInterface-x64/msvcr120.dll,sha256=rTIkC7HeVcP1_KyHifWDoXBX-dFJFMU4wqelrTRrNBw,963232
+gamepyd/vXboxInterface-x64/vXboxInterface.dll,sha256=qRWhW35RD56MFe1a_u1N8CC-NZMvVcbKZyidcs0or1g,15872
+gamepyd/vXboxInterface-x86/msvcp120.dll,sha256=Kr8Kq1o8WulCS2Tp0Z2dbUrrxngU1-kuSSe5eY_vKEg,660128
+gamepyd/vXboxInterface-x86/msvcr120.dll,sha256=rTIkC7HeVcP1_KyHifWDoXBX-dFJFMU4wqelrTRrNBw,963232
+gamepyd/vXboxInterface-x86/vXboxInterface.dll,sha256=aNZ7cLXTdbjvnqiR6-kyK5tai_MVZaGoU1Q1IYhRNfE,14336
+gamePyd-0.1.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+gamePyd-0.1.0.dist-info/METADATA,sha256=lSKq4Evgz0yXyIa8TiTPQV4FgLMqEa8TGBrtnHfploE,8342
+gamePyd-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gamePyd-0.1.0.dist-info/top_level.txt,sha256=hNpXWXbvPCfd3gq5yR8-td2GWMBi-d94nzQ9eQB5hmI,8
+gamePyd-0.1.0.dist-info/RECORD,,
