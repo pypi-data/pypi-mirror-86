@@ -1,0 +1,9 @@
+pyroclient/__init__.py,sha256=gBQxHimhl7Yaj2VWzoS8oDvl8eZHre5Bks6iurY8gT4,55
+pyroclient/client.py,sha256=_z1Z5aRlKqlLzSvCJhvjaF76UPQpy_mwFcpnxvMiXyU,4802
+pyroclient/exceptions.py,sha256=swqU0BctDMFtog37xtarGp4SbM2yjY7ngQwU4HZFMfo,394
+pyroclient/version.py,sha256=KAO2F_BN5SRvuk7jGDBDVSCSBGYKH0wNYjkMDyUsJLw,24
+pyroclient-0.1.0.dist-info/METADATA,sha256=XPEJe_z3pFRTszhl_MlyzasRKsrEm0QzoUGeC8R_7as,2788
+pyroclient-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyroclient-0.1.0.dist-info/top_level.txt,sha256=NUV3CXnkEd0T13swvQNZuz4ctXXfnKT-5Ug_G07vY48,11
+pyroclient-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyroclient-0.1.0.dist-info/RECORD,,
