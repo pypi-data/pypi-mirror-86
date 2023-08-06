@@ -1,0 +1,9 @@
+langerhans/__init__.py,sha256=rZinGuKUK5MBAgWDumIKXaijK9jRx_trtK5wYvBT8Sg,129
+langerhans/analysis.py,sha256=Eo2gigAJV2FUClmJV1x1qZQ4r6UbXFzzdIgaIJZ75pA,13663
+langerhans/data.py,sha256=L_ZUTV7Fm9glbn13R2NlYj3_eWSGlJW93cwGdlw05_U,19180
+langerhans/global_analysis.py,sha256=uRvktCHw5ZdpNOe73nZfoJhTOjsmBzu14Q6SLo2JHqg,11420
+langerhans/networks.py,sha256=G8kjAhh_wnjizOqax4XbXjeP4Jxqu8ZFSCacTypGSJM,4745
+langerhans-1.3.0.dist-info/METADATA,sha256=mgI8p82CsQ3i1G396JPIPNHcIXZ_MozBlVDmz6N8-Xw,410
+langerhans-1.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+langerhans-1.3.0.dist-info/top_level.txt,sha256=caif0B--uSRVdxEWpoQJtQ2zsaxj_Oey_LJ-6_gEt4A,11
+langerhans-1.3.0.dist-info/RECORD,,
