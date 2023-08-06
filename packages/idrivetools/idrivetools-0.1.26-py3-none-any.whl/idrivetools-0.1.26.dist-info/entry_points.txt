@@ -1,0 +1,5 @@
+[console_scripts]
+bmwcreatenewbackup=idrivetools.process_files:create_new_backup
+bmwpack=idrivetools.process_files:pack_files
+bmwunpack=idrivetools.process_files:unpack_files
+
