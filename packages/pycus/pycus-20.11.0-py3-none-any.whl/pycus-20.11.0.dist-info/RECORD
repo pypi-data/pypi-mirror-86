@@ -1,0 +1,13 @@
+pycus/__init__.py,sha256=v-rRiDOgZ3sQSMQKq0vgUQZvpeOkoHFXissAx6Ktg84,61
+pycus/__main__.py,sha256=_8sk_REI-Hn4tdAw2bV4HnmSTD8PKcAcaMwMXc3d2so,140
+pycus/_version.py,sha256=h7UPL7yc66eCNnALtLBR2lXlDam0_9YtW1NQtwLc2z4,255
+pycus/commands.py,sha256=pfg6ympPxzZJ0jpTHq-I6XZuJNJCc_kZ4-vIJ9LD-VQ,6273
+pycus/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycus/tests/helper.py,sha256=3MlxWy2bDL4ZtWY_oJIdb7GrU4g5euJCnREPtcW0dUE,1920
+pycus/tests/test_commands.py,sha256=dieARfKcvCfJ0v5ejO7KkoxrlsNqOXrfH0RL8Cf8l7w,13550
+pycus-20.11.0.dist-info/LICENSE,sha256=eT8wqTHu1G5dX-EKdykspL-_kEwWYVYLbR9W6MsPrqk,1053
+pycus-20.11.0.dist-info/METADATA,sha256=8UGaC_5stjgPvLCgiEknbcfqtMI4WdgUPPPgIv5iYtE,1004
+pycus-20.11.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pycus-20.11.0.dist-info/entry_points.txt,sha256=zAfBhIHRiMCVKtNXLGZNE6l-_zgt_0-QD87FlqnWTpU,67
+pycus-20.11.0.dist-info/top_level.txt,sha256=wOIYIhKUq-HxyzGOrHsQ12CJjraas1c1SRKSIvRx1Pg,6
+pycus-20.11.0.dist-info/RECORD,,
