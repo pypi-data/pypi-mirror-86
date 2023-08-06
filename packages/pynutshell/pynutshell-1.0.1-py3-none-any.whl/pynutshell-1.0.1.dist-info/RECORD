@@ -1,0 +1,16 @@
+nutshell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nutshell/model.py,sha256=LJanOLHkqZ90JBLQiOQt6VmUefl88EfNTmaq3YInHyk,2262
+nutshell/utils.py,sha256=TzdTAr5MwKrKsjnMQCLiW3KGlHvQDbQneP_9tr7HWEM,419
+nutshell/algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nutshell/algorithms/information_retrieval.py,sha256=DTp5dL033FJkhUBzDsBSznuMjqMap-DVANlsw5CwG9c,2938
+nutshell/algorithms/ranking.py,sha256=wXddz9HVGiq-_6c1Ec318OfCjcUbrQR9z_zdUIOOKcM,2405
+nutshell/algorithms/similarity.py,sha256=yM0MUizEQByu0tb_29bDw6KMLQ7Q_3xkPznOdppr6CE,1940
+nutshell/preprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nutshell/preprocessing/cleaner.py,sha256=GC7mbjlAYFbexJfMz-aMA1pAL5UTOvpxIS69iglIQ1o,2032
+nutshell/preprocessing/preprocessor.py,sha256=9sFXdMZjxqYOye6zMbzDPynUYRQ9B8UAoEtONj9NGWc,665
+nutshell/preprocessing/tokenizer.py,sha256=P4FbRtqWDCD8hkL-F5fhsnchNIlEL1OOHOEt9DDpYY0,2209
+pynutshell-1.0.1.dist-info/LICENSE,sha256=nrb2nUih3XZOijPxSlhPRg087GU0d8E2qV3W35wkkhE,1055
+pynutshell-1.0.1.dist-info/METADATA,sha256=Walkl7tvq8mEDCs7PS_GXeBRU5OrntB49IYGsB8czgI,6577
+pynutshell-1.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pynutshell-1.0.1.dist-info/top_level.txt,sha256=htgrnsjjqd0RZ8Sgz81QupTZ_5m02z7jSqJq9K5viSA,9
+pynutshell-1.0.1.dist-info/RECORD,,
