@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2020-11-18 23:59 and 2020-11-29 20:09.
 
-The repo is 29% (11999/40000) complete.
+The repo is 34% (13999/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-86/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| pyagrum-nightly | 286 |
-| advent-of-code | 156 |
-| pyqt5-plugins | 126 |
-| quple | 110 |
-| rapidfuzz | 98 |
-| rook | 92 |
-| tfa-nightly | 90 |
-| dhall | 85 |
-| fw-ddsm | 78 |
-| foursight-core | 78 |
-| Geode-Common | 78 |
-| lalsuite | 66 |
-| hammingdist | 64 |
-| backplane | 64 |
-| text2svg | 63 |
-| OpenGeode-core | 63 |
-| ijson | 61 |
-| tqsdk | 60 |
-| musher | 60 |
-| PythonPals | 60 |
-| kodexa | 58 |
-| idrivetools | 58 |
-| notejob | 57 |
-| pymlconf | 55 |
-| gardenlinux | 54 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-86).
 
 
