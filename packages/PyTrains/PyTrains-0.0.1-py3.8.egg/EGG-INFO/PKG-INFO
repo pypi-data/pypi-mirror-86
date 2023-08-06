@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyTrains
+Version: 0.0.1
+Summary: Get realtime UK trains information through a simple Python API.
+Home-page: https://github.com/w-henderson/PyTrains
+Author: w-henderson
+License: MIT
+Project-URL: Source, https://github.com/w-henderson/PyTrains
+Description: UNKNOWN
+Keywords: trains,train times,uk,cli,timetable
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests
