@@ -1,0 +1,7 @@
+numpy
+networkx
+pyopencl
+scipy
+gpuinfo
+time
+os
