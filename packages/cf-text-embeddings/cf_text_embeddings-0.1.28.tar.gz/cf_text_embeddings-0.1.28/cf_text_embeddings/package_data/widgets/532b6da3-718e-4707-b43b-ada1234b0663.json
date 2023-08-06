@@ -1,0 +1,69 @@
+[
+  {
+    "model": "workflows.abstractwidget",
+    "fields": {
+      "name": "ML BERT for sentiment classification",
+      "action": "cf_text_embeddings_bert_sentiment",
+      "wsdl": "",
+      "wsdl_method": "",
+      "description": "This is a multilingual BERT for sentiment classification. The model was trained by Andra\u017e Pelicon.",
+      "category": "64066a04-05fe-4d9a-b380-f2627846a232",
+      "visualization_view": "",
+      "streaming_visualization_view": "",
+      "interactive": false,
+      "interaction_view": "",
+      "post_interact_action": "",
+      "image": "",
+      "treeview_image": "",
+      "static_image": "",
+      "has_progress_bar": false,
+      "is_streaming": false,
+      "order": 1,
+      "uid": "532b6da3-718e-4707-b43b-ada1234b0663",
+      "package": "cf_text_embeddings",
+      "always_save_results": false,
+      "windows_queue": false
+    }
+  },
+  {
+    "model": "workflows.abstractinput",
+    "fields": {
+      "name": "Document tokens",
+      "short_name": "txt",
+      "description": "Documents [list of str]",
+      "variable": "texts",
+      "widget": "532b6da3-718e-4707-b43b-ada1234b0663",
+      "required": true,
+      "parameter": false,
+      "multi": false,
+      "default": "",
+      "parameter_type": null,
+      "order": 1,
+      "uid": "1ca7f214-15a1-46bb-9ce1-2fb560a2c76d"
+    }
+  },
+  {
+    "model": "workflows.abstractoutput",
+    "fields": {
+      "name": "Labels",
+      "short_name": "lab",
+      "description": "Labels [list of str]",
+      "variable": "labels",
+      "widget": "532b6da3-718e-4707-b43b-ada1234b0663",
+      "order": 1,
+      "uid": "21a51695-183c-4b3c-8e13-989986cf2315"
+    }
+  },
+  {
+    "model": "workflows.abstractoutput",
+    "fields": {
+      "name": "Probabilities",
+      "short_name": "prb",
+      "description": "Probabilities [list of list of float]",
+      "variable": "probabilities",
+      "widget": "532b6da3-718e-4707-b43b-ada1234b0663",
+      "order": 1,
+      "uid": "2937d9ee-d147-4670-a1b3-459a3baf4884"
+    }
+  }
+]
