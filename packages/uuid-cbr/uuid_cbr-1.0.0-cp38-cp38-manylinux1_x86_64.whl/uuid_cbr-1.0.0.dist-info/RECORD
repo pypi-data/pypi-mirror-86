@@ -1,0 +1,10 @@
+_uuid_cbr_c.cpython-38-x86_64-linux-gnu.so,sha256=3hH3RDi5nA8-Gb1aRKePL64EccVl61y9F4hPvdSaJhg,122280
+uuid_cbr/__init__.py,sha256=1XTLryoamZxtALACP9EATSHXDBTv8c8n1rIhREq0edQ,24
+uuid_cbr/__version__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+uuid_cbr/uuid_cbr.py,sha256=wbkDFJ6Sg4Dt1FDUurHqJ38z6E_5I93Y3DdI58uJTWg,236
+uuid_cbr/uuid_cbr_c.py,sha256=6eqqsBvc4_5tLm0Zh0ITq9kn7G80_-Dsz0iPZpKVtsY,3154
+uuid_cbr-1.0.0.dist-info/LICENSE,sha256=mBuaDZ36ug6klF17iuWx5QL6L5zJ9Hb1Tusa_ySyf-s,1070
+uuid_cbr-1.0.0.dist-info/METADATA,sha256=81aHeikYp2nKphcD83hlb2l4feI3pBU6-osP6XkAz_Y,854
+uuid_cbr-1.0.0.dist-info/WHEEL,sha256=bqWvKe8aE3n3cMfNsMvb75H133x9XaN2rt-BtXZirjg,103
+uuid_cbr-1.0.0.dist-info/top_level.txt,sha256=OaJY2ThusiY7NMyo4TsH11ZnMKtFjntzHn5ivOBL3w8,21
+uuid_cbr-1.0.0.dist-info/RECORD,,
