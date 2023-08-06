@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: py-snippy
+Version: 1.0.0
+Summary: This is a snippet management package
+Home-page: UNKNOWN
+Author: Tejas Baid
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: python-editor
+Requires-Dist: pyperclip
+
+UNKNOWN
+
+
