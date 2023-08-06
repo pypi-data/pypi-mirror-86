@@ -1,0 +1,11 @@
+tacotron/__init__.py,sha256=KBGdmgTjFJwf6GptPOCEnVsFlc5UY92dgsM2QaHjxNU,311
+tacotron/cmudict-0.7b.txt,sha256=ZRjaHC36CusrNk1PWqXO4zrsWB0UMapBEop52_HWMd0,3716718
+tacotron/config.toml,sha256=UBjBgq0UkE-1347MNuRLpWrW7Em7KQOW6wiHRb0Hk6A,1363
+tacotron/dataset.py,sha256=zBc5XM9t7jTRfHBYozskAMsABC3fYkgZBVtqiXCI83g,4273
+tacotron/model.py,sha256=ZA5I1Op3rXhSdgu3EyeR8LMl_S1QMTp4irvf21Cona4,12086
+tacotron/text.py,sha256=QAzfydCNecA7CLOU2NE-aoJVQlTCxQtTZVlY8UGLoOs,4473
+tacotron-0.1.1.dist-info/LICENSE,sha256=2j7OLS2vXIEshgbSkiCU9RgYJY1M4OBBtO6ECbo7OB8,1056
+tacotron-0.1.1.dist-info/METADATA,sha256=G2_E6UXcsCYPMzCnQw_RP7v0Uv0445jN6EZc1eAVErs,6178
+tacotron-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tacotron-0.1.1.dist-info/top_level.txt,sha256=sa6GlQZPGtSKZR_cL4jalV8qOcqUKGX7_4VxpsUk2PY,9
+tacotron-0.1.1.dist-info/RECORD,,
