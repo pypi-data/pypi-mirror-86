@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+tacotron/__init__.py
+tacotron/cmudict-0.7b.txt
+tacotron/config.toml
+tacotron/dataset.py
+tacotron/model.py
+tacotron/text.py
+tacotron.egg-info/PKG-INFO
+tacotron.egg-info/SOURCES.txt
+tacotron.egg-info/dependency_links.txt
+tacotron.egg-info/requires.txt
+tacotron.egg-info/top_level.txt
