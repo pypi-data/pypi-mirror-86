@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pytorch_optimize
+Version: 0.0.1
+Summary: Package to train pytorch models for non-differentiable objectives
+Home-page: https://github.com/rajcscw/pytorch-optimize
+Author: Rajkumar Ramamurthy
+Author-email: raj1514@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7

@@ -1,0 +1,13 @@
+README.md
+setup.py
+pytorch_optimize/__init__.py
+pytorch_optimize/evaluator.py
+pytorch_optimize/model.py
+pytorch_optimize/objective.py
+pytorch_optimize/optimizer.py
+pytorch_optimize/scaler.py
+pytorch_optimize.egg-info/PKG-INFO
+pytorch_optimize.egg-info/SOURCES.txt
+pytorch_optimize.egg-info/dependency_links.txt
+pytorch_optimize.egg-info/requires.txt
+pytorch_optimize.egg-info/top_level.txt
