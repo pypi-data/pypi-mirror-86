@@ -1,0 +1,4 @@
+PyYaml
+nltk
+shtab
+pycctek
