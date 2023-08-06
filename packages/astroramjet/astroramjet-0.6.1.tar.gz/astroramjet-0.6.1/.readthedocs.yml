@@ -1,0 +1,10 @@
+# ReadTheDocs configuration file version.
+version: 2
+
+sphinx:
+    configuration: docs/conf.py
+
+python:
+    install:
+        - requirements: docs/development_requirements.txt
+    system_packages: true
