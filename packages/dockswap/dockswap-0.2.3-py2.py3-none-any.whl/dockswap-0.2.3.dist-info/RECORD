@@ -1,0 +1,13 @@
+dockswap/__init__.py,sha256=L0txGpoF09QVbSaCpqwm3X1iOrU4brlMWJsvai0Vz_Y,100
+dockswap/cli.py,sha256=TGbh0RcaBaluEadogtin4uTWH1f-51Kca_oD6NAgX7w,7959
+dockswap/dockswap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dockswap/dockswap/core.py,sha256=dPO8DSgQ5h2HpPajm6EtAJH6mfPSXqiy_A2vzGdZI6U,7051
+dockswap/dockswap/errors.py,sha256=_of2dTFdl-C6LvNU6OdBDKo0ognzqFhyXO_MIkIPg-0,41
+dockswap/dockswap/validators.py,sha256=a-CdKu702hTWwC9ZDtIkaSMgNhvRFlaftVsIV5fj05Y,1092
+dockswap-0.2.3.dist-info/AUTHORS.rst,sha256=60L-QyYVGiSkKupPbic5yiR2pJyckfEFs1Jb4sryLpI,113
+dockswap-0.2.3.dist-info/LICENSE,sha256=kIvPrrcj_D7btOPUXGZLCSt29gPjGovrn3-Tb8jWPwk,1077
+dockswap-0.2.3.dist-info/METADATA,sha256=3Lit4WiRL6o_dmYgs_d_LNzt8JcSKzwvyBp2eXAWVvU,3450
+dockswap-0.2.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+dockswap-0.2.3.dist-info/entry_points.txt,sha256=tJzlO--WWQbc2BES-CZ65xywXGBjw_3A3epGTB3EGAI,47
+dockswap-0.2.3.dist-info/top_level.txt,sha256=a1FCw8_f6gNeiaL47wck5mx0XmuYOp1fFlfumYQSBiY,9
+dockswap-0.2.3.dist-info/RECORD,,
