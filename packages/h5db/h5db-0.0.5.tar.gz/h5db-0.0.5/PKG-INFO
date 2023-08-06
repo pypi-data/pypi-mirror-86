@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: h5db
+Version: 0.0.5
+Summary: 利用h5来做一个分布式的kv磁盘存储工具
+Home-page: https://www.zhihu.com/people/feifeiaphy
+Author: Larryjianfeng
+Author-email: 244060203@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
