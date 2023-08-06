@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pytfrec
+Version: 0.0.3
+Summary: Pythonic tools for TFRecord files
+Home-page: https://github.com/dariush-bahrami/pytfrec
+Author: dAriush Bahrami
+Author-email: dariush.bahrami@ut.ac.ir
+License: UNKNOWN
+Description: # pytfrec (Pythonic TFRecord Tools)
+        This package contains functions that are used for easy access to tfrec files. The purpose of this package is to provide a simple Python method for working with tfrec files without having to deal with the technical complexities that exist in the Tensorflow documentation.
+        At the moment this package only contain functions to deal with image datasets
+        
+        ## How to Use:
+        very simple:
+        ```python
+        from pytfrec.image import get_datasets
+        tfrecs_dir = 'path-to-tfrecs-dir'
+        image_size = (64, 64)
+        batch_size = 32
+        validation_data_ratio = 0.3
+        datasets = get_datasets(tfrecs_dir,
+                                image_size,
+                                batch_size,
+                                validation_data_ratio,
+                                channels=3,
+                                labeled=True,
+                                ordered=False)
+        # datasets is a dictionary which contain train and validation datasets
+        train_dataset = datasets['train']
+        validation_dataset = datasets['validation']
+        # This datasets can be used directly in keras model.fit method
+        ```
+        
+        References:
+        
+        * [How to train a Keras model on TFRecord files](https://keras.io/examples/keras_recipes/tfrecord/)
+        
+        * [How to inspect a Tensorflow .tfrecord file?](https://stackoverflow.com/questions/42394585/how-to-inspect-a-tensorflow-tfrecord-file/42402484#42402484)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
