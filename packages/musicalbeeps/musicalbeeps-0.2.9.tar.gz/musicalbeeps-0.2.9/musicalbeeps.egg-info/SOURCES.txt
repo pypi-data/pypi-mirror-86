@@ -1,0 +1,11 @@
+README.md
+setup.py
+musicalbeeps/__init__.py
+musicalbeeps/beepsplayer.py
+musicalbeeps/script.py
+musicalbeeps.egg-info/PKG-INFO
+musicalbeeps.egg-info/SOURCES.txt
+musicalbeeps.egg-info/dependency_links.txt
+musicalbeeps.egg-info/entry_points.txt
+musicalbeeps.egg-info/requires.txt
+musicalbeeps.egg-info/top_level.txt
