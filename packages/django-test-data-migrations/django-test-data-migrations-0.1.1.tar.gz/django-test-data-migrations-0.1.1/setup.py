@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['django_test_data_migrations']
+
+package_data = \
+{'': ['*']}
+
+setup_kwargs = {
+    'name': 'django-test-data-migrations',
+    'version': '0.1.1',
+    'description': 'Test utilities for easily testing Django data migrations',
+    'long_description': '# Django Data Migration Test\n\nTest utilities for easily testing Django data migrations\n\n## Installation\n\n```\npip install django-test-data-migrations\n```\n\n## Usage\n\nDefine the following functions in your migration file\n1. `data_forward(*args)`\n2. `data_backward(*args)` (optional)\n\n```python\nfrom django_test_data_migrations import DataMigrationsTestCaseBase\n\nfrom app_a.models import Animal\n\nclass YourDataMigrationTestCase(DataMigrationsTestCaseBase):\n    def test__forward_migration__something_important(self):\n        # Prepare some data\n\n        # Run\n        self.data_forward(some_arg_0, some_arg_1, ...)\n\n        # Some assertions\n    \n    def test__backward_migration__something_important(self):\n        # Prepare some data\n\n        # Run\n        self.data_backward(some_arg_0, some_arg_1, ...)\n\n        # Some assertions\n```\n\n## Example\nSay you have a simple Django project with following general structure\n```bash\ntest_project/\n└── app_a\n \xa0\xa0 ├── apps.py\n \xa0\xa0 ├── __init__.py\n \xa0\xa0 ├── migrations\n \xa0\xa0 │\xa0\xa0 ├── 0001_initial.py\n \xa0\xa0 │\xa0\xa0 ├── 0002_datafix_addsuffixtoname.py\n \xa0\xa0 │\xa0\xa0 └── __init__.py\n \xa0\xa0 ├── models.py\n \xa0\xa0 └── tests\n \xa0\xa0     ├── __init__.py\n \xa0\xa0     └── test_0002_datafix_addsuffixtoname.py\n```\nwith the following model\n```python\nfrom django.db import models\n\n\nclass Animal(models.Model):\n    species = models.CharField(blank=False, null=False, max_length=50)\n    name = models.CharField(blank=False, null=False, max_length=100)\n\n    def __str__(self):\n        return f"Animal [name={self.name}, species={self.species}]"\n```\nalong with the following migration\n```python\n# app_a/migrations/0002_datafix_addsuffixtoname.py\n\nfrom django.db import migrations\n\nSUFFIX = " ZZ"\n\n\ndef data_forward(Animal):\n    for animal in Animal.objects.all():\n        animal.name += SUFFIX\n        animal.save()\n\n\ndef data_backward(Animal):\n    for animal in Animal.objects.filter(name__endswith=SUFFIX):\n        animal.name = animal.name.rstrip(SUFFIX)\n        animal.save()\n\n\ndef forward(apps, schema_editor):\n    Animal = apps.get_model("app_a", "Animal")\n    data_forward(Animal)\n\n\ndef backward(apps, schema_editor):\n    Animal = apps.get_model("app_a", "Animal")\n    data_backward(Animal)\n\n\nclass Migration(migrations.Migration):\n\n    dependencies = [\n        (\'app_a\', \'0001_initial\'),\n    ]\n\n    operations = [\n        migrations.RunPython(forward, backward),\n    ]\n```\nYou can test it as the following\n```python\nfrom django_test_data_migrations import DataMigrationsTestCaseBase\n\nfrom app_a.models import Animal\n\n\nclass DataMigrationsTestCase(DataMigrationsTestCaseBase):\n    app_name = "app_a"\n    migration_name = "0002_datafix_addsuffixtoname"\n\n    def test__data_forward__append_suffix_to_name(self):\n        # Prepare data before migration\n        dog = Animal.objects.create(name="Dog", species="dog")\n        cat = Animal.objects.create(name="Cat", species="cat")\n\n        # Run `data_forward` aka the entry point to your data migration\n        self.data_forward(Animal)\n\n        # Make your assertions\n        self.assertEqual(Animal.objects.get(id=dog.id).name, "Dog ZZ")\n        self.assertEqual(Animal.objects.get(id=cat.id).name, "Cat ZZ")\n\n    def test__data_backward__append_suffix_to_name(self):\n        dog = Animal.objects.create(name="Dog ZZ", species="dog")\n        cat = Animal.objects.create(name="Cat zz", species="cat")\n\n        self.data_backward(Animal)\n\n        self.assertEqual(Animal.objects.get(id=dog.id).name, "Dog")\n        self.assertEqual(Animal.objects.get(id=cat.id).name, "Cat zz")\n```\n\n## Why do I need this library?\n\n1. Runs your data migration test very fast.\n2. Encourages developers to write data-related Django migrations separately from model definition related Django migrations\n3. Writing tests for data related migrations is extremely important, but is either tricky to do or takes a long time to run. This library intends to testing data migrations easy and fast\n\n## Development\n\n### Setup\nCheck requirements\n```\npoetry --version\n```\nClone source code repository\n```bash\ngit clone git@github.com:imranariffin/django-test-data-migrations.git\n```\nInstall dev dependencies\n```bash\npoetry install\n```\n\n### Run tests\n```bash\nmake test\n```\nYou should be ready to start development\n\n## Links\n\n* [PyPi](https://pypi.org/project/django-test-data-migrations/)\n',
+    'author': 'Imran Ariffin',
+    'author_email': 'ariffin.imran@gmail.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/imranariffin/django-test-data-migrations',
+    'packages': packages,
+    'package_data': package_data,
+    'python_requires': '>=3.6,<4.0',
+}
+
+
+setup(**setup_kwargs)
