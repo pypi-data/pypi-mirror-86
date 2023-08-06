@@ -1,0 +1,9 @@
+README.md
+setup.py
+tefas/__init__.py
+tefas/crawler.py
+tefas_crawler.egg-info/PKG-INFO
+tefas_crawler.egg-info/SOURCES.txt
+tefas_crawler.egg-info/dependency_links.txt
+tefas_crawler.egg-info/requires.txt
+tefas_crawler.egg-info/top_level.txt
