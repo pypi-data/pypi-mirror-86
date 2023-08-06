@@ -1,0 +1,14 @@
+bandcamp_dl/__init__.py,sha256=Y9JSOS2pknqT0jo_oXEp8RKQ880Znprqiu6rHmPrBQ4,24
+bandcamp_dl/__main__.py,sha256=QodkI-Q3225i3AljMhKaudqjOrXKoTjCHp57y2dvnEk,4502
+bandcamp_dl/bandcamp.py,sha256=6a-CLsLsNh0T2JlD19iSiIXrFPo8zC1mOs6sJsrAquw,5616
+bandcamp_dl/bandcampdownloader.py,sha256=xFIGq5G4WxLK_fP7JsYWI9z0KMcqqpY_k_m1_lZst8Y,10505
+bandcamp_dl/bandcampjson.py,sha256=qMIi_Mzef1Y8PsNrrkUo6kZ_ZeZseYCf66kp9bZdmdg,1566
+bandcamp_dl/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bandcamp_dl/utils/clean_print.py,sha256=iIm-SySTOJbs5QsG5U1B7DTn0BT56X59Fej1ktCuFKI,200
+bandcamp_dl/utils/requests_patch.py,sha256=Kl-5so8HXTZ6-YhdDPKrCB8eZf7EGDt2yEGF9hfXLi4,1378
+bandcamp_downloader-0.0.9.post1.dist-info/LICENSE,sha256=fhLl30uuEsshWBuhV87SDhmGoFCN0Q0Oikq5pM-U6Fw,1211
+bandcamp_downloader-0.0.9.post1.dist-info/METADATA,sha256=NLpNhEMV8N1s1qfGo0pgmyckjhXgkX7yjSB3T-eGpSc,8108
+bandcamp_downloader-0.0.9.post1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bandcamp_downloader-0.0.9.post1.dist-info/entry_points.txt,sha256=LTpOir8hOMPlTxePgMhmAXWmS8_mRfzOt01b_1_deM8,59
+bandcamp_downloader-0.0.9.post1.dist-info/top_level.txt,sha256=QkWP-NIwGWjJrLTIhTRiOD-Wjuy1dAXkGBosL5pr5ME,12
+bandcamp_downloader-0.0.9.post1.dist-info/RECORD,,
