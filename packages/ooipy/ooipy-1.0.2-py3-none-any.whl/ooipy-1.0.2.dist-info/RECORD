@@ -1,0 +1,15 @@
+ooipy/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+ooipy/hydrophone/__init__.py,sha256=sIbinGLIhixHX721NZvrP5D0BHGG99B9Nsegix1RRAk,98
+ooipy/hydrophone/basic.py,sha256=fM4OHFE244_8qyPfSF8uxKM4dcd4X2mRdrGfFvcqKAA,36838
+ooipy/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ooipy/request/hydrophone_request.py,sha256=b9yDMdA7bVHSlw-fOz-1qCgJdbmarDoEP__BxX5phdg,22985
+ooipy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ooipy/tests/test_request.py,sha256=Vj5hJ-ly9uMKYbJh0KJjouvNpdM9U5R_PXVagGUJxP8,1939
+ooipy/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ooipy/tools/ooiplotlib.py,sha256=n9_l3TFtt9WOTpFudJyEL_eLlHHBhCVuyRXOdfariHQ,11067
+ooipy/tools/workflow.py,sha256=ZFGVIBfMtMllQC14z7UbJM01Utv7s1r6vamgt44yU20,3253
+ooipy-1.0.2.dist-info/LICENSE,sha256=Ho4eDpiZpk5jxDW1mMzs4f9yAbhmYSCIQFO0sgC-ZxY,1083
+ooipy-1.0.2.dist-info/METADATA,sha256=dcGUr3wt87KZYFumGhfDhS6GQPeyS34e1-an-vZgb0g,1494
+ooipy-1.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ooipy-1.0.2.dist-info/top_level.txt,sha256=8wfRXsbuuNlsW6eJ1E_sakG6eDwR9vn0kh_GKGqlxB4,6
+ooipy-1.0.2.dist-info/RECORD,,
