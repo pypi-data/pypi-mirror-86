@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b780585-47d5-4a95-8bc9-74daf96d3e76" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="quarchpy" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kB7eTdovvn9mxiSB4hShwyWvhW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/connection_specific" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Python37\Lib\site-packages\quarchpy\connection_specific" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.driveTestCore">
+    <configuration name="dasdas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="quarchpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/disk_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/disk_test/dasdas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="driveTestCore" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="quarchpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/disk_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/disk_test/driveTestCore.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sasFuncs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quarchpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/disk_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/disk_test/sasFuncs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="quarchpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dasdas" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.sasFuncs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b780585-47d5-4a95-8bc9-74daf96d3e76" name="Default Changelist" comment="" />
+      <created>1605162225422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605162225422</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1286" height="480" key="DebuggerActiveHint" timestamp="1605210226152">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="1286" height="480" key="DebuggerActiveHint/72.27.1288.741@72.27.1288.741" timestamp="1605210226152" />
+    <state width="1265" height="244" key="GridCell.Tab.0.bottom" timestamp="1605225311184">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="1265" height="244" key="GridCell.Tab.0.bottom/72.27.1288.741@72.27.1288.741" timestamp="1605225311184" />
+    <state width="1265" height="244" key="GridCell.Tab.0.center" timestamp="1605225311182">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="1265" height="244" key="GridCell.Tab.0.center/72.27.1288.741@72.27.1288.741" timestamp="1605225311182" />
+    <state width="1265" height="244" key="GridCell.Tab.0.left" timestamp="1605225311182">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="1265" height="244" key="GridCell.Tab.0.left/72.27.1288.741@72.27.1288.741" timestamp="1605225311182" />
+    <state width="1265" height="244" key="GridCell.Tab.0.right" timestamp="1605225311183">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="1265" height="244" key="GridCell.Tab.0.right/72.27.1288.741@72.27.1288.741" timestamp="1605225311183" />
+    <state width="1265" height="244" key="GridCell.Tab.1.bottom" timestamp="1605225311185">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="1265" height="244" key="GridCell.Tab.1.bottom/72.27.1288.741@72.27.1288.741" timestamp="1605225311185" />
+    <state width="1265" height="244" key="GridCell.Tab.1.center" timestamp="1605225311184">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="1265" height="244" key="GridCell.Tab.1.center/72.27.1288.741@72.27.1288.741" timestamp="1605225311184" />
+    <state width="1265" height="244" key="GridCell.Tab.1.left" timestamp="1605225311184">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="1265" height="244" key="GridCell.Tab.1.left/72.27.1288.741@72.27.1288.741" timestamp="1605225311184" />
+    <state width="1265" height="244" key="GridCell.Tab.1.right" timestamp="1605225311185">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="1265" height="244" key="GridCell.Tab.1.right/72.27.1288.741@72.27.1288.741" timestamp="1605225311185" />
+    <state width="644" height="370" key="XDebugger.FullValuePopup" timestamp="1605191154147">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state width="644" height="370" key="XDebugger.FullValuePopup/72.27.1288.741@72.27.1288.741" timestamp="1605191154147" />
+    <state x="127" y="101" width="1088" height="594" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605167619731">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="127" y="101" width="1088" height="594" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1288.741@72.27.1288.741" timestamp="1605167619731" />
+    <state x="326" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605210557857">
+      <screen x="72" y="27" width="1288" height="741" />
+    </state>
+    <state x="326" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1288.741@72.27.1288.741" timestamp="1605210557857" />
+  </component>
+</project>
