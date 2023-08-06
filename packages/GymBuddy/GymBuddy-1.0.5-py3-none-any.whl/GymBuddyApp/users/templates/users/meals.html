@@ -1,0 +1,115 @@
+{% load static %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Gutim Template">
+    <meta name="keywords" content="Gutim, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GymBuddy</title>
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css"> 
+</head>
+
+<body style="background-color:grey;" >
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container">
+            <div class="logo" style="margin-left: 15px;">
+                <a href="/home">
+                    <img src="{% static 'img/logo2.png' %}" alt="">
+                </a>
+            </div>
+            <div class="nav-menu" style="margin-top: 45px;">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/macros">Track Macros/Calories</a></li>
+                        <li class="active"><a href="/meals">Meals</a></li>
+                        <li><a href="/exercises">Exercises</a></li>
+                        <li><a href="/weight">Track Your Weight</a></li>
+                    </ul>
+                </nav>
+                <a href="/profile" class="primary-btn">Profile</a>
+                <a href="/logout" class="primary-btn">Logout</a>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+    
+    <!-- About Section Begin -->
+    <section class="about-section spad">
+        <div class="container">
+
+                        <h2 style="color:white; padding-bottom: 10px; padding-top: 10px;" >Find New Meals To Fit Your Goals!</h2>
+                        <div class="meal-box-overflow">
+
+                         <form method='POST' action="{{filter.get_category_display}}" style="padding-bottom: 30px; padding-left: 15px;">
+                             {% csrf_token %}
+                            {{filter|crispy}}
+                            <Button class="btn btn-default btn-lg" type="submit" name="form_submit">Filter</Button>
+                         </form>
+
+                           {% for recipe in meals %}
+                               {{filter.get_category_display}}
+                               <li style="display: inline-block; padding-right: 25px; padding-bottom: 20px; width: 350px; padding-left: 10px" >
+                               <img src={{recipe.img}} width="250px" height="300px">
+
+                                    <h5 style="color:white;">{{recipe.title}}</h5>
+                                    <a href = {{recipe.link}}>Get Recipe!</a>
+
+                                    </p>
+
+
+                {% endfor %}
+
+                    <a href="#" class="primary-btn">Find</a>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- About Section End -->
+    <!-- About Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="classes-section spad" style="background-color: black;">
+        <div class="container" style="background-color: black;">
+            <div class="row" style="background-color: black;">
+                <div class="col-md-4" style="background-color: black;">
+                    <div class="contact-option" style="float: left; width: 30%; margin-left: 20px;">
+                        <span>Phone</span>
+                        <p>(123) 118 9999 - (123) 118 9999</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-option" style="float: left; width: 30%;">
+                        <span>Address</span>
+                        <p>72 Kangnam, 45 Opal Point Suite 391</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-option" style="float: left; width: 30%;">
+                        <span>Email</span>
+                        <p>contactcompany@GymBuddy.com</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+</body>
+
+</html>
