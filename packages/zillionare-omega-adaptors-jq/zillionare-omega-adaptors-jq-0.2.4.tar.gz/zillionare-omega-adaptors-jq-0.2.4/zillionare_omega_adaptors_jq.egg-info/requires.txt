@@ -1,0 +1,5 @@
+arrow~=0.15
+ruamel.yaml~=0.16
+numpy~=1.18.1
+jqdatasdk>=1.8
+pytz>=2019.3
