@@ -1,0 +1,10 @@
+LICENSE,sha256=LYo-H4_UXEUecChyWywP6RyBGZoFplS2EpUKpYoe_SY,1076
+mltemplate/cli/__main__.py,sha256=ZliDHJIR3GO9QwZbnMj7RoerY92MznrjsSll1h1HPGw,723
+mltemplate/scripts/keras-template.sh,sha256=DJE-5xdzli2p7K9isDcdDnRM8BLyelHHiq3BUdwROz8,50816
+mltemplate/scripts/pytorch-template.sh,sha256=hrcyuuRi5kF8nrPpFbWL33JfOlW0a3J8q-kmvfq8U9c,58536
+mltemplate/scripts/tf-template.sh,sha256=DJE-5xdzli2p7K9isDcdDnRM8BLyelHHiq3BUdwROz8,50816
+mltemplate-0.1.1.dist-info/entry_points.txt,sha256=mMLhi1r198X6zT9SqeoqwN6tH-5KG7wvE6HrvkIIE3E,59
+mltemplate-0.1.1.dist-info/LICENSE,sha256=LYo-H4_UXEUecChyWywP6RyBGZoFplS2EpUKpYoe_SY,1076
+mltemplate-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mltemplate-0.1.1.dist-info/METADATA,sha256=BshHEP4m_ch8XOq05SKd_V98KJ3LRbcE2hHdXzUzRUY,2586
+mltemplate-0.1.1.dist-info/RECORD,,
