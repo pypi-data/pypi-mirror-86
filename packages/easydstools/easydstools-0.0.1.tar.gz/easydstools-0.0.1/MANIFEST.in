@@ -1,0 +1,2 @@
+recursive-include dstools/*.py
+recursive-exclude * __pycache__

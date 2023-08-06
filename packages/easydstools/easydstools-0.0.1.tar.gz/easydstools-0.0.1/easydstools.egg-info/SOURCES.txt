@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+easydstools/__init__.py
+easydstools.egg-info/PKG-INFO
+easydstools.egg-info/SOURCES.txt
+easydstools.egg-info/dependency_links.txt
+easydstools.egg-info/not-zip-safe
+easydstools.egg-info/top_level.txt
