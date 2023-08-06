@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pymeetings/__init__.py
+pymeetings/pymeet.py
+pymeetings/utils.py
+pymeetings/world_cities.csv
+pymeetings.egg-info/PKG-INFO
+pymeetings.egg-info/SOURCES.txt
+pymeetings.egg-info/dependency_links.txt
+pymeetings.egg-info/top_level.txt

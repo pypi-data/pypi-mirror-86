@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pymeetings
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/fregocap/PyMeeting
+Author: Fabio Capela
+Author-email: capela625@gmail.com
+License: UNKNOWN
+Description: 
+        # Pymeetings
+        
+        This is a simple library that allows to compute the different hours in different
+        spots of the world with respect to the GMT.
+        
+        # Installation
+        
+        
+        ```Bash
+        pip install pymeetings
+        
+        ```
+        
+        # Examples
+        
+        Here is a simple example:
+        
+        ```Python
+        from pymeetings.pymeet import GetMeetingHour(['Chicago', 'Paris'], '2020/11/23')
+        
+        df = getmet.ConstructTable()
+        print(df)
+        ```
+        
+        There are several examples that are present in the directory **examples**.
+        
+        # Still ToDo
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
