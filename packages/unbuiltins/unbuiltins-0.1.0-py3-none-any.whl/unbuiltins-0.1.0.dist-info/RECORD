@@ -1,0 +1,10 @@
+unbuiltins/__init__.py,sha256=pI2-5qhhDz7almQzaJT3-_Ryob4x27UJXDqBZMLNUm8,285
+unbuiltins/_types.py,sha256=Gc4kMDy2fbTRktfyrPpfvY6JEWiFZHBofdTE6HnKSbA,652
+unbuiltins/constants.py,sha256=IZictOkFwoowZtijiofuQD2zP2ocOrAXlTmM6NKx53k,724
+unbuiltins/not_collections.py,sha256=zjtJtXWOsC6VuzhPGGvN4klG6KsYfdH-L0LAbegFgCg,3192
+unbuiltins/not_itertools.py,sha256=Bskmm9ogIj5Sk-nEBk661GDdz4Y7r4BW5bpRwEGekPo,1220
+unbuiltins-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+unbuiltins-0.1.0.dist-info/METADATA,sha256=eOAkZYrthU2a5iJ2nwo_MNKPzFfTJUjxq5dNoiBtwtY,2323
+unbuiltins-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+unbuiltins-0.1.0.dist-info/top_level.txt,sha256=rshXZhiphkBmUaWkrHCWb4fwcD_sSy03whzLQ1yzyj4,11
+unbuiltins-0.1.0.dist-info/RECORD,,
