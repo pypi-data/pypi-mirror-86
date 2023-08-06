@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyEnvMgr
+Version: 0.1
+Summary: A tool to handle python environments
+Home-page: https://github.com/divad1196/pyEnvMgr
+Author: Gallay David
+Author-email: davidtennis96@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+pyEnvMgr
+========
+
+Tool to handle multiple python virtualenv.
+
+It is based on `Pew <https://github.com/berdario/pew>`__ but aimed to:
+
+-  Be able to use either virtualenv or venv (or anything as long as the
+   manager is provided)
+-  Easier to maintain
+-  To be usable as a library, without further subprocess call
+
