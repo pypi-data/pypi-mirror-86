@@ -1,0 +1,12 @@
+emacnn/__init__.py,sha256=UK9y1FojRjSP4pBTxGwY_KAjbN4DKialmLS2a9AXXls,244
+emacnn/__main__.py,sha256=BE0w1bLRRP41vlYGiGZlNi4vLF7zAmU_LWqiz4CTDNU,67
+emacnn/cli.py,sha256=4-B0CtlvB3Mt9heBaWJOjy-PH1kSz95s9sahOheA2G4,4155
+emacnn/data.py,sha256=sgPIH41P_beq5TRWFkt8g0N3DZU2vLn7CVIe8xgVoS8,3061
+emacnn/features.py,sha256=8oP58l2_jqiC11EmPT8RDBdM7Qxrwlr3bA70Ha3kRPA,2303
+emacnn/model.py,sha256=knzmk4ZIMRe5qCg6iwqzSE5lsurCdV10k0VS2afIFKo,3412
+emacnn-0.0.1.dist-info/LICENSE,sha256=K4m-5rxIYwBpI933Ap4QinPnC2ggZJx3suGecYvJtW8,1100
+emacnn-0.0.1.dist-info/METADATA,sha256=ys3K2muYKBub8-lJjNzqcjMgvMwq_eu3Vo-3Bk1jlnM,2991
+emacnn-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+emacnn-0.0.1.dist-info/entry_points.txt,sha256=aDao1tUW_F9uGOrk38FlVum9YyhsKY0R59hfuNmpkss,54
+emacnn-0.0.1.dist-info/top_level.txt,sha256=JPUjrHDrhp3WT1DFapkkkcl29cZB77szYO2cwEvliDs,7
+emacnn-0.0.1.dist-info/RECORD,,

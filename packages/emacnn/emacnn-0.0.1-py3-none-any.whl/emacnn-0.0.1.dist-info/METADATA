@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: emacnn
+Version: 0.0.1
+Summary: A CLI for training a neural network on a specific YouTube channel's videos.
+Home-page: https://gitlab.com/tedtramonte/emacnn
+Author: Ted Tramonte
+License: MIT
+Project-URL: Issue tracker, https://gitlab.com/tedtramonte/emacnn/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Sociology
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Click (==7.1.2)
+Requires-Dist: google-api-python-client (==1.12.5)
+Requires-Dist: nltk (==3.5)
+Requires-Dist: tensorflow (==2.3.1)
+Requires-Dist: youtube-transcript-api (==0.3.1)
+
+# EmacNN
+EmacNN is a CLI for training a neural network to generate YouTube video scripts using YouTube's automated closed captions for a specific channel's videos.
+
+The name, Emac, refers ostensibly to one of [Eric McHenry's]((https://www.youtube.com/c/GodofKings1)) preferred nicknames. His long, rambling, often circuitous, and long ["vlogs"]((https://www.youtube.com/c/GodofKings1)) inspired this project.
+
+[![GitLab pipeline](https://img.shields.io/gitlab/pipeline/tedtramonte/emacnn)](https://gitlab.com/tedtramonte/emacnn/builds)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/emacnn)](https://pypi.org/project/emacnn/)
+[![PyPI - License](https://img.shields.io/pypi/l/emacnn)](https://choosealicense.com/licenses/mit/)
+[![PyPI - Version](https://img.shields.io/pypi/v/emacnn)](https://gitlab.com/tedtramonte/emacnn/-/releases)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/emacnn)](https://gitlab.com/tedtramonte/emacnn)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/emacnn)](https://gitlab.com/tedtramonte/emacnn)
+[![PyPI - Status](https://img.shields.io/pypi/status/emacnn)](https://gitlab.com/tedtramonte/emacnn)
+
+## Installation
+The best way to install EmacNN is to use Pip.
+
+```bash
+pip install emacnn
+```
+
+## Usage
+```bash
+# Display help text
+emacnn --help
+```
+
+## Contributing
+Merge requests are welcome after opening an issue first. Please make sure to update tests as appropriate.
+
+### Development
+Install in a virtual environment with:
+
+```bash
+python -m venv env
+pip install -e .
+```
+
+To improve model training time, it is reocmmended to use CUDA if your GPU is supported.
+1. Refer to the [Keras requirements](https://www.tensorflow.org/install/gpu).
+2. [Install CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archivE) matching Keras requirement
+3. [Install cuDNN](https://developer.nvidia.com/rdp/cudnn-archive) matching Keras requirement
+
+
