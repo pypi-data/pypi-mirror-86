@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: thereporter
+Version: 0.1
+Summary: Telegram bot interface for bug report
+Home-page: https://github.com/nikitos4319/TheReporter
+Author: Nikita
+Author-email: kutuku62@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: BUG,REPORT,TELEGRAM,BOT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
