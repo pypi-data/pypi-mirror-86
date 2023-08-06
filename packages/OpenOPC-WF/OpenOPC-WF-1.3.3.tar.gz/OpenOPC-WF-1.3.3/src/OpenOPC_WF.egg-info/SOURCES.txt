@@ -1,0 +1,8 @@
+README.txt
+setup.py
+src/OpenOPC.py
+src/OpenOPC_WF.egg-info/PKG-INFO
+src/OpenOPC_WF.egg-info/SOURCES.txt
+src/OpenOPC_WF.egg-info/dependency_links.txt
+src/OpenOPC_WF.egg-info/requires.txt
+src/OpenOPC_WF.egg-info/top_level.txt
