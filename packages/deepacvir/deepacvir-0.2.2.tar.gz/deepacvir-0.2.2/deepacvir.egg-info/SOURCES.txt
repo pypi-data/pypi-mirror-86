@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+deepacvir/__init__.py
+deepacvir/command_line.py
+deepacvir.egg-info/PKG-INFO
+deepacvir.egg-info/SOURCES.txt
+deepacvir.egg-info/dependency_links.txt
+deepacvir.egg-info/entry_points.txt
+deepacvir.egg-info/not-zip-safe
+deepacvir.egg-info/requires.txt
+deepacvir.egg-info/top_level.txt
+deepacvir/builtin/config/nn-vhdb-rapid-cnn.ini
+deepacvir/builtin/config/nn-vhdb-sensitive-lstm.ini
+deepacvir/builtin/weights/nn-vhdb-rapid-cnn.h5
+deepacvir/builtin/weights/nn-vhdb-sensitive-lstm.h5

@@ -1,0 +1,3 @@
+include README.md
+include deepacvir/builtin/config/*
+include deepacvir/builtin/weights/*
