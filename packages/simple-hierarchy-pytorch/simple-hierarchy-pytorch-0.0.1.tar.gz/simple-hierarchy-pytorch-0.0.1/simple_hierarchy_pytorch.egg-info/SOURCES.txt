@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+simple_hierarchy/__init__.py
+simple_hierarchy/hierarchal_model.py
+simple_hierarchy/tree.py
+simple_hierarchy/tests/__init__.py
+simple_hierarchy/tests/test_heirarchal_model.py
+simple_hierarchy/tests/test_tree.py
+simple_hierarchy_pytorch.egg-info/PKG-INFO
+simple_hierarchy_pytorch.egg-info/SOURCES.txt
+simple_hierarchy_pytorch.egg-info/dependency_links.txt
+simple_hierarchy_pytorch.egg-info/requires.txt
+simple_hierarchy_pytorch.egg-info/top_level.txt
