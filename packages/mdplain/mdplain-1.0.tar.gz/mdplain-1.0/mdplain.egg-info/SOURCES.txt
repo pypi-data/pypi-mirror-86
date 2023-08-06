@@ -1,0 +1,8 @@
+README.rst
+setup.py
+mdplain/__init__.py
+mdplain.egg-info/PKG-INFO
+mdplain.egg-info/SOURCES.txt
+mdplain.egg-info/dependency_links.txt
+mdplain.egg-info/requires.txt
+mdplain.egg-info/top_level.txt
