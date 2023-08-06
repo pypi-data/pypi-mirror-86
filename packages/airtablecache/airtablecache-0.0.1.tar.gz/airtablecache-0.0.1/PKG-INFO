@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: airtablecache
+Version: 0.0.1
+Summary: Utility Package for Caching Data From Airtable
+Home-page: https://github.com/raunakk/airtablecache
+Author: Raunak Khandelwal
+Author-email: raunakkhandelwal2000@yahoo.com
+License: MIT
+Description: # airtablecache
+        
+        This project contains source code and supporting files for a package which caches data from airtable to specified location
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

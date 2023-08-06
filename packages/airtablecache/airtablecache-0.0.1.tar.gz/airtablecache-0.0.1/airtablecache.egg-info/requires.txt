@@ -1,0 +1,7 @@
+xlrd
+numpy
+pandas
+gspread
+gspread-dataframe
+requests
+airtable-python-wrapper
