@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: opoca
+Version: 0.1.1
+Summary: Opoca library aims to drastically speed up producing proof of concepts (PoC) for machine learning projects.
+License: Apache-2.0
+Keywords: machine learning,deep learning,ai,poc,fast development
+Author: Apollo Team
+Author-email: ml-team@netguru.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Cython (>=0.29.20,<0.30.0)
+Requires-Dist: MonthDelta (>=0.9.1,<0.10.0)
+Requires-Dist: category_encoders (>=2.2.2,<3.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: dynaconf (>=2.2.3,<3.0.0)
+Requires-Dist: google-cloud-storage (>=1.29.0,<2.0.0)
+Requires-Dist: horology (>=1.1.0,<2.0.0)
+Requires-Dist: imbalanced-learn (>=0.7.0,<0.8.0)
+Requires-Dist: ipython (>=7.16.1,<8.0.0)
+Requires-Dist: joblib (>=0.15.1,<0.16.0)
+Requires-Dist: kubernetes (>=11.0.0,<12.0.0)
+Requires-Dist: matplotlib (>=3.2.2,<4.0.0)
+Requires-Dist: mlflow (>=1.9.1,<2.0.0)
+Requires-Dist: numpy (>=1.19.0,<2.0.0)
+Requires-Dist: optuna (>=1.5.0,<2.0.0)
+Requires-Dist: pandas (>=1.0.5,<2.0.0)
+Requires-Dist: pandas-profiling (>=2.8.0,<3.0.0)
+Requires-Dist: plotly (>=4.8.1,<5.0.0)
+Requires-Dist: pyarrow (>=0.17.1,<0.18.0)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: python-dotenv (>=0.13.0,<0.14.0)
+Requires-Dist: quilt3 (>=3.1.14,<4.0.0)
+Requires-Dist: scikit-learn (>=0.23.1,<0.24.0)
+Requires-Dist: scikit-optimize (>=0.7.4,<0.8.0)
+Requires-Dist: scipy (>=1.5.0,<2.0.0)
+Requires-Dist: seaborn (>=0.10.1,<0.11.0)
+Requires-Dist: simple-salesforce (>=1.1.0,<2.0.0)
+Requires-Dist: tqdm (>=4.46.1,<5.0.0)
+Requires-Dist: urllib3 (==1.24.3)
+Requires-Dist: xgboost (>=1.1.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Opoca
+
+Opoca library aims to drastically speed up producing proof of concepts (PoC) for machine learning projects. 
+
+We define proof of concept as a small, quick and (not) dirty projects that results in:
+- exploratory data analysis
+- log of experiments along with models
+- deployable best model
+- demo (jupyter notebook/streamlit app etc.)
+- short report including results analysis
+
+There are several challenges that ML Engineer faces given a task to build new PoC project:
+* it's not easy to track and reproduce experiments
+* it's not easy to version and share data
+* it's not easy to schedule jobs and not burn much money on training
+* there's a lot of code that can be reused between different PoCs such as:
+    * training logic for similar problems
+    * evaluation logic
+    * plotting
+    * hyperparameters search
+    * generic feature engineering transformations
+    
+Those are just few and a list is not complete without a doubt.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+* You have installed the latest version of [poetry](https://github.com/python-poetry/poetry)
+
+## Installing Opoca
+
+Opoca is installable from PyPi by executing:
+
+```shell script
+pip install opoca
+```
+
+One may also use docker to build image:
+
+```shell script
+docker build -t opoca -f Dockerfile .
+```
+
+And run bash session interactively by executing:
+
+```shell script
+docker run -it --rm -v $PWD:/home -w /home opoca bash
+```
+
+## Contributing to Opoca
+<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
+To contribute to `Opoca`, follow these steps:
+
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
+
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## Contributors
+
+Thanks to the following people who have contributed to this project:
+* [@plazowicz](https://github.com/plazowicz)
+* [@pedrito87](https://github.com/pedrito87)
+* [@mjmikulski](https://github.com/mjmikulski)
+* [@AdrianMaciej](https://github.com/AdrianMaciej)
+* [@dkosowski87](https://github.com/dkosowski87)
+
+## Contact
+
+If you want to contact me you can reach me at <ml-team@netguru.com>.
+
+## License
+
+This project uses the following license: [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
