@@ -1,0 +1,10 @@
+setup.py
+py_snippy.egg-info/PKG-INFO
+py_snippy.egg-info/SOURCES.txt
+py_snippy.egg-info/dependency_links.txt
+py_snippy.egg-info/entry_points.txt
+py_snippy.egg-info/requires.txt
+py_snippy.egg-info/top_level.txt
+snippy/__init__.py
+snippy/__main__.py
+snippy/app.py
