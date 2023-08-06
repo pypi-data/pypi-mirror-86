@@ -1,0 +1,4 @@
+xmltodict
+nornir>=3
+nornir_utils
+junos-eznc
