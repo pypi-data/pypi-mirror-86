@@ -1,0 +1,10 @@
+exifproxy/_init_.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exifproxy/exiftool.py,sha256=WgQ4xF2oxOvk8fTlcMtF5wwDKKTgkdijI6OjQhxhzzM,4007
+exifproxy/service.py,sha256=JFHoFZMOrBMkDCnTx3KxFoL0HKVSxNzqcjtfqzXdiWc,2087
+exifproxy/web.py,sha256=mRdA_0p_P9i01c9UyY3Pandhc-ZoZVhJ08KaW7UL88U,6731
+twisted/plugins/exiftool_proxy.py,sha256=VJtPUTCGSKolWoG-1JO5c1YabNnC9bXe4mN4J0d88AI,222
+exifproxy-1.0.0.dist-info/COPYING,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+exifproxy-1.0.0.dist-info/METADATA,sha256=wWVHY61ROMZBgVBboxYx18nMojbWCkumJ7Xp5nV5Xw8,1043
+exifproxy-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+exifproxy-1.0.0.dist-info/top_level.txt,sha256=U0fUU_elOU1pn1JdaQ2YMxg9JTjAvDY7P_Iv9Y-xMtw,18
+exifproxy-1.0.0.dist-info/RECORD,,
