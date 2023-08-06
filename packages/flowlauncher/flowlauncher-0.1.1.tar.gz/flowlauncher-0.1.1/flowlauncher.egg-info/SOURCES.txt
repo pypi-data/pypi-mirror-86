@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+assets/jsonrpc.png
+flowlauncher/FlowLauncher.py
+flowlauncher/FlowLauncherAPI.py
+flowlauncher/__init__.py
+flowlauncher.egg-info/PKG-INFO
+flowlauncher.egg-info/SOURCES.txt
+flowlauncher.egg-info/dependency_links.txt
+flowlauncher.egg-info/requires.txt
+flowlauncher.egg-info/top_level.txt
