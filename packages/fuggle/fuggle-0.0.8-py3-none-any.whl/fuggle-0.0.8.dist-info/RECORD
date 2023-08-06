@@ -1,0 +1,15 @@
+fuggle/__init__.py,sha256=RP06i0CSkLAL8pqckzhbN3sYzyS9SiocZuZfvbKLa6Y,256
+fuggle/_setup.py,sha256=fR9c_7i-QILixvsWCQZDlgb8W2NmDt7HJXgFT2vNSyE,6495
+fuggle/_utils.py,sha256=FMrn4JNYXFmF6NhUmm05x34upsCvCg8--m96q7Wkytc,677
+fuggle/execution_engine.py,sha256=Ir-wM6JZMXjM8RIddv9aWIVZV57Olsu5CLzKdtD8vIg,2780
+fuggle/outputters.py,sha256=jUalCWmHuLWO4W07-NTgpiLNkM-lPsQ4Ixtv596vrjA,6332
+fuggle_version/__init__.py,sha256=wOJN3HxAgnSon5vWYU3Txm2UZ_7tBHDKXUKZIH-mXX8,22
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_execution_engine.py,sha256=BPPbx3MOMh6PYeda-TSVRdoC3679ThfoQiCxCjHAAYQ,2434
+tests/test_outputters.py,sha256=heCvqWnQ3JSJ5wspA2LfZ1tJSW7hPwFT72yeYZKjFWM,3320
+tests/test_utils.py,sha256=SdVPWI7JI-tokJDXVZUnjixfofZ0DO8LG4Gs0ulP-jg,1102
+fuggle-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fuggle-0.0.8.dist-info/METADATA,sha256=jc-hLL30bxcQLVfHO4Xbpp8FGUgyfXgC78LXAlJVDtU,1103
+fuggle-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fuggle-0.0.8.dist-info/top_level.txt,sha256=VbxbrKzGZyyCPYCyj1JptWIvzMKE-TH7yjnc4I_WZg0,28
+fuggle-0.0.8.dist-info/RECORD,,
