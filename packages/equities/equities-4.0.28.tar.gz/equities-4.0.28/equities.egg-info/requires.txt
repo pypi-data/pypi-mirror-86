@@ -1,0 +1,4 @@
+polity>=0.0.22
+pandas
+pytrends
+yfinance
