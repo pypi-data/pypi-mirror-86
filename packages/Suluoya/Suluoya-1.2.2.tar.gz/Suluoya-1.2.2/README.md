@@ -1,0 +1,255 @@
+# Suluoya
+
+### This is a package written by Suluoya not just for fun!
+
+## If pip install Suluoya failed...
+
+```python
+pip install --ignore-installed llvmlite
+```
+
+## If  this is the first time...
+
+```python
+#Install requirements
+import Suluoya.pip as sp
+sp.pip()
+```
+
+## If you wanna analyse your dataframe...
+
+```python
+import Suluoya.analyze as sa
+import pandas as pd
+df=pd.read_csv('...')
+sa.report(df)
+#This will make a html,just open it!
+```
+
+## If you wanna auto import some packages...
+
+use"import Suluoya.Import as SI" instead of "import pandas as pd,import numpy as np"...
+
+```python
+
+#pass
+import pandas as pd
+import numpy as np
+...
+df=pd.Dataframe()
+#now
+import Suluoya.Import as SI
+df=pd.Dataframe()
+SI.check()#just to check your import by using SI,can be omitted
+#ps.go and see a file named "auto_imports.py"!
+```
+
+## If you wanna writer the crawler simper...
+
+```python
+import Suluoya.spider as sp
+```
+
+### directly get text from an URL
+
+it will return a dictionary which contain title,text,description,keywords,tags,image,information and the raw html
+
+```python
+data=sp.get_text(url='',useragent='',accurate=True)
+print(data['title'])
+```
+
+### directly get soup from an URL
+
+not need to fill all the blank
+
+url='[https://pypi.org/project/Suluoya-pkg/](https://pypi.org/project/Suluoya-pkg/)' in default
+
+encoding='utf8' in defaults
+
+payloads means data in module "requests"
+
+"show=False" means 'print(soup)' instead of 'return soup'
+
+```python
+sp.get_soup(url='',encoding='',headers='',params={},payloads={},show=False)
+```
+
+### directly get json from an URL
+
+not need to fill all
+
+if url='',Suluoya will go on strike
+
+encoding='utf8' in default
+
+payloads means data in module "requests"
+
+"show=False" means show the json instead of return it
+
+```python
+sp.get_json(url='',encoding='utf8',headers={},params={},payload={},show=False)
+```
+
+### directly get tables from an URL
+
+if url='',Suluoya will go on strike
+
+encoding='utf8' in default
+
+header is the header of the table,try "header=0" instead of "header=None" in default
+
+caption is the caption of the table,capture all the tables from the URL in defaults
+
+if "save=True",tables will be saved in "1.xlsx","2.xlsx","3.xlsx"...
+
+```python
+sp.get_table(url,encoding='utf8',header=None,caption='.+',save=False)
+```
+
+### search question
+
+```python
+#search question by inputting for only once
+sly.search_question()
+#search question by inputting for many times
+sly.search_question(again=True)
+#search question by calling parameters and return answer
+print(sly.search_question(question='Besides key points, the other element a summary should include is:'))
+#search question by calling parameters and directly print answer 
+sly.search_question(question='Besides key points, the other element a summary should include is:',show=True)
+```
+
+## If you wanna do something with your texts...
+
+```python
+import Suluota.text as st
+```
+
+
+
+### translate both English and Chinese into each other
+
+if "show=False",return instead of print
+
+```python
+st.translate(text='hello word!',show=True)
+```
+
+### compare the texts
+
+accurate=True --> accurate match mode
+
+accurate=False --> fuzzy match mode
+
+show=False --> return ratio instead of print
+
+```python
+st.text_compare(text1='',text2='',accurate=True,show=True)
+```
+
+### guess gender 
+
+name should be a Chinese name!
+
+show=False --> return instead of print
+
+```python
+st.gender_guess(name='',show=True)
+```
+
+## If you wanna download something...
+
+```python
+import Suluoya.download as sd
+```
+
+### download music
+
+```python
+#download music to d:\ 
+sd.download_music()
+#download music to any path you want
+sd.download_music(path='c:\\')
+```
+
+### download video
+
+```python
+sd.download_video('url')
+```
+
+
+
+### download anything you want with an URL
+
+```python
+sd.download('http:\\...')
+```
+
+## If you wanna make a QRcode...
+
+```python
+import Suluoya.QRcode as sq
+```
+
+### make a QRcode
+
+fill in an url or some strings in content
+
+fill in the name of the png in name
+
+```python
+sq.QRcode(content='',name='')
+```
+
+### contact
+
+If you wanna contact Suluoya...
+
+```python
+sq.contact(mode='wechat')
+sq.contact(mode='qq')
+```
+
+### pay
+
+If you wanna make a donation...
+
+```python
+sq.pay(mode='alipay')
+sq.pay(mode='wechatpay')
+```
+
+## If you wanna have fun...
+
+```python
+import Suluoya.fun as sf
+```
+
+### draw a heart
+
+```python
+#draw a Suluoya heart
+sf.draw_a_heart()
+#draw any hearts you want
+sf.draw_a_heart(name='any name you like')
+```
+
+### xkcd
+
+```python
+#you do know what I mean!
+sf.xkcd()
+```
+
+### standard time
+
+get standard time
+
+show=False --> return instead of print
+
+```python
+sf.standard_time(show=True)
+```
+
