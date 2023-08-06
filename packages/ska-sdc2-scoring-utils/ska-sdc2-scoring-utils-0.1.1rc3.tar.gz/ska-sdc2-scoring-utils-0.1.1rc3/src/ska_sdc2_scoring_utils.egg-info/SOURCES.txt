@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+scripts/sdc2-score
+scripts/sdc2-score-admin
+src/ska_sdc2_scoring_utils/__init__.py
+src/ska_sdc2_scoring_utils/admin_api.py
+src/ska_sdc2_scoring_utils/api.py
+src/ska_sdc2_scoring_utils/logs.py
+src/ska_sdc2_scoring_utils.egg-info/PKG-INFO
+src/ska_sdc2_scoring_utils.egg-info/SOURCES.txt
+src/ska_sdc2_scoring_utils.egg-info/dependency_links.txt
+src/ska_sdc2_scoring_utils.egg-info/requires.txt
+src/ska_sdc2_scoring_utils.egg-info/top_level.txt
