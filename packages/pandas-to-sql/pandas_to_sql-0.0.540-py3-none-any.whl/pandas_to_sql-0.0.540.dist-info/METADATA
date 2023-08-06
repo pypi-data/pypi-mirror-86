@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pandas-to-sql
+Version: 0.0.540
+Summary: Convert pandas dataframe manipulations to sql query string
+Home-page: https://github.com/AmirPupko/pandas-to-sql
+Author: Amir
+Author-email: amirpupko@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+simple run:  
+python main.py  
+
+tests:  
+pytest ./lib  
+with console print: pytest ./lib -s  
+
+env:  
+conda env create -f environment.yml --prefix ./env  
+
+conda activate ./env  
+
+conda env update --prefix ./env -f environment.yml  
+
+conda remove --prefix ./env --all  
+
+
+
+![Python Package using Conda](https://github.com/AmirPupko/pandas-to-sql/workflows/Python%20Package%20using%20Conda/badge.svg)  
+![Upload Python Package](https://github.com/AmirPupko/pandas-to-sql/workflows/Upload%20Python%20Package/badge.svg?event=deployment)  
+
+
+
+Package:  
+python setup.py sdist bdist_wheel  
+python -m twine upload --repository pypi --skip-existing dist/*  
+
+
