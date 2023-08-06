@@ -1,0 +1,10 @@
+README.md
+setup.py
+ar/__init__.py
+ar/__main__.py
+ar/archive.py
+ar/substream.py
+ar.egg-info/PKG-INFO
+ar.egg-info/SOURCES.txt
+ar.egg-info/dependency_links.txt
+ar.egg-info/top_level.txt
