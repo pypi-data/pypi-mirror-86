@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "password_generator_simon994"
+version = "0.0.3"
+description = "A simple lib that prints a password, of a specified length"
+authors = ["SimonN <65023744+Simon994@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+generate-pw = "password_generator_simon994.password_generator_simon994:generate_password"
