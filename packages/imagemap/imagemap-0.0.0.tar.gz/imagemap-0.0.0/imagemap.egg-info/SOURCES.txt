@@ -1,0 +1,6 @@
+setup.py
+imagemap/__init__.py
+imagemap.egg-info/PKG-INFO
+imagemap.egg-info/SOURCES.txt
+imagemap.egg-info/dependency_links.txt
+imagemap.egg-info/top_level.txt
