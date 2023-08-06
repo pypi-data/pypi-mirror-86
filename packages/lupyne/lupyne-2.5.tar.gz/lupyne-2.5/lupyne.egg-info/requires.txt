@@ -1,0 +1,9 @@
+
+[graphql]
+strawberry-graphql>=0.30
+
+[rest]
+fastapi
+
+[server]
+cherrypy>=11
