@@ -1,0 +1,12 @@
+vivaldi/__init__.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+vivaldi/call.py,sha256=Ugv8dGjQVfzimDeycfG3W5moRfrb_apozygVhLkHTKY,192
+vivaldi/cli.py,sha256=KgycCLFQ9dksemUFECodNRmi2vw08JScZP8JBJfxrHw,193
+vivaldi/turn.py,sha256=SyHF8B8CSxvCNGug7BGh89HBZgPgMOs_ZiTVAE2yRZo,168
+vivaldi/types.py,sha256=vgBDHgTAvi1cdosXWhu8LihpWF1tSZ-ljwwNW2OdM0E,74
+vivaldi/vivaldi_pb2.py,sha256=aOLMKT_IqwO490xh_ba3ov896S8L9eqzQs9cK6oYxyI,23663
+vivaldi/vivaldi_pb2.pyi,sha256=6kxMXVxSUOiYYrSlO9vZdtB61hqhMHlWO6JGboqyrHM,9948
+vivaldi-0.2.2.dist-info/entry_points.txt,sha256=8eeSvYDpiSC6TbdgJqK3OST7MFEeqdwXSljY1i4dOCw,44
+vivaldi-0.2.2.dist-info/LICENSE,sha256=yZYlx0IrE3ISgPbPnUEJWZu-Gd8llrT0ypuWHJmp3ik,1070
+vivaldi-0.2.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+vivaldi-0.2.2.dist-info/METADATA,sha256=2B9li1KMhFml4YYjF8NxCE2pl03jubn8PzBxY0JQb3M,439
+vivaldi-0.2.2.dist-info/RECORD,,
