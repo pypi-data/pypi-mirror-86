@@ -1,0 +1,8 @@
+README.md
+setup.py
+piepd.egg-info/PKG-INFO
+piepd.egg-info/SOURCES.txt
+piepd.egg-info/dependency_links.txt
+piepd.egg-info/entry_points.txt
+piepd.egg-info/requires.txt
+piepd.egg-info/top_level.txt
