@@ -1,0 +1,15 @@
+posteriordb/__init__.py,sha256=Yenrk3rQ-kg58KmF6_WbAPD7_KxyyTSQ6XnO9LLOIUk,136
+posteriordb/dataset.py,sha256=6fVtOkVaIdIsNO-rc5kYtPEXcwfYmbBBdvlTvElNRhU,1443
+posteriordb/model.py,sha256=TlAwiyBqjhwOgXcHurp0bp9b3iBKSNFmEvJuGUXD2Ug,1802
+posteriordb/model_implementation_base.py,sha256=C44WseVhxlpHEYS4eRpxExSEp_QFnuaNhnrp8AYUgM8,142
+posteriordb/posterior.py,sha256=jBDupDpZgztUmWuSgkFVhKWuzelMwwEqFZRHIvWDZE4,1380
+posteriordb/posterior_database.py,sha256=mH4iogonFt3HT2qMFmbNTLsadib8TJnvQn6xsxs9-LY,4710
+posteriordb/posterior_database_github.py,sha256=HzvxMjvP6bJhwPU9439ZF5pKfEaT1YqSVmCmMNuGCpU,11088
+posteriordb/pymc3_model_implementation.py,sha256=ny6H7MORGB8hegANbZmVdMFRpgv9uQtkl3Es8ufpAcE,1138
+posteriordb/stan_model_implementation.py,sha256=iZWXhTRH22tXnC1BR08EuicO18yuaAVbAW23p49Wq0g,560
+posteriordb/util.py,sha256=-O0xNV4AeYdg54vQGxf3BhtuTsg46JARa2B27-6_U-Y,208
+posteriordb-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+posteriordb-0.2.0.dist-info/METADATA,sha256=wEss2ANYTLBBW2gptqWsihfhy6fIL6lI-2avhgPR_UI,6998
+posteriordb-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+posteriordb-0.2.0.dist-info/top_level.txt,sha256=3Z2qNneZLCjJAQAaDmVcc1ZekbKd7CuHXLAC7RigUcM,12
+posteriordb-0.2.0.dist-info/RECORD,,
