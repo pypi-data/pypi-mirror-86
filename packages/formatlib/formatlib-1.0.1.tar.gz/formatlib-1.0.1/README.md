@@ -1,0 +1,1 @@
+Une implémenation laborieuse des fonctions du tp FormatLib.
