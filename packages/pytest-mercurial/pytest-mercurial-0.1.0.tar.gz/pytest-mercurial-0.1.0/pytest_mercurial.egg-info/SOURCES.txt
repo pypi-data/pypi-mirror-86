@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+install-requirements.txt
+setup.py
+pytest_mercurial.egg-info/PKG-INFO
+pytest_mercurial.egg-info/SOURCES.txt
+pytest_mercurial.egg-info/dependency_links.txt
+pytest_mercurial.egg-info/requires.txt
+pytest_mercurial.egg-info/top_level.txt

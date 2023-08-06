@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pytest-mercurial
+Version: 0.1.0
+Summary: pytest plugin to write integration tests for projects using Mercurial Python internals
+Home-page: https://foss.heptapod.net/mercurial/pytest
+Author: Georges Racinet
+Author-email: georges.racinet@octobus.net
+License: GPLv2+
+Description: # Mercurial Test Helpers
+        
+        This is a collection of facilities to help writing integraton tests
+        for Python code with dependencies on Mercurial.
+        
+        See the [Integration Tests Plan wiki page](https://www.mercurial-scm.org/wiki/IntegrationTestsPlan) for more details.
+        
+Keywords: hg mercurial testing pytest
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Version Control :: Mercurial
+Description-Content-Type: text/markdown
