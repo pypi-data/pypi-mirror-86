@@ -1,0 +1,12 @@
+simplelayout/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplelayout/__main__.py,sha256=bVMcdSVg2G7coatqxukJ49CCZ-s3CvWKfpgUzmkCjE8,768
+simplelayout/cli/__init__.py,sha256=i5sL7z_H9A0Bxw-Ofc1AZW-eT6ddaycdcjkvfFbCikI,101
+simplelayout/cli/cli_generate.py,sha256=KqBq6d2R_Enzw6p-5qqSDCc6T6bO1Ey74m96CJdsoIo,1472
+simplelayout/generator/__init__.py,sha256=obrnJiT7cfQWKPdaHuhMRbhD-MDW2SlIba63QeQntkY,101
+simplelayout/generator/core.py,sha256=3qxkQZZQrdZOdvFQzhWzWTVUQawp_ddzB4xDI-W6LDU,1268
+simplelayout/generator/utils.py,sha256=_ZJOavRZ9G0uIdRi2yxgGwRYfjdz42V7qgHfxRBIsso,1015
+simplelayout_yuloveyet-0.1.4.dist-info/METADATA,sha256=owLH8yfrbYwIdWhC6xT1DnTV6foZqM8nw3Gk8st51HE,4267
+simplelayout_yuloveyet-0.1.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+simplelayout_yuloveyet-0.1.4.dist-info/entry_points.txt,sha256=64GML6zCwFjCvXxZ1N0cLt7rf2gp09Ts87dJC00Xd2I,52
+simplelayout_yuloveyet-0.1.4.dist-info/top_level.txt,sha256=iFIi60UoADwVgRZlfkvG5r_zYD2rGEOll3P-m2Tj0Uw,13
+simplelayout_yuloveyet-0.1.4.dist-info/RECORD,,
