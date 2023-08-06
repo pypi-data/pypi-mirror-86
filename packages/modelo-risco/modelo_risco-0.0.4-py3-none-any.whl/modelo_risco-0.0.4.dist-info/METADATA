@@ -1,0 +1,473 @@
+Metadata-Version: 2.1
+Name: modelo-risco
+Version: 0.0.4
+Summary: Desenvolvimento do Modelo de Risco Atuarial individual e coletivo.
+Home-page: https://github.com/filipeclduarte/modelo_risco/tree/master/
+Author: Filipe C. L. Duarte
+Author-email: filipe_pb_duarte@hotmail.com
+License: Apache Software License 2.0
+Keywords: risco_atuarial
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Modelo de Risco Atuarial
+> Modelo de Risco Individual.
+
+
+## Install
+
+`pip install modelo_risco`
+
+## Testando a classe ModeloRiscoInd
+
+
+Importando o modelo de Risco Individual
+
+`from modelo_risco.modelo_risco_individual import *` 
+
+### Apenas 1 risco
+
+Vamos inicializar um objeto com apenas um risco.
+
+informações:
+
+* n = 100
+* q_i = 0.1
+* Distribuição B
+
+| P(Bi= B) | Bi |
+| --- | --- |
+| 0.4 | 122 |
+| 0.35 | 452 |
+| 0.2 | 210 |
+| 0.05 | 1000 |
+
+```python
+
+# criando os dados para qtd_riscos = 1
+n = 100
+qi = 0.1
+
+B = {
+    'PBi': [0.4, 0.35, 0.2, 0.05],
+    'Bi': [122, 452, 210, 1000],
+}
+```
+
+### Criando o objeto ModeloRiscoInd com os parâemtros gerados:
+
+```python
+# criando o modelo
+mod = ModeloRiscoInd(n, qi, B)
+
+# mostrando o modelo
+print(mod)
+```
+
+    Modelo de Risco Individual:
+    n = 100
+    E[I] = 0.1
+    V[I] = 0.09000000000000001
+    E[B] = 299.0
+    V[B] = 46879.0
+
+
+#### Esperança do Sinistro
+
+```python
+# calculando esperança do modelo
+print(mod.esperanca())
+```
+
+    2990.0
+
+
+#### Variância do Sinistro
+
+```python
+# calculando variancia do modelo
+print(mod.variancia())
+```
+
+    1273399.0
+
+
+#### Desvio padrão do Sinistro
+
+```python
+# calculando desvio pad
+print(mod.desv_pad())
+```
+
+    1128.4498216580123
+
+
+#### Coeficiente de variação
+
+# coeficiente de variacao
+print(mod.coef_var())
+
+#### Prêmio puro pelo princípio do valor esperado com carregamento de segurança
+
+```python
+# premio puro
+print(mod.premio_puro(0.1))
+```
+
+    3289.0
+
+
+#### Prêmio comercial com carregamento de segurança e comercial
+
+```python
+# premio comercial
+print(mod.premio_comercial(0.1, 0.3))
+```
+
+    4698.57
+
+
+#### Prêmio pela aproximação normal com probabilidade alfa de o Sinistro superar o Prêmio total
+
+```python
+# premio aprox_normal
+alfa = 0.05
+print(mod.premio_aprox_normal(alfa))
+```
+
+    4846.134781986923
+
+
+#### Carregamento de segurança com probabilidade alfa de o Sinistro superar o prêmio total
+
+```python
+# carreg seg aprox normal
+alfa = 0.025
+print(mod.carreg_seg(alfa))
+```
+
+    0.7397060230134953
+
+
+### Mais de um risco
+
+#### Necessário utilizar NumPy arrays.
+
+* n = [200, 150, 50]
+* q_i = [0.12, 0.1, 0.05]
+* Distribuição B
+
+Risco n. 1
+
+| Bi | P(Bi = B) |
+| --- | --- |
+| 100 | 0.6 |
+| 340 | 0.3 |
+| 390 | 0.1 |
+
+Risco n. 2
+
+| B_i | P(B_i = B) |
+| --- | --- |
+| 500 | 0.8 |
+| 800 | 0.15 |
+| 950 | 0.05 |
+
+Risco n. 3
+
+| B_i | P(B_i = B) |
+| --- | --- |
+| 1000 | 0.8 |
+| 1500 | 0.1 |
+| 2500 | 0.1 |
+
+```python
+import numpy as np
+
+### Qtd_riscos = 2
+n = np.array([200, 150, 50])
+
+qi = np.array([0.12, 0.1, 0.05])
+
+PBi = np.array([[0.6, 0.3, 0.1], [0.8, 0.15, 0.05], [0.8, 0.1, 0.1]])
+Bi = np.array([[100, 340, 390], [500, 800, 950], [1000, 1500, 2500]])
+
+B = {
+    'PBi': PBi,
+    'Bi': Bi
+}
+
+mod = ModeloRiscoInd(n, qi, B, qtd_riscos = 3)
+
+print(mod)
+```
+
+    Modelo de Risco Individual:
+    n = [200 150  50]
+    E[I] = [0.12 0.1  0.05]
+    V[I] = [0.1056 0.09   0.0475]
+    E[B] = [ 201.   567.5 1200. ]
+    V[B] = [ 15489.    19068.75 210000.  ]
+
+
+```python
+## checando
+es = (200 * 0.12 * 201) + (150 * 0.1 * 567.5) + (50 * 0.05 * 1200)
+print(es)
+eb1 = np.dot([0.6, 0.3, 0.1], [100, 340, 390])
+print(eb1)
+vb1 = np.dot(np.array([0.6, 0.3, 0.1]),np.array([100, 340, 390])**2) - eb1**2
+print(vb1)
+```
+
+    16336.5
+    201.0
+    15489.0
+
+
+```python
+# esperança
+print(mod.esperanca())
+```
+
+    16336.5
+
+
+```python
+# variancia
+print(mod.variancia())
+```
+
+    9803795.745000001
+
+
+```python
+# desvio padrão
+print(mod.desv_pad())
+```
+
+    3131.1013629392455
+
+
+```python
+# coef variacao
+print(mod.coef_var())
+```
+
+    0.1916629243068739
+
+
+```python
+# premio puro
+print(mod.premio_puro(0.1))
+```
+
+    17970.15
+
+
+```python
+# premio comercial
+print(mod.premio_comercial(0.1, 0.3))
+```
+
+    25671.64
+
+
+```python
+# premio aprox normal
+print(mod.premio_aprox_normal(0.025))
+```
+
+    22473.3459033052
+
+
+```python
+# carreg seg
+print(mod.carreg_seg(0.025))
+```
+
+    0.37565242881309935
+
+
+> Modelo de Risco Coletivo
+
+### Testando a classe ModeloRiscoCol
+
+Importando o modelo de Risco Coletivo
+
+`from modelo_risco.modelo_risco_coletivo import *`
+
+Necessário importar NumPy
+
+informações:
+
+* Distribuição N
+
+| P(N = n) | N |
+| ---  | --- |
+| 0.4  | 0 |
+| 0.35 | 1 |
+| 0.2  | 2 |
+| 0.05 | 3 |
+
+
+* Distribuição X
+
+| P(X = x) | X |
+| ---  | --- |
+| 0.3  | 1 |
+| 0.5  | 2 |
+| 0.15 | 3 |
+| 0.05 | 4 |
+
+
+
+```python
+import numpy as np
+
+N = [0,1,2,3]
+PN = [0.4, 0.35, 0.2, 0.05]
+
+X = [1, 2, 3, 4]
+PX = [0.3, 0.5, 0.15, 0.05]
+
+modelo = ModeloRiscoCol(N, PN, X, PX)
+```
+
+#### Inicialização do modelo
+
+```python
+print(modelo)
+```
+
+    Modelo de Risco Coletivo:
+    E[N] = 0.9
+    V[N] = 0.79
+    E[X] = 1.95
+    V[X] = 0.6474999999999995
+
+
+#### Esperança do Sinistro
+
+```python
+# esperança
+modelo.esperanca()
+```
+
+
+
+
+    1.755
+
+
+
+#### Variância do Sinistro
+
+```python
+# variancia
+modelo.variancia()
+```
+
+
+
+
+    3.5867249999999995
+
+
+
+#### Desvio padrão do Sinistro
+
+```python
+# desvio padrao
+modelo.desv_pad()
+```
+
+
+
+
+    1.8938650955123493
+
+
+
+#### Coeficiente de variação do Sinistro
+
+```python
+# coeficiente de variação
+modelo.coef_var()
+```
+
+
+
+
+    1.0791254105483472
+
+
+
+#### Prêmio Puro pelo princípio do valor esperado com carregamento de segurança
+
+```python
+# premio puro
+carreg_seg = 0.1
+modelo.premio_puro(carreg_seg)
+```
+
+
+
+
+    1.93
+
+
+
+#### Prêmio Comercial com carregamento de segurança e carregamento comercial
+
+```python
+# premio comercial
+carreg_comercial = 0.3
+modelo.premio_comercial(carreg_seg, carreg_comercial)
+```
+
+
+
+
+    2.76
+
+
+
+#### Prêmio pela aproximação normal com probabilidade alfa de o Sinistro coletivo superar o Prêmio total
+
+```python
+# premio aprox normal
+alfa = 0.025
+modelo.premio_aprox_normal(alfa)
+```
+
+
+
+
+    5.466907378781714
+
+
+
+#### Carregamento de segurança pela aproximação normal com probabilidade alfa de o Sinistro coletivo superar o Prêmio total
+
+```python
+# carreg seg a partir da aprox normal
+modelo.carreg_seg(alfa)
+```
+
+
+
+
+    2.1150469394767604
+
+
+
+
