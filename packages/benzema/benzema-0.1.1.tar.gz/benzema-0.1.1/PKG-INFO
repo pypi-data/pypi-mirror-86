@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: benzema
+Version: 0.1.1
+Summary: A straight forward and easy to use bencoding library written in Python 3
+Author: fishr
+Author-email: karim@fishr.xyz
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
