@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: conffu
+Version: 2.0.2
+Summary: A simple, but powerful JSON, XML and command line configuration package
+Home-page: https://gitlab.com/Jaap.vanderVelde/conffu
+Author: BMT, Jaap van der Velde
+Author-email: jaap.vandervelde@bmtglobal.com
+License: MIT
+Download-URL: https://gitlab.com/Jaap.vanderVelde/conffu/repository/archive.zip?ref=2.0.2
+Description: # Conf Fu
+        
+        A configuration package that allows you to configure your Python scripts, through a combination of JSON configuration files and command line options, with a minimum of code.
+        
+        ## Install
+        
+        Install the package:
+        ```
+        pip install conffu
+        ```
+        
+        If you want to be able to read/write XML configurations as well, there is a dependency on `lxml`, install using:
+        ```
+        pip install conffu[xml]
+        ```
+        
+        ## Example
+        
+        With the package installed, try running this script:
+        ```
+        from conffu import Config
+        
+        cfg = Config({
+            '_globals': {
+                'temp': 'C:/Temp'
+            },
+            'temp_file': '{temp}/text.txt',
+            'number': 3
+        })
+        
+        print(f'The number is {cfg.number}')
+        
+        cfg.save('example_config.json')
+        ```
+        
+        After running that, this also works:
+        ```
+        from conffu import Config
+        
+        cfg = Config.from_file('example_config.json')
+        print(f'The number is {cfg.number}')
+        ```
+        
+        Make a change and save this script as `example.py`:
+        ```
+        from conffu import Config
+        
+        cfg = Config.from_file('example_config.json').update_from_arguments()
+        print(f'The number is {cfg.number}')
+        ```
+        
+        Then try running it like this:
+        ```
+        python example.py -number 7
+        ``` 
+        
+        There's many more options, check the documentation for more examples.
+        
+        ## License
+        
+        This project is licensed under the MIT license. See [LICENSE.txt](https://gitlab.com/Jaap.vanderVelde/conffu/-/blob/master/LICENSE.txt).
+        
+        
+        ## Changelog
+        
+        - 2.0.0 
+          <br/>First publicly released version after a major rewrite.
+        - 2.0.1 
+          <br/>Fixed pickle bug with sub-configs and added a test for the pickle round-trip.
+        - 2.0.2 
+          <br/>Passing `load_kwargs` and `kwargs` to pickle and XML load and save methods
+          <br/>removed default `pretty_print=True` from XML save method, should be passed in `kwargs`
+          <br/>updated faulty reference to license document from other project (no change in license)
+          <br/>centralised version references, to avoid version mismatches
+          <br/>bugfix `extras_require` for `lxml`
+        
+Keywords: package,download,json,configuration,CLI,parameters
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: lxml>=4.6.0
