@@ -1,0 +1,13 @@
+datasette_connectors/__init__.py,sha256=PGgTY3mCe600lu0w485HUy4ex0v36keexQ8pxOApHn4,106
+datasette_connectors/cli.py,sha256=_2-Rc55G9_-Oocr8goeqD_VyinmhksKpguUsHS6pVEg,145
+datasette_connectors/connection.py,sha256=yfeV8v9N0tRnjJFbDPTlRwmN7tW__GS-QIK6SQS3Z8s,412
+datasette_connectors/connectors.py,sha256=abs-gl8scMUPA5Hu8wSKov32olrh_LIgj1KcqfIP4cg,3034
+datasette_connectors/cursor.py,sha256=blcqRooMh99xPGqJWQ_0gdK12Shff-Q_3kP_ZF23KOA,4083
+datasette_connectors/monkey.py,sha256=43DOWRRxv9jlF5nOHBOIGjFFMmn1Q2HaJfR6rQKREBY,1387
+datasette_connectors/row.py,sha256=zNUjQfVIYNDvPOcPH5GqN1PcSNzPdMZIkF9GKzi5WLk,750
+datasette_connectors-2.0.1.dist-info/LICENSE,sha256=uvpmFL5CyFtW3csfCmrjcG6sf8I7RCW2VYpreM4rK_A,11353
+datasette_connectors-2.0.1.dist-info/METADATA,sha256=40KcPkbswlVEPrskNI_aTlmwKWXVgyhmjz_fBn7cCaQ,1568
+datasette_connectors-2.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+datasette_connectors-2.0.1.dist-info/entry_points.txt,sha256=_1PD9F5YMmHaMXe2DQHpKNUMpuoPICzvbA0TcV-THDI,78
+datasette_connectors-2.0.1.dist-info/top_level.txt,sha256=TcoWHSuDBjz-PLotAH5t7MCPRbbrdwoeYkE8nICjlX8,21
+datasette_connectors-2.0.1.dist-info/RECORD,,
