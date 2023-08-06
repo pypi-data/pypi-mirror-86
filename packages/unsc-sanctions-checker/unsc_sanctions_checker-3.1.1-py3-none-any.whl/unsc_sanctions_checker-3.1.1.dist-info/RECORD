@@ -1,0 +1,15 @@
+UNSC_Sanctions_Checker.py,sha256=ffpOHiXoUG3Nlhhs2MRW3T09WMeQ4E9j6Pb3FVR7uCk,24953
+unsc_sanctions_checker/__init__.py,sha256=1w3LB9Rka_q9Ur2ncBoWMVtMn71DzOIF4z_RyGRypNE,26821
+unsc_sanctions_checker/__main__.py,sha256=aKEf4_4h5QEKSqI1KqxkWIgqjSdX7mjUW8wXb3L8twA,79
+unsc_sanctions_checker/data/__init__.py,sha256=uYjOAv-JoSUOsg--D3SReLN71m5gnYIt3RUikzt_fBI,56
+unsc_sanctions_checker/data/consolidated.xml,sha256=T-GPtblyyiy1G-hqzv3gzssyAsqTcKzqwfkqjQbHo-8,1601008
+unsc_sanctions_checker/template/__init__.py,sha256=uYjOAv-JoSUOsg--D3SReLN71m5gnYIt3RUikzt_fBI,56
+unsc_sanctions_checker/template/report.html,sha256=Gt3NOENSJIhlagOn7GQ-cjBswlOsaEUYSzteE2iNYI4,491
+unsc_sanctions_checker/wkhtmltopdf/__init__.py,sha256=L0L8TSHJ41U4SbTJ4B7XP7jmI0nW9aVufB13rXjlLcE,58
+unsc_sanctions_checker/wkhtmltopdf/wkhtmltopdf.exe,sha256=ZNF2gjIL_9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag,41563648
+unsc_sanctions_checker-3.1.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+unsc_sanctions_checker-3.1.1.dist-info/METADATA,sha256=6tYzMqLET7n8U22yQMHgBADH0lWZoFvZg_8TPSL7pmQ,1582
+unsc_sanctions_checker-3.1.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+unsc_sanctions_checker-3.1.1.dist-info/entry_points.txt,sha256=HuLKvtG_B_cIqVsXFBn483TMTZQOxWIiHcLFBxDCVBw,53
+unsc_sanctions_checker-3.1.1.dist-info/top_level.txt,sha256=nk2BliOwx_MmQSFzd0COWCV7W2SP0W0YRSG9YSJY18o,23
+unsc_sanctions_checker-3.1.1.dist-info/RECORD,,
