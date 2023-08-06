@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+clienter.egg-info/PKG-INFO
+clienter.egg-info/SOURCES.txt
+clienter.egg-info/dependency_links.txt
+clienter.egg-info/top_level.txt

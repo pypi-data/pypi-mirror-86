@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: clienter
+Version: 0.0.1
+Summary: Build 
+Home-page: https://github.com/meyer1994/clienter
+Author: João Vicente Meyer
+License: Unlicense
+Download-URL: https://github.com/meyer1994/clienter/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: requests httpx rest api http
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
