@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pyteetime
+Version: 1.0.0
+Summary: Unix tee command for python
+Home-page: http://www.rolf-sander.net/software/pyteetime
+Author: Rolf Sander
+Author-email: mail@rolf-sander.net
+License: UNKNOWN
+Description: The Unix command `tee` splits the output of a program so that it is both
+        displayed on screen and written to a file. The `pyteetime` package
+        provides such a functionality in Python. It is based on the original
+        code from [A.
+        Peck](http://shallowsky.com/blog/programming/python-tee.html), with a
+        few classmethods added.
+        
+        ## Usage:
+        
+        Run the example script `tee-test.py` listed here:
+        
+        ```python
+        from pyteetime import tee
+        import sys
+        
+        print('This prologue will appear on screen but not in a logfile')
+        
+        LOGFILE = tee.stdout_start(append=False) # STDOUT
+        # from now on, all output is also copied to the logfile
+        
+        tee.stderr_start(append=False) # STDERR
+        # from now on, all output to STDERR is also copied to stderr.log
+        
+        print('This text will appear on screen and also in the logfile')
+        
+        print('This will appear on screen and also in stderr.log', file=sys.stderr) 
+        
+        # input from keyboard does not go to logfile:
+        answer = input('Enter something!\n')
+        
+        # show the input to make sure it also goes into the logfile:
+        print('The user typed: %s' % (answer))
+        
+        # data written to a file is not copied to the logfile:
+        DATAFILE = open('tee-test.dat','w+')
+        print(list(range(5)), file=DATAFILE)
+        DATAFILE.close()
+        
+        print('This goes to the logfile but will not appear on screen', file=LOGFILE)
+        
+        tee.stdout_stop()
+        # from now on, output to STDOUT will not go to stdout.log anymore
+        
+        tee.stderr_stop()
+        # from now on, output to STDERR will not go to stderr.log anymore
+        
+        print('This epilogue will appear on screen but not in a logfile')
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: Unix
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Logging
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
