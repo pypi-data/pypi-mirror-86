@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}ripgrep{% if pattern %}: {{ pattern }}{% endif %}{% endblock %}
+
+{% block extra_head %}
+<style>
+pre a:link {
+    text-decoration: none;
+    color: #666;
+}
+form.ripgrep label {
+    font-weight: normal;
+    display: inline;
+}
+</style>
+{% endblock %}
+
+{% block nav %}
+    <p class="crumbs">
+        <a href="{{ urls.instance() }}">home</a>
+    </p>
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+<h1>ripgrep</h1>
+
+<form class="ripgrep" action="{{ urls.path("/-/ripgrep") }}" method="get">
+    <p>
+        <input type="search" name="pattern" value="{{ pattern }}">
+        <input type="submit" value="Search">
+    </p>
+    <p><strong>Options:</strong> <label><input type="checkbox" name="literal"{% if literal %} checked={% endif %}> Literal search (not regex)</label> <label><input type="checkbox" name="ignore"{% if ignore %} checked={% endif %}> Ignore case</label></p>
+</form>
+
+{% if time_limit_hit %}<p>Time limit exceeded.</p>{% endif %}
+
+{% for result in results %}
+    {% if result.type == "begin" %}
+        <h3>{{ fix_path(result.data.path.text) }}</h3>
+    {% endif %}
+    {% if result.type == "match" %}
+        <pre><a href="{{ urls.path("/-/ripgrep/view/" + url_quote(fix_path(result.data.path.text))) }}#L{{ result.data.line_number }}">{{ "%-4s" | format(result.data.line_number) }}</a> {{ result.data.lines.text }}</pre>
+    {% endif %}
+{% endfor %}
+
+{% endblock %}
