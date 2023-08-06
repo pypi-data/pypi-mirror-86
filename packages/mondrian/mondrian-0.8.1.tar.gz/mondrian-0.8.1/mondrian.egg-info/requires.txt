@@ -1,0 +1,9 @@
+colorama<0.5,>=0.3.7
+
+[dev]
+coverage~=4.5
+isort
+pre-commit~=2.9.2
+pytest~=4.6
+pytest-cov~=2.7
+sphinx~=1.7
