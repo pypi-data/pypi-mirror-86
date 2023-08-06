@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: exifproxy
+Version: 1.0.1
+Summary: Metadata extraction reverse proxy based on twisted and exiftool
+Home-page: https://github.com/znerol/exifproxy
+Author: Lorenz Schori
+Author-email: lo@znerol.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Twisted
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: Proxy Servers
+Classifier: Topic :: Multimedia :: Graphics :: Capture
+Requires-Python: >=3.5
+Requires-Dist: Twisted[tls]
+Requires-Dist: txExiftool
+Requires-Dist: zope.interface
+
+UNKNOWN
+
+
