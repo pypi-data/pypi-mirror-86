@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: quizz
+Version: 0.1.0
+Summary: Wrappers around Python's print and input functions to create question/answer themed command line applications.
+Home-page: https://github.com/realsuayip/quizz
+Author: Şuayip Üzülmez
+Author-email: suayip.541@gmail.com
+License: UNKNOWN
+Description: # quizz
+        
+        WIP
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
