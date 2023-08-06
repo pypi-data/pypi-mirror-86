@@ -1,0 +1,12 @@
+README.md
+setup.py
+strongtyping_modules/__init__.py
+strongtyping_modules/install.py
+strongtyping_modules/strongtyping_modules.pyx
+strongtyping_modules/sttypingmodule.c
+strongtyping_modules.egg-info/PKG-INFO
+strongtyping_modules.egg-info/SOURCES.txt
+strongtyping_modules.egg-info/dependency_links.txt
+strongtyping_modules.egg-info/not-zip-safe
+strongtyping_modules.egg-info/requires.txt
+strongtyping_modules.egg-info/top_level.txt
