@@ -1,0 +1,3 @@
+[console_scripts]
+openldapctrl = openldapctrl.cli:main
+

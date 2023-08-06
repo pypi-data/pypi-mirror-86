@@ -1,0 +1,67 @@
+dn: cn=config
+changetype: modify
+add: olcDisallows
+olcDisallows: bind_anon
+
+
+dn: cn=config
+changetype: modify
+add: olcRequires
+olcRequires: authc
+
+
+dn: olcDatabase={{{frontend_index}}}frontend,cn=config
+changetype: modify
+add: olcRequires
+olcRequires: authc
+
+
+dn: olcDatabase={{{hdb_index}}}hdb,cn=config
+changetype: modify
+replace: olcSuffix
+olcSuffix: {base_dn}
+
+
+dn: olcDatabase={{{hdb_index}}}hdb,cn=config
+changetype: modify
+replace: olcRootDN
+olcRootDN: {admin_dn}
+
+
+dn: olcDatabase={{{hdb_index}}}hdb,cn=config
+changetype: modify
+replace: olcRootPW
+olcRootPW: {admin_password_encoded}
+
+
+dn: olcDatabase={{{hdb_index}}}hdb,cn=config
+changetype: modify
+replace: olcAccess
+olcAccess:
+    to attrs=createTimestamp,creatorsName,entryCSN,entryUUID,hasSubordinates,modifiersName,modifyTimestamp,structuralObjectClass,subschemaSubentry
+        by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" write
+        by dn.base="{admin_dn}" write
+        by * none
+olcAccess:
+    to attrs=userPassword
+        by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" write
+        by dn.base="{admin_dn}" write
+        by * auth
+olcAccess:
+    to dn.base="{base_dn}"
+        by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" write
+        by dn.base="{admin_dn}" write
+        by users read
+{users_dn_read_perm}
+olcAccess:
+    to dn.subtree="{users_base_dn}"
+        by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" write
+        by dn.base="{admin_dn}" write
+        by group.base="{applications_dn}" read
+        by self read
+        by anonymous auth
+        by * none
+olcAccess:
+    to *
+        by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" write
+        by dn.base="{admin_dn}" write

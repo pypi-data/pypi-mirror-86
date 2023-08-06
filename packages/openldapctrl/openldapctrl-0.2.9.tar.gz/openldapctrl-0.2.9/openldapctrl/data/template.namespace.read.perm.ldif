@@ -1,0 +1,5 @@
+olcAccess:
+    to dn.base="{dn}"
+        by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" write
+        by dn.base="{admin_dn}" write
+        by users read

@@ -1,0 +1,90 @@
+dn: cn=idsObject,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: idsObject
+olcObjectClasses: (
+    136.122.103.233.990.357.875.690.919.729.100
+    NAME 'idsObject'
+    DESC 'Store ids.'
+    AUXILIARY
+    MAY (id1 $ id2 $ id3 $ id4 $ id5 $ id6 $ id7 $ id8 $ id9 $ id10)
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.101
+    NAME 'id1'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.102
+    NAME 'id2'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.103
+    NAME 'id3'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.104
+    NAME 'id4'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.105
+    NAME 'id5'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.106
+    NAME 'id6'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.107
+    NAME 'id7'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.108
+    NAME 'id8'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.109
+    NAME 'id9'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )
+olcAttributeTypes: (
+    136.122.103.233.990.357.875.690.919.729.110
+    NAME 'id10'
+    EQUALITY caseIgnoreMatch
+    SUBSTR caseIgnoreSubstringsMatch
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+    SINGLE-VALUE
+    )

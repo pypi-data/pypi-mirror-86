@@ -1,0 +1,5 @@
+dn: {applications_dn}
+objectClass: top
+objectClass: groupOfNames
+cn: applications
+member: {admin_dn}

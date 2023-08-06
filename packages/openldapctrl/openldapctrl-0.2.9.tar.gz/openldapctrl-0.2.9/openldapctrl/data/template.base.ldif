@@ -1,0 +1,4 @@
+dn: {base_dn}
+dc: {dc}
+objectClass: top
+objectClass: domain
