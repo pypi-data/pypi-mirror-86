@@ -1,0 +1,8 @@
+README.md
+ezspreadsheet.py
+setup.py
+ezspreadsheet.egg-info/PKG-INFO
+ezspreadsheet.egg-info/SOURCES.txt
+ezspreadsheet.egg-info/dependency_links.txt
+ezspreadsheet.egg-info/requires.txt
+ezspreadsheet.egg-info/top_level.txt
