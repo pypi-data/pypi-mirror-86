@@ -1,0 +1,17 @@
+README.md
+setup.py
+machine_number_sense.egg-info/PKG-INFO
+machine_number_sense.egg-info/SOURCES.txt
+machine_number_sense.egg-info/dependency_links.txt
+machine_number_sense.egg-info/requires.txt
+machine_number_sense.egg-info/top_level.txt
+mns/__init__.py
+mns/dataset.py
+mns/module.py
+mns/model/__init__.py
+mns/model/convlstm.py
+mns/model/convmlp.py
+mns/model/convnalu.py
+mns/model/layers.py
+mns/model/nalu.py
+mns/model/scl.py
