@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyexams/__init__.py
+pyexams.egg-info/PKG-INFO
+pyexams.egg-info/SOURCES.txt
+pyexams.egg-info/dependency_links.txt
+pyexams.egg-info/requires.txt
+pyexams.egg-info/top_level.txt
