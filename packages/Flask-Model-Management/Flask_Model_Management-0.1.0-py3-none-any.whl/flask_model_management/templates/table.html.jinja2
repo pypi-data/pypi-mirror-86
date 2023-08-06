@@ -1,0 +1,29 @@
+{% extends 'base_table.html.jinja2' %}
+
+{% block form_card %}
+    <ul class="list-group list-group-flush list-group-no-gutters">
+        <li class="list-group-item py-3">
+            <h5 class="modal-title">columns:</h5>
+        </li>
+        {% for column in model.columns %}
+            <li class="list-group-item py-3">
+                <div class="media">
+                    <div class="mt-1 mr-3">
+                        <i data-feather="columns"></i>
+                    </div>
+                    <div class="media-body">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h5 class="mb-0">{{ column.name }}</h5>
+                                <small>{% if column.primary_key %}<i data-feather="key"></i> primary key{% elif column.foreign_key %}<i data-feather="key"></i> foreign key{% endif %}</small>
+                                <span class="d-block font-size-sm">type: {{ column.type }}</span>
+                                <span class="d-block font-size-sm">nullable: {% if column.required %}False{% else %}True{% endif %}</span>
+                                <span class="d-block font-size-sm">default: {% if column.default %} {{ column.default }} {% else %} No default {% endif %}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

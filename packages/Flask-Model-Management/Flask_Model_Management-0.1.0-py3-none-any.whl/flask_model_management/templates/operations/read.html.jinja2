@@ -1,0 +1,102 @@
+{% extends 'base_table.html.jinja2' %}
+{% from 'components/macros.html.jinja2' import get_icon %}
+
+{% block form_card %}
+    <form id="filter-form">
+        <div role="form" id="form-content">
+            {% for fields in form.filter_fields | batch(4) %}
+                <div class="form-row d-flex justify-content-center">
+                    {% for field in fields %}
+                        <div class="form-group col-3">
+                            {{ make_field(field) }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </form>
+    <div class="form-group text-center">
+        {{ form.confirm(class="btn btn-primary", value="read") }}
+    </div>
+{% endblock %}
+
+{% block body %}
+    <div class="container-fluid p-0 mb-5">
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-bordered table-striped" id="table">
+                    <thead>
+                    <tr>
+                        {% for col in model.columns %}
+                            <th>{% if col.primary_key %}<i data-feather="key"></i>{% endif %}{{ col.name }} [{{ col.type }}]</th>
+                        {% endfor %}
+                        <th>actions</th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        var table = $("#table").DataTable({
+            "ajax": {
+                url: "{{ get_url("read", tablename=model.name) }}",
+                type: "GET"
+            },
+            "columns": [
+                {% for column in model.columns %}
+                    {"data": "{{ column.name }}"},
+                {% endfor %}
+                {"data": "actions"}
+            ],
+            "columnDefs": [
+                {
+                    "render": function (data, type, row) {
+                        var updateUrl = "{{ get_url("table_operation", tablename=model.name, operation='update') }}?";
+                        var deleteUrl = "{{ get_url("table_operation", tablename=model.name, operation='delete') }}?";
+                        var queryData = [];
+                        for (const key in row) {
+                            queryData.push("filter_" + key + "=" + row[key])
+                        }
+                        var queryString = queryData.join('&') + "&_operation_protocol=single"
+                        var updateButton = "<a class='btn btn-warning' href='" + updateUrl + queryString + "'><i data-feather='share'></i>update</a>";
+                        var deleteButton = "<a class='btn btn-danger' href='" + deleteUrl + queryString + "'><i data-feather='share'></i>delete</a>";
+                        var result = "<div class='d-flex justify-content-around'>" + updateButton + deleteButton + "</div>"
+                        return result
+                    },
+                    "targets": -1
+                },
+            ],
+        })
+
+        $("#confirm").on('click', function () {
+            var formData = getFormData('filter-form', false)
+
+            var success_alert = $("#success-alert")
+            var failure_alert = $("#failure-alert")
+            success_alert.hide()
+            failure_alert.hide()
+
+            $.ajax({
+                url: '{{ get_url("read", tablename=model.name) }}',
+                type: 'GET',
+                data: formData,
+                success: function (result) {
+                    if (result.success) {
+                        $("#success-text").text(result.message);
+                        success_alert.show();
+                        table.clear().draw();
+                        table.rows.add(result.data).draw();
+                    } else {
+                        $("#failure-text").text(result.message);
+                        failure_alert.show();
+                    }
+                }
+            })
+            return false;
+        })
+    </script>
+{% endblock %}
