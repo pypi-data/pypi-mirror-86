@@ -1,0 +1,15 @@
+best_of/__init__.py,sha256=vEu7t0Kg1-sGZUzcwFCdnYPMfuZsdzRzeM7jxYPkNJU,150
+best_of/_about.py,sha256=IrNJCeLFrcjYNrUe8QDj4wxkxZjHFHvRa2-CQZ221XM,99
+best_of/_cli.py,sha256=Y-80stnJmpeznVZhUQ_QD8CRRnxI15ByomrDMfyzsQQ,1023
+best_of/generator.py,sha256=yrfhbrnRO0JDjEDVMqMjUOIsOSu8I_i_nkyiaMKq3OM,3005
+best_of/license.py,sha256=r2RVkvIvdiewpqnOFpPX01J1nyp3W-1tnZ-NaUB1dP8,3755
+best_of/md_generation.py,sha256=21FtQ_Y4CLqmkmQCgqqndZs1cBfkaS9-jH9EqWwbtaU,31851
+best_of/projects_collection.py,sha256=LSR7mQVXP-Ld0Ory1LN9fVR-GFCC3SmXHjuWQoHEfwY,47226
+best_of/utils.py,sha256=2hE-HQEwMDDGRpBTa9KSrOhDGOX_rfdHlbovgKxL8OU,1379
+best_of/yaml_generation.py,sha256=ysajZ4WT2lLd5_icXmupbQoOJ-IqbTbMTQUtrUPae9A,2451
+best_of-0.1.1.dist-info/LICENSE,sha256=Ixhb36Qp3A5N0KROEmFZ05pcD8HyQPZzf-RJ0oUbsI4,1081
+best_of-0.1.1.dist-info/METADATA,sha256=NdCAz5Ox4zbRus04U-A5htIlYCWY7rpGn_BIqrT6wi4,2415
+best_of-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+best_of-0.1.1.dist-info/entry_points.txt,sha256=ilsMfZExRiKhnsfqVMPKaAvZf0c2doqyPX1C7gHUNns,46
+best_of-0.1.1.dist-info/top_level.txt,sha256=VaiutxVRIts5OEDITuNi9g4uYmfVeAKw-Lfig9_NkhM,8
+best_of-0.1.1.dist-info/RECORD,,
