@@ -1,0 +1,74 @@
+# title of your app [optional, string]
+title: str(required=False)
+# type of model, e.g. keras, xgb, torch [required, string]
+model_type: str()
+# path to model file [required, string]
+model: str()
+# path to data csv file [required, string]
+data: str()
+# path to grammar file specifying feature-grouping [required, string]
+feature_grammar: str(required=False)
+# path to column transformer pickle file [optional, string]
+coltrans: str(required=False)
+# name of target column [optional, string]
+target: str(required=False)
+# list of categorical columns [optional, list of strings]
+categorical_columns: list(required=False)
+options: include('config')
+fairness: include('fair_config', required=False)
+---
+config:
+  # whether this is a classification task [optional, bool]
+  classification: bool(required=False)
+  # use standard scaling? [optional, bool]
+  scale_std: bool(required=False)
+  # use minmax scaling? [optional, bool]
+  scale_minmax: bool(required=False)
+  # classification threshold [required, float]
+  threshold: num()
+  # max set of examples to use for rules [optional, int]
+  rule_space_max: int(required=False)
+  # use zoo for counterfactual? [optional, bool]
+  cf_zoo: bool(required=False)
+  # max quantile-change for counterfactual [optional, float in [0,1]]
+  cf_quantile: num(min=0.0, max=1.0, required=False)
+  # list of features to hold fixed for counterfactual [optional, strings]
+  cf_fixed_features: list(required=False)
+  # meaning of target labels [optional, map of int -> string]
+  target_labels: map(str(), key=int())
+  # respect preprocessor ordering in transforming dataframe? [optional, bool]
+  use_preprocessor_ordering: bool(required=False)
+  # is this an rnn model? [optional, bool]
+  is_rnn: bool(required=False)
+  # for an rnn model: how many timesteps are in an input seq? [optional, int]
+  time_steps: int(required=False)
+  # for an rnn model: is the given dataframe stacked sequences? [optional, bool]
+  vstacked: bool(required=False)
+  # for an rnn model: grouping columns for extracting sequences [optional, strings]
+  groupby_columns: list(required=False)
+  # dataframe query to pre-slice the data [optional, string]
+  slice: str(required=False)
+  # for torch model: num inputs [optional, int]
+  n_inputs_torch_model: int(required=False)
+---
+fair_config:
+  # columns to be dropped [optional, list of string]
+  dropped_coltrans: list(required=False)
+  # config for GAN
+  gan_cfg: include('gan_config')
+  # protected attribute [required, string]
+  protected_attr: str()
+  # protected group value (class) input to GAN [required, str/int/bool]
+  in_set: any(str(), int(), bool())
+  # protected group value (class) output of GAN [required, str/int/bool]
+  out_set: any(str(), int(), bool())
+  # label of in_set [required, string]
+  in_label: str()
+  # label of out_set [required, string]
+  out_label: str()
+---
+gan_config:
+  # GAN model type [required, string]
+  model_type: str()
+  # path to GAN model [required, string]
+  model: str()

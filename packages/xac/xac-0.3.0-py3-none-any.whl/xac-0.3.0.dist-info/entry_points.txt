@@ -1,0 +1,3 @@
+[console_scripts]
+xac=xac.main:app
+
