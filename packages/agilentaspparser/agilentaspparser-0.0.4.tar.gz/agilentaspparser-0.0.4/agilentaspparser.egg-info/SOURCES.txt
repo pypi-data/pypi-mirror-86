@@ -1,0 +1,7 @@
+README.md
+setup.py
+agilentaspparser/__init__.py
+agilentaspparser.egg-info/PKG-INFO
+agilentaspparser.egg-info/SOURCES.txt
+agilentaspparser.egg-info/dependency_links.txt
+agilentaspparser.egg-info/top_level.txt
