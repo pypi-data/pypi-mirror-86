@@ -1,0 +1,13 @@
+pear/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+pear/configuration.py,sha256=ZCzVskjw1i8hKvEr4HdohnAq2DilxBfAsNsxSa-k5vo,1071
+pear/file_formatter.py,sha256=GX27hIz2HTHpuWC0HE1amFI_axKRNvHVWKLhPPkC-ds,1362
+pear/layer.py,sha256=vz2o92CRvAh8oxbbTTRBKpk2Oc8owyEKaUbfP1nl8MI,53
+pear/loader.py,sha256=G7hvlunfFxMoiXd48cOfJuMmZmcZd3iKUg9a1sOQs7o,2189
+pear/main.py,sha256=I-qheF1QH2i4vMiH6VFi6fZGAYA4Vih-MBhp3b6Otb8,404
+pear/remove.py,sha256=fRuiGq5FuOhvDW0VFPg-q_6xbT9NcZGuHoOEss5aIgo,583
+pear/replace.py,sha256=7akEZ5BCPlEo6D2NCZuwEn6WLVpmNPcD-tAN0oTTLrg,1062
+pear_cli-0.1.1.dist-info/METADATA,sha256=AXvforUuhZ1J1jbdjE1DtbPN8knRrOUQoNVJGd8QIgY,2021
+pear_cli-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pear_cli-0.1.1.dist-info/entry_points.txt,sha256=gC0YWscZboMLUABaCy7zarxS3sEiGBi1F65TilLeBrg,41
+pear_cli-0.1.1.dist-info/top_level.txt,sha256=EPsezWIICYxTMfJYWT1NUM6uNeyK59Fh77wu6iuhnTU,5
+pear_cli-0.1.1.dist-info/RECORD,,
