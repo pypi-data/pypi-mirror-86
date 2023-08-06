@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: x-msgpack
+Version: 0.2.0
+Summary: Simple MessagePack implementation with custom extensions.
+Home-page: https://github.com/ShenTengTu/x_msgpack
+Author: Shen-Teng Tu
+Author-email: tusamten@gmail.com
+License: MIT
+Description: # x_msgpack
+        Separate **"msgpack"** module in **"[micropython-mpy-env]"** package into a single **"x_msgpak" module**, for general Python project. See the [MessagePack] section for more detail.
+        
+        [micropython-mpy-env]: https://github.com/ShenTengTu/micropython-env
+        [MessagePack]: https://github.com/ShenTengTu/micropython-env#messagepack
+        
+        
+Keywords: Python msgpack
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
