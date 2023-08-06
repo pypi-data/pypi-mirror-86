@@ -1,0 +1,14 @@
+cairosvg>=2.4.2
+consolekit>=0.6.0
+domdf-python-tools>=1.7.0
+memoized-property>=1.0.3
+python-magic>=0.4.15
+typing-extensions>=3.7.4.3
+
+[:platform_system == "Darwin" and python_version < "3.9"]
+wxpython>=4.0.7
+
+[:platform_system == "Windows" and python_version < "3.9"]
+wxpython>=4.0.7
+
+[all]
