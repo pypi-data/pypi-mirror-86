@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: webex-cortex
+Version: 1.0.1
+Summary: Cortex Responder for WebexTeams
+Home-page: https://github.com/KalleDK/webex-cortex
+Author: Kalle M. Aagaard
+Author-email: webex-cortex@k-moeller.dk
+Maintainer: Kalle M. Aagaard
+Maintainer-email: webex-cortex@k-moeller.dk
+License: MIT License
+Description: # webex-cortex
+Keywords: wrapper
+Platform: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
