@@ -1,0 +1,14 @@
+.DS_Store,sha256=QIWG3gkm1UqfwpbkGWA5nOjEixrpUOePDiie85mGXuo,6148
+simplelayout/__init__.py,sha256=-NC_3TOtscM2SWV1VqZ_sOThx1vLcLGZRy98f9oln6g,26
+simplelayout/__main__.py,sha256=9-4vitp6b44L4eUlixbcClmZu_irCEATMiExPQMv9Hc,768
+simplelayout/cli/__init__.py,sha256=oKtWugOm2TmA5Pu13YmwgFLZJpNOOGgzkslF4jgubdg,100
+simplelayout/cli/cli_generate.py,sha256=iJWXEie8-g7MbV7uGK4iMhzcFu6TyiT87QthQTgww3o,793
+simplelayout/generator/__init__.py,sha256=cUYnf_TXzSyRKttyVA7wRvOjT-ALypiUm_j8-UQhr6Y,89
+simplelayout/generator/core.py,sha256=cWJrG1SqfwTc3ufNow4TWnEmdPziMIeMCLUTZ5GYNbw,1245
+simplelayout/generator/utils.py,sha256=-jVI166IetTnUjnkiwjTElxK9xZdlkeOOPwjvsajj7o,676
+simplelayout_AnjaZhang-0.0.4.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+simplelayout_AnjaZhang-0.0.4.dist-info/METADATA,sha256=FwlkJIQlrcigRNYPJpb_6CV0A4LdCjwM9daVSLEDsXI,4273
+simplelayout_AnjaZhang-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+simplelayout_AnjaZhang-0.0.4.dist-info/entry_points.txt,sha256=64GML6zCwFjCvXxZ1N0cLt7rf2gp09Ts87dJC00Xd2I,52
+simplelayout_AnjaZhang-0.0.4.dist-info/top_level.txt,sha256=iFIi60UoADwVgRZlfkvG5r_zYD2rGEOll3P-m2Tj0Uw,13
+simplelayout_AnjaZhang-0.0.4.dist-info/RECORD,,
