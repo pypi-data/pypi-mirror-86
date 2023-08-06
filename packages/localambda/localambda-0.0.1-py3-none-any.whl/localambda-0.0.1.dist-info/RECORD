@@ -1,0 +1,16 @@
+localambda/__init__.py,sha256=UKs6jIoLoNlejerK5D74FMdDhnW23zUd581Dv7ukklE,35
+localambda/configuration.py,sha256=T8A-OWGZ4BeL48wwZQlGfpOOnezBXgs1aup6Okx5FYs,8978
+localambda/decorators.py,sha256=N8UjjBAIc7GxsZt9qIllc5Sd5RpAGQzz-buZFy6uOZE,271
+localambda/localogger.py,sha256=hODqsd-A1IB0DhgZcxMvfAnrdeg1pP7XWJTVV5qOa58,1988
+localambda/proxy.py,sha256=Z0Ow2G1s_mTLgxRQDe6E2nOGRSYJ0F9wv3c0gRKGa24,5451
+localambda/runner.py,sha256=rWoWkUOkSApseVgr4vXlreTUzvBjeNElT-P7Egs9U3s,5390
+localambda/serve.py,sha256=kgpgAgp1_KJB-QKMYbdT9gtYnIH8Xcd7zYZhggV7-Tc,7361
+localambda/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+localambda/cli/cli.py,sha256=Rjc6VeqKPVTLUulTRTuXIkWRMtQsTa1xbMT2VVEaKzo,897
+mitm_scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mitm_scripts/reroute_traffic.py,sha256=vSruIaFPIzmF5ebi2Zdg4BzimRO3_YDQxJA2jQXk2BA,3283
+localambda-0.0.1.dist-info/METADATA,sha256=RI85y4QHaacuiSchYmLUNDhtuMJKTyD6PGR2fi_9_zg,460
+localambda-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+localambda-0.0.1.dist-info/entry_points.txt,sha256=RsD_ZOAwzbGYRXMPDigY1JIRA9up5eFP2bPQWyQ_EjY,51
+localambda-0.0.1.dist-info/top_level.txt,sha256=6jj2Nv5quSOmnUxxiv69PkFHGnMmXx8KQ3M-vH8dFOI,24
+localambda-0.0.1.dist-info/RECORD,,

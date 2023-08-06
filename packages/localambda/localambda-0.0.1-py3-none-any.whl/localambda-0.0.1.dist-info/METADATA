@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: localambda
+Version: 0.0.1
+Summary: A utility to easily test lambdas locally.
+Home-page: https://github.com/tree-schema/localambda
+Author: Grant Seward
+Author-email: grant@treeschema.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: aws-sam-cli (==1.12.0)
+Requires-Dist: cfn-flip (==1.2.3)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: redis (==3.5.3)
+Requires-Dist: PyYAML (==5.3.1)
+Requires-Dist: mitmdump (==1.1.2)
+
+UNKNOWN
+
+
