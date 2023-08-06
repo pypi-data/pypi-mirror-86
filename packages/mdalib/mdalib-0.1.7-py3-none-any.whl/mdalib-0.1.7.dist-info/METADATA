@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mdalib
+Version: 0.1.7
+Summary: ทดสอบ
+Home-page: UNKNOWN
+Author: Krit Naja
+License: MIT
+Download-URL: https://pypi.org/project/mdalib/
+Keywords: MDA,kafka
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: kafka-python
+Requires-Dist: msgpack
+Requires-Dist: requests
+
+# MDA streaming library
+
+`สวัสดีนี่กิตเอง`
+
+
+
+
