@@ -1,0 +1,9 @@
+bluesky-live>=0.0.5
+
+[pyqt5]
+PyQt5
+qtpy
+
+[pyside2]
+PySide2
+qtpy
