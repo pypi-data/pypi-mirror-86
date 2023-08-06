@@ -1,0 +1,10 @@
+{
+  "apps": {
+    "mitama.portal": {
+      "path": "/"
+    },
+    "board": {
+      "path": "/board"
+    }
+  }
+}
