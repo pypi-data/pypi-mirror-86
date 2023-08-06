@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: rab
+Version: 0.1.2
+Summary: REST API Base
+Home-page: https://github.com/JHibbard/rest-api-base
+Author: James Hibbard
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: connexion[swagger-ui] (==2.7.0)
+Requires-Dist: PyYAML (==5.3.1)
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: Flask-Cors (==3.0.9)
+Requires-Dist: gunicorn (==20.0.4)
+Provides-Extra: docs
+Requires-Dist: Sphinx (==3.3.1) ; extra == 'docs'
+Requires-Dist: sphinx-click (==2.5.0) ; extra == 'docs'
+Provides-Extra: quality
+Requires-Dist: black (==20.8b1) ; extra == 'quality'
+Requires-Dist: pyflakes (==2.2.0) ; extra == 'quality'
+Requires-Dist: radon (==4.3.2) ; extra == 'quality'
+
+Rest API Base
+=============
+
+Quickstart
+----------
+
+Install Remotely from GitHub:
+
+    pip install git+https://github.com/JHibbard/rest-api-base --upgrade
+
+
+Running Test Matrix
+-------------------
+
+note: you can add `-s` flag to print to stderr/stdout during pytest-ing
+
+    tox
+
+
+Complexity Metrics
+------------------
+
+Cyclomatic complexity (cc):
+
+    radon cc ./src/*
+
+Maintainability index:
+
+    radon mi ./src/*
+
+
+Building Distribution
+---------------------
+
+Building Wheel:
+
+    python setup.py bdist_wheel sdist
+
+Installing Wheel:
+
+    pip install /path/to/wheel/..
+
+
