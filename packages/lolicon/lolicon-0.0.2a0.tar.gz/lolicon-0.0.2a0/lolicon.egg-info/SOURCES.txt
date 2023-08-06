@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lolicon/__init__.py
+lolicon/lolicon.py
+lolicon.egg-info/PKG-INFO
+lolicon.egg-info/SOURCES.txt
+lolicon.egg-info/dependency_links.txt
+lolicon.egg-info/top_level.txt
+tests/__init__.py
+tests/test_lolicon.py
