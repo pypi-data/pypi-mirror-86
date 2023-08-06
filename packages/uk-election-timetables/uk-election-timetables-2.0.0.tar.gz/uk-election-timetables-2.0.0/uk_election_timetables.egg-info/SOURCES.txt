@@ -1,0 +1,11 @@
+README.md
+setup.py
+tests/__init__.py
+tests/test_calendars.py
+tests/test_date.py
+tests/test_historic_sopn_publish_dates.py
+tests/test_sopn_publish_date.py
+uk_election_timetables.egg-info/PKG-INFO
+uk_election_timetables.egg-info/SOURCES.txt
+uk_election_timetables.egg-info/dependency_links.txt
+uk_election_timetables.egg-info/top_level.txt
