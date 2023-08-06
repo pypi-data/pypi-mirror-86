@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+SOFASonix/SOFASonix.py
+SOFASonix/SOFASonixError.py
+SOFASonix/SOFASonixField.py
+SOFASonix/SOFATemplate.py
+SOFASonix/__init__.py
+SOFASonix/ss_db.db
+SOFASonix.egg-info/PKG-INFO
+SOFASonix.egg-info/SOURCES.txt
+SOFASonix.egg-info/dependency_links.txt
+SOFASonix.egg-info/requires.txt
+SOFASonix.egg-info/top_level.txt
