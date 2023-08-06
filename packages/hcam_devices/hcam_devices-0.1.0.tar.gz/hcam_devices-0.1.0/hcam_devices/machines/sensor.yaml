@@ -1,0 +1,37 @@
+statechart:
+  name: A basic device sensor for reading values only
+  description: |
+    Connection is handled by a separate connection handler that is bound to this machine.
+
+    This machine expects a method in it's initial context called "read_value". This returns
+    a value. There is also a method expected called "read_alarm". The latter is optional.
+  preamble: |
+    poll_time = 1
+    value = 0
+    alarm = False
+    read_alarm = lambda *args: False
+
+  root state:
+    name: active
+    initial: offline
+    states:
+      - name: offline
+        transitions:
+        - target: online
+          event: connect
+
+      - name: online
+        initial: running
+        transitions:
+          - target: offline
+            event: disconnect
+
+        states:
+          - name: running
+            transitions:
+            - target: running
+              guard: after(poll_time)
+              action: |
+                value = read_value()
+                alarm = read_alarm()
+
