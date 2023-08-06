@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: pyroclient
+Version: 0.1.0
+Summary: Client of the Pyronear API to help the fight against wildfires
+Home-page: https://github.com/pyronear/pyro-api/client
+Author: Pyronear Contributors
+License: GPLv3
+Download-URL: https://github.com/pyronear/pyro-api/tags
+Description: # API Client
+        
+        ![Build Status](https://github.com/pyronear/pyro-api/workflows/client-package/badge.svg)  [![Docs](https://img.shields.io/badge/docs-available-blue.svg)](http://pyronear.org/pyro-api)
+        
+        Client for the [Pyronear API](https://github.com/pyronear/pyro-api)
+        
+        
+        
+        ## Table of Contents
+        
+        - [API Client](#pyro-client)
+          - [Table of Contents](#table-of-contents)
+          - [Getting started](#getting-started)
+            - [Prerequisites](#prerequisites)
+            - [Installation](#installation)
+          - [Usage](#usage)
+          - [Documentation](#documentation)
+        
+        
+        
+        ## Getting started
+        
+        ### Prerequisites
+        
+        - Python 3.6 (or more recent)
+        - [pip](https://pip.pypa.io/en/stable/)
+        
+        ### Installation
+        
+        You can clone and install the project dependencies as follows:
+        
+        ```bash
+        $git clone https://github.com/pyronear/pyro-api.git
+        $pip install -e pyro-api/client/.
+        ```
+        
+        
+        
+        ## Usage
+        
+        Import the client
+        
+        ```python
+        from pyroclient import client
+        ```
+        
+        Create a client object by handling him the API keys
+        
+        ```python
+        API_URL = "http://pyronear-api.herokuapp.com"
+        CREDENTIALS_LOGIN = "George Abitbol"
+        CREDENTIALS_PASSWORD = "AStrong Password"
+        api_client = client.Client(API_URL, CREDENTIALS_LOGIN, CREDENTIALS_PASSWORD)
+        ```
+        
+        Use it to query alerts:
+        ```python
+        # Send alerts:
+        api_client.send_alert()
+        
+        # Send medias:
+        api_client.send_medias()
+        
+        # Update your position:
+        api_client.update_location(lat, lon)
+        
+        ```
+        
+        
+        
+        ## Documentation
+        
+        The full project documentation is available [here](http://pyronear.org/pyro-api) for detailed specifications. The documentation was built with [Sphinx](https://www.sphinx-doc.org/) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided by [Read the Docs](https://readthedocs.org/).
+        
+        
+Keywords: backend,wildfire,client,api
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
