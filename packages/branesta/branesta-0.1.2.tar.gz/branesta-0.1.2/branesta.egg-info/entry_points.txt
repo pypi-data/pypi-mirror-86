@@ -1,0 +1,3 @@
+[console_scripts]
+branesta = branesta.cli:main
+
