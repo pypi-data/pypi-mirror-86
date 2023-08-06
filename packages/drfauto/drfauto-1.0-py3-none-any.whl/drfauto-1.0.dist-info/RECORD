@@ -1,0 +1,10 @@
+drf_auto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_auto/apps.py,sha256=g0z1024qk_ubElM9UZywG6kZfZrNNvkres3hrywN3hk,94
+drf_auto/dynamic.py,sha256=5Ugvk2X8SdwwufinPDdx7_Qzw_PBMwL0m-DHiJq7Zpw,2070
+drf_auto/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_auto/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_auto/management/commands/makeserializer.py,sha256=HW0ekyrQoAFVJvuEV2r-b8DfL_xIcPGiioOpg3EOytM,5513
+drfauto-1.0.dist-info/METADATA,sha256=fQJYmSIYkukQaWr4KPGSUkrZ7HfO13U9FpgHD2Ov16w,251
+drfauto-1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+drfauto-1.0.dist-info/top_level.txt,sha256=qPp75q3aTwFnQcxhC4nCxo_6wmOdkSeD2Z516vDR0GU,9
+drfauto-1.0.dist-info/RECORD,,
