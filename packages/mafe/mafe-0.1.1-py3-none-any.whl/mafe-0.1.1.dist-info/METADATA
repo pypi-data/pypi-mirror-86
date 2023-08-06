@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: mafe
+Version: 0.1.1
+Summary: Music Audio Feature Extractor
+Home-page: https://gitlab.com/lilacashes/mafe
+License: MIT
+Keywords: machine learning,music,audio
+Author: Lene Preuss
+Author-email: lene.preuss@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: audio-metadata (>=0.11.1,<0.12.0)
+Requires-Dist: audioread (>=2.1.8,<3.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: librosa (>=0.7.2,<0.8.0)
+Requires-Dist: numpy (>=1.18.5,<2.0.0)
+Requires-Dist: pandas (>=1.0.4,<2.0.0)
+Requires-Dist: python-magic (>=0.4.18,<0.5.0)
+Requires-Dist: scikit-learn (>=0.23.1,<0.24.0)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
+Project-URL: Repository, https://gitlab.com/lilacashes/mafe.git
+Description-Content-Type: text/markdown
+
+# Music Audio Feature Extractor
+
+## `mafe_scan.py`
+
+```bash
+$ mafe_scan.py --help
+Usage: mafe_scan.py [OPTIONS]
+
+Options:
+  -f, --base-folders TEXT  Directory to scan  [required]
+  -p, --parallel           Use parallel execution
+  -q, --quiet              Suppress warnings and progress messages
+  --help                   Show this message and exit.
+```
