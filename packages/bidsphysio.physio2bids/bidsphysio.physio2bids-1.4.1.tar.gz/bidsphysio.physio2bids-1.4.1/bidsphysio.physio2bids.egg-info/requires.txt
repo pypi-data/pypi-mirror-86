@@ -1,0 +1,7 @@
+bidsphysio>=4.3.1
+
+[all]
+pytest
+
+[tests]
+pytest
