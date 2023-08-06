@@ -1,0 +1,9 @@
+README.md
+setup.py
+texsurgery/__init__.py
+texsurgery/simplekernel.py
+texsurgery/texsurgery.py
+texsurgery.egg-info/PKG-INFO
+texsurgery.egg-info/SOURCES.txt
+texsurgery.egg-info/dependency_links.txt
+texsurgery.egg-info/top_level.txt
