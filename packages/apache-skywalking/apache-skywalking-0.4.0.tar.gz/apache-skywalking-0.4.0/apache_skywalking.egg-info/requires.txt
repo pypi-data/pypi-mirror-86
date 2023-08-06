@@ -1,0 +1,9 @@
+grpcio
+grpcio-tools
+requests
+packaging
+
+[test]
+testcontainers
+pyyaml
+pytest
