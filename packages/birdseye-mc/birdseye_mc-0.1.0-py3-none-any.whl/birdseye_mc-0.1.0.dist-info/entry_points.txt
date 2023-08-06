@@ -1,0 +1,3 @@
+[console_scripts]
+birdseye=birdseye.__main__:main
+
