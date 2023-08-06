@@ -1,0 +1,10 @@
+setup.py
+gb78_distributions7/Binomialdistribution.py
+gb78_distributions7/Gaussiandistribution.py
+gb78_distributions7/Generaldistribution.py
+gb78_distributions7/__init__.py
+gb78_distributions_7.egg-info/PKG-INFO
+gb78_distributions_7.egg-info/SOURCES.txt
+gb78_distributions_7.egg-info/dependency_links.txt
+gb78_distributions_7.egg-info/not-zip-safe
+gb78_distributions_7.egg-info/top_level.txt
