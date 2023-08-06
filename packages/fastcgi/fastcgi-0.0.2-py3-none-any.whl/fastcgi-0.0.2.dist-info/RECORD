@@ -1,0 +1,11 @@
+fastcgi/__init__.py,sha256=5w8yjTSnl4_tNkKwR1jdbPNt3GivU-SpnSeCdRttrQo,87
+fastcgi/_nbdev.py,sha256=t9fVu-Dez70H8k_gB0agXVnxE8vmgCfpWcuxSZCxgws,1133
+fastcgi/core.py,sha256=cm-4LDMv8wRgsgRGaE40ZEmK_Y-OSkBn8lgdroU6aQY,4512
+fastcgi/decorator.py,sha256=mBQfCDjbt-Ykh20cJfz0HyIFRqEneR52QdRvA8cRdcw,1440
+fastcgi/http.py,sha256=hBPLOZ_fDUYmdpfC0281MwZcL_bweZ9hy6A8a_IuUjA,2704
+fastcgi-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastcgi-0.0.2.dist-info/METADATA,sha256=QuYSDv_Jd5JCmYJGT6KnaSu7WLxcfqAxk-Qmwlu_feQ,5383
+fastcgi-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fastcgi-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+fastcgi-0.0.2.dist-info/top_level.txt,sha256=Av5bXf1Gq8Z2G22OPhy433ReUWNvxAbkVZyJ1HlXuls,8
+fastcgi-0.0.2.dist-info/RECORD,,
