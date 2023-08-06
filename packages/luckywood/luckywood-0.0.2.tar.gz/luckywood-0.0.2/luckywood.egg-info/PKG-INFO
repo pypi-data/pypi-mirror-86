@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: luckywood
+Version: 0.0.2
+Summary: Package of helper classes.
+Home-page: https://github.com/gluecks-gmbh/luckywood
+Author: Frederik Glücks & Christian Wald-von der Lahr
+Author-email: luckywood@gluecks-gmbh.de
+License: LGPL-3.0
+Download-URL: https://pypi.org/project/luckywood/
+Description: # luckywood
+        Luckywood is a python package with a couple of helper classes
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
