@@ -1,0 +1,16 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+config.example.py
+requirements.txt
+sample.py
+setup.py
+a1pamfax.egg-info/PKG-INFO
+a1pamfax.egg-info/SOURCES.txt
+a1pamfax.egg-info/dependency_links.txt
+a1pamfax.egg-info/top_level.txt
+pamfax/__init__.py
+pamfax/processors/__init__.py
+test/Dynaptico.pdf
+test/test.py

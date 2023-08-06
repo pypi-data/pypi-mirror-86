@@ -1,0 +1,7 @@
+include README.md
+include LICENSE.txt
+include test/Dynaptico.pdf
+include config.example.py
+include sample.py
+include requirements.txt
+include CHANGES.txt
