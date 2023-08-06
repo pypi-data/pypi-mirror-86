@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+vspleeter/__init__.py
+vspleeter/__main__.py
+vspleeter/resource.qrc
+vspleeter/vspleeter_mainWindow.ui
+vspleeter/vspleeter_qrc.py
+vspleeter.egg-info/PKG-INFO
+vspleeter.egg-info/SOURCES.txt
+vspleeter.egg-info/dependency_links.txt
+vspleeter.egg-info/entry_points.txt
+vspleeter.egg-info/not-zip-safe
+vspleeter.egg-info/requires.txt
+vspleeter.egg-info/top_level.txt
