@@ -1,0 +1,7 @@
+README.rst
+setup.py
+subpub.py
+subpub.egg-info/PKG-INFO
+subpub.egg-info/SOURCES.txt
+subpub.egg-info/dependency_links.txt
+subpub.egg-info/top_level.txt
