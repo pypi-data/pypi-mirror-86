@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: sati
+Version: 1.0.0
+Summary: Statistical analysis of topographic image
+Home-page: https://github.com/yuksk/sati/
+License: MIT
+Author: Yuhki Kohsaka
+Author-email: yuhki.kohsaka@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.3.1,<4.0.0)
+Requires-Dist: numexpr (>=2.7.1,<3.0.0)
+Requires-Dist: numpy (>=1.18.0,<2.0.0)
+Requires-Dist: scipy (>=1.5.0,<2.0.0)
+Project-URL: Documentation, https://yuksk.github.io/sati/index.html
+Project-URL: Repository, https://github.com/yuksk/sati/
+Description-Content-Type: text/x-rst
+
+Sati
+====
+Statistical analysis of Topographic Image
+
+This package provides
+
+* subtracting background (a polynomial surface, logarithmic decays, exponential decays)
+* labeling terraces
+* estimating terrace heights
+* estimating a unit height of steps
+
+The subtraction is possible even in the presence of steps.
+
+Install
+-------
+You can install the package from the git repogitory using ``pip``
+::
+
+  $ pip install sati
+
+Requirements
+------------
+Sati requires the following dependencies:
+
+* python 3.8
+* matplotlib
+* numexpr
+* numpy
+* scipy
+
+Documents
+---------
+The usage examples and the API documentation are available at https://yuksk.github.io/sati/index.html
+
+
+
