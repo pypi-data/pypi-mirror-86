@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+
+import click
+import os.path
+from datetime import datetime
+import dateparser
+from tabulate import tabulate
+
+from optionstracker.price import get_price
+from optionstracker.mirriad import price_url
+from optionstracker.config import grants_from_file, value_grant
+
+
+@click.command()
+@click.option(
+    '--filepath', default='~/.options-tracker.yaml',
+    help='default: ~/.options-tracker.yaml')
+@click.option(
+    '--lse-price-url', default=price_url,
+    help=f'default: {price_url}')
+@click.option(
+    '--market-price', type=float, help='override live market price (pence)')
+@click.option(
+    '--value-at-date', help='default: today, override the market price too')
+def track(filepath, lse_price_url, market_price, value_at_date):
+    if market_price is None:
+        s_market_price, s_market_offer = get_price(lse_price_url)
+        market_price = float(s_market_price)
+    if value_at_date is None:
+        value_at_date = datetime.now()
+    else:
+        value_at_date = dateparser.parse(value_at_date)
+    click.echo(f'Market Price: {market_price}')
+    grants = grants_from_file(
+            os.path.expanduser(filepath))
+    values = [value_grant(g, market_price, value_at_date) for g in grants]
+    grants_table = [[g.date, g.price, v.vested/100, v.exercised/100,
+                     v.unexercised/100, v.unvested/100]
+                    for g, v in zip(grants, values)]
+    grants_table.append([
+            'total value:',
+            '',
+            sum([max(0, v.vested)/100 for v in values]),
+            sum([v.exercised/100 for v in values]),
+            sum([max(0, v.unexercised)/100 for v in values]),
+            sum([max(0, v.unvested)/100 for v in values]),
+            ])
+    click.echo(tabulate(
+        grants_table,
+        headers=['grant date', 'price', 'vested £', 'exercised £',
+                 'unexercised £', 'unvested £'],
+        floatfmt=',.2f',
+        numalign='right'))
+
+
+if __name__ == '__main__':
+    track()
