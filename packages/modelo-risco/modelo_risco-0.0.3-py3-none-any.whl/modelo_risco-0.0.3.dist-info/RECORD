@@ -1,0 +1,10 @@
+modelo_risco/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+modelo_risco/_nbdev.py,sha256=Iqr5vUc8kIFTWxK2pAYcBiXjlI8MYonk7TbGRDFgt3Q,482
+modelo_risco/modelo_risco_coletivo.py,sha256=O1ww3m6IE21_8Ty0BbATmtCsw1e_ZMjRNboCxhT6TEA,3252
+modelo_risco/modelo_risco_individual.py,sha256=ei-jSDy1fImhyRanedWga78ZMXcyVhy1A3oCX744jxM,4084
+modelo_risco-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+modelo_risco-0.0.3.dist-info/METADATA,sha256=aH2P6eAafhss5uVCBrZMnfaMdSMv7bnWCx_KKSOTdZc,6515
+modelo_risco-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+modelo_risco-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+modelo_risco-0.0.3.dist-info/top_level.txt,sha256=OhOCpC2IeM5V2YgmGVajLqd7IxrdgJjFSRTFvw09HRE,13
+modelo_risco-0.0.3.dist-info/RECORD,,
