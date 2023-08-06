@@ -1,0 +1,9 @@
+README.md
+setup.py
+countdown/__init__.py
+countdown/ca1_model_answer.py
+countdown/model_ans_test.py
+countdown_pkg_mcollison.egg-info/PKG-INFO
+countdown_pkg_mcollison.egg-info/SOURCES.txt
+countdown_pkg_mcollison.egg-info/dependency_links.txt
+countdown_pkg_mcollison.egg-info/top_level.txt
