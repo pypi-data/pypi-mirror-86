@@ -1,0 +1,9 @@
+pip_madison/__init__.py,sha256=C_OVe-VqGgJ2sRM_wJiMuqMUnOsjqKJPFtiAMYle_hA,21
+pip_madison/_cli_util.py,sha256=HoogMObz-SnVOPtCVAUcz6kn9XZSM6oBQFSBfaXEyz0,847
+pip_madison/cli.py,sha256=vDNHE5_wzgOIBxTqjiWTCxhib2OKzlpwP_sM1rSQSHg,8878
+pip_madison/utils.py,sha256=ilOigLq4TJk6MWCxQJpZUSdIWQ2hPrPKYT-b6Cdy424,4097
+pip_madison-0.0.6.dist-info/METADATA,sha256=ASTequUQ5OvY7Q4OpWweRcRZ0IEA_mbu1pbDgPpfoLw,549
+pip_madison-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pip_madison-0.0.6.dist-info/entry_points.txt,sha256=xqlf-tvCFuFHi5sNESIZxnOX_S7f8hiIxxDCgirAybE,53
+pip_madison-0.0.6.dist-info/top_level.txt,sha256=lMWOfi6pCiyLM1WIkCLHZ7Rj9W7KfMzKFryJML--Mdo,12
+pip_madison-0.0.6.dist-info/RECORD,,
