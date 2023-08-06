@@ -1,0 +1,7 @@
+opentelemetry/instrumentation/asyncpg/__init__.py,sha256=KEcnwjjdJ8KvoX7l9N6GiDOdlr3tA0PYKBJ7oWjftqI,5097
+opentelemetry/instrumentation/asyncpg/version.py,sha256=J1HoqnKG8W6hYRj20GTVLccRKuD6OfxJ5alMpOZGGQs,608
+opentelemetry_instrumentation_asyncpg-0.16b1.dist-info/METADATA,sha256=zEo7ORONfdhBrLTXl19hjoDG0V961Kr2e3NwEnqPVQQ,1791
+opentelemetry_instrumentation_asyncpg-0.16b1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_instrumentation_asyncpg-0.16b1.dist-info/entry_points.txt,sha256=hb2tHVvAfW94esZ-c3YDB-Kn3GEZG4oW23NxPDLop_w,98
+opentelemetry_instrumentation_asyncpg-0.16b1.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_instrumentation_asyncpg-0.16b1.dist-info/RECORD,,
