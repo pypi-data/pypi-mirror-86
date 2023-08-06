@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/__init__.py
+src/_version.py
+src/algo.py
+src/cli.py
+src/twine.py
+xtwine.egg-info/PKG-INFO
+xtwine.egg-info/SOURCES.txt
+xtwine.egg-info/dependency_links.txt
+xtwine.egg-info/entry_points.txt
+xtwine.egg-info/top_level.txt
