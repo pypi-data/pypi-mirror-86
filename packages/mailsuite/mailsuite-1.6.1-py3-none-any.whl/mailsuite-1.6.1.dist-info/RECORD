@@ -1,0 +1,9 @@
+mailsuite/__init__.py,sha256=AArh5gXaDhAG8jn6MX9eNQRiB1u48Ccl2nDeUHsNRiE,96
+mailsuite/imap.py,sha256=_rMwp2zJFReyvr8XJzNH1pTi-iiHO4bTeTmxODWXPkg,15173
+mailsuite/smtp.py,sha256=6FE8dYhPelMoMdGt8gQM7cSbNWDyZqlYZS2NEyyl-yM,3916
+mailsuite/utils.py,sha256=GykM8Nsb_117yBwgKguLisT5ga1bslKKxp3K5_xuIBU,13127
+mailsuite-1.6.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mailsuite-1.6.1.dist-info/METADATA,sha256=yEQLWQ8vLrlbopeeCA9gWcesY0TyvrrBPKJ4-sbMexc,2122
+mailsuite-1.6.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mailsuite-1.6.1.dist-info/top_level.txt,sha256=f6nUCFii38QyqCT4H6U_uIM928EXeCWGczW_Dah0_rc,10
+mailsuite-1.6.1.dist-info/RECORD,,
