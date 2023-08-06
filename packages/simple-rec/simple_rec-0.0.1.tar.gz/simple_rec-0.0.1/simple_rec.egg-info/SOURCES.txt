@@ -1,0 +1,13 @@
+README.md
+setup.py
+simple_rec/__init__.py
+simple_rec.egg-info/PKG-INFO
+simple_rec.egg-info/SOURCES.txt
+simple_rec.egg-info/dependency_links.txt
+simple_rec.egg-info/requires.txt
+simple_rec.egg-info/top_level.txt
+simple_rec/compute/__init__.py
+simple_rec/compute/_similarity.py
+simple_rec/compute/_sparse.py
+simple_rec/filters/__init__.py
+simple_rec/filters/collaborative.py
