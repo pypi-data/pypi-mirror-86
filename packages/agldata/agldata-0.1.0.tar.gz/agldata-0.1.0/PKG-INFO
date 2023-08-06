@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: agldata
+Version: 0.1.0
+Summary: A python package for data from artificial grammar studies
+Home-page: UNKNOWN
+Author: Gabriel Beckers 
+Author-email: g.j.l.beckers@uu.nl
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: pyyaml
