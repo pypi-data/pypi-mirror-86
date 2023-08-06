@@ -1,0 +1,11 @@
+celluloid
+gym
+horovod
+numpy
+scipy
+matplotlib
+wandb==0.9.5
+opencv-python
+pyquaternion
+fire
+sklearn
