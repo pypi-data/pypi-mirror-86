@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+asreq/__init__.py
+asreq/useragents.py
+asreq.egg-info/PKG-INFO
+asreq.egg-info/SOURCES.txt
+asreq.egg-info/dependency_links.txt
+asreq.egg-info/not-zip-safe
+asreq.egg-info/top_level.txt
