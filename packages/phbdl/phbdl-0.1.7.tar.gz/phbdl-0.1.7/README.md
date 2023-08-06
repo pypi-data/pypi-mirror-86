@@ -1,0 +1,21 @@
+# A tiny video url getter
+
+You can use this tool to get the video url of pxxxhub.
+
+## Usage
+
+`$ phbdl <url>`
+
+where the `<url>` is the video's webpage url in your browser. Just copy it and paste into the terminal.
+
+[![D6R43R.png](https://s3.ax1x.com/2020/11/29/D6R43R.png)](https://imgchr.com/i/D6R43R)
+
+Once you get the video url, you can use download the video with your favorite downloader, such as curl, wget, httpie, or even Chrome!
+
+For example, with [httpie](https://github.com/httpie/httpie), you can type this:
+
+`$ http -d <video-url>`
+
+where the `<video-url>` is the video's real url which you get via `phbdl`
+
+[![D6R5g1.png](https://s3.ax1x.com/2020/11/29/D6R5g1.png)](https://imgchr.com/i/D6R5g1)
