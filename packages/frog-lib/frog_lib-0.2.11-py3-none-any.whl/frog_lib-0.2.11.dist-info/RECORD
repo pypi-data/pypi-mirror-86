@@ -1,0 +1,8 @@
+frog_lib/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+frog_lib/frog_lib.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frog_lib/omnigit.py,sha256=Ywwil9v6YQCev3ZYUnhn13mh4YZDIQBpMmK8wNE1_Rg,898
+frog_lib/rest.py,sha256=xpqb7x4c6euLWdtNH8tbLOndzEc4G575sx-9tt3Yt-A,1194
+frog_lib/utils.py,sha256=TxZwj6xW_8sYwvwNK3s8lhxUkd5_RWDlp6TYXmwYzIY,4303
+frog_lib-0.2.11.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+frog_lib-0.2.11.dist-info/METADATA,sha256=gBX5Bnn-1iA5PgkgcKo-rWixZ4ZektIfjgBX1VCL240,378
+frog_lib-0.2.11.dist-info/RECORD,,
