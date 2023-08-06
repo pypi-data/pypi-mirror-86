@@ -1,0 +1,7 @@
+README.md
+ezmp.py
+setup.py
+ezmp.egg-info/PKG-INFO
+ezmp.egg-info/SOURCES.txt
+ezmp.egg-info/dependency_links.txt
+ezmp.egg-info/top_level.txt
