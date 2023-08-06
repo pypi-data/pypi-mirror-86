@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sumapi
+Version: 0.0.1
+Summary: API Library for SumAPI with Python
+Home-page: https://github.com/summarify/sumAPI-Package
+Author: Summarify
+Author-email: info@summarify.io
+License: UNKNOWN
+Description: # sumAPI-Package
+        SumAPI Python Package
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5.5
+Description-Content-Type: text/markdown
