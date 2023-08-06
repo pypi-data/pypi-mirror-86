@@ -1,0 +1,7 @@
+README.md
+setup.py
+iexec_doracle/__init__.py
+iexec_doracle.egg-info/PKG-INFO
+iexec_doracle.egg-info/SOURCES.txt
+iexec_doracle.egg-info/dependency_links.txt
+iexec_doracle.egg-info/top_level.txt
