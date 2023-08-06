@@ -1,0 +1,9 @@
+sidex/__init__.py,sha256=chBZTj9Nz6ULt0z1EccBquTQdmfwD9ZCv-48AajwSO4,114
+sidex/client.py,sha256=llrfZ_zQL7xn9X8NRk83ARtSFnGDrFXALJJ1HISP4iU,1571
+sidex/request.py,sha256=AmLi8wiwBe8vumADWHgksTPT7OZsb_WbGRFzLZVnxiI,795
+sidex/server.py,sha256=tLivOny7n1_68lTGkGQiu2ZA3OqI9Vi6QGfdP71cH7A,1723
+sidex/setup.py,sha256=90TL5V9HL_zTzPPmg5CFooR71fjcC5tsf34fXGf-6zQ,6525
+sidex-0.2.dist-info/METADATA,sha256=6AghvGRA-wnoWDOAbA9qBvNOmj1F3bMi5fUffTgmDjE,2546
+sidex-0.2.dist-info/WHEEL,sha256=_4aL6mt7Aky-42hzUSxFMOQYFwL-w8QK2cji9gADiho,106
+sidex-0.2.dist-info/top_level.txt,sha256=htXlBiyuOSoQ0KJTPxR0aSxwSLukZfJU_HLbqPkOMT8,6
+sidex-0.2.dist-info/RECORD,,
