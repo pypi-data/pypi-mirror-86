@@ -1,0 +1,16 @@
+sca2d/__init__.py,sha256=KO2ERVc6369YbOLRKp48sfEF3ONQyq_OkNuuNPgT-0Q,41
+sca2d/__main__.py,sha256=AOzHxN67rzh078tp2nRMznAJ-imSsDRTCOUi8AXaK4g,1519
+sca2d/definitions.py,sha256=mWSYrL9BeL4A8CQ_VNOy3L791f2veh32qZsq78F4IzM,1080
+sca2d/messages.py,sha256=hah-WUbkNSp8y52tvEesTZYwGIiajhmC33WJIHlxw-o,3687
+sca2d/outerscope.py,sha256=QqHgr7gxgTdvMecKunXbs4b1rJZjMm631i0knCcBpqY,6334
+sca2d/sca2d.py,sha256=L16hkxJqupYobuF_89erSd-zN1Jo9OvYcVgkc0MqJfE,4067
+sca2d/scadclasses.py,sha256=vxeJJ24OFW3_HxJfqzhQ-4rQYCKGDZfCJFsQ9g0mc1Q,4478
+sca2d/scope.py,sha256=lqkzhkkf4DAOpOPoPoB8utMm26IhNw-8JQ0W_9SO9X0,21099
+sca2d/utilities.py,sha256=w0yWDK_ANGk_bBYYViOf5jSU0Idor9W57BjmR8DYUz4,4761
+sca2d/lark/scad.lark,sha256=_4oBVE0Os8TOFT0x7-H1N7F6eS_2R9PiksjBvpj3JrQ,4088
+sca2d-0.0.4.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+sca2d-0.0.4.dist-info/METADATA,sha256=5ExsRsnC0KPhLnVAzRQ6iawQ6qbEFv6UM6uLuu9AK1M,2591
+sca2d-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sca2d-0.0.4.dist-info/entry_points.txt,sha256=LsASMzXIUvYa3Yv4so6i5Jr1nHdx18NclSVEzgk8b1s,47
+sca2d-0.0.4.dist-info/top_level.txt,sha256=461NpCLp4i_4C_EwLQz9UPnxVFgUCkqD3Cc8uNjQ6ew,6
+sca2d-0.0.4.dist-info/RECORD,,
