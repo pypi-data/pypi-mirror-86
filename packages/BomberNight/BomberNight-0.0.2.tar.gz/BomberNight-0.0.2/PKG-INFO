@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: BomberNight
+Version: 0.0.2
+Summary: Releitura do Bomberman
+Home-page: https://github.com/juliohsu/BomberNight
+Author: Júlio Hsu
+Author-email: tst700900@gmail.com
+License: MIT
+Description: # BomberNight
+         Bomberman, porém com uma temática dark
+        
+        ## Instalção
+        ''' 
+        $ pip3 install BomberNight
+        '''
+        
+        ## Como jogar
+        Para iniciar o jogo, digite:
+        '''
+        $ bombernight
+        '''
+        
+        ## Controles
+        Para movimentar o player, use as teclas:
+        - w ou cima 
+        - s ou baixo 
+        - a ou esquerda
+        - d ou direita
+        - espaço para colocar uma bomba
+Keywords: jogo,game,bomberman,arcade,ação
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
