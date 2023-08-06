@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+signxml/__init__.py
+signxml/exceptions.py
+signxml/schemas/xmldsig-core-schema.xsd
+signxml/schemas/xmldsig1-schema.xsd
+signxml/schemas/xmldsig11-schema.xsd
+signxml/util/__init__.py
+signxml_openadr.egg-info/PKG-INFO
+signxml_openadr.egg-info/SOURCES.txt
+signxml_openadr.egg-info/dependency_links.txt
+signxml_openadr.egg-info/not-zip-safe
+signxml_openadr.egg-info/requires.txt
+signxml_openadr.egg-info/top_level.txt
+test/test.py
