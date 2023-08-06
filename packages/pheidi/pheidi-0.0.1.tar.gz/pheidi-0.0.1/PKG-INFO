@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pheidi
+Version: 0.0.1
+Summary: High speed ring buffer messaging system using shared memory
+Home-page: https://github.com/aschi2/pheidi
+Author: Austin
+Author-email: 
+License: UNKNOWN
+Description: # pheidi
+        High speed ring buffer messaging system using shared memory
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
