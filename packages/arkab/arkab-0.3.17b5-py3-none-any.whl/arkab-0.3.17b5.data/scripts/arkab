@@ -1,0 +1,13 @@
+#!python
+import os, re, sys
+import typer as ty
+import arkab.nlp.knowledge as ank
+from arkab.nlp.bin import kg as kg_bin
+
+main = ty.Typer()
+
+main.add_typer(kg_bin.cli, name="kg")
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
