@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pauliopt
+Version: 0.0.0
+Summary: A Python library to simplify quantum circuits of Pauli gadgets.
+Home-page: https://github.com/sg495/pauliopt
+Author: y-richie-y, sg495
+Author-email: y-richie-y@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+
+UNKNOWN
+
+
