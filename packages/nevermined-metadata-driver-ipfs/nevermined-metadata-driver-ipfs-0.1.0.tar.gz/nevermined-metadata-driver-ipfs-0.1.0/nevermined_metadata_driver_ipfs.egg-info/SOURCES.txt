@@ -1,0 +1,15 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+metadata_driver_ipfs/__init__.py
+metadata_driver_ipfs/data_plugin.py
+nevermined_metadata_driver_ipfs.egg-info/PKG-INFO
+nevermined_metadata_driver_ipfs.egg-info/SOURCES.txt
+nevermined_metadata_driver_ipfs.egg-info/dependency_links.txt
+nevermined_metadata_driver_ipfs.egg-info/not-zip-safe
+nevermined_metadata_driver_ipfs.egg-info/requires.txt
+nevermined_metadata_driver_ipfs.egg-info/top_level.txt
+tests/__init__.py
