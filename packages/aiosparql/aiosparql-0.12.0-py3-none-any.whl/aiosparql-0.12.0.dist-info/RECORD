@@ -1,0 +1,10 @@
+aiosparql/__init__.py,sha256=eHjt9DPsMbptabS2yGx9Yhbyzq5hFSUHXb7zc8Q_8-o,23
+aiosparql/client.py,sha256=vhwE3bMsygMvJBbw6DThrIJDV_vhmfrrvVVmnSNym9k,8771
+aiosparql/escape.py,sha256=6NxmMotySfHVRXXcbrExBGGJ4F6PhI4SUr87nn48eAE,2243
+aiosparql/syntax.py,sha256=6JB_CWDovHZC2U9pjCJljpu3qCbPo52JI408ICyWHI8,8064
+aiosparql/test_utils.py,sha256=hOnf680eqR5NowT_dvVHdIsbD5QGfZfu7Ha8DNA7EWQ,2836
+aiosparql-0.12.0.dist-info/LICENSE,sha256=v96qHJceTRT88YlahxuRE76wFYawkJ1P3SuIhpEB7Xg,10779
+aiosparql-0.12.0.dist-info/METADATA,sha256=pz5QSVTPEvycJV3AFJH8HFvQ1OcndLi0zTLY54mzbHU,3760
+aiosparql-0.12.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aiosparql-0.12.0.dist-info/top_level.txt,sha256=qqhqWcyxh5bM_G8Ek8gwa8opVX6BC-svKLV-RZaIADc,10
+aiosparql-0.12.0.dist-info/RECORD,,
