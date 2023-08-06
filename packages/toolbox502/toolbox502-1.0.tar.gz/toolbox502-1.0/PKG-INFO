@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: toolbox502
+Version: 1.0
+Summary: Toolbox trial of Edgar Minault
+Home-page: https://github.com/edgarminault/toolbox502
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Develop a package that outputs the exchange rate between two countries.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
