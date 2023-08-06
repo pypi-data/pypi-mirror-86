@@ -1,0 +1,136 @@
+{% extends "admin/change_form.html" %}
+
+
+{% block extrahead %}
+
+
+
+<link href="https://host.pathomation.com/sdk/pma.ui.documentation/pma.ui.css" type="text/css" rel="stylesheet">
+
+
+
+<h4>Result: </h4>
+
+<div style="height: 620px">
+
+    <!-- the element that will host the tree -->
+    <div id="tree" style="float: left; height: 600px; width: 20%; overflow: auto;"></div>
+    <div style="float: left; height: 0; width: 70%"> <h1>Preview</h1>
+
+        <!-- the element that will host the gallery -->
+        <div id="gallery"></div>
+    </div>
+
+    <!-- the element that will host the viewport -->
+    <div id="viewer" style="float: left; height: 400px; width: 80%"></div>
+
+    {% load static %}
+    <form action="/get_path" method="post" id="img_path_form">
+
+        {{ form }}
+
+        <input style="display:none"  id="imgpathtoken" type="text" value="">
+        <input style="display:none" type="submit" class="submit_btn btn label-success" value="Update" />
+    </form>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+<script src="https://host.pathomation.com/sdk/pma.ui.documentation/pma.ui.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+
+
+
+        console.log("PMA.UI loaded: " + PMA.UI.getVersion());
+
+
+        // create a context
+        var context = new PMA.UI.Components.Context({ caller: "Django cms plugin" });
+
+        // auto login
+        // add an autologin authentication provider
+        new PMA.UI.Authentication.SessionLogin( context, [{serverUrl: "{{ link }}", sessionId:"{{ sessionID  }}" }]);
+
+
+        // create an image loader component that will allow us to load images easily
+        var slideLoader = new PMA.UI.Components.SlideLoader(context, {
+            element: "#viewer",
+            overview: {collapsed: false},
+            channels: {collapsed: false},
+            barcode: {collapsed: false},
+            loadingBar: true,
+            highQuality: true,
+            theme: "modern",
+            keyboardPanFactor: 0.5,
+            annotations: {
+                visible: true,
+                labels: true,
+            },
+            digitalZoomLevels: 2,
+            scaleLine: true,
+            filename: true,
+        });
+
+        // create a tree view that will display the contents of PMA.core servers
+        var tree = new PMA.UI.Components.Tree(context, {
+            servers: [
+                {
+                    name: "My slides",
+                    url: "{{ link }}",
+                    showFiles: true,
+                    checkboxes:true,
+                    path:"{{ folder }}",
+                },
+
+            ],
+            element: "#tree",
+            preview: true
+        });
+
+
+
+
+        // listen for the directory selected event by the tree view
+        tree.listen(PMA.UI.Components.Events.DirectorySelected, function (args) {
+            // load the contents of the selected directory
+            gallery.loadDirectory(args.serverUrl, args.path);
+
+        });
+
+        // listen for the slide selected event by the tree view
+        tree.listen(PMA.UI.Components.Events.SlideSelected, function (args) {
+            // load the image
+            slideLoader.load(args.serverUrl, args.path);
+
+            var form = document.getElementById("form-id");
+            document.getElementById("id_image_path").value = args.path;
+
+        });
+
+
+        // listen for the slide selected event to load the selected image when clicked
+        gallery.listen(PMA.UI.Components.Events.SlideSelected, function (args) {
+            // load the image with the context
+            slideLoader.load(args.serverUrl, args.path, function(){});
+
+        });
+
+
+
+
+
+
+
+    </script>
+
+<script type="text/javascript">
+
+
+setTimeout(function(){ document.documentElement.scrollTop = 0; }, 10)
+</script>
+
+
+{% endblock %}
+
