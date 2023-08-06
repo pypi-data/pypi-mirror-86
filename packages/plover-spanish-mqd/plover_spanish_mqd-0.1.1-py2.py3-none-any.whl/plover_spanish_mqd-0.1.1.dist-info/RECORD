@@ -1,0 +1,14 @@
+plover_spanish_mqd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plover_spanish_mqd/system.py,sha256=1wbtWhL22_mzn8Vql-NaIRAVWbc4064LAOIxSpMvoDc,3347
+plover_spanish_mqd/dictionaries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plover_spanish_mqd/dictionaries/initial.json,sha256=sSKXaJBB9jsp6Q5PTVv1vS1m_HOALGdDDnYLQvj1xA8,24768
+plover_spanish_mqd/dictionaries/punctuation.json,sha256=Mtj5fXfJgfhJRoSq4LJsiKHWpaK4HNgk4tZ2Mk7OnK4,857
+plover_spanish_mqd/dictionaries/spanish_mqd_double.py,sha256=gSXEN8B4GBM5pjHR9r2LT8-XlyXvQjJqdqFf99eGdvI,18699
+plover_spanish_mqd/dictionaries/spanish_mqd_single.py,sha256=F2EsgLFHwVGima4lEDqsnni1nHk7OMtJdIEj8f2FML4,534164
+plover_spanish_mqd-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+plover_spanish_mqd-0.1.1.dist-info/METADATA,sha256=6GlTu-8qIrhrEkuBqKVTu1wPZRX_zdC3YHo7v3oJrzs,846
+plover_spanish_mqd-0.1.1.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+plover_spanish_mqd-0.1.1.dist-info/entry_points.txt,sha256=flDgXb6SZxvHgG8rNItv-Of9oKlaGl0fFuO_OT6YAgQ,61
+plover_spanish_mqd-0.1.1.dist-info/top_level.txt,sha256=R4GGXq7qPufqjU8jtHu1udFLVlvogFq6SW0-dKzlqyw,19
+plover_spanish_mqd-0.1.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+plover_spanish_mqd-0.1.1.dist-info/RECORD,,
