@@ -1,0 +1,10 @@
+README.md
+setup.py
+auto_cnn/__init__.py
+auto_cnn/cnn_structure.py
+auto_cnn/gan.py
+auto_cnn.egg-info/PKG-INFO
+auto_cnn.egg-info/SOURCES.txt
+auto_cnn.egg-info/dependency_links.txt
+auto_cnn.egg-info/requires.txt
+auto_cnn.egg-info/top_level.txt
