@@ -1,0 +1,6 @@
+README.md
+setup.py
+loldataapi.egg-info/PKG-INFO
+loldataapi.egg-info/SOURCES.txt
+loldataapi.egg-info/dependency_links.txt
+loldataapi.egg-info/top_level.txt

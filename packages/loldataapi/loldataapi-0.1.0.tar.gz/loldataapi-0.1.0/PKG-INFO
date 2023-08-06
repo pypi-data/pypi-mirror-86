@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: loldataapi
+Version: 0.1.0
+Summary: team data & player data
+Home-page: https://github.com/HanQinXuan/lol_event_api
+Author: HanQinXuan
+Author-email: han981130@gmail.com
+License: MIT Licence
+Description: team data & player data
+Keywords: pip,python,lol,wanplus,api,crawler
+Platform: any
