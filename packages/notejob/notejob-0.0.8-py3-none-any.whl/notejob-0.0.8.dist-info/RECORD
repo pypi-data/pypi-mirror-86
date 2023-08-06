@@ -1,0 +1,12 @@
+notejob/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notejob/run/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notejob/run/core.py,sha256=V7-Ro1xAHtA97uObN15-Jx6xDT43oyPHPYFJJJYLwcc,1568
+notejob/tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notejob/tasks/ba.py,sha256=rdUSsc01C04IuJkUNCxBHaW8BH3Ux2s9rv7kLbC35ow,3408
+notejob/tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notejob/tool/mail.py,sha256=mz_np6aDlVg878H3LlNxkky8pOOGL3DEw-wiBSqbyMY,1113
+notejob-0.0.8.dist-info/LICENSE,sha256=5Swery3mGxKxAikjLMt9JaDBbMuzEBY9SWoM2xiAx3Q,9228
+notejob-0.0.8.dist-info/METADATA,sha256=VAhbzi0aVUQoS5Q-I1HpOicPRyhI18jPr55Ximnl4-I,231
+notejob-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+notejob-0.0.8.dist-info/top_level.txt,sha256=Z9dZS3SgD4e7a0WUMPkyzReX0z4gifosAHw4IZMqgpI,8
+notejob-0.0.8.dist-info/RECORD,,
