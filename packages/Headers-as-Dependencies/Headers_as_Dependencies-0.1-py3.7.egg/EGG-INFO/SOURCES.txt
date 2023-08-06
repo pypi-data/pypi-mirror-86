@@ -1,0 +1,9 @@
+README.md
+setup.py
+Headers_as_Dependencies.egg-info/PKG-INFO
+Headers_as_Dependencies.egg-info/SOURCES.txt
+Headers_as_Dependencies.egg-info/dependency_links.txt
+Headers_as_Dependencies.egg-info/entry_points.txt
+Headers_as_Dependencies.egg-info/top_level.txt
+hadlib/__init__.py
+hadlib/cli.py
