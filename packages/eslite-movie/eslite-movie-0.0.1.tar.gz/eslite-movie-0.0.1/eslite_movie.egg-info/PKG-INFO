@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: eslite-movie
+Version: 0.0.1
+Summary: eslite movie crawler
+Home-page: https://github.com/CliffLin/eslite-movie
+Author: Cliff Lin
+Author-email: zylintw@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
