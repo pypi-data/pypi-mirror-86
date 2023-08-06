@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+aiuniver/датасет.py
+aiuniver/модель.py
+aiuniver/сегментация.py
+aiuniver.egg-info/PKG-INFO
+aiuniver.egg-info/SOURCES.txt
+aiuniver.egg-info/dependency_links.txt
+aiuniver.egg-info/top_level.txt
