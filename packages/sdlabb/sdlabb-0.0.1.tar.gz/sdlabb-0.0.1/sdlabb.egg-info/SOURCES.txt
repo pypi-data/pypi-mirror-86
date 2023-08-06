@@ -1,0 +1,6 @@
+README.md
+setup.py
+sdlabb.egg-info/PKG-INFO
+sdlabb.egg-info/SOURCES.txt
+sdlabb.egg-info/dependency_links.txt
+sdlabb.egg-info/top_level.txt
