@@ -1,0 +1,17 @@
+tankobon/__init__.py,sha256=VtXuCzy_RR-BAtoDOA-Q3d6GXS8Htob__14vWNpVCio,101
+tankobon/__main__.py,sha256=YhE1FqIt1wqtg8KRDX2ESCr3SQX7CH4uiD3-xXDCN8Q,39
+tankobon/__version__.py,sha256=C1wBIDDy6gVDd2Q9nkt9qtUSWsZM_SUkmBGbm_Clrcc,43
+tankobon/base.py,sha256=grPhmvfmDF5pmdbQhsF5KEht_nMhiQ5yGzLeFP5FrAc,6886
+tankobon/cli.py,sha256=5VMwaUaJYR1X7NN0R35mwsSGFJsX0_U0CxmvwVPnMUc,4791
+tankobon/exceptions.py,sha256=xVnAOwSdTa9-z0nxZTGJvMgoTYeafx_CHbQefrJ_V6k,157
+tankobon/gui.py,sha256=y0obGKlMEVV7l4Lvu2nvjOJk3xsuPUjivi0ntnCjhuU,418
+tankobon/schema.py,sha256=4TiVOVBq4hJxjkV_sJ44un20YScCQtFr5bwUD699884,1088
+tankobon/utils.py,sha256=pvktNx9Q00cQrcv_ZXHAQnR61e8Hv_UGXAyxW8TfIew,1952
+tankobon/store/__init__.py,sha256=z_FWdk4skk7vwGV0W0ZNRpfzzDp3RN6re25KHNgluss,4186
+tankobon/store/komi_san.py,sha256=Bv9MOfjo-qohG0u1x3vgrlq_0wUKQjp6iGx4rlYIwwg,1518
+tankobon/store/mangabat.py,sha256=JrD5mbF8UqTtmrKocwWSjAbX05W3EQsvSBtvt4vnQY4,1185
+tankobon-3.2.0a0.dist-info/entry_points.txt,sha256=vSyqM_9I8_LPxSMyXgOuYg2-0ddEter5Qalke_ZOyJk,45
+tankobon-3.2.0a0.dist-info/LICENSE,sha256=daCIkImYgtHrrznLq7qczZFShEtWFktZ5jNNfiZkaK4,1100
+tankobon-3.2.0a0.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+tankobon-3.2.0a0.dist-info/METADATA,sha256=Kn91d_48HFmFr2xONxqOT6eUkbj-E1gObVqga4UBFnI,2550
+tankobon-3.2.0a0.dist-info/RECORD,,
