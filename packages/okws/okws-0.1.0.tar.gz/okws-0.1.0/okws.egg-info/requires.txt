@@ -1,0 +1,6 @@
+asyncio
+aioredis
+websockets
+ccxt
+pandas
+tenacity
