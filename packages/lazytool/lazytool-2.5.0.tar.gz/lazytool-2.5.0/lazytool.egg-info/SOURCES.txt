@@ -1,0 +1,10 @@
+README.md
+setup.py
+lazytool/Download.py
+lazytool/Syntax.py
+lazytool/__init__.py
+lazytool/common.py
+lazytool.egg-info/PKG-INFO
+lazytool.egg-info/SOURCES.txt
+lazytool.egg-info/dependency_links.txt
+lazytool.egg-info/top_level.txt
