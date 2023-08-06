@@ -1,0 +1,13 @@
+universal_build/__init__.py,sha256=l3zRr4FRjqRgmpPYnV4AH4Q1_5BLC0VNT2XXqlZYcxc,149
+universal_build/_about.py,sha256=wtI9Y0V82AjCtL69XHyn3rL9bq5OCCM33kUh66AgbtY,124
+universal_build/_cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+universal_build/build_utils.py,sha256=xwVC8cAHUGvR858J5gkRbWd-P98l-x-0WoD8NpjtT_c,19948
+universal_build/helpers/__init__.py,sha256=Q1YJ4yyuJf9v3_pmI0NtcRLLaYIiIYp6QXvxC3AjOPQ,83
+universal_build/helpers/build_docker.py,sha256=EZjXsM9QnpNdWzUzxoHg-9NuFgfgEA-RPLvWqf9CkPo,5123
+universal_build/helpers/build_mkdocs.py,sha256=9cNy68dz67kK7gv4M48zHcVDZiPz8WaNO3ELm5LzzZo,1990
+universal_build/helpers/build_python.py,sha256=u0wPUcvKHYOre5bMRSdMhID21sebGQ2oXGWJIxZEN54,8225
+universal_build-0.2.4.dist-info/METADATA,sha256=rw7_-CzsMEifmLd5xjy6gfFc6qpKr09MS3kqCydISws,9357
+universal_build-0.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+universal_build-0.2.4.dist-info/entry_points.txt,sha256=Wlmyo01a9biNIzqz5tqEiJXT6eDWEutRbR0X6ysWvsc,62
+universal_build-0.2.4.dist-info/top_level.txt,sha256=g5TBVIFw9KHhWj_uKEDRb6UOsJAeTEericfBK79bNzw,16
+universal_build-0.2.4.dist-info/RECORD,,
