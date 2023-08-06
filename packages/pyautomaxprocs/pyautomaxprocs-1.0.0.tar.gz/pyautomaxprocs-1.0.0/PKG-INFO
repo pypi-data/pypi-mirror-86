@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyautomaxprocs
+Version: 1.0.0
+Summary: Automatically get Linux container CPU quota like uber automaxprocs.
+Home-page: https://github.com/fengzhongzhu1621/automaxprocs
+Author: jinyinqiao
+Author-email: jinyinqiao@gmail.com
+License: MIT
+Description: # automaxprocs
+        
+        Automatically get Linux container CPU quota like uber automaxprocs.
+        
+        ```python
+        >>> from automaxprocs import maxprocs
+        >>> maxprocs.get_cpu_count()
+        4
+        >>> maxprocs.get_max_procs() 
+        2
+        ```
+        
+        
+Keywords: automaxprocs
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
