@@ -1,0 +1,5 @@
+jinja2>=2.11
+requests>=2.22.0
+
+[weasyprint]
+weasyprint>=3.5.0
