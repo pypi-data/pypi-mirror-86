@@ -1,0 +1,16 @@
+PyQt5/QtPurchasing.pyd,sha256=EzMZBDfQihSebpCjLT76V4qV3qXFq-aXBWSkoDR5No8,26112
+PyQt5/QtPurchasing.pyi,sha256=7OZcqQ8ZxyJEdDsc_NmHh7MJdF2xPH9sYv7GMmdxros,3555
+PyQt5/Qt/bin/Qt5Purchasing.dll,sha256=Zx4cwNB53Ki0BR1mCDjnRxvAnKcAVIG_ZDRCFogvX3c,36848
+PyQt5/Qt/qml/QtPurchasing/declarative_purchasing.dll,sha256=_FyEMSuQTmFaCXYmcqJhmK8v_7TJ9TJ-nwst9w8Z6H4,39920
+PyQt5/Qt/qml/QtPurchasing/plugins.qmltypes,sha256=j2lI5oMnOuyBLam9Y7Fttc1aQBuM9tRRo8NvZkWOQWw,3618
+PyQt5/Qt/qml/QtPurchasing/qmldir,sha256=8N1wz_79Nz6_OeK9tF6JhqPQfjtCYzVAF6g-Nfuel0U,111
+PyQt5/Qt/qsci/api/python/PyQtPurchasing.api,sha256=tsK-WJgY4W9jvrhCY8FtmO92_fQJVUJhvytsFNumxK4,2152
+PyQt5/bindings/QtPurchasing/QtPurchasing.toml,sha256=Tbo4_gL2ByMUsgFcj60p0SIO9Omd9yU2vC3WsCnEnJE,209
+PyQt5/bindings/QtPurchasing/QtPurchasingmod.sip,sha256=TloCoxRR10pw8YLqwmjKgR1-NGdYjyc0ERQouretdq8,2706
+PyQt5/bindings/QtPurchasing/qinappproduct.sip,sha256=lhSupSgrToR0X38IzsU6U6JHMo_5_m9o_DpXx9Xf3mY,1428
+PyQt5/bindings/QtPurchasing/qinappstore.sip,sha256=tzQiS80cA6tOru5Qvxr5Aztf2tzrUwBIe7w7zWwhZZM,2493
+PyQt5/bindings/QtPurchasing/qinapptransaction.sip,sha256=XlXP0coOGOdWVfG7PfGkrZs-HN-N95skhqSkQKhoDlc,1799
+PyQt5/bindings/QtPurchasing/qtpurchasingversion.sip,sha256=iMGyp8dvsiX4ctvZJEV5JiQldPMwHQHSsqrQuo7XkCs,1363
+PyQtPurchasing-5.15.2.dist-info/METADATA,sha256=nMq5-25Q-gPq9coCofY-je9B6j1I-DstuogUjmGkBLU,1766
+PyQtPurchasing-5.15.2.dist-info/WHEEL,sha256=b-Wxn_mCEkaaO7oounEVef5Rbbx54JXi4R33M1jHpqA,114
+PyQtPurchasing-5.15.2.dist-info\RECORD,,
