@@ -1,0 +1,8 @@
+README.md
+setup.py
+pylss/__init__.py
+pylss.egg-info/PKG-INFO
+pylss.egg-info/SOURCES.txt
+pylss.egg-info/dependency_links.txt
+pylss.egg-info/top_level.txt
+test/test.py
