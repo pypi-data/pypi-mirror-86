@@ -1,0 +1,36 @@
+language: python
+
+python:
+  - "3.6"
+  - "3.7"
+
+cache: pip
+
+before_install:
+  - sudo apt-get -qq install ghostscript
+  - sudo apt-get -qq install dvipng
+  - sudo apt-get update
+  - sudo apt-get install raxml
+
+install:
+  - pip install -r test_requirements.txt
+  - pip install -e .
+
+# following here: https://docs.travis-ci.com/user/gui-and-headless-browsers/#using-xvfb-to-run-tests-that-require-a-gui
+services:
+  - xvfb
+
+script:
+  - flake8
+  - pytest
+
+branches:
+  only:
+    - master
+    - model_adequacy
+
+notifications:
+  email:
+    - skhilton@uw.edu
+    - jbloom@fredhutch.org
+  slack: jbloomlab:JyHDWxXUajUbAxI6uhs22Pgr
