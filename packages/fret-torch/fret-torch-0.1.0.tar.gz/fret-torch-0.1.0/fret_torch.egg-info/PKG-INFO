@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fret-torch
+Version: 0.1.0
+Summary: PyTorch bindings for fret.
+Home-page: https://github.com/yxonic/fret-torch
+Author: yxonic
+Author-email: yxonic@gmail.com
+License: MIT
+Description: # fret_torch
+        
+        ```py
+        import fret
+        from fret_torch import fret_torch_plugin
+        fret.use(fret_torch_plugin)
+        ```
+        
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
