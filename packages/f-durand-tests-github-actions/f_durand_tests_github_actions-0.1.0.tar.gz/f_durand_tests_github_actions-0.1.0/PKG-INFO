@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: f_durand_tests_github_actions
+Version: 0.1.0
+Summary: This is a test of GitHub actions.
+Home-page: https://github.com/francois-durand/f_durand_tests_github_actions
+Author: François Durand
+Author-email: fradurand@gmail.com
+License: GNU General Public License v3
+Description: =============================
+        F Durand Tests GitHub Actions
+        =============================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/f_durand_tests_github_actions.svg
+                :target: https://pypi.python.org/pypi/f_durand_tests_github_actions
+        
+        .. image:: https://img.shields.io/travis/francois-durand/f_durand_tests_github_actions.svg
+                :target: https://travis-ci.org/francois-durand/f_durand_tests_github_actions
+        
+        .. image:: https://readthedocs.org/projects/f-durand-tests-github-actions/badge/?version=latest
+                :target: https://f-durand-tests-github-actions.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        .. image:: https://codecov.io/gh/francois-durand/f_durand_tests_github_actions/branch/master/graphs/badge.svg
+                :target: https://codecov.io/gh/francois-durand/f_durand_tests_github_actions/branch/master/graphs/badge
+                :alt: Code Coverage
+        
+        
+        
+        
+        
+        This is a test of GitHub actions.
+        
+        
+        * Free software: GNU General Public License v3
+        * Documentation: https://f-durand-tests-github-actions.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `francois-durand/package_helper`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`francois-durand/package_helper`: https://github.com/francois-durand/package_helper
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-11-23)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: f_durand_tests_github_actions
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
