@@ -1,0 +1,120 @@
+import pickle
+
+from autobahn.twisted.component import Component, run
+from autobahn.twisted.wamp import ApplicationSession
+from influxdb import InfluxDBClient
+from twisted.internet import threads
+from twisted.internet.defer import inlineCallbacks
+from twisted.logger import Logger
+
+
+class TelemetryLogger(ApplicationSession):
+
+    log = Logger()
+
+    def onJoin(self, details):
+        print("session ready")
+        self.topic_callbacks = {
+            'hipercam.ccd1.telemetry': self.log_ccd1_telemetry,
+            'hipercam.ccd2.telemetry': self.log_ccd2_telemetry,
+            'hipercam.ccd3.telemetry': self.log_ccd3_telemetry,
+            'hipercam.ccd4.telemetry': self.log_ccd4_telemetry,
+            'hipercam.ccd5.telemetry': self.log_ccd5_telemetry,
+            'hipercam.slide.telemetry': self.log_slide_telemetry,
+            'hipercam.compo.telemetry': self.log_compo_telemetry,
+        }
+        self._client = InfluxDBClient(host='localhost', port=8086)
+        self._client.switch_database('hipercam')
+        self._points = []  # list of dictionaries containing data to write
+        self._bulk_limit = 10  # a write is triggered once we have this many points
+        self._retries_remaining = 10  # will attempt to write data numerous times before giving up
+        # subscribe to telemetry topics
+        for topic in self.topic_callbacks:
+            callback = self.topic_callbacks[topic]
+            self.subscribe(callback, topic)
+
+    def update_db(self):
+        """
+        Update influx DB
+        """
+        result = self._client.write_points(self._points, time_precision='ms')
+        self.log.info('updated DB')
+        if result:
+            self._points = []
+            self._retries_remaining = 10
+        elif self._retries_remaining > 0:
+            self._retries_remaining -= 1
+            self.log.warn('problem writing data to DB, will retry')
+        else:
+            self.points = []
+            self.retries_remainining = 10
+            self.log.error('could not write data to DB, giving up. this batch of data is lost!')
+
+    @inlineCallbacks
+    def log_telemetry(self, point):
+        """
+        asynchronous database update
+        """
+        # if we haven't reached threshold for update, add to queue
+        if len(self._points) < self._bulk_limit:
+            self._points.append(point)
+            return
+
+        # we've reached bulk threshold, update_db
+        try:
+            yield threads.deferToThread(self.update_db)
+        except Exception as e:
+            self.log.error(str(e))
+
+    def preprocess_telemetry(self, data):
+        telemetry = pickle.loads(data)
+        ts = telemetry.pop('timestamp').iso
+        return ts, telemetry
+
+    def process_field(self, field):
+        if hasattr(field, 'value'):
+            return field.value
+        return field
+
+    def make_point(self, data, measurement):
+        point = {}
+        point['measurement'] = measurement
+        ts, telemetry = self.preprocess_telemetry(data)
+        point['time'] = ts
+        # set fields to telemetry
+        point['fields'] = {k: self.process_field(v) for (k, v) in telemetry.items()}
+        return point
+
+    def log_ccd1_telemetry(self, data):
+        self.log_telemetry(self.make_point(data, 'ccd1'))
+
+    def log_ccd2_telemetry(self, data):
+        self.log_telemetry(self.make_point(data, 'ccd2'))
+
+    def log_ccd3_telemetry(self, data):
+        self.log_telemetry(self.make_point(data, 'ccd3'))
+
+    def log_ccd4_telemetry(self, data):
+        self.log_telemetry(self.make_point(data, 'ccd4'))
+
+    def log_ccd5_telemetry(self, data):
+        self.log_telemetry(self.make_point(data, 'ccd5'))
+
+    def log_compo_telemetry(self, data):
+        """
+        We don't currently log COMPO telemetry
+        """
+        pass
+
+    def log_slide_telemetry(self, data):
+        """
+        We don't currently log slide telemetry
+        """
+        pass
+
+
+if __name__ == "__main__":
+
+    comp = Component(transports='ws://localhost:8080/ws', realm='realm1',
+                     session_factory=TelemetryLogger)
+    run([comp])
