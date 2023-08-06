@@ -1,0 +1,12 @@
+dnstap_receiver/__init__.py,sha256=zF6N8ro6TnQyofVNqCSqkbsr2Tv8dIBLHuEWB7_9ZRk,74
+dnstap_receiver/api_server.py,sha256=lCB1P69S_6A6RoUhGNPXf4Qzuf9Dkq8PSJYb9WB5kCI,3242
+dnstap_receiver/dnstap.conf,sha256=tfN6Ima7CRhZQ3kf8KftE2dg3DmY0k-0GKC1o8h6e_g,3113
+dnstap_receiver/receiver.py,sha256=YetR4G8zpfzZfc56dGMiV27mct7GHapd3N3fOIH0oUY,15562
+dnstap_receiver/statistics.py,sha256=iUveN5-t0iH7ulFaHxATlDUDeN-ZbH4gwgYNf6vYL9k,7853
+dnstap_receiver/transform.py,sha256=PxaTGEe-2ZC__8mJf9iyZH8BF0-FddPm4ce0bua2RSA,1013
+dnstap_receiver-2.1.0.dist-info/LICENSE,sha256=XBHyIx1N2_ffyQwo_AjEalytAHWSGQpMkUxnvlJ20AM,1070
+dnstap_receiver-2.1.0.dist-info/METADATA,sha256=zLyQZLrHO6tYNaSUsyOy5vi0B9ABg8DziGJMFyMTOYI,20360
+dnstap_receiver-2.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dnstap_receiver-2.1.0.dist-info/entry_points.txt,sha256=bzPt7OoA-VPMJyB-V46kkqM7mDAZnH1KyCNfWBxMjKc,77
+dnstap_receiver-2.1.0.dist-info/top_level.txt,sha256=K003aukVsNJ-FPjDLNtL1eAbNscTdkWepuWlXIlO_GI,16
+dnstap_receiver-2.1.0.dist-info/RECORD,,
