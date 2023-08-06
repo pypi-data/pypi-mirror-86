@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: richcat
+Version: 0.1.1
+Summary: rich cat command working on Python
+Home-page: https://github.com/richcat-dev/richcat
+Author: Yuta Yamamoto, Shotaro Kataoka
+Author-email: automatuX78@gmail.com
+License: MIT
+Keywords: cat,rich
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+
+[![Downloads](https://pepy.tech/badge/richcat)](https://pepy.tech/project/richcat)
+# richcat
+rich cat command working on Python
+
+# Contributors!
+- [@yamamoto-yuta](https://github.com/yamamoto-yuta) (Maintainer, **main contributor!**)
+- [@ShotaroKataoka](https://github.com/ShotaroKataoka) (Maintainer)
+
+
