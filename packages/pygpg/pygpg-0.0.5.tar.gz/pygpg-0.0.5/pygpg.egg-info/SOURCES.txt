@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pygpg/__init__.py
+pygpg/main.py
+pygpg.egg-info/PKG-INFO
+pygpg.egg-info/SOURCES.txt
+pygpg.egg-info/dependency_links.txt
+pygpg.egg-info/entry_points.txt
+pygpg.egg-info/requires.txt
+pygpg.egg-info/top_level.txt
