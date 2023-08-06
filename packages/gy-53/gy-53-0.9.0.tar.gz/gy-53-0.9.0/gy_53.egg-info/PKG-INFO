@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: gy-53
+Version: 0.9.0
+Summary: GY-53 ToF lib
+Home-page: https://github.com/ichendev/gy-53
+Author: idevlab
+Author-email: idevlab@outlook.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
