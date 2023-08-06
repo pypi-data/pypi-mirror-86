@@ -1,0 +1,10 @@
+itk/PolarTransformPython.py,sha256=iyH1_SQeDdr1zTU3yRwOgJR8b-ICw-3aufqO-v2Fjmo,2427
+itk/_PolarTransformPython.so,sha256=Ytszr7PhujjeCW2y-RBUxk1BNW2dCnUo9AcxdWprWsA,2846984
+itk/itkCartesianToPolarTransformPython.py,sha256=Pyz2Xw6UlYlfaRizAbjE6AuJI9T_lWAZcNbG-jYFwvc,9876
+itk/itkPolarToCartesianTransformPython.py,sha256=abwXknAHUfkncUY4wr1kYwVB_8fP871_kGkv9TX_YGU,10880
+itk/Configuration/PolarTransformConfig.py,sha256=isbKH796ABZPq8cAhTOyEfP76YFfgpONLqmU4ESWJ8M,560
+itk_polartransform-1.1.2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_polartransform-1.1.2.dist-info/METADATA,sha256=xP499oWkHrH-18n2uIgjzqOrsnMB17QzOowIZnUCV-A,1573
+itk_polartransform-1.1.2.dist-info/WHEEL,sha256=SBUEAC-N0AeHfNqGnu3mGNhnxQZGRpPz4smQ0D1SFSQ,103
+itk_polartransform-1.1.2.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_polartransform-1.1.2.dist-info/RECORD,,
