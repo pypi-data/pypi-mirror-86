@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: musher
+Version: 0.0.3
+Summary: Simple musical key detection
+Home-page: https://github.com/jmaldon1/Musher
+Author: Joshua Maldonado, Brian Silver
+Author-email: joshjm9915@gmail.com
+License: MIT
+Description: Simple musical key detection
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
