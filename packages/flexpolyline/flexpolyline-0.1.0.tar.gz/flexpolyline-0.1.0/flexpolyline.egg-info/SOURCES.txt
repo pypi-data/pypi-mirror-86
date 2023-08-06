@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+flexpolyline/__init__.py
+flexpolyline/decoding.py
+flexpolyline/encoding.py
+flexpolyline.egg-info/PKG-INFO
+flexpolyline.egg-info/SOURCES.txt
+flexpolyline.egg-info/dependency_links.txt
+flexpolyline.egg-info/top_level.txt
