@@ -1,0 +1,16 @@
+README.md
+setup.py
+halo_aws/__init__.py
+halo_aws.egg-info/PKG-INFO
+halo_aws.egg-info/SOURCES.txt
+halo_aws.egg-info/dependency_links.txt
+halo_aws.egg-info/top_level.txt
+halo_aws/providers/__init__.py
+halo_aws/providers/cloud/__init__.py
+halo_aws/providers/cloud/aws/__init__.py
+halo_aws/providers/cloud/aws/aws.py
+halo_aws/providers/cloud/aws/base_util.py
+halo_aws/providers/cloud/aws/exceptions.py
+halo_aws/providers/cloud/aws/models.py
+halo_aws/providers/cloud/aws/ses.py
+halo_aws/providers/cloud/aws/settingsx.py
