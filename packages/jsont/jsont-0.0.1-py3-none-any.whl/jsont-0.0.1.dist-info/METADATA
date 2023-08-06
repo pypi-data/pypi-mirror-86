@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: jsont
+Version: 0.0.1
+Summary: JSON Transformer
+Home-page: https://github.com/ivangeorgiev/jsont
+Author: Ivan Georgiev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# jsont
+JSON Transformer
+
+## Build and Publish
+
+```bash
+pip install wheel twine
+python setup.py sdist bdist_wheel
+python -m twine upload dist/*
+```
+
+
