@@ -1,0 +1,5 @@
+coloredlogs
+pika
+requests
+urllib3
+verboselogs
