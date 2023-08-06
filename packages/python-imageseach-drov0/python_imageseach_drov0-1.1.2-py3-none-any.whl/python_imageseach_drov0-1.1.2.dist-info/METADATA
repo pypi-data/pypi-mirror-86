@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: python-imageseach-drov0
+Version: 1.1.2
+Summary: A wrapper around openCv to perform image searching
+Home-page: https://github.com/drov0/python-imagesearch
+Author: Martin Lees
+Author-email: drov.fr@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: python3-xlib
+Requires-Dist: pyautogui
+Requires-Dist: mss
+
+# Python-ImageSearch
+
+THIS PACKAGE IS DEPRECATED, PLEASE USE https://pypi.org/project/python-imagesearch INSTEAD 
+
+================================================================================================
+================================================================================================
+================================================================================================
+================================================================================================
+
+
