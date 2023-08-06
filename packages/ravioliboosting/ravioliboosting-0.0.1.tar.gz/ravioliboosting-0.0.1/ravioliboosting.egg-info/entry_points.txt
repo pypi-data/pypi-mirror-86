@@ -1,0 +1,3 @@
+[console_scripts]
+ravioliboosting = ravioliboosting.level:main
+
