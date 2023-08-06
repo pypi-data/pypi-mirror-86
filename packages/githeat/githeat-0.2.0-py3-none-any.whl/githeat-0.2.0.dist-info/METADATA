@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: githeat
+Version: 0.2.0
+Summary: Interactive heatmap for your git repos
+Home-page: https://github.com/AmmsA/Githeat
+Author: Mustafa Abualsaud
+Author-email: mabualsaud@outlook.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: blessed
+Requires-Dist: gitdb
+Requires-Dist: GitPython
+Requires-Dist: py
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: PyYAML
+Requires-Dist: six
+Requires-Dist: smmap
+Requires-Dist: wcwidth
+Requires-Dist: wheel
+Requires-Dist: xtermcolor
+
+UNKNOWN
+
+

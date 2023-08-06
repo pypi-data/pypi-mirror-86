@@ -1,0 +1,4 @@
+[console_scripts]
+githeat = githeat:main
+githeat.interactive = githeat.interactive:main
+
