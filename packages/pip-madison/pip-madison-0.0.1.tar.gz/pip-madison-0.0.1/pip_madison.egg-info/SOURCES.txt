@@ -1,0 +1,10 @@
+setup.py
+pip_madison/__init__.py
+pip_madison/cli.py
+pip_madison/utils.py
+pip_madison.egg-info/PKG-INFO
+pip_madison.egg-info/SOURCES.txt
+pip_madison.egg-info/dependency_links.txt
+pip_madison.egg-info/entry_points.txt
+pip_madison.egg-info/requires.txt
+pip_madison.egg-info/top_level.txt

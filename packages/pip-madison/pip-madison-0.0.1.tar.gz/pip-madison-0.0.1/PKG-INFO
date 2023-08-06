@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pip-madison
+Version: 0.0.1
+Summary: A simple tool to list available version releases
+Home-page: https://github.com/joranbeasley/pip_madison
+Author: Joran Beasley
+Author-email: joranbeasley@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
