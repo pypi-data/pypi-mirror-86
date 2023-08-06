@@ -1,0 +1,9 @@
+README.md
+setup.py
+solvency_analitics_db_migration/__init__.py
+solvency_analitics_db_migration/migration.py
+solvency_analitics_db_migration/sql.py
+solvency_analitics_db_migration.egg-info/PKG-INFO
+solvency_analitics_db_migration.egg-info/SOURCES.txt
+solvency_analitics_db_migration.egg-info/dependency_links.txt
+solvency_analitics_db_migration.egg-info/top_level.txt
