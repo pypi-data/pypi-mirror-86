@@ -1,0 +1,11 @@
+sinabs/backend/dynapcnn/__init__.py,sha256=Uyq2KvMfoZipvFGbTDq8MvRkfovCtVLIOpXDAMJqYNU,50
+sinabs/backend/dynapcnn/discretize.py,sha256=7Ia5U1O9Bld5gCdVQ_FNI1-tvdccS9ccyOcoJkeZQLo,13123
+sinabs/backend/dynapcnn/dynapcnnlayer.py,sha256=b42P0V956TEFI7Fp_MdxuF0qmyw3SA8pTEyESRqQ7RY,10530
+sinabs/backend/dynapcnn/todynapcnn.py,sha256=3SLCy-ix0coXh-OGxaTrKtMxkJPwoQqL94G8mtY_JgM,22098
+sinabs/backend/dynapcnn/valid_mapping.py,sha256=QugvW9HCzIrtvrzrae_SE9s2Fbgc6NrKC9kvqpQ-jEM,7863
+sinabs_dynapcnn-0.2.1.dev20.dist-info/AUTHORS,sha256=CKVDFy_YvHrBGM6r-xwbUScposguY1IWCW5GplighRQ,423
+sinabs_dynapcnn-0.2.1.dev20.dist-info/METADATA,sha256=De79yuhn79xoMsxAxneooLdSXLC6DzeBNIALD_9PWZM,782
+sinabs_dynapcnn-0.2.1.dev20.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sinabs_dynapcnn-0.2.1.dev20.dist-info/pbr.json,sha256=Xs0-v0lCgd_m9CKI4KicWIN_DsvlNs5g1BVHE3S0QSg,47
+sinabs_dynapcnn-0.2.1.dev20.dist-info/top_level.txt,sha256=QOXGzf0ZeDjRnJ9OgAjkk6h5jrh66cwrwvtPJTyfDk8,7
+sinabs_dynapcnn-0.2.1.dev20.dist-info/RECORD,,
