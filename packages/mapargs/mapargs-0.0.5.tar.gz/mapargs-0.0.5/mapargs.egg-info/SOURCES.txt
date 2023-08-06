@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+README.rst
+dev-requirements.txt
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+mapargs/__init__.py
+mapargs/command_line.py
+mapargs.egg-info/PKG-INFO
+mapargs.egg-info/SOURCES.txt
+mapargs.egg-info/dependency_links.txt
+mapargs.egg-info/entry_points.txt
+mapargs.egg-info/requires.txt
+mapargs.egg-info/top_level.txt
