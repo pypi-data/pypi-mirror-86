@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hop-file-browser
+Version: 1.0.1
+Summary: Python-written terminal based file explorer with support for windows/unix
+Home-page: https://github.com/benrrutter/hop
+Author: hop by benrruter + pip installation script by Elsoleiro
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: unix
+Requires-Dist: getch ; extra == 'unix'
+
+UNKNOWN
+
+
