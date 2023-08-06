@@ -1,0 +1,12 @@
+deepops/__init__.py,sha256=s5XtcDXr21l9MnbbB9-nMAbxCX1GtaAcl789i1n67ic,37
+deepops/gpu_kernels.py,sha256=jY10kMFgI2vx0tc0Odl4wgi-M1-1m0OrUUXCpu9D8JQ,3221
+deepops/ops.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepops/states.py,sha256=Gs3f236-gepUdZdPGCm62h1UmauSqVu2yjtguqc2pow,210
+deepops/tensor.py,sha256=yA2vvMtcznm64HA7QVdQhL6LJvEyV8eN0AET6ss6Naw,8855
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gpuops.py,sha256=vMHGRJNtjTrFLerNzGw6XmDdDQuKFrmGa2K2fz12ZJg,3638
+deepop-0.1.dev0.dist-info/LICENSE,sha256=d5yuVMR8nAPEAUqKxxZ_XqNvLGN7UKoKkDBH43blKnk,1067
+deepop-0.1.dev0.dist-info/METADATA,sha256=Pew989PUcpFbEc0I1TxwgXPiIxO_pBFJl846gUjy2Lc,1972
+deepop-0.1.dev0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+deepop-0.1.dev0.dist-info/top_level.txt,sha256=QOaYiehWdhwb5pvG6MwKXEoRkD6RtEymcs7Zhn4FMgM,14
+deepop-0.1.dev0.dist-info/RECORD,,
