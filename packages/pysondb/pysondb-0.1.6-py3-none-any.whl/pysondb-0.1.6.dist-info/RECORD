@@ -1,0 +1,11 @@
+pysondb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysondb/cli.py,sha256=yTfsb9Lu44oIQ76ua9QYxzJge0buXXwBoXt611UOPko,1670
+pysondb/db.py,sha256=z-EzSAtJNgw_pv-cu5l168WgUEf1kNEaPKoeZuYEkSQ,8191
+pysondb/pysoncli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=imkLiTNq7hNxyK577hR29ofWyB6G2D-PLU_eHWoc49E,405
+pysondb-0.1.6.dist-info/METADATA,sha256=dxMAiUrSRnv2z-WKEBe8PNhU8qxSocQr9RRbxKIwf8A,2043
+pysondb-0.1.6.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pysondb-0.1.6.dist-info/entry_points.txt,sha256=GflfXq4eGq0FCqXQ7ycDEAFe_u23O0qYRfYY-fZUoY8,46
+pysondb-0.1.6.dist-info/top_level.txt,sha256=96iW8tJ80LJNH6cCPaKfkLTq4DgBEhhbKlWYc8qidS8,14
+pysondb-0.1.6.dist-info/RECORD,,
