@@ -1,0 +1,11 @@
+pspman/__init__.py,sha256=l4r4HWQBMCQtGVFT19P6PaqtjCbck_IK4CPiPYWkTwI,792
+pspman/__main__.py,sha256=4Qe0A_3cWfxb0lZjJcV5uOeWJ4Bji8ZyApPwmnUOkNY,881
+pspman/classes.py,sha256=2xIVxb8ZJKMWjeD0B2v5RvCyoljyqxCJrUykvFSjzOY,6511
+pspman/gitman.py,sha256=-BaQ_oNGng-Q7XeIoYE8nUtU-g6lfXjeOjqK0nAtpOw,10780
+pspman/input_output.py,sha256=SZdzIwFKa9mOtMC2j6pVIn2SPwE2SdLCAKn1ljscvyM,2409
+pspman-0.0.0.0.dev6.data/scripts/pspman,sha256=hMr4Yie8J5T6H-mx30x1ZpfxdL7xixqAxGx33Oyqw_Y,849
+pspman-0.0.0.0.dev6.dist-info/LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+pspman-0.0.0.0.dev6.dist-info/METADATA,sha256=vEoNaw9AgA_ivF9zjhFXo6ykwhOWAiiqZlQyYz6eyCU,2439
+pspman-0.0.0.0.dev6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pspman-0.0.0.0.dev6.dist-info/top_level.txt,sha256=l2j-Ics8jRKNRwk6LWq2Fa3o4I1w4HP_b8kBD5y78SA,7
+pspman-0.0.0.0.dev6.dist-info/RECORD,,
