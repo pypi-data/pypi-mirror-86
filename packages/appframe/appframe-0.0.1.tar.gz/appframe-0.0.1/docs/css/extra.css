@@ -1,0 +1,77 @@
+
+/* make h1 titles more visible and add a bottom separator line */
+.md-typeset h1 {
+    font-weight: 500;
+    color: black;
+    border-bottom:3px solid #CCC;
+}
+
+/* make h2 titles more visible and add a top separator line */
+.md-typeset h2 {
+    font-weight: 400;
+    color: black;
+    border-top:1px solid #CCC;
+    padding-top:3px;
+}
+
+/* Remove space between the header and the content */
+.md-main__inner {
+    margin-top: 0;
+ }
+
+/* Place a bottom border line to split the header from the body */
+.md-header {
+    border-bottom:1px solid rgb(230, 230, 230);
+}
+
+/* Use the full width instead for the inner portion */
+.md-grid {
+    max-width: 100%;
+}
+
+/************** side/nativation bar adjustments ****************/
+
+/* change the right sidebar background color to different it from the content,
+add a right border line */
+.md-sidebar--primary {
+    background-color: rgb(247, 250, 248);
+    border-right: 1px solid rgb(230, 230, 230);
+    padding-top: 3em;
+}
+
+
+/* Differentiate the (collapsable) group titles */
+.md-nav__item--nested>.md-nav__link {
+    margin-top: 1rem;
+    color: rgb(168, 168, 168);
+    font-weight: bold;
+}
+
+/* Add padding to be filled with the backgroun color for the active/hover color effect */
+.md-nav__link {
+    margin-top: 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+/* mark the active topic with a bordered white box */
+.md-nav__link--active {
+    background-color: white;
+    border: 1px double rgb(230, 230, 230);
+}
+
+/* mark on hovr items with a light gray box */
+.md-nav__link:hover {
+    background-color:rgb(240, 240, 240);
+}
+
+/* place a right border on the left sidebar elements to split them from the content */
+.md-sidebar__inner>.md-nav--secondary {
+    border-left: 1px double rgb(230, 230, 230);
+    width: 10rem;
+}
+
+/* align the footer tex to the center */
+.md-footer-copyright {
+    width: 100%;
+    text-align: center;
+}

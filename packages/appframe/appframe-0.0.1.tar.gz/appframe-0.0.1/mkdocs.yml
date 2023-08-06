@@ -1,0 +1,51 @@
+# Project information
+site_name: Appframe
+site_description: A Python Application Development Framework
+site_author: João Pinto
+site_url: https://appframe.webplane.org/
+docs_dir: docs
+
+# Repository
+repo_name: appframe
+repo_url: https://github.com/webplane/appframe/
+
+# Repository
+copyright: This site content is licensed under a <A HREF="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</A>
+
+theme:
+    name: material
+    language: en
+    palette:
+        primary: 'white'
+        accent: '#aa'
+    font:
+        text: Roboto
+        code: Roboto Mono
+
+# Disable edit uri to get a cleaner view
+edit_uri: ''
+
+extra_css:
+    - css/extra.css
+    - https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css
+
+extra_javascript:
+    - js/autoexpand.js
+    - https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js
+    - js/consentinit.js
+
+nav:
+    - Introduction and Installation: index.md
+    - Application Directory Layout: application-directory.md
+
+
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+    - markdown.extensions.admonition:
+    - pymdownx.details:
+    - pymdownx.superfences:
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.highlight:
