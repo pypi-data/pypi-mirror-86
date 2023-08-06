@@ -1,0 +1,6 @@
+selenium
+webdriver-manager
+pyfiglet
+pillow
+pyglet
+scipy
