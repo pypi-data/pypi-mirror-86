@@ -1,0 +1,4 @@
+hazard_feed
+hazard_feed/fixtures
+hazard_feed/static
+hazard_feed/templates
