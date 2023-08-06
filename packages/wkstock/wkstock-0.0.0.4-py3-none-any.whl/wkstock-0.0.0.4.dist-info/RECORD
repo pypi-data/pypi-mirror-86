@@ -1,0 +1,12 @@
+wkstock/__init__.py,sha256=G1AGewaiY6ByoF8lgjz3ipP229SXwjji9Opkzj1Spsk,132
+wkstock/data/stock-info-20201123.txt,sha256=dc_8YHJnZv1nkDtrrkTZW6P3wQweg60ORt6lKe0nsVs,2187494
+wkstock/utils/__init__.py,sha256=a0Ev8Z5RLDLoGivFIrN0YWj_tQlHP-WE-bYYWJrnwpA,143
+wkstock/utils/apis.py,sha256=WRQMNZrqob-9GuiawsIX0ffyfdn7VLOAoEVT1wTO7DU,277
+wkstock/utils/china_stock_market.py,sha256=W0aGK-Vwt1KtmBFA_U-2dctpX4PNtKiyAFBrnKSa6jA,793
+wkstock/utils/get_stock_info.py,sha256=fDZMVDxZRJGpoHk9KoqGewZBnJ8QauyG32AAlK_4vTI,1598
+wkstock-0.0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+wkstock-0.0.0.4.dist-info/METADATA,sha256=pgMwK-BQOcV4HFjmD04zKYVHg_WMLab4hNmFAlKYXFo,575
+wkstock-0.0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wkstock-0.0.0.4.dist-info/entry_points.txt,sha256=ZqSoZxJTPRen2jFMti3Imy6CeeUzPvG2oZHF717728k,55
+wkstock-0.0.0.4.dist-info/top_level.txt,sha256=JtdY658WZNoDXYgPL48Qn64UhStH40M-KyGBwc5pXGA,8
+wkstock-0.0.0.4.dist-info/RECORD,,
