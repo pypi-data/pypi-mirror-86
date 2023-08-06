@@ -1,0 +1,8 @@
+pennylane>=0.13
+scipy
+openfermion
+openfermionpsi4
+
+[:platform_system != "Windows"]
+openfermionpyscf
+pyscf==1.7.2
