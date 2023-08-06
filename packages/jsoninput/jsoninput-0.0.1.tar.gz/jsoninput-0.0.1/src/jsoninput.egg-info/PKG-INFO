@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jsoninput
+Version: 0.0.1
+Summary: A utility for loading and checking JSON files against a schema
+Home-page: https://github.com/rileychall/json-input
+Author: Riley Hall
+Author-email: riley.hall.va@gmail.com
+License: UNKNOWN
+Description: # json-input
+        
+        A utility for loading and checking JSON files against a schema.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/jsoninput/InputHandler.py
+src/jsoninput/__init__.py
+src/jsoninput.egg-info/PKG-INFO
+src/jsoninput.egg-info/SOURCES.txt
+src/jsoninput.egg-info/dependency_links.txt
+src/jsoninput.egg-info/requires.txt
+src/jsoninput.egg-info/top_level.txt
