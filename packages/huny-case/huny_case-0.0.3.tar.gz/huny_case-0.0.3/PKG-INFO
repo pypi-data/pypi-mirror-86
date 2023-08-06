@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: huny_case
+Version: 0.0.3
+Summary: A small example package
+Home-page: https://www.cnblogs.com/huny/
+Author: Huny
+Author-email: hy546880109@qq.com
+License: UNKNOWN
+Description: # Test case generator
+        
+        This is a simple test case generator. You can use
+        Author锛歨uny
+        Email:hy546880109@qq.com
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
