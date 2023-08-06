@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include avtopro/locale *
+recursive-include avtopro/static *
+recursive-include avtopro/templates *
+prune *.pyc

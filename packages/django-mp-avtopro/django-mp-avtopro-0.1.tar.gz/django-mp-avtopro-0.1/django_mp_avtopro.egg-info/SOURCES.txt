@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+avtopro/__init__.py
+avtopro/settings.py
+avtopro/urls.py
+avtopro/views.py
+django_mp_avtopro.egg-info/PKG-INFO
+django_mp_avtopro.egg-info/SOURCES.txt
+django_mp_avtopro.egg-info/dependency_links.txt
+django_mp_avtopro.egg-info/requires.txt
+django_mp_avtopro.egg-info/top_level.txt
