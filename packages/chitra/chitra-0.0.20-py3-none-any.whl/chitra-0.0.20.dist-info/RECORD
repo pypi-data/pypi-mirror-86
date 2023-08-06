@@ -1,0 +1,17 @@
+chitra/__init__.py,sha256=9z6bWwRbqEfVmL0Yb9ifLCnAoozSPrLRXbo2o787_7M,88
+chitra/_nbdev.py,sha256=-Iu9VYYSh6ya5QxBb6n9Fp70cr9oNsBcy8gFpyPRp8s,1831
+chitra/classification.py,sha256=NBrbm8I1qsQ4-RgWRvPmWEAHNtaSUjc0D092S2rcK7U,115
+chitra/core.py,sha256=2I40ptZV8nFghygJMHG9b7JYQrS8cpoZjtaKycMBsBw,26880
+chitra/datagenerator.py,sha256=HceOY46PFiaRU5-JDnpcNLrmpRUUF0kCD5iNIQsOH5o,6432
+chitra/dataloader.py,sha256=_6vf_lfP1eK2lhxjCusVJOlgg71PmRsufGmOepiYqBw,6931
+chitra/image.py,sha256=glkvW46N-Oa3CDhIwS1aN_LgTKor9mtfWi5r4-536Zs,900
+chitra/learner.py,sha256=qNVfP4h8QQNn2j0CSb74Tv2FLn1MXVXITCSQPy87yFM,10311
+chitra/trainer.py,sha256=AzdpanO7MaQXsBYxlB99GE179PbFiyys5GxSKyyz-98,12906
+chitra/utils.py,sha256=gkWORvqWsvjx2JgB56-oYVvkB-IuOPNA2M1CmhOk7a4,2075
+chitra/visualization.py,sha256=0VYjqYGxosCICJ3hHtF_i3LcBbHFtmWvZ7Bg3LBui5A,7120
+chitra-0.0.20.dist-info/LICENSE,sha256=ANErsExUhWm8koR_AedIrR79P3olGGZsfVW3gCed3Xo,11343
+chitra-0.0.20.dist-info/METADATA,sha256=yBSImq9ELokdfzJJRBwq40Q-E7M3RTRHeKDAtxkXRXw,9477
+chitra-0.0.20.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+chitra-0.0.20.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+chitra-0.0.20.dist-info/top_level.txt,sha256=YJe5yeAiVYA1tawgTJuzmPW3B-fVYrcSVpGB4eZgMBo,7
+chitra-0.0.20.dist-info/RECORD,,
