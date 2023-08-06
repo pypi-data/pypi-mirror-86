@@ -1,0 +1,3 @@
+[console_scripts]
+pubtools-pyxis-get-operator-indices = pubtools._pyxis.pyxis_ops:get_operator_indices_main
+
