@@ -1,0 +1,14 @@
+README.md
+setup.py
+delcechfiltr/__init__.py
+delcechfiltr/dgms.py
+delcechfiltr/tetra.py
+delcechfiltr/tri.py
+delcechfiltr.egg-info/PKG-INFO
+delcechfiltr.egg-info/SOURCES.txt
+delcechfiltr.egg-info/dependency_links.txt
+delcechfiltr.egg-info/not-zip-safe
+delcechfiltr.egg-info/requires.txt
+delcechfiltr.egg-info/top_level.txt
+delcechfiltr/cpp/__init__.py
+test/test_tri.py
