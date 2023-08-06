@@ -1,0 +1,8 @@
+README.md
+setup.py
+DisCORE/DisCORE.py
+DisCORE/__init__.py
+DisCORE_LDShadowLord.egg-info/PKG-INFO
+DisCORE_LDShadowLord.egg-info/SOURCES.txt
+DisCORE_LDShadowLord.egg-info/dependency_links.txt
+DisCORE_LDShadowLord.egg-info/top_level.txt
