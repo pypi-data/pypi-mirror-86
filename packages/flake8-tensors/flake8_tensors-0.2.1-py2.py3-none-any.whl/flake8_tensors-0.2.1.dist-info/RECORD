@@ -1,0 +1,9 @@
+flake8_tensors/__init__.py,sha256=Wq9DuQ4RODYJEbZ4_RNKv_EJRLcEa2EX1gdsAsfkXFM,498
+flake8_tensors/plugin.py,sha256=Iw3EisXBdJkGflmVRqptkfNLDb4NaOtyndtTuWu5BKo,1343
+flake8_tensors/rules.yaml,sha256=orOx3hjUmj2Zn3T2Lxmc2oHGZAgznC6-ILwTPDo1lCg,6593
+flake8_tensors-0.2.1.dist-info/LICENSE.txt,sha256=YTgwdOVTfJp9HoEk6ughang-KX1HvvcOVe-zEodXS1E,1222
+flake8_tensors-0.2.1.dist-info/METADATA,sha256=RpojS3QJNoX75Y0g8egokWZjGd6ZvDYFGopqiP__2lc,865
+flake8_tensors-0.2.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+flake8_tensors-0.2.1.dist-info/entry_points.txt,sha256=F-vuZiISvJ436FEEy8-pC3FqZdZaR3T-OAwqy15xiFU,60
+flake8_tensors-0.2.1.dist-info/top_level.txt,sha256=L28T2c_Us4o8ZLgbRH2xrtEGa1KWPJcon3gFzVkZkL4,15
+flake8_tensors-0.2.1.dist-info/RECORD,,
