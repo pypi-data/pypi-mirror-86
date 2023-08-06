@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ufw-config
+Version: 0.0.2
+Summary: A tool for opening and closing ports with UFW.
+Author: NeonDevelopment
+Author-email: root@neon-is.fun
+Requires-Python: >=3.6,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
