@@ -1,0 +1,11 @@
+README.md
+setup.py
+grab_from_libgen/__init__.py
+grab_from_libgen/convert.py
+grab_from_libgen/mirrors.py
+grab_from_libgen/search.py
+grab_from_libgen/search_config.py
+grab_from_libgen_willeyers.egg-info/PKG-INFO
+grab_from_libgen_willeyers.egg-info/SOURCES.txt
+grab_from_libgen_willeyers.egg-info/dependency_links.txt
+grab_from_libgen_willeyers.egg-info/top_level.txt

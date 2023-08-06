@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: grab-from-libgen-willeyers
+Version: 0.1.0
+Summary: An easy API for searching and downloading books from Libgen.
+Home-page: https://github.com/willmeyers/grab-from-libgen
+Author: Will Meyers
+Author-email: will@willmeyers.net
+License: UNKNOWN
+Description: # grab-from-libgen
+        An easy API for searching and downloading books from Libgen.
+        
+        ## Before Installing
+        
+        **Be sure that you have installed Calibre and have added the necessary `ebook-convert` command to your path!**
+        
+        If you don't, you will not be able to convert any ebooks!
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
