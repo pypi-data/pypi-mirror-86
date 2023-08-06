@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+data/.DS_Store
+data/housing.csv
+data/iris.tsv
+data/iris_10x.tsv
+data/iris_noHeaders.csv
+data/sonar.csv
+data/.ipynb_checkpoints/sonar-checkpoint.csv
+pydatasci/__init__.py
+pydatasci.egg-info/PKG-INFO
+pydatasci.egg-info/SOURCES.txt
+pydatasci.egg-info/dependency_links.txt
+pydatasci.egg-info/requires.txt
+pydatasci.egg-info/top_level.txt
+pydatasci/aidb/__init__.py
