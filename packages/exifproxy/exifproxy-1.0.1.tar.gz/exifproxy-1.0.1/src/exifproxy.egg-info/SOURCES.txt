@@ -1,0 +1,13 @@
+README.rst
+setup.py
+src/exifproxy/_init_.py
+src/exifproxy/exiftool.py
+src/exifproxy/service.py
+src/exifproxy/web.py
+src/exifproxy.egg-info/PKG-INFO
+src/exifproxy.egg-info/SOURCES.txt
+src/exifproxy.egg-info/dependency_links.txt
+src/exifproxy.egg-info/not-zip-safe
+src/exifproxy.egg-info/requires.txt
+src/exifproxy.egg-info/top_level.txt
+src/twisted/plugins/exiftool_proxy.py
