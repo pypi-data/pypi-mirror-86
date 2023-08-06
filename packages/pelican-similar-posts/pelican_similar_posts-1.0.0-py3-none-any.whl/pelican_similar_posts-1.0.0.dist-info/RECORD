@@ -1,0 +1,7 @@
+pelican/plugins/similar_posts/__init__.py,sha256=D3wj-FJyMIn0ZsNkUUXIv58dqE7DdptRo9Loz1-WnCg,37
+pelican/plugins/similar_posts/similar_posts.py,sha256=lxPPmOh3Mi4s4tMqZ1UNciaw1DBGe1w9L7QlL2Hiuv4,2812
+pelican/plugins/similar_posts/test_similar_posts.py,sha256=uWw21RZJLe9qz3D8UEyJf0iqVAQM3miIcdL-ZxITGu0,9955
+pelican_similar_posts-1.0.0.dist-info/LICENSE,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+pelican_similar_posts-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pelican_similar_posts-1.0.0.dist-info/METADATA,sha256=jnP3ta27UPvBQ0IaI6iU9ceoeSdDb3oinKy5ZWKAqJ8,7296
+pelican_similar_posts-1.0.0.dist-info/RECORD,,
