@@ -1,0 +1,7 @@
+autopep8
+check-manifest
+flake8
+pep8
+readme
+wheel
+sphinx
