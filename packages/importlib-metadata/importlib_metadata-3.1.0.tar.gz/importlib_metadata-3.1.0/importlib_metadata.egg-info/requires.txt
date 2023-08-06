@@ -1,0 +1,15 @@
+zipp>=0.5
+
+[docs]
+sphinx
+rst.linker
+
+[testing]
+packaging
+pep517
+
+[testing:python_version < "3"]
+unittest2
+
+[testing:python_version < "3.9"]
+importlib_resources>=1.3
