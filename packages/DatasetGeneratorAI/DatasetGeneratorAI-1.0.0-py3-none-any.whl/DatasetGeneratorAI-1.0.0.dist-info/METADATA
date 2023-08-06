@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DatasetGeneratorAI
+Version: 1.0.0
+Summary: Geração de modelos a partir da coleta automática de dados
+Home-page: https://github.com/AlissonGiron/DatasetGenerator
+Author: Giron
+Author-email: alissongiron.hs@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+TCC Facens 2020 - GeraÃ§Ã£o de modelos a partir da coleta automÃ¡tica de dados
+
+Alisson Henrique dos Santos Giron
+Gabriel Acosta Belchior
+
