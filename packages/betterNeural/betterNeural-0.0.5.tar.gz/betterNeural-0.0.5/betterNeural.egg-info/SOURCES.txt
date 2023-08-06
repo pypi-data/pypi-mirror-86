@@ -1,0 +1,9 @@
+README.md
+setup.py
+betterNeural.egg-info/PKG-INFO
+betterNeural.egg-info/SOURCES.txt
+betterNeural.egg-info/dependency_links.txt
+betterNeural.egg-info/requires.txt
+betterNeural.egg-info/top_level.txt
+betterneural/__init__.py
+betterneural/networks.py
