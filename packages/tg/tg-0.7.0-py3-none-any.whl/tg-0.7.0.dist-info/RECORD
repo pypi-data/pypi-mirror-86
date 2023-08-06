@@ -1,0 +1,16 @@
+tg/__init__.py,sha256=GCYLV1Aaz-SjAbT_tDfi899fUt9lv8MdwFn3POR5cjY,59
+tg/__main__.py,sha256=Mo1XYluxt8O3MZJRtBnIOPHwqKRE2IWWhS1G0fgaqBk,1857
+tg/colors.py,sha256=VJUJcQ3PcvkKRXKpq--aoNop9emne3Wds_5VD6DNXM8,1478
+tg/config.py,sha256=9MsBt00rXUAcyQ7AFUou4CY9PFoGpCG8pHUDvC-Me1M,2330
+tg/controllers.py,sha256=z9j7WeawGlr4NdZFJ9G8w3P4P2YAdpofADMf2VaiiPs,32041
+tg/models.py,sha256=sQ_LWo99MW6HZEQizH6Qhd6MyX1LoELEhjT3rLIcX6Y,28092
+tg/msg.py,sha256=uZr90HkrAJvhf5treN4E9AlkGuOAUeahx7Zk-qAzV2s,6859
+tg/tdlib.py,sha256=xtC3q_Eh2sJO36YNThccN7noIzOrfvgbd4QyW3nESf4,13060
+tg/update_handlers.py,sha256=NO2wZuA1vRiBHToDjAGxSVW3TquMg86Rd8_-SDvrcsc,10339
+tg/utils.py,sha256=V2NaJnfcHQMePJtnx_W7GFmPGdEtMyjzVF_B0fLLwfw,8851
+tg/views.py,sha256=W3sTlCBQCAt-KaVC1VRs-v9eeUaXs5DxMtHIAT61KYs,23443
+tg/resources/tg.png,sha256=ISdAbn3qZeBeNiWHO-wVFHmebYlT6jWxN0hmt_1DSBw,42473
+tg-0.7.0.dist-info/entry_points.txt,sha256=czW3xPLOSf0OHp0k0O0mfl7H9F8-gCndPg8seAFQK3o,39
+tg-0.7.0.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+tg-0.7.0.dist-info/METADATA,sha256=2BNEwjlEyFERBd1CBEYp4DWkWsLq_QJwnDeN_QoZiis,8883
+tg-0.7.0.dist-info/RECORD,,
