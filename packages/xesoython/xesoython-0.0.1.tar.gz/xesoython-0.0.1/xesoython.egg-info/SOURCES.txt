@@ -1,0 +1,5 @@
+setup.py
+xesoython.egg-info/PKG-INFO
+xesoython.egg-info/SOURCES.txt
+xesoython.egg-info/dependency_links.txt
+xesoython.egg-info/top_level.txt
