@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: python-MC6470
+Version: 0.0.2
+Summary: A python library for accessing MC6470 9-axis accelerometer from mCube via python-smbus using the I2C interface.
+Home-page: https://github.com/Vitaliz-Embedded-solutions/python-MC6470
+Author: Mudige Tarun kumar
+Author-email: tarun.mtky@gmail.com
+License: UNKNOWN
+Description: # python-MC6470
+        A python library for accessing MC6470 9-axis accelerometer from mCube via python-smbus using the I2C interface.
+        
+        Default settings are suitable for Raspberry Pi 2 and 3 and was successfully tested.
+        
+        # Usage
+        Consult the [data sheet](https://mcubemems.com/wp-content/uploads/2016/03/MC6470-Preliminary-Datasheet-APS-048-0033v1.5.pdf) and see demo.py to understand how to use this library.
+        
+        Please send pull requests for improvements and bug fixes!
+        
+        # Develop
+        Run make help to find out about the available development commands.
+        
+        # License
+        Python files in this repository are released under the MIT license.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
