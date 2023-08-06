@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+deep_piste.egg-info/PKG-INFO
+deep_piste.egg-info/SOURCES.txt
+deep_piste.egg-info/dependency_links.txt
+deep_piste.egg-info/requires.txt
+deep_piste.egg-info/top_level.txt
+dpiste/__init__.py
+dpiste/compare_dicom.py
+dpiste/dicom2png.py
+dpiste/get_dicom.py
+dpiste/p02_initial_extraction.py
+dpiste/setup.py
+dpiste/testEsis.py
