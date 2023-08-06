@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: midi_manager
+Version: 2.0
+Summary: A python library to clean, process and convert midi datasets in ready to use formats like python lists, dictionaries and pickles for machine learning models
+Home-page: https://github.com/sebasgverde/midi-manager
+Author: Sebastian Garcia Valencia
+Author-email: sebasgverde@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
