@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: LarkBot
+Version: 0.0.3
+Summary: Python SDK of Feishu Bot
+Home-page: https://github.com/xiehengjian/LarkBot
+Author: xiehengjian
+Author-email: 846188037@qq.com
+Maintainer: xiehengjian
+Maintainer-email: 846188037@qq.com
+License: MIT License
+Description: ## 安装
+        
+        ```shell
+        $ pip3 install LarkBot
+        ```
+        
+        ## 使用
+        
+        
+Platform: ubuntu
+Platform: windows
+Platform: macos
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
