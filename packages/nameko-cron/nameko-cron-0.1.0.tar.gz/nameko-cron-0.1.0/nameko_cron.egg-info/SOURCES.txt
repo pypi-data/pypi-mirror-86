@@ -1,0 +1,8 @@
+README.md
+setup.py
+nameko_cron/__init__.py
+nameko_cron.egg-info/PKG-INFO
+nameko_cron.egg-info/SOURCES.txt
+nameko_cron.egg-info/dependency_links.txt
+nameko_cron.egg-info/requires.txt
+nameko_cron.egg-info/top_level.txt
