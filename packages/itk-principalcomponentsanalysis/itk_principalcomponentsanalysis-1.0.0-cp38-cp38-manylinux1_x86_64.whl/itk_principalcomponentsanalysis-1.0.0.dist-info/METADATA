@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: itk-principalcomponentsanalysis
+Version: 1.0.0
+Summary: ITK classes for the analysis of the principal components of data sets, optionally point data associated with the vertices of a mesh.
+Home-page: https://github.com/InsightSoftwareConsortium/ITKPrincipalComponentsAnalysis
+Author: Michael Bowers and Laurent Younes
+Author-email: mbowers@cis.jhu.edu
+License: Apache
+Download-URL: https://github.com/InsightSoftwareConsortium/ITKPrincipalComponentsAnalysis
+Keywords: ITK PCA Mesh
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Dist: itk (>=5.1.1)
+
+itk-principalcomponentsanalysis provides an implementation of standard principal components analysis algorithms for use on scalar or vector data sets.
+Please refer to:
+M. Bowers and L. Younes, "Principal Components Analysis of Scalar, Vector, and Mesh Vertex Data.", Insight Journal, January-December 2012, http://hdl.handle.net/10380/3386
+
