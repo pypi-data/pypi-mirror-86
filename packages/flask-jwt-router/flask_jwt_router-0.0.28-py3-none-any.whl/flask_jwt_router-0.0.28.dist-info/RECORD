@@ -1,0 +1,11 @@
+flask_jwt_router/__init__.py,sha256=zaVywsYQ1iyPk28mqMa3UjAKxxB9dqvCUhQ5VH9cp_A,113
+flask_jwt_router/_authentication.py,sha256=g6mP9b7Q0ckzo3e47hGbzfLpDt7QSQlXkG7FyM6PsC0,3314
+flask_jwt_router/_config.py,sha256=6k4HcJOg4LjGwFvh8qhNubITG8HRZJcOi3DB_3tyL50,2961
+flask_jwt_router/_entity.py,sha256=_agCxeP2ZNndNgVeD7qZ8OLc-xAOxS4vGGX8k2aBfXQ,5591
+flask_jwt_router/_jwt_routes.py,sha256=IjRcgHVaN8tOQ5-8OxuaMvws5h75O7c0zLC13bnn_YI,9784
+flask_jwt_router/_routing.py,sha256=BGdP47dUbDgobahairGwlOzEhfUkmzT4JiflHoig4yQ,6134
+flask_jwt_router-0.0.28.dist-info/LICENSE.txt,sha256=QXVEEXy-B9cVa8zgA9JEEmJLHqtMro4vuiGvXmM5Z-w,1069
+flask_jwt_router-0.0.28.dist-info/METADATA,sha256=_6095yHHmSmOeGQ-1W4TzsRqUGhQjPApTgiQ2jJZeLY,8336
+flask_jwt_router-0.0.28.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+flask_jwt_router-0.0.28.dist-info/top_level.txt,sha256=UNUFVOZj3xjR-mKvdR0iFkzc2PYeOLFNsFVCdDOwLUY,17
+flask_jwt_router-0.0.28.dist-info/RECORD,,
