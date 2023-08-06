@@ -1,0 +1,5 @@
+setup.py
+py_in_the_zuel.egg-info/PKG-INFO
+py_in_the_zuel.egg-info/SOURCES.txt
+py_in_the_zuel.egg-info/dependency_links.txt
+py_in_the_zuel.egg-info/top_level.txt
