@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: quietex
+Version: 0.2.0
+Summary: Filter output of pdflatex.
+Home-page: https://github.com/mje-nz/quietex
+Author: Matthew Edwards
+License: BSD 3-Clause
+Description: # QuieTeX
+        
+        [![PyPI Package latest release](https://img.shields.io/pypi/v/quietex.svg)](https://pypi.org/project/quietex)
+        
+        [![Supported versions](https://img.shields.io/pypi/pyversions/quietex.svg)](https://pypi.org/project/quietex)
+        
+        
+        
+        Make your LaTeX build output just show the important stuff (see [here](/screen-recordings.md) for before and after screen recordings):
+        
+        ![Screenshot of LaTeX build output from a chapter of my thesis](img/screenshot.png)
+        
+        
+        
+        QuieTeX is a minimal command-line tool which filters and colourizes the output of `pdflatex` in real-time.
+        
+        It is not a build tool, it does not do any clever summaries, it just makes it easier to read.
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        ## Features
+        
+        * Hides open/close file logging
+        
+        * Colours errors red
+        
+        * Colours warnings yellow
+        
+        * TeX input prompt works in `errorstopmode` and `scrollmode`
+        
+        * `latexmk` integration
+        
+        
+        
+        
+        
+        
+        
+        ## Usage
+        
+        To install:
+        
+        ```bash
+        
+        pip3 install quietex
+        
+        ```
+        
+        
+        
+        To use:
+        
+        ```bash
+        
+        quietex pdflatex test.tex
+        
+        ```
+        
+        
+        
+        To use with `latexmk`, add this to your `latexmkrc`:
+        
+        ```perl
+        
+        # Make output prettier
+        
+        eval `quietex --latexmkrc`;
+        
+        ```
+        
+        
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test

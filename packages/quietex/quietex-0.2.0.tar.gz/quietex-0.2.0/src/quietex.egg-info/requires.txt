@@ -1,0 +1,9 @@
+attrs
+blessings
+pexpect
+pygments
+
+[test]
+pyte
+pytest
+pytest-cov
