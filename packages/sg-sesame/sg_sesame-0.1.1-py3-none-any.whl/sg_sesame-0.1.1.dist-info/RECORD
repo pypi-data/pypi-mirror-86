@@ -1,0 +1,11 @@
+sg_sesame/__init__.py,sha256=qgjPYyz4edVF_buqQWmUlpgT6S0lWI6-tFBCh-gx4iQ,158
+sg_sesame/_version.py,sha256=3YswAvWjH8ysxWR2EF3T5BM-7T2djlQxzw72vkIoaUk,18
+sg_sesame/ec2_utils.py,sha256=fmA9jSIIjaDv6zVy0PZDs6qLzYRwY8Uoaa9alJK1QKA,1137
+sg_sesame/py.typed,sha256=NDn05us5lPTEQGpdKZrP71EPR0ONAlxFv3x_6j2hptY,158
+sg_sesame/sg_sesame.py,sha256=mtww9jGbKZltR6VAJGYWN_rYYqWDE8lZlvF_7mYj44c,6256
+sg_sesame-0.1.1.dist-info/LICENSE,sha256=xA2zcIVbWMQvKLFXmkRXkefagc5g1_wVd8WfMtaMvE8,585
+sg_sesame-0.1.1.dist-info/METADATA,sha256=IdEbbkylQLlf-edhh_bz198zN7gTE81YQ3H6RKdg8ts,2558
+sg_sesame-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sg_sesame-0.1.1.dist-info/entry_points.txt,sha256=46pfpyMw27Hx7-Ex5ocUEy10W93LEtYtMZ3kVXwFpTE,61
+sg_sesame-0.1.1.dist-info/top_level.txt,sha256=sZcsvfze10K2wetBc1oYMCycuAbB_cvciRiWzS8ANUQ,10
+sg_sesame-0.1.1.dist-info/RECORD,,
