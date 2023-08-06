@@ -1,0 +1,9 @@
+README.md
+setup.py
+hbookerAPI/__init__.py
+hbookerAPI/hbookerAPI.py
+hbookerAPI.egg-info/PKG-INFO
+hbookerAPI.egg-info/SOURCES.txt
+hbookerAPI.egg-info/dependency_links.txt
+hbookerAPI.egg-info/requires.txt
+hbookerAPI.egg-info/top_level.txt
