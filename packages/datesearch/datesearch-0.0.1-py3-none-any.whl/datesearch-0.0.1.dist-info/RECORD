@@ -1,0 +1,14 @@
+datesearch/__init__.py,sha256=K4ZRefu_YpblCDlkSChr5J-eofebrzN5Gu_2aV-wI-w,37
+datesearch/search.py,sha256=r_SFXVFkcH0zx1BdkVTIFIOp32QUbKnXv93NzRMo7sA,2810
+datesearch/tokenizator.py,sha256=UT4CIMrY2KKdojm_i3S3x3GhWSwZv1ItnUFl2A_9Tu8,788
+datesearch/tokens/__init__.py,sha256=8Gua3YeWrEh0WpbaEmsSrH4zOedFwap3Uoc6jC8HAQk,234
+datesearch/tokens/abstract_token.py,sha256=XBy7foVR6m_3nZ_YjTd_sAo9R0dITggQ3JNWUAfoSEQ,772
+datesearch/tokens/dilimiter.py,sha256=gg8FyP2VTdRmxbYgXeL5Whc8GQBP-wzguzJNpHL-3h8,258
+datesearch/tokens/number.py,sha256=BjdaTLetESjEXirznz44S3urQMALgmtHrvFk0XHVMZU,3236
+datesearch/tokens/other.py,sha256=peYaAg87HuQ2N_quclWDcCLad2JleDPrENlzvRdzvnQ,378
+datesearch/tokens/period.py,sha256=ZaD0AkBXOW7_9hwEQkoqfRjPAzHn8_VyRBfNdC6XL9s,1837
+datesearch/tokens/punctuation.py,sha256=Z-bo5PnPhOVCUnUx23BvmnBpURMhxqauhPlXFIpJC2E,260
+datesearch-0.0.1.dist-info/METADATA,sha256=Wb-fh1C7RoZ9yTkqvTXwPNXixuEcZVUdEBg9LgfRYCQ,1388
+datesearch-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+datesearch-0.0.1.dist-info/top_level.txt,sha256=W-ryTtsAkeGr9yzhMYpG1WDbguhKEuipKChFqZKWrjI,11
+datesearch-0.0.1.dist-info/RECORD,,
