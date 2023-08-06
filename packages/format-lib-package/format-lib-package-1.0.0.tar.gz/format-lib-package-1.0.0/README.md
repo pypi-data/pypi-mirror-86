@@ -1,0 +1,183 @@
+# Travaux Pratiques: Distrbution de votre code Python
+
+Lors de cet séance, nous allons transformer en package les fichiers pythons développés lors du [TP2](http://pedago-service.univ-lyon1.fr:2325/POO/TP2). Cette opération se déroulera au travers des étapes suivantes:
+1. La copie des modules Python dans une arborescence de répertoires ad-hoc
+2. La transformation de votre module Python en un package
+3. La création d'un jeu de fonctions exposées "publiquement" par votre package
+4. La mention des spécifications de votre package dans le fichier de configuration de pip (`setuptool.py`)
+5. Le déploiement en local de ce package depuis son repository git de développement
+6. La construction d'une distribution à partir de votre package
+7. L'upload de cette distribution sur pipy.org
+
+## Mise en place
+
+### Création d'un repository gitlab dédié
+
+Veuillez initialiser un dépôt git du type `http://pedago-service.univ-lyon1.fr:2325/USER_ID/<package_formatlib_repo>`. Vous clonerez celui-ci et y travaillerez pour le reste de ce travail, sauf mention contraire. Vous pouvez choisir le nom `<package_format_lib>` qui vous convient.
+
+### Virtualenv
+Créez un environnement virtuel, à l'aide du module 
+    [`venv`](https://docs.python.org/3/tutorial/venv.html) pour le déroulement de ce TP.
+
+**Attention**, le répertoire *contenant* l'environnement virtuel est créé dans votre repertoire courant. Afin de ne pas joindre cete environnement à vos `git commit` vous pouvez:
+- executer la commande `python -m venv` en dehors de votre dépôt git
+- ajouter le repertoire de l'environnement à un fichier [`.gitignore`](https://git-scm.com/docs/gitignore)
+
+### Modules requis
+Activez, puis installez les modules suivants dans l'environnement:
+
+* [setuptools](https://pypi.org/project/setuptools/)
+* [twine](https://pypi.org/project/twine/)
+
+Observez quelles modifications du répertoire de l'environnement ont induites ces deux installations.
+
+### Création de l'arborescence
+```shell
+<MON_DEPOT_GIT>
+├── README.md
+├── setup.py
+└── src
+    └── <PACKAGE_FORMATLIB>
+        └── formatLib.py
+        └── ...
+```
+
+Avec, 
+* MON_DEPOT_GIT: le nom du répertoire local contenant votre dépôt git
+* README.md: le fichier de documentation de votre futur package, pour l'instant vide
+* setup.py: le fichier de configuration de `pip install`, pour l'instant vide
+* MON_PACKAGE_FORMAT_LIB: le nom que vous souhaitez donner à votre futur package
+* `formatLib.py` et `...`: le(s) module(s) développé(s) à l'issue du TP2
+
+Toutes les modifications à apporter à vos fichiers Python prendront donc place dans le répertoire `<MON_DEPOT_GIT>/src/<PACKAGE_FORMATLIB>`
+
+### Transformation en package
+
+Un package est essentiellement un module doté d'une variable `__path__`. Dans la pratique, que convient-il d'ajouter au(x) répertoire(s) actuel(s) pour le(s) faire évoluer en package ?  
+
+### Création de l'interface publique (API) du package
+
+Nous souhaitons permettre aux futurs utilisateurs du package de réaliser facilement les opérations de conversion de format sous la forme de fonctions (et non plus de script).
+Le package pourra ainsi être utilisé de la façon suivante:
+
+###### `script_test.py`
+
+```python
+import <PACKAGE_FORMATLIB>
+# Lit un fihier au format BED et écrit 
+# son équivalent dans un fichier au format GMF
+<PACKAGE_FORMATLIB>.bed2gmf(FILE_IN , FILE_OUT1)
+# Lit un fihier au format BED et écrit 
+# son équivalent dans un fichier au format SSAM
+<PACKAGE_FORMATLIB>.bed2ssam(FILE_IN, FILE_OUT2)
+```
+
+Dans ce exemple, la fonction `bed2gmf`, est une fonction publique qui appelera les fonctions pré-existantes dans votre module `formatLib` nécessaires pour:
+
+- Parser le fichier source
+- Créer les objets/dictionnaires stockant ces données  
+- Formater ces données dans une chaîne de caractères au format de sortie demandé
+
+Vous devrez proposer une implémentation complète des fonctions publiques `bed2gmf` et `bed2ssam` prenant en charge toutes les étapes de la lecture du fichier d'entrée à l'écriture dans un fichier de sortie. Par exemple, étant donnée une fonction préexistante équivalente à `formatLib.bed_parser`
+
+###### `MON_PACKAGE/__init__.py`
+
+```python
+import formatLib
+def bed2gmf(bed_file_in, gmf_file_out):
+    data       = formatLib.bed_parser(bed_file_in)
+    gmf_format = formatLib.gmf_dumper(data)
+
+    with open(gmf_file_out,'w') as fp:
+        fp.write(gmf_format)
+```
+
+Ceci n'est qu'un exemple, vous l'adapterez à la version de votre librairie. Idéalement, vous **ne modifierez pas** votre librarie `formatLib`.
+
+### Configuration de l'installation du package
+
+L'installation d'un package est prise en charge par la commande pip install MON_PACKAGE. Dans le cas d'une distribution source, la commande, `pip`  exécute le fichier `setup.py` contenu dans l'archive du package.
+
+#### Ecriture du fichier setup.py
+
+Coller dans le fichier approprié de votre dépôt git, le contenu suivant et modifier son contenu le pour l'adapter à votre package.
+
+```python
+import setuptools
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="<PACKAGE_FORMATLIB>", # Par convention, utiliser le nom du repertoire contenant votre package
+    version="1.0.0",
+    author="Example Author",
+    author_email="author@example.com",
+    description="A small example package",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="http://pedago-service.univ-lyon1.fr:2325/POO/tp-packaging",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    install_requires=['numpy'],
+    package_dir={'': 'src'},
+    python_requires='>=3.6',
+)
+```
+
+L'option `package_dir` definit le repertoire dans lequel chercher le repertoire de votre package.
+Observez notamment comment sont générés les documentations.
+Vous devrez éditer la documentation "longue" au fur et à mesure de ce TP.
+
+#### Test de deploiement de votre package
+
+Le programme [`pip`](https://pip.pypa.io/en/stable/reference/) est un outil puissant aux multiples fonctionalités. Nous allons tout d'abord l'utilisé pour verifier la validité de notre version local du projet et son fichier `setup.py`. La forme de la commande pip est alors la suivante:
+
+```shell
+pip install [options] <local project path> ...
+```
+
+Où `<local project path>` est le chemin jusqu'au repertoire contenant le fichier de configuration `setup.py`.
+**La commande est à executer dans un environnement virtuel**.
+Verifier ensuite l'installation du package en:
+
+- inspectant le répertoire `site-packages`
+- important le package dans l'interpreteur Python en ligne de commandes (REPL).
+
+Quelle forme a pris l'installation de votre package?
+Observez vous des modification dans le dépôt git?
+Modifiez le fichier `.gitignore` en conséquence.
+
+#### Test de deploiement distant de votre package
+Tout d'abord, mettez à jour le dépôt distant de votre projet, aka:`commit & push`, vous pouvez changer le numéro de version de votre package dans `setup.py`.
+Nous allons maintenant pouvoir tester l'installation de votre package depuis ce dépôt distant, grâce à la prise en charge par pip des protocoles ssh,http et git.
+La commande [`pip`](https://pip.pypa.io/en/stable/reference/) sera de la forme
+```sh
+pip install -I git+http://pedago-service.univ-lyon1.fr:2325/<USER_ID>/<package_formatlib_repo>
+```
+le flag `-I`, assure une réinstallation dans les cas ou un package de mêmes nom et version serait déjà installé (ce qui est la cas ici).
+
+##### Précisions
+Dans les deux cas de test ci-dessus le flag `-e` permettrait d'installer le package en mode édition, ce qui, couplé au flag `--src` autorise à installer le package dans le repertoire de son choix
+```sh
+pip install -I -e --src /tmp/editable_pkg git+http://pedago-service.univ-lyon1.fr:2325/<USER_ID>/<package_formatlib_repo>
+```
+https://pip.pypa.io/en/latest/reference/pip_install/#vcs-support
+
+#### Construire les distributions
+
+Maintenant que le deploiement de votre package est assuré, nous allons créer les archives necessaire à son partage avec le monde entier.
+
+##### Distribution source 
+
+
+##### Distribution wheel
+
+
+##### Envoi à pipy.org
+
+
