@@ -1,0 +1,17 @@
+pyproject2setuppy/__init__.py,sha256=5JsSiqnKHeMWvrJtR174YmSItGnllWKI1NgWv9nVBSQ,95
+pyproject2setuppy/__init__.pyc,sha256=bueQFthn18AnT65wM3BF-O2jsX3lQh7WIrYMr3gW1Eo,274
+pyproject2setuppy/common.py,sha256=vGVf0_ydqMtbk7f1l2L61ycwfntVMAUaRa_gQKYd2wc,659
+pyproject2setuppy/common.pyc,sha256=b5CmKTfSFTFa3z40kSpI34lVMHW0nb35VggCxf9En7Y,772
+pyproject2setuppy/flit.py,sha256=TvNfZhvmFkrHtd7EvOddVlYZWJ9UcEdTYW8ll2SOUzA,2491
+pyproject2setuppy/flit.pyc,sha256=VojpgBhRBglvkjcLwPenHGp_xzosaoAGSj4Dqw4c0Nc,2524
+pyproject2setuppy/main.py,sha256=jDBSlFxPI1l4Joj9n91plrb2ugOBB1G6IZlD8B6A8Jk,1055
+pyproject2setuppy/main.pyc,sha256=3ZKOv5o3bVKqD9PTI_fiWKdvwUebSHoPeUSWaBBR7_M,1306
+pyproject2setuppy/poetry.py,sha256=H6EyYBoeI8AIPQSsFBrH3txYFtusTuzJRm-EWGJtk6o,2509
+pyproject2setuppy/poetry.pyc,sha256=Fs2sriJO8LXf547Pi8F_rk5eo8M7e1vNaP2A8iXb45k,2345
+pyproject2setuppy/setuptools.py,sha256=0jCrae7XP3fLqARYWm6nu46VN9_plITsIC48Sreogng,790
+pyproject2setuppy/setuptools.pyc,sha256=ReRV1m1yc04-w1KE2nXluY-5HE5nvU-N8IpkcK3ysGo,1035
+pyproject2setuppy-9.dist-info/COPYING,sha256=Ejea7rP9sjRqXilF13L0S3stNfQ2kHhQ3OCX5XxOAtg,1300
+pyproject2setuppy-9.dist-info/METADATA,sha256=egKeslixLrm0wpc0hAhTPl1EPtLIPrQ16da5_Yjwibc,573
+pyproject2setuppy-9.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pyproject2setuppy-9.dist-info/top_level.txt,sha256=JvdcC4Wwa6aXx4HdGSOoN8YbfardVCyLm7uV2h88Bcg,18
+pyproject2setuppy-9.dist-info/RECORD,,
