@@ -1,0 +1,9 @@
+lxml
+nltk
+stemming
+Sphinx
+requests
+numpy
+Theano
+mypy
+pytest
