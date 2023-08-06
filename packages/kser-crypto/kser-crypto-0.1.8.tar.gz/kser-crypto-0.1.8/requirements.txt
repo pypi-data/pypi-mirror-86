@@ -1,0 +1,4 @@
+cdumay-error>=0.1.13
+cdumay-result>=0.1.10
+kser>=0.8.21
+pysodium>=0.7.5
