@@ -1,0 +1,7 @@
+
+[docs]
+sphinx-autodoc-typehints
+
+[tests]
+sphinx-autodoc-typehints
+tox
