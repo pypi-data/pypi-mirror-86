@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pypix
+Version: 0.1.1
+Summary: Python library for generating pix codes with CRC16 validation
+Author: Daniel Yohan
+Author-email: dyohan9@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
