@@ -1,0 +1,6 @@
+
+[dev]
+mypy==0.*
+pytest==6.*
+twine
+wheel==0.*
