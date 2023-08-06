@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+tensorcross.egg-info/PKG-INFO
+tensorcross.egg-info/SOURCES.txt
+tensorcross.egg-info/dependency_links.txt
+tensorcross.egg-info/requires.txt
+tensorcross.egg-info/top_level.txt
