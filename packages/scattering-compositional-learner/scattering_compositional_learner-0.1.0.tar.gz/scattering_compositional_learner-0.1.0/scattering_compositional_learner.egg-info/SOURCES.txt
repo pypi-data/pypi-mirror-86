@@ -1,0 +1,9 @@
+README.md
+setup.py
+scattering_compositional_learner/__init__.py
+scattering_compositional_learner/scl.py
+scattering_compositional_learner.egg-info/PKG-INFO
+scattering_compositional_learner.egg-info/SOURCES.txt
+scattering_compositional_learner.egg-info/dependency_links.txt
+scattering_compositional_learner.egg-info/requires.txt
+scattering_compositional_learner.egg-info/top_level.txt
