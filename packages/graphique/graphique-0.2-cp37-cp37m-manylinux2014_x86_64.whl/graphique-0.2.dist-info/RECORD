@@ -1,0 +1,14 @@
+graphique/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphique/service.py,sha256=SpuKdjTp-jhhaeh4qsPwiUYmYcfmq8qDRL6IRWJQy_8,15394
+graphique/scalars.py,sha256=101beTHcu9d81Q5aHSKeVoSPu6RfzzzSwmdPQCHKqLQ,1448
+graphique/arrayed.cpython-37m-x86_64-linux-gnu.so,sha256=w8BRALtIeDvzfnz5RSZQSuuNHKI93PRiJM97bHsxMQw,1408280
+graphique/__init__.py,sha256=-cHO5oOHPuBCll4Noe1fIVjbMIhK_d1gaJJcPlbSlt4,20
+graphique/inputs.py,sha256=IPBHWILE16jA9yIDa-VUD4JZIaOeR0rT9jcabTt27Pg,8896
+graphique/core.py,sha256=XW9NwtRp2brrp1k5SXyfDfsvhN-hBnZFw6tx7aa_XY0,19870
+graphique/models.py,sha256=KrFH1lNzF-yvEurh7wjxyRF4D5o2jjut73hwZ-je2No,19191
+graphique/settings.py,sha256=2ymK-HU6Lxr-VCTLEflxYwKqXaIdoqLEOhIjDRQWQec,471
+graphique-0.2.dist-info/WHEEL,sha256=faBeOMVMU6fXqgr0_f8f_VQINVrmWr2P35k84iSkBec,112
+graphique-0.2.dist-info/LICENSE.txt,sha256=ow9jUZ-8WjZzsixTV3dEqc042sT10-pJaHwEEZ2rd1Q,576
+graphique-0.2.dist-info/RECORD,,
+graphique-0.2.dist-info/top_level.txt,sha256=uCE5pE8i_u8J-OZiL31WrR6hZQaMCpOjjdWWX0gTSoU,10
+graphique-0.2.dist-info/METADATA,sha256=2NT1Tn--hCWeWwA1NPjPGUyj2x19KRTDAQNIRK2ONw4,6161
