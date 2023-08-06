@@ -1,0 +1,8 @@
+LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+ferm_docker/__init__.py,sha256=KaEI14N3OpH-YD2u-_sS0eN8Sty-FduztF_hALSdOrU,5253
+ferm_docker/templates/ferm.j2,sha256=yK9wNWT1sm53IJ3T02M2ns8-MbKC5SeSCB98NlO-KbE,3683
+ferm_docker-0.1.2.dist-info/entry_points.txt,sha256=tlYuwB4Q4wVxUh1pSsqyoKeWJYhM326GHXjD8D0l8Ys,48
+ferm_docker-0.1.2.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+ferm_docker-0.1.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+ferm_docker-0.1.2.dist-info/METADATA,sha256=qgv2qZHX9Vu2d23gEURrTw2vWKXHRqILCSGEepz_kkU,903
+ferm_docker-0.1.2.dist-info/RECORD,,
