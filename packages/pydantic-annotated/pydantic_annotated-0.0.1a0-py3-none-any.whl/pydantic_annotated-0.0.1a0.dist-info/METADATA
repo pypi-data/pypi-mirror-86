@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pydantic-annotated
+Version: 0.0.1a0
+Summary: Generate Pydantic Fields with typing.Annotated
+Home-page: http://github.com/JacobHayes/pydantic-annotated
+License: MIT
+Keywords: Annotated,pydantic,typing
+Author: Jacob Hayes
+Author-email: jacob.r.hayes@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic
+Project-URL: Repository, http://github.com/JacobHayes/pydantic-annotated
+Description-Content-Type: text/markdown
+
+# pydantic-annotated
+
+Proof of concept [Decomposing Field components into Annotated](https://github.com/samuelcolvin/pydantic/issues/2129).
+
+```python
+from typing import Annotated
+
+from pydantic_annotated import BaseModel, Description, FieldAnnotationModel
+
+
+class PII(FieldAnnotationModel):
+    status: bool
+
+
+class ComplexAnnotation(FieldAnnotationModel):
+    x: int
+    y: int
+
+
+class Patient(BaseModel):
+    name: str
+    condition: Annotated[
+        str,
+        ComplexAnnotation(x=1, y=2),
+        Description("Patient condition"),
+        PII(status=True),
+    ]
+```
+
