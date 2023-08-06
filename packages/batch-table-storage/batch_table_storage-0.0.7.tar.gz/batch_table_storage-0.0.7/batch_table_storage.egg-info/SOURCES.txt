@@ -1,0 +1,10 @@
+README.md
+setup.py
+batch_table_service/__init__.py
+batch_table_service/_batch_table.py
+batch_table_service/_table_service.py
+batch_table_storage.egg-info/PKG-INFO
+batch_table_storage.egg-info/SOURCES.txt
+batch_table_storage.egg-info/dependency_links.txt
+batch_table_storage.egg-info/requires.txt
+batch_table_storage.egg-info/top_level.txt
