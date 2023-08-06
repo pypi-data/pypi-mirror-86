@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sqlite3_backup"
+repository = "https://sissource.ethz.ch/schmittu/sqlite3_backup"
+version = "0.3.1"
+description = "implements missing backup functionality in sqlite3 module"
+authors = ["Uwe Schmitt <uwe.schmitt@id.ethz.ch>"]
+license = "MIT"
+include = ["LICENSE"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+pdbpp = "^0.9.3"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
