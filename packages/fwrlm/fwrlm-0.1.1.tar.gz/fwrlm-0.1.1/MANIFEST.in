@@ -1,0 +1,6 @@
+prune .git
+prune .github
+exclude .gitignore .gitattributes
+recursive-include fireworks/templates *
+recursive-include fireworks/examples *
+include fwrlm/utils/README
