@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+mermaid-export-to-svg = mkdocs_mermaid_export_to_svg_plugin.plugin:MermaidExportToSvg
+

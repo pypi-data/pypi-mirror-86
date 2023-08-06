@@ -1,0 +1,11 @@
+README.md
+setup.py
+mkdocs_mermaid_export_to_svg.egg-info/PKG-INFO
+mkdocs_mermaid_export_to_svg.egg-info/SOURCES.txt
+mkdocs_mermaid_export_to_svg.egg-info/dependency_links.txt
+mkdocs_mermaid_export_to_svg.egg-info/entry_points.txt
+mkdocs_mermaid_export_to_svg.egg-info/requires.txt
+mkdocs_mermaid_export_to_svg.egg-info/top_level.txt
+mkdocs_mermaid_export_to_svg_plugin/__init__.py
+mkdocs_mermaid_export_to_svg_plugin/gitinfo.py
+mkdocs_mermaid_export_to_svg_plugin/plugin.py
