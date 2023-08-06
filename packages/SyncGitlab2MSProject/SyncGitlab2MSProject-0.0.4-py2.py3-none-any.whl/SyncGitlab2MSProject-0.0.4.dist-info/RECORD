@@ -1,0 +1,17 @@
+syncgitlab2msproject/__init__.py,sha256=9ue2ldPOJ6kvwgfok_T1xdjAbNhyezAI3axEWMcYaUs,566
+syncgitlab2msproject/argparse_actions.py,sha256=is1TnpRKUNeQMFLu8TJkclWud8OF-gswYT2B6FLLqTY,577
+syncgitlab2msproject/cli.py,sha256=miRCPXTOaYqu1lrZKvsYh4AHIaa-FcQAM8yi4obdoYA,3992
+syncgitlab2msproject/custom_types.py,sha256=iKLkFSBQuxCpbOLPNNONmzI-z8Rv8mj4RSbZvWRJGL8,351
+syncgitlab2msproject/decorators.py,sha256=AcTqEHLyEB18j4kcOvk1eY7ONS0OxGdvWT-8_ty_x2w,885
+syncgitlab2msproject/exceptions.py,sha256=zgG2rO7r8-U2pY_JyD20B0PZh9SwE1MuhGQ7LIM7KfI,439
+syncgitlab2msproject/funcions.py,sha256=8CG9LsjplMNAaHIHN3vSIUnx3Xj1SKK089whBCpUM7Q,870
+syncgitlab2msproject/gitlab_issues.py,sha256=qd5R2sF2JkzJpmq-8UXlr9nOPwZvEec4TttGVn-rgqo,5695
+syncgitlab2msproject/ms_project.py,sha256=W7bjmYXfs4S1iOa-19p1hR-azNnawYCVG_RKxRI5D-k,17461
+syncgitlab2msproject/sync.py,sha256=iPBJyOb_7IslTakno0gflpXfoBi9P1604SwXNHqHLtw,9345
+SyncGitlab2MSProject-0.0.4.dist-info/AUTHORS.rst,sha256=ic9GTwbXfm6Kza0_Fm8133xNUyqIxytdkws_EL4sDRA,79
+SyncGitlab2MSProject-0.0.4.dist-info/LICENSE.txt,sha256=hHMxYplWCHvkVOmJWgbj9iym1kr443mkikFIoVn8_sc,1085
+SyncGitlab2MSProject-0.0.4.dist-info/METADATA,sha256=8EOVt7JT1lzotdXnoFznzTWl94-joLSrFTADaWGzcow,6205
+SyncGitlab2MSProject-0.0.4.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+SyncGitlab2MSProject-0.0.4.dist-info/entry_points.txt,sha256=vCkO9kyi2y2dRahvpxjNHCe_O01D3BwZk0YCUjC0mW8,72
+SyncGitlab2MSProject-0.0.4.dist-info/top_level.txt,sha256=v1aCiiWNq1Dp49C4JHcGvZ1m_OZAtwY0oloUgNi6w4E,21
+SyncGitlab2MSProject-0.0.4.dist-info/RECORD,,
