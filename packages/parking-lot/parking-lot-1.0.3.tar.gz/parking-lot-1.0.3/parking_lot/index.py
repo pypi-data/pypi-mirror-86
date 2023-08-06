@@ -1,0 +1,393 @@
+import colorama
+from colorama import Fore, Back, Style
+from sys import argv
+
+
+    
+class parking:
+
+
+    def __init__(self,car_slot_no,car_registration_no,car_color):    # Constructor
+        
+        self.car_slot_no = car_slot_no
+        self.car_registration_no =  car_registration_no
+        self.car_color = car_color
+
+    def Registration_numbers_for_cars_with_colour(self,user_input):   # Member Function
+
+        
+        if user_input == self.car_color:
+            print(self.car_registration_no)
+            return 1
+
+        return 0
+
+
+    def Slot_numbers_for_cars_with_colour(self,user_input):     # Member Function
+        
+        if  user_input == self.car_color:
+            print(self.car_slot_no)
+            return 1
+      
+        return 0
+
+    def Slot_number_for_registration_number(self,user_input):  # Member Function
+        
+        if  user_input == self.car_registration_no:
+            print(self.car_slot_no)
+            return 1
+        
+        return 0
+
+
+    def Check_status(self):       # Member Function
+
+        
+        print(Fore.RED + "",self.car_slot_no,end="\t\t")
+
+        
+        print(Fore.GREEN + "",self.car_registration_no,end="\t\t")
+
+        
+        print(Fore.YELLOW + "",self.car_color,end="")
+        
+        print(Style.RESET_ALL)
+
+
+def create_parking_slot(total_number_of_slots,parking_queue):
+    
+    for i in range(total_number_of_slots):
+        parking_queue.append(0)
+    
+    print("\n")
+    print(Fore.GREEN + f"Created a parking lot with {total_number_of_slots} slots.")
+    print(Style.RESET_ALL)
+
+    
+
+def modify_parking_slot(extended_number_of_slots,parking_queue):
+    
+    for i in range(extended_number_of_slots):
+        parking_queue.append(0)
+    
+    print("\n")
+    print(Fore.GREEN + f"Extended parking lot with {extended_number_of_slots} slots.")
+    print(Style.RESET_ALL)
+
+
+
+def allocate_parking_slot(total_numbers_of_slots,parking_queue):
+
+    
+    
+    for slot_number in range(total_numbers_of_slots):
+            
+        if(parking_queue[slot_number] == 0):
+            parking_queue[slot_number] = 1
+            return slot_number + 1
+    
+def free_parking_slot(slot_number,total_number_of_slots,parking_queue):
+
+    if((slot_number < 1) or (slot_number > total_number_of_slots)):
+
+        return -1
+        
+
+    else:
+        slot_number = slot_number - 1
+        if(parking_queue[slot_number] == 0):
+            return 0
+            
+        else:
+            parking_queue[slot_number] = 0
+            return 1
+
+
+def display_avaiable_slot(total_numbers_of_slots,parking_queue):
+
+    print("\n")
+    print(Fore.GREEN + "List of Avaiable_slot: ")
+    print(Style.RESET_ALL)
+    
+    for slot_number in range(total_numbers_of_slots):
+        
+        if(parking_queue[slot_number] == 0):
+
+            print(slot_number + 1)
+
+def main():
+
+    total_occupied_slot = 0          
+    parking_existence  =  0
+    print("\n")
+    parking_queue = []           # Store The Information of All the slots
+    car_record = []              # Store the Record about All the Car.
+    #file_pointer = open('C:/Users/shubh/Desktop/input.txt','r') # open the file in a read mode.
+    file_pointer = open(argv[1],'r')
+    number_of_lines = len(file_pointer.readlines())  # Find the total number of lines from file.
+    file_pointer.seek(0) 
+    
+    
+    
+    for i in range(number_of_lines):
+        
+         
+        user_input = file_pointer.readline()
+        user_input = user_input.replace("\n", "")
+        user_input = user_input.split(" ")               # User input from CLI.
+
+        if(user_input[0].startswith("create")):  # Responsible for Craeting a Parking Lot
+
+            
+            total_number_of_slots = user_input[1]
+            total_number_of_slots = int(total_number_of_slots)
+            create_parking_slot(total_number_of_slots,parking_queue)
+            parking_existence  =  1
+
+
+
+        
+        
+        elif(user_input[0].startswith("park")): # Responsible for allocate A Car in Parking Lot
+
+            if(parking_existence == 0):
+                print(Fore.RED + "No Parking Lot has Created Yet")
+                print(Style.RESET_ALL)
+
+            elif(total_number_of_slots == total_occupied_slot):
+
+                print(Fore.RED + "Sorry, parking lot is full")
+                print(Style.RESET_ALL)
+            
+            else:
+                check = 0
+                
+                car_registration_no = user_input[1]
+                car_color = user_input[2]
+                for i in range(len(car_record)):
+                    if car_record[i].car_registration_no == car_registration_no:
+                        check = 1
+                        print(Fore.RED + "Car is already present with same registration_no")
+                        print(Style.RESET_ALL)
+                        break
+
+
+                if(check == 0):
+
+                    car_slot_number = allocate_parking_slot(total_number_of_slots,parking_queue)
+                    car_record.append(parking(car_slot_number,car_registration_no,car_color) )
+                    print(Fore.GREEN + f"Allocated slot number: {car_slot_number}")
+                    total_occupied_slot = total_occupied_slot + 1
+                    print(Style.RESET_ALL)
+
+                
+
+
+        elif(user_input[0].startswith("leave")): # Responsible for deallocate A car from Parking Lot.
+
+            if(parking_existence == 0):
+                print(Fore.RED + "No Parking Lot has Created Yet")
+                print(Style.RESET_ALL)
+
+            else:
+
+                
+                slot_number = user_input[1]
+                slot_number = int(slot_number)
+                result = free_parking_slot(slot_number,total_number_of_slots,parking_queue)
+            
+                if(result == -1):
+                    print(Fore.RED + "Not A Valid Slot Number")
+                    print(Style.RESET_ALL)
+            
+                elif(result == 0):
+                    print(Fore.GREEN + "Slot is already free")
+                    print(Style.RESET_ALL)
+            
+                else:
+                
+                    for i in range(len(car_record)):
+                        if car_record[i].car_slot_no == slot_number:
+                            del(car_record[i])
+                            total_occupied_slot = total_occupied_slot - 1
+                            break
+                    
+                    
+                    print(Fore.GREEN  +  f"Slot number {slot_number} is free Now.")
+                    print(Style.RESET_ALL)
+
+
+        elif(user_input[0].startswith("status")):   # Responsible for display the status of occupied slot.
+            print("\n")
+            print(Fore.BLUE + "Slot No \t Registration No \t Colour")
+            print(Style.RESET_ALL)
+            print("\n")
+
+            if(parking_existence == 0):
+                print(Fore.RED + "No Parking Lot has Created Yet")
+                print(Style.RESET_ALL)
+
+            elif(total_occupied_slot == 0):
+                print(Fore.GREEN + "Whole Parking Lot is Free")
+                print(Style.RESET_ALL)
+            
+            else:
+                for i in range(len(car_record)):
+                    car_record[i].Check_status()
+                    print("\n")
+
+
+        elif(user_input[0].startswith("registration_numbers_for_cars_with_colour")): # Responsible for display the color of car which have XYZ Registration_numbers
+
+            print("\n")
+
+
+            if(parking_existence == 0):
+                print(Fore.RED + "No Parking Lot has Created Yet")
+                print(Style.RESET_ALL)
+
+            else:
+                
+                sum = 0
+                user_input = user_input[1]
+                print(Fore.GREEN + f"Registration Number of those car which have color: {user_input}")
+                print(Style.RESET_ALL)
+                for i in range(len(car_record)):
+                    sum = sum + car_record[i].Registration_numbers_for_cars_with_colour(user_input)
+
+                if sum == 0:
+                    print(Fore.RED + "No Record Found")
+                    print(Style.RESET_ALL)
+            
+            
+
+
+                
+        elif(user_input[0].startswith("slot_numbers_for_cars_with_colour")): # Responsible for display the color of car which have XYZ Slot Number.
+
+
+            print("\n")
+
+            if(parking_existence == 0):
+                print(Fore.RED + "No Parking Lot has Created Yet")
+                print(Style.RESET_ALL)
+
+            else:
+
+                sum = 0
+                user_input = user_input[1]
+                print(Fore.GREEN + f"slots Number of car which have color: {user_input}")
+                print(Style.RESET_ALL)
+                for i in range(len(car_record)):
+                    sum = sum + car_record[i].Slot_numbers_for_cars_with_colour(user_input)
+
+                if sum == 0:
+                    print(Fore.RED + "No Record Found")
+                    print(Style.RESET_ALL)
+            
+            
+
+                
+                    
+
+
+        elif(user_input[0].startswith("slot_number_for_registration_number")): # Responsible for display the slot no which have XYZ Registration_numbers.
+
+
+
+            print("\n")
+
+            if(parking_existence == 0):
+                print(Fore.RED + "No Parking Lot has been Created Yet")
+                print(Style.RESET_ALL)
+            
+            else:
+                sum = 0
+                user_input = user_input[1]
+                print(Fore.GREEN + f"Slots Number of those car which have Registration_number : {user_input}")
+                print(Style.RESET_ALL)
+                for i in range(len(car_record)):
+                    sum = sum + car_record[i].Slot_number_for_registration_number(user_input)
+
+                if sum == 0:
+                    print(Fore.RED + "No Record Found")
+                    print(Style.RESET_ALL)
+                
+            
+
+        elif(user_input[0].startswith("modify")):
+
+            
+            extended_number_of_slots = user_input[1]
+            extended_number_of_slots = int(extended_number_of_slots)
+            modify_parking_slot(extended_number_of_slots,parking_queue)
+            total_number_of_slots =  total_number_of_slots + extended_number_of_slots 
+
+
+        elif(user_input[0].startswith("display_avaiable_slot")):
+
+
+            if(parking_existence == 0):
+                
+                print(Fore.RED + "No Parking Lot has been Created Yet")
+                print(Style.RESET_ALL)
+
+            else:
+            
+                if(total_occupied_slot == total_number_of_slots):
+
+                    print(Fore.GREEN + "No slot is avaiable, All  are Full")
+                    print(Style.RESET_ALL)
+
+                else:
+                    display_avaiable_slot(total_number_of_slots,parking_queue)
+
+                    
+        
+        
+        
+        elif(user_input[0].startswith("exit")):     # Quit from program
+            break 
+
+
+    file_pointer.close()
+    print("\n")
+    print(Fore.GREEN +"Thank U ..Happy Coding!!!")
+
+
+
+if __name__ == "__main__":
+    
+    main()        # Main Function
+
+    
+    
+
+    
+
+            
+
+
+
+            
+            
+    
+
+
+
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+        
