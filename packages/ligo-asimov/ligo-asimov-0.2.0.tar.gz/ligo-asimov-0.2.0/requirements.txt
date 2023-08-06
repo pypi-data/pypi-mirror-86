@@ -1,0 +1,11 @@
+python-gitlab
+liquidpy
+kentigern
+sphinx
+gitpython
+otter-report
+click
+networkx
+htcondor
+sphinx-click
+ligo.gracedb
