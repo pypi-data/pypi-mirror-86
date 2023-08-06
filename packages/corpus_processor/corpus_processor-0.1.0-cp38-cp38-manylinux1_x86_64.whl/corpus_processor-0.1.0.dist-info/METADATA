@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: corpus_processor
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Author: simpu <id.simpu@gmail.com>
+Author-Email: simpu <id.simpu@gmail.com>
