@@ -1,0 +1,13 @@
+grpc_requests/__init__.py,sha256=NO-LygqtfI1vhQJWcjPUTl5JYyGBxo9D2suuiWyPC40,97
+grpc_requests/client.py,sha256=XJnnfrSpxdBP3Gvyrn-RZJXqq_42XR5rscjex4qHWf4,15542
+tests/requests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/requests/app.py,sha256=5PZ1-5sF-9MnNNSumPkFGYAO9n8KCjdN8ywppWqqtNc,1144
+tests/requests/helloworld_pb2.py,sha256=qcPxG8k8prPLRRETf-2_0UEZ3Qa-ArYxMfKESvBCV3Q,5183
+tests/requests/helloworld_pb2_grpc.py,sha256=y5pV7TtzR7LkI84R6RsKpl_TX8kPBZH9K7HpBVE6-TE,6792
+tests/requests/test_reflection_client.py,sha256=8aPiLaY0cfROrI3pp3446ounHtx56l1_Y4mRc84JEWQ,7435
+tests/requests/test_stub_client.py,sha256=gHOJTx4AreTboZrfbpZgZjIS8b6IEBYhZZAL9kx-lIA,7635
+grpc_requests-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+grpc_requests-0.0.8.dist-info/METADATA,sha256=BsTGbkc27SNF78V5L2SqGaKq79uC10pZI_0jNAPpz2g,7503
+grpc_requests-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+grpc_requests-0.0.8.dist-info/top_level.txt,sha256=qCLIM9FbPoMbmRQ6k3X55aPmakeAOZyXJ3zBVGGti5Q,20
+grpc_requests-0.0.8.dist-info/RECORD,,
