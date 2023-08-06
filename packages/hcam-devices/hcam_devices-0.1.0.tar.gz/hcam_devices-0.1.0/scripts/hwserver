@@ -1,0 +1,87 @@
+#! /usr/bin/env python
+from autobahn.twisted.component import Component, run
+
+from hcam_devices.components import (CCDComponent, PressureComponent, MeerstetterComponent,
+                                     CompoComponent, FocalPlaneSlideComponent, FlowSensorComponent)
+
+EMULATE = True
+
+transport_cfg = dict(
+    type='websocket',
+    url='ws://localhost:8080/ws',
+    max_retries=-1,
+    max_retry_delay=30,
+)
+
+ccd1 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=CCDComponent,
+    extra=dict(name='ccd1', peltier_topic='hipercam.meerstetter1', emulate=EMULATE,
+               pressure_topic='hipercam.pressure1', pen_number=1, peltier_channel=1)
+)
+ccd2 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=CCDComponent,
+    extra=dict(name='ccd2', peltier_topic='hipercam.meerstetter1', emulate=EMULATE,
+               pressure_topic='hipercam.pressure2', pen_number=2, peltier_channel=2)
+)
+ccd3 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=CCDComponent,
+    extra=dict(name='ccd3', peltier_topic='hipercam.meerstetter1', emulate=EMULATE,
+               pressure_topic='hipercam.pressure3', pen_number=3, peltier_channel=3)
+)
+ccd4 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=CCDComponent,
+    extra=dict(name='ccd4', peltier_topic='hipercam.meerstetter2', emulate=EMULATE,
+               pressure_topic='hipercam.pressure4', pen_number=4, peltier_channel=1)
+)
+ccd5 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=CCDComponent,
+    extra=dict(name='ccd5', peltier_topic='hipercam.meerstetter2', emulate=EMULATE,
+               pressure_topic='hipercam.pressure5', pen_number=5, peltier_channel=2)
+)
+
+p1 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=PressureComponent,
+    extra=dict(name='pressure1', host=None, port=None, emulate=EMULATE)
+)
+p2 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=PressureComponent,
+    extra=dict(name='pressure2', host=None, port=None, emulate=EMULATE)
+)
+p3 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=PressureComponent,
+    extra=dict(name='pressure3', host=None, port=None, emulate=EMULATE)
+)
+p4 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=PressureComponent,
+    extra=dict(name='pressure4', host=None, port=None, emulate=EMULATE)
+)
+p5 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=PressureComponent,
+    extra=dict(name='pressure5', host=None, port=None, emulate=EMULATE)
+)
+
+ms1 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=MeerstetterComponent,
+    extra=dict(name='meerstetter1', host=None, port=None, emulate=EMULATE)
+)
+ms2 = Component(
+    transports=transport_cfg, realm='realm1', session_factory=MeerstetterComponent,
+    extra=dict(name='meerstetter2', host=None, port=None, emulate=EMULATE)
+)
+
+flow = Component(
+    transports=transport_cfg, realm='realm1', session_factory=FlowSensorComponent,
+    extra=dict(name='flow', host=None, port=None, emulate=EMULATE)
+)
+
+slide = Component(
+    transports=transport_cfg, realm='realm1', session_factory=FocalPlaneSlideComponent,
+    extra=dict(name='slide', host=None, port=None, emulate=EMULATE)
+)
+
+compo = Component(
+    transports=transport_cfg, realm='realm1', session_factory=CompoComponent,
+    extra=dict(name='compo', port=None, emulate=EMULATE)
+)
+run([ccd1, ccd2, ccd3, ccd4, ccd5, p1, p2, p3, p4, p5, ms1, ms2,
+     flow, slide, compo])
