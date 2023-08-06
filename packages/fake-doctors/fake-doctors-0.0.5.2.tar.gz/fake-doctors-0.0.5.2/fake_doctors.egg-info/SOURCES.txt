@@ -1,0 +1,12 @@
+README.md
+setup.py
+fake_doctors/__init__.py
+fake_doctors/annotation.py
+fake_doctors/dataset.py
+fake_doctors/localization.py
+fake_doctors/mask.py
+fake_doctors/sampling.py
+fake_doctors.egg-info/PKG-INFO
+fake_doctors.egg-info/SOURCES.txt
+fake_doctors.egg-info/dependency_links.txt
+fake_doctors.egg-info/top_level.txt
