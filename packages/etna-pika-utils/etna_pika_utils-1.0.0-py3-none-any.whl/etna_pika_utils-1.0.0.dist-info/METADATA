@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: etna-pika-utils
+Version: 1.0.0
+Summary: Utilities wrapping the Pika (RabbitMQ) library
+Home-page: https://github.com/etna-alternance/pika_utils
+Author: Clément Doumergue
+Author-email: clement.doumergue@etna.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pika (~=1.1.0)
+
+# pika_utils
+Utilities wrapping the Pika (RabbitMQ) library
+
+
