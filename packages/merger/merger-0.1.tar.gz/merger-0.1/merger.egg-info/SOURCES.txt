@@ -1,0 +1,7 @@
+setup.py
+./bin/merger
+merger.egg-info/PKG-INFO
+merger.egg-info/SOURCES.txt
+merger.egg-info/dependency_links.txt
+merger.egg-info/requires.txt
+merger.egg-info/top_level.txt
