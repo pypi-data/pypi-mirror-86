@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: coolstar4
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: seale
+Author-email: seale@outlook.com
+License: MIT Licence
+Keywords: test,xxx
+Platform: UNKNOWN
+Requires-Dist: argon2-cffi (==19.2.0)
+Requires-Dist: vpython
+
+UNKNOWN
+
+
