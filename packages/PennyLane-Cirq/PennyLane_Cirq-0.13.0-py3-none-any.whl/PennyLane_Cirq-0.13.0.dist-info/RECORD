@@ -1,0 +1,14 @@
+pennylane_cirq/__init__.py,sha256=QztazIksYR5YXLVW6ghnDCLbFSW_yqo66oEEtaOQuno,875
+pennylane_cirq/_version.py,sha256=jijFsoHX04ElJBWlidhkJAVWEpJqjXBsskXUT02s9Kk,692
+pennylane_cirq/cirq_device.py,sha256=cfamN0N-4h69x1XPz_6fgTlhsheGjQtcoMyreuvLBas,9301
+pennylane_cirq/cirq_operation.py,sha256=atsjhyk75Sv-SKO0xKMQb-dguY5iFsilxzJi8_oVWg8,2958
+pennylane_cirq/ops.py,sha256=opdCQ065RoMJoyZTURk4Xo7hgqRG5pdzBRzGKznapXQ,3926
+pennylane_cirq/pasqal_device.py,sha256=Gx5T1iVEy5WsMspzTcXBW1PTka4WCsi_n7jwN3XeAKk,2479
+pennylane_cirq/qsim_device.py,sha256=JbKNe3nxvzhmuxEJTe_scw_Mzq8lD4hqhBLhd2fVL-4,6222
+pennylane_cirq/simulator_device.py,sha256=82q8RR2xPXRg0bxLpZ9HD6qydF5YEzaPomOrPLvPh3M,10293
+PennyLane_Cirq-0.13.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+PennyLane_Cirq-0.13.0.dist-info/METADATA,sha256=d0n333MwkKaeqON-Mdb8dnG8NtLWy5abKtjwa5nwE9o,6802
+PennyLane_Cirq-0.13.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+PennyLane_Cirq-0.13.0.dist-info/entry_points.txt,sha256=t9ZFKD6H_e2slBfFrBSG_3fL8Up5cfv0vqrw_PeiEGQ,276
+PennyLane_Cirq-0.13.0.dist-info/top_level.txt,sha256=LfSkhIYQHJaUAJKgYSk5j8gtXrJwVsRN-NShsOehRfQ,15
+PennyLane_Cirq-0.13.0.dist-info/RECORD,,
