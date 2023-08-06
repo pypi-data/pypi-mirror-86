@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: kapture-localization
+Version: 0.0b0
+Summary: kapture-localization: localization pipelines based on kapture.
+Home-page: https://github.com/naver/kapture-localization/
+Author: naverlabs
+Author-email: kapture@naverlabs.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: kapture (>=1.0.10)
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: numpy-quaternion
+Requires-Dist: numba
+Requires-Dist: cvxpy (>=1.1.6)
+Requires-Dist: torch (==1.4.0)
+Requires-Dist: tabulate (>=0.8.7)
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+Overview
+========
+
+kapture-localization is a **toolbox** in which you will find
+implementations for various localization related algorithms. It strongly
+relies on the [kapture](https://github.com/naver/kapture) package for
+data representation and manipulation.
+
+The localization algorithms aims to do:
+
+1.  **mapping**,
+
+2.  **localization** and
+
+3.  **benchmarking** (image retrieval for visual localization).
+
+It works on Ubuntu, Windows and MacOS.
+
+structure
+=========
+
+The directories are organised as follow:
+
+    ├── kapture_localization/  # package (library)
+    ├── pipeline/              # main programs scheduling all steps needed in localization pipelines
+    ├── samples/               # some sample data
+    ├── tests/                 # unit tests
+    └── tools/                 # sub programs involved in the pipeline
+
+The *kapture-localization* toolbox provides both :
+
+-   Python **package** (`kapture_localization/`),
+
+-   Python **executable scripts** (`pipeline/` & `tools/`).
+
+There is basically 3 pipelines, for:
+
+1.  mapping,
+
+2.  localization and
+
+3.  image retrieval benchmark (global sfm, local sfm, pose
+    approximation).
+
+Installation
+============
+
+You can either install using docker, pip or from the source code
+manually. Basically, you will need python (&gt;=3.6) and Colmap
+(&gt;=3.6) to be installed, and then you can
+
+    pip install kapture-localization
+
+See [doc/installation.adoc](doc/installation.adoc) for more details.
+
+Tutorial
+========
+
+See the [doc/tutorial](doc/tutorial.adoc) for a short introduction to:
+
+-   mapping pipeline
+
+-   localization pipeline
+
+-   image retrieval benchmark (global sfm, local sfm, pose
+    approximation)
+
+Contributing
+============
+
+There are many ways to contribute to the *kapture-localization* project:
+
+-   provide feedback and suggestions of improvements,
+
+-   submit bug reports in the project bug tracker,
+
+-   implement a feature or bug-fix for an outstanding issue,
+
+-   provide scripts to create data in kapture format (e.g. local/global
+    feature extraction),
+
+-   propose a new feature and implement it.
+
+If you wish to contribute, please refer to the
+[CONTRIBUTING](https://github.com/naver/kapture/blob/master/CONTRIBUTING.adoc)
+page.
+
+License
+=======
+
+Software license is detailed in the [LICENSE](LICENSE) file.
+
+
