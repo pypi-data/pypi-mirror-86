@@ -1,0 +1,11 @@
+eulerangles/__init__.py,sha256=FeDa_HtpwZXkJ9PviKZfcxXV6Aeu6nGVleZ7aBlf-MQ,208
+eulerangles/conventions.py,sha256=Oy_UDDCww1u7NtQSU1YLsqVuIJDhkxUrP2mcloq6xGg,8781
+eulerangles/conversions.py,sha256=saRqVh2LwsBcpEe3kI9pNnuE0_t-Dti6FvxjyXqeIdg,26744
+eulerangles/rotations.py,sha256=HCzc5nWr-L1risZrrhe0ofczurnDIDbZm3XGczj04UA,842
+eulerangles/utils.py,sha256=Pb2Of2EAvS_nDP2gDmOXOV3c9nXG880dXyWeS_xIWbw,5509
+eulerangles/version.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+eulerangles-0.1.1.dist-info/LICENSE.txt,sha256=P657EV88YiSQLHF4R_L9nAV_QKtuoMI-ZqpEC-FgcQ4,1520
+eulerangles-0.1.1.dist-info/METADATA,sha256=uDE-8k8tzGGykqvhbNUMTEUWScV2bqyiEex-WESw8Uc,969
+eulerangles-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+eulerangles-0.1.1.dist-info/top_level.txt,sha256=_LLTwmmOc1lqe-MC6UjXG5R7EK2cGrhGaYygFxCZs-I,12
+eulerangles-0.1.1.dist-info/RECORD,,
