@@ -1,0 +1,6 @@
+[
+  "model/tests/test_nothing.py::test_that_always_passes",
+  "test_integ.py::test_profilable",
+  "test_integ.py::test_that",
+  "test_integ.py::test_this"
+]
