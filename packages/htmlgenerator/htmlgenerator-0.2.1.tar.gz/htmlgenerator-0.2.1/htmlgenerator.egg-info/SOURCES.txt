@@ -1,0 +1,12 @@
+README.md
+setup.py
+htmlgenerator/__init__.py
+htmlgenerator/base.py
+htmlgenerator/htmltags.py
+htmlgenerator/lazy.py
+htmlgenerator/safestring.py
+htmlgenerator.egg-info/PKG-INFO
+htmlgenerator.egg-info/SOURCES.txt
+htmlgenerator.egg-info/dependency_links.txt
+htmlgenerator.egg-info/not-zip-safe
+htmlgenerator.egg-info/top_level.txt
