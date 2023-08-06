@@ -1,0 +1,3 @@
+[console_scripts]
+ethereum2etl = ethereum2etl.cli:cli
+
