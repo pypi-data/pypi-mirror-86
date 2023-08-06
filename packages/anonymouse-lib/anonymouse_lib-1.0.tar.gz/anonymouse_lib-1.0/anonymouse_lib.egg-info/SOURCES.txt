@@ -1,0 +1,8 @@
+README.md
+setup.py
+anonymouse_lib.egg-info/PKG-INFO
+anonymouse_lib.egg-info/SOURCES.txt
+anonymouse_lib.egg-info/dependency_links.txt
+anonymouse_lib.egg-info/not-zip-safe
+anonymouse_lib.egg-info/requires.txt
+anonymouse_lib.egg-info/top_level.txt
