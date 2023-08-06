@@ -1,0 +1,6 @@
+README.md
+setup.py
+terminal_colours_michaelstickler.egg-info/PKG-INFO
+terminal_colours_michaelstickler.egg-info/SOURCES.txt
+terminal_colours_michaelstickler.egg-info/dependency_links.txt
+terminal_colours_michaelstickler.egg-info/top_level.txt
