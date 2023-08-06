@@ -1,0 +1,8 @@
+opentelemetry/instrumentation/botocore/__init__.py,sha256=FfN2hbB4Kx-JX4faRj9TfsvCqF0qPZR58Pzg-gJn7Ak,5507
+opentelemetry/instrumentation/botocore/version.py,sha256=J1HoqnKG8W6hYRj20GTVLccRKuD6OfxJ5alMpOZGGQs,608
+opentelemetry_instrumentation_botocore-0.16b1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_instrumentation_botocore-0.16b1.dist-info/METADATA,sha256=kA8Twyds_u1YoogoJoJC17JnkUvNk2mxYCs52f9uiIo,1770
+opentelemetry_instrumentation_botocore-0.16b1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_instrumentation_botocore-0.16b1.dist-info/entry_points.txt,sha256=ddlL2sx49yaBYebhavCDHSa-5l7EeQ-q4mqN90gvVrc,101
+opentelemetry_instrumentation_botocore-0.16b1.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_instrumentation_botocore-0.16b1.dist-info/RECORD,,
