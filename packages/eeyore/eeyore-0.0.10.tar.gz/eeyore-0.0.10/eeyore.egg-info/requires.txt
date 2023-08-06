@@ -1,0 +1,4 @@
+numpy
+torch>=1.6.0
+torchdiffeq>=0.1.1
+kanga>=0.0.9
