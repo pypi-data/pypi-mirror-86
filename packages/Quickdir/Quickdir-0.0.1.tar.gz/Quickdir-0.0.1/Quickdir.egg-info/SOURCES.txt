@@ -1,0 +1,9 @@
+README.md
+setup.py
+Quickdir/Quickdir.py
+Quickdir/__init__.py
+Quickdir/config.py
+Quickdir.egg-info/PKG-INFO
+Quickdir.egg-info/SOURCES.txt
+Quickdir.egg-info/dependency_links.txt
+Quickdir.egg-info/top_level.txt
