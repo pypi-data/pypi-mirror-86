@@ -1,0 +1,3 @@
+[console_scripts]
+pse-cli = src.codetrace_pse.cli:main
+

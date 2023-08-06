@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: codetrace-pse
+Version: 1.1.0
+Summary: Just another package for GitLab CI/CD Demo
+Home-page: https://gitlab.com/melcdn/codetrace-pse
+Author: Mel Cadano
+Author-email: mel.cdn@outlook.ph
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# CoDeTRAce PSE
+Nothing really fancy here. This is just a sample project for GitLab CI/CD Demo.
+
+## Requirements
+These applications should be installed on your computer.
+1. [Python 3.x](https://www.python.org/downloads/)
+
+## Repository
+1. [PyPi](https://pypi.org/project/codetrace-pse)
+2. [GitLab](https://gitlab.com/melcdn/codetrace-pse)
+
+## Installation via pip
+#### Downloading the package
+1. Open your `windows terminal`.
+2. Go to your working directory (e.g. Desktop) then install using the `pip` command.
+```
+cd %USERPROFILE%\Desktop\
+pip install codetrace-pse
+```
+#### Testing the installation
+Executing below command should output the **help** document.
+```
+pse-cli -h
+
+usage: pse-cli [-h] -s SYMBOL
+
+CoDeTRAce PSE-CLI v1.0.0
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s SYMBOL, --symbol SYMBOL
+                        Symbol of the stock you want to check. (e.g. BPI, JFC)
+```
+#### Sample run with arguments
+```
+pse-cli -s JFC
+
+================================================
+CoDeTRAce PSE-CLI v1.0.0
+================================================
+Name            : Jollibee Foods Corporation
+Symbol          : JFC
+Current Price   : P193.00 (-1.03%)
+Previous Price  : P195.00
+Open            : P195.00
+Volume          : 813,110
+52-Week High    : P228.00
+52-Week Low     : P91.10
+Shares          : 1,107,698,270
+================================================
+Source : https://www.pesobility.com/stock/JFC
+================================================
+```
+
