@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pydoit/__init__.py
+pydoit/api.py
+pydoit.egg-info/PKG-INFO
+pydoit.egg-info/SOURCES.txt
+pydoit.egg-info/dependency_links.txt
+pydoit.egg-info/requires.txt
+pydoit.egg-info/top_level.txt

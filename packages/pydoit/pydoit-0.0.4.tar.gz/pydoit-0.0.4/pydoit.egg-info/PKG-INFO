@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pydoit
+Version: 0.0.4
+Summary: Wrapper around the i-doit API
+Home-page: https://github.com/aaronlyy/pydoit
+Author: Aaron Levi Can (aaronlyy)
+Author-email: aaronlevican@gmail.com
+License: GPL-3.0 License
+Download-URL: https://github.com/aaronlyy/pydoit/archive/v0.0.4.tar.gz
+Description: # pydoit: An API Wrapper around the i-doit API
+        
+        ## Getting started
+        
+        ### Installation
+        
+        Install pydoit using pip:
+        
+        ```txt
+        pip install pydoit
+        ```
+        
+        ### Example Code
+        
+        ```python
+        from pydoit import Idoit
+        ```
+        
+        ## Currently supported methods
+        
+        ```txt
+        - idoit.login
+        - idoit.logout
+        - idoit.search
+        - idoit.version
+        - idoit.constants
+        
+        - cmdb.object.create
+        - cmdb.object.read
+        - cmbd.object.update
+        - cmdb.object.delete
+        - cmdb.object.recycle
+        - cmdb.object.archive
+        - cmdb.object.purge
+        - cmdb.object.markAsTemplate
+        ```
+        
+Keywords: api,wrapper,json,jsonrpc,http
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
