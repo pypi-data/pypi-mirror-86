@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: superstars
+Version: 0.1
+Summary: Generating bollywood star names
+Home-page: https://github.com/Aniket762/superstars
+Author: Aniket Pal
+Author-email: aniketindian8@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Welcome to superstars!✨
+===================
+<img src="https://cloud.githubusercontent.com/assets/170270/7563380/f0af1aee-f7dc-11e4-9b83-92fe18cf6bdd.png" width="182" height="282" align="right">
+
+A python package which generates names of bollywood superstars at random. This package is published in PyPI.
+
+Installation
+------------
+```
+python get-pip.py
+```
+
+```
+pip install Superstar
+```
+
+
+Example
+-------
+
+
+```python
+  import Superstar
+  Superstar.get()
+
+```
+Output:
+
+     Shahrukh khan
+
+## License
+
+This package is under **MIT License** copyright @<a href = "https://github.com/Aniket762">Aniket Pal</a>     
+
+
