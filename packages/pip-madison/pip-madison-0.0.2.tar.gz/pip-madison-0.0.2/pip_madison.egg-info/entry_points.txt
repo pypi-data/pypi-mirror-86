@@ -1,0 +1,3 @@
+[console_scripts]
+pip-madison = pip_madison.cli:list_versions
+
