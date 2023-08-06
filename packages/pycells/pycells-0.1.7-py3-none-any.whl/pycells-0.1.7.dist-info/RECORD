@@ -1,0 +1,13 @@
+pycells/__init__.py,sha256=T3RMZHFCDeNWzye2skawHEbQFIxCJVgzem_Yuk2ozN0,72
+pycells/cli.py,sha256=QR9CGac0tNTg9E2IkZfEzKoLztNojJTM5Bg5fceNIIE,5673
+pycells/render.py,sha256=gu3kDzxjUM69HwzmbJoJU0Ku6zQv4J1dq8KKuziReFI,2671
+pycells/simulations.py,sha256=Oxb1B9DTUg3npktyM1Y62R71EeAyHsbweJmcOvGpSk8,7238
+pycells/yaml.py,sha256=5fjGMZofBPpiLXL67ZsaRSFuy-0UeLyxVUZx6QsJqYM,530
+pycells/presets/conway.yml,sha256=Rl9lnfvvEihrBt1uV_s1OLG2OQLEIwdqIoWfuPyShZs,24
+pycells/presets/elementary.yml,sha256=4Qrdh9h19lf_uWJISyhDjDSeyPW8uqfT671xONlIZT8,27
+pycells-0.1.7.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+pycells-0.1.7.dist-info/METADATA,sha256=8zbjlQZOM71sOE_YnLj7aGq_6bqFEveiTzxn6VOxe5E,4049
+pycells-0.1.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pycells-0.1.7.dist-info/entry_points.txt,sha256=ZDKcmes3mkMWGEo5P7W-rwdLA7VdZPXxKHZvEivJOL8,45
+pycells-0.1.7.dist-info/top_level.txt,sha256=2aAvd7ZZn5WJPElpUDGxM5kCI88e14WP8XzE0A1zShY,8
+pycells-0.1.7.dist-info/RECORD,,
