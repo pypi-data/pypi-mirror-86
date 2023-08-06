@@ -1,0 +1,3 @@
+Django
+python-gnupg
+sphinx-me
