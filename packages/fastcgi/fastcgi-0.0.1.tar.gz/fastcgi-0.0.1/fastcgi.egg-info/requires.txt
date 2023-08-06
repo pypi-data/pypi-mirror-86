@@ -1,0 +1,7 @@
+pip
+packaging
+fastcore
+
+[dev]
+nbdev
+jupyter
