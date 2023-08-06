@@ -1,0 +1,9 @@
+merger-0.3.data/scripts/merger,sha256=lm63oAeVzzDlGvpyh6rIS5DKjoIbaZqobtnh9RKNMGs,6735
+merger-0.3.data/scripts/merger-bash-complete.sh,sha256=S6mfQ5lDDXJgzMDwpIirzNmcJPfoVPKhRLBOMBFJ4wU,636
+merger-0.3.data/scripts/merger-fish-complete.sh,sha256=_3MjkAL5rMLKKtChdfXSKA5V33J1a76LrY-NMIWkygk,153
+merger-0.3.data/scripts/merger-zsh-complete.sh,sha256=uatbT9AiGXt8vlBGrYwMdHdDPIEYFjSs9hLWDW1Yhzc,858
+merger-0.3.dist-info/LICENSE,sha256=a6iVjKURyrvqI7y1fhc3arWI0QFifhj-gR0ryQERZWk,35150
+merger-0.3.dist-info/METADATA,sha256=Ffr7dNsQfYBYFsQ0hjl_K7oWUkgSQtCxOFBV32oYFI0,733
+merger-0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+merger-0.3.dist-info/top_level.txt,sha256=ZAMgPdWghn6xTRBO6Kc3ML1y3ZrZLnjZlqbboKXc_AE,5
+merger-0.3.dist-info/RECORD,,
