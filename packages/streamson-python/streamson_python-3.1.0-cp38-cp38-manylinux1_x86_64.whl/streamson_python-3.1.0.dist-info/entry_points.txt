@@ -1,0 +1,2 @@
+[console_scripts]
+streamson=streamson:__main__.main
