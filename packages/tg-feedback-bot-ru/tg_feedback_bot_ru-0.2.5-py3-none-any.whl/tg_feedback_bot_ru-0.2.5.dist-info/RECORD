@@ -1,0 +1,9 @@
+feedback_bot/__init__.py,sha256=8f4ummWTPl6PtdE9DzSUgZhPjGioA_NDC-hDpqzB9qI,22
+feedback_bot/feedback_bot.py,sha256=WVfjWut-5o1Vc4i6DiDYD3JM4_Osr-SD4JqM4jCqsHY,22984
+feedback_bot/helpers.py,sha256=9Z4LvHy2plDEFyFIqs4kDJ3kYJN9h5toGQp1XI56wrA,12277
+tg_feedback_bot_ru-0.2.5.dist-info/LICENSE,sha256=hT1-NtKRqjw7E2vKyatX9yK3vKf7_zbjjs9Y3jZu_cA,1073
+tg_feedback_bot_ru-0.2.5.dist-info/METADATA,sha256=0TMWIqino8ptPPCmhrxx4oTYlMeGk0mwNfNAfldrc98,1076
+tg_feedback_bot_ru-0.2.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tg_feedback_bot_ru-0.2.5.dist-info/entry_points.txt,sha256=fUQAI23uZWAxDbuvCzTxkmnM8pP9GpA2xijk3t48pew,65
+tg_feedback_bot_ru-0.2.5.dist-info/top_level.txt,sha256=OwZWm3e49Y2pde4g6gMqtI19f0l2FQBAmW_XF1jzFPA,13
+tg_feedback_bot_ru-0.2.5.dist-info/RECORD,,
