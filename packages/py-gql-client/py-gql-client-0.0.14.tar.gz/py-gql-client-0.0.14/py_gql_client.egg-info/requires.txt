@@ -1,0 +1,4 @@
+graphql-core>=3
+gql>=v3.0.0a5
+unicodecsv>=0.14.1
+dataclasses-json==0.3.2
