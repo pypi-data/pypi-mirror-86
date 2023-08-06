@@ -1,0 +1,3 @@
+include arts_tools/static/*
+include arts_tools/static/*/*
+
