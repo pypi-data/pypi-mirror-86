@@ -1,0 +1,6 @@
+
+    [z3c.autoinclude.plugin]
+    target = plone
+    [console_scripts]
+    update_locale = kcrw.tinymce_imagedrop.locales.update:update_locale
+    
