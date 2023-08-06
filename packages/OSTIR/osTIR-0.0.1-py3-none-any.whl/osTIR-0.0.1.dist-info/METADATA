@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: osTIR
+Version: 0.0.1
+Summary: Open Source Transcription Initiation
+Home-page: https://github.com/barricklab/rbs-calculator
+Author: Barrick Lab/croots
+Author-email: croots@utexas.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# osTIR
+
+Open Source Translation Initiation Rates
+Customized and updated version of RBS-Calculator-v1.0
+
+Modifications begun on May 21, 2019.
+
+Original source code and copyright information available here:
+https://github.com/hsalis/Ribosome-Binding-Site-Calculator-v1.0
+
