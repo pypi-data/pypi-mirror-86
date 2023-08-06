@@ -1,0 +1,11 @@
+featureflag/__init__.py,sha256=_N1eakzHFLzyhBa2ZnSBLkquDYPy1r9MvlhBKm85rTo,107
+featureflag/admin.py,sha256=q-KJs4NUsq5UwAXZ69riv5U1NeVZ9Fyg8BcXbJpQsTc,749
+featureflag/apps.py,sha256=MVAYVzXLDpV_W_Swd85RQgtCuhFndMWSy-jcQCkYCF8,97
+featureflag/conf.py,sha256=KLC3pimcZlnbyHw7xMP_oIfUmW33ihHSkFKqJ5eaOUE,343
+featureflag/migrations/0001_initial.py,sha256=xrz-VrMkA79cLIFESBzvZCtZhTc6ww_2LMCTHExNItw,2395
+featureflag/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+featureflag/models.py,sha256=cx7YoOC5iAPtxGR8_LU6l9pZNCv5TYHWWwJaz9YpNwc,2029
+featureflag/utils.py,sha256=e9XHVKfqrNGPqV2nJcbNh-3H_CbUGEx2tBJ3OB0OZH8,143
+featureflag-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+featureflag-0.1.0.dist-info/METADATA,sha256=PvVdq7UpcuApj_NPC8s9Rq6yjczujAmL1nWcv8Bp-Qg,477
+featureflag-0.1.0.dist-info/RECORD,,
