@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: folderpreview
+Version: 0.4.0
+Summary: Generates folder preview thumb
+Home-page: https://gitlab.com/hxss-linux/folderpreview
+Author: hxss
+Author-email: hxss@ya.ru
+License: MIT
+Keywords: folder,thumb
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Desktop Environment :: File Managers
+Requires-Python: >=3.6.12
+Description-Content-Type: text/markdown
+Requires-Dist: dbus-next (>=0.1.1)
+Requires-Dist: pyxdg (>=0.26)
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: parse (>=1.9.0)
+Requires-Dist: pygobject (>=3.30.4)
+Requires-Dist: pyvips (>=2.1.5)
+
+# FOLDERPREVIEW
+
+Generates folder thumbs using child files thumbs
+
+![demo](demo.png)
+
+## Installation
+
+### aur: `folderpreview-git`
+
+### manual:
+```sh
+$ git clone https://gitlab.com/hxss-linux/folderpreview.git
+$ cd folderpreview
+$ sudo pip install .
+$ sudo cp folderpreview.thumbnailer /usr/share/thumbnailers
+```
+
+## Usage
+
+0. install
+1. profit
+
+
+```sh
+$ folderpreview --help
+usage: folderpreview [-h] [-o OUTPUT] [-s SIZE] [-c CONFIG] [-t] folder
+
+Generate folder preview thumb and save into thumbnails directory or OUTPUT
+
+positional arguments:
+  folder      the target folder path
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -o OUTPUT   result thumbnail path
+  -s SIZE     size of thumbnail, px
+  -c CONFIG   config path
+  -t          check if folder supported and request child thumbs
+```
+
+```sh
+$ journalctl -f -p debug -t folderpreview
+```
+
+## Configuration
+
+`XDG_CONFIG_HOME/folderpreview/config.yaml:`
+```yaml
+size: 256                  # default thumb size, px
+use_hidden: false          # generate thumbs for and use hidden files in preview
+request_child_thumbs: true # request thumbs of supported child files
+                           # in background scheduler and wait for their readiness
+request_timeout: 5         # request timeout, s
+priority:                  # priority of child's files for using on preview
+- media                    # video/image files with thumbs/thumbnailer
+- thumbs                   # other files with thumbs/thumbnailer
+- icons                    # files without thumbs/thumbnailer
+- subdirs                  # recursion in subdirs with the order
+- files                    # all child files
+locations:                 # enabled folders locations(including subdirs)
+- /
+- $HOME/videos
+renderer: custom_renderer.CustomRenderer # renderer class name
+```
+
+## Customization
+
+For better integration with icon theme renderer can be customized using `config.renderer` option. It should be instance of `folderpreview.renderer.ThumbRenderer` class. Custom renderer can be stored in config folder.
+
+## Links
+
+* [Thumbnail Managing Standard](https://specifications.freedesktop.org/thumbnail-spec/thumbnail-spec-latest.html#CREATION)
+* [Thumbnail management DBus specification](https://wiki.gnome.org/DraftSpecs/ThumbnailerSpec#Request_the_creation_of_thumbnails)
+
+
