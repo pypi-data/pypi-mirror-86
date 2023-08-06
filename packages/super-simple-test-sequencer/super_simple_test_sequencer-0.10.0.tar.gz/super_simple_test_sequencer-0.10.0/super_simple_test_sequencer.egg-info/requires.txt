@@ -1,0 +1,7 @@
+wheel
+json2html
+tornado
+gaiaclient
+PyYAML
+coloredlogs
+colorama
