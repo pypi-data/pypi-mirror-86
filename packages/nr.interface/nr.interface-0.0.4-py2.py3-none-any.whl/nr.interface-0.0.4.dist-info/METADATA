@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: nr.interface
+Version: 0.0.4
+Summary: Interface definitions for Python.
+Home-page: https://git.niklasrosenstein.com/NiklasRosenstein/nr
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: nr.collections (<1.0.0,>=0.0.1)
+Requires-Dist: nr.metaclass (<0.1.0,>=0.0.1)
+Requires-Dist: nr.pylang.utils (<0.1.0,>=0.0.1)
+Requires-Dist: six (<2.0.0,>=1.11.0)
+
+
+> Note: This package is in the dangerous land of `0.x.y` versions and may be subject to breaking
+> changes with minor version increments.
+
+# nr.interface
+
+Interface definitions for Python. Inspired by `zope.interface`.
+
+## Quickstart
+
+```py
+from nr.interface import Interface, implements, override
+
+class Pet(Interface):
+
+  def make_sound(self) -> str:
+    pass
+
+@implements(Pet)
+class Dog:
+
+  @override
+  def make_sound(self) -> str:
+    return 'Bark!'
+
+assert 'make_sound' in Pet.members
+assert Pet.implemented_by(Dog)
+assert list(Pet.implementations()) == [Dog]
+```
+
+---
+
+<p align="center">Copyright &copy; 2020 Niklas Rosenstein</p>
+
+
