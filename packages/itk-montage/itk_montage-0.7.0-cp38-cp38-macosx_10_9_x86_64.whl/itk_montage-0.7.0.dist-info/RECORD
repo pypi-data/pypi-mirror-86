@@ -1,0 +1,15 @@
+itk/MontagePython.py,sha256=P3YQUKv2nlTwecbakvo8LLlDBwnzXpn9TDSm1gIJuvw,2771
+itk/_MontagePython.so,sha256=WOwr0NOb55w_ikHatVMxBjQt_2M1xQPy5dOCaiBEGOY,17784680
+itk/itkNMinimaMaximaImageCalculatorPython.py,sha256=JmHl2oDlQZeXzYhuuJ8K-mcIQHcHZVTnfA8AntIgJhc,41351
+itk/itkPhaseCorrelationImageRegistrationMethodPython.py,sha256=-qNzqyqlTzI-i83x50VJ06tQaFgyNXIPN03k5ATJIe0,103493
+itk/itkPhaseCorrelationOperatorPython.py,sha256=PbeWM1rARcvK7kNP27Zi570cD-HTd8prGPGaOq3L33A,38737
+itk/itkPhaseCorrelationOptimizerPython.py,sha256=i6r3Fs822hmlgs0-IJccyUFAfNHrzCjG_WD42nsoXKI,27316
+itk/itkTileConfigurationPython.py,sha256=HBexXClI-1EI6V-xjtXQAJs7hJ4pENn_b3cwBl-dXA4,7615
+itk/itkTileMergeImageFilterPython.py,sha256=UcAPGc3nTQ85UyagS4dUzrCHwGDBJgi-1FY9RwVTtg4,40201
+itk/itkTileMontagePython.py,sha256=96mAUom9cAA3Aumqw8b5hleIns9gXi9MGMaNziva-m0,49154
+itk/Configuration/MontageConfig.py,sha256=uRrg7IE-zpAmyxHOraQpmq8TXBVlKQPlk4dWdnCS4dw,9268
+itk_montage-0.7.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_montage-0.7.0.dist-info/METADATA,sha256=e7Mk9dLqyMcPRKDbZW-Y_9rCekysyYmMqE2uK1peTnc,1582
+itk_montage-0.7.0.dist-info/WHEEL,sha256=z9qir6Vi_mkOsxGi50wLYU-N2ok_4rABw72J-twhmMA,102
+itk_montage-0.7.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_montage-0.7.0.dist-info/RECORD,,
