@@ -1,0 +1,9 @@
+itk/PrincipalComponentsAnalysisPython.py,sha256=0Ath1qRa6m8f69lFelQPUYv-pBOq3qYKm14zNJgfl2E,2554
+itk/_PrincipalComponentsAnalysisPython.pyd,sha256=bne8W4SSqPVyCIDcUS0-g8lzGfzki6-djq6-astqORc,212992
+itk/itkGaussianDistanceKernelPython.py,sha256=OUt64YIQB2C9rQ5b6-8PjNhAg5T7o28RXpOAz1BDFOc,8192
+itk/Configuration/PrincipalComponentsAnalysisConfig.py,sha256=mbuOQLj-4bGV3YkgAF9AEkBtrwEqMo-7201-CqfMa2Y,331
+itk_principalcomponentsanalysis-1.0.0.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+itk_principalcomponentsanalysis-1.0.0.dist-info/METADATA,sha256=9xSJ-2_kIzFCN5kGd3iLnrZet7F0oz8EJKxYPEb_2Us,1719
+itk_principalcomponentsanalysis-1.0.0.dist-info/WHEEL,sha256=cHoaWCp612175DgD1B5lBBuOG2jmH-eHKbd0EfiDCC4,98
+itk_principalcomponentsanalysis-1.0.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_principalcomponentsanalysis-1.0.0.dist-info/RECORD,,
