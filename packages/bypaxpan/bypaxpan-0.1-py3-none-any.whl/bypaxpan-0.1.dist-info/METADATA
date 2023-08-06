@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bypaxpan
+Version: 0.1
+Summary: Ferramenta para bypassar análises de processamento de linguagem natural :knife:
+Home-page: https://github.com/Jul10l1r4/bypaxpan
+Author: Julio Lira
+Author-email: jul10l1r4@disroot.org
+License: GPLv3
+Keywords: Bypass NLP spacy ptBr
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Description-Content-Type: text/markdown
+Requires-Dist: spacy
+Requires-Dist: pysinonimos
+
+# bypaxpan
+Ferramenta para bypassar análises de processamento de linguagem natural :knife:
+
+
