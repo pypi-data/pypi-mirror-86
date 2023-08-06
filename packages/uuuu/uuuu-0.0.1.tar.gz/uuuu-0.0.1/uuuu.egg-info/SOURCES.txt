@@ -1,0 +1,10 @@
+README.md
+setup.py
+tests/__init__.py
+tests/test_iterables.py
+uuuu/__init__.py
+uuuu/iterables.py
+uuuu.egg-info/PKG-INFO
+uuuu.egg-info/SOURCES.txt
+uuuu.egg-info/dependency_links.txt
+uuuu.egg-info/top_level.txt
