@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: eliwog
+Version: 3.0.0
+Summary: DevOps course project
+Home-page: https://github.com/EliGolan69/WorldOfGames.git
+Author: Eli Golan
+Author-email: 1eligolan@gmail.com
+License: MIT
+Description: This package will install my devops course project. use python: import eliwog
+Keywords: DevOps
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
