@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pyclimenu/__init__.py
+pyclimenu/colors.py
+pyclimenu/menu.py
+pyclimenu.egg-info/PKG-INFO
+pyclimenu.egg-info/SOURCES.txt
+pyclimenu.egg-info/dependency_links.txt
+pyclimenu.egg-info/top_level.txt
