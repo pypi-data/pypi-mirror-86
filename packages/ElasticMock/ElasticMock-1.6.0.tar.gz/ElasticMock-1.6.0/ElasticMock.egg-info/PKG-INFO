@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ElasticMock
+Version: 1.6.0
+Summary: Python Elasticsearch Mock for test purposes
+Home-page: https://github.com/vrcmarcos/elasticmock
+Author: Marcos Cardoso
+Author-email: vrcmarcos@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
