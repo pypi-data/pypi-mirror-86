@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+crandom.cpp
+setup.py
+singleton.h
+cRandom.egg-info/PKG-INFO
+cRandom.egg-info/SOURCES.txt
+cRandom.egg-info/dependency_links.txt
+cRandom.egg-info/top_level.txt
