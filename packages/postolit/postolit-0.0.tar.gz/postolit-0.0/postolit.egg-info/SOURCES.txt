@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+postolit.egg-info/PKG-INFO
+postolit.egg-info/SOURCES.txt
+postolit.egg-info/dependency_links.txt
+postolit.egg-info/not-zip-safe
+postolit.egg-info/top_level.txt
