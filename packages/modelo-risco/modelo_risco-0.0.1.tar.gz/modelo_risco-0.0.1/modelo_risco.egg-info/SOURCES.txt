@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+modelo_risco/__init__.py
+modelo_risco/_nbdev.py
+modelo_risco/modelo_risco_coletivo.py
+modelo_risco/modelo_risco_individual.py
+modelo_risco.egg-info/PKG-INFO
+modelo_risco.egg-info/SOURCES.txt
+modelo_risco.egg-info/dependency_links.txt
+modelo_risco.egg-info/entry_points.txt
+modelo_risco.egg-info/not-zip-safe
+modelo_risco.egg-info/top_level.txt
