@@ -1,0 +1,17 @@
+lmfit==1.0.1
+pandas==1.1.2
+joblib==0.16.0
+
+[dev]
+statsmodels==0.11.1
+numdifftools==0.9.39
+scikit-learn==0.23.1
+matplotlib==3.3.2
+jupyter==1.0.0
+notebook==6.1.5
+
+[test]
+pyflakes==2.1.1
+pytest==5.4.1
+pytest-mock==1.10.4
+pytest-cov==2.8.1

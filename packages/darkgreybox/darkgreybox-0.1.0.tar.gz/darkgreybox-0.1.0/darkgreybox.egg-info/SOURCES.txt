@@ -1,0 +1,10 @@
+README.md
+setup.py
+darkgreybox/__init__.py
+darkgreybox/fit.py
+darkgreybox/model.py
+darkgreybox.egg-info/PKG-INFO
+darkgreybox.egg-info/SOURCES.txt
+darkgreybox.egg-info/dependency_links.txt
+darkgreybox.egg-info/requires.txt
+darkgreybox.egg-info/top_level.txt
