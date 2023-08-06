@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: BERTSimilarity
+Version: 0.1
+Summary: A BERT embedding library for sentence semantic similarity measurement.
+Home-page: https://github.com/abhilash1910/BERTSimilarity
+Author: ABHILASH MAJUMDER
+Author-email: debabhi1396@gmail.com
+License: MIT
+Download-URL: https://github.com/abhilash1910/BERTSimilarity/archive/v_01.tar.gz
+Description: This is a sentence similarity measurement library using the forward pass of the BERT (bert-base-uncased) model. The spatial distance is computed using the cosine value between 2 semantic embedding vectors in low dimensional space. These vectors can be extracted by unique words as well as the sentence as a whole.The library also provides a flexibility for choosing any other approximators for spatial distance measurement for semantic similarity measurement.References include the BERT paper(https://arxiv.org/abs/1810.04805),Google Research BERT (https://github.com/google-research/bert/)
+Keywords: Semantic Similarity,BERT,BERT Embeddings,BERT Transformer,Cosine Distance,Pytorch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
