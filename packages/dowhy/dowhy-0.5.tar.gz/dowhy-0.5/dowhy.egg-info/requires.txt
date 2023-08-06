@@ -1,0 +1,9 @@
+matplotlib
+networkx>=2.0
+numpy>=1.15
+pandas>=0.24
+pydot>=1.4
+scikit-learn
+scipy
+statsmodels
+sympy>=1.4
