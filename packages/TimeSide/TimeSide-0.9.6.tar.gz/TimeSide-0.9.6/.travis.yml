@@ -1,0 +1,64 @@
+language: python
+python:
+  - "2.7"
+  
+sudo: required
+
+services:
+  - docker
+
+env:
+  matrix:
+    - TEST_TARGET=default  # Default unit test
+    - TEST_TARGET=cli      # Test for TimeSide command line interfaces
+    - TEST_TARGET=doc      # Test documentation and included doctest
+    - TEST_TARGET=server   # Test timeside.server
+
+before_install:
+  - docker-compose --version
+
+
+# Install TimeSide
+install:
+  - docker-compose -f docker-compose.yml pull
+  - docker-compose -f docker-compose.yml build
+  - docker-compose -f docker-compose.yml -f env/js_build.yml run js_build
+
+script:
+# -------------DEFAULT--------------------
+  - if [[ $TEST_TARGET == 'default' ]]; then
+      docker-compose -f docker-compose.yml -f env/coverage.yml run app  sh -c "cd /srv/src/timeside;  pip install -U coverage; coverage run --source=timeside --omit=timeside/plugins/analyzer/external/yaafe.py setup.py test";
+    fi
+# -------------DOC------------------------
+  - if [[ $TEST_TARGET == 'doc' ]]; then
+       docker-compose -f docker-compose.yml run app  sh -c "cd /srv/src/timeside/docs; pip install sphinx numpydoc; make html; make doctest";
+    fi
+#  # -------------CLI-------------------------
+  - if [[ $TEST_TARGET == 'cli' ]]; then
+       docker-compose -f docker-compose.yml run app  sh -c "cd /srv/src/timeside;  ./tests/test_scripts.sh";
+    fi
+#  # -------------SERVER-------------------------
+#  #  Get environment variables from .env file and run test
+  - if [[ $TEST_TARGET == 'server' ]]; then
+       docker-compose -f docker-compose.yml up -d db;
+       sleep 20;
+       docker-compose -f docker-compose.yml up -d;
+       sleep 20;
+       curl --fail --retry 10 --retry-delay 5 -v -X GET "$(docker-compose port nginx 80)/timeside/api/items/" -H "Authorization":" Token Dummy_Token";
+    fi
+#
+after_success:
+#  -  # -------------DEFAULT--------------------
+  - if [[ $TEST_TARGET == 'default' ]]; then
+          docker-compose -f docker-compose.yml -f env/coverage.yml run app  sh -c "cd /srv/src/timeside; pip install coveralls; coveralls";
+    fi
+
+after_script:
+  - if [[ $TEST_TARGET == 'server' ]]; then
+           docker-compose stop;
+    fi
+
+after_failure:
+  - if [[ $TEST_TARGET == 'server' ]]; then
+           docker-compose logs;
+    fi

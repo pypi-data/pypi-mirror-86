@@ -1,0 +1,82 @@
+# -*- coding: utf-8 -*-
+#
+# Copyright (c) 2015 Parisson SARL
+
+# This file is part of TimeSide.
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 2 of the License, or
+# (at your option) any later version.
+
+# TimeSide is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with TimeSide.  If not, see <http://www.gnu.org/licenses/>.
+
+# Authors:
+# Guillaume Pellerin <yomguy@parisson.com>
+# Thomas Fillon <thomas@parisson.com>
+
+var:
+  image: debian:jessie
+  volumes:
+     - ./bin:/srv/bin
+     - /archive/WASABI/media:/srv/media
+     - ./var/backup:/srv/backup
+     - ./var/static:/srv/static
+     - ./var/log/nginx:/var/log/nginx
+     - ./var/log/uwsgi:/var/log/uwsgi
+     - /srv/bower
+     - ./var/cache:/srv/cache
+  command: "true"
+
+db:
+  image: mariadb:10
+  volumes:
+    - ./var/lib/mysql:/var/lib/mysql
+  volumes_from:
+    - var
+  env_file:
+    - env/prod.env
+
+broker:
+  image: redis:5
+
+app:
+  image: parisson/timeside:latest-dev
+  command: /bin/bash /srv/app/bin/app.sh
+  volumes:
+    - ./app:/srv/app
+    - ./timeside:/srv/lib/timeside/timeside
+    - ./lib/plugins:/srv/lib/plugins
+  volumes_from:
+    - var
+  env_file:
+    - env/prod.env
+  links:
+    - broker
+    - db
+  expose:
+    - "8000"
+  ports:
+    - "9030:8000"
+  # mac_address: 02:42:ac:11:00:07
+
+
+worker:
+  image: parisson/timeside:latest-dev
+  command: /bin/bash /srv/app/bin/worker.sh
+  volumes:
+    - /etc/._ifpk_2
+  volumes_from:
+    - var
+    - app
+  env_file:
+    - env/prod.env
+  links:
+    - broker
+    - db

@@ -1,0 +1,47 @@
+{
+  "name": "wreqr.injector",
+  "main": "dist/wreqr.injector.js",
+  "version": "0.3.0",
+  "homepage": "https://github.com/stephanebachelier/wreqr.injector",
+  "authors": [
+    "Stéphane Bachelier <stephane.bachelier@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephanebachelier/wreqr.injector.git"
+  },
+  "description": "A really simple dependency injection based on Backbone.Wreqr.RequestResponse",
+  "keywords": [
+    "backbone",
+    "marionette",
+    "dependency",
+    "injector"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone.wreqr": "^1.0.0"
+  },
+  "devDependencies": {
+    "should": "~3.1.3",
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.0",
+    "underscore": "~1.6.0",
+    "marionette": "~1.6.3"
+  },
+  "_release": "0.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.0",
+    "commit": "e47ee93f9772ace7e6a04645b9896902231243da"
+  },
+  "_source": "https://github.com/stephanebachelier/wreqr.injector.git",
+  "_target": "~0.3.0",
+  "_originalSource": "wreqr.injector"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "superapi",
+  "version": "0.6.6",
+  "homepage": "https://github.com/stephanebachelier/superapi",
+  "authors": [
+    "Stéphane Bachelier <stephane.bachelier@gmail.com>"
+  ],
+  "description": "Super api wrapper around superagent",
+  "main": "dist/superapi.amd.js",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "http",
+    "api",
+    "superagent",
+    "wrapper"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "tests",
+    "karma.conf.js",
+    "Gruntfile.js",
+    "tasks",
+    "lib",
+    "package.json"
+  ]
+}
