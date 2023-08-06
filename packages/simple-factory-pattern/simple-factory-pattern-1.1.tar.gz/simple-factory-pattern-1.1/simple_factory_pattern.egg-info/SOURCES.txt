@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple_factory_pattern/__init__.py
+simple_factory_pattern/factorypattern_meta.py
+simple_factory_pattern.egg-info/PKG-INFO
+simple_factory_pattern.egg-info/SOURCES.txt
+simple_factory_pattern.egg-info/dependency_links.txt
+simple_factory_pattern.egg-info/top_level.txt
