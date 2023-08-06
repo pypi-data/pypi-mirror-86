@@ -1,0 +1,6 @@
+libcst==0.3.14
+pylint==2.4.3
+
+[testing]
+pytest
+pytest-cov
