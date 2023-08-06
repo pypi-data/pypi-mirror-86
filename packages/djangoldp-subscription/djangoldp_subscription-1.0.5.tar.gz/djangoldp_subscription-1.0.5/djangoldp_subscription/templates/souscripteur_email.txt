@@ -1,0 +1,11 @@
+Salut {{member.firstname|safe}}!
+
+Merci pour ton soutien et bienvenue aux commandes de Startin’blox.
+
+Dés reception de ton virement et de ta pièce d'identité, le Directoire validera ta souscription et tu recevras ton attestation à l'email que tu nous as communiqué.
+
+Nous travaillons dur pour faire de cette aventure une belle réussite. Sens-toi libre d’y apporter ta patte, cette aventure est désormais également la tienne !
+
+Très belle journée à toi !
+
+L’équipe de Startin’blox
