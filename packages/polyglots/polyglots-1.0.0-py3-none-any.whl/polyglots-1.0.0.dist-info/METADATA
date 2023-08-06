@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: polyglots
+Version: 1.0.0
+Summary: Create polyglots for different file types
+Home-page: https://github.com/donno2048/polyglots
+Author: Elisha Hollander
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+To use it just do:
+```py
+py -m polyglots InputFile1.ext1 InputFile2.ext2 outputfile
+```
+in the folder your input files are in
+
