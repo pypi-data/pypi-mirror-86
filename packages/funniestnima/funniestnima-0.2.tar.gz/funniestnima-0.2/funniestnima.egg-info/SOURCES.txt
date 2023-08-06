@@ -1,0 +1,7 @@
+setup.py
+funniestnima/__init__.py
+funniestnima.egg-info/PKG-INFO
+funniestnima.egg-info/SOURCES.txt
+funniestnima.egg-info/dependency_links.txt
+funniestnima.egg-info/not-zip-safe
+funniestnima.egg-info/top_level.txt
