@@ -1,0 +1,5 @@
+terminaltables<4
+ruamel.yaml<0.17
+aiohttp<4
+colored<2
+conan
