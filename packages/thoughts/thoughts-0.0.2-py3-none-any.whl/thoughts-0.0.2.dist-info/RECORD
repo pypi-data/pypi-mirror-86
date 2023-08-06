@@ -1,0 +1,13 @@
+thoughts/__init__.py,sha256=Ym54p1T_aqfkuwOwy_3fObR1g55rNZcu_AR_jq2yV0c,38
+thoughts/context.py,sha256=663usa3IqwjnUZfcPLZrZVGXBm5pWa9SGExbtfbpOJQ,3783
+thoughts/rules_engine.py,sha256=zYyG3okEZsfBIXfzwJmKIy7dEnEy1FXQxTdD0-tJCfo,5276
+thoughts/unification.py,sha256=Rx42ZpbIaMxwptnCJv0O3J-RQj2-qaRT9La2uPRf9k0,5383
+thoughts/commands/__init__.py,sha256=Ym54p1T_aqfkuwOwy_3fObR1g55rNZcu_AR_jq2yV0c,38
+thoughts/commands/output.py,sha256=rg9CPjVEFFRLVWWaiMn4Kq-0YOgxAhrUENoyzGlg6GQ,1133
+thoughts/commands/prompt.py,sha256=4ScaVxk3CFlaCTM5Dkyjv3FV2sABs8Ng0D9UBjlmCD8,194
+thoughts/commands/read_rss.py,sha256=CVzF0hil7Iv5EMa1Hi0Kf_WzZyQLAqIRaqBd3mYsSlA,314
+thoughts-0.0.2.dist-info/LICENSE,sha256=ebzeMrVs2FYXtDAw-u3wsu29fBfQ1NZ6FmeU-xz0XhU,1098
+thoughts-0.0.2.dist-info/METADATA,sha256=l_-U6Ev4f7GC9X_FZgLrHBly5q8JQp1woF-v3bdYnR8,3271
+thoughts-0.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+thoughts-0.0.2.dist-info/top_level.txt,sha256=wkv2qi_7NOTdjQLUtejK25Xj3r8SVTCTb242yszBG_w,9
+thoughts-0.0.2.dist-info/RECORD,,
