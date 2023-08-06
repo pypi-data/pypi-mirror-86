@@ -1,0 +1,11 @@
+README.md
+setup.py
+pkg/__init__.py
+pkg/colleges.py
+pkg/school_districts.py
+pkg/schools.py
+pkg/utils.py
+us_school_data_api.egg-info/PKG-INFO
+us_school_data_api.egg-info/SOURCES.txt
+us_school_data_api.egg-info/dependency_links.txt
+us_school_data_api.egg-info/top_level.txt
