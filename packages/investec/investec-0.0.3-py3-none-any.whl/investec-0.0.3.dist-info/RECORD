@@ -1,0 +1,10 @@
+investec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+investec/api_client.py,sha256=I1BffLHWWkQv5ojCB8HCiHkOVTRZ4hATVbAb3wtCyv0,426
+investec/client.py,sha256=MHyYt8PnsSUlo1Pk0mRjZONdSICvDkp6Ruo-u3bfwmU,1266
+src/__init__.py,sha256=9tiURvkMiQpz_9yZ2Eu6n7UGo5P4XXibwx6SoEI5l7A,126
+src/api_client.py,sha256=I1BffLHWWkQv5ojCB8HCiHkOVTRZ4hATVbAb3wtCyv0,426
+investec-0.0.3.dist-info/LICENSE,sha256=UuXEel0bCLQs4mqZ3502-ZlZDctK_jvZGl-xf36JnsA,1078
+investec-0.0.3.dist-info/METADATA,sha256=i8t782LFrVh0tdtT1Q51DdRX8WPVw8Fuhv0njlYbUw4,401
+investec-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+investec-0.0.3.dist-info/top_level.txt,sha256=AhTWvehNF4uy4WB59X7xPoWNZfmSRtMuv0hZIgUgDBM,9
+investec-0.0.3.dist-info/RECORD,,
