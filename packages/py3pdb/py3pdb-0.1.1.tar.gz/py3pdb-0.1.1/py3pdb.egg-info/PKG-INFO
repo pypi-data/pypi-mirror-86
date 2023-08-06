@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: py3pdb
+Version: 0.1.1
+Summary: A Python3 API for the RCSB Protein Data Bank (PDB).
+Home-page: https://github.com/NYXFLOWER/py3pdb
+Author: Hao Xu
+Author-email: nyx0flower@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: protein,data,api,pdb,protein 3d structure,BLASTp
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.8
