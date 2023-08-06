@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: region-grow
+Version: 0.0.1
+Summary: Creates a new polygon locally given a set of points using a region grow algorithm approach and a satellite image in GeoTIFF format. The polygon output format is ESRI Shapefile
+Home-page: https://github.com/ggonzr/region_grow
+Author: Geovanny Andres Gonzalez
+Author-email: ga.gonzalezr@uniandes.edu.co
+License: MIT
+Keywords: Region Grow,Polygon,Scientific/Engineering :: GIS ,Programming Language :: Python :: 3,License :: OSI Approved :: MIT License
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Shapely
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: rasterio
+Requires-Dist: geopandas
+
+# region_grow
+Create a polygon using a set of points from a region of interest by grouping pixels whose spectral reflectance is similar. The polygons are created using a satellite image in GeoTIFF format. In this project several algorithms are implemented to build this figure. Among them are: Selection by similarity threshold (%), Euclidean distance and selection by confidence interval. The generated polygon is exported in ESRI Shapefile format
+
+
