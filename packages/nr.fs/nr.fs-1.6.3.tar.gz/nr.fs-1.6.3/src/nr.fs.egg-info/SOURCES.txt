@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+package.yml
+setup.py
+src/nr/__init__.py
+src/nr.fs.egg-info/PKG-INFO
+src/nr.fs.egg-info/SOURCES.txt
+src/nr.fs.egg-info/dependency_links.txt
+src/nr.fs.egg-info/requires.txt
+src/nr.fs.egg-info/top_level.txt
+src/nr.fs.egg-info/zip-safe
+src/nr/fs/__init__.py
+src/nr/fs/_atomic.py
+src/nr/fs/_mtime_consistent_file.py
+src/nr/fs/_path.py
+src/nr/fs/_tempfile.py
