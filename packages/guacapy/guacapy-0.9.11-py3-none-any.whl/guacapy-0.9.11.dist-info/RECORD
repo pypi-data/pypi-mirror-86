@@ -1,0 +1,8 @@
+guacapy/__init__.py,sha256=2-g3aIgcjc5zK9oQ86CeDj_kxK-3bmEWIdQUvnDHPd4,69
+guacapy/client.py,sha256=lQwpSQ2KPV_DtiXL_Dl6FB1BwFlKP-Z1Tlc0a7Z0mlc,22592
+guacapy/templates.py,sha256=u1J400WvmXvJ-a3X5nWL3y-St6cJaHcj2Cm2Ky6Qj6g,2811
+guacapy-0.9.11.dist-info/LICENSE,sha256=-LQiGJmL3laPapT17VSN7ryAIPywCg7CIfVUhxtmqXY,35124
+guacapy-0.9.11.dist-info/METADATA,sha256=UuHgVl0hSm-RDHMnklV2TDJCu9tmcGpJOBJOp_V1SFM,288
+guacapy-0.9.11.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+guacapy-0.9.11.dist-info/top_level.txt,sha256=pNqdGsI6H_J19LPnS0VOc4De3pxjh8gIbvbdP4Xp5Zc,8
+guacapy-0.9.11.dist-info/RECORD,,
