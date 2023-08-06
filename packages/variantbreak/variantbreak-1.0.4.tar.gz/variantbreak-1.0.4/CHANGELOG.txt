@@ -1,0 +1,37 @@
+VariantBreak Changelog
+
+
+Release Summary:
+
+
+Version 1.0.4 - Nov 25, 2020
+    * Add badges in README.md
+    * Correct typo in input.py (max_annotation)
+    * Added Index column label for CSV file
+    * Added Chr, Start, and End columns for SV coordinates
+    * Removed spaces and extra '/' in "Annotation" of hovers
+
+
+Version 1.0.3 - June 8, 2020
+    * Changed default '--merged_buffer' value from 50 to 400
+    * Changed gene name and gene type dividers from ',' to '/' to avoid delimiter confusing
+    * Variants are now NOT sorted by prevalence, instead, it is clustered by hierarchical clustering
+    * Added option '--cluster_sample' for hierarchical clustering of sample order
+    * Added option '--auto_filter' for automatic removal of variants intersected with filter files instead of just labeling them
+
+
+Version 1.0.2 - Apr 30, 2020
+    * Changed SV classes to actual class labels in output.csv file instead of decimal representation
+
+
+Version 1.0.1 - Apr 26, 2020
+    * Fixed duplicated sample ID bug for BNDs in variant_parse
+    * Added new dependency 'tables' for pandas hdf
+    * Added ';' at the end of gene names to mark thr end of string
+    * Added gene name check for ';' character
+    * Added logging.critical logging for Exceptions throughout package
+    * Fixed setup.py installation by changing version import approach
+
+
+Version 1.0.0 - Apr 23, 2020
+    * First release

@@ -1,0 +1,4 @@
+pybedtools>=0.8.0
+pandas>=1.0.3
+tables>=3.6.1
+fastcluster>=1.1.26
