@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+EzPyZ.egg-info/PKG-INFO
+EzPyZ.egg-info/SOURCES.txt
+EzPyZ.egg-info/dependency_links.txt
+EzPyZ.egg-info/requires.txt
+EzPyZ.egg-info/top_level.txt
+EzPyZ.egg-info/zip-safe
