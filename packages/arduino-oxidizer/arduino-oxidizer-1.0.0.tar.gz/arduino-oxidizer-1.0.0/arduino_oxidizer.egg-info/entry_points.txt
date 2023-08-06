@@ -1,0 +1,3 @@
+[console_scripts]
+oxidizer = src.main:entry
+
