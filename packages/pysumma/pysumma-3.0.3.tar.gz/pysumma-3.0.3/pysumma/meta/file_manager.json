@@ -1,0 +1,23 @@
+{
+    "option_names": [
+        "simStartTime",
+        "simEndTime",
+        "tmZoneInfo",
+        "settingsPath",
+        "forcingPath",
+        "outputPath",
+        "attributeFile",
+        "decisionsFile",
+        "globalHruParamFile",
+        "globalGruParamFile",
+        "forcingListFile",
+        "outputControlFile",
+        "initConditionFile",
+        "trialParamFile",
+        "vegTableFile",
+        "soilTableFile",
+        "generalTableFile",
+        "noahmpTableFile",
+        "outFilePrefix"
+    ]
+}
