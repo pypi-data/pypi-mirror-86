@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cloud-radar
+Version: 0.1.0
+Summary: Run functional tests on cloudformation stacks.
+License: Apache-2.0
+Author: Levi Blaney
+Author-email: shadycuz@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: taskcat (>=0.9.20,<0.10.0)
