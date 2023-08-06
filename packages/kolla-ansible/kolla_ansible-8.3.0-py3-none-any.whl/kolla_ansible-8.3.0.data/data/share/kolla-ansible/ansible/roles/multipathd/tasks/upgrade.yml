@@ -1,0 +1,7 @@
+---
+- import_tasks: config-host.yml
+
+- import_tasks: config.yml
+
+- name: Flush handlers
+  meta: flush_handlers

@@ -1,0 +1,7 @@
+---
+- import_tasks: config.yml
+
+- name: Flush handlers
+  meta: flush_handlers
+
+- import_tasks: add_sasl_user.yml

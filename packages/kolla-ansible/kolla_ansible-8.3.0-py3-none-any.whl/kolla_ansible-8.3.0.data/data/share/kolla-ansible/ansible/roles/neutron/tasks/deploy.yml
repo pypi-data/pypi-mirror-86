@@ -1,0 +1,16 @@
+---
+- import_tasks: register.yml
+
+- import_tasks: config-host.yml
+
+- import_tasks: config.yml
+
+- include_tasks: config-neutron-fake.yml
+  when:
+    - enable_nova_fake | bool
+    - inventory_hostname in groups['compute']
+
+- import_tasks: bootstrap.yml
+
+- name: Flush Handlers
+  meta: flush_handlers
