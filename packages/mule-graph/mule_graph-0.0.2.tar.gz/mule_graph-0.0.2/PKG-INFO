@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: mule_graph
+Version: 0.0.2
+Summary: small graph representation library for muleapp
+Home-page: UNKNOWN
+Author: levensworth
+Author-email: sbassani@mulesoft.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
