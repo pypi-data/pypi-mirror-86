@@ -1,0 +1,7 @@
+matplotlib
+numpy<=1.19.3
+openpyxl
+pandas
+PySimpleGUI
+scipy
+statsmodels
