@@ -1,0 +1,12 @@
+tensorflow==1.15.0
+pillow
+lxml
+matplotlib
+Cython
+contextlib2
+tf-slim
+six
+pycocotools
+lvis
+scipy
+pandas
