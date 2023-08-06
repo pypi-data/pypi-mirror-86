@@ -1,0 +1,8 @@
+README.md
+setup.py
+textdetection/__init__.py
+textdetection/detection.py
+textdetection.egg-info/PKG-INFO
+textdetection.egg-info/SOURCES.txt
+textdetection.egg-info/dependency_links.txt
+textdetection.egg-info/top_level.txt
