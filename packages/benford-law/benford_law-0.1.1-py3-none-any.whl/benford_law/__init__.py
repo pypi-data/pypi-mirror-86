@@ -1,0 +1,1 @@
+from .benford_law import Benford
