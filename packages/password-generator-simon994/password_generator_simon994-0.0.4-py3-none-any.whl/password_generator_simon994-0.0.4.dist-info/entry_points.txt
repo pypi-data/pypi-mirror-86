@@ -1,0 +1,3 @@
+[console_scripts]
+generate-pw=password_generator_simon994.password_generator_simon994:generate_password
+
