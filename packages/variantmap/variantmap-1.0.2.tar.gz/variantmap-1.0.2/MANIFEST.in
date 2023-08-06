@@ -1,0 +1,3 @@
+include *.txt
+recursive-include variantmap/assets *
+recursive-include variantmap/data *.h5
