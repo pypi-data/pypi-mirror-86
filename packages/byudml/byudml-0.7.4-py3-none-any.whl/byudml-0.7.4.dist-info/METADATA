@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: byudml
+Version: 0.7.4
+Summary: A collection of DARPA D3M primitives developed by BYU
+Home-page: https://github.com/byu-dml/d3m-primitives
+Author: Roland Laboulaye, Brandom Schoenfeld, Jarom Christensen
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: metalearning,metafeature,machine learning,metalearn,d3m_primitive
+Platform: UNKNOWN
+Requires-Dist: d3m
+Requires-Dist: metalearn (==0.6.1)
+Requires-Dist: numpy (<=1.18.2)
+Requires-Dist: pandas (<=1.0.3)
+Requires-Dist: sentence-transformers (<=0.3.0)
+
+UNKNOWN
+
+
