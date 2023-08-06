@@ -1,0 +1,8 @@
+README.md
+setup.py
+progress_text/ProgressText.py
+progress_text/__init__.py
+progress_text.egg-info/PKG-INFO
+progress_text.egg-info/SOURCES.txt
+progress_text.egg-info/dependency_links.txt
+progress_text.egg-info/top_level.txt
