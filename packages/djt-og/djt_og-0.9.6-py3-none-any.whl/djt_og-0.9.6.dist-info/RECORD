@@ -1,0 +1,10 @@
+djt_og/__init__.py,sha256=sveO8gkUBSVLyLf89wrd8PJK2GDLWT58mTv_lKLOjMw,1237
+djt_og/opengraph.py,sha256=Ohfvjx_Glvll2e_jA1OlTwYRwBIqFhvWet5y62kl_Uo,2985
+djt_og/panel.py,sha256=30jXoJQklxRfsGI8iHlbC-PRGZSVu4oBG-V_ZImV6ug,4726
+djt_og/templates/debug/opengraph.html,sha256=fGmSCgyXK4boPKNoeCau_sT32Z54RAs3-dVRlPDNAV8,1709
+djt_og_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djt_og_test/test_og.py,sha256=r8z4Wv96aTFrvXnGd-MatWXrccHgPboCuazQKT0_IvA,1048
+djt_og-0.9.6.dist-info/METADATA,sha256=19tedR2qFZlOmBYsfsz5WXA1-9FJICyfOu-3KcCrLRw,2468
+djt_og-0.9.6.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+djt_og-0.9.6.dist-info/top_level.txt,sha256=QVeIZDLbKQD9E1sRFnmvupou_e2_kxhdywPD7lUUovM,19
+djt_og-0.9.6.dist-info/RECORD,,
