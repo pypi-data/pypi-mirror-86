@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: scGCO
+Version: 1.1.1
+Summary: single-cell graph cuts optimization
+Home-page: https://github.com/WangPeng-Lab/scGCO
+Author: Peng Wang
+Author-email: wangpeng@picb.ac.cn
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: sklearn
+Requires-Dist: seaborn
+Requires-Dist: parmap
+Requires-Dist: Cython
+Requires-Dist: pygco
+Requires-Dist: tqdm
+Requires-Dist: networkx
+Requires-Dist: shapely
+Requires-Dist: statsmodels
+Requires-Dist: hdbscan
+Requires-Dist: pillow
+Requires-Dist: scikit-image
+Requires-Dist: pysal (==2.0.0)
+
+UNKNOWN
+
+
