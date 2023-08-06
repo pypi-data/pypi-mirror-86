@@ -1,0 +1,6 @@
+[console_scripts]
+phil = freephil.cli:main
+
+[libtbx.precommit]
+freephil = freephil
+
