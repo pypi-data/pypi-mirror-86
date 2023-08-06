@@ -1,0 +1,9 @@
+numpy
+monty
+pymatgen
+fire
+vise
+crystal-toolkit
+scikit-learn
+scikit-image
+tabulate
