@@ -1,0 +1,11 @@
+README.md
+setup.py
+wild_relation_network/__init__.py
+wild_relation_network/layers.py
+wild_relation_network/relation_network.py
+wild_relation_network/wild_relation_network.py
+wild_relation_network.egg-info/PKG-INFO
+wild_relation_network.egg-info/SOURCES.txt
+wild_relation_network.egg-info/dependency_links.txt
+wild_relation_network.egg-info/requires.txt
+wild_relation_network.egg-info/top_level.txt
