@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: sendgrowl
+Version: 0.45
+Summary: simple send notify to growl
+Home-page: https://github.com/cumulus13/sendgrowl
+Author: Hadi Cahyadi LD
+Author-email: cumulus13@gmail.com
+License: MIT
+Download-URL: https://github.com/cumulus13/sendgrowl/tarball/master
+Description: UNKNOWN
+Keywords: youtube downloader download channel
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

@@ -1,0 +1,8 @@
+sendgrowl.py
+setup.py
+sendgrowl.egg-info/PKG-INFO
+sendgrowl.egg-info/SOURCES.txt
+sendgrowl.egg-info/dependency_links.txt
+sendgrowl.egg-info/entry_points.txt
+sendgrowl.egg-info/requires.txt
+sendgrowl.egg-info/top_level.txt
