@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+src/Twitchy.egg-info/PKG-INFO
+src/Twitchy.egg-info/SOURCES.txt
+src/Twitchy.egg-info/dependency_links.txt
+src/Twitchy.egg-info/not-zip-safe
+src/Twitchy.egg-info/requires.txt
+src/Twitchy.egg-info/top_level.txt
+src/twitchy/__init__.py
+src/twitchy/api.py
+src/twitchy/base.py
+src/twitchy/constants.py
+src/twitchy/exceptions.py
+src/twitchy/resources.py
+src/twitchy/test.py
+src/twitchy/utils.py
