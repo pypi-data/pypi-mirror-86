@@ -1,0 +1,12 @@
+README.md
+setup.py
+geometric_primitives/brick.py
+geometric_primitives/bricks.py
+geometric_primitives/rules.py
+geometric_primitives/utils.py
+geometric_primitives/voxels.py
+geometric_primitives.egg-info/PKG-INFO
+geometric_primitives.egg-info/SOURCES.txt
+geometric_primitives.egg-info/dependency_links.txt
+geometric_primitives.egg-info/requires.txt
+geometric_primitives.egg-info/top_level.txt
