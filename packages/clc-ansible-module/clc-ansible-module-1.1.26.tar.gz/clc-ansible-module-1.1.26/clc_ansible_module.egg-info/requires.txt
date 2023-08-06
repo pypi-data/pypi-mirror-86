@@ -1,0 +1,8 @@
+ansible
+prettytable==1.0.0
+clc-sdk==2.44
+future
+mock
+nose
+requests>=2.7
+setuptools
