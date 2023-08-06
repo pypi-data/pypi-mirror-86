@@ -1,0 +1,12 @@
+README.md
+setup.py
+protobuf_inspector/__init__.py
+protobuf_inspector/__main__.py
+protobuf_inspector/core.py
+protobuf_inspector/parser.py
+protobuf_inspector/types.py
+protobuf_inspector.egg-info/PKG-INFO
+protobuf_inspector.egg-info/SOURCES.txt
+protobuf_inspector.egg-info/dependency_links.txt
+protobuf_inspector.egg-info/entry_points.txt
+protobuf_inspector.egg-info/top_level.txt
