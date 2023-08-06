@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: dropboxDiscord
+Version: 1.0.0
+Summary: A simple package that helps people using dropbox to backup on discord
+Home-page: https://github.com/Tim232/dropboxDiscord
+Author: Tim232
+Author-email: endbot4023@gmail.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# dropboxDiscord
+
+A simple package that helps people using dropbox to backup on discord
+
+Example : 
+```python
+import dropboxDiscord
+from discord.ext import commands
+
+bot = commands.Bot(command_prefix='!')
+
+..
+
+@bot.command()
+@commands.is_owner()
+async def backup(ctx):
+    await dropboxDiscord.backup(bot, "yourdropboxtoken",ctx, ['database.json', 'db.sqlite'])
+..
+
+```
+
