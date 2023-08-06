@@ -1,0 +1,7 @@
+numpy
+scipy
+pytest
+torch
+tensorflow
+tqdm
+opencv-python
