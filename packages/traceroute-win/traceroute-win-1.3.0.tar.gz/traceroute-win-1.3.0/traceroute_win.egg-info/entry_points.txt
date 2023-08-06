@@ -1,0 +1,3 @@
+[console_scripts]
+traceroute_win = traceroute_win.traceroute_win:main
+
