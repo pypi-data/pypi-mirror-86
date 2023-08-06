@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: lily-env
+Version: 0.0.4
+Summary: Lily extension for managing environment variables, their validity etc.
+Home-page: https://github.com/cosphere-org/lily-env
+Author: CoSphere Tech
+Author-email: contact@cosphere.org
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: lily,django,drf
+Platform: UNKNOWN

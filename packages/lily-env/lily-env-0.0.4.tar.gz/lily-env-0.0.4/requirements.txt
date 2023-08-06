@@ -1,0 +1,8 @@
+
+# -- set of rich validators for almost all kinds
+# DOCS: https://validators.readthedocs.io/en/latest/
+validators>=0.12.6
+
+# -- cli tools framework
+# DOCS: https://click.palletsprojects.com/en/7.x/
+Click==7.0
