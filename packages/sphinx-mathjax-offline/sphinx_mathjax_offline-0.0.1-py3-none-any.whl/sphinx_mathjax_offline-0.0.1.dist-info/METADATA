@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sphinx-mathjax-offline
+Version: 0.0.1
+Summary: MathJax offline support for Sphinx
+Home-page: https://gitlab.com/thomaswucher/sphinx-mathjax-offline
+Author: Thomas Wucher
+Author-email: mail@thomaswucher.de
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Requires-Dist: sphinx
+
+MatJax for Sphinx Offline
+=========================
+
+This provides the Mathjax files for Sphinx without having to rely on an external CDN.
+
+Installation
+------------
+
+MathJax for Sphinx Offline is published on `PyPI`__ and can be installed from there::
+
+   pip install -U sphinx-mathjax-offline
+
+
+In Sphinx ``conf.py``, add ``sphinx.ext.mathjax`` and ``sphinx-mathjax-offline`` to ``extensions``.
+This will then automatically set ``mathjax_path`` for you and copy the necessary JavaScript and font
+files to your output directory when you build your documentation as usual.
+
+__ https://pypi.org/project/sphinx-mathjax-offline/
+
+
