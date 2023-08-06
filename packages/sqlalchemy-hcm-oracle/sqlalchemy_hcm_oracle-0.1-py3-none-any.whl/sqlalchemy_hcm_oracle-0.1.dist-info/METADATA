@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-hcm-oracle
+Version: 0.1
+Summary: SQLAlchemy dialect for oracle special for hcm
+Home-page: UNKNOWN
+Author: tangrj
+Author-email: tangrj@inspur.com
+License: UNKNOWN
+Keywords: oracle hcm SQLAlchemy
+Platform: UNKNOWN
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
+
