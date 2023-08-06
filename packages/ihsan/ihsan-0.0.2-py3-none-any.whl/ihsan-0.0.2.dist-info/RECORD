@@ -1,0 +1,12 @@
+README.md,sha256=dbHAlcYOm1Du7vd7c3xYkQX0JUQynq3NriXxAreMT38,414
+pyproject.toml,sha256=u9IBTSRpbmq156WkADYTJK6_1yUWJIMO6_uoWWWvhnE,1699
+ihsan/__init__.py,sha256=CnVDuAyYsZHvngdrmF2LtCmSTpafy566bkW04QE44r0,217
+ihsan/manage.py,sha256=PRPzJZWYSxsmIfwX4QSmh4ndSrYNZgRof2zEu2FYs-I,1727
+ihsan/schema.py,sha256=6mCS77TF-cOcz0Zt2DfDJeLS3D172FMPKk9VQCe_OTU,1407
+ihsan/translation.py,sha256=zbzLYcLk48fgkN8tVxHcPaZ_jQaZu7wVtCuEe_5yMAI,2125
+ihsan/utils.py,sha256=gsSFtOHmVeMttBFCxtnoJ54X24n_x0qOC1yXlb547Ok,2188
+ihsan-0.0.2.dist-info/entry_points.txt,sha256=Sty7L6d-JRR4WnjCkrupyzxRt-2kfDTAXslplSOpz74,42
+ihsan-0.0.2.dist-info/LICENSE,sha256=Xmqsm_kNUwUZQRrMmvVQ3h0AFYxaDJMzRiIJGyvLnts,1083
+ihsan-0.0.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+ihsan-0.0.2.dist-info/METADATA,sha256=xgkVTsm8tlOeqUyqyjpIUGM709ZxvKfsNZTfxuD1KSY,1169
+ihsan-0.0.2.dist-info/RECORD,,
