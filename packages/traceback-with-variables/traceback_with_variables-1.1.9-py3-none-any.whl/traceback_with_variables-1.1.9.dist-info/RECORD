@@ -1,0 +1,14 @@
+traceback_with_variables/__init__.py,sha256=KLDhbZnOjcO2r7HcFScEVcZER1UWtivWSt4j9i205oo,265
+traceback_with_variables/activate_by_import.py,sha256=6vLrqAViQTm9RKZuQFx0kSxvYgjAb8Rx2UfbhI7t9nU,151
+traceback_with_variables/activate_in_ipython_by_import.py,sha256=xUuXTiDYWjJzgfyeHf3kk5aDKFuocd_Esi4ZkNccBhU,211
+traceback_with_variables/color.py,sha256=k1wqmXvQ-WJOgAbGzsLL-m3pM0Tm6C_-2fh5C65qHN4,2720
+traceback_with_variables/core.py,sha256=vUpLyul8p6N6pOwkbCm-gU3GrXrmqdcO4OUfdzrcnaE,2946
+traceback_with_variables/main.py,sha256=2CobYU3nP5qCA4pVvuTa05jbRqkfxDzBxwFmwZ6Wpxw,4656
+traceback_with_variables/override.py,sha256=ouJW_Jq9J4fbVBAE-g2f5hsyv_GDcSg5svQaDUfMVCI,1695
+traceback_with_variables/print.py,sha256=JNsWprRGtZfm_cV3wHNi6A7N_fb6kcZhYa4yvCSLog8,3266
+traceback_with_variables-1.1.9.dist-info/LICENSE,sha256=NfFkZrSLGwBV7zSsIfdoe4V06BC1050knXQB2epYub8,1092
+traceback_with_variables-1.1.9.dist-info/METADATA,sha256=L5kwQYwrp6EzmWVtnHHE2IrMAOnKCctCYGJH8RzVJaE,19288
+traceback_with_variables-1.1.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+traceback_with_variables-1.1.9.dist-info/entry_points.txt,sha256=gkErSFCAbtS4-CE_UWSRDbQ0M14rwFQX5NrWdtP80Qc,81
+traceback_with_variables-1.1.9.dist-info/top_level.txt,sha256=SM8brzaUJovfdH4AHOCtVQYhR_zNvasZdur_rug8yHQ,25
+traceback_with_variables-1.1.9.dist-info/RECORD,,
