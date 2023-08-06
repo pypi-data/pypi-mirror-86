@@ -1,0 +1,84 @@
+Metadata-Version: 1.1
+Name: wagtailgeowidget
+Version: 5.1.0
+Summary: Wagtail-Geo-Widget is the complete map solution for your Wagtail site.
+Home-page: https://github.com/frojd/wagtail-geo-widget
+Author: Fröjd
+Author-email: martin@marteinn.se
+License: MIT
+Description: |Build Status| |PyPI version|
+        
+        Wagtail-Geo-Widget
+        ==================
+        
+        Wagtail-Geo-Widget is the complete map solution for your Wagtail site.
+        
+        .. figure:: https://raw.githubusercontent.com/frojd/wagtail-geo-widget/develop/img/screen1.png
+           :alt: Screen1
+        
+           Screen1
+        
+        Features
+        --------
+        
+        -  Real spatial support (with GeoDjango and PointField)
+        -  Storing coordinates as strings (for no-GeoDjango setups)
+        -  StreamField integration
+        -  Searching with geoencoding
+        -  Inline panel support
+        -  Optional address search field
+        -  Language support
+        
+        Documentation
+        -------------
+        
+        -  `Getting started <./docs/getting-started.md>`__
+        -  `Settings <./docs/settings.md>`__
+        -  `Adding the widget to a Page <./docs/adding-to-a-page.md>`__
+        -  `Integrating with GeoDjango <./docs/integrating-with-geodjango.md>`__
+        -  `Adding to a StreamField <./docs/adding-to-a-streamfield.md>`__
+        -  `FAQ <./docs/faq.md>`__
+        
+        Contribute
+        ----------
+        
+        If you have ideas for improvement, please share your thoughts through an
+        issue. We also welcome PR’s
+        
+        -  Issue Tracker: https://github.com/Frojd/wagtail-geo-widget/issues
+        -  Source Code: https://github.com/Frojd/wagtail-geo-widget
+        
+        Security
+        --------
+        
+        If you believe you have found a security issue with any of our projects
+        please email us at `security@frojd.se <security@frojd.se>`__.
+        
+        License
+        -------
+        
+        Wagtail-Geo-Widget is released under the `MIT
+        License <http://www.opensource.org/licenses/MIT>`__.
+        
+        .. |Build Status| image:: https://github.com/Frojd/wagtail-geo-widget/workflows/Tests/badge.svg?branch=master
+           :target: https://github.com/Frojd/wagtail-geo-widget/actions
+        .. |PyPI version| image:: https://badge.fury.io/py/wagtailgeowidget.svg
+           :target: https://badge.fury.io/py/wagtailgeowidget
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Django
+Classifier: Topic :: Utilities
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 2
