@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+UNSC_Sanctions_Checker.py
+setup.py
+wkhtmltopdf.exe
+UNSC_Sanctions_Checker.egg-info/PKG-INFO
+UNSC_Sanctions_Checker.egg-info/SOURCES.txt
+UNSC_Sanctions_Checker.egg-info/dependency_links.txt
+UNSC_Sanctions_Checker.egg-info/requires.txt
+UNSC_Sanctions_Checker.egg-info/top_level.txt
+data/consolidated.xml
+template/report.html
