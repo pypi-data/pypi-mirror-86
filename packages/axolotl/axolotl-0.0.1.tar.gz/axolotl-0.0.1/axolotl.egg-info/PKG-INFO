@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: axolotl
+Version: 0.0.1
+Summary: A Minecraft launcher for power users.
+Home-page: https://github.com/yonderbread/axolotl
+Author: yonderbread, naturecodevoid
+License: GPL v3
+Project-URL: Bug Reports, https://github.com/yonderbread/axolotl/issues
+Project-URL: Source, https://github.com/yonderbread/axolotl
+Description: # axolotl
+        
+        [![PyPI Version](https://img.shields.io/pypi/v/axolotl?label=Version&logo=python&logoColor=yellow&style=for-the-badge)](https://pypi.org/project/axolotl/)
+        [![PyPI Downloads](https://img.shields.io/pypi/dm/axolotl?logo=python&logoColor=yellow&style=for-the-badge)](https://pypi.org/project/axolotl/)
+        
+        A Minecraft launcher for power users.
+        
+        COMING SOON
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

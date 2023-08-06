@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+axolotl/__init__.py
+axolotl/__main__.py
+axolotl.egg-info/PKG-INFO
+axolotl.egg-info/SOURCES.txt
+axolotl.egg-info/dependency_links.txt
+axolotl.egg-info/top_level.txt
