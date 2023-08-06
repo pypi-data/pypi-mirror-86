@@ -1,0 +1,9 @@
+kubernetes
+cryptography
+pyyaml
+
+[test]
+pytest
+pytest-cov
+black
+coverage
