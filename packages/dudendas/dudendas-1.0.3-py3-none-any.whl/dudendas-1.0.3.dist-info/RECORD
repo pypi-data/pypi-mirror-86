@@ -1,0 +1,17 @@
+dudendas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dudendas/__main__.py,sha256=wcV1SpPcIVmHDxFL7IgaKIN2KBE3gaqaGn7REXjU2oM,69
+dudendas/arguments.py,sha256=CPQeZUefBgE9usBsewdudv9lsyN8ITT0_RClxvq7dj4,955
+dudendas/dudendas.py,sha256=0T3wiyUQss3GdjZw_sBv6-wxdV053-MKoPKqbavJcSI,1415
+dudendas/exception.py,sha256=mOhQFzPurq2Ui0kBChU_fsxnZBv5cE3g4x5agmFDD2M,108
+dudendas/logging.py,sha256=LcZof7wXusM0hrsgRDuD-HUT0mnROiwbqeNEwdaKySk,378
+dudendas/network.py,sha256=7-kUCaRK5EsjUGyXYL69JR14TnVQkM_R-3s636WryjI,2050
+dudendas/search.py,sha256=ol2wMoFu6p8fCgLwRma9PWQOIls7VggSGjP_MOVvBcI,3162
+dudendas/util.py,sha256=7v33ZzrvV-kzB2wlCaW8lbAIXJcyVHYDMHL7fUxOstA,815
+dudendas/version.py,sha256=og6LsJvjKrzb919T4aqAXGsrBsiV36rbVPhDg_zQYRU,116
+dudendas/word.py,sha256=7XyPWo_XkKDLWq5S6x2cq3xXOMap_F2RcMwUAVXnFLw,2245
+dudendas-1.0.3.dist-info/LICENSE,sha256=m8lFIaUo9G2rtZDa2OeMAFwa-pXBGvsUv0zQos9Cr7s,1066
+dudendas-1.0.3.dist-info/METADATA,sha256=nVzL8FdDa0wogT4_xgy6W96KvcbmKrfIlpe8HQNCbMc,1843
+dudendas-1.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dudendas-1.0.3.dist-info/entry_points.txt,sha256=tMilHZVHcc_FeauOfa4A2X1E0CXXhyZFFG49p9q3Pb0,53
+dudendas-1.0.3.dist-info/top_level.txt,sha256=Wl8JvR1FjRf6lI8lgZLgacR0lU3NjKFNKky46Ucs8kg,9
+dudendas-1.0.3.dist-info/RECORD,,
