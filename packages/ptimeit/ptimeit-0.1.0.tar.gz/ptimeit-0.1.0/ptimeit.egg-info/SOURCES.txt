@@ -1,0 +1,8 @@
+README.md
+setup.py
+ptimeit/__init__.py
+ptimeit/_impl.py
+ptimeit.egg-info/PKG-INFO
+ptimeit.egg-info/SOURCES.txt
+ptimeit.egg-info/dependency_links.txt
+ptimeit.egg-info/top_level.txt
