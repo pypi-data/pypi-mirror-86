@@ -1,0 +1,6 @@
+include requirements.txt
+include PixelInstagram/models/la_muse.ckpt
+include PixelInstagram/models/rain_princess.ckpt
+include PixelInstagram/models/scream.ckpt
+include PixelInstagram/models/udnie.ckpt
+include PixelInstagram/models/wave.ckpt

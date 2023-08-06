@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: PixelInstagram
+Version: 1.0.2
+Summary: a simple app
+Home-page: https://gitee.com/wjh1119
+Author: wjh1119
+Author-email: 20091755G@connect.polyu.hk
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: PixelInstagram
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.6
