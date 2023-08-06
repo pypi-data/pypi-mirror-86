@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+connected_conics/__init__.py
+connected_conics/conic.py
+connected_conics/helpers.py
+connected_conics/surf.py
+connected_conics.egg-info/PKG-INFO
+connected_conics.egg-info/SOURCES.txt
+connected_conics.egg-info/dependency_links.txt
+connected_conics.egg-info/top_level.txt
