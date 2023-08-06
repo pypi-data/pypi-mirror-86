@@ -1,0 +1,9 @@
+google_structlog/__init__.py,sha256=ND3qClcL4d_DrT3zLeG-LNUekEErPEkShjyaFTqDURM,78
+google_structlog/setup.py,sha256=HgpCJ-ZPXdSFhTIfYNJ1mVsNT0bX4tuS6gbIqGfMmX0,697
+google_structlog/setup_google.py,sha256=0oyYFm49tkTV0ySpFMljvzGgKMmd-picARmtidi55qQ,5280
+google_structlog/setup_stdout.py,sha256=KiId6c3zOyNxNptFv4mG0jSS_pR6xroU8NcH185wNkU,493
+google_structlog-43.11.173.dist-info/LICENSE,sha256=L-VKOL6NOSSSCQ0F6eT29PqQgOOVCHHE8qntrbNzNq0,1070
+google_structlog-43.11.173.dist-info/METADATA,sha256=m0v1pAaMFYF7uxrrmB5OtkMHrIDP1nQA7rF8M3LCUrk,1819
+google_structlog-43.11.173.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+google_structlog-43.11.173.dist-info/top_level.txt,sha256=OeHTnkiIfRzYpk6y7AwHdydPM8AuYXyD92fqBkOq1HM,17
+google_structlog-43.11.173.dist-info/RECORD,,
