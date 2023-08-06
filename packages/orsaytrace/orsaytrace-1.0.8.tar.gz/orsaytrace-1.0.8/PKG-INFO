@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: orsaytrace
+Version: 1.0.8
+Summary: Flexible ray tracing for optics
+Home-page: https://github.com/yvesauad/OrsayTrace
+Author: Yves Auad
+Author-email: yves.maia-auad@universite-paris-saclay.fr
+License: MIT
+Download-URL: https://github.com/yvesauad/OrsayTrace/archive/v1.0.8.tar.gz
+Description: # OrsayTrace
+        
+        Orsaytrace is an open source python library for flexible optical simulations in 3D dimensions. 
+        
+        Orsaytrace makes it easy to add elements or transformations sequentially. Multiple shapes can be created using building blocks such as spheres, prisms, parabolas and spatial transformations like rotations or translations.
+        
+        Data analysis are done by the means of plans, which save the photons that cross them during simulation running. A pletora of pre build functions are already implemented for photons subset, but users can build their own using all available photon objects.
+        
+        # Contributing 
+        
+        Contributing is encouraged for everyone. Please be in touch if you wish to help.
+        
+Keywords: optics,ray,tracing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
