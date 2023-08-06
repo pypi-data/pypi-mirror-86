@@ -1,0 +1,8 @@
+README.md
+setup.py
+qed/__init__.py
+qed/qed.py
+uamc_qed.egg-info/PKG-INFO
+uamc_qed.egg-info/SOURCES.txt
+uamc_qed.egg-info/dependency_links.txt
+uamc_qed.egg-info/top_level.txt
