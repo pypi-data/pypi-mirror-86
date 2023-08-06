@@ -1,0 +1,4 @@
+speedtest-cli
+mysql-connector-python
+SQLAlchemy
+mysqlclient
