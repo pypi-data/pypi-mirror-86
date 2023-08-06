@@ -1,0 +1,12 @@
+haruka_bot/__init__.py,sha256=5X6xnxrj0zY0pYP0X0oytzAturxfWI8kRzKy5fcumY8,138
+haruka_bot/auto_agree.py,sha256=SLy0_AgCelXn4AyeH6OsxWMU7QD7saNCzicCjZ5bSk4,743
+haruka_bot/config_manager.py,sha256=pbAagLP7kUlOw989N56PH6fkB8fO94JqLvCORpRejHU,20923
+haruka_bot/dynamic.py,sha256=2WvfanWp2w2nkZifTigXj3oYDfVrSP_JCfngiRDxNJE,2353
+haruka_bot/help.py,sha256=WUMoNdGdqcI9t8ighbK-M7uKSq5zNeaF8zps6wQvT14,836
+haruka_bot/live.py,sha256=7WeVIKz_Q2C44NSYC4Ap9E4a5-qUZxwp_Dqbb5fhev8,2170
+haruka_bot/login.py,sha256=7GlA5vpcMfGwtmzPMpcY6uqqCHyvgFjQcTSHmFI5q_0,3065
+haruka_bot/utils.py,sha256=obi9QmMn60uG0-LBVMpJXOTX1ZC1oHXFsRdtLh0wh4E,7865
+haruka_bot-1.0.7.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+haruka_bot-1.0.7.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+haruka_bot-1.0.7.dist-info/METADATA,sha256=KIFKgjwm72DQu6mHxNUDOpuoTRwiydIj9Pt8HG5aifg,4376
+haruka_bot-1.0.7.dist-info/RECORD,,
