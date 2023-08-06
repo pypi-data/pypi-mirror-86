@@ -1,0 +1,6 @@
+README.md
+setup.py
+CMSEIRD.egg-info/PKG-INFO
+CMSEIRD.egg-info/SOURCES.txt
+CMSEIRD.egg-info/dependency_links.txt
+CMSEIRD.egg-info/top_level.txt
