@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: five4-tools-andyvisco
+Version: 0.2.9.1
+Summary: Herramientas para entendimiento y modelado de datos
+Home-page: https://github.com/Five4-Argentina/five4_tools
+Author: Andres Visco
+Author-email: andres.visco@five4.com.ar
+License: UNKNOWN
+Description: # FIVE4 Tools for Data Manipulation and Cleaning
+        ```language
+        from five4_tools.five4_utils import Operaciones
+        
+        ds = 'five4_tools/test.csv'
+        datosA = Operaciones(ds)
+        datosA.nullDataResume()
+        datosA.resumenShape()
+        
+        ```
+        ![Registros](https://github.com/Five4-Argentina/five4_tools/blob/main/Example.png?raw=true)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
