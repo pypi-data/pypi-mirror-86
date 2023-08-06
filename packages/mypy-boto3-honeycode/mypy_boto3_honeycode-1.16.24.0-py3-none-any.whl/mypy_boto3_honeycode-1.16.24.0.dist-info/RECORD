@@ -1,0 +1,13 @@
+mypy_boto3_honeycode/__init__.py,sha256=Onwful09lZmiM1ZLyZcFeLxjuILPdQoi30NuVDgn5vo,459
+mypy_boto3_honeycode/__init__.pyi,sha256=__4sdvYDj2-AZDgbjqoY7I1D61wrm_uRh1lFKHgb3zg,458
+mypy_boto3_honeycode/__main__.py,sha256=ddDkWqqXhKggHta2uALsDv83526g6BWTdVdd23kgSE0,398
+mypy_boto3_honeycode/client.py,sha256=sbbps72FjtW_Ro8lb2x_0xZvYjOAOX7cxpP-tI5ro4c,3284
+mypy_boto3_honeycode/client.pyi,sha256=Z_fBFOlcd26OML8cs3z8liiV45aTGQbT7PqC9sQP0sg,3276
+mypy_boto3_honeycode/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_honeycode/type_defs.py,sha256=7i_OQTG3cPBRdHMqQ6IM_bmsscVwojhQ7ddsRATQ-R8,2564
+mypy_boto3_honeycode/type_defs.pyi,sha256=JYRPicTwsKjfqv2PeyB5uEf2FQHod2exoDIvJQLwLQc,2559
+mypy_boto3_honeycode/version.py,sha256=4pMIAImIdAXOFJhozxopjmQgQBlh0tYcYa8z29D_uwQ,57
+mypy_boto3_honeycode-1.16.24.0.dist-info/METADATA,sha256=Mo1KRNGMtarb7Z319oY_nWk6UBhBhUJMgMa1r-7aWCk,5896
+mypy_boto3_honeycode-1.16.24.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mypy_boto3_honeycode-1.16.24.0.dist-info/top_level.txt,sha256=YGTeUT727P1PH87pSfAI7fZ0yyQWHZtIdyWWPS3vPb4,21
+mypy_boto3_honeycode-1.16.24.0.dist-info/RECORD,,
