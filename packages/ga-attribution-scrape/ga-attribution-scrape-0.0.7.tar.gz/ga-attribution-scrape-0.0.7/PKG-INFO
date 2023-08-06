@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ga-attribution-scrape
+Version: 0.0.7
+Summary: Scrapes attribution data from GA through JS Network in Python for CSV exports.
+Home-page: https://github.com/lewisaustinbryan/ga-attribution-scrape
+Author: Lewis Bryan
+Author-email: lewis.a.bryan@googlemail.com
+License: UNKNOWN
+Description: ### ga-attribution-scrape
+        
+        Scrapes attribution data from GA through JS Network in Python for CSV exports.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
