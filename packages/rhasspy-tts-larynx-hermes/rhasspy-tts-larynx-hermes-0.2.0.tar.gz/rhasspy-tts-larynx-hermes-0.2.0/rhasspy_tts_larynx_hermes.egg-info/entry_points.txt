@@ -1,0 +1,3 @@
+[console_scripts]
+rhasspy-tts-larynx-hermes = rhasspytts_larynx_hermes.__main__:main
+

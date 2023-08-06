@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rhasspy-tts-larynx-hermes
+Version: 0.2.0
+Summary: MQTT text to speech service using Larynx and the Hermes protocol
+Home-page: https://github.com/rhasspy/rhasspy-tts-larynx-hermes
+Author: Michael Hansen
+Author-email: mike@rhasspy.org
+License: UNKNOWN
+Description: # Rhasspy TTS Hermes MQTT Service
+        
+        Implements `hermes/tts` functionality from [Hermes protocol](https://docs.snips.ai/reference/hermes) using [Larynx](https://github.com/rhasspy/larynx).
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
