@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pipemaker
+Version: 1.0.9
+Summary: Pipemaker - create a pipeline in one line of code
+Home-page: https://github.com/simonm3/pipemaker.git
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pydrive
+Requires-Dist: click
+Requires-Dist: psutil
+Requires-Dist: Requests
+Requires-Dist: Flask
+Requires-Dist: fs-s3fs
+Requires-Dist: fs
+Requires-Dist: pandas
+Requires-Dist: luigi
+Requires-Dist: jupyter
+Requires-Dist: openpyxl
+Requires-Dist: ipywidgets
+Requires-Dist: ipython
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: PyYAML
+Requires-Dist: graphviz
+Requires-Dist: pika
+Requires-Dist: tqdm
+Requires-Dist: fs.googledrivefs
+Requires-Dist: docutils (==0.15)
+
+UNKNOWN
+
+

@@ -1,0 +1,32 @@
+<!doctype html>
+<!--<meta http-equiv="refresh" content="2">-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+
+<div class=center>
+  <title>Pipemaker status</title>
+  <div class=page>
+    <h1>Pipemaker status</h1>
+    {% for table in tables %}
+    <h2>{{titles[loop.index-1]}}</h2>
+    {{ table|safe }}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    // order of latest starttime
+    $('#task').DataTable({
+      "pageLength": -1,
+      "order": [[6, "desc"]]
+    });
+    //  todo requires ajax loading of table
+    // Reload the table every 1 seconds
+    // setInterval( function () {
+    //         table.ajax.reload();
+    //   }, 1000);
+  });
+</script>

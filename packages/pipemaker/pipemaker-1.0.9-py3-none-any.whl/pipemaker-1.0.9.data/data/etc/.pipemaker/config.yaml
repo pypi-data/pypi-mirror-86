@@ -1,0 +1,18 @@
+# rabbitmq | python
+qtype: python
+
+# cloudamqp | localhost. lookup for creds file.
+creds: localhost
+
+# ports. change if clash
+taskq_port: 4001
+workerq_port: 4002
+eventq_port: 4003
+controller_port: 4004
+
+# starting mode. set to s for sync mode
+mode: a
+
+# folders
+recycle: ~/_recycle
+root: pipedata
