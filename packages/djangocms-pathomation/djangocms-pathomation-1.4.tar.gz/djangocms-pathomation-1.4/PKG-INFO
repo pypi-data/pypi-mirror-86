@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: djangocms-pathomation
+Version: 1.4
+Summary: Add live slide viewing capabilities to your own website built on Django CMS
+Home-page: https://www.pathomation.com/
+Author: Pathomation
+Author-email: info@pathomation.com
+License: GNU GENERAL PUBLIC LICENSE
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
