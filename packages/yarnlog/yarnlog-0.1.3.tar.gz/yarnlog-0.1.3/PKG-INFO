@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: yarnlog
+Version: 0.1.3
+Summary: Download Apache Hadoop YARN log to your local machine.
+Home-page: https://github.com/attomos/ylog
+License: MIT
+Keywords: yarn,hadoop,resource manager,log
+Author: Nattaphoom Chaipreecha
+Author-email: attomos@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fire (>=0.3.1,<0.4.0)
+Requires-Dist: hurry.filesize (>=0.9,<0.10)
+Requires-Dist: pytest-cov (>=2.10.1,<3.0.0)
+Requires-Dist: requests (>=2.25.0,<3.0.0)
+Project-URL: Repository, https://github.com/attomos/ylog
+Description-Content-Type: text/markdown
+
+# yarnlog
+
+[![Tests Status](https://github.com/attomos/yarnlog/workflows/Tests/badge.svg?branch=main&event=push)](https://github.com/attomos/yarnlog/actions?query=workflow%3ATests+branch%3Amain+event%3Apush)
+[![codecov](https://codecov.io/gh/attomos/yarnlog/branch/main/graph/badge.svg?token=FQUPRYP17V)](https://codecov.io/gh/attomos/yarnlog)
+
+Download Apache Hadoop YARN log to your local machine.
+
+## Usage
+
+```bash
+$ yarnlog <YARN_URL>
+```
+
+## Dev
+
+### Set up development environment
+
+I use Poetry to manage dependencies
+
+```bash
+$ poetry install
+$ source $(poetry env info --path)/bin/activate
+```
+
+### Debug yarnlog locally
+
+```bash
+$ poetry run yarnlog
+```
+
+### Run tests
+
+```bash
+$ pytest
+
+# coverage
+$ pytest --cov=yarnlog tests
+
+# coverage with html report
+$ pytest --cov=yarnlog --cov-report html:htmlcov tests
+```
+
