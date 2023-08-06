@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pymaid
+Version: 0.4.0rc1
+Summary: A rpc framework based on gevent/protobuf
+Home-page: https://github.com/catstyle/pymaid
+Author: Catstyle
+Author-email: Catstyle.Lee@gmail.com
+License: MIT
+Keywords: rpc gevent protobuf
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: gevent (==20.9.0)
+Requires-Dist: protobuf (==3.14.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: ujson (==2.0.3)
+Requires-Dist: wsaccel (==0.6.2)
+Provides-Extra: backend
+Requires-Dist: requests (==2.21.0) ; extra == 'backend'
+Requires-Dist: PyYAML (==3.13) ; extra == 'backend'
+Requires-Dist: xmltodict (==0.12.0) ; extra == 'backend'
+
+pymaid
+======
+
+a rpc framework based on gevent and google protocol buffer
+
+
