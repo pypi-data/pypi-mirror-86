@@ -1,0 +1,13 @@
+---
+_length: &length
+  units: in
+  default: 0
+_pressure: &pressure
+  units: psi
+_mass: &mass
+  units: lb  
+_volume: &volume
+  units: in^3  
+_force: &force
+  units: lbf
+
