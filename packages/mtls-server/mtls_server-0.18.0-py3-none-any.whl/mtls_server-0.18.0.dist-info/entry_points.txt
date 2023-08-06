@@ -1,0 +1,3 @@
+[console_scripts]
+mtls-server = mtls_server.server:main
+
