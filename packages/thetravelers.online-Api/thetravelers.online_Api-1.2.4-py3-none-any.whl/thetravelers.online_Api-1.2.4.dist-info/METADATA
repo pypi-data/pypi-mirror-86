@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: thetravelers.online-Api
+Version: 1.2.4
+Summary: Python API for thetravelers.online
+Home-page: https://github.com/LightningWB/thetravelers.online-API
+Author: LightningWB
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: selenium
+
+https://github.com/LightningWB/thetravelers.online-API
+
+
