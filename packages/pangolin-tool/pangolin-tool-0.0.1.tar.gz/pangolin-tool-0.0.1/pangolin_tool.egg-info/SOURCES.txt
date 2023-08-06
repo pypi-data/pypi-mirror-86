@@ -1,0 +1,8 @@
+README.md
+setup.py
+pangolin_tool.egg-info/PKG-INFO
+pangolin_tool.egg-info/SOURCES.txt
+pangolin_tool.egg-info/dependency_links.txt
+pangolin_tool.egg-info/top_level.txt
+tests/__init__.py
+tests/test_stack.py
