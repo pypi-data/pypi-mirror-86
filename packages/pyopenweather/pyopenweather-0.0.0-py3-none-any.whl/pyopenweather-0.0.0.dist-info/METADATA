@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyopenweather
+Version: 0.0.0
+Summary: Python wrapper for OpenWeather API
+Home-page: https://github.com/gsornsen/pyopenweather
+Author: Gerald Sornsen
+Author-email: gerald@sornsen.io
+License: MIT
+Platform: Posix; MacOS X; Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests-async (>=0.6.2)
+
+# pyopenweather
+
+
