@@ -1,0 +1,8 @@
+pystarlark-0.0.1.dist-info/WHEEL,sha256=Qs6QNtdSkcAOpbp1HsiWMXMmEoke2l_SfE6ZKek5Jmk,112
+pystarlark-0.0.1.dist-info/LICENSE,sha256=z-f3j4Bf-7GG4vd_ZW24a-MJ1GwUbVSMTRoJWeWSqoI,11341
+pystarlark-0.0.1.dist-info/RECORD,,
+pystarlark-0.0.1.dist-info/top_level.txt,sha256=mRUx4qgy9hldUf77ckLRie9VcCpCHEajpRsnCW81Z-I,31
+pystarlark-0.0.1.dist-info/METADATA,sha256=khh-ojyg6a-mWD47AcmIfQ81X4wf1L9k0B4f7_xEmFQ,4472
+pystarlark/__init__.py,sha256=dshfNXGTQ-xB5yjcxacY0aGn2lhLJ4Y1BZkj3SyOd3Q,665
+pystarlark/starlark.cpython-37m-x86_64-linux-gnu.h,sha256=CknritW0-0UWUqQBZSYCRB1l0L_ifEOBzK0alDpRnRo,1788
+pystarlark/starlark.cpython-37m-x86_64-linux-gnu.so,sha256=sYCm5qMSHjR1nchHulbeo2Poddc9CPLN4WBLS2gNzVA,5224544
