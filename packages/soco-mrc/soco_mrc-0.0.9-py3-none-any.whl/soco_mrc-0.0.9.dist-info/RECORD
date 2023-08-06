@@ -1,0 +1,14 @@
+soco_mrc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soco_mrc/cloud_bucket.py,sha256=v9lRNGE9avcUfvzByZ_mt1qtY9QXDXRheQ3ugCrn7N0,3456
+soco_mrc/config.py,sha256=g3fx_zD5209lCf3mYjgkG9CivOuMCP0ZNIx73dyxDF0,395
+soco_mrc/mrc_base.py,sha256=hBuse_nHyPdtBXebmHPFTP0g8EF98P-E-d0aU5Nw-U4,1773
+soco_mrc/mrc_model.py,sha256=iNRuEPJ1lKlHoPUYcPl_0sAl-Hyr9NdCmr-UWT0pjCM,35125
+soco_mrc/server.py,sha256=jeypdOVC8w9gpxxR5RTuNfG-r5gA2HSkbxGzlPfFCSI,1186
+soco_mrc/util.py,sha256=pAjVTU33WlNkf87ZL3AvDYky6jyXDvkLJJZhJ-FCmQg,10246
+soco_mrc/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soco_mrc/model/bert_model.py,sha256=GZleqltW0Laivp8b9uqmi2Q9xxAIzuTfhTjlEs7XBIM,2758
+soco_mrc-0.0.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+soco_mrc-0.0.9.dist-info/METADATA,sha256=qKhmQaP-o_NwPWSRHt0FtUBRRY-cY9z7Je_QzzojS5c,1004
+soco_mrc-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+soco_mrc-0.0.9.dist-info/top_level.txt,sha256=kHJKiyNVGwuV4jX8dDAcTy4BxkBPjyThfo_e4dCuEbU,9
+soco_mrc-0.0.9.dist-info/RECORD,,
