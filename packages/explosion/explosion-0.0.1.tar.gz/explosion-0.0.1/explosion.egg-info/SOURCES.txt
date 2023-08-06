@@ -1,0 +1,10 @@
+README.md
+setup.py
+explosion/__init__.py
+explosion/client.py
+explosion.egg-info/PKG-INFO
+explosion.egg-info/SOURCES.txt
+explosion.egg-info/dependency_links.txt
+explosion.egg-info/not-zip-safe
+explosion.egg-info/requires.txt
+explosion.egg-info/top_level.txt
