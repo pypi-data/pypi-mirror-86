@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-budget-backend
+Version: 0.1
+Summary: An API to manage your monthly budgets.
+Home-page: https://github.com/personal-server/django-budget-backend
+Author: Sheldon Woodward
+Author-email: me@sheldonw.com
+License: MIT
+Description: # Budget
+        
+Keywords: django budget backend
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 2.2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
