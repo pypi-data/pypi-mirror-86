@@ -1,0 +1,3 @@
+[console_scripts]
+unsc = unsc_sanctions_checker:run
+
