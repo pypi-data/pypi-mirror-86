@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dbt-mysql
+Version: 0.18.0rc1
+Summary: The MySQL adapter plugin for dbt (data build tool)
+Home-page: https://github.com/dbeatty10/dbt-mysql
+Author: Doug Beatty
+Author-email: doug.beatty@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/dbeatty10/dbt-mysql/archive/v0.18.0rc1.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: dbt-core (~=0.18.0)
+Requires-Dist: pyodbc
+
+The MySQL adapter plugin for dbt (data build tool)
+
+
