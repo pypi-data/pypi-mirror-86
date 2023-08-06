@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: nbmake
+Version: 0.0.1
+Summary: Pytest plugin for releasing notebooks
+Home-page: https://github.com/treebeardtech/nbmake
+License: Apache-2.0
+Author: alex-treebeard
+Author-email: alex@treebeard.io
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: ipykernel (>=5.3.4,<6.0.0)
+Requires-Dist: jupyter-book (>=0.8.3,<0.9.0)
+Requires-Dist: jupyter-contrib-nbextensions (>=0.5.1,<0.6.0)
+Requires-Dist: nbstripout (>=0.3.9,<0.4.0)
+Requires-Dist: papermill (>=2.2.2,<3.0.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Requires-Dist: pydantic (>=1.7.2,<2.0.0)
+Requires-Dist: requests (>=2.25.0,<3.0.0)
+Requires-Dist: virtualenv (>=20.1.0,<21.0.0)
+Description-Content-Type: text/markdown
+
+# nbmake
+
+Pytest plugin for building notebooks into a tested Jupyterbook
+
+## Functionality
+
+1. Implements pytest plugin API to access the Jupyterbook execution runtime
+   1. This enables parallelisation with `pytest-xdist`
+2. Automates generation of Jupyterbook config and table of contents, or lets you provide your own
+3. Does not interfere with normal jupyter-book usage.
+
+## Usage
+
+### During Development
+
+```
+pip install pytest nbmake
+pytest --nbmake
+```
+
+the output is a Jupyter book in a build directory:
+
+```
+_build/
+  html/ # contains jupyter book static site with test results
+  jupyter_execute/ # contains jupyter-book ipynbs
+```
+
+this can be viewed locally for debugging
+
+```
+open _build/html/index.html
+```
+
+## Example release process
+
+```
+pytest --nbmake
+netlify deploy dir=_build/html
+```
+
+## Roadmap
+
+Just some ideas:
+
+### Test Isolation
+
+Improve virtualisation of individual tests, e.g. to prevent `!pip install` commands contaminating the test environment.
+
+### Pytest Fixture Integration
+
+Make notebooks a first-class pytest citizen by providing a mechanism for enabling pytest fixtures
+
