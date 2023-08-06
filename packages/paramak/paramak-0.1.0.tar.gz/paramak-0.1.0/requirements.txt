@@ -1,0 +1,10 @@
+scipy
+sympy
+# cadquery not installed via pip to avoid installing cadquery version 1
+plotly
+pytest
+numpy
+plasmaboundaries
+matplotlib
+pillow
+neutronics_material_maker
