@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: protein-inference
+Version: 0.2.2
+Summary: Protein Inference Library for Network based Inference
+Home-page: https://www.massdynamics.com/
+Author: Joseph Bloom
+Author-email: joseph@massdynamics.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas (>=1.1.4)
+Requires-Dist: networkx (>=2.3)
+Requires-Dist: pyvis (>=0.1.8.2)
+Requires-Dist: matplotlib (>=3.2.2)
+Requires-Dist: upsetplot (>=0.4.1)
+Requires-Dist: seaborn (>=0.11.0)
+Requires-Dist: plotly-express (>=0.4.1)
+Requires-Dist: plotly (>=4.10.0)
+
+UNKNOWN
+
+
