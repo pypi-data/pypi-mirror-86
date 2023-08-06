@@ -1,0 +1,12 @@
+pelican/plugins/data_files/__init__.py,sha256=tALcL39YC5AEKIMmaD9ihsgLDUcTPv9eleYYwHcFxPg,136
+pelican/plugins/data_files/file_formats.py,sha256=zHYbn2fApUX_DpTPlsJPfGwIQz8b8obKolr6LvtwwQ8,152
+pelican/plugins/data_files/generators.py,sha256=fx4NLBmZfghdKIi6XoaPS8gZswTmVDrzJWwOTaxuDK0,3299
+pelican/plugins/data_files/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pelican/plugins/data_files/tools/cli.py,sha256=d3p5oUh1P3lB45zLilcOpGU3mMP4aSRxxA7hMqhlUCU,2754
+pelican_data_files-1.1.0.dist-info/LICENSE,sha256=SNi3WnnsklMAi3xS2PLqoWb0WNF2acvaESyIx1mP6vg,1062
+pelican_data_files-1.1.0.dist-info/METADATA,sha256=ufEmdT-kyA0G-2tR12v_ImGOq0jVNihHpnzq5iiKLhk,5293
+pelican_data_files-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pelican_data_files-1.1.0.dist-info/entry_points.txt,sha256=Qs4R_9caycXLK4SlueoBfmB-1Wx_fPCKqK26Rg9Ry6A,82
+pelican_data_files-1.1.0.dist-info/top_level.txt,sha256=aHPRCtnNMRizudJoziqxVbKq0z6RxJEiIMhYX7vV1pY,8
+pelican_data_files-1.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pelican_data_files-1.1.0.dist-info/RECORD,,
