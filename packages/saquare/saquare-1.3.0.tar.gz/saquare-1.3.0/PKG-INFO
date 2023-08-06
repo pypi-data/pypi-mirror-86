@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: saquare
+Version: 1.3.0
+Summary: It squares the number
+Home-page: https://github.com/uditvashisht/saral-square
+Author: Udit Vashisht
+Author-email: admin@saralgyaan.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
