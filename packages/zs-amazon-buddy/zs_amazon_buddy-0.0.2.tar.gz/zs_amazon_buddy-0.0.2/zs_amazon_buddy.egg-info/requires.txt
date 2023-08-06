@@ -1,0 +1,6 @@
+randomua
+kcu
+Unidecode
+requests
+jsoncodable
+beautifulsoup4
