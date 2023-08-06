@@ -1,0 +1,11 @@
+README.txt
+setup.cfg
+setup.py
+Hubot.egg-info/PKG-INFO
+Hubot.egg-info/SOURCES.txt
+Hubot.egg-info/dependency_links.txt
+Hubot.egg-info/requires.txt
+Hubot.egg-info/top_level.txt
+lib_back_hubot/__init__.py
+lib_back_hubot/fonction_cubes.py
+test/test_fonction_cubes.py
