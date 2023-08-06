@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cli-pdf-viewer
+Version: 0.0.1
+Summary: PDF Viewer
+Home-page: UNKNOWN
+Author: Tabacaru Eric
+Author-email: erick.8bld@gmail.com
+License: UNKNOWN
+Description: # Python PDF reader tool
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

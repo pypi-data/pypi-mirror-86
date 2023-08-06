@@ -1,0 +1,11 @@
+README.md
+setup.py
+C:/PROJECTS/pdf-viewer/src/pdfviewer.py
+cli_pdf_viewer.egg-info/PKG-INFO
+cli_pdf_viewer.egg-info/SOURCES.txt
+cli_pdf_viewer.egg-info/dependency_links.txt
+cli_pdf_viewer.egg-info/entry_points.txt
+cli_pdf_viewer.egg-info/requires.txt
+cli_pdf_viewer.egg-info/top_level.txt
+src/__init__.py
+src/pdfviewer.py
