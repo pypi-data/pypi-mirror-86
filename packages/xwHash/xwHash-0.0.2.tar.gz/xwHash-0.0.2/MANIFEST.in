@@ -1,0 +1,3 @@
+include cmd.sh
+include test.py
+graft src
