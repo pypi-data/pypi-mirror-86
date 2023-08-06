@@ -1,0 +1,15 @@
+chaine/__init__.py,sha256=qgcJnpzsu6bZ2xGWorZjsl9ab7rn29yYqcBbfXarUrk,79
+chaine/core.py,sha256=29FnSA0R5GFTzAYvzK5RNADDOfccGTtSrtNg0nkeJZ0,1238
+chaine/crfsuite_api.pxd,sha256=i3B4JZ1up4MXCxF7s9zVyQkHxrsMaPfCgl7tYKZPy7w,1982
+chaine/data.py,sha256=N9bLsqK3aiZ5xpfehQnX_RKI5kEdTQSuKRRdMzxLNKg,3083
+chaine/model.pyx,sha256=nE0TLUO77yaewouxze9-CUdHbWkvQN3RBZ0WJXJVvWM,7432
+chaine/tagger_wrapper.hpp,sha256=kaPEceP5IFOyK7Xwm_WwRR1YfF2VUC2Hu3O80yOg1rs,768
+chaine/trainer_wrapper.cpp,sha256=cWch9SUpmvU6ob70witv9JGZBo3Ffk8FyYZmOSYfoyw,745
+chaine/trainer_wrapper.hpp,sha256=k0qxNF1Zc1jUWSl8jGsk6lEV87HvrcX368Ld0X2QpCU,573
+chaine/typing.py,sha256=hWkZNeMd2jVDvrxeqmZajwzQlCujuijDKGK_TToym0c,146
+chaine/utils.py,sha256=PXnSMZe_8W7HlWrGdZbN1WjvL3QZIbloy3GNTe1csZE,1343
+chaine/model.cpython-38-x86_64-linux-gnu.so,sha256=LID91C2hIWwAWmJVBMY1Z0MOPCKIZl8zShBWZ0s3fQM,2987016
+chaine/model.cpp,sha256=MuCHZidPXWoHN_PTsU7ZbSgkKGkYWPyejYVKbhpyHOo,474362
+chaine-0.1.0.dist-info/WHEEL,sha256=o9SwliY3iicpUQuRgEI9YiIY6plUpMhMPr8d_B29ofQ,102
+chaine-0.1.0.dist-info/METADATA,sha256=QA-pvyQXygkxEtWwS1cRNfXxLHEQ6SYYvVktXJf-ElM,1452
+chaine-0.1.0.dist-info/RECORD,,
