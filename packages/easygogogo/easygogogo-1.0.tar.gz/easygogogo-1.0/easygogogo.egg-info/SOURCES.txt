@@ -1,0 +1,6 @@
+easygogogo.py
+setup.py
+easygogogo.egg-info/PKG-INFO
+easygogogo.egg-info/SOURCES.txt
+easygogogo.egg-info/dependency_links.txt
+easygogogo.egg-info/top_level.txt
