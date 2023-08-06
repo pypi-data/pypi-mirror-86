@@ -1,0 +1,8 @@
+ufw_config/__init__.py,sha256=K7ubRmNI2qt3NzO9MvsaCPD9WNG2bXG1X2VweHTPS1w,71
+ufw_config/generator.py,sha256=skJmfYuPSOxIn-B8IQNmfe3MS2C68cnjUvZDj2K1_pw,285
+ufw_config/ufw.py,sha256=FWd-aq1TGzS-rPgWy_stgtkKU6Kn8dLaGsBR9CxBsXI,2402
+ufw_config-0.0.4.dist-info/entry_points.txt,sha256=k0wNAi5NY6iGgTiG3ENJMkOq7sdevP0sIJevZRKs1pg,50
+ufw_config-0.0.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+ufw_config-0.0.4.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+ufw_config-0.0.4.dist-info/METADATA,sha256=RPxQ9kI7NPWeLwEm_uK_94wa4V0FtiiUPy9Yq66SHEU,442
+ufw_config-0.0.4.dist-info/RECORD,,
