@@ -1,0 +1,12 @@
+pheidi/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pheidi/clean.py,sha256=p-SR0oW4Bk9O7gi3XWtMO11Zy8ozOuBlXQ6EAKu7_JM,121
+pheidi/pheidi.py,sha256=SKPC2nYVgKVuMq97QTYzjZSYHuQAse0M9aZbzntpRng,10478
+pheidi/test.py,sha256=0kdD2KT3877OCoMETLB1AKM4pno4sdVFT9JYVbX7ux0,352
+utils/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+utils/clean.py,sha256=p-SR0oW4Bk9O7gi3XWtMO11Zy8ozOuBlXQ6EAKu7_JM,121
+utils/test.py,sha256=0kdD2KT3877OCoMETLB1AKM4pno4sdVFT9JYVbX7ux0,352
+pheidi-0.0.3.dist-info/LICENSE,sha256=kFTjEFajceXPShbcjaXwanjW2NQTA6ZrHvlmzLeEDV4,1063
+pheidi-0.0.3.dist-info/METADATA,sha256=JWWpVONtBIjhQT8dQRdub45VX_OrlO_E3XymXybanhs,755
+pheidi-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pheidi-0.0.3.dist-info/top_level.txt,sha256=BXdhaaHBJTl5WDScj-NdcpdW6F1g7hNN3YP0CLPxk-0,6
+pheidi-0.0.3.dist-info/RECORD,,
