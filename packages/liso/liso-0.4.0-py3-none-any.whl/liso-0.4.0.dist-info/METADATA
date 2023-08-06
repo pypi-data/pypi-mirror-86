@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: liso
+Version: 0.4.0
+Summary: Python API for LInac Simulation and Optimization
+Home-page: https://github.com/zhujun98/liso
+Author: Jun Zhu
+Author-email: zhujun981661@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/zhujun98/liso
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: pandas (>=1.1)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: h5py (==2.10)
+Requires-Dist: matplotlib
+Requires-Dist: pydantic (>=1.7.2)
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+
+LISO is a Python API for optimization of acceleratorsin both simulations and experiments.
+
+
