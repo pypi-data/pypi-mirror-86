@@ -1,0 +1,15 @@
+smoldyn/simulation.py,sha256=GXCZo1iFqgN2xCVjGB5PST5TBGvRjwnsvnn78FRblF8,2269
+smoldyn/config.py,sha256=3W8uZLMobOKjzNhxA_rUW8BcyugYnvBUa3RBpQkoHfw,94
+smoldyn/__init__.py,sha256=lURC9ctKUzxKaT4l95mgsPYjCBSXTTb7dv0Wh1BTcnY,325
+smoldyn/types.py,sha256=Klkf938-YtHPH7zAMRHasR4vaXHXwYi02PgJSInhito,191
+smoldyn/utils.py,sha256=9hYujRrVzraCVMshpaQwgzzmFG2fbGWeRHZvGv1NJTA,303
+smoldyn/geometry.py,sha256=ZkDGMUFIMpm2tgfAASZ4zB4FEY3agSuR8w-dwDJZ7I8,18235
+smoldyn/_smoldyn.cpython-39-darwin.so,sha256=6kzrKJhdlAXvpBDFlnuFFrVRtZAWbyBeHJwHHLKBzSQ,1763296
+smoldyn/__main__.py,sha256=owo0nLdpqExGy3G6UTSm1AocEHbsn6oM5nTw_BLzx7k,523
+smoldyn/kinetics.py,sha256=W4NUXEGKmOdOAEYsKKLHIZbcFgPpDtp-G4jSuWJ76Mc,5155
+smoldyn/.dylibs/libjpeg.9.dylib,sha256=mFWaf24obIHJ89HdFbLX_RzJeSnTyFjNA5LtC9fM_pw,215056
+smoldyn/.dylibs/libtiff.5.dylib,sha256=MFyxmXv37q2XIgGkXLlRBePCvsf5s7LZn7-UJIL_p3Q,431544
+smoldyn-2.63a0.dev20201124.dist-info/RECORD,,
+smoldyn-2.63a0.dev20201124.dist-info/WHEEL,sha256=ApVJ0Or__00ifsNBy0EqcNHaQRyt3-PXzQydnHSyzF0,110
+smoldyn-2.63a0.dev20201124.dist-info/top_level.txt,sha256=2FmedD0M8FnH4zNLmZCw84tbGuurvZfurkH4l4zSybQ,8
+smoldyn-2.63a0.dev20201124.dist-info/METADATA,sha256=08MFK-hDsOcjq89rYUCNsLS8D5UGrTSLZVDaWMG_Qdo,1483
