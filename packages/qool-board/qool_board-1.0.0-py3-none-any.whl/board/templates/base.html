@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title></title>
+        <base href='{{url('/')}}' />
+        <script>
+            window.user = JSON.parse(`{{ user_json }}`);
+        </script>
+        <script type="module" src="static/main.js" crossorigin></script>
+        <style>
+            body{
+                background: #eee;
+                margin: 0;
+            }
+            #wrapper{
+                height: 100vh;
+                width: 100%;
+                box-sizing:border-box;
+                padding-left: 64px;
+                overflow: hidden;
+            }
+            #wrapper>.header{
+                position: absolute;
+                height: 100vh;
+                width: 64px;
+                top: 0;
+                box-sizing: border-box;
+                background: #333c5e;
+                padding: 20px;
+                left: 0;
+            }
+            .header label{
+                display: block;
+                position: relative;
+            }
+            .header input[type='checkbox'] {
+                display: none;
+            }
+            .header input[type='checkbox'] ~ form {
+                display: none;
+            }
+            .header input[type='checkbox']:checked ~ form {
+                display: block;
+                position: absolute;
+                left: 54px;
+                top: 0;
+                padding: 24px;
+                z-index: 10;
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 8px #0004;
+            }
+            #boards {
+                box-sizing: border-box;
+                padding: 24px;
+                height: 100vh;
+                width: 100%;
+                overflow-y: hidden;
+                overflow-x: scroll;
+                display: flex;
+            }
+            .plus{
+                display: block;
+                height: 24px;
+                width: 24px;
+                position: relative;
+            }
+            .plus::before, .plus::after{
+                content: '';
+                display: block;
+                position: absolute;
+                background: #fff;
+                top: 11px;
+                height: 2px;
+                width: 24px;
+                left: 0;
+            }
+            .plus::before{
+                transform-origin: center center;
+                transform: rotate(90deg);
+            }
+        </style>
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

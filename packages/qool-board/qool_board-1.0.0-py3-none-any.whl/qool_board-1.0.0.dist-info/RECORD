@@ -1,0 +1,15 @@
+board/__init__.py,sha256=uw72eSC0VbAQTCKBMQOv32128Pny-hnB4aywoCNXcOU,97
+board/controller.py,sha256=3JcNe5YHPCkbVzWp4XBsuinqBlPbisEEreZdNl-Cm3s,3799
+board/main.py,sha256=sddIqtAdkC1e-pQx-Npt8YAxqmUEFuwFE8Uc6xo2Mt0,1254
+board/model.py,sha256=ecZAUfilboXYuSIE_bYkX2Nv1WOk_3jxYz9eb7373l4,2540
+board/static/main.js,sha256=8YQtTTr-YurNtfNkKECXOicGJvMj3QZjAxniWCDFGS4,468075
+board/static/spritesheet.svg,sha256=xIiW6hrNnHwy4leU1zKq6rUew5_UxdmPDco8pdu66HI,1457
+board/static/vertical-logo.svg,sha256=1KwlrBeHHawJWYW5-4QY3oXJSIeuwzxr3fvBVkJoI58,9345
+board/templates/base.html,sha256=dmIaq9IplRkKT3vxGaqwow-BsgMiOYYMGh7jYmqrtP8,2534
+board/templates/index.html,sha256=IsBpExQfpzlapfXl-XmiWl6d34cvr7lx9MzIBrQ5rpQ,88
+board/templates/welcome.html,sha256=-80NTPt1f1yf9E515nDRZYtH1sPwO5upx7NothEnAsw,1926
+qool_board-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+qool_board-1.0.0.dist-info/METADATA,sha256=kwEPDf3_UdRS871Hn8mQSNiw7vkOFsNyUb68EcRbTTY,247
+qool_board-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+qool_board-1.0.0.dist-info/top_level.txt,sha256=GSTtyc5utusIgYbmtVKbE5xIXVE50aMSL5xtG0L4zlk,6
+qool_board-1.0.0.dist-info/RECORD,,
