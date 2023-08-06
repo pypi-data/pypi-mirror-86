@@ -1,0 +1,7 @@
+README.md
+setup.py
+intelligames/__init__.py
+intelligames.egg-info/PKG-INFO
+intelligames.egg-info/SOURCES.txt
+intelligames.egg-info/dependency_links.txt
+intelligames.egg-info/top_level.txt
