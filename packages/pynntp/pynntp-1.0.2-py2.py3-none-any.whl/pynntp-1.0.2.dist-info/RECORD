@@ -1,0 +1,13 @@
+nntp/__init__.py,sha256=W6Zs2705PWFEcnlX8iC6AyfWCbjRqYjuf2rXaCSFLEw,198
+nntp/date.py,sha256=IW5u2YtYF6RaFV0lG6WVtwnr70saPWUO_00GtyR7g0g,15469
+nntp/fifo.py,sha256=ayprewk3iUlVectqCabvJ4fKTpd2HcC0MVAbnp2Woo4,3633
+nntp/iodict.py,sha256=XHoYYmaf_QBbPFpy_NyoRb5EDPmHlpguEPoAEscKiTs,3453
+nntp/nntp.py,sha256=2rjmE-tM9wcFi3gXAOW-IPpvU4PPleqox2u0WTaFdag,53297
+nntp/polyfill.py,sha256=cRYGwY1vnn9IyEuImLO9Q4Q-gJdEhi5URg08LjQ83J4,398
+nntp/utils.py,sha256=r6lazpVQvjgwhymI_b2o-KQZ1BFvm1gh4xF1SYqAIDs,5697
+nntp/yenc.py,sha256=Z0nJ_YYnWuFd_8OmOR9ZzUrVLbHkHbjSG7Ltbn7kxNU,1786
+pynntp-1.0.2.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pynntp-1.0.2.dist-info/METADATA,sha256=5U-L0SLcOwQ37TmRNkLX0NO9kOQh9jafGAi7kWO5_Lk,1708
+pynntp-1.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pynntp-1.0.2.dist-info/top_level.txt,sha256=jlRzViIta1lHaBBdhIwRXmvj3x8zp04kfaJK3FNkGw0,5
+pynntp-1.0.2.dist-info/RECORD,,
