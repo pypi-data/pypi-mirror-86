@@ -1,0 +1,9 @@
+xtwine/__main__.py,sha256=t41UMnt9Y9TMULDotYoy1OuzfO_9UNQSI13x52GwRl0,1561
+xtwine/_version.py,sha256=yv5xjFj0hIGKFXU9DDHAxnjY4xdHsS1HH6-KiR6qc0s,80
+xtwine/algo.py,sha256=_NXlP46Zv-MUDSlqTvD2IXh4lB0UK8QOTdcNUC2wXIk,5692
+xtwine/twine.py,sha256=UigxzTWFm7ylzMY5V5LO6wClOmTZyx26DcsPXsBfUP8,2390
+xtwine-1.0.1.dist-info/METADATA,sha256=f3GgKVYezkIJ3cXDJLUMZeWn0FGHeJl2KCOx-Zj10t4,2906
+xtwine-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+xtwine-1.0.1.dist-info/entry_points.txt,sha256=8mqchGBaNygqIqtwo2nNAKRss_wlIb-8xk9d_eL-s5A,46
+xtwine-1.0.1.dist-info/top_level.txt,sha256=uLh2STOs4yP2b5Wfuji91UNoYWr9o1-guJH4_zyxU4E,7
+xtwine-1.0.1.dist-info/RECORD,,
