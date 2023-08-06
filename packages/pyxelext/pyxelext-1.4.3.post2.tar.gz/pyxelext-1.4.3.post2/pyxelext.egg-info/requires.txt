@@ -1,0 +1,4 @@
+pyxel>=1.4.3
+
+[physics]
+pymunk
