@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: sadice
+Version: 0.1.3
+Summary: Self-adjusting Dice Loss implementation
+Home-page: https://github.com/fursovia/self-adj-dice
+License: Apache-2.0
+Author: Ivan Fursov
+Author-email: fursovia@gmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: torch (>=1.0.0,<2.0.0)
+Project-URL: Repository, https://github.com/fursovia/self-adj-dice
+Description-Content-Type: text/markdown
+
+# Self-adjusting Dice Loss
+
+This is an unofficial PyTorch implementation of the 
+[Dice Loss for Data-imbalanced NLP Tasks](https://arxiv.org/abs/1911.02855) paper.
+
+## Usage
+
+Installation
+
+```bash
+pip install sadice
+```
+
+### Text classification example
+
+```python
+import torch
+from sadice import SelfAdjDiceLoss
+
+criterion = SelfAdjDiceLoss()
+# (batch_size, num_classes)
+logits = torch.rand(128, 10, requires_grad=True)
+targets = torch.randint(0, 10, size=(128, ))
+
+loss = criterion(logits, targets)
+loss.backward()
+```
+
+### NER example
+
+```python
+import torch
+from sadice import SelfAdjDiceLoss
+
+criterion = SelfAdjDiceLoss(reduction="none")
+# (batch_size, num_tokens, num_classes)
+logits = torch.rand(128, 40, 10, requires_grad=True)
+targets = torch.randint(0, 10, size=(128, 40))
+
+loss = criterion(logits.view(-1, 10), targets.view(-1))
+loss = loss.reshape(-1, 40).mean(-1).mean()
+loss.backward()
+```
