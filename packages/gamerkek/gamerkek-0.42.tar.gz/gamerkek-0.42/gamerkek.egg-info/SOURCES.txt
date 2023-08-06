@@ -1,0 +1,10 @@
+README.md
+setup.py
+gamerkek/__init__.py
+gamerkek/consolegame.py
+gamerkek/mobilegame.py
+gamerkek/pcgame.py
+gamerkek.egg-info/PKG-INFO
+gamerkek.egg-info/SOURCES.txt
+gamerkek.egg-info/dependency_links.txt
+gamerkek.egg-info/top_level.txt
