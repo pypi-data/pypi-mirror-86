@@ -1,0 +1,3 @@
+[console_scripts]
+oda-doc = odadoc.index:cli
+

@@ -1,0 +1,12 @@
+COPYING
+README.md
+setup.cfg
+setup.py
+oda_doc.egg-info/PKG-INFO
+oda_doc.egg-info/SOURCES.txt
+oda_doc.egg-info/dependency_links.txt
+oda_doc.egg-info/entry_points.txt
+oda_doc.egg-info/requires.txt
+oda_doc.egg-info/top_level.txt
+odadoc/__init__.py
+odadoc/index.py
