@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/mechanicus/__init__.py
+src/mechanicus/downloader.py
+src/mechanicus.egg-info/PKG-INFO
+src/mechanicus.egg-info/SOURCES.txt
+src/mechanicus.egg-info/dependency_links.txt
+src/mechanicus.egg-info/not-zip-safe
+src/mechanicus.egg-info/requires.txt
+src/mechanicus.egg-info/top_level.txt
+src/mechanicus/core/__init__.py
+src/mechanicus/core/executor.py
+test/test_downloader.py
+test/test_executor.py
