@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: anyfile
+Version: 0.0.1
+Summary: Load (almost) any structured file parse its data with pydantic
+Home-page: https://github.com/samuelcolvin/anyfile
+Author: Samuel Colvin
+Author-email: s@muelcolvin.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: all
+
+# anyfile
+
+[![CI](https://github.com/samuelcolvin/anyfile/workflows/ci/badge.svg?event=push)](https://github.com/samuelcolvin/anyfile/actions?query=event%3Apush+branch%3Amaster+workflow%3Aci)
+[![Coverage](https://codecov.io/gh/samuelcolvin/anyfile/branch/master/graph/badge.svg)](https://codecov.io/gh/samuelcolvin/anyfile)
+[![pypi](https://img.shields.io/pypi/v/anyfile.svg)](https://pypi.python.org/pypi/anyfile)
+[![versions](https://img.shields.io/pypi/pyversions/anyfile.svg)](https://github.com/samuelcolvin/anyfile)
+[![license](https://img.shields.io/github/license/samuelcolvin/anyfile.svg)](https://github.com/samuelcolvin/anyfile/blob/master/LICENSE)
+
+**Work in progress, not ready for general use.**
+
+Load (almost) any structured file, then parse its data with pydantic
+
+Will supports:
+* JSON
+* CSV
+* YAML
+* TOML
+* JSON lines
+* config / ini
+* msgpack
+* Excel
+* pickle
+* zip
+* tar gz
+
+Perhaps one day:
+* HTML
+* HDF5
+* parquet
+* SQL
+
+Data can be loaded from the local filesystem, URLs or memory (bytes, string, io).
+
+
+
+
+
