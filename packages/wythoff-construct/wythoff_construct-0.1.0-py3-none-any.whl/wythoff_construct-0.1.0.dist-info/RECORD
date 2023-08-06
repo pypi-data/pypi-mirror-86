@@ -1,0 +1,14 @@
+wythoff_construct/__init__.py,sha256=Zmc3jI60JDiuxzzhobw6nKkoLfi6Syjk7Z-SMO6hLlI,171
+wythoff_construct/config.py,sha256=Lp1dTFJx31_PFLntGwA6zu3h5FYm2BXIDrZc2m2yVpY,1117
+wythoff_construct/coxeter.py,sha256=0ZnvxqAx0AmJSG2dKppJ8we4oeSNXOsfNSEKosDmG-0,1777
+wythoff_construct/groupGen.py,sha256=ZeTq4ABDGE5qUpXPwXR7hdTByisLkiQS5d54VqlP3mU,9258
+wythoff_construct/helpers.py,sha256=HdW0j_SbWCyloB3gIhQYAGS41adhYZ0JbC8Ys4PoQvQ,6448
+wythoff_construct/ui.py,sha256=4ZIP99Enj5JJU3BoA4XDFtGqcniXaicfunlSlsUWtCQ,7636
+wythoff_construct/uiElements.py,sha256=uWejdIdi5BJA1OOibcNlJ1ZIegjX9a8AY0v3XML2UpE,2502
+wythoff_construct-0.1.0.data/scripts/wythoff-construct,sha256=kB8zAvB62XDGazeQzldgavJjfs5CYQ4XjkIKbSBRVN0,86
+wythoff_construct-0.1.0.dist-info/LICENCE,sha256=PQ26oIz5SuWOaAz9Wqns4Jw_dsMn_-rxqCbelzCE6mA,1072
+wythoff_construct-0.1.0.dist-info/METADATA,sha256=IiVn24plluEc5X8Ia7seKbz1y8pHdIVME-AFjEqFgsM,638
+wythoff_construct-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wythoff_construct-0.1.0.dist-info/entry_points.txt,sha256=VjOxpyUNsgrLUEkuLClApwuwpv13q6tR2xyipcHcGpc,62
+wythoff_construct-0.1.0.dist-info/top_level.txt,sha256=1XLMzctU-kZrwMfVxyRbn6TMfIZ63ptWBwPH03fhKHw,18
+wythoff_construct-0.1.0.dist-info/RECORD,,
