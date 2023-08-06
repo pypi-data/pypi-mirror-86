@@ -1,0 +1,9 @@
+fastBloomFilter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastBloomFilter/bloom.py,sha256=ZhgWxh0pjnvzXGzg_5xqXg-TH8IdedTQiisRQR9KP3Y,15523
+fastBloomFilter/loadbloom.py,sha256=LfThSvq3pWpIq3eBdP16FVn2ubBVj-sOQ65nQuudlro,210
+fastBloomFilter/mkbloom.py,sha256=Fhegw1trG6p6-ISSzwN34WzBl-PWeJ5stxsfqLcLhNQ,313
+fastBloomFilter-0.0.8.dist-info/LICENSE,sha256=yjcqfZJWCx-p9tgytEDovNYtmt-ohwyYKH3qtm2YMQ4,35148
+fastBloomFilter-0.0.8.dist-info/METADATA,sha256=ecn4LOr-u89rQ8GrJ6TJUqITb7fJrbWYNPHtPwV9QXY,2900
+fastBloomFilter-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fastBloomFilter-0.0.8.dist-info/top_level.txt,sha256=oZjyJO057K17PG5rebvMqE9_ql4W12apMNybOps5DvY,16
+fastBloomFilter-0.0.8.dist-info/RECORD,,
