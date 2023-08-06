@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: DBSL.py
+Version: 0.0.6
+Summary: API wrapper for DBSL
+Home-page: https://github.com/wezacon/DBSL.py
+Author: Team Wezacon
+Author-email: wezacon.com@gmail.com
+License: MIT
+Download-URL: https://github.com/wezacon/DBSL.py/tarball/master
+Description: # DBSL.py
+        
+        A simple to use library for DBSL server listing.
+Keywords: DBSL,DBSL-py,wezacon,official
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
