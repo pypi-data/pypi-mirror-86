@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyopenweather/pyopenweather.egg-info/PKG-INFO
+pyopenweather/pyopenweather.egg-info/SOURCES.txt
+pyopenweather/pyopenweather.egg-info/dependency_links.txt
+pyopenweather/pyopenweather.egg-info/requires.txt
+pyopenweather/pyopenweather.egg-info/top_level.txt
