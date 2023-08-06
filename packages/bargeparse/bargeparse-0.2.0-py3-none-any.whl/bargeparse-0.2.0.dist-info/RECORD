@@ -1,0 +1,12 @@
+bargeparse/__init__.py,sha256=WPbMVHrBJCu2m_oglxroYhJ2QPES7eUgXUNkPtvWa18,52
+bargeparse/actions.py,sha256=BdfTSia8pXyGlXk1bixQbu3agqz5Y1j1KyuXZD51qDQ,2264
+bargeparse/cli.py,sha256=RGvqUqfWDBoLdsEQ7_tSUHoNIGTIBt8Vi3c06bvglnM,5234
+bargeparse/command.py,sha256=1-EzfwQ2Yd8azbvayBQD8WIcI67p3gbRk7h-V5nxWkE,474
+bargeparse/conftest.py,sha256=XWv79Gyl8bE1SRM-KZ7qDOBVcDBBxnhTFa8Gxlz2srA,103
+bargeparse/test_bargeparse.py,sha256=12dnA3lcsK_9gfkc5ISUL619tcfJ9zEVI00Ckkd6CKo,7339
+bargeparse/test_positional_only_parameters.py,sha256=0wihQPoICuhO6d3lQMVtiBmZ54ynOBQ_5HmNigmNKVk,1978
+bargeparse-0.2.0.dist-info/LICENSE,sha256=rK5Q48F5297pta_pWEX3lBcjQR-Y-UhNf9J2AGMkQQQ,1070
+bargeparse-0.2.0.dist-info/METADATA,sha256=yR6JBUHmIk3MeiSD0ezPcxpGovio6IjZIvOLu5fl_Gg,252
+bargeparse-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bargeparse-0.2.0.dist-info/top_level.txt,sha256=obJK6IFwlvoIZWR2FrIzq2CA9dudebezkI3VwssDZe8,11
+bargeparse-0.2.0.dist-info/RECORD,,
