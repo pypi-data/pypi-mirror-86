@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: clear_screen_CLS
+Version: 1.0.1
+Summary: Clear Screen for all OS's
+Home-page: https://github.com/don-batista/CLear_Screen
+Author: Samuel Batista
+Author-email: samuelbatistaprime@hotmail.com
+License: MIT
+Project-URL: Download, https://github.com/don-batista/CLear_Screen/blob/main/archive/1.0.1.zip
+Project-URL: Source Code, https://github.com/don-batista/CLear_Screen
+Description: Whenever you need to run a 'cls', a screen cleaning, just import this script and run it and that's it!Simple but very useful in all types of scripts. How to use: import cls;cls.cls()
+Keywords: Clear terminal screen,Clear screen,Clear screen python,CLS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics

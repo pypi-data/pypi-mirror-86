@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+clear_screen_CLS.egg-info/PKG-INFO
+clear_screen_CLS.egg-info/SOURCES.txt
+clear_screen_CLS.egg-info/dependency_links.txt
+clear_screen_CLS.egg-info/top_level.txt
+cls/__init__.py
+cls/cls.py
