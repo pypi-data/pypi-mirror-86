@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry-demo-lib"
+version = "0.1.0"
+description = "test poetry library publishing"
+authors = ["webee.yw <webee.yw@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipython = "^7.19.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipython = "^7.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
