@@ -1,0 +1,11 @@
+firefly_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firefly_cli/__main__.py,sha256=qTOSCNHrgxQ8SGYEVj12DBGgMv8IwYmcWDFD0Le1xF4,231
+firefly_cli/api_driver.py,sha256=9gAPIj4YkNSb_4lIv6fidS1teUfMR2c5oeGlkZDZlQ4,3841
+firefly_cli/cli.py,sha256=MMq0eu43mczWkWmu2Nz3eXbXWm1IV3dLubuautIx4wk,7139
+firefly_cli/configs_manager.py,sha256=uXjm8YoANpieWPxrwOm9otQFEX5xG_QFdvRpquBX5GQ,787
+firefly_cli-0.0.3.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+firefly_cli-0.0.3.dist-info/METADATA,sha256=LRrx0XDVHxqFc24TYR11t30u_PYjTcW47rwr2plnpkQ,5281
+firefly_cli-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+firefly_cli-0.0.3.dist-info/entry_points.txt,sha256=hn5luKYxOzMvegWL3uDTS_VmN-GAGTUoM8tr8TWlWto,59
+firefly_cli-0.0.3.dist-info/top_level.txt,sha256=QH7rdnivFQIP3jxoX3qja4uDA2HEMEQrEpmLNdW2L00,12
+firefly_cli-0.0.3.dist-info/RECORD,,
