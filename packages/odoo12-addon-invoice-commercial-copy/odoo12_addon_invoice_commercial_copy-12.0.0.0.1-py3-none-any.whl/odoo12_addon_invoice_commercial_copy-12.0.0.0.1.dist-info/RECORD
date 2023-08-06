@@ -1,0 +1,8 @@
+odoo/addons/invoice_commercial_copy/__init__.py,sha256=bQkNRiIHrpHzF-638gjXJb-rIrcikJixGxuUUPJk3ZU,30
+odoo/addons/invoice_commercial_copy/__manifest__.py,sha256=2co-re3Y65UnIF5mIXATmlH8YKqo8IKl9LITMJD2pME,361
+odoo/addons/invoice_commercial_copy/account_invoice.py,sha256=W9tIWOQKLN9b59xEBF9nvp16RYlcucGwEC7tU5w5wb8,145
+odoo/addons/invoice_commercial_copy/__pycache__/account_invoice.cpython-37.pyc,sha256=e_j85-KpDioJkbVuXQzmN05Ma5XC8462IdKMQvsVCFw,445
+odoo12_addon_invoice_commercial_copy-12.0.0.0.1.dist-info/METADATA,sha256=4zv1WYXoOtqG2lCU88iBSQmRzQEw1DvVjYGJvL_B2YI,488
+odoo12_addon_invoice_commercial_copy-12.0.0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_invoice_commercial_copy-12.0.0.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_invoice_commercial_copy-12.0.0.0.1.dist-info/RECORD,,
