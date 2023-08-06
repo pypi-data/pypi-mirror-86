@@ -1,0 +1,10 @@
+pysha3==1.0.2
+eth-keys==0.3.3
+python-gnupg==0.4.6
+confini==0.2.7
+
+[eip712]
+eip712-structs==1.1.0
+
+[hoba]
+http-hoba-auth==0.2.0
