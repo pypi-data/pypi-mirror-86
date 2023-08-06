@@ -1,0 +1,1 @@
+simple_camera/mesh_core_cython.cpython-38-x86_64-linux-gnu.so
