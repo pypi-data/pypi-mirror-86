@@ -1,0 +1,15 @@
+pyathenajdbc/AthenaJDBC42_2.0.14.jar,sha256=hhJ568kuf1GIXE5UHt0ZOPp1LtMpQuF7ZbvZT45fjiw,9956424
+pyathenajdbc/__init__.py,sha256=P6CuMoO16fRHQ3ntf9_UYBLctMxP8_NplrdCr9oFV40,1859
+pyathenajdbc/connection.py,sha256=OY5yJhLuZIpSLRntpqYSF5P8fMEucJo0mjfEOnzZdHI,5600
+pyathenajdbc/converter.py,sha256=dU5FYKQY-p-z4r_97nWVso7S3zq1J-4ZZkjeQoIftpw,4959
+pyathenajdbc/cursor.py,sha256=-9OyBN1V8hRvHl-mCbZ-L9o7yRR2Ut_FFHZhEcf88T0,6088
+pyathenajdbc/error.py,sha256=eeTohQe7XITj1XpOeWHQ7-IcNbmhKLhh0Rm2wBLkZtg,718
+pyathenajdbc/formatter.py,sha256=VwSj0nYbyhzWVMEiNuRrbh-Gfl9vKDphuLfZDaOdsVc,3796
+pyathenajdbc/log4j.properties,sha256=vgUHv_EaVHLj0jVycvnjc8efN7XHEJg925VOUprnY0g,105
+pyathenajdbc/sqlalchemy_athena.py,sha256=s7ejG8WV_MSjNeYPKsc4cDgGN8-8xohRNi4s3jF0R8I,12850
+pyathenajdbc/util.py,sha256=-515_Jh2N0UeqgKMJZDYPcA1Y2qo1jfz9tnUvmsU8sE,916
+pyathenajdbc-2.1.1.dist-info/entry_points.txt,sha256=C9b4XZkC2TZYv7I0I-XHz-SS1LYeXbycJrkMIBKnW6E,83
+pyathenajdbc-2.1.1.dist-info/LICENSE,sha256=GFi_mA0TQn2GD7XINe19rpvofw4KNpslV21L6xi0u1Y,1055
+pyathenajdbc-2.1.1.dist-info/WHEEL,sha256=2SyTS6-hWVbCVhxpPo1j5f9gwaWw-hVIJs0s_cC8MXM,87
+pyathenajdbc-2.1.1.dist-info/METADATA,sha256=-EYFeBYyAU5mh6MkjDfPhtuAKjiq_ya6OtYMCuhMukU,16026
+pyathenajdbc-2.1.1.dist-info/RECORD,,
