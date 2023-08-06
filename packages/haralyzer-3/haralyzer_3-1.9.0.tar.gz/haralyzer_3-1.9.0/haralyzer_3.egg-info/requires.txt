@@ -1,0 +1,6 @@
+cached-property
+python-dateutil
+six>=1.13.0
+
+[request]
+requests==2.25.0
