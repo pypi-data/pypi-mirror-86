@@ -1,0 +1,9 @@
+ankylosaurus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ankylosaurus/database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ankylosaurus/database/models.py,sha256=4lhr91CGHQJCSJEs2za5odt4JqJc1N44cBgjJtLIZTY,1549
+ankylosaurus/database/wrapper.py,sha256=KkYzjxEYzO2HNProLlOWukBMkyZI-JH2DQ9oroU_gfc,1365
+ankylosaurus-0.7.dist-info/LICENSE,sha256=3UhTTTI9jQ4E020rZVNhKZhJF1sO97UFRgpsG9XkrgQ,1051
+ankylosaurus-0.7.dist-info/METADATA,sha256=TV_5E1CbwWFEdqVwySSoFJejUSSfi7fyqvjktJ6UZws,326
+ankylosaurus-0.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ankylosaurus-0.7.dist-info/top_level.txt,sha256=o4migQcNwQZ7Tm5UEcdjtW_Lh2jJJOw9R0ol2TiA9RU,13
+ankylosaurus-0.7.dist-info/RECORD,,
