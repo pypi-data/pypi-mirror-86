@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: GML-KIN
+Version: 0.0.1
+Summary: K Immediate Neighbours aka KIN is inspired by KNN (K Nearest Neighbors) and adjusted to graph-structured data.
+Home-page: https://github.com/PinaxX/KIN
+Author: Pedram Dadkhah
+Author-email: Pedram.Dadkhah1374@gmail.com
+License: UNKNOWN
+Description: TBD.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
