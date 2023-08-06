@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Tasksched">
+    <meta name="url" content="https://github.com/tasksched/tasksched">
+    <meta name="description" content="Tasks scheduled for project {{ project.name }}">
+    <meta name="keywords" content="tasksched, task, scheduler, automatic, resource, leveling">
+    <meta name="robots" content="all">
+    <!-- <link rel="shortcut icon" type="image/png" href="/media/images/favicon.png"> -->
+    <!-- <link rel="stylesheet" href="/media/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="/media/css/style.css" media="screen" title="Normal"> -->
+    <title>{{ project.name }} - Tasksched</title>
+    <style>
+:root {
+  --task-color-1: #0074d9;
+  --task-color-2: #ffdc00;
+  --task-color-3: #ff4136;
+  --task-color-4: #3d9970;
+  --task-color-5: #f012be;
+  --task-color-6: #7fdbff;
+  --task-color-7: #2ecc40;
+  --task-color-8: #ff851b;
+  --task-color-9: #b10dc9;
+  --task-color-10: #aaaaaa;
+}
+{{ css }}
+    </style>
+  </head>
+
+  <body>
+    <h1>{{ project.name }}</h1>
+
+    <div class="info">
+      <div class="project">
+        <table>
+          <tr>
+            <th>Start:</th>
+            <td>{{ project.start }}</td>
+          </tr>
+          <tr>
+            <th>End:</th>
+            <td>{{ project.end }}</td>
+          </tr>
+          <tr>
+            <th>Duration:</th>
+            <td>{{ project.duration }} days</td>
+          </tr>
+          <tr>
+            <th>Holidays:</th>
+            <td>{{ project.holidays_iso }}{% if project.holidays %}: {{ project.holidays|join(', ') }}{% endif %}</td>
+          </tr>
+          <tr>
+            <th>Resources use:</th>
+            <td>{{ "%.2f" % project.resources_use }}%</td>
+          </tr>
+        </table>
+      </div>
+      <div class="column">
+        {% for task in tasks %}
+        {{ task["id"] }}<br>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="plan">
+
+      <div></div>
+      {% for month, num_days in view_months %}
+      <div class="item-month month{{ loop.index }}">{{ month }}</div>
+      {% endfor %}
+
+      <div class="item-title">Resources</div>
+      {% for date, business_day in view_days.items() %}
+      <div class="item-day-number{% if not view_days[date] %} item-day-number-holiday{% endif %}">{{ date.day }}</div>
+      {% endfor %}
+
+      {% for resource in resources %}
+      <div class="item-resource">{{ resource.name }}</div>
+      {% for date, value in resource.view_assigned.items() %}
+      <div class="item-day"><div class="square {{ value.0 }}{% if not view_days[date] %} item-day-holiday{% endif %}" title="{{ value.1|e }}">&nbsp;</div></div>
+      {% endfor %}
+      {% endfor %}
+
+    </div>
+
+  </body>
+
+</html>

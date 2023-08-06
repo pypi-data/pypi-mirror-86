@@ -1,0 +1,135 @@
+body {
+  background: #2a2a2a;
+  color: #d2d2d2;
+  font-family: sans-serif;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project table th {
+  text-align: left;
+  padding-right: 2em;
+}
+
+.plan {
+  display: grid;
+  grid-template-columns: 10em repeat(var(--plan-days), 2.2em);
+  grid-template-rows: 1.7em 1.7em repeat(var(--plan-resources), 2.2em);
+  margin-top: 2em;
+  align-items: center;
+  font-size: .9em;
+}
+
+.item-title {
+  background: #3a3a3a;
+  border-right: 1px solid #000;
+  line-height: 1.7em;
+  padding-left: .3em;
+}
+
+.item-month {
+  background: #3a3a3a;
+//  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+.item-day-number {
+  background: #3a3a3a;
+//  border-top: 1px solid #000;
+//  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+.item-day-number-holiday {
+//  background: #2a2a2a;
+//  color: #777;
+  opacity: 0.6;
+}
+
+.item-resource {
+  line-height: 2.2em;
+  padding-left: .3em;
+}
+
+.item-day {
+  line-height: 2.2em;
+  text-align: center;
+}
+
+.item-day-holiday {
+  //  background-image: repeating-linear-gradient(-45deg, transparent, transparent 20px, #444 20px, #444 40px);
+  //background-image: repeating-linear-gradient(90deg, #444, #444 2px, transparent 2px, transparent 16px);
+  opacity: 0.8;
+}
+
+.square {
+//  padding: 2px;
+//  margin: 2px;
+//  border: 1px solid yellow;
+}
+
+
+
+
+table.plan {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.plan th {
+  width: 10em;
+  height: 1.7em;
+  background: #444;
+  text-align: left;
+}
+
+table.plan th.month {
+  text-align: center;
+  font-size: .75em;
+  font-weight: normal;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+table.plan th.day {
+  width: 2.2em;
+  min-width: 2.2em;
+  text-align: center;
+  font-size: .75em;
+  font-weight: normal;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+table.plan td {
+  width: 10em;
+  text-align: center;
+  font-size: .8em;
+  text-align: left;
+  border: 1px solid #333;
+}
+
+table.plan td.day {
+  width: 2.2em;
+  min-width: 2.2em;
+}
+
+.use_perfect {
+  color: #040;
+}
+
+.use_good {
+  color: #930;
+}
+
+.use_bad {
+  color: #400;
+}
