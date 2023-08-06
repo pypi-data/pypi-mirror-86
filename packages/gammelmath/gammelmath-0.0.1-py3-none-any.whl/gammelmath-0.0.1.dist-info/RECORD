@@ -1,0 +1,14 @@
+expr_parser/__init__.py,sha256=SKT1evKLIrLmsUW49qfYjKLgv0cSKZ0_dx1qE2XroLA,397
+expr_parser/__main__.py,sha256=74S1Tsfdxk7WSWitWiK0OOWYKmvLdO1HOGJSi7ueGR4,777
+expr_parser/error.py,sha256=V3kFfYkkWvh7RhJhX8BSujvGSbVpYsTLR7Exeqrmdgc,98
+expr_parser/parser.py,sha256=GgkwJoio_KUn4U3MFv-FgCR9sw4WRqtO83yFLNYljLI,5684
+expr_parser/tree.py,sha256=dREOGuYRu7H5RkxVM310VEJnZTNcdTT5NETQkm6BmXI,5621
+expr_parser/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+expr_parser/operators/base.py,sha256=mozdyIYNf7AFXoG9UaT-xPME0OhOAe9vIcrFAJu5hyU,1004
+expr_parser/operators/default.py,sha256=WtkX6YLgjPD7BdUdZeAJrBwH45RJZWhahKIXU71EIgQ,1018
+expr_parser/operators/dice.py,sha256=9i6so1GcdbQJU573t2QNdtdrg2dHtFVVtjr89M-JC_4,344
+gammelmath-0.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+gammelmath-0.0.1.dist-info/METADATA,sha256=riPonEh2WIe663Veg03jhRGxwg0gS_5rEnX6ISrEXNo,2847
+gammelmath-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gammelmath-0.0.1.dist-info/top_level.txt,sha256=LsiPZsvYmR2LCg-rLc7drzXb0oVQjovTh30bRmOVP60,12
+gammelmath-0.0.1.dist-info/RECORD,,
