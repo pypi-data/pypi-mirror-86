@@ -1,0 +1,3 @@
+[console_scripts]
+deepac-vir = deepacvir.command_line:main
+

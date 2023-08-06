@@ -1,0 +1,12 @@
+deepacvir/__init__.py,sha256=fcgmgcNYk5BPRyw7cwIL6G3XQYwj9v7ny2EBxsAh6mk,75
+deepacvir/command_line.py,sha256=zuaimlxh5aDnbnkImujvlwYCrM9uqq1Z-9dldQp1lD0,1348
+deepacvir/builtin/config/nn-vhdb-rapid-cnn.ini,sha256=XXesbH2HihWbIfIlHi0Ttk_A-o9ux_d_uYoIZsEU1tw,4573
+deepacvir/builtin/config/nn-vhdb-sensitive-lstm.ini,sha256=6A7fKxxH49qYkPMl7asn2lsVGZRlNe-eqy2QNqrxEDk,4542
+deepacvir/builtin/weights/nn-vhdb-rapid-cnn.h5,sha256=WcxU6ud04dj7I6K_RKMHHT3j2ED_UfGPkS7BwqKumqQ,32414784
+deepacvir/builtin/weights/nn-vhdb-sensitive-lstm.h5,sha256=SI1MQuy6gvAs48FJKYdmYuo9hv346P_53UKhv_m1uOE,4820132
+deepacvir-0.2.2.dist-info/LICENSE,sha256=l3zjVrh95ij12XWUCRPR1hIO6pNKK3wb3wolKJWHSoc,1078
+deepacvir-0.2.2.dist-info/METADATA,sha256=0gPXDz-d_m1S65VkzpMMawjB67qb56D59CiyAGf7opk,5621
+deepacvir-0.2.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+deepacvir-0.2.2.dist-info/entry_points.txt,sha256=t9EgrqBFHWxJiNJqsVPz_5qngt99SyTT1bkUeoJTGYE,60
+deepacvir-0.2.2.dist-info/top_level.txt,sha256=DjDZ8lZ1rQULlVwEC2S5KnjoUQ6s3VkoOWkW6BuV8eo,10
+deepacvir-0.2.2.dist-info/RECORD,,
