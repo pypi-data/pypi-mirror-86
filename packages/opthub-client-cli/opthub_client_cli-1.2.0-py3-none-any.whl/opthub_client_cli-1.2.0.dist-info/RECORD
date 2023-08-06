@@ -1,0 +1,15 @@
+opthub_client_cli/__init__.py,sha256=1SpzoPTayg3vQL_OPZYlkVHrXq5Ml6W9F9JKlmLMV1E,1781
+opthub_client_cli/_util.py,sha256=IcSOjM67LHoSOjc_1rhShlsAbfQDNBjgycG6ZeRW-og,11666
+opthub_client_cli/create.py,sha256=IuDp3WDWKHIlgyOw3H1ozFrQYIScUT36WPCyqGB4p2s,7440
+opthub_client_cli/delete.py,sha256=dxqPJlPloPr_MLRHM8I-63X03OjRgdAvKRVtHH38hUs,3391
+opthub_client_cli/mode.py,sha256=_5FM-7kOXw9SaUsxvjzq1Q90JPVTxEBLRuyHIFPk5A4,1488
+opthub_client_cli/opt.py,sha256=ok-ANdkFes6zaG6y_S-epIYQvidMOSPJjS0rEZnYw7E,8619
+opthub_client_cli/read.py,sha256=kS_LcIZEho9-EfVrMlrC3ZAkn7tZr0hG82cxt7uM-pU,8389
+opthub_client_cli/update.py,sha256=3CnYZP2tk4opFTEp_6kQBqKYZ_FQPMONhZTH-83ogoQ,7567
+opthub_client_cli/util.py,sha256=TOZJeG4YEfQnchnPZmE6j1mjqpMcLOWXUGT8DA-mo7c,12575
+opthub_client_cli-1.2.0.dist-info/LICENSE,sha256=wPd9fQItPep6ZucT1OjdzI0MN8ulj0_4Hz5Pr7uin0k,1069
+opthub_client_cli-1.2.0.dist-info/METADATA,sha256=jV1BNjjMF0MUsgbwvywnHirtHWlAfNXpTrrS_yOL8OY,1561
+opthub_client_cli-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+opthub_client_cli-1.2.0.dist-info/entry_points.txt,sha256=qlnyAetsyHiNT8nuU8dmy4JcTYG16b0_8K74ooTSTUY,51
+opthub_client_cli-1.2.0.dist-info/top_level.txt,sha256=FWoxGoLjJxVT9hJYObeFuEEVi-i8cFVKRq6ciJYF9GA,18
+opthub_client_cli-1.2.0.dist-info/RECORD,,
