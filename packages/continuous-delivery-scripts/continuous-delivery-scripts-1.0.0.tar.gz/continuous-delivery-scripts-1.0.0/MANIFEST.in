@@ -1,0 +1,3 @@
+graft continuous-delivery-scripts
+global-exclude *.py[cod] __pycache__ *.so
+global-include *.spdx
