@@ -1,0 +1,4 @@
+aioconsole>=0.3.1
+aiohttp>=3.7.2
+uuid>=1.30
+websockets>=8.1
