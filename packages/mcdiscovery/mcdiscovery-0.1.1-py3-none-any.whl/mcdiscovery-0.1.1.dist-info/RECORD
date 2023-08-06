@@ -1,0 +1,10 @@
+mcdiscovery/__init__.py,sha256=mTxB5QisaSKiCOxHGYcK_-w8AZfTVbTAjaNV2pzGj-Q,64
+mcdiscovery/__main__.py,sha256=datw7rpip1aU4sx6q5U__W5cwi1RnKrhZUvSSULWd28,977
+mcdiscovery/metadata.py,sha256=bgfyJalcrgjXBDxo5k7ahzqtZaZ231wEqmLdnLT9pe8,873
+mcdiscovery/net.py,sha256=U7SvUWl7RxgOUXbxvUxhNZvjkf1y7a5jwR6337hiYC4,1983
+mcdiscovery/types/__init__.py,sha256=Z96vTsDQOMu0PhEbt56rYsoiGI1eorlI3Y1qXPwezSk,37
+mcdiscovery/types/local_server.py,sha256=EqKpDgAbMPKo3u2tLLoLCAuhbuPA_jchOXWKCDlrRa8,542
+mcdiscovery-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mcdiscovery-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mcdiscovery-0.1.1.dist-info/METADATA,sha256=HeJene-QiDkeMMyp9ip5JTOBWJLnJ85EWt0eAx3CzlQ,1592
+mcdiscovery-0.1.1.dist-info/RECORD,,
