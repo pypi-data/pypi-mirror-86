@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: simplelayout-tingsongpku
+Version: 1.0
+Summary: This is a simplelayout package
+Home-page: https://ssl.xxx.org/redmine/projects/RedisRun
+Author: tingsong
+Author-email: tingsong@pku.edu.cn
+License: GPLv3
+Description: UNKNOWN
+Keywords: simple layout
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)

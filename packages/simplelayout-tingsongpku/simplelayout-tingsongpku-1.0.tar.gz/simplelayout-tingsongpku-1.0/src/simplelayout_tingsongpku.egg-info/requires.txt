@@ -1,0 +1,5 @@
+setuptools>=16.0
+pytest
+numpy
+matplotlib
+scipy
