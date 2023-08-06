@@ -1,0 +1,17 @@
+pip-run.py,sha256=G2_aZj8t3N2bGccBBFpsK06YE8-0Q7X5NpL5wFaIwPQ,59
+pip_run/__init__.py,sha256=mD49XE-FUBle6QscTN_Gy4ichAvO_XNvNgS-B2-Ceec,478
+pip_run/__main__.py,sha256=UnuikmXsfmnr3ARjemCIlWnL6gybaH3-8Hw39T3mFKs,53
+pip_run/commands.py,sha256=3F5YlU3IOfozD5m7Nee38ree2KULC9T1rR4L3IYwu5w,1418
+pip_run/deps.py,sha256=2n6o_bWjQXfzLu1PjfeHsrYRq9GmR1ZkoJYK9vnlghI,1792
+pip_run/launch.py,sha256=HUwhKFR6SxtOpbQS43W1WxmDfKuRUErTkXr8ebxd7p0,2292
+pip_run/read-deps.py,sha256=Ghd64abLwj36epg5QneE3QqDyIWbgab2Fde3ZB7HA-w,373
+pip_run/scripts.py,sha256=rGPL6D3ih8f6jjYXKvKPdhYHvPoNBBnjYO3xVh_k0hc,3415
+pip_run/tests/test_deps.py,sha256=nafXVy4ap7Cx-4lpBywyBpK6fB1COktdBEPpQwiE7qU,1154
+pip_run/tests/test_launch.py,sha256=5Kpre2uEHOgKgNG33vIzJo0Ptg3YW_ST57PImTT2QxE,2462
+pip_run/tests/test_scripts.py,sha256=yLilmvkxA6vqufEWA4Kf0cQpOq6vSG0sNW5WxgdUCZ4,6005
+pip_run-8.2.1.dist-info/LICENSE,sha256=2z8CRrH5J48VhFuZ_sR4uLUG63ZIeZNyL4xuJUKF-vg,1050
+pip_run-8.2.1.dist-info/METADATA,sha256=snzrna2XBsmbY6B6rG5SDQ2Q2MZld7ILNaWWfS5V2iE,11714
+pip_run-8.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pip_run-8.2.1.dist-info/entry_points.txt,sha256=7nUCRPh8alvzFO7QM3nEAKuQ3D17Ywh0GOwgM_si8Cs,41
+pip_run-8.2.1.dist-info/top_level.txt,sha256=pKOMddnzYSbn1dMEuwXxrQ4CnDnmOUUUdJ6y_yK1Q7Q,16
+pip_run-8.2.1.dist-info/RECORD,,
