@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: fast-grab
+Version: 1.0.0a
+Summary: A very simple aria2c shortcut for fast downloads
+Home-page: https://github.com/spookyahell/fast-grab
+Author: That Dude You Don't Want In Your Home
+Author-email: vidner123@gmail.com
+License: MIT
+Download-URL: https://codeload.github.com/spookyahell/fast-grab/tar.gz/master
+Description: # fast-grab
+        
+        This is a super-simple shortcut for aria2c -x16 -s16 (speedy download mode)
+        
+        ## Usage
+        
+        fast-gab [args]
+Keywords: ARIA2C,SHORTCUT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
