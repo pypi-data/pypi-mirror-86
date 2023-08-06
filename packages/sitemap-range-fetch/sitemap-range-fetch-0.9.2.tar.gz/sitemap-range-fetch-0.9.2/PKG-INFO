@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sitemap-range-fetch
+Version: 0.9.2
+Summary: Sitemap scraper for news article selection within a certain time range
+Home-page: https://blog.garage-coding.com/
+Author: Stefan Corneliu Petrea
+Author-email: stefan@garage-coding.com
+License: UNKNOWN
+Description: About
+        =====
+        
+        This module provides the **SitemapRange** class and a tool to allow command-line usage **sitemap_fetch.py**.
+        
+        The class **SitemapRange** is meant primarily as a generic building block for creating news aggregating applications where the datasources are [spec-compliant](https://www.sitemaps.org/protocol.html) news websites.
+        
+        There are some fault-tolerance features included to deal with some inconsistencies in sitemaps.
+        
+        Install
+        =======
+        
+        To install from pypi:
+        
+            pip install --user sitemap-range-fetch
+        
+        Usage
+        =====
+        
+        Fetching all news articles on [cnn.com](http://cnn.com) in the past 6 days, and format the result as [JSON](https://en.wikipedia.org/wiki/JSON):
+        
+            sitemap_fetch.py --site "https://cnn.com" --format json --daysago 6
+        
+        More custom filtering can be done by using the class **SitemapRange**
+        
+        Details
+        =======
+        
+        This module is provided as is under [MIT License](https://opensource.org/licenses/MIT).
+        
+        For extensions, customizations or business inquiries you can [get in touch here](mailto:business@garage-coding.com).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
