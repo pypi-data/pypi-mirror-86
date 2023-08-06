@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: connected-conics
+Version: 0.0.1
+Summary: Functions for geometric analysis of connected conic sections
+Home-page: https://github.com/eyespacelenses/connected-conics
+Author: Jake Brown
+Author-email: jake@eyespacelenses.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+Copyright 2020 Innovatus Technology Pty Ltd
+
+

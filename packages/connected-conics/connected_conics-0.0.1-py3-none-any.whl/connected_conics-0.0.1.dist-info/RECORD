@@ -1,0 +1,9 @@
+connected_conics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+connected_conics/conic.py,sha256=p0LgVOR94R2o1ttaFIdnPDfUXV7fPXeH5fua5Ac8X24,1394
+connected_conics/helpers.py,sha256=mC0_icaaRHHZDE6ybApnsxt5gKBpowBfGEGv3MwRyJE,3089
+connected_conics/surf.py,sha256=uxJ7e2B3dJhO8FwJJm6bRmHjiG7Kj31B4O2yLYE5RB0,607
+connected_conics-0.0.1.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+connected_conics-0.0.1.dist-info/METADATA,sha256=88Wo-womu-e4xAQk8lpmOpNGbwQkchIxp3_BriDApjA,540
+connected_conics-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+connected_conics-0.0.1.dist-info/top_level.txt,sha256=NmJsL4CDV8MzEpTggF94T4xSkpOanTsWZERwt8z6NJ0,17
+connected_conics-0.0.1.dist-info/RECORD,,
