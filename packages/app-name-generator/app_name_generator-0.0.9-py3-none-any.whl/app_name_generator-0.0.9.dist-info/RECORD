@@ -1,0 +1,11 @@
+app_name_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app_name_generator/__main__.py,sha256=rq3Rm3c5jV5-_UeebFge_XG45n8PQzjtk6o8F5lhML8,1503
+app_name_generator/availability.py,sha256=snKBh1ifdIvoVGS_ddWyXvG4SfPTBSow5OHGXfVOVUM,565
+app_name_generator/dictionary.py,sha256=kb7jQQO5Kw3Pf8Hl1tzuGsklF-fHLphtQd9hYEPe09A,2022053
+app_name_generator/generator.py,sha256=foelKARlY_IaDmxg2jg02LzxDijiafU2bVbK4ymCbGI,1140
+app_name_generator/nouns.py,sha256=iMsZ1aF4H11lbc19fRJAcddVxOcU1rKMgOjlrs6xzQY,1391
+app_name_generator-0.0.9.dist-info/METADATA,sha256=LgtIs6qOt9By65-tz8Q9QDsegQsjiU36eM1eEwt1gVk,1727
+app_name_generator-0.0.9.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+app_name_generator-0.0.9.dist-info/entry_points.txt,sha256=HA5qFvGGKTboOam4vsa8rbcyHxpjZn2VEjqUcejPWkc,62
+app_name_generator-0.0.9.dist-info/top_level.txt,sha256=3129pbqL4o3gkOWAhfmS1h_Gr8HGOi3zqWBdDEif7hA,19
+app_name_generator-0.0.9.dist-info/RECORD,,
