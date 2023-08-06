@@ -1,0 +1,120 @@
+body {
+     box-sizing: border-box;
+     font: 1.0em "Trebuchet MS", Verdana, Arial, sans-serif;
+     text-align: center;
+     background-color: #ededed;
+     height: 100vh;
+     margin: 0;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: center;
+     align-content: center;
+}
+ h1 {
+     font-size: 3.0em;
+     font-weight: bold;
+}
+ h2 {
+     margin-bottom: 0;
+}
+ label {
+     font-weight: bold;
+}
+ .button {
+     border-radius: 10px;
+     box-shadow: 2px 2px 3px #666;
+     font-size: 20px;
+     padding: 4px 7px;
+     outline: 0;
+     text-align: center;
+     margin: 7px;
+}
+ .buttonr:enabled {
+     border-color: red;
+}
+ .buttonb:enabled {
+     border-color: blue;
+}
+ .buttong:enabled {
+     border-color: green;
+}
+ .buttony:enabled {
+     border-color: orange;
+}
+ #recaptcha {
+     margin: 0 auto;
+}
+ .box {
+     border: 2px solid #ccc;
+     text-transform: uppercase;
+     border-radius: 10px;
+     box-shadow: 2px 2px 3px #666;
+     font-size: 20px;
+     padding: 4px 7px;
+     text-align: center;
+     margin: 2px;
+}
+ .box:focus {
+     border: 2px solid #f28c1f;
+     outline: 0;
+}
+ label {
+     font-size: 28px;
+     display: block;
+     padding: 10px;
+}
+ b {
+     display: inline-block;
+     padding: 20px 0 10px 0;
+}
+ #recaptcha {
+     justify-content: center;
+     display: flex;
+}
+ #buttons {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+}
+ #error-wrapper {
+     background: linear-gradient(to right, red, yellow);
+     padding: 3px;
+     margin: 35px;
+}
+ #error {
+     background: #ededed;
+     color: #222;
+     padding: 10px 15px;
+     font-weight: bold;
+     font-size: 20pt;
+}
+ noscript {
+     color: red;
+     font-weight: bold;
+     font-size: 18pt;
+}
+ img {
+     margin: 30px 0 -75px 0;
+}
+ a {
+     transition: all 0.2s linear;
+     display: inline;
+     text-decoration: none;
+     font-weight: 600;
+     padding-bottom: 5px;
+     color: black;
+     background: linear-gradient(90deg, rgba(240,96,96,1) 35%, rgba(255,255,255,0) 100%);
+     background-size: 0 2px;
+     background-repeat: no-repeat;
+     background-position: left 85%;
+     text-shadow: 0 0 0 #000;
+}
+ a:hover {
+     background-size: 100% 2px;
+     text-shadow: 0 2.5px 4px rgba(0, 0, 0, 0.5);
+}
