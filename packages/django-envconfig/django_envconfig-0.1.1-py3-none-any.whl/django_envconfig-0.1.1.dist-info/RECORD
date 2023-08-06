@@ -1,0 +1,11 @@
+envconfig/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+envconfig/dotenv.py,sha256=1GPEsFM51ZBHB6g0GCb5Dt-xpAhWEQgLaDf_2ynO0yA,1458
+envconfig/parser.py,sha256=nRLS14-M2Vy_l_amAKxKvogvYaEF9rfxC3G2lOQ64Kg,2224
+envconfig/setting_types.py,sha256=fSSSMJ8SLVzierJDk050V5D93xGU6tMhGOB3jXo2JXA,5516
+envconfig/settings.py,sha256=TAFffpw7tWw2N8iDshCNBLxH618lDpSCGtc0TcZMtMY,1732
+envconfig/utils.py,sha256=M6sE8d9VaoL9XZPedRkKFpVw1meTWFs5GLVb_wj5n-0,2940
+django_envconfig-0.1.1.dist-info/LICENSE,sha256=KTsvtv8J5Z7mVutlsH-QCB912HuiCUeyDAwg70Q8Bd4,1054
+django_envconfig-0.1.1.dist-info/METADATA,sha256=ux9CpammMT9PlQVXyU9kIqQkulP-z_9VZ-mF20k_H-0,3577
+django_envconfig-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_envconfig-0.1.1.dist-info/top_level.txt,sha256=0S82DvzIniOXYoDreaKzmp-Me1YKGf7qvmud_rcQnRE,10
+django_envconfig-0.1.1.dist-info/RECORD,,
