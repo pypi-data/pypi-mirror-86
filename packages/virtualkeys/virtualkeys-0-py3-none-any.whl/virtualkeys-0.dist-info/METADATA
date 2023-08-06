@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: virtualkeys
+Version: 0
+Summary: Cross-platform Win32 virtual-key codes
+Home-page: https://gist.github.com/biqqles/31d1611d23e76b0b7c59d203c0004798
+Author: biqqles
+Author-email: biqqles@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+This package defines Win32 virtual-key (VK) codes
+for use on other platforms. In addition to constants,
+the dictionaries `code_to_name` and `name_to_code`
+are provided for programmatic conversion.
+
