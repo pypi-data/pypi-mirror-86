@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: shape-detection-jdla
+Version: 0.0.1
+Summary: Shape detection using OpenCV
+Home-page: https://github.com/JosueDLA/ShapeDetection
+Author: Josué de León
+Author-email: josuedlavs@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.19.2)
+Requires-Dist: opencv-python (==4.4.0.44)
+
+
+# Color Thief
+
+A module for detecting shapes using OpenCV.
+
+Installation
+
+```bash
+pip install shape-detection-jdla
+```
+
+# Overview
+
+Square detection rules:
+
+- There must be four corners
+- All four lines must be the same length
+- All four corners must be 90°
+- Lines AB and CD must be horizontal lines
+- Lines AC and BC must be vertical lines
+- The contour must be concave
+
+# Example
+
+
+```python
+from shape_detection.square import Square
+import numpy as np
+
+try:
+    contour = np.array([[[368, 160]], [[391, 163]],
+                        [[384, 200]], [[361, 194]]])
+
+    square = Square.is_square(contour)
+
+    print(square)
+
+except Exception as e:
+    print(e)
+```
+
+# Links
+* [github](https://github.com/JosueDLA/ShapeDetection)
+
+
+

@@ -1,0 +1,13 @@
+shape_detection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shape_detection/shape.py,sha256=xnjDMMi5bsVMYyTheSkIueZy8wya7mmfEDPN1PiqfpU,1604
+shape_detection/square.py,sha256=ghEQc9lyzbXdPzMxIcbKDRECMbRdpnoc__LWMZPp3nk,7813
+shape_detection/triangle.py,sha256=ozI0h0uNJ1nsS8fnuD90xXz38REYG1xDX9rbg_ED32s,2538
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_shape.py,sha256=8CsfuQT5o9bulr9jg0v_ds2Q-8hqhldT5VxnUXKwgZI,1402
+test/test_square.py,sha256=gPE0OF-Vfzx8fqOGzcNi8TWMWxDidM-XKP_doc4g3kM,2888
+test/test_triangle.py,sha256=UAqoLeAPsbMzE3EAMkwY17AsCHcPpUXNfigx2Aeao7w,923
+shape_detection_jdla-0.0.1.dist-info/LICENSE,sha256=SWWpnxpdsqUaF9iW3ruAXCdsQ75eUl97m_Y-1TMqlzY,1091
+shape_detection_jdla-0.0.1.dist-info/METADATA,sha256=jBMSlF7GP77QAKdmSnrlsJe9Od6LGLCA45tPE4LL7iM,1266
+shape_detection_jdla-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+shape_detection_jdla-0.0.1.dist-info/top_level.txt,sha256=a2F4mYmIsrgz7I0edrexBOVucRjxAqa9WQPGuMeMW9M,21
+shape_detection_jdla-0.0.1.dist-info/RECORD,,
