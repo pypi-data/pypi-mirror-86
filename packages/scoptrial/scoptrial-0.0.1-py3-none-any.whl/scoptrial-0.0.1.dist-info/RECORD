@@ -1,0 +1,10 @@
+scoptrial/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+scoptrial/_nbdev.py,sha256=1ITOPqENy2TBZps3AxxIovUd9b9Ag0DL-2JcavINOTE,615
+scoptrial/core.py,sha256=nHJRmrNLZ-Mpi-4HwSpAeNEpac0AaSpQ6BcRUVEupaE,101
+scoptrial/scop.py,sha256=gQ01NSAqrFEtd9c6mzy6X28NX6YdGhLCPwOhiSk3yEU,25195
+scoptrial-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scoptrial-0.0.1.dist-info/METADATA,sha256=PCyUe8momAQh7hFUXK_JwpRpRNsV5J_RbdHIMypKTbA,942
+scoptrial-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scoptrial-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+scoptrial-0.0.1.dist-info/top_level.txt,sha256=Ou6vU4G5WOzlzATdeViqWvqLuokubhBI5bbCvBbXv8E,10
+scoptrial-0.0.1.dist-info/RECORD,,
