@@ -1,0 +1,3 @@
+[console_scripts]
+epd = piepd.epd:main
+
