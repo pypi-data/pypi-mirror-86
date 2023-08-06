@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>运行时插槽 | NoneBot</title>
+    <meta name="description" content="">
+    <link rel="icon" href="/logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-180x180.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#ea5252">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    <meta name="description" content="基于 酷Q 的 Python 异步 QQ 机器人框架">
+    <meta name="theme-color" content="#ea5252">
+    <meta name="application-name" content="NoneBot">
+    <meta name="apple-mobile-web-app-title" content="NoneBot">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/mstile-150x150.png">
+    <meta name="msapplication-TileColor" content="#ea5252">
+    <link rel="preload" href="/assets/css/0.styles.01d02d32.css" as="style"><link rel="preload" href="/assets/js/app.8d3625dd.js" as="script"><link rel="preload" href="/assets/js/2.1a59183a.js" as="script"><link rel="preload" href="/assets/js/6.9b196c0a.js" as="script"><link rel="preload" href="/assets/js/35.d88de6dc.js" as="script"><link rel="preload" href="/assets/js/5.1299c054.js" as="script"><link rel="prefetch" href="/assets/js/10.41f89dd3.js"><link rel="prefetch" href="/assets/js/11.4af81069.js"><link rel="prefetch" href="/assets/js/12.068d7e5e.js"><link rel="prefetch" href="/assets/js/13.3f32848d.js"><link rel="prefetch" href="/assets/js/14.17f9aa12.js"><link rel="prefetch" href="/assets/js/15.ca0effe8.js"><link rel="prefetch" href="/assets/js/16.f2a78eaa.js"><link rel="prefetch" href="/assets/js/17.6e4b53cc.js"><link rel="prefetch" href="/assets/js/18.409993d2.js"><link rel="prefetch" href="/assets/js/19.c2cff776.js"><link rel="prefetch" href="/assets/js/20.14a69764.js"><link rel="prefetch" href="/assets/js/21.7061203c.js"><link rel="prefetch" href="/assets/js/22.8c456c61.js"><link rel="prefetch" href="/assets/js/23.c1f032a3.js"><link rel="prefetch" href="/assets/js/24.1bec3016.js"><link rel="prefetch" href="/assets/js/25.f676453e.js"><link rel="prefetch" href="/assets/js/26.0d5cbaa1.js"><link rel="prefetch" href="/assets/js/27.0620b9b1.js"><link rel="prefetch" href="/assets/js/28.610ae5ee.js"><link rel="prefetch" href="/assets/js/29.689f1425.js"><link rel="prefetch" href="/assets/js/3.4bfdb268.js"><link rel="prefetch" href="/assets/js/30.77a52afe.js"><link rel="prefetch" href="/assets/js/31.e9f9bc40.js"><link rel="prefetch" href="/assets/js/32.47065d2b.js"><link rel="prefetch" href="/assets/js/33.882c69d0.js"><link rel="prefetch" href="/assets/js/34.24af286b.js"><link rel="prefetch" href="/assets/js/36.db71f5a0.js"><link rel="prefetch" href="/assets/js/37.081b20f9.js"><link rel="prefetch" href="/assets/js/38.ed19eca3.js"><link rel="prefetch" href="/assets/js/39.018ac36a.js"><link rel="prefetch" href="/assets/js/4.fefb5760.js"><link rel="prefetch" href="/assets/js/40.9590171c.js"><link rel="prefetch" href="/assets/js/41.b67a2923.js"><link rel="prefetch" href="/assets/js/42.0564389c.js"><link rel="prefetch" href="/assets/js/43.a1c93858.js"><link rel="prefetch" href="/assets/js/44.b3c56ccf.js"><link rel="prefetch" href="/assets/js/45.15a2030e.js"><link rel="prefetch" href="/assets/js/46.b83e6bc5.js"><link rel="prefetch" href="/assets/js/47.c1fd1dbf.js"><link rel="prefetch" href="/assets/js/48.b5afed10.js"><link rel="prefetch" href="/assets/js/49.859d5923.js"><link rel="prefetch" href="/assets/js/50.4aa6d10b.js"><link rel="prefetch" href="/assets/js/51.7bd2bfd6.js"><link rel="prefetch" href="/assets/js/52.ffb46597.js"><link rel="prefetch" href="/assets/js/53.c178ea0c.js"><link rel="prefetch" href="/assets/js/54.ec271ae4.js"><link rel="prefetch" href="/assets/js/55.a0e76e25.js"><link rel="prefetch" href="/assets/js/56.b96e8313.js"><link rel="prefetch" href="/assets/js/57.518fc23c.js"><link rel="prefetch" href="/assets/js/58.75a46aef.js"><link rel="prefetch" href="/assets/js/59.d592c935.js"><link rel="prefetch" href="/assets/js/60.f768ea29.js"><link rel="prefetch" href="/assets/js/61.540ac807.js"><link rel="prefetch" href="/assets/js/62.8c6381a8.js"><link rel="prefetch" href="/assets/js/63.8d5d5090.js"><link rel="prefetch" href="/assets/js/64.e7d9ef20.js"><link rel="prefetch" href="/assets/js/65.959244b0.js"><link rel="prefetch" href="/assets/js/66.8ec657d0.js"><link rel="prefetch" href="/assets/js/67.523c436f.js"><link rel="prefetch" href="/assets/js/68.8e4e5378.js"><link rel="prefetch" href="/assets/js/69.e23e33ed.js"><link rel="prefetch" href="/assets/js/7.7714163a.js"><link rel="prefetch" href="/assets/js/70.82be60ab.js"><link rel="prefetch" href="/assets/js/71.9e525814.js"><link rel="prefetch" href="/assets/js/72.7025bd53.js"><link rel="prefetch" href="/assets/js/73.1c7c6287.js"><link rel="prefetch" href="/assets/js/74.17a1eccc.js"><link rel="prefetch" href="/assets/js/75.b4e4e720.js"><link rel="prefetch" href="/assets/js/76.b944c7cc.js"><link rel="prefetch" href="/assets/js/77.23b62736.js"><link rel="prefetch" href="/assets/js/78.89d0baaf.js"><link rel="prefetch" href="/assets/js/79.cab7a1cc.js"><link rel="prefetch" href="/assets/js/8.00df56a7.js"><link rel="prefetch" href="/assets/js/80.3cabcb28.js"><link rel="prefetch" href="/assets/js/81.5ea11217.js"><link rel="prefetch" href="/assets/js/82.11c6c075.js"><link rel="prefetch" href="/assets/js/83.95a07895.js"><link rel="prefetch" href="/assets/js/84.6ac0955b.js"><link rel="prefetch" href="/assets/js/85.9f554e79.js"><link rel="prefetch" href="/assets/js/86.4a8cc6f4.js"><link rel="prefetch" href="/assets/js/87.7ca6b686.js"><link rel="prefetch" href="/assets/js/88.6b83c766.js"><link rel="prefetch" href="/assets/js/89.33970a91.js"><link rel="prefetch" href="/assets/js/9.a0bb1d9b.js"><link rel="prefetch" href="/assets/js/90.78215fd5.js"><link rel="prefetch" href="/assets/js/91.0a5747e4.js"><link rel="prefetch" href="/assets/js/92.e0d675e0.js"><link rel="prefetch" href="/assets/js/93.2eb269e4.js"><link rel="prefetch" href="/assets/js/94.52c96b1c.js"><link rel="prefetch" href="/assets/js/95.676ada40.js"><link rel="prefetch" href="/assets/js/96.805ce138.js"><link rel="prefetch" href="/assets/js/97.0aa1e952.js"><link rel="prefetch" href="/assets/js/98.f60a3202.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.01d02d32.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="main-docs-wrapper"><div class="main-content-wrapper"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="NoneBot" class="logo"> <span class="site-name can-hide">NoneBot</span></a> <div class="versions-dropdown can-hide"><div class="dropdown-wrapper"><button type="button" aria-label="2.0.0a6" class="dropdown-title"><span class="title">2.0.0a6</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/next/advanced/runtime-hook.html" class="nav-link">
+  master
+  <span class="sub-text">next</span></a></li><li class="dropdown-item"><!----> <a href="/advanced/runtime-hook.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  2.0.0a6
+  <span class="sub-text">current</span></a></li><li class="dropdown-item"><!----> <a href="/2.0.0a4/" class="nav-link">
+  2.0.0a4
+  <!----></a></li></ul></div></div> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+  <!----></a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+  <!----></a></div><div class="nav-item"><a href="/advanced/" class="nav-link">
+  进阶
+  <!----></a></div><div class="nav-item"><a href="/api/" class="nav-link">
+  API
+  <!----></a></div><div class="nav-item"><a href="/plugin-store.html" class="nav-link">
+  插件广场
+  <!----></a></div><div class="nav-item"><a href="/changelog.html" class="nav-link">
+  更新日志
+  <!----></a></div> <a href="https://github.com/nonebot/nonebot2" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div> <!----></header> <div class="sidebar-mask"></div> <aside class="sidebar"><div class="versions-dropdown can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="2.0.0a6" class="dropdown-title"><span class="title">2.0.0a6</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/next/advanced/runtime-hook.html" class="nav-link">
+  master
+  <span class="sub-text">next</span></a></li><li class="dropdown-item"><!----> <a href="/advanced/runtime-hook.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  2.0.0a6
+  <span class="sub-text">current</span></a></li><li class="dropdown-item"><!----> <a href="/2.0.0a4/" class="nav-link">
+  2.0.0a4
+  <!----></a></li></ul></div></div></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+  <!----></a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+  <!----></a></div><div class="nav-item"><a href="/advanced/" class="nav-link">
+  进阶
+  <!----></a></div><div class="nav-item"><a href="/api/" class="nav-link">
+  API
+  <!----></a></div><div class="nav-item"><a href="/plugin-store.html" class="nav-link">
+  插件广场
+  <!----></a></div><div class="nav-item"><a href="/changelog.html" class="nav-link">
+  更新日志
+  <!----></a></div> <a href="https://github.com/nonebot/nonebot2" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>进阶</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/advanced/" aria-current="page" class="sidebar-link">深入</a></li><li><a href="/advanced/scheduler.html" class="sidebar-link">定时任务</a></li><li><a href="/advanced/permission.html" class="sidebar-link">权限控制</a></li><li><a href="/advanced/runtime-hook.html" aria-current="page" class="active sidebar-link">运行时插槽</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="content content__default"><h1 id="运行时插槽"><a href="#运行时插槽" class="header-anchor">#</a> 运行时插槽</h1></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/nonebot/nonebot2/edit/dev/archive//2.0.0a6/advanced/runtime-hook.html" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2020/11/18 下午3:12:48</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/advanced/permission.html" class="prev">
+        权限控制
+      </a></span> <!----></p></div> </main> <!----></div></div> <!----></div><div class="global-ui"><!----><!----></div></div>
+    
+    <script src="/assets/js/app.8d3625dd.js" defer></script><script src="/assets/js/2.1a59183a.js" defer></script><script src="/assets/js/6.9b196c0a.js" defer></script><script src="/assets/js/35.d88de6dc.js" defer></script><script src="/assets/js/5.1299c054.js" defer></script>
+  </body>
+</html>
