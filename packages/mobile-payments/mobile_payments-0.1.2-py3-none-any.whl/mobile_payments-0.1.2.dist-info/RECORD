@@ -1,0 +1,8 @@
+mobile_payments/__init__.py,sha256=TWY2HHBr7soKzDojVTmRRRQj8LWtiK2CcaOJolf0kU0,23
+mobile_payments/constants.py,sha256=7uH_djHCV9WOcL4lqtwkaNO0-vc1WxbxU6lWM8ziQ7w,1706
+mobile_payments/open_api.py,sha256=KZDS_ka95OYZFT74g3kdkUtO3jwc3RmTylKqdO191XU,7141
+mobile_payments/vodacom.py,sha256=6LDJDAfW0pBNNRXmuyTe_fCwuWK33EZL1kkfTLhRRDs,9297
+mobile_payments-0.1.2.dist-info/LICENSE,sha256=JM1zL_Pu150i6U1sEWM9B1iKZl3I2NQodTuwhIq7olE,1092
+mobile_payments-0.1.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mobile_payments-0.1.2.dist-info/METADATA,sha256=7eFI-Dkfqs0gB76iBWqQOQzVn7X-gDIbQOxeQimTL7Q,4659
+mobile_payments-0.1.2.dist-info/RECORD,,
