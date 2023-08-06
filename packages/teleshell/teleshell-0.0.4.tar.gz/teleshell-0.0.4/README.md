@@ -1,0 +1,71 @@
+# teleshell
+Install:
+
+```
+pip install teleshell
+```
+
+Quick start:
+```python
+import teleshell
+from telethon import TelegramClient, Button
+
+
+users = []
+
+async def message_first(event):
+    users.append(event.chat_id)
+    return event.chat_id
+
+
+async def inline_first(event):
+    users.append(event.query.user_id)
+    return event.query.user_id
+
+client = TelegramClient('bot', api_id, 'api_hash').start(bot_token='token')
+shell = teleshell.ClientShell(client=client, message_first=message_first, inline_first=inline_first)
+handle = shell.handle
+inline = shell.inline
+button = shell.button
+
+
+@handle(command='start')
+async def func(event, first=None):
+    await event.reply('Started!')
+
+
+@handle(command='help', first=None)
+async def func(event, first=None):
+    await event.reply('Help!')
+
+
+@handle(text=r'he(l)+o', regular=True, lower=True)
+async def func(event, first=None):
+    await event.reply('Hello!')
+
+
+@handle(command='buttons')
+async def func(event, first=None):
+    keyboard = [
+        [
+            Button.inline("First option", b"1"),
+            Button.inline("Second option", b"2")
+        ]
+    ]
+
+    await event.reply('OK!', buttons=keyboard)
+
+
+@inline(command='smth', lower=True)
+async def func(event, first=None):
+    await client.send_message(event.query.user_id, 'Smth to!')
+
+
+@button(text=b'1')
+async def func(event, first=None):
+    await event.answer('hello')
+
+client.run_until_disconnected()
+```
+
+Version: 0.0.2
