@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyalgo-pkg
+Version: 0.0.3
+Summary: A package for basic algorithms
+Home-page: UNKNOWN
+Author: Gilad Dotan
+Author-email: gilad.dotann@egmail.com
+License: UNKNOWN
+Description: # pyalgo_pkg
+        
+        This is package is for basic algorithms in python.
+        
+        import as '[import pyalgo]()'
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.6
+Description-Content-Type: text/markdown
