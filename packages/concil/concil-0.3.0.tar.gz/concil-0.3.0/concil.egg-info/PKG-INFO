@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: concil
+Version: 0.3.0
+Summary: container manager
+Home-page: https://github.com/ruema/concil
+Author: ruema
+License: UNKNOWN
+Description: # concil
+        
+        concil is a simple container manager to run OCI-conform linux containers.
+        
+        It's aim is to run standalone applications in isolated environments in user space.
+        
+        Short comparision with Docker:
+        
+        |                      | Docker | Concil |
+        |----------------------|:------:|:------:|
+        |OCI-Repository        | ✓      | ✓      |
+        |Signature             | ✓      | ✓      |
+        |Encryption            | ✗      | ✓      |
+        |Rootless / Daemonless | ✗      | ✓      |
+        |Network isolation     | ✓      | ✗      |
+        |Complexity            | high   | low    |
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
