@@ -1,0 +1,9 @@
+setup.py
+django_objectid.egg-info/PKG-INFO
+django_objectid.egg-info/SOURCES.txt
+django_objectid.egg-info/dependency_links.txt
+django_objectid.egg-info/requires.txt
+django_objectid.egg-info/top_level.txt
+objectid/__init__.py
+objectid/models.py
+objectid/objectid.py
