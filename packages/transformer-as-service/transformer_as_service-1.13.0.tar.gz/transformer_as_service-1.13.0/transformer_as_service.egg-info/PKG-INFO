@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: transformer-as-service
+Version: 1.13.0
+Summary: Use your pretrained models as service
+Home-page: UNKNOWN
+Author: faith
+Author-email: xianzixiang@gmail.com
+License: MIT
+Description: <h1 align="center">transformer-as-service</h1>
+        
+        <p align="center">Using transformer pretrained model as a sentence encoding service, i.e. mapping a variable-length sentence to a fixed-length vector.</p>
+        
+        Change: remove bert dependency.
+        
+        Thanks for the idea from [bert-as-serivce](https://github.com/hanxiao/bert-as-service)
+Keywords: transformer pretrained model as service
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Provides-Extra: cpu
+Provides-Extra: gpu
+Provides-Extra: http
