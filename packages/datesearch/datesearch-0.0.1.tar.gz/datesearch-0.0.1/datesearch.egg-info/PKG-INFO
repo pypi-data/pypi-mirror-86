@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: datesearch
+Version: 0.0.1
+Summary: Поиск токенов, относящихся к датам, по регулярным выражениям
+Home-page: https://github.com/pomponchik/datesearch
+Author: Evgeniy Blinov
+Author-email: zheni-b@yandex.ru
+License: UNKNOWN
+Description: Библиотека написана в рамках хакатона школы 21 совместно с ленинской библиотекой
+        
+        Предназначена для матчинга извлеченных из произвольного текста токенов, относящихся к датам, с неким языком регулярных выражений.
+        
+        Пример:
+        
+        
+        ```python
+        from datesearch import search
+        
+        print(search("ночью, в двадцать минут третьего", 'ne'))
+        ```
+        
+        Вывод программы:
+        
+        ```
+        [Number(20), Period("m")]
+        ```
+        
+        По полученным спискам токенов гораздо проще уже находить нужные комбинации чисел, промежутков времени и прочих видов токенов.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
