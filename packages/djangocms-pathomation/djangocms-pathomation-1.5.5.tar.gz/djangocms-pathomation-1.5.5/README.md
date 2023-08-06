@@ -1,0 +1,64 @@
+
+
+
+
+djangocms-pathomation
+=========
+
+Add live slide viewing capabilities to your own website built on Django CMS
+
+
+
+HOW TO INSTALL
+---------
+
+> **Django CMS not installed yet?** Take a look at the official documentation: (https://docs.django-cms.org/en/release-3.4.x/introduction/install.html)
+
+
+1. Install our package
+
+    `pip install djangocms-pathomation`
+    
+
+2. Get the plugin code (this will create a folder "plugin" in the location where you are currently located with your terminal)
+
+    `pip install --no-deps djangocms-pathomation -t plugin`
+
+3. Go to your current location folder and open the folder "plugin". Inside, copy the folder "pathomation" into directory of your django-cms project where *settings.py* is also located.
+
+
+4. Open *settings.py* (*located inside the folder with the name of your website/project*) with an editor and add "pathomation" to INSTALLED_APPS
+
+    `INSTALLED_APPS = ['pathomation',]`
+
+5. Navigate `cd` with your terminal into your django-cms project where *manage.py* is located and run the following command:
+
+    `Python manage.py makemigrations`
+
+6. Finally, run the following command:
+
+   `Python manage.py migrate`
+   
+7. Done! You can start the server again with the following command:
+	`Python manage.py runserver`
+	
+	
+
+QUICK START
+---------
+
+1. Inside Django CMS, navigate to the admin page by adding `/admin` to the end of your site's URL
+
+	`www.example.com/admin/`
+
+2. Inside the Django administration, navigate to Pathomation -> Settings ->  *+add* -> My Pathomation connection settings and fill in your credentials and save.
+
+2. To make sure your credentials are correct: Test the connection, by clicking on the *Test connection* button.
+
+3. Go to a page where you want to create a new post, toggle the structure by clicking on the icon on the top right.
+
+4. Click on the "+" sign to add a new content and select *Pathomation slide*
+
+5. Select the slide that you want to display and click on *save*.
+
+6. To see the result, click on *publish page changes*
