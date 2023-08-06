@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "ddot"
+version = "0.1.0"
+description = "Dotfile manager using the Devinstaller framework"
+authors = ["Justine Kizhakkinedath <justine@kizhak.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://justine.kizhak.com/projects/ddot"
+repository = "https://gitlab.com/justinekizhak/ddot"
+keywords = [
+  ""
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.8",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.3.2"
+devinstaller-core = "^0.5.1"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.780"
+pytest = "^5.4.3"
+pytest-watch = "^4.2.0"
+pytest-cov = "^2.10.0"
+black = {version = "^19.10b0", allow-prereleases = true}
+pdbpp = "^0.10.2"
+pylint = "^2.5.3"
+flake8 = "^3.8.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+
+[tool.poetry.urls]
+"Bug Reports" = "https://gitlab.com/justinekizhak/ddot/issues"
+"Say Thanks!" = "https://saythanks.io/to/justine%40kizhak.com"
