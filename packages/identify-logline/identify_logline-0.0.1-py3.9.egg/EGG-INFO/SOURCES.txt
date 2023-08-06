@@ -1,0 +1,10 @@
+setup.py
+identify_logline/__init__.py
+identify_logline/identify.py
+identify_logline/schema.py
+identify_logline.egg-info/PKG-INFO
+identify_logline.egg-info/SOURCES.txt
+identify_logline.egg-info/dependency_links.txt
+identify_logline.egg-info/entry_points.txt
+identify_logline.egg-info/requires.txt
+identify_logline.egg-info/top_level.txt

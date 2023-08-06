@@ -1,0 +1,3 @@
+[console_scripts]
+identify_logline = identify_logline.identify:main
+
