@@ -1,0 +1,10 @@
+mqtt-bme680.py,sha256=hTnf1t8nIf3g_xGL283IbB9UQ35KCGwsq4oowY6shIc,21760
+vscp-bme680.py,sha256=8Ny6Ok0HQ7cpS_yrjxMaNP6brn5J4U8U2CTUwYgUxkA,15868
+pyvscp_sensors_bme680-1.0.0.data/data/pyvscp-sensors-bme680-sample-config/config.ini,sha256=k5GcLOP_CZgLScoI2YDQ4OZF826CLwjSo5xk9kFYG-0,2190
+pyvscp_sensors_bme680-1.0.0.data/scripts/mqtt-bme680.py,sha256=09SWZxlG2TWj4xBocRIAaw7v6H43j5MbfRBS_PZtCnE,21747
+pyvscp_sensors_bme680-1.0.0.data/scripts/vscp-bme680.py,sha256=ERYLIIX4iAzWi0ybi_YOtfOSGo6QUPYraqXTCGsgfyg,15855
+pyvscp_sensors_bme680-1.0.0.dist-info/LICENSE,sha256=qun5HcYsnrPSltrNO6eGUp6gLaro9-ZbvHsZ6JMmb7o,1068
+pyvscp_sensors_bme680-1.0.0.dist-info/METADATA,sha256=ZeutNdWw9-ARIRCRl8YaRo2-NaY8RwUiaCh120g7GOo,15384
+pyvscp_sensors_bme680-1.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pyvscp_sensors_bme680-1.0.0.dist-info/top_level.txt,sha256=MRnMNCVCgU9Xj6Sp5-ObbpoBv4bbrMqDJ6XiJL3Bt5c,12
+pyvscp_sensors_bme680-1.0.0.dist-info/RECORD,,
