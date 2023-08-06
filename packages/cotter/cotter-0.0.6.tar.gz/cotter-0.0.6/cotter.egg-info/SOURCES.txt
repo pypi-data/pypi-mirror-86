@@ -1,0 +1,12 @@
+README.md
+setup.py
+cotter/__init__.py
+cotter/constants.py
+cotter/errors.py
+cotter/tokenhandler.py
+cotter/validate.py
+cotter.egg-info/PKG-INFO
+cotter.egg-info/SOURCES.txt
+cotter.egg-info/dependency_links.txt
+cotter.egg-info/requires.txt
+cotter.egg-info/top_level.txt
