@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+ArriveTheSpaceship.egg-info/PKG-INFO
+ArriveTheSpaceship.egg-info/SOURCES.txt
+ArriveTheSpaceship.egg-info/dependency_links.txt
+ArriveTheSpaceship.egg-info/entry_points.txt
+ArriveTheSpaceship.egg-info/requires.txt
+ArriveTheSpaceship.egg-info/top_level.txt
+arrive_the_spaceship/__init__.py
+arrive_the_spaceship/__main__.py
