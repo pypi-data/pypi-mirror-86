@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fosvis
+Version: 0.0.6
+Summary: A tool for visualizing fosmid DNA sequences.
+Home-page: UNKNOWN
+Author: Tylo Roberts
+Author-email: tylojroberts@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: biopython
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+
+Project description...
+
+
