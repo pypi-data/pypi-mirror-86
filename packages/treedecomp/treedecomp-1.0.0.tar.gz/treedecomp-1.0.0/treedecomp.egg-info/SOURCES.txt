@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+treedecomp.py
+treedecomp.egg-info/PKG-INFO
+treedecomp.egg-info/SOURCES.txt
+treedecomp.egg-info/dependency_links.txt
+treedecomp.egg-info/top_level.txt
