@@ -1,0 +1,17 @@
+COPYING
+README.md
+setup.cfg
+setup.py
+facts/__init__.py
+facts/arxiv.py
+facts/atel.py
+facts/core.py
+facts/gcn.py
+facts/learn.py
+facts/tools.py
+literature_to_facts.egg-info/PKG-INFO
+literature_to_facts.egg-info/SOURCES.txt
+literature_to_facts.egg-info/dependency_links.txt
+literature_to_facts.egg-info/entry_points.txt
+literature_to_facts.egg-info/requires.txt
+literature_to_facts.egg-info/top_level.txt
