@@ -1,0 +1,13 @@
+colordetect/__init__.py,sha256=zePlbVflSkxJeq_Ao-u_mNbHnyC0OHFJgV2JHUO0grM,105
+colordetect/col_share.py,sha256=teSugbN7n0ZSTqoSNWp8o-Dn20cg56BRoF_TsfVFSy8,2122
+colordetect/color_detect.py,sha256=01dgNxToo_pmhF2XuhPOLiKGt9NHjXKIft5TOIuA_0M,6265
+colordetect/video_color_detect.py,sha256=1sLHzFgrvGKpRcC76RBe82pJnZA7-HBX_k8LEVKVeAw,3403
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=vhbCVVVPWFihrqI9YUBgqlAvtllxXhdRg0x1H5bVLng,1081
+tests/test_functional.py,sha256=eGQPE_kHjgOfQGXbr-bCUjVXJM2wPMPrui9BDRjyO-0,1603
+tests/test_unit.py,sha256=KHBK8aX6-9ebMLRaUrwqlI_P9jGME_gW9WDDJpZFESg,4679
+ColorDetect-1.0.1.dist-info/LICENSE,sha256=R6c6qTjGp5-rV5MgWFWZydomTjsce4X_79KylAM6inI,1068
+ColorDetect-1.0.1.dist-info/METADATA,sha256=He1ifcPFRjr_xw7HnIU5NJCh1rRyZryrq-JVThztw9M,2836
+ColorDetect-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ColorDetect-1.0.1.dist-info/top_level.txt,sha256=64z4R1goYkUCWtNe8SSm7PLBdtwTbl-qxNlf68oxrTg,18
+ColorDetect-1.0.1.dist-info/RECORD,,
