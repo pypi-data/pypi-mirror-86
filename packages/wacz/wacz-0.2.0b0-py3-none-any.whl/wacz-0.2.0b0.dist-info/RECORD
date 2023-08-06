@@ -1,0 +1,17 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_create_wacz.py,sha256=EGxJP5PKBhXafE9_igCrpkn9MXmmqroRJaEYJNyx6yo,5199
+tests/test_create_wacz_indexing.py,sha256=h3itad-uHOCMqMAbvu-O3TUQQWM860QvWq_BVCtgdOM,2445
+tests/test_validate_wacz.py,sha256=oNDO8zw4hOW1zDfPmYo7Zz0OqbzKGIudTE3-8M6m72s,3729
+tests/test_wacz.py,sha256=GMHOdWJgTonlTRC5lCAkeY0F53AQBUgNC9G249jbcx8,4255
+wacz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wacz/__main__.py,sha256=xJHSwzM6YyaSgou9uyV83nDrVrKU30t0W2lsYDdr4ZY,35
+wacz/main.py,sha256=z5_jqgbidgVQJrISmLjsyERfuB75NGZ6SHpZZKAVXQo,5274
+wacz/util.py,sha256=m1zTybQC8quuAJVK8TzCmdZql-UsSnovVlQEekLdf2g,247
+wacz/validate.py,sha256=dv0V1WtDMuRliyuxTdLvNChZqV_5n3ShqCxHuwtaulU,6158
+wacz/waczindexer.py,sha256=0uCd5bRpoPe1lQ-cduKYSELCsEUyRDTe9zBJaV5vCDA,10320
+wacz-0.2.0b0.dist-info/METADATA,sha256=CiGlnUuck-DTksQs78AazQLtKAi58Oge22izwwPZi0o,498
+wacz-0.2.0b0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wacz-0.2.0b0.dist-info/entry_points.txt,sha256=Mw137iAb07vyG_AgY1aTqjE-vPNFrxFn-jRLQrdCIiA,61
+wacz-0.2.0b0.dist-info/top_level.txt,sha256=k2aJVqnpMrB85f5B9eXLCRV8SV_Sm01VV54LLUDsKjQ,11
+wacz-0.2.0b0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wacz-0.2.0b0.dist-info/RECORD,,
