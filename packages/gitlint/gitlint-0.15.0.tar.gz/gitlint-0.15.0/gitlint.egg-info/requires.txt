@@ -1,0 +1,5 @@
+Click==7.1.2
+arrow==0.17.0
+
+[:sys_platform != "win32"]
+sh==1.14.1
