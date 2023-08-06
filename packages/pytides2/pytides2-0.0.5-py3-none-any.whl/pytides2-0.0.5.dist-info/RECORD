@@ -1,0 +1,9 @@
+pytides2/__init__.py,sha256=nz3OjdScQX_NX08DGxpnVe3PRS22sciCmPiDnXIGtlc,153
+pytides2/astro.py,sha256=84_p_IxH2TzcYjaI6-VBICD3jVv4MN4yCfwXYqODLJc,6244
+pytides2/constituent.py,sha256=1DphSHA1Quf7B-PnNoXKXN6Gt_L21fydjbcI19D5NJg,6650
+pytides2/nodal_corrections.py,sha256=Xsbl23vjmHW9tLIS0ibOvjb8_J1tE7g7sqskY6uuF5A,3849
+pytides2/tide.py,sha256=vdRMU0dLg8P3ADasKSAFx2Eyn8teCixsVl_r_mkYHts,17566
+pytides2-0.0.5.dist-info/COPYING,sha256=T1jB0AL35gKf9MqvARr3pu1Zjl2lLGXIHJysAZIrm7I,1095
+pytides2-0.0.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pytides2-0.0.5.dist-info/METADATA,sha256=VO55pfyYy00ed8KCCHo1qI5gT80HSuzUUtSMQPzUN7Q,3911
+pytides2-0.0.5.dist-info/RECORD,,
