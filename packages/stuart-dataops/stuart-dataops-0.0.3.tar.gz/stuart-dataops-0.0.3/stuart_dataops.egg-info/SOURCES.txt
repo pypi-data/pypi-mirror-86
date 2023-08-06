@@ -1,0 +1,6 @@
+README.md
+setup.py
+stuart_dataops.egg-info/PKG-INFO
+stuart_dataops.egg-info/SOURCES.txt
+stuart_dataops.egg-info/dependency_links.txt
+stuart_dataops.egg-info/top_level.txt
