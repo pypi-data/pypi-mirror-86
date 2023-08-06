@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: niaaml
+Version: 0.1.0
+Summary: Automated machine learning framework written in Python.
+Home-page: https://github.com/lukapecnik/NiaAML
+License: MIT
+Keywords: classification,NiaPy,scikit-learn,nature-inspired algorithms,feature selection,preprocessing
+Author: Luka Pečnik
+Author-email: lukapecnik96@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: NiaPy (>=2.0.0rc11,<3.0.0)
+Requires-Dist: numpy (>=1.19.1,<2.0.0)
+Requires-Dist: scikit-learn (>=0.23.2,<0.24.0)
+Requires-Dist: sphinx (>=3.3.1,<4.0.0)
+Requires-Dist: sphinx-rtd-theme (>=0.5.0,<0.6.0)
+Project-URL: Repository, https://github.com/lukapecnik/NiaAML
