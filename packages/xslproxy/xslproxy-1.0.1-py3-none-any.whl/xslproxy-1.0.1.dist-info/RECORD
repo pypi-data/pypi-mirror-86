@@ -1,0 +1,10 @@
+twisted/plugins/xslproxy_service.py,sha256=6k8U88RT64XOb4oio2CQecQbH9iXR5DjMX9tIeF6iSc,189
+xslproxy/_init_.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xslproxy/service.py,sha256=VZFGM1I3gxN0CP-cVJMRBXQgmYCe3eYSmcKi6WQNDpo,1394
+xslproxy/web.py,sha256=gNq6g2wDLVLDd-wVPyvuuK4y0MgIYUpQAc2cSHFk6jI,7135
+xslproxy/xsl.py,sha256=inU1wXD8D_CG9xu3yK1gG8erDLqiPjjan5VcFqIW09g,5153
+xslproxy-1.0.1.dist-info/COPYING,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+xslproxy-1.0.1.dist-info/METADATA,sha256=kmvZSXKPL7rgxbxse6WnMjG_0y9hddsvXwqtbjwfa9Y,3191
+xslproxy-1.0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+xslproxy-1.0.1.dist-info/top_level.txt,sha256=KnZHhsIBWWLFAkrPfcMjbuRUrI8WGCFKEAo2yr84a2A,17
+xslproxy-1.0.1.dist-info/RECORD,,
