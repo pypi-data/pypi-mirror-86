@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ckxtraceviewer
+Version: 1.1
+Summary: IDA plugin to embed a trace view inside IDA
+Home-page: https://www.github.com/ckxckx/ckxtraceviewer
+Author: Chen KX
+Author-email: ckx1025ckx@gmail.com
+License: BSD
+Description: 
+        ckxtraceviewer
+        ======
+        ckxtraceviewer is a python-only solution to add a trace view to IDA Pro. 
+        Use `<Ctrl-Alt-I>` to open a window with an embedded _Qt console_. 
+        You can then load an execution trace which are automatically synchronized with `IDA VIEW-A`.
+        See full README on GitHub: <https://www.github.com/ckxckx/ckxtraceviewer>.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
