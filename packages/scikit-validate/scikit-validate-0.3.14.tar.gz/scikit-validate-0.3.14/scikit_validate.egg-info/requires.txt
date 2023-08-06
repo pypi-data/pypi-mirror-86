@@ -1,0 +1,17 @@
+Click<8.0
+gitpython<4.0.0
+jinja2
+markdown2
+matplotlib<4.0.0
+memory_profiler>=0.54
+numexpr
+numpy>=1.15.0
+pandas
+plumbum
+python-gitlab<3.0.0
+pyyaml
+scipy
+tabulate
+tqdm
+uproot<4.0.0
+xhtml2pdf
