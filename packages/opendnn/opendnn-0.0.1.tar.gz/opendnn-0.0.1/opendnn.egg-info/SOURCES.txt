@@ -1,0 +1,8 @@
+README.md
+setup.py
+opendnn/__init__.py
+opendnn/version.py
+opendnn.egg-info/PKG-INFO
+opendnn.egg-info/SOURCES.txt
+opendnn.egg-info/dependency_links.txt
+opendnn.egg-info/top_level.txt
