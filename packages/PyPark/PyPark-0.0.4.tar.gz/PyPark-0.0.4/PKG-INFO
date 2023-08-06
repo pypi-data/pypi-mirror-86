@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyPark
+Version: 0.0.4
+Summary: PyPark
+Home-page: https://github.com/liuzhuogood/PyPark
+Author: liuzhuogood
+Author-email: liuzhuogood@foxmail.com
+License: UNKNOWN
+Download-URL: https://github.com/liuzhuogood/PyPark
+Description: # PyPark
+        Python分布式服务框架，支持NAT内网穿透
+        
+        ### 安装
+        pip3 install PyPark
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
