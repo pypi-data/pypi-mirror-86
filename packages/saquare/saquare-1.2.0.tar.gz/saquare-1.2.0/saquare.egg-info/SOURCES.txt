@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+saquare.egg-info/PKG-INFO
+saquare.egg-info/SOURCES.txt
+saquare.egg-info/dependency_links.txt
+saquare.egg-info/entry_points.txt
+saquare.egg-info/top_level.txt
+square/__init__.py
+square/__main__.py
