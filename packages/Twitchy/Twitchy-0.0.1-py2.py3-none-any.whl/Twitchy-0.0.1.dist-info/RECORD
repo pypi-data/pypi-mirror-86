@@ -1,0 +1,14 @@
+twitchy/__init__.py,sha256=mNBHJ9jHZ2Waal_RToVVxbK9S_k6K46fervTfxMsNng,388
+twitchy/api.py,sha256=AZp9hKgXSK_WyxS9w8uYI-uVkzlcNlxOgCB__e1NIw0,37951
+twitchy/base.py,sha256=tyjWdszK6LFMliF8vDeuvPhu8jw1C8Hm7lPsqWZ8kOI,6778
+twitchy/constants.py,sha256=AbT5N7tiwv4Q8MS-ivz9h9lsHFEHQzcRnL93_RKQCH4,282
+twitchy/exceptions.py,sha256=2L6WlmoGiE4KOViDvjwGrrgyOs8Wr3w7y_ZKnBmD_zk,258
+twitchy/resources.py,sha256=cIghYRLk-HYtLmLWX8ST3ZDr06p44tFMRVdXHKsO3Rs,2505
+twitchy/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twitchy/utils.py,sha256=g0YE5ID0i4Y2JuSikCODPOulcVXjtkdKdftS-3vMcac,377
+Twitchy-0.0.1.dist-info/AUTHORS.rst,sha256=hnhdjOoTxQkJrub6GFLBGTK6rWC1jSqWpHRgkxoWE9g,85
+Twitchy-0.0.1.dist-info/LICENSE.txt,sha256=tW6VnS18U-beH3Ocj2aEZCJ5mICcGj6v1gwSp1jQIJ0,1082
+Twitchy-0.0.1.dist-info/METADATA,sha256=KYwegXAB4EYpZcZJmdXuN4vmbFy1saX7IL3lj-WyFUo,3316
+Twitchy-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+Twitchy-0.0.1.dist-info/top_level.txt,sha256=85LhY-gc0No7BDPS5D9jqbAc5M3KlLLVDhwJyTAZUDs,8
+Twitchy-0.0.1.dist-info/RECORD,,
