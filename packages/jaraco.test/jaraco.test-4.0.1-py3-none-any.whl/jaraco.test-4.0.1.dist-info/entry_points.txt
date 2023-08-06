@@ -1,0 +1,3 @@
+[pytest11]
+plugin-enabled options = jaraco.test.pytest.enabler
+
