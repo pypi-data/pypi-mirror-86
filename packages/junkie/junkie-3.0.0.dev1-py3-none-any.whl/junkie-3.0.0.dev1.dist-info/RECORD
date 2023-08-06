@@ -1,0 +1,12 @@
+junkie/__init__.py,sha256=7iIqZrv3hYojEVdQDkBLqZxC966dLuMOXGStB6idTkg,35
+junkie/context.py,sha256=bZ0fPndVDp6Wgo34x9nss6PwWLYCAJu4ofaKuYkjA-4,2215
+junkie/core_context.py,sha256=s9YROqDOedYafIg4u-Rzf8M-xQg7m8gjhn3ZqF9nEjY,5337
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_context.py,sha256=njywO7Y5xXKv1TX4iCLkfXkqbtLj3SiCTii-jqxM4d0,2910
+test/test_core_context.py,sha256=fsoraHRiz0GFzzoieiK3zFaLzhYNZX91F8zeO7ATHT8,9731
+test/test_readme.py,sha256=_nnVLblK-aSgVa6A4ACn31aLVXXqhmdbDhZkJIS26bs,549
+junkie-3.0.0.dev1.dist-info/LICENSE,sha256=syJj2zU4gIv64f6frGQhM3CFaLRmSS56F2MEfCd8Jt8,1071
+junkie-3.0.0.dev1.dist-info/METADATA,sha256=15VequxkTeBxoLoib3BO3fCWtlLdZkW7W7rSV4-AJLQ,1224
+junkie-3.0.0.dev1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+junkie-3.0.0.dev1.dist-info/top_level.txt,sha256=oErB8dmNWOS9Lbrb_XGayDEq1fQUhTg72eTISe1MdPw,12
+junkie-3.0.0.dev1.dist-info/RECORD,,
