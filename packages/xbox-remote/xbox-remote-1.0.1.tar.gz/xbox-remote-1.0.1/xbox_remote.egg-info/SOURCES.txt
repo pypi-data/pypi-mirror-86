@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+xbox_remote.egg-info/PKG-INFO
+xbox_remote.egg-info/SOURCES.txt
+xbox_remote.egg-info/dependency_links.txt
+xbox_remote.egg-info/top_level.txt
