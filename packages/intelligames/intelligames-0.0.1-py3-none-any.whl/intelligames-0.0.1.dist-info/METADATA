@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: intelligames
+Version: 0.0.1
+Summary: A Python module with utilities for various games.
+Home-page: https://github.com/intelligames/intelligames
+Author: intelligames
+Author-email: huangpatrick16777216@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# intelligames
+Python module for various games.
+
+
