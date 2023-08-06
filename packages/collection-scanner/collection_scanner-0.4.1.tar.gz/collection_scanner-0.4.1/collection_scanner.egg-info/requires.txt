@@ -1,0 +1,4 @@
+dateparser
+retrying
+scrapinghub>=2.3.1
+msgpack-python>=0.5.6
