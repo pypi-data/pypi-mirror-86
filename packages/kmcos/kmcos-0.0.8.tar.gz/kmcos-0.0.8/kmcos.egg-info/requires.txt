@@ -1,0 +1,15 @@
+
+[COMPLETE]
+numpy
+kiwi-gtk
+dill
+pycairo==1.11.1
+pygobject==3.30
+UnitTesterSG
+CiteSoft
+
+[MINIMAL]
+numpy
+dill
+UnitTesterSG
+CiteSoft
