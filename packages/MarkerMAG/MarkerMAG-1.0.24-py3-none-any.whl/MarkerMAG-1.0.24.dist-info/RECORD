@@ -1,0 +1,15 @@
+MarkerMAG/MarkerMAG_config.py,sha256=6yA7F5JbfQvLFROlQWuJJUrgNgigZtmJnOFKhkHRWHc,610
+MarkerMAG/VERSION,sha256=9z40CiqGngLsSrcRV8GX4KuzPUrTylkvAcQQZd3ilik,45
+MarkerMAG/barrnap_16s.py,sha256=RVir7LrSYTyIg-qMyCpQ0852Q99S3U5L7YE8vbj4Hys,7339
+MarkerMAG/get_sankey_plot.R,sha256=Lf1vMRNIbZcRBKUglDSH73gs7fBFopRhWl6TyGEuezw,2390
+MarkerMAG/link_16s.py,sha256=ZJSnsnU_4McNuro7spKTtdWt7V0Rjf0bVbiRrLF3hW8,90688
+MarkerMAG/matam_16s.py,sha256=OGKMkLxdinOzIUR4RutrYVMxzxmU37_Wwr3aMAM-oLU,17862
+MarkerMAG/rename_reads.py,sha256=zT2b7Ujb7J-R_ShfaTqlT0qVrm8i_1FkwqzlYOhJzsY,3144
+MarkerMAG/subsample_reads.py,sha256=Kf9udJ_xDrZ0zF_a7TvuMu9A4-STKSORAUVx4_LPzyk,2985
+MarkerMAG/uclust_16S.py,sha256=DDhU7G-eQdI-2Ur3Nc1F18wAUbpRTXku6HxI0qqgAxs,4725
+MarkerMAG-1.0.24.data/scripts/MarkerMAG,sha256=eChyAzyf_vsfFmk-69KC5oZkDVvQly1U0fbszLgnegs,11974
+MarkerMAG-1.0.24.dist-info/LICENSE.txt,sha256=uBR2Y-jL0W3iR8S6x9Fj52IsccR71P1Hf-Ssuv3Wiuk,32387
+MarkerMAG-1.0.24.dist-info/METADATA,sha256=oV-euAaZcIJYi3M-xFR_mZh45XV_-gnf9NTzrxTda0w,517
+MarkerMAG-1.0.24.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+MarkerMAG-1.0.24.dist-info/top_level.txt,sha256=_M9udZqV5jE2Ph800hirWzynKjEcZMLcTpKdVkih2bk,10
+MarkerMAG-1.0.24.dist-info/RECORD,,
