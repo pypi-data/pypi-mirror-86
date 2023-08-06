@@ -1,0 +1,9 @@
+biopython
+h5py
+matplotlib
+numpy
+pandas
+plotly
+scipy
+seaborn
+statsmodels
