@@ -1,0 +1,8 @@
+auto_cnn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_cnn/cnn_structure.py,sha256=j0FO1b5EZvjJPt0W_2vtO5bw6Z0S7I7tSHJR770pCoE,12593
+auto_cnn/gan.py,sha256=s96NE0cN5cQCejXmo-52XHk8y8QNw3Qe3OOWGaaQlZ0,16541
+auto_cnn-1.0.dist-info/LICENSE,sha256=gvweSugp1mS07yvWYYFLyPQCW2JNzxpgi3wpXHdbEj4,1091
+auto_cnn-1.0.dist-info/METADATA,sha256=AB1YOsr3-aWOpOJ3b6NB1ucbVb3gsReDR2kEgJe5HU4,6037
+auto_cnn-1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+auto_cnn-1.0.dist-info/top_level.txt,sha256=p2SI0VEHRoH-4ZKOq28xnZZ4bdbQqNhIQCf7bQPPhxg,9
+auto_cnn-1.0.dist-info/RECORD,,
