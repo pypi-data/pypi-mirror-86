@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: jjcli
+Version: 0.1.6
+Summary: python module for command-line filter
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: JJoao
+Author-email: jj@di.uminho.pt
+Classifier: License :: OSI Approved :: MIT License
