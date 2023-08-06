@@ -1,0 +1,217 @@
+#!/usr/bin/env python
+
+import os
+import click
+import colored
+import logging
+
+from sh import git
+from enum import Enum
+
+from git import Repo
+from prompt_toolkit import prompt
+from prompt_toolkit.styles import Style
+from prompt_toolkit.shortcuts import radiolist_dialog
+from prompt_toolkit.shortcuts import yes_no_dialog
+
+try:
+    repo = Repo(".")
+except:
+    print("Not in a repo directory!")
+    exit()
+
+
+class RepoManager:
+    @staticmethod
+    def get_list_branches(ignore_current=True):
+        return [
+            branch.name
+            for branch in repo.branches
+            if branch.name != repo.active_branch.name
+        ]
+
+    @staticmethod
+    def get_autocomplete_list_branches(ctx, args, incomplete):
+        return [
+            branch.name
+            for branch in RepoManager.get_list_branches()
+            if incomplete in branch.name
+        ]
+
+    @staticmethod
+    def verify_branch():
+        return yes_no_dialog(
+            title="Branch Verification",
+            text=f"Current Branch: {repo.active_branch.name} is this correct?",
+        ).run()
+
+    @staticmethod
+    def cherry(first, second):
+        cmd = ["cherry", "-v", first, second]
+        response = git(cmd).strip().split("\n")
+
+        commits = []
+
+        for commit in response:
+            commit = commit.split(" ")
+
+            commits.append(" ".join(commit[2:]))
+
+        return commits
+
+
+class AuthorManager:
+    def __init__(self):
+        import json
+
+        self.authors = None
+
+        if os.path.exists("authors.json"):
+            with open("authors.json", "r") as f:
+                self.authors = json.loads(f.read())
+                self.authors = self.authors["authors"]
+
+    def ask(self):
+        if self.authors:
+            authors = []
+
+            for index, author in enumerate(self.authors):
+                name = f"{author['name']} <{author['email']}>"
+                authors.append((name, name))
+
+            response = radiolist_dialog(
+                title="Reviewer Picker", text="Who reviewed this?", values=authors,
+            ).run()
+
+            if response != None:
+                return response
+
+        name = prompt("Whats the reviewers name?: ")
+        email = prompt("Whats the reviewers email?: ")
+
+        return f"{name} <{email}>"
+
+
+class Printer:
+    def _default_label_colors(self):
+        return colored.fg("white")
+
+    def _default_value_colors(self):
+        return colored.fg("white")
+
+    def _generate_label_colors(self, colors):
+        if colors:
+            return colors
+        else:
+            return self._default_label_colors()
+
+    def _generate_value_colors(self, colors):
+        if colors:
+            return colors
+        else:
+            return self._default_value_colors()
+
+    def banner(self, message="Merger"):
+        from pyfiglet import print_figlet
+
+        print_figlet(message, colors="BLUE")
+
+    def merged(
+        self,
+        label_colors=colored.fg("white") + colored.bg("green"),
+        value_colors=colored.fg("white") + colored.bg("green"),
+    ):
+        label_colors = self._generate_label_colors(label_colors)
+        value_colors = self._generate_value_colors(value_colors)
+
+        print(f"{label_colors}Merger: {value_colors} Successfully merged!")
+
+    def current_branch(
+        self, label_colors=None, value_colors=None,
+    ):
+        label_colors = self._generate_label_colors(label_colors)
+        value_colors = self._generate_value_colors(value_colors)
+
+        print(f"{label_colors}Current Branch: {value_colors} {repo.active_branch.name}")
+
+    def space(self):
+        print("\n")
+
+    def invalid_branch(
+        self,
+        branch,
+        label_colors=colored.fg("white") + colored.bg("red"),
+        value_colors=colored.fg("white") + colored.bg("red"),
+    ):
+        label_colors = self._generate_label_colors(label_colors)
+        value_colors = self._generate_value_colors(value_colors)
+        print(
+            f"{label_colors}Error: {value_colors} {branch} is not correct! Please try again."
+        )
+
+    def error(
+        self,
+        label,
+        error,
+        label_colors=colored.fg("white") + colored.bg("red"),
+        value_colors=colored.fg("white") + colored.bg("red"),
+    ):
+        label_colors = self._generate_label_colors(label_colors)
+        value_colors = self._generate_value_colors(value_colors)
+        print(f"{label_colors}{label}: {value_colors} { error }")
+
+
+printer = Printer()
+
+
+@click.group()
+def cli():
+    pass
+
+
+@cli.command()
+@click.argument(
+    "branch",
+    type=click.Choice(RepoManager.get_list_branches()),
+    autocompletion=RepoManager.get_list_branches,
+)
+def merge(branch):
+    """
+    Merges and squashs a branch into the current branch.
+
+    BRANCH Name of branch to merge
+    """
+    if RepoManager.verify_branch():
+        authorManager = AuthorManager()
+
+        author = authorManager.ask()
+
+        if author is None:
+            printer.error("Author", "Not chosen")
+            exit()
+
+        commits = "\n".join(RepoManager.cherry(repo.active_branch, branch))
+
+        commit_message = f"""{commits}
+
+Reviewed By: {author}"""
+
+        repo.git.merge("--squash", "--no-log", branch)
+        repo.index.commit(commit_message)
+
+        printer.merged()
+
+    else:
+        printer.invalid_branch(repo.active_branch.name)
+
+
+def main():
+    printer.banner()
+    printer.current_branch()
+    printer.space()
+
+    cli()
+
+
+if __name__ == "__main__":
+    main()
