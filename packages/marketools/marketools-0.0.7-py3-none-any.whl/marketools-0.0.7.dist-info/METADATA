@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: marketools
+Version: 0.0.7
+Summary: Tools for stock market analysis.
+Home-page: https://github.com/AlbertRtk/marketools
+Author: Albert Ratajczak
+Author-email: ratajczakalbert@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.1.4)
+Requires-Dist: requests (>=2.25.0)
+Requires-Dist: lxml (>=4.6.2)
+
+marketools
+==========
+
+Tools for stock market analysis.
+
+[Github](https://github.com/AlbertRtk/marketools)
+
+
