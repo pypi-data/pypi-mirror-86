@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: libgener
+Version: 1.0.0
+Summary: Python LibGen helper functions
+Home-page: https://github.com/kenley2021/libgener
+Author: kenley
+Author-email: kenley2021@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: tqdm
+
+# libgener: Python LibGen helper functions
+
+## installation
+
+```shell script
+pip install libgener
+```
+
+## usage
+
+### download all torrents
+
+```shell script
+libgener-torrents -o torrents/
+```
+
+`-o` option specify where torrent files save
+
+If you have a proxy, you can:
+
+```shell script
+libgener-torrents -p 'http://localhost:6152' -o torrents/
+```
+
+Default LibGen server is `http://libgen.rs/`, if you want to use another server, you can:
+
+```shell script
+libgener-torrents -s 'http://gen.lib.rus.ec/' -p 'http://localhost:6152' -o torrents/
+```
+
+When you encounter errors, you can enable debug mode:
+
+```shell script
+libgener-torrents -s 'http://gen.lib.rus.ec/' -p 'http://localhost:6152' -o torrents/ -v
+```
+
