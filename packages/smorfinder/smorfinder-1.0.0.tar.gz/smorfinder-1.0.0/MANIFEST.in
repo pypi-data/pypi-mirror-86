@@ -1,0 +1,6 @@
+include smorfinder/bin/linux/hmmscan
+include smorfinder/bin/linux/hmmsearch
+include smorfinder/bin/linux/prodigal
+include smorfinder/bin/mac/hmmscan
+include smorfinder/bin/mac/hmmsearch
+include smorfinder/bin/mac/prodigal
