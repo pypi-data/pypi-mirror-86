@@ -1,0 +1,6 @@
+polodb_ext.c
+setup.py
+polodb.egg-info/PKG-INFO
+polodb.egg-info/SOURCES.txt
+polodb.egg-info/dependency_links.txt
+polodb.egg-info/top_level.txt
