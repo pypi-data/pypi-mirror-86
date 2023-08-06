@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<rsp stat="ok" version="1.0">
+    <lan ip_addr="192.168.1.1" netmask="255.255.255.0" dhcp_active="on" dhcp_start="192.168.1.20" dhcp_end="192.168.1.100" dhcp_lease="86400" />
+</rsp>

@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<rsp stat="ok" version="1.0">
+    <auth token="fe5be7az1v9cb45zeogger8b4re145g3" method="passwd" />
+</rsp>

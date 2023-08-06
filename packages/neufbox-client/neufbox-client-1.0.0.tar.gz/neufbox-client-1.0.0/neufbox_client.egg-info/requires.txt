@@ -1,0 +1,9 @@
+requests
+xmltodict
+
+[test]
+pytest
+pytest-cov
+pytest-pylint
+python-dotenv
+requests-mock

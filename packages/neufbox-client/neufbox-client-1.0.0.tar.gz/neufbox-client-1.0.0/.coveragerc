@@ -1,0 +1,6 @@
+[run]
+source =
+    neufbox
+
+[report]
+fail_under=100
