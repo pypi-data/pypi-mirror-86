@@ -1,0 +1,61 @@
+ranks:
+  ru_TL:
+    non_officer:
+      [
+        "Ryadovoy",
+        "Gefreiter",
+        "Junior sergeant",
+        "Sergeant",
+        "Senior sergeant",
+        "Petty officer",
+        "Ensign",
+        "Senior ensign",
+      ]
+    officer:
+      [
+        "Officer cadet",
+        "Junior lieutenant",
+        "Lieutenant",
+        "Senior lieutenant",
+        "Captain",
+        "Major",
+        "Lieutenant colonel",
+        "Colonel",
+        "Major general",
+        "Lieutenant general",
+        "Colonel general",
+        "Army general",
+        "Marshal of the Russian Federation",
+      ]
+  en_US:
+    non_officer:
+      [
+        "Private",
+        "Private first class",
+        "Specialist",
+        "Corporal",
+        "Sergeant",
+        "Staff sergeant",
+        "Sergeant first class",
+        "Master sergeant",
+        "First sergeant",
+        "Sergeant major",
+        "Command sergeant major",
+        "Sergeant Major of the Army",
+        "Senior Enlisted Advisor to the Chairman",
+      ]
+    officer:
+      [
+        "Cadet",
+        "Second lieutenant",
+        "First lieutenant",
+        "Captain",
+        "Major",
+        "Lieutenant colonel",
+        "Colonel",
+        "Brigadier general",
+        "Major general",
+        "Lieutenant general",
+        "General",
+        "General of the Army",
+      ]

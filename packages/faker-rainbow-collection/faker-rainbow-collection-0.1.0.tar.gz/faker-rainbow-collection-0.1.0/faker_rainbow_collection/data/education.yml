@@ -1,0 +1,81 @@
+university:
+  ranks:
+    en_US:
+      [
+        "Adjunct Professor",
+        "Research Associate",
+        "Instructor",
+        "Senior Instructor",
+        "Master Instructor",
+        "Assistant Professor",
+        "Associate Professor",
+        "Professor",
+        "Distinguished",
+      ]
+    ru_TL:
+      [
+        "Tutorial assistant",
+        "Assistant Lecturer",
+        "Lecturer",
+        "Senior Lecturer",
+        "Associate Professor",
+        "Full Professor",
+      ]
+  degrees:
+    en_US:
+      [
+        "Associate degree",
+        "Bachelor degree",
+        "First professional degree",
+        "Master degree",
+        "Intermediate graduate qualification",
+        "Research doctorate",
+      ]
+    ru_TL:
+      [
+        "Bachelor degree",
+        "Specialist degree",
+        "Magister degree",
+        "Research candidate",
+        "Research doctorate",
+      ]
+  faculties:
+    [
+      "Faculty of Mechanics and Mathematics",
+      "Faculty of Computational Mathematics and Cybernetics",
+      "Faculty of Physics",
+      "Faculty of Chemistry",
+      "Faculty of Materials Science",
+      "Faculty of Biology",
+      "Faculty of Medicine",
+      "Faculty of Bioengineering and Bioinformatics",
+      "Faculty of Soil Science",
+      "Faculty of Geology",
+      "Faculty of Geography",
+      "Faculty of History",
+      "Faculty of Philology",
+      "Faculty of Foreign Languages and Area Studies",
+      "Faculty of Philosophy",
+      "Faculty of Sociology",
+      "Faculty of Economics",
+      "Faculty of Law",
+      "Faculty of Journalism",
+      "Faculty of Psychology",
+      "The Institute of Asian and African Studies",
+      "Faculty of Public Administration",
+      "School of Business Administration",
+      "Faculty of Fine and Performing Arts",
+      "Faculty of Global Processes",
+      "Faculty of Educational Studies",
+      "Faculty of World Politics",
+      "School of Translation and Interpretation",
+      "Graduate School of Public Administration",
+      "School of State Audit",
+      "Graduate School of Innovative Business",
+      "Graduate School of Management and Innovation",
+      "Faculty of fundamental physical and chemical engineering",
+      "Faculty of Further Education",
+      "Faculty of Political Science",
+      "School of Contemporary Social Sciences",
+      "School of Television",
+    ]

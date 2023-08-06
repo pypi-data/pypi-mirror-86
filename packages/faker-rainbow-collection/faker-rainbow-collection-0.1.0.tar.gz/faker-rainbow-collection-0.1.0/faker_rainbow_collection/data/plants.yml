@@ -1,0 +1,33 @@
+flowers:
+  names:
+    [
+      "Daffodil",
+      "Cherry blossom",
+      "Lily",
+      "Daisy",
+      "Sunflower",
+      "Tulip",
+      "Hyacinth",
+      "Aster",
+      "Orchid",
+      "Snowdrop",
+      "Violet",
+      "Poppy",
+      "Rose",
+      "Bluebell",
+      "Lotus",
+      "Crocus",
+      "Peony",
+      "Bird of paradise",
+      "Lavender",
+      "Dandelion",
+      "Iris",
+      "Ixora",
+      "Tiger Lily",
+      "Dahlia",
+      "Canna",
+      "Cockscomb",
+      "Lilac",
+      "Water lily",
+    ]
+  flavors: ["weak", "moderate", "strong"]
