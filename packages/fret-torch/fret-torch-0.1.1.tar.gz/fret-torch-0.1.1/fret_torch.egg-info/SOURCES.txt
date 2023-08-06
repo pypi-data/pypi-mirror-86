@@ -1,0 +1,8 @@
+README.md
+setup.py
+fret_torch/__init__.py
+fret_torch.egg-info/PKG-INFO
+fret_torch.egg-info/SOURCES.txt
+fret_torch.egg-info/dependency_links.txt
+fret_torch.egg-info/requires.txt
+fret_torch.egg-info/top_level.txt
