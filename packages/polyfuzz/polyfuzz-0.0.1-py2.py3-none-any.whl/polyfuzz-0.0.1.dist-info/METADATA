@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: polyfuzz
+Version: 0.0.1
+Summary: PolyFuzz performs fuzzy string matching, grouping, and evaluation.
+Home-page: https://github.com/MaartenGr/PolyFuzz
+Author: Maarten Grootendorst
+Author-email: maartengrootendorst@gmail.com
+License: UNKNOWN
+Keywords: nlp string matching embeddings levenshtein tfidf bert
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: scipy (>=1.3.1)
+Requires-Dist: pandas (>=0.25.3)
+Requires-Dist: tqdm (>=4.48.2)
+Requires-Dist: joblib (>=0.14.0)
+Requires-Dist: sparse-dot-topn (>=0.2.9)
+Requires-Dist: matplotlib (>=3.3.3)
+Requires-Dist: seaborn (>=0.11.0)
+Requires-Dist: rapidfuzz (>=0.13.1)
+Requires-Dist: flair (>=0.6.1.post1)
+Requires-Dist: scikit-learn (>=0.23.2)
+Provides-Extra: dev
+Requires-Dist: mkdocs (==1.1) ; extra == 'dev'
+Requires-Dist: mkdocs-material (==4.6.3) ; extra == 'dev'
+Requires-Dist: mkdocstrings (==0.8.0) ; extra == 'dev'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs (==1.1) ; extra == 'docs'
+Requires-Dist: mkdocs-material (==4.6.3) ; extra == 'docs'
+Requires-Dist: mkdocstrings (==0.8.0) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest (>=5.4.3) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'test'
+
+<img src="images/logo.png" width="70%" height="70%"/>
+
+[![PyPI - Python](https://img.shields.io/badge/python-3.6%20|%203.7%20|%203.8-blue.svg)](https://pypi.org/project/keybert/)
+[![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/MaartenGr/keybert/blob/master/LICENSE)
+[![PyPI - PyPi](https://img.shields.io/pypi/v/polyfuzz)](https://pypi.org/project/polyfuzz/)
+[![Build](https://img.shields.io/github/workflow/status/MaartenGr/polyfuzz/Code%20Checks/master)](https://pypi.org/project/polyfuzz/)
+
+**`PolyFuzz`** performs fuzzy string matching, string grouping, and contains extensive evaluation functions. 
+PolyFuzz is meant to bring fuzzy string matching techniques together within a single framework.
+
+Currently, methods include Levenshtein distance with RapidFuzz, a character-based n-gram TF-IDF, word embedding
+techniques such as FastText and GloVe, and finally ðŸ¤— transformers embeddings. 
+
+You can use your own **custom models** for both the fuzzy string matching as well as the string grouping. 
+
+Corresponding medium post can be found [here]().
+
+
+<a name="gettingstarted"/></a>
+## Getting Started
+[Back to ToC](#toc)
+
+```python
+from polyfuzz import PolyFuzz
+
+from_list = ["apple", "apples", "appl", "recal", "house", "similarity"]
+to_list = ["apple", "apples", "mouse"]
+
+model = PolyFuzz("TF-IDF").match(from_list, to_list)
+
+```  
+
+The resulting string matches can be accessed through `model.get_matches()`:
+
+```python
+>>> model.get_matches()
+      From      To  Similarity
+     apple   apple    1.000000
+    apples  apples    1.000000
+      appl   apple    0.783751
+     recal    None    0.000000
+     house   mouse    0.587927
+similarity    None    0.000000
+
+``` 
+
+
+## References
+
