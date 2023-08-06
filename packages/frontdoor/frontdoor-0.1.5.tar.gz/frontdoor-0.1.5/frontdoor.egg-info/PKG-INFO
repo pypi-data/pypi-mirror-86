@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: frontdoor
+Version: 0.1.5
+Summary: Aids the creation of "front door" scripts.
+Home-page: UNKNOWN
+Author: Tim Simpson
+Author-email: UNKNOWN
+License: MIT
+Description: 
+        This simple module aids in the creation of "front door" scripts, which
+        can help organize automated scripts and reduce the need for overly
+        verbose docs.
+        
+        See `the git repo
+        <https://github.com/TimSimpson/frontdoor>`_ for more info.
+            
+Platform: UNKNOWN
