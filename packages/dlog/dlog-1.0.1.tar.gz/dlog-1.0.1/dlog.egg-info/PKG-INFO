@@ -1,0 +1,90 @@
+Metadata-Version: 1.0
+Name: dlog
+Version: 1.0.1
+Summary: Easy log
+Home-page: UNKNOWN
+Author: Caturbhuja
+Author-email: caturbhuja@foxmail.com
+License: MIT
+Description: [TOC]
+        
+        介绍
+        ~~~~
+        
+        呆log：工业中，python日志模块，安装即用。支持python2, python3
+        
+        为什么需要这个模块：
+        
+        ::
+        
+            1. 规范化日志，开箱即用
+            2. 解决了多进程丢失日志问题
+            3. 支持单例模式
+            4. 可能，真的很优雅
+        
+        | 注意：作者仅提供使用，作生产使用前，请自行测试。年轻人，望好自为之。
+        | 目前自己在linux环境，mac环境，python3.6， 3.7 测试过。
+        
+        好的功能
+        ~~~~~~~~
+        
+        ::
+        
+            1. 规范化日志（可能是最佳日志实践）
+        
+        安装方法
+        ~~~~~~~~
+        
+        ::
+        
+            pip install dlog
+        
+        参数介绍
+        ~~~~~~~~
+        
+        呆log 参数与 使用方法
+        ^^^^^^^^^^^^^^^^^^^^^
+        
+        .. code:: python
+        
+            from dlog import DLog
+        
+            if __name__ == '__main__':
+                def test_logs(log):
+                    log.info('nice')
+                    log.warning('nice')
+                    log.error('nice')
+        
+                log1 = DLog().get_log
+                test_logs(log1)
+        
+                # 开启单例模式
+                log2 = DLog(singleton=True).get_log
+                test_logs(log2)
+        
+                # 设定日志目录绝对路径（强烈建议）
+                import os
+                RootPath = os.path.dirname(os.path.realpath(__file__))
+        
+                log_dir_path = os.path.join(RootPath, 'logs')
+                log3 = DLog(log_dir_path=log_dir_path).get_log
+                test_logs(log3)
+        
+        版本说明
+        ~~~~~~~~
+        
+        ::
+        
+            1.0.1 第一个版本，能用，但是日志没有达到最佳实践。该有的东西，可能没有  
+        
+        后期版本规划
+        ~~~~~~~~~~~~
+        
+        ::
+        
+            整理出日志最佳实践，完成一个开箱能用的工具  
+        
+        todo
+        ~~~~
+        
+Platform: UNKNOWN
