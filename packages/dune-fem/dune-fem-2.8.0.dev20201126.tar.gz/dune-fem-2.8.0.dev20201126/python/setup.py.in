@@ -1,0 +1,19 @@
+from setuptools import setup, find_packages
+
+setup(name="${DUNE_MOD_NAME}",
+    namespace_packages=['dune'],
+    description="${DUNE_FEM_DESCRIPTION}",
+    version="${DUNE_FEM_VERSION}",
+    author="${DUNE_FEM_AUTHOR}",
+    author_email="${DUNE_FEM_AUTHOREMAIL}",
+    packages = find_packages(),
+    zip_safe = 0,
+    package_data = {'': ['*.so']},
+    install_requires=[
+        'UFL == 2017.1.0'
+        ],
+    entry_points={
+        'console_scripts': [
+            'dune-ellipticmodelcompiler = dune.models.elliptic.compiler:main'
+            ]}
+  )

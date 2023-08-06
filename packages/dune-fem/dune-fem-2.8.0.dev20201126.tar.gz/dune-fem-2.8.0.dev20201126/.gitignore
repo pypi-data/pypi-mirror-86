@@ -1,0 +1,7 @@
+# ignore all build folders
+/build*/
+# ignore backup files
+*~
+*.swp
+# ignore cmake petsc module
+/cmake/modules/petsc/
