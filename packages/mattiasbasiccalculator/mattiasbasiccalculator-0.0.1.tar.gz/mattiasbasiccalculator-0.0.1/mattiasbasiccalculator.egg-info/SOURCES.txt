@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup (original).py
+setup.py
+mattiasbasiccalculator/__init__.py
+mattiasbasiccalculator.egg-info/PKG-INFO
+mattiasbasiccalculator.egg-info/SOURCES.txt
+mattiasbasiccalculator.egg-info/dependency_links.txt
+mattiasbasiccalculator.egg-info/top_level.txt
