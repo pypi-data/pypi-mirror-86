@@ -1,0 +1,8 @@
+README.md
+setup.py
+CheckIsPrime/CheckIsPrime.py
+CheckIsPrime/__init__.py
+CheckIsPrime.egg-info/PKG-INFO
+CheckIsPrime.egg-info/SOURCES.txt
+CheckIsPrime.egg-info/dependency_links.txt
+CheckIsPrime.egg-info/top_level.txt
