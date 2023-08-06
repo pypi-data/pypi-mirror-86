@@ -1,0 +1,15 @@
+README.md
+setup.py
+shape_detection/__init__.py
+shape_detection/shape.py
+shape_detection/square.py
+shape_detection/triangle.py
+shape_detection_jdla.egg-info/PKG-INFO
+shape_detection_jdla.egg-info/SOURCES.txt
+shape_detection_jdla.egg-info/dependency_links.txt
+shape_detection_jdla.egg-info/requires.txt
+shape_detection_jdla.egg-info/top_level.txt
+test/__init__.py
+test/test_shape.py
+test/test_square.py
+test/test_triangle.py
