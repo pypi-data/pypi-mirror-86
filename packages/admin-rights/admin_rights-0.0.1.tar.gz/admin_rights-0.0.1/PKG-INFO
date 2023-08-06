@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: admin_rights
+Version: 0.0.1
+Summary: This is a function that takes an array of users as an argument and checks if the role is an admin
+Home-page: UNKNOWN
+Author: Harun Gachanja
+Author-email: arrotechdesign@gmail.com
+License: MIT
+Description: ## Admin Protected Route
+        
+        This is a function that takes an array of users as an argument and checks if the role is an admin.
+        If that isn't the case, the function returns an unauthorized status code and message. 
+        Otherwise, the user is permitted to use the function. 
+Keywords: roles
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
