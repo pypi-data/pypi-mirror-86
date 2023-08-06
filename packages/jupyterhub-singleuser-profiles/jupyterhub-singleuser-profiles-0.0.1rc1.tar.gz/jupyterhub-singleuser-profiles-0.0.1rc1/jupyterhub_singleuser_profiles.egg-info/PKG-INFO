@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: jupyterhub-singleuser-profiles
+Version: 0.0.1rc1
+Summary: A tool to parse yaml configuration files used in singleuser JupyterHub servers
+Home-page: UNKNOWN
+Author: Vaclav Pavlin
+Author-email: vasek@redhat.com
+License: GPLv3+
+Description: A tool to parse yaml configuration files used in singleuser JupyterHub servers
+Platform: UNKNOWN
