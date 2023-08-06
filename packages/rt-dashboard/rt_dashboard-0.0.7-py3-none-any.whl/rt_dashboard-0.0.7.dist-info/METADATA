@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rt-dashboard
+Version: 0.0.7
+Summary: rt-dashboard provides an embeddable web interface for monitoring your redis_tasks queues, jobs, and workers in realtime.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: pytz
+Requires-Dist: redis-tasks
+Requires-Dist: werkzeug
+Requires-Dist: jinja2
+
+UNKNOWN
+
+
