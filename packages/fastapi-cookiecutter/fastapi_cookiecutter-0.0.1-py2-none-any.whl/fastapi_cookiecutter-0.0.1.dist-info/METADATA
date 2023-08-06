@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fastapi-cookiecutter
+Version: 0.0.1
+Summary: A cookiecutter template for FastAPI project.
+Home-page: https://github.com/KnightConan/FastAPI-Cookiecutter
+Author: Zhiwei Zhang
+Author-email: zhiwei2017@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+
+UNKNOWN
+
+
