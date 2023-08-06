@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: cobe
+Version: 3.0.1
+Summary: Markov chain based text generator library and chatbot
+Home-page: https://github.com/pteichman/cobe/wiki
+Author: Peter Teichman
+Author-email: peter@teichman.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
