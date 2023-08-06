@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.coverage.run]
+parallel = true
+branch = true
+source = ["jwt"]
+
+[tool.coverage.paths]
+source = ["jwt", ".tox/*/site-packages"]
+
+[tool.coverage.report]
+show_missing = true
+
+
+[tool.black]
+line-length = 79
+
+
+[tool.isort]
+atomic=true
+force_grid_wrap=0
+include_trailing_comma=true
+multi_line_output=3
+use_parentheses=true
+combine_as_imports=true
+
+known_first_party="jwt"
+known_third_party=["pytest", "requests_mock", "setuptools", "sphinx_rtd_theme"]
