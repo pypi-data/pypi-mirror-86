@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: th2-check2-recon
+Version: 2.2.5
+Summary: th2_check2_recon
+Home-page: https://github.com/th2-net/th2-check2-recon
+Author: TH2-devs
+Author-email: th2-devs@exactprosystems.com
+License: Apache License 2.0
+Description: This repository is a library for creating th2-check2-recon applications.
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
