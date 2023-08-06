@@ -1,0 +1,11 @@
+budget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+budget/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+budget/apps.py,sha256=QzYIWT_0Dek9qM8nODSytwrG0QV0LWt4DW1D67KTvso,81
+budget/common_text.py,sha256=faaurGxmueAmsdD-yNA3XSkOogUHbJcA1UVKDcYRNUw,150
+budget/models.py,sha256=GJPM3Wajxw7L0Ph-kte5Mu4-2P6k0NrRH3D7r3ACfjE,1314
+budget/urls.py,sha256=TQSucYegSfFerHVSahC-0Q4QKinr04qHdbHFRRXbUNM,636
+django_budget_backend-0.1.2.dist-info/LICENSE.txt,sha256=lUKmiC_mPZUkZpHoq5_hbKz7Ywhm-m4vENbA64TOqvw,1073
+django_budget_backend-0.1.2.dist-info/METADATA,sha256=ajbb9QVVZ9cw_mXNTBFUMSNu4cwwWgT6uKYT1ZCzT64,814
+django_budget_backend-0.1.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_budget_backend-0.1.2.dist-info/top_level.txt,sha256=o5MaeINzK9HL12jhSOb_4PaCORLnK1kgEaLJvxRzYQc,7
+django_budget_backend-0.1.2.dist-info/RECORD,,
