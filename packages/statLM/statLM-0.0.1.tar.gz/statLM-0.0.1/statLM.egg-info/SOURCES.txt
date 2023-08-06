@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+statLM/__init__.py
+statLM/ngram.py
+statLM/statistical_models.py
+statLM.egg-info/PKG-INFO
+statLM.egg-info/SOURCES.txt
+statLM.egg-info/dependency_links.txt
+statLM.egg-info/requires.txt
+statLM.egg-info/top_level.txt
+tests/__init__.py
+tests/context.py
+tests/test_models.py
