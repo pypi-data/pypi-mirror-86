@@ -1,0 +1,12 @@
+python>=3.7
+fire
+numba
+pyfai
+scikit-beam
+bluesky
+databroker
+xpdview
+xray-vision
+suitcase-csv
+suitcase-tiff
+suitcase-json-metadata
