@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: grebble-flow
+Version: 0.0.3.20
+Summary: Grebble flow
+Home-page: https://github.com/Grebble-team/python-flow-helper
+Author: Greble
+Author-email: info@grebble.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: docstring-parser (==0.7.3)
+
+# python-flow-helper
+
+
