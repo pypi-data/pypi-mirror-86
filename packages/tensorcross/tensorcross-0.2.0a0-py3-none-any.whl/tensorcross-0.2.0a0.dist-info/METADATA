@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tensorcross
+Version: 0.2.0a0
+Summary: Cross Validation, Grid Search and Random Search for TensorFlow Datasets.
+Home-page: UNKNOWN
+Author: Jan Schaffranek, Saif Al-Dilaimi
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved
+Requires-Dist: tensorflow (==2.3.1)
+Requires-Dist: numpy (==1.18.*)
+Requires-Dist: scikit-learn
+
+Cross Validation, Grid Search and Random Search for TensorFlow Datasets. For more information see here: https://github.com/franneck94/TensorCross
+
+
