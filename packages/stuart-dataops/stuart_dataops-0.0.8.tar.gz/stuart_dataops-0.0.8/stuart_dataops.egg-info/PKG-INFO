@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: stuart-dataops
+Version: 0.0.8
+Summary: Package used by the French Dataops team of Stuart
+Home-page: https://github.com/StuartApp/ops-aws-scripts/tree/master/fr-scripts/stuart_dataops
+Author: Lan Row KOK
+Author-email: r.kok@stuart.com
+License: UNKNOWN
+Description: The stuart_dataops module contains all the functions of dataops.py
+        
+        
+        Compatibility
+        -------------
+        
+        The module should work on Python 3, primarily.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2
+Description-Content-Type: text/markdown
