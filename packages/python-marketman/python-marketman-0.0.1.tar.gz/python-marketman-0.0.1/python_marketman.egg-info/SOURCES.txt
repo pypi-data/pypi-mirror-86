@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+python_marketman/__init__.py
+python_marketman/__version__.py
+python_marketman/api.py
+python_marketman/exceptions.py
+python_marketman.egg-info/PKG-INFO
+python_marketman.egg-info/SOURCES.txt
+python_marketman.egg-info/dependency_links.txt
+python_marketman.egg-info/top_level.txt
