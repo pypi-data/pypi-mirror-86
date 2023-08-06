@@ -1,0 +1,13 @@
+tifffile
+PyQt5
+scipy
+numpy
+scikit-image
+pyqtgraph
+keyring
+psycopg2
+XlsxWriter
+records
+SQLAlchemy
+tablib
+Pillow
