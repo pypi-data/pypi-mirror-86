@@ -1,0 +1,14 @@
+README.rst
+setup.py
+uuid_cbr/__init__.py
+uuid_cbr/__version__.py
+uuid_cbr/uid.c
+uuid_cbr/uuid.c
+uuid_cbr/uuid_cbr.c
+uuid_cbr/uuid_cbr.i
+uuid_cbr/uuid_cbr.py
+uuid_cbr/uuid_cbr_c.py
+uuid_cbr.egg-info/PKG-INFO
+uuid_cbr.egg-info/SOURCES.txt
+uuid_cbr.egg-info/dependency_links.txt
+uuid_cbr.egg-info/top_level.txt
