@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tinysbus
+Version: 0.1.0
+Summary: Small SAIA SBUS implementation for Python
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyserial
+
+UNKNOWN
+
+
