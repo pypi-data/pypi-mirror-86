@@ -1,0 +1,13 @@
+drf_aggregation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_aggregation/aggregates.py,sha256=25EaLELJ14j-ytI6phCTHdab1AxOCVl_UVwKRJ0x0Nk,2725
+drf_aggregation/mixins.py,sha256=JR8-axQmxZGkk2bqbP1Tp_WsHFGCySU7Utm8esWkK6c,5444
+drf_aggregation/routers.py,sha256=XR-cS-mzSJmkKtB9IV2VA4kTYGveUvxeZ-Rt6BacWM4,443
+drf_aggregation/utils.py,sha256=7JsAaGk8OrvNkvPTaLkvLWPV57oq09alQESDrR7ebho,5277
+drf_aggregation/viewsets.py,sha256=_dY7INggg8Kvqz4o05nX0KjInPKHNCuORPtKE-_4eG0,159
+drf_aggregation-0.4.0.dist-info/AUTHORS,sha256=UixPevZldMjpyKaxalvUhpltyW3jdN5I-jGwX89Cgds,38
+drf_aggregation-0.4.0.dist-info/LICENSE,sha256=Bh1WVjdMFnB7SIIwTf-H11z9oAc_0AOTPNK723wC4M0,1073
+drf_aggregation-0.4.0.dist-info/METADATA,sha256=x9nNGybcI53X7ftZ5n0lHHuJZVByp9kN2ZXNYcmtUeI,785
+drf_aggregation-0.4.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+drf_aggregation-0.4.0.dist-info/pbr.json,sha256=pcGB7aRmr9cuHHCZeNER-tYp-kapInIPS44JOyVmLeo,47
+drf_aggregation-0.4.0.dist-info/top_level.txt,sha256=8WTtNO_MdXJw3p0hUuxwFYDFBVcN5_Tr3Jl0dmOnYiE,16
+drf_aggregation-0.4.0.dist-info/RECORD,,
