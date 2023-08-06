@@ -1,0 +1,64 @@
+{% extends 'base_table.html.jinja2' %}
+
+{% block form_card %}
+    <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <h6 class="card-title text-center m-0">find these entries</h6>
+                <p class="text-muted text-center">query the table by these values to get the entries you want to update</p>
+            </div>
+            <form id="filter-form">
+                {% for field in form.filter_fields %}
+                    {{ make_field(field, readonly=is_single) }}
+                {% endfor %}
+            </form>
+        </div>
+        <div class="col-md-6">
+            <div class="mb-3">
+                <h6 class="card-title text-center m-0">change to these values</h6>
+                <p class="text-muted text-center">then update those entries with the values inputted to the fields below</p>
+            </div>
+            <form id="insert-form">
+                {% for field in form.insert_fields %}
+                    {{ make_field(field) }}
+                {% endfor %}
+            </form>
+        </div>
+    </div>
+    <div class="form-group text-center">
+        {{ form.confirm(class="btn btn-warning", value="update") }}
+    </div>
+{% endblock %}
+
+
+{% block scripts %}
+    <script>
+        $("#confirm").on('click', function () {
+            var formData = getFormData("filter-form", true) + "&" + getFormData("insert-form", true)
+
+            var success_alert = $("#success-alert")
+            var failure_alert = $("#failure-alert")
+            success_alert.hide()
+            failure_alert.hide()
+
+            if (confirm("Are you sure you want to update these entries?")) {
+                $.ajax({
+                    url: '{{ get_url("update", tablename=model.name) }}',
+                    type: 'PUT',
+                    data: formData,
+                    success: function (result) {
+                        if (result.success) {
+                            $("#success-text").text(result.message);
+                            success_alert.show();
+                        } else {
+                            $("#failure-text").text(result.message);
+                            failure_alert.show();
+                        }
+                    }
+                })
+            }
+            return false;
+        })
+    </script>
+
+{% endblock %}

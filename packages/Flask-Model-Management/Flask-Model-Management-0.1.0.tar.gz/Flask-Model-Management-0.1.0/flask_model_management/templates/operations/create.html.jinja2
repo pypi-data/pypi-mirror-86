@@ -1,0 +1,46 @@
+{% extends 'base_table.html.jinja2' %}
+
+{% block form_card %}
+    <form id="insert-form">
+        {% for field in form.insert_fields %}
+            {{ make_field(field) }}
+        {% endfor %}
+    </form>
+    <div class="form-group text-center">
+        {{ form.confirm(class="btn btn-success", value="create") }}
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        $("#confirm").on('click', function () {
+            var formData = getFormData('insert-form', true)
+
+            var success_alert = $("#success-alert")
+            var failure_alert = $("#failure-alert")
+            success_alert.hide()
+            failure_alert.hide()
+
+            if (confirm("Are you sure you want to create this entry?")) {
+                $.ajax({
+                    url: '{{ get_url("create", tablename=model.name) }}',
+                    type: 'POST',
+                    data: formData,
+                    success: function (result) {
+                        if (result.success) {
+                            $("#success-text").text(result.message);
+                            success_alert.show();
+                        } else {
+                            $("#failure-text").text(result.message);
+                            failure_alert.show();
+                        }
+                    }
+                })
+            }
+            {#return false;#}
+        })
+    </script>
+    <script>
+
+    </script>
+{% endblock %}

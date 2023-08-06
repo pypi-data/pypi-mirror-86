@@ -1,0 +1,106 @@
+{% from 'components/macros.html.jinja2' import operation_colour %}
+{% from 'components/macros.html.jinja2' import get_operation_header %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="An Application For Managing SQLAlchemy Models">
+    <meta name="author" content="Jack Wardell">
+
+    <link rel="shortcut icon" href="{{ get_url('static', filename='img/favicon.ico') }}">
+
+    <title>Model Management</title>
+
+    <script src="{{ get_url('static', filename='js/jquery-3.5.1.min.js') }}"></script>
+    <script src="{{ get_url('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ get_url('static', filename='js/feather.min.js') }}"></script>
+    <script src="{{ get_url('static', filename='js/datatables.min.js') }}"></script>
+    <script src="{{ get_url('static', filename='js/flatpickr.min.js') }}"></script>
+    <script src="{{ get_url('static', filename='js/app.js') }}"></script>
+
+    <link rel="stylesheet" href="{{ get_url('static', filename='css/datatables.min.css') }}">
+    <link rel="stylesheet" href="{{ get_url('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ get_url('static', filename='css/flatpickr.min.css') }}">
+    <link rel="stylesheet" href="{{ get_url('static', filename='css/style.css') }}">
+</head>
+
+<body>
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="{{ get_url("index") }}">Flask Model Management</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebar-menu" aria-controls="sidebar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav id="sidebar-menu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="sidebar-sticky pt-3">
+                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mb-2 mt-3 text-muted">
+                    <span>Models Under Management</span>
+                </h6>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.endpoint == (request.blueprint + ".index") %}active{% endif %}" href="{{ get_url("index") }}"><span data-feather="home"></span>home</a>
+                    </li>
+                    {% for model_name, model in model_manager.models.items() %}
+                        <li class="nav-item">
+                            <a class="nav-link {% if request.view_args['tablename'] == model_name %}active{% endif %}" href="{{ get_url("table", tablename=model_name) }}"><span data-feather="database"></span>{{ model_name }}</a>
+                        </li>
+                        {% if request.view_args['tablename'] == model_name %}
+                            <li>
+                                <ul class="nav flex-column">
+                                    {% for operation in model.operations %}
+                                        <li class="nav-item ml-3"><a class="nav-link {% if operation in request.view_args.values() %}active{% endif %}" href="{{ get_url("table_operation", tablename=model.name, operation=operation) }}">{{ get_operation_header(operation) }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-1 mb-3 border-bottom">
+                {% block title %}
+                    {% if "tablename" in request.view_args %}
+                        <h1>{{ request.view_args['tablename'] }}</h1>
+                    {% else %}
+                        <h1>home</h1>
+                    {% endif %}
+                {% endblock %}
+            </div>
+            <div class="mb-3 border-bottom">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        {% if request.endpoint == request.blueprint + ".index" %}
+                            <li class="breadcrumb-item">models under management</li>
+                        {% elif request.endpoint == request.blueprint + ".table" %}
+                            <li class="breadcrumb-item active"><a href="{{ get_url("index") }}">models under management</a></li>
+                            <li class="breadcrumb-item">{{ model.name }}</li>
+                        {% else %}
+                            <li class="breadcrumb-item active"><a href="{{ get_url("index") }}">models under management</a></li>
+                            <li class="breadcrumb-item active"><a href="{{ get_url("table", tablename=model.name) }}">{{ model.name }}</a></li>
+                            <li class="breadcrumb-item">{{ request.view_args['operation'] }}</li>
+                        {% endif %}
+                    </ol>
+                </nav>
+            </div>
+            {% block main %}
+            {% endblock %}
+        </main>
+    </div>
+</div>
+
+{% block scripts %}
+{% endblock %}
+
+<script>
+    feather.replace()
+</script>
+
+</body>
+</html>
