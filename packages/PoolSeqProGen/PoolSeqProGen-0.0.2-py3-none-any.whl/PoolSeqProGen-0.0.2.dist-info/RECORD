@@ -1,0 +1,14 @@
+PoolSeqProGen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PoolSeqProGen/dnaSeq.py,sha256=2_i5R5KsYXsj4Dx5XpXEd7pFVMKq78CC1OOOokGlgKU,3949
+PoolSeqProGen/dna_seq.py,sha256=2_i5R5KsYXsj4Dx5XpXEd7pFVMKq78CC1OOOokGlgKU,3949
+PoolSeqProGen/generate_variants.py,sha256=dqs76Su7OM6ZltjTa9zoKfBMkC_d5t8mygiSl_yTsbM,8589
+PoolSeqProGen/pepFasta.py,sha256=rdY7otZ2hP3-YD8y8QGIiotjrDSdb0O_S3mvTjggnGE,8025
+PoolSeqProGen/pep_fasta.py,sha256=6po-67evurjHgNA-PwppfqeCNtHw2HjrGl7ve2jWEQ8,8037
+PoolSeqProGen/varReads.py,sha256=MB-EpaXm2BvoXKRmMH3x2TSYKT9nv1wqtP2TGXcZ6Bk,2380
+PoolSeqProGen/var_reads.py,sha256=hzzBPz9QWuUe7NiTP1EDZkz4Y9nArcpuzhQKxUYcA70,2380
+PoolSeqProGen-0.0.2.dist-info/LICENSE,sha256=KD6mzCmXoacNoASeCa35MXu2DKG1Enm2UZa4OmnhmWs,11323
+PoolSeqProGen-0.0.2.dist-info/METADATA,sha256=I_z2XV9g-wJjwM2NNBY_Fn3hgZS41heB_gU7-0wBC-g,2901
+PoolSeqProGen-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+PoolSeqProGen-0.0.2.dist-info/entry_points.txt,sha256=pNUCkk0OsU4yvmGXc11u2keGVcCO-so1KPvjeEgoZjo,76
+PoolSeqProGen-0.0.2.dist-info/top_level.txt,sha256=mhhjZ5cqolGwBomkcaUp7s4wk5Ud29w50rxIE-8f-e0,14
+PoolSeqProGen-0.0.2.dist-info/RECORD,,
