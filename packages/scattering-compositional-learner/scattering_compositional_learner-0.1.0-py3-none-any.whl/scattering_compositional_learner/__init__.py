@@ -1,0 +1,1 @@
+from scattering_compositional_learner.scl import ScatteringCompositionalLearner
