@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Client-messenger
+Version: 0.2
+Summary: Client_messenger
+Home-page: UNKNOWN
+Author: Pavel Usov
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
+
