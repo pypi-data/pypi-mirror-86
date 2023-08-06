@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+tox.ini
+src/derange/__init__.py
+src/derange/py.typed
+src/derange.egg-info/PKG-INFO
+src/derange.egg-info/SOURCES.txt
+src/derange.egg-info/dependency_links.txt
+src/derange.egg-info/top_level.txt
+test/test_deinterval.py
+test/test_deinterval_sorted.py
+test/test_derange.py
+test/test_derange_sorted.py
