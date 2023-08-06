@@ -1,0 +1,12 @@
+scanpy>=1.4
+pandas>=1.0
+numpy
+networkx
+dash
+dash-cytoscape
+jupyter-dash
+jupyter-server-proxy
+ipywidgets
+holoviews
+notebook
+xlrd
