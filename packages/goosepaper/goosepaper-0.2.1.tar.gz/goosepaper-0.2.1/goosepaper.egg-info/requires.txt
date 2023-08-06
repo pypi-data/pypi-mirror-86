@@ -1,0 +1,7 @@
+requests
+feedparser
+twint
+pandas
+bs4
+lxml
+WeasyPrint
