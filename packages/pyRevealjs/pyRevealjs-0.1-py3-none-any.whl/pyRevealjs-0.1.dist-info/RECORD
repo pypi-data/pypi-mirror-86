@@ -1,0 +1,12 @@
+pyRevealjs/__init__.py,sha256=_boSGkCnEUJMAAJ_oWcvFzaIwWTfofqBtl4c8o24B3w,178
+pyRevealjs/presentation.py,sha256=6q6qr6EAKA_Z0h0jCgl5prqcnyQkfSNPvAg_6UP0aZQ,5538
+pyRevealjs/slide.py,sha256=4dcazwl6xy5xyzTpwqd39v3IFhUbt-hf6Fto2kzRgDI,2940
+pyRevealjs/slideGenerator.py,sha256=YEhPZBb-ru1Ea7Nmj4DVvUjKXLs6CW0WZBCuz2pA2Xs,5339
+pyRevealjs/slides.py,sha256=72Q7BsV2_zNiEI8pRSCuiMrRcJNG7zTGxqgy4IYYax0,8077
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_presentation.py,sha256=JEwXWnu919dlydD1Ef3d6E3hgZMDVFMRfmpSA_9cPno,3050
+pyRevealjs-0.1.dist-info/LICENSE,sha256=KDzeL3-Bw8ppttbdoDIQIwakQYj6V-DoNTwER4iqIQs,1083
+pyRevealjs-0.1.dist-info/METADATA,sha256=JewN-IkT0EyJe345R2asXwP5D_ylfo5mkAYZ5ReZUEY,4667
+pyRevealjs-0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pyRevealjs-0.1.dist-info/top_level.txt,sha256=e8LMdEUGIIDYh-cjCp9VNZG1L0f5GDvJMGputb5HjgU,17
+pyRevealjs-0.1.dist-info/RECORD,,
