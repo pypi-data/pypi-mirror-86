@@ -1,0 +1,11 @@
+eslite_movie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eslite_movie/cli.py,sha256=lX0LlOmLntJ8_BKIBnLLGIoTscJx5bOdVFLco77Em2o,879
+eslite_movie/const.py,sha256=Rm4BY6jBbEyu5fOGxF5r-m5_ci7Z7I6XCWJHLmgRHgk,220
+eslite_movie/crawler.py,sha256=4w_GCyNiNzRUvOpCkFOHktdoxXHQPtpujqZf2pG3AeA,2495
+eslite_movie/main.py,sha256=dIzLEvct7ksh6n204KuZ2x_qMBZARqUUmZVrPe6XwTM,218
+eslite_movie-0.0.1.dist-info/LICENSE,sha256=oEhK3uwdxCKqFuc4pnwEy-gROdT9dWH8zdHkv0kh1N0,1389
+eslite_movie-0.0.1.dist-info/METADATA,sha256=gZ8feOolmL9HGhaKSE4Xbx2XCR7rSIWJqqdIbGTXt8E,582
+eslite_movie-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eslite_movie-0.0.1.dist-info/entry_points.txt,sha256=MFVeZ8cDgDpIF0Ii7hi6CgJRuwNtAv1DQXMFwCLn2uU,56
+eslite_movie-0.0.1.dist-info/top_level.txt,sha256=SGI7O_4Y_R4N3493u3X-gFsW7LY9pRZ6Ay4cS_0bbN0,13
+eslite_movie-0.0.1.dist-info/RECORD,,
