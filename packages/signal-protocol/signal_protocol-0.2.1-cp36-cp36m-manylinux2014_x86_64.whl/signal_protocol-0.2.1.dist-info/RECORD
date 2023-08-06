@@ -1,0 +1,10 @@
+signal_protocol.cpython-37m-darwin.so,sha256=QtsDIo1tI8kC_689fac2HTDksjv2gb5noJE7luEnPjI,1994344
+signal_protocol-0.2.1.dist-info/RECORD,,
+signal_protocol-0.2.1.dist-info/top_level.txt,sha256=KLmcbjwTTXLS9-7rYQ5qcPs28vTL8Yx_qebWWdsMsu0,16
+signal_protocol-0.2.1.dist-info/METADATA,sha256=cX3w_d9xH9rt4ZqbCujPmT2k1bZWkZhXSZ2nJG5Mctg,4012
+signal_protocol-0.2.1.dist-info/WHEEL,sha256=reTOSG8SSJaVgE7FZ0Uh6utUuTQncfNeLSK1omCzPC8,112
+signal_protocol-0.2.1.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+signal_protocol/__init__.py,sha256=n7_1bbb1zyNf1GRBAvU_WawbJq_5MV1Cu6SR5Uu9Nvo,31
+signal_protocol/signal_protocol.cpython-35m-x86_64-linux-gnu.so,sha256=OvHcvLHd7umoSuyD0pfs-2xhgH6QFnkrImF1Nm-7uJQ,5064160
+signal_protocol/signal_protocol.cpython-36m-x86_64-linux-gnu.so,sha256=zNIAmUrhUZDuxyQb6pqwlTMSbotTKDM9VeWZW8oBSyc,5063648
+signal_protocol/signal_protocol.cpython-37m-darwin.so,sha256=JDuhLJofZspvF4WIoiSIY2ISvPhiNFfFdRWYLGT3qTI,1990080
