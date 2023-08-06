@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fastapi-mqtt
+Version: 0.0.1
+Summary: fastapi-mqtt is client for MQTT protocol
+Home-page: https://github.com/sabuhish/fastapi-mqtt
+Author: Sabuhi Shukurov
+Author-email: sabuhi.shukurov@gmail.com
+License: MIT
+Download-URL: https://github.com/sabuhish/fastapi-mqtt
+Project-URL: Bug Reports, https://github.com/sabuhish/fastapi-mqtt/issues
+Project-URL: Say Thanks!, https://github.com/sabuhish/fastapi-mqtt/graphs/contributors
+Project-URL: Source, https://github.com/sabuhish/fastapi-mqtt
+Keywords: fastapi-mqtt,fastapimqtt
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gmqtt (>=0.6.8)
+Requires-Dist: pydantic (>=1.7.2)
+Requires-Dist: fastapi (>=0.61.2)
+
+# fastapi-mqtt
+
+MQTT is a lightweight publish/subscribe messaging protocol designed for M2M (machine to machine) telemetry in low bandwidth environments. Fastapi-mqtt  is the client for working with MQTT. For more information about MQQT, please refer to here:  [MQTT](MQTT.md)
+
+
+
+
