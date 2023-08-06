@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pytdb-cc
+Version: 0.0.5
+Summary: Wrapper over pytdb cc lib. A fast & minimalistic C++ time-series DB.
+Home-page: https://github.com/PiotrDabkowski/pytdb
+Author: Piotr Dabkowski
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
+
