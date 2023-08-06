@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dualstudent-asr
+Version: 0.1.2
+Summary: Dual Student for Automatic Speech Recognition
+Home-page: https://github.com/franco-ruggeri/dt2119-dualstudent-asr
+Author: Franco Ruggeri, Andrea Caraffa, Kevin Dalla Torre Castillo, Simone Porcu
+Author-email: fruggeri@kth.se, caraffa@kth.se, kevindt@kth.se, porcu@kth.se
+License: GPL
+Description: # Dual Student for Automatic Speech Recognition
+        Dual Student is a semi-supervised learning algorithm originally introduced for image classification by Ke et al. In this work, we implement, validate and extend it for Automatic Speech Recognition (ASR). See the [report](https://github.com/franco-ruggeri/dt2119-dualstudent-asr/blob/master/docs/report.pdf) for more details. This project is part of the course DT2119 Speech and Speaker Recognition at KTH.
+        
+        ## How to install
+        ```
+        pip install dualstudent-asr
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
