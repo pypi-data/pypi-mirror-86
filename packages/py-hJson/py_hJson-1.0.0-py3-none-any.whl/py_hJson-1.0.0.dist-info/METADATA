@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: py-hJson
+Version: 1.0.0
+Summary: A package for handling json files
+Home-page: https://github.com/Tim232/hJson
+Author: Tim232
+Author-email: endbot4023@gmail.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# hJson
+
+A package for handling json files
+
+Example : 
+```py
+import hJson
+
+data = hJson.load('example.json')
+print(data)
+print()
+
+data['test'] = 100
+data = hJson.save('example.json', data)
+print(data)
+print()
+
+check = hJson.check('example.json')
+print(check)
+```
+
+Output : 
+```
+{
+    'test' : 0
+}
+
+{
+    'test' : 100
+}
+
+True
+```
+
