@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kfinny.cachedvt
+Version: 3.0.0
+Summary: An extension of vt-py supporting local file cache
+Home-page: https://github.com/kfinny/cached-virustotal-api
+Author: Kevin Finnigin
+Author-email: kevin@finnigin.net
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
