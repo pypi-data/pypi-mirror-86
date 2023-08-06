@@ -1,0 +1,9 @@
+astropy
+pyo
+thinkx
+
+[docs]
+sphinx-astropy
+
+[test]
+pytest-astropy
