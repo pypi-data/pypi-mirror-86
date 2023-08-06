@@ -1,0 +1,6 @@
+{
+  "test.py::TestColors": true,
+  "test.py::TestColors::test_named_colors": true,
+  "test.py::TestsIris": true,
+  "test.py::TestsIris::test_sklearn_consistentcy": true
+}
