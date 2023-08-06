@@ -1,0 +1,8 @@
+mjpeg/__init__.py,sha256=9yt1dnXayLWEphmyl_M6xJoCJ43cwdg70EdBJwlVIDw,5179
+mjpeg/client.py,sha256=GQ3EECV6QgFLEA5nbEmvcwtBWDnP0EFDIj9ap293dWI,5224
+mjpeg/server.py,sha256=84mF3HDutU7Pse_fDSKlgL7MUfY09yz3oGZ1dWg7F9s,509
+py_mjpeg-1.0.0.dist-info/LICENSE,sha256=GEMT6N9MkHxg1IDxQBEKS8BgBzKINYr3fYrDy-MAtL8,1075
+py_mjpeg-1.0.0.dist-info/METADATA,sha256=JTR_khqo_wo8birjQ1-MlNFZ1rFfB9NLgqOYbXXIn2U,3984
+py_mjpeg-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+py_mjpeg-1.0.0.dist-info/top_level.txt,sha256=Z9jaaJ_QYThNxW121BF0NPwMzIXoj7IB0qX9MYW-tkI,6
+py_mjpeg-1.0.0.dist-info/RECORD,,
