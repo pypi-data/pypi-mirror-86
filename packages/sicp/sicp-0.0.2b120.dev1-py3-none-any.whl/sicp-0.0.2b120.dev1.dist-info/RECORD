@@ -1,0 +1,17 @@
+sicp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sicp/__main__.py,sha256=FkqD63oJs0pZuAWbgVHtc_IiXzz_4yQJl9oZRKLNSHY,272
+sicp/build.py,sha256=rY8CTfddkbG7wG3EVaaR76gFXJuI_bJMnLb0k2kr8Tk,1655
+sicp/clone.py,sha256=ZoXIfM_uAy3sgM75uQOENF7KSJp5ghjlPbKU0uD2cFo,1491
+sicp/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sicp/common/course_config.py,sha256=HHe-jZhYeYS3O8A3Dj5hu5qyaGpUCz8wscJnmbhTwTQ,1567
+sicp/common/db.py,sha256=ie5yq5Pfe37SICeiYIZz8aSABdH_xwe578hsrZekKq8,2141
+sicp/common/jobs.py,sha256=Tn93notRNKvjpqxFoPGeEzGqmXCY6HuD9-6xeYTMaCE,430
+sicp/common/oauth_client.py,sha256=cBIauD1_pQcqwwnA1NZzJC-O-KZsFEdSxAWr_efMY_E,4031
+sicp/common/secrets.py,sha256=uez4PbwdCwldvJteZexSSl1JnV8FVhfjVDSpSy1pjsU,88
+sicp/common/shell_utils.py,sha256=DEEmOh1lI-HQh5coxOdjIXsVE0b7dTVI0YlTjpAJCfM,1180
+sicp/common/url_for.py,sha256=5L1ZSKQPBMmVD-1495ie41ewfq3ddIuHCrLgwWYr2LE,502
+sicp-0.0.2b120.dev1.dist-info/METADATA,sha256=H4abMmyBL9dE5mdacQ3wt1akGLVLfTXMiBj18JY_qc8,424
+sicp-0.0.2b120.dev1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sicp-0.0.2b120.dev1.dist-info/entry_points.txt,sha256=IaUNOfYJDu4V1FvrRZRHP70arATlDG0NFLTeyWj9w2o,44
+sicp-0.0.2b120.dev1.dist-info/top_level.txt,sha256=qbcqrp-lw0cUvTJQVhqmim3An4BzmKO_q1sRdQZ8aWU,5
+sicp-0.0.2b120.dev1.dist-info/RECORD,,
