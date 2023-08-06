@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: planning
+Version: 0.0.1
+Summary: Planning algorithms
+Home-page: https://github.com/brean/python-planning
+Author: Andreas Bresser
+License: BSD-3
+Description: # python-planning
+        Planning algorithms in python
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
