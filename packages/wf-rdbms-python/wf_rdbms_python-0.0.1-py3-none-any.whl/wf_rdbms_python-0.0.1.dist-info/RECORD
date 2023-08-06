@@ -1,0 +1,9 @@
+wf_rdbms/__init__.py,sha256=fC3hsDmwgXf1aRWRxptDpp50OI3Ie7WwazdhcwGXSuw,32
+wf_rdbms/database.py,sha256=6VUCleQ7190z0aZgioi2eWYiN32jONXkyj7WAZ42A9Y,10373
+wf_rdbms/database_pandas.py,sha256=0qu4N4mRyDqvgWLRNpbk2Ierv7qzS30GB3vQLL1yXNc,3045
+wf_rdbms/utils.py,sha256=z34wqAOnJz6po7qUQZrBba7-qyLS2BWcUGWQx7d6PVY,196
+wf_rdbms_python-0.0.1.dist-info/LICENSE,sha256=VV4EHqsjRsZIw9RC6SYL63Tm9kzPQsYaZn7a1cT9X3w,1088
+wf_rdbms_python-0.0.1.dist-info/METADATA,sha256=_x8JAtFfD2tSkGSGqc_u_7XoKG8qAuqJgHKCZH-vtdY,1750
+wf_rdbms_python-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wf_rdbms_python-0.0.1.dist-info/top_level.txt,sha256=qG_eoXMCQfDujJUHdiGbMOqcI2Pi40j3BgYjykIBkwo,9
+wf_rdbms_python-0.0.1.dist-info/RECORD,,
