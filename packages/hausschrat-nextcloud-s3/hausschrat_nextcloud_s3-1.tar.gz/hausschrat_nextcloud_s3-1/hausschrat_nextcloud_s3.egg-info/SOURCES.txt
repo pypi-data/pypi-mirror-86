@@ -1,0 +1,8 @@
+README.md
+setup.py
+hausschrat_nextcloud_s3/hausschrat_nextcloud_s3.py
+hausschrat_nextcloud_s3.egg-info/PKG-INFO
+hausschrat_nextcloud_s3.egg-info/SOURCES.txt
+hausschrat_nextcloud_s3.egg-info/dependency_links.txt
+hausschrat_nextcloud_s3.egg-info/top_level.txt
+hausschrat_nextcloud_s3.egg-info/zip-safe
