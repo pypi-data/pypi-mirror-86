@@ -1,0 +1,16 @@
+pygeom/__init__.py,sha256=Gu_3cmoIuu_LJ6LAAHpaT8k3PL_ZKr2C_TVgSTuOdC8,315
+pygeom/axes.py,sha256=Cahbw7vSkQWGEQCHN4lN79bTJSd9HUg-6e5FbpyqXOk,3153
+pygeom/ellipse.py,sha256=PmEQIp0u6M0Z02GcqoDaVRaluCZttrfwtp5o9Gd6EXA,3240
+pygeom/line.py,sha256=TVmbPR7pBi69-gBVqMGGeREDlJB2lu0WE6zPDY6kQDU,2344
+pygeom/point.py,sha256=fSi-_VE900zmTKe3TAYCVRtDfx9SgOIFLMlZT4DOaR0,1394
+pygeom/polygon.py,sha256=TwDjcnO7C5Cy12cK18xi0HWEmo7osL_tYZMg-TiPPHg,1051
+pygeom/rectangle.py,sha256=L0OeH55ec8ranubR9Vqf6HZUEDcCMlJ42rt4siJnOLA,1166
+pygeom/segment.py,sha256=_YihrHJ6MnXNiktHbICA-IBhl__PVztW92hAk_qOwsw,1032
+pygeom/triangle.py,sha256=5xM3vciYJv_3cr81ogj_VK0exP_4dAyPHhYLOpRtZu4,998
+pygeom/util.py,sha256=PDt9bj_KmqbCRnGfi0MHlizrGZOAFTOsankuLjxJGos,1396
+pygeom/vector.py,sha256=lsmsagbreOTsFrneiK7vMlO3osfdHsiPm1qC1d4MFs4,2410
+pyGeom2D-0.1.1.dist-info/LICENSE,sha256=NMMWR57qcbjt5VDVitnGP10PC_ZcqlFTXlIGSgdrpe4,1058
+pyGeom2D-0.1.1.dist-info/METADATA,sha256=qjGCnAy0dxyP9HaDT4aINr-cT3Q2_QBHOIiJtIjC9_s,2687
+pyGeom2D-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyGeom2D-0.1.1.dist-info/top_level.txt,sha256=N4j9ekef1va2QuCkyeNT-M6ubLSAWIPpgY2SCPgjwgY,7
+pyGeom2D-0.1.1.dist-info/RECORD,,
