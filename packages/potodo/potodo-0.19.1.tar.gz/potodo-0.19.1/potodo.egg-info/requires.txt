@@ -1,0 +1,4 @@
+polib
+requests
+simple-term-menu
+gitignore_parser
