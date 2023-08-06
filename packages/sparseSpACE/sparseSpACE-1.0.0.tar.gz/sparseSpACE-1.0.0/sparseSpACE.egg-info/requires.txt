@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+dill
+scikit-learn
+chaospy
+sympy
