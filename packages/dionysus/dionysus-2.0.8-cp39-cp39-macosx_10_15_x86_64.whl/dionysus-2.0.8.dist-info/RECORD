@@ -1,0 +1,13 @@
+dionysus/__init__.py,sha256=ha4J1hvj5CDyJza6wEvsecB4_AL_lDkqZIe3AL1yoy4,2769
+dionysus/_dionysus.cpython-39-darwin.so,sha256=bnUG_zcXpccs3KNnZal4axnB7m0ys73-mzAJsuIVD9U,878632
+dionysus/_version.py,sha256=5WQnQpuVEgeLurHzGlEVzZ7-vu1z1sMydP-x1dUsZvo,72
+dionysus/plot.py,sha256=mzjwJwgwtnnNpXRYf_iDxaNaOYb0ZaxKjV1ZTv2UjUw,4580
+dionysus/__pycache__/__init__.cpython-37.pyc,sha256=sRM_kx-EH0jYr5j__PMdkDW5Ymj6jOsUgDGMc85zxlM,3002
+dionysus/__pycache__/_version.cpython-37.pyc,sha256=lPOcRiJ8CYYVn2qaCJJSzolLp95tBSBj2ZT502EUbMU,243
+dionysus/__pycache__/_version.cpython-39.pyc,sha256=amw2O0lf-eWd-cSVQ3p68DOE3ljf4mWa2LZGuVrvlxw,247
+dionysus-2.0.8.dist-info/LICENSE.txt,sha256=3yGgWwEun4ZptXZFzaVjO8AuQuQtMwOQAwIzhHKnYr0,2419
+dionysus-2.0.8.dist-info/METADATA,sha256=Cd4P5C1RwhOI8PHDFzAARGXf2BuXaHw378KuxvkNaCM,4526
+dionysus-2.0.8.dist-info/NOTICES.txt,sha256=onblNSJL2wQDlVTNuqBbjd-bWKh-sYR1RPi2UUtWFM8,7527
+dionysus-2.0.8.dist-info/WHEEL,sha256=WO4o60shExe_A5pkiO6Yb-8OHLGhlAGcs2oJ7aUuE5Q,110
+dionysus-2.0.8.dist-info/top_level.txt,sha256=jtuTZg11Qqiheat6-YWhtKX05D8XCx2AokEv9C5OeVQ,9
+dionysus-2.0.8.dist-info/RECORD,,
