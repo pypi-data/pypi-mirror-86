@@ -1,0 +1,16 @@
+vaex/astro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vaex/astro/_version.py,sha256=FA8pFM24xwJnWdHs24a2sBB1MOaNjq8SNmoyoWbEFE0,67
+vaex/astro/astropy_table.py,sha256=2DFMZE8_R4LRVBV5ssYzZrJ0lx-_PAr8YIfzJvUYUFI,1734
+vaex/astro/export.py,sha256=WR8b4vv4sRqj4H4MPLUdSBblk34C5MLyv5RQYZNX9Oc,9690
+vaex/astro/fits.py,sha256=w8KXG0NF7ckyu21Dsyc1f2PlXaxQ4nKjcv-XszAA36k,16171
+vaex/astro/gadget.py,sha256=0DQODdmYhsfxUqRqusmO-021z6WQP02B_HRuvdrJwc8,2808
+vaex/astro/legacy.py,sha256=7pTkB7zItYeblpu0iE4YjdP7xr6mQyXbzQICjOSiJ5w,4997
+vaex/astro/tap.py,sha256=bFkkSgl3roDKGKQ687i5XWi16TNTitOcBG4FLsoOEMM,8167
+vaex/astro/transformations.py,sha256=3mwATcGw2UQpjhOMGoLSmEd4rBtigu3OOmrkrupppWQ,19420
+vaex/astro/votable.py,sha256=9s0tNdIs1uMdS2ZE2DSZdb7BC1QDy4nK9J-LQAFhRWg,1539
+vaex_astro-0.8.0.dev1.dist-info/LICENSE.txt,sha256=Ub-0nSwxfezlH092uDbwZqynm9i5wq353cMYNPy5OqY,1087
+vaex_astro-0.8.0.dev1.dist-info/METADATA,sha256=ZbQiFbtp_iET1Ez9iwg82PKCsyOgXxPDqfskP0Nc9xs,335
+vaex_astro-0.8.0.dev1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+vaex_astro-0.8.0.dev1.dist-info/entry_points.txt,sha256=1_ccSvE0jSE7U3nkZ5ByLt3IfLxoP_jRxFCML_OOnU0,311
+vaex_astro-0.8.0.dev1.dist-info/top_level.txt,sha256=BTcHbKEpfXqVlITrjFEtm95UDejFyYXslGl9YUqTIpc,5
+vaex_astro-0.8.0.dev1.dist-info/RECORD,,
