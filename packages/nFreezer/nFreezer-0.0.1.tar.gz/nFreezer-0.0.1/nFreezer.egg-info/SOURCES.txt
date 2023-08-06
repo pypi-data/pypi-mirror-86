@@ -1,0 +1,11 @@
+LICENSE
+README.md
+nfreezer.py
+setup.cfg
+setup.py
+nFreezer.egg-info/PKG-INFO
+nFreezer.egg-info/SOURCES.txt
+nFreezer.egg-info/dependency_links.txt
+nFreezer.egg-info/entry_points.txt
+nFreezer.egg-info/requires.txt
+nFreezer.egg-info/top_level.txt
