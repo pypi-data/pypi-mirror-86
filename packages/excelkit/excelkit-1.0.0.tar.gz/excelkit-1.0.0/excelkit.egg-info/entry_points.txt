@@ -1,0 +1,6 @@
+[console_scripts]
+excel-build = excelkit.bin.main:build_cli
+excel-concat = excelkit.bin.main:concat_cli
+excel-parse = excelkit.bin.main:parse_cli
+excelkit = excelkit.bin.main:main
+

@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: excelkit
+Version: 1.0.0
+Summary: A ToolKit to Operate Excel File
+Home-page: https://github.com/suqingdong/excelkit
+Author: suqingdong
+Author-email: 1078595229@qq.com
+License: BSD License
+Project-URL: Documentation, https://excelkit.readthedocs.io
+Project-URL: Tracker, https://github.com/suqingdong/excelkit/issues
+Description: # A ToolKit to Operate Excel File
+        ---
+        
+        ## Installation
+        ```
+        pip install excelkit
+        ```
+        
+        ## Tools
+        ### **`parse`** - parse excel file
+        ```bash
+        excelkit parse --help
+        # or
+        excel-parse --help
+        
+        
+        excel-parse demo.xlsx
+        
+        excel-parse demo.xlsx -o out.tsv
+        
+        excel-parse demo.xlsx -O table
+        
+        excel-parse demo.xlsx -O table --color red
+        
+        excel-parse demo.xlsx -O json --indent 2
+        
+        excel-parse demo.xlsx -O json --indent 2 --header
+        
+        excel-parse demo.xlsx --pager 
+        ```
+        
+        
+        ### **`build`** - build excel file
+        ```bash
+        excelkit build --help
+        # or
+        excel-build --help
+        
+        
+        excel-build demo/genelist demo/hsa00010.conf
+        
+        excel-build demo/genelist demo/hsa00010.conf -o kegg.xlsx
+        
+        excel-build demo/genelist demo/hsa00010.conf -o kegg.xlsx -s GENE,KEGG
+        
+        excel-build demo/genelist demo/hsa00010.conf -h
+        
+        excel-build demo/genelist demo/hsa00010.conf -hs
+        
+        excel-build demo/genelist demo/hsa00010.conf -hs -bs
+        
+        cat demo/genelist | excel-build
+        ```
+        
+        ### **`concat`** - concat excel files
+        ```bash
+        excelkit concat --help
+        # or
+        excel-concat --help
+        
+        examples:
+        
+        excel-concat input1.xlsx input2.xlsx -o out.xlsx
+        
+        excel-concat input1.xlsx input2.xlsx -o out.xlsx --keep-fmt
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

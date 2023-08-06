@@ -1,0 +1,8 @@
+{
+    "prog": "excelkit",
+    "desc": "A ToolKit to Operate Excel File",
+    "version": "1.0.0",
+    "author": "suqingdong",
+    "author_email": "1078595229@qq.com",
+    "build_time": "2020-11-26"
+}
