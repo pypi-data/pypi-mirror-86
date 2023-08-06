@@ -1,0 +1,5 @@
+{
+    "users": [{"name": "carl", "id": 1}, {"name": "paul", "id": 2}],
+    "groups": [{"name": "admin", "gid": 1}, {"name": "staff", "gid": 2}],
+    "logs": ["aaa", "bbb", "ccc"]
+}
