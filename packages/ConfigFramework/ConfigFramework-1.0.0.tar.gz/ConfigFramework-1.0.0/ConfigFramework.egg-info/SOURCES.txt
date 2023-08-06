@@ -1,0 +1,7 @@
+README.md
+setup.py
+ConfigFramework.egg-info/PKG-INFO
+ConfigFramework.egg-info/SOURCES.txt
+ConfigFramework.egg-info/dependency_links.txt
+ConfigFramework.egg-info/requires.txt
+ConfigFramework.egg-info/top_level.txt
