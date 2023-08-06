@@ -1,0 +1,4 @@
+fastcore>=1.0.5
+torch>=1.7.0
+torchvision>=0.8
+matplotlib
