@@ -1,0 +1,3 @@
+include README.md
+include stef/Dockerfile
+include stef/scripts/*
