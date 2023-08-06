@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: platform_permission
+Version: 1.0.0
+Summary: Library permission
+Home-page: https://gitlab.com/the-platform1/lib_permission
+Author: Phattara Kiantong
+Author-email: yondaimae1429@gmail.com
+License: MIT
+Download-URL: https://gitlab.com/the-platform1/lib_permission/-/archive/1.0.0/lib_permission-1.0.0.tar.gz
+Description: **Library permission for project**
+        ==================================
+        
+        Library utility for platform project.
+        
+        Versioning
+        ----------
+        
+        -  1.0.0
+        
+        Authors
+        -------
+        
+        -  **yondaimae1429**
+        
+        
+Platform: UNKNOWN

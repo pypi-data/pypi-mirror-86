@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+permissionlibrary/__init__.py
+permissionlibrary/crudpermission.py
+platform_permission.egg-info/PKG-INFO
+platform_permission.egg-info/SOURCES.txt
+platform_permission.egg-info/dependency_links.txt
+platform_permission.egg-info/top_level.txt
