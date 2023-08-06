@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+aries_askar/__init__.py
+aries_askar/bindings.py
+aries_askar/error.py
+aries_askar/store.py
+aries_askar/types.py
+aries_askar/version.py
+aries_askar.egg-info/PKG-INFO
+aries_askar.egg-info/SOURCES.txt
+aries_askar.egg-info/dependency_links.txt
+aries_askar.egg-info/top_level.txt
