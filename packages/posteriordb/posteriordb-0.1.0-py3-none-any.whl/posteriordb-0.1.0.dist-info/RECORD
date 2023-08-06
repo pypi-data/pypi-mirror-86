@@ -1,0 +1,13 @@
+posteriordb/__init__.py,sha256=8UpRN3iyfh7Iunw9uRUANTSnbbiiCmH1osYTHlQo2cs,73
+posteriordb/dataset.py,sha256=I_YztCG-6IEtJ_MAK2vZGVWCBEAxBqgwxK8JXDJwJNI,1309
+posteriordb/model.py,sha256=CtFhPJ6Op1jec_40Bp__n0DkeZlZEN7E_Ea4NTigYIo,1668
+posteriordb/model_implementation_base.py,sha256=C44WseVhxlpHEYS4eRpxExSEp_QFnuaNhnrp8AYUgM8,142
+posteriordb/posterior.py,sha256=_vMKwLfFzGt8dJY9jhn8rIMsJlUhxSxTEJH-U5htmlE,1293
+posteriordb/posterior_database.py,sha256=xwNvFAzCPsAvwzlN42DqSVM_ytc2q2UafpxBbhfsK9w,4618
+posteriordb/pymc3_model_implementation.py,sha256=ny6H7MORGB8hegANbZmVdMFRpgv9uQtkl3Es8ufpAcE,1138
+posteriordb/stan_model_implementation.py,sha256=iZWXhTRH22tXnC1BR08EuicO18yuaAVbAW23p49Wq0g,560
+posteriordb/util.py,sha256=-O0xNV4AeYdg54vQGxf3BhtuTsg46JARa2B27-6_U-Y,208
+posteriordb-0.1.0.dist-info/METADATA,sha256=40RC6s-qlz2yyncNWXgw4IItNQ4XNLJM4ORhvBfmWGc,248
+posteriordb-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+posteriordb-0.1.0.dist-info/top_level.txt,sha256=3Z2qNneZLCjJAQAaDmVcc1ZekbKd7CuHXLAC7RigUcM,12
+posteriordb-0.1.0.dist-info/RECORD,,
