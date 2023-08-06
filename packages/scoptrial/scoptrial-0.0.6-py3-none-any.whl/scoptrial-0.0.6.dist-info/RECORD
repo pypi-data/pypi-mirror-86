@@ -1,0 +1,11 @@
+scoptrial/__init__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+scoptrial/_nbdev.py,sha256=Le7nzWKyvYjjpz0R917vnGrmLmDeOyS3yVh4LsRgMvM,580
+scoptrial/core.py,sha256=nHJRmrNLZ-Mpi-4HwSpAeNEpac0AaSpQ6BcRUVEupaE,101
+scoptrial/scop.py,sha256=bSjL4eu4s0yK9eO6VwRn8dA_Bm8QjJqHHQQkWUPV4lQ,25152
+scoptrial-0.0.6.dist-info/.ipynb_checkpoints/SOURCES-checkpoint.txt,sha256=_2EUP_3CzeRcNYzsCCvHsewRJyo1VvoxR0CQ8XoGzGY,345
+scoptrial-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scoptrial-0.0.6.dist-info/METADATA,sha256=vcKJdregnn9ef5nPXTfx3CCndx2E2GxlfYp4Fgxdhzo,2519
+scoptrial-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scoptrial-0.0.6.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+scoptrial-0.0.6.dist-info/top_level.txt,sha256=Ou6vU4G5WOzlzATdeViqWvqLuokubhBI5bbCvBbXv8E,10
+scoptrial-0.0.6.dist-info/RECORD,,

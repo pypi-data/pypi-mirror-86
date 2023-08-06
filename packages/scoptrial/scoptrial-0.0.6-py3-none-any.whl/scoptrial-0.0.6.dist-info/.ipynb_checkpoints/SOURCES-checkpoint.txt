@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+scoptrial/__init__.py
+scoptrial/_nbdev.py
+scoptrial/core.py
+scoptrial/scop.py
+scoptrial.egg-info/PKG-INFO
+scoptrial.egg-info/SOURCES.txt
+scoptrial.egg-info/dependency_links.txt
+scoptrial.egg-info/entry_points.txt
+scoptrial.egg-info/not-zip-safe
+scoptrial.egg-info/top_level.txt
