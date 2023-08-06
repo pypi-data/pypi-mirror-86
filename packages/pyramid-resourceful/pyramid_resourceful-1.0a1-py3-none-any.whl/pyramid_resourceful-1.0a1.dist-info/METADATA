@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyramid-resourceful
+Version: 1.0a1
+Summary: Resourceful routes & views for Pyramd
+Home-page: https://github.com/wylee/pyramid_resourceful
+License: MIT
+Keywords: REST,resource,Pyramid,SQLAlchemy,Web
+Author: Wyatt Baldwin
+Author-email: self@wyattbaldwin.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Pyramid
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: dataclasses; python_version == "3.6"
+Requires-Dist: pyramid
+Project-URL: Repository, https://github.com/wylee/pyramid_resourceful
+Description-Content-Type: text/plain
+
+
