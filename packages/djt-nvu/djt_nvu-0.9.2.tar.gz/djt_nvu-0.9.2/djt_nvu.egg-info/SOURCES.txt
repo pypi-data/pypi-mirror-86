@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+djt_nvu/__init__.py
+djt_nvu/panel.py
+djt_nvu.egg-info/PKG-INFO
+djt_nvu.egg-info/SOURCES.txt
+djt_nvu.egg-info/dependency_links.txt
+djt_nvu.egg-info/not-zip-safe
+djt_nvu.egg-info/requires.txt
+djt_nvu.egg-info/top_level.txt
+djt_nvu/templates/debug/validator.html
