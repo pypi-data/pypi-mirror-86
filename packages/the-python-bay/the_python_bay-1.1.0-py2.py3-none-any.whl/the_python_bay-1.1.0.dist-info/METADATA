@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: the-python-bay
+Version: 1.1.0
+Summary: A simple package for searching thepiratebay.org
+Home-page: https://github.com/philhabell/the-python-bay
+Author: Phil Bell
+Author-email: philhabell@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# the-python-bay
+
+Python library for searching thepiratebay.org
+
+## Install
+
+    pip install the-python-bay
+
+## Usage
+
+```
+from the_python_bay import tpb
+
+tpb.search("ubuntu")
+```
+
+This will return the results in a JSON format.
+
