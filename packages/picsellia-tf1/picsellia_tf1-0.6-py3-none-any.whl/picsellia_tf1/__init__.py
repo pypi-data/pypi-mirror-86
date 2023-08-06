@@ -1,0 +1,11 @@
+import sys
+import os 
+from setuptools import find_packages
+import picsellia_tf1
+for p in find_packages(where=picsellia_tf1.__path__[0]):
+    sys.path.append(os.path.join(picsellia_tf1.__path__[0],p.replace('.','/')))
+
+sys.path.append(picsellia_tf1.__path__[0])
+sys.path.append(os.path.join(picsellia_tf1.__path__[0],'object_detection'))
+sys.path.append(os.path.join(picsellia_tf1.__path__[0],'slim'))
+
