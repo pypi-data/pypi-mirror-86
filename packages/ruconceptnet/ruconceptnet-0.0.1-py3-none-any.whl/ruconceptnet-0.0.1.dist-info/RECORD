@@ -1,0 +1,11 @@
+ruconceptnet/__init__.py,sha256=sJnsn3KtdCc8l0aZTbMhfPT3O1xRSVGMiW2f080K6gw,201
+ruconceptnet/conceptnet.py,sha256=6e_tsdQQuqvCyM3Ue8XMzOg1LgkITjKQU9IySCRHDPA,2888
+ruconceptnet/meta.py,sha256=wG8Cul1EjtVwwcHHVnyhyI1QL4M1d_kRTTmiRacas5w,233
+ruconceptnet/sparse_representation.py,sha256=L__EZ2ceDaxnmQM7vpzyO7TKwECkAQwroVFKEKAaI0k,1695
+ruconceptnet/data/__init__.py,sha256=7DxiEpT1g6hMwW1hBF17OOFRJ3DW03giEu6rgvRCTHY,17
+ruconceptnet/data/russian-conceptnet.pickle.bz2,sha256=TYJi4FAsCH89ixOH1bT3X9T2NZf4bz4eDL1MeBhy7vQ,5112032
+ruconceptnet-0.0.1.dist-info/LICENSE,sha256=r3h7vN5733xgt3V2VpeVCMWIHY-tsERqUbXmqsEne6U,1090
+ruconceptnet-0.0.1.dist-info/METADATA,sha256=nQNuTP_rsUCB1kIbMqUZdCOEuVdwUd3tuBnTliRck4E,2889
+ruconceptnet-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+ruconceptnet-0.0.1.dist-info/top_level.txt,sha256=WlZwaXsVspwqCd3ZyhsOXUlABNcy_3DKY9tqXSr5nn8,13
+ruconceptnet-0.0.1.dist-info/RECORD,,
