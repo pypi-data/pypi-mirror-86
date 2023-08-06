@@ -1,0 +1,11 @@
+README.md
+setup.py
+kalliopepbx/Auth.py
+kalliopepbx/Session.py
+kalliopepbx/__init__.py
+kalliopepbx/utils.py
+kalliopepbx.egg-info/PKG-INFO
+kalliopepbx.egg-info/SOURCES.txt
+kalliopepbx.egg-info/dependency_links.txt
+kalliopepbx.egg-info/requires.txt
+kalliopepbx.egg-info/top_level.txt
