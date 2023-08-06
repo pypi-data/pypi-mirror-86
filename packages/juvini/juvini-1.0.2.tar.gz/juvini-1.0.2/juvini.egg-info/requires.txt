@@ -1,0 +1,5 @@
+pandas
+itertools
+matplotlib
+seaborn
+warnings
