@@ -1,0 +1,12 @@
+simplelayout/__init__.py,sha256=iU7QZ9B9fFuT1xeS6LjV5gD-5M-4GAUwVc99rLSM-dQ,63
+simplelayout/__main__.py,sha256=bxHixbQkfnyDqkajw-fF_-ybkzvQAMWAHG3zM51Y_wQ,841
+simplelayout/cli/__init__.py,sha256=_GGPDm3oXDPVBvewfogyqd3DIRNjr_-eodAXtu6zeCQ,120
+simplelayout/cli/cli_generate.py,sha256=REHw5I-A40i1qMjYI-SgMuhKQ6lf7M5McVcZwh_MLFQ,1205
+simplelayout/generator/__init__.py,sha256=jwjZlv6O68MLseNVATuCoWmsk_AdLdZnXWT2UYsX04Y,287
+simplelayout/generator/core.py,sha256=QHO9SOl1dixwbGSay3CITQcgLzAT_q341PIu9rjT-Dg,1378
+simplelayout/generator/utils.py,sha256=-Ybs89e4ggYBrsHuKC73fDkBBIqhoPBletvHL2QLBrM,667
+simplelayout_Vincentius1990-0.0.1.dist-info/METADATA,sha256=HlTZyUl5y_zgFkIzTOKggsA4pGbT7ZEH7uGbvH76Lts,4293
+simplelayout_Vincentius1990-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+simplelayout_Vincentius1990-0.0.1.dist-info/entry_points.txt,sha256=64GML6zCwFjCvXxZ1N0cLt7rf2gp09Ts87dJC00Xd2I,52
+simplelayout_Vincentius1990-0.0.1.dist-info/top_level.txt,sha256=iFIi60UoADwVgRZlfkvG5r_zYD2rGEOll3P-m2Tj0Uw,13
+simplelayout_Vincentius1990-0.0.1.dist-info/RECORD,,
