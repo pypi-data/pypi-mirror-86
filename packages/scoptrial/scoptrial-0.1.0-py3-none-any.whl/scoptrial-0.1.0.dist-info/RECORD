@@ -1,0 +1,11 @@
+scoptrial/__init__.py,sha256=QiiYsv0kcJaB8wCWyT-FnI2b6be87HA-CrrIUn8LQhg,22
+scoptrial/_nbdev.py,sha256=Le7nzWKyvYjjpz0R917vnGrmLmDeOyS3yVh4LsRgMvM,580
+scoptrial/core.py,sha256=nHJRmrNLZ-Mpi-4HwSpAeNEpac0AaSpQ6BcRUVEupaE,101
+scoptrial/scop-linux,sha256=JQSoh_7MBPhVf8xuMqGRqFe3MpdrPnZap3k70rt8jFk,128087
+scoptrial/scop-mac,sha256=gtl1fpqUrggRW3Fv75a0ojpRUfwTHZvcq60-Njvs-r4,368372
+scoptrial/scop-win.exe,sha256=CmANcN3IfTimSeO2zZjoDLGEgZU1tTFuHTk93Nc8O54,320512
+scoptrial/scop.py,sha256=bSjL4eu4s0yK9eO6VwRn8dA_Bm8QjJqHHQQkWUPV4lQ,25152
+scoptrial-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scoptrial-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+scoptrial-0.1.0.dist-info/METADATA,sha256=iVwXO-TdRDK04HPDyv9Wku5NeN-y8w8bJtO63-RSoeA,494
+scoptrial-0.1.0.dist-info/RECORD,,
