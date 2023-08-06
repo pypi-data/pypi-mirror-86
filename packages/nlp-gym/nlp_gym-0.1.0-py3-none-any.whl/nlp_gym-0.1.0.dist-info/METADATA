@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nlp-gym
+Version: 0.1.0
+Summary: NLPGym - A toolkit for evaluating RL agents on Natural Language Processing Tasks
+Home-page: https://github.com/rajcscw/nlp-gym/
+Author: Rajkumar Ramamurthy
+Author-email: raj1514@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: nltk
+Requires-Dist: flair
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: tqdm
+Requires-Dist: edit-distance
+Requires-Dist: rich
+Requires-Dist: gym
+Requires-Dist: pytorch-nlp
+Requires-Dist: datasets
+Requires-Dist: wget
+Provides-Extra: demo
+Requires-Dist: tensorflow (==1.15.0) ; extra == 'demo'
+Requires-Dist: stable-baselines[mpi] ; extra == 'demo'
+
+UNKNOWN
+
+
