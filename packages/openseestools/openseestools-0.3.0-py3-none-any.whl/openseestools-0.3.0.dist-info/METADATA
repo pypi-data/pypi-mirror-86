@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: openseestools
+Version: 0.3.0
+Summary: Extensions to OpenSeesPy.
+Home-page: https://github.com/otaithleigh/OpenSeesTools
+Author: Peter Talley
+Author-email: ptalley2@vols.utk.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: attrs
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas (>=1.0)
+Requires-Dist: tabulate
+
+OpenSeesPy Extensions
++++++++++++++++++++++
+
+
+Requirements
+============
+
+- Python 3.7+
+- NumPy
+- OpenSeesPy
+
+
+Installation
+============
+
+Pip::
+
+    pip install openseestools
+
+Conda::
+
+    conda install -c otaithleigh openseestools
+
+
+Usage of most functionality requires a working installation of OpenSeesPy.
+
+
+Acknowledgments
+===============
+
+Based on tooling originally developed in MATLAB and Tcl by Dr. Mark Denavit.
+See `OpenSees-Tcl-Scripts`_ and `MATLAB-Library`_.
+
+
+.. _OpenSees-Tcl-Scripts: https://github.com/denavit/OpenSees-Tcl-Scripts
+.. _MATLAB-Library: https://github.com/denavit/MATLAB-Library
+
+
