@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: stardust
+Version: 0.0.1
+Summary: Stardust is micro web framework inspired by serveless and lambda deployments.
+Home-page: https://github.com/lukefx/stardust.git
+Author: Luca Simone
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

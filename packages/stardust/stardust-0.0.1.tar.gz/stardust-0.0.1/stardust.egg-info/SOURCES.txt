@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bin/stardust
+stardust/__init__.py
+stardust/stardust.py
+stardust.egg-info/PKG-INFO
+stardust.egg-info/SOURCES.txt
+stardust.egg-info/dependency_links.txt
+stardust.egg-info/requires.txt
+stardust.egg-info/top_level.txt
