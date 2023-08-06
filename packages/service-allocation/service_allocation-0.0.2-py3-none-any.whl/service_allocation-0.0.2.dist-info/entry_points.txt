@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        service-allocation=service_allocation.service_allocation:main
+    
