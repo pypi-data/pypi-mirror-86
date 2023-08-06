@@ -1,0 +1,6 @@
+graft tests
+graft pyrost/config
+graft pyrost/bin
+exclude dev.pyx
+global-exclude *.py[cod]
+global-exclude *.so
