@@ -1,0 +1,3 @@
+equilibrator-api==0.4.0b5
+cvxpy>=1.1.1
+efmtool>=0.1.5
