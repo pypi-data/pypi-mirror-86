@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+MBCMusicCrawler/MBCMusicCrawler.py
+MBCMusicCrawler/__init__.py
+MBCMusicCrawler/constants.py
+MBCMusicCrawler.egg-info/PKG-INFO
+MBCMusicCrawler.egg-info/SOURCES.txt
+MBCMusicCrawler.egg-info/dependency_links.txt
+MBCMusicCrawler.egg-info/not-zip-safe
+MBCMusicCrawler.egg-info/requires.txt
+MBCMusicCrawler.egg-info/top_level.txt
