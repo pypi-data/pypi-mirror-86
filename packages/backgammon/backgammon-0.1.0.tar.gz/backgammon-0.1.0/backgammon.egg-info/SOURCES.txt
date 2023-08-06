@@ -1,0 +1,10 @@
+README.rst
+setup.py
+backgammon/__init__.py
+backgammon/backgammon.py
+backgammon/match.py
+backgammon/position.py
+backgammon.egg-info/PKG-INFO
+backgammon.egg-info/SOURCES.txt
+backgammon.egg-info/dependency_links.txt
+backgammon.egg-info/top_level.txt
