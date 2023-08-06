@@ -1,0 +1,14 @@
+pandasql/__init__.py,sha256=ZexdeC7aL-Hs7bxkaUz98M-59m7tF2twgt_QglIskCA,438
+pandasql/sqldf.py,sha256=IQf5kFQqZuorGydTC1Q0TjZz-xNU_HlY8fkCJ4OEd7c,5933
+pandasql/data/births.csv,sha256=DWPctqr2POfVQ4-M5Aqd-Mvb-QKreXEgFewIoXUNjBE,1205
+pandasql/data/births_by_month.csv,sha256=TxixEKR6R2WuapNW4y52v4zrShuP0nUUT1M6HBjDe1c,11437
+pandasql/data/meat.csv,sha256=0R_HAEPVPu6iMfBssDrULyMvdkBl1XSckHo9_GRUa3E,63436
+pandasql/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandasql/tests/test_pandasql.py,sha256=pUBnJzeUYzVYMb7iK5gveJrp7LoZ5G0T-UXfig-zg_Y,7606
+pandasql/tests/test_utils.py,sha256=dDEaF600nfJD7BIQlgiw3zUXjy8a9Sr4UhnEB374ISo,1204
+pandasql3-0.7.3.dist-info/AUTHORS.md,sha256=JYyn4-N82_OOhnd_S2BrbG-h976RVXQKqqoE9nw47aM,121
+pandasql3-0.7.3.dist-info/LICENSE.txt,sha256=QWomjYZbU3AxoW8maejWWteipnL2EBvOZiVvPV-_DMg,1059
+pandasql3-0.7.3.dist-info/METADATA,sha256=byi2p42rQ65KuOHGJKN60IavFQILGiera0MZe6UTVlM,3722
+pandasql3-0.7.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pandasql3-0.7.3.dist-info/top_level.txt,sha256=VuqTGtaemPsWANt24zgE_Vx_E22XXmauhR1i5MrSRjk,9
+pandasql3-0.7.3.dist-info/RECORD,,
