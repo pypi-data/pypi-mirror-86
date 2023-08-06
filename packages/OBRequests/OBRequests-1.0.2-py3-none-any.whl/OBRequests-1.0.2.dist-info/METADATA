@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: OBRequests
+Version: 1.0.2
+Summary: Object-based request library what
+Home-page: https://OBRequests.readthedocs.io/en/latest/
+Author: WardPearce
+Author-email: wardpearce@protonmail.com
+License: GPL v3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: httpx (>=0.13.3)
+Requires-Dist: asynctest
+Requires-Dist: sphinxcontrib-trio
+
+## Welcome to OBRequests!
+
+OBRequests was created to eliminate common boilerplate code I'd find myself writing when using HTTP libraries.
+This library aims to simplify & remove repetitive code from writing HTTP requests without compromising performance.
+
+### Features:
+- Full HTTP coverage.
+- Asynchronous & synchronous support.
+- Easy to use with an object-oriented design.
+- Unit testing.
+
+### Install
+- Pip: ``pip3 install OBRequests``
+- Git: ``pip3 install git+https://github.com/WardPearce/OBRequests.git``
+
+
+### Documentation
+[Documentation](https://OBRequests.readthedocs.io/en/latest/)
+
+
+### Thanks to
+- [Encode for creating HTTPX](https://www.python-httpx.org/)
+
+
