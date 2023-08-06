@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: quickirc
+Version: 1.2.0
+Summary: A nifty python IRC library.
+Home-page: https://github.com/untwisted/quickirc
+Author: Iury O. G. Figueiredo
+Author-email: ioliveira@id.uff.br
+License: UNKNOWN
+Download-URL: https://github.com/untwisted/quickirc/releases
+Description: UNKNOWN
+Keywords: untwisted,irc,protocol,library
+Platform: UNKNOWN
