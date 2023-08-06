@@ -1,0 +1,8 @@
+README.md
+setup.py
+skola24lunch/__init__.py
+skola24lunch/parser.py
+skola24lunch.egg-info/PKG-INFO
+skola24lunch.egg-info/SOURCES.txt
+skola24lunch.egg-info/dependency_links.txt
+skola24lunch.egg-info/top_level.txt
