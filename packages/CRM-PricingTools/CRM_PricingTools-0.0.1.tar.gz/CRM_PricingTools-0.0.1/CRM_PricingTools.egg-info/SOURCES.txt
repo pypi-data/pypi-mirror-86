@@ -1,0 +1,11 @@
+README.md
+setup.py
+CRM_PricingTools/__init__.py
+CRM_PricingTools/clean.py
+CRM_PricingTools/prints.py
+CRM_PricingTools/segmentation.py
+CRM_PricingTools/segmentation_prueba.py
+CRM_PricingTools.egg-info/PKG-INFO
+CRM_PricingTools.egg-info/SOURCES.txt
+CRM_PricingTools.egg-info/dependency_links.txt
+CRM_PricingTools.egg-info/top_level.txt
