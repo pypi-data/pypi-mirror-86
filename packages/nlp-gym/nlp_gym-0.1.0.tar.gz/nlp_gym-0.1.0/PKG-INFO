@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nlp_gym
+Version: 0.1.0
+Summary: NLPGym - A toolkit for evaluating RL agents on Natural Language Processing Tasks
+Home-page: https://github.com/rajcscw/nlp-gym/
+Author: Rajkumar Ramamurthy
+Author-email: raj1514@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: demo
