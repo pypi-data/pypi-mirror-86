@@ -1,0 +1,7 @@
+README.md
+setup.py
+credits/__init__.py
+credits.egg-info/PKG-INFO
+credits.egg-info/SOURCES.txt
+credits.egg-info/dependency_links.txt
+credits.egg-info/top_level.txt
