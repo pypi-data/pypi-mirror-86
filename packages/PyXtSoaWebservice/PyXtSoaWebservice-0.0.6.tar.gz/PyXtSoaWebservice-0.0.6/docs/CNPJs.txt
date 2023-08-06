@@ -1,0 +1,524 @@
+00000001/0001-36 TESTE EMPRESA COM UMA GRAFIA                           				      CNPJ SP
+00000002/0001-80 TESTE DE FORNECEDO00002                                				      CNPJ SP
+00000003/0001-25 TESTE DE FORNECEDO00003                                				      CNPJ SP
+00000004/0001-70 TESTE CNPJ 0000004 LTDA                                				      CNPJ SP
+00000005/0001-14 TESTE DE FORNECEDO00005                                				      CNPJ SP
+00000006/0001-69 TESTE DE FORNECEDO00006                                				      CNPJ SP
+00000007/0001-03 TESTE CNPJ 00000007 LTDA                               				      CNPJ SP
+00000010/0001-27 TESTE 010                                              				      CNPJ SP
+00000011/0001-71 TESTE CNPJ 000000011 LTDA                              				      CNPJ SP
+00000022/0001-51 TESTE CNPJ 00000022 LTDA                               				      CNPJ SP
+00000023/0001-04 TESTE CNPJ 0000004 LTDA                                				      CNPJ SP
+00000101/0001-62 TESTE DE INCLUSAO DE NOME                              				      CNPJ SP
+00000101/0001-62 TESTE DE INCLUSAO DO BRITO                             				      CNPJ SP
+00000101/0001-62 TESTE DO BRITO                                         				      CNPJ SP
+00000113/0001-97 EMPRESA DE TESTE YYYY                                  				      CNPJ   
+00000124/0001-77 NOME TESTE 124                                         				      CNPJ   
+00000288/0001-02 TESTE CNPJ 00000288 LTDA                               				      CNPJ SP
+00001001/0001-50 EMPRESA TESTE ABABABA                                  				      CNPJ SP
+00001002/0001-03 CLIENTE TESTE CBCBCBCB                                 				      CNPJ SP
+00001003/0001-40 EMPRESA TESTE LPLPLPLP                                 				      CNPJ SP
+00001011/0001-96 TESTE REFIN MONITORE UM PJ                             				      CNPJ   
+00001022/0001-76 TESTE REFIN MONITORE DOIS PJ                           				      CNPJ   
+00001033/0001-56 TESTE REFIN MONITORE TRES PJ                           				      CNPJ   
+00001044/0001-36 TESTE REFIN MONITORE QUATRO PJ                         				      CNPJ   
+00001050/0001-93 TESTE DE HOMOLGACAO 1050                               				      CNPJ SP
+00001055/0001-16 TESTE REFIN MONITORE CINCO PF                          				      CNPJ   
+00001268/0001-48 TESTE CNPJ 1268                                        				      CNPJ SP
+00001500/0001-48 EMPRESA TESTE PRODUTO POSSIVEL                         				      CNPJ SP
+00001502/0001-37 EMPRESA TESTE JUNTA NIRC                               				      CNPJ SP
+00001544/0001-78 TESTE HOMOLOGACAO 1544                                 				      CNPJ SP
+00001999/0001-93 TESTE PRACA CEARA                                      				      CNPJ CE
+00002145/0001-21 TESTE 2145                                             				      CNPJ RJ
+00002145/0001-21 TESTE DO TESTE 2145                                    				      CNPJ SP
+00002201/0001-28 TESTE DE FORNECEDO00010                                				      CNPJ SP
+00002220/0001-54 TESTE DE FORNECEDO00003                                				      CNPJ SP
+00003312/0001-59 TESTE HOMOLOGACAO 3312                                 				      CNPJ SP
+00005144/0001-30 TESTE DIVEDORES LTDA                                   				      CNPJ SP
+00005224/0001-96 TESTE HOMOLOGACAO 5224                                 				      CNPJ SP
+00006012/0001-23 CLIENTE TESTE SEIS ZERO UM DOIS                        				      CNPJ SP
+00006014/0001-12 TESTE CLIENTE CNPJ SEIS ZERO UM QUATRO                 				      CNPJ SP
+00006175/0001-06 EMPRESA TESTE ABN 01                                   				      CNPJ SP
+00007011/0001-01 TESTE CVDEVE MONITORE UM PJ                            				      CNPJ   
+00007022/0001-83 TESTE CVDEVE MONITORE DOIS PJ                          				      CNPJ   
+00007033/0001-63 TESTE CVDEVE MONITORE TRES PJ                          				      CNPJ   
+00007044/0001-43 TESTE CVDEVEMONITORE QUATRO PJ                         				      CNPJ   
+00007055/0001-23 TESTE CVDEVE MONITORE CINCO PJ                         				      CNPJ   
+00010095/0001-24 TESTE HOMOLOGACAO 10095                                				      CNPJ SP
+00010376/0001-87 TESTE 1                                                				      CNPJ   
+00010952/0001-96 TESTE HOMOLOGACAO 10952                                				      CNPJ SP
+00020054/0001-19 TESTE HOMOLOGACAO 20054                                				      CNPJ SP
+00027622/0001-03 TESTE 2                                                				      CNPJ   
+00031892/0001-98 TESTE ELIZABETH                                        				      CNPJ   
+00048785/0001-72 INDAIA BRASIL AGUAS MINERAIS LTDA                      				      CNPJ CE
+00061334/0001-75 L A SCHANTZ & CIA LTDA ME                              				      CNPJ MT
+00095059/0001-00 TESTE CNPJ INAPTO                                      				      CNPJ SP
+00095060/0001-35 TESTE CNPJ CANCELAADO                                  				      CNPJ SP
+00100254/0001-81 TESTE HOMOLOGACAO 100254                               				      CNPJ SP
+00100322/0001-02 TESTE HOMOLOGACAO 100322                               				      CNPJ SP
+00111905/0001-39 INDELCO ELETRONICA INDUSTRIA E COMERCIO LTDA ME        				      CNPJ RJ
+00112287/0001-41 ASSOCIACAO DOS MORADORES DOS BAIRROS POSSES E CAMBUI   				      CNPJ MG
+00114144/0001-79 TESTE HOMOLOGACAO 114144                               				      CNPJ SP
+00117842/0001-28 CIBRAFERTIL COMPANHIA BRASILEIRA DE FERTILIZANTES      				      CNPJ BA
+00125478/0001-48 CLIENTE TESTE 1                                        				      CNPJ   
+00137471/0001-46 ALEXANDRE PEREIRA DA SILVA                             				      CNPJ GO
+00171717/0001-04 TESTE HOMOLOGACAO 171717                               				      CNPJ SP
+00176549/0001-31 POST ALIMENTACOES LTDA                                 				      CNPJ RS
+00197890/0001-73 PAULA A C ARTIOLI ME                                   				      CNPJ SP
+00204597/0001-96 TESTE HOMOLOGACAO 204597                               				      CNPJ SP
+00247438/0001-79 TESTE CNPJ 002474388 LTDA                              				      CNPJ RJ
+00257752/0001-32 J R P TORRES FILHO                                     				      CNPJ MA
+00263600/0001-42 SOUZA & BARROS LTDA                                    				      CNPJ RS
+00287498/0001-15 PAULO R DE LIMA                                        				      CNPJ GO
+00288065/0001-84 CARLOS SANDRO DE OLIVEIRA ALVES                        				      CNPJ CE
+00306705/0001-31 CIBRAMAR COMERCIO E INDUSTRIA SANTO ANDRE LTDA         				      CNPJ SP
+00321221/0001-61 ROSA VIEIRA CAMPOS                                     				      CNPJ MT
+00338040/0001-48 TESTE HOMOLOGACAO 338040                               				      CNPJ SP
+00354053/0001-00 TESTE CNPJ 00354053 LTDA                               				      CNPJ SP
+00364710/0001-09 TESTE HOMOLOGACAO 364710                               				      CNPJ SP
+00384250/0001-72 EMPRESA DE EQUIPAMENTOS FERROVIARIO LTDA               				      CNPJ MG
+00433450/0001-78 TESTE CNPJ 00433450 S/A                                				      CNPJ SC
+00480042/0001-77 POTENZA ADMINISTRADORA DE CARTOES DE CREDITO LTDA      				      CNPJ SP
+00482475/0001-61 POLINESIA COMERCIO E REPRESENTACOES LTDA               				      CNPJ MA
+00482688/0001-93 CLIHOM CLINICA DE HOMEOPATIA LTDA                      				      CNPJ PB
+00483118/0001-18 INDACOMA IND.E COM. DE ARTEFATOS D6 MADEIRA LTDA ME    				      CNPJ SC
+00566952/0001-77 CLINI CAR AUTO CENTER LTDA                             				      CNPJ MT
+00624612/0001-55 POSTELAR IND E COMERCIO DE ESTRUTURAS DE CIMENTO LTDA  				      CNPJ RS
+00670690/0001-96 TESTE HOMOLOGACAO 670690                               				      CNPJ SP
+00747087/0001-65 CIAMAPAR INVESTIMENTOS E PARTICIPACOES S/A             				      CNPJ AM
+00767184/0001-10 POTENZA ASSET MANAGEMENT S/A                           				      CNPJ SP
+00775111/0001-70 TESTE HOMOLOGACAO 775111                               				      CNPJ SP
+00874664/0001-80 TESTE HOMOLOGACAO 874664                               				      CNPJ SP
+00874698/0001-74 METAIS SECCARE LTDA                                    				      CNPJ RS
+00898959/0001-96 TESTE HOMOLOGACAO 898959                               				      CNPJ SP
+00900524/0001-39 TESTE HOMOLOGACAO 900524                               				      CNPJ SP
+00945201/0001-61 POTENCIAL-MONTAGEM ELETRO MECANICA LTDA ME             				      CNPJ PR
+00998513/0001-33 TESTE HOMOLOGACAO 998513                               				      CNPJ SP
+01090976/0001-65 FERTILIZANTES INDUBRASIL LTDA                          				      CNPJ   
+01095959/0001-10 EDSON ARROYO                                           				      CNPJ   
+01098490/0001-73 JOSESITO RIBEIRO OLIVEIRA                              				      CNPJ   
+01224561/0001-37 ELAINE DA SILVA MACHADO                                				      CNPJ RS
+01292405/0001-03 TESTE CNPJ 01292405 LTDA                               				      CNPJ PB
+01320854/0001-18 CIBA ESPECIALIDADES QUIMICAS LTDA                      				      CNPJ SP
+01379167/0001-78 JACINELI FLORES DE MENEZES ME                          				      CNPJ RS
+01480360/0001-09 TESTE DE FORNECEDO00001                                				      CNPJ SP
+01580746/0001-84 TESTE CNPJ01580746 LTDA                                				      CNPJ SP
+01948710/0001-00 CIARAMA COMERCIO E REPRESENTACOES LTDA                 				      CNPJ MS
+01963040/0001-00 TESTE 01963040000100                                   				      CNPJ   
+02038232/0001-64 TESTE CNPJ 02038232 LTDA                               				      CNPJ DF
+02039681/0001-27 POSITIVO COMERCIO E SERVICOS LTDA                      				      CNPJ PR
+02225156/0001-04 EMP TELECOMUNICAES LTDA                                				      CNPJ MT
+02261093/0001-33 ODONTO NET ADM DE PLANOS LTDA                          				      CNPJ   
+02261093/0001-33 TESTE ABN4                                             				      CNPJ SP
+02261613/0001-08 JR LIVRARIA E PAPELARIA LTDA                           				      CNPJ RS
+02307440/0001-11 CIAUTO AUTOMOVEIS LTDA                                 				      CNPJ RS
+02343359/0001-97 POSITIVO ALIMENTOS LTDA                                				      CNPJ PR
+02474825/0001-73 INDIGO COMERCIO DE ILUMINACAO LTDA                     				      CNPJ SP
+02512079/0001-65 CLINIFISIO CLINICA DE FISIOTERAPIA DO CARIRI LTDA      				      CNPJ CE
+02608076/0001-20 POUP & CRED ADMINISTRADORA E REPRESENTACAO DE NEGOCIOS 				      CNPJ RS
+02780594/0001-26 TESTE 02780594000126                                   				      CNPJ   
+02822117/0001-86 TESTE FALENCIA LTDA                                    				      CNPJ SP
+02909711/0001-09 LANCHE NOVE LTDA                                       				      CNPJ GO
+02911048/0001-87 LISBOA E PEREIRA LTDA                                  				      CNPJ GO
+02911055/0001-89 MARIA DAS GRACAS GUSMAO                                				      CNPJ GO
+02912053/0001-04 MARCOS QUIDUTE BASTOS                                  				      CNPJ TO
+02960002/0001-58 EGON KORB                                              				      CNPJ RS
+03017484/0001-70 FARMACIA DO POSTAO LTDA                                				      CNPJ RS
+03143955/0001-96 CIAGRA CIA AGROPASTORIL ARUANA                         				      CNPJ MT
+03144411/0001-49 ISOTTON COMERCIO E BENEFICIAMENTO DE ALIMENTOS LTDA    				      CNPJ RS
+03257544/0001-21 TESTE CNPJ03257544 LTDA                                				      CNPJ SP
+03272118/0001-67 CLINIVIDA LTDA                                         				      CNPJ RS
+03300293/0001-10 CIAVESTSM INDUSTRIA E COMERCIO DO VESTUARIO LTDA ME    				      CNPJ RS
+03336461/0001-28 POSITIVO FRANQUIAS LTDA                                				      CNPJ PR
+03376337/0001-96 CIADOCARRO COMERCIO DE VEICULOS LTDA                   				      CNPJ RS
+03422417/0001-30 POSTES DELTA LTDA                                      				      CNPJ GO
+03439436/0001-70 TESTE CNPJ03439436 LTDA                                				      CNPJ SP
+03448122/0001-33 POSTAL & CATTANI LTDA                                  				      CNPJ PR
+03456721/0001-07 INDUSTRIA DE TESTE DA TESS RESPOSTA A                  				      CNPJ RJ
+03488962/0001-20 TESTE CRISTINA                                         				      CNPJ   
+03507215/0001-91 COMPANHIA DE TESTE DA TESS RESPOSTA B                  				      CNPJ RJ
+03595888/0001-40 CIDADE CLIMA DE PALMEIRA COMUNICACAO & ARTE LTDA       				      CNPJ PR
+03634075/0001-12 COMPANHIA DE TESTE DA TESS REPOSTA C                   				      CNPJ RJ
+03653268/0001-10 CIA DE TESTE                                           				      CNPJ SP
+03653269/0001-65 EMPRESA TESTE CONCENTRE NOVO                           				      CNPJ SP
+03703013/0001-15 TESTE CNPJ 03703013 LTDA                               				      CNPJ SP
+03827635/0001-55 TESTE 03827635000155                                   				      CNPJ   
+03860749/0001-05 SANTOS & CIA LTDA ME                                   				      CNPJ MS
+03864832/0001-44 COMERCIO DE MADEIRAS CIANORTE LTDA                     				      CNPJ MS
+03865102/0001-68 AUTO MECANICA CIANORTE LTDA                            				      CNPJ MS
+03870719/0001-71 TESTE CNPJ 03870719 LTDA                               				      CNPJ SP
+04065071/0001-23 INDAS SOCIEDADE LTDA                                   				      CNPJ RS
+04081081/0001-52 POSSEBON INDUSTRIA E COMERCIO DE PEDRAS E METAIS LTDA  				      CNPJ RS
+04176689/0001-60 TESTE DE FORNECEDO00005                                				      CNPJ SP
+04207884/0001-00 SUMAIR PAIXAO BITTENCOURT                              				      CNPJ RS
+04259458/0001-10 M J LIMA DOS SANTOS                                    				      CNPJ BA
+04325589/0001-59 CIAMER BRASIL LTDA                                     				      CNPJ RS
+04430471/0001-90 INDUCENTER MADEIRAS LTDA                               				      CNPJ MT
+04489540/0001-31 GRAMIGNA & GONSALVES LTDA                              				      CNPJ PR
+04583924/0001-19 ELSON JOAO PETRY                                       				      CNPJ RS
+04792870/0001-00 INDOVANI COMERCIO DE AUTO PECAS LTDA                   				      CNPJ RS
+04881597/0001-81 POTENCIAL ADMINISTRADORA DE CARTOES E CONVENIOS LTDA   				      CNPJ RS
+04887449/0001-74 INDUSTRIA E COMERCIO DE CONFECCOES SAO FRANCISCO LTDA  				      CNPJ CE
+04933446/0001-20 CIAPESC COMPANHIA AMAZONICA DE PESCA                   				      CNPJ PA
+04955801/0001-61 S & L EMPREENDIMENTOS IMOBILIARIOS LTDA                				      CNPJ PR
+05092689/0001-45 INDAIA NAZARE AGUAS MINERAIS S/A                       				      CNPJ PA
+05204449/0001-95 PATRICIA DE FREITAS SALLA                              				      CNPJ RS
+05207636/0001-22 SET EMPREENDIMENTOS IMOBILIARIOS LTDA                  				      CNPJ RS
+05276991/0001-53 INDRA BRASIL LTDA                                      				      CNPJ SP
+05312522/0001-42 THOME E THOME LTDA ME                                  				      CNPJ CE
+05430954/0001-58 EMPESCA NORTE S/A                                      				      CNPJ PA
+05499838/0001-95 POSPLASTIC COMERCIO DE PLASTICOS LTDA                  				      CNPJ PR
+05515829/0001-40 ROBERTO ANTONIO MARTINS DE SOUZA ME                    				      CNPJ SP
+05557307/0001-01 POSTEX LOGISTICA LTDA                                  				      CNPJ SP
+05614301/0001-29 JOSE NILSON DE OLIVEIRA                                				      CNPJ RS
+05644393/0001-90 CAMARGO & KAEZALA INDUSTRIA E COMERCIO DE CONFECCOES L 				      CNPJ RS
+05744451/0001-57 ADAO A. DA SILVA                                       				      CNPJ RS
+05761380/0001-09 TESTE 05761380000109                                   				      CNPJ   
+05771506/0001-18 AGROPECUARIA INDAIA LTDA                               				      CNPJ RO
+05771910/0001-91 MARIA JOSE CURIOSO DA SILVA ME                         				      CNPJ RO
+05774203/0001-59 CLINICA E FARMACIA VETERINARIA MARANHENSE LTDA         				      CNPJ MA
+05836632/0001-03 CENTRO DE ANALISES CLINICAS DE SENGES LTDA ME          				      CNPJ PR
+05864690/0001-40 CLINIMAGEM CLINICA DE DIAGNOSTICO POR IMAGEM LTDA      				      CNPJ RS
+05865342/0001-98 CLIMATEC INDUSTRIA E COMERCIO DE EQUIPAMENTOS PARA CLI 				      CNPJ RS
+06151212/0001-56 POUSADA BELLA PRAIA LTDA                               				      CNPJ PB
+06251792/0001-53 CIBELE CANALI                                          				      CNPJ RS
+06745608/0001-21 TESTE CNPJ 06745608 LTDA                               				      CNPJ CE
+06886582/0001-31 PONTUAL COMERCIO E DISTRIBUIDORA DE BEBIDAS LTDA ME    				      CNPJ DF
+06935957/0001-06 MISS CLEYDE ROSA SOUZA SANTOS ME                       				      CNPJ MT
+07012214/0001-27 GRAFICA E EDITORA POUCHAIN RAMOS LTDA                  				      CNPJ CE
+07026343/0001-74 EMPORIO AMARELO TERAPIAS ALTERNATIVAS LTDA             				      CNPJ RS
+07076952/0001-38 POSITIVO INDUSTRIA ELETRONICA LTDA                     				      CNPJ PR
+07083886/0001-23 TESTE DE FORNECEDO00010                                				      CNPJ SP
+07104220/0001-04 ANA LUCIA LUCENA HOFFMANN ME                           				      CNPJ RS
+07121395/0001-20 JOAO RAMALHO PRUDENCIO DA CRUZ                         				      CNPJ   
+07195468/0001-28 EMPAMIX CONSTRUCOES E CONCRETAGENS LTDA                				      CNPJ PR
+07207996/0001-50 TESTE DA MODELAGEM                                     				      CNPJ SP
+07251332/0001-98 RICARDO DA SILVA ROCHA ELETRONICOS                     				      CNPJ RS
+07267603/0001-01 ERENI ALVES ORTIZ                                      				      CNPJ RS
+07393104/0001-52 JOSE DE SOUSA JUNIOR                                   				      CNPJ CE
+07440311/0001-10 ROBERTA KEYLLA AGUIAR MARINHO                          				      CNPJ CE
+08062002/0001-17 CIBRAJU COM IND E EXPORT DE DERIVADOS DO CAJU LTDA     				      CNPJ RN
+08062002/0001-17 CIBRAJU COMPANHIA BRASILEIRA DE CAJU                   				      CNPJ RN
+08065377/0001-30 PADARIA DO INDIO LTDA                                  				      CNPJ   
+08191672/0001-33 EMP PARTICIPACOES S/A                                  				      CNPJ RS
+08191672/0001-33 EMP PARTICIPACOES S/A                                                                     CNPJ RS
+08197840/0001-06 INDAIA TAXI AEREO LTDA                                 				      CNPJ PE
+10208031/0001-96 E S ARAUJO ME                                          				      CNPJ AC
+10840411/0001-49 COMPANHIA DISTRIBUIDORA DE FERRAGENS                   				      CNPJ SP
+11092350/0001-41 TESTE CNPJ 22092350 LTDA                               				      CNPJ MA
+11111111/0001-91 TESTE HOLDING UM                                       				      CNPJ SP
+11111206/0001-05 EMPRESA A                                              				      CNPJ   
+11111207/0001-50 EMPRESA B                                              				      CNPJ   
+11111208/0001-02 EMPRESA C                                              				      CNPJ   
+12332114/0001-18 TESTE TESTE                                            				      CNPJ   
+12651956/0001-32 FISIOTERAPIA CLINICENTER LTDA                          				      CNPJ   
+12653275/0001-03 JOSE CORIOLANO FILHO ME                                				      CNPJ RN
+12656385/0001-29 POTIGUAR SERVICE EMPREITEIRA CONST E SERVIC LTDA S/C M 				      CNPJ PE
+12686424/0001-30 TESTE CNPJ 12686424                                    				      CNPJ SP
+12797999/0001-20 EMPASIAL INFORMATICA LTDA ME                           				      CNPJ PE
+13389036/0001-50 RAILTON CARDOSO AGUIAR                                 				      CNPJ BA
+13937123/0001-03 TESTE CNPJ 13937123 LTDA                               				      CNPJ BA
+14255962/0001-04 HILDETH LESSA MIDLEJ                                   				      CNPJ   
+14256747/0001-10 RENUY ALVES DE SOUZA                                   				      CNPJ   
+14628309/0001-35 CIBA-GEIGY DA BAHIA S/A                                				      CNPJ SP
+15175615/0001-26 COMPANHIA DE BEBIDAS DA BAHIA CIBEB                    				      CNPJ BA
+15618473/0001-24 POSTO INDIAROBA LTDA                                   				      CNPJ SE
+15813876/0001-24 CIAL COMERCIO E INDUSTRIA DE ALIMENTOS LTDA            				      CNPJ AM
+15816549/0001-26 SINDICATO DOS EMP DE EMP DE SEG E VIGILANCIA DE MANAUS 				      CNPJ AM
+15817257/0001-08 JOSE R DA COSTA PINTURAS                               				      CNPJ AM
+16500290/0001-72 CIBAUTO LTDA                                           				      CNPJ   
+16501066/0001-03 COOP DE CONSUMO DOS EMP DA ALCANBRASIL E SUBSID S/A    				      CNPJ MG
+17156514/0001-33 BANCO TESTE                                            				      CNPJ SP
+17515776/0001-47 CLINIDENT CLINICA DENTARIA LTDA                        				      CNPJ MG
+18782748/0001-59 EURIPEDES TOMAZ BORGES                                 				      CNPJ MG
+18788059/0001-51 CIALA INDUSTRIAL LTDA                                  				      CNPJ MG
+19792225/0001-56 INDIOS CLUBE                                           				      CNPJ MG
+20702171/0001-70 CIAC CURSOS INTENSIVOS DE APERFEICOAMENTO CULTURAL LTD 				      CNPJ   
+20704920/0001-06 JOAO FERREIRA DE ALMEIDA                               				      CNPJ   
+20705893/0001-88 J MARIA CARDOSO                                        				      CNPJ MG
+20709192/0001-17 ANTONIO LUIZ BORGES                                    				      CNPJ MG
+21596929/0001-03 EMPRESA SOCIAL LTDA                                    				      CNPJ MG
+21597729/0001-67 SANDRA MARIA MENDES MIGUEL                             				      CNPJ   
+21598370/0001-42 ANTONIO CESAR DE SIQUEIRA                              				      CNPJ MG
+21599303/0001-42 GILDA ALVES DE PAULA                                   				      CNPJ MG
+21600259/0001-43 SERRALHERIA DAS INDUSTRIAS LTDA                        				      CNPJ   
+22406789/0001-18 RONALDO MOREIRA FILHO CPF 455230706-10                 				      CNPJ MG
+22408405/0001-04 COMERCIAL POSADA LTDA                                  				      CNPJ MG
+22410393/0001-44 POUSADA DOS BANDEIRANTES EM OURO PRETO LTDA            				      CNPJ MG
+23222516/0001-86 NIVALDO MARTINS DA SILVA ME                            				      CNPJ MG
+23321123/0001-20 TESTE MODELAGEM MATEMATICA                             				      CNPJ SP
+23924277/0001-06 INDIJ REPRESENTACOES LTDA                              				      CNPJ MG
+23926942/0001-09 ANISIO JOSE DOS SANTOS ME                              				      CNPJ MG
+24444127/0001-68 TESTE DE FORNECEDO00006                                				      CNPJ SP
+24607913/0001-39 RAMAO MENDONCA & FILHO LTDA ME                         				      CNPJ MS
+24610990/0001-48 REGINALDO GOMES DA SILVA                               				      CNPJ MS
+24749319/0001-82 INDAINA IND COM DE ARTEFATOS DE CIMENTO LTDA           				      CNPJ MT
+25478513/0001-33 CLIENTE TESTE 10                                       				      CNPJ   
+25478950/0001-57 CLIENTE TESTE 2                                        				      CNPJ   
+26028647/0001-15 INDUCORT INDUSTRIA MECANICA LTDA                       				      CNPJ MG
+26735241/0001-72 WANDA LUCIA RAMIRO DA COSTA ME                         				      CNPJ GO
+26827998/0001-96 TESTE                                                  				      CNPJ SP
+27175975/0001-07 TESTE DE FORNECEDO00004                                				      CNPJ SP
+27509595/0001-61 ESCOLA NACIONAL DE HABITACAO E POUPANCA EN HAP         				      CNPJ RJ
+27549666/0001-50 POSTO CARGA PESADA LTDA                                				      CNPJ ES
+28294296/0001-10 CLIMAFRIO AUTO REFRIGERACAO LTDA                       				      CNPJ RJ
+28296945/0001-11 CALCADOS CIADA LTDA                                    				      CNPJ RJ
+29166683/0001-33 TESTE CNPJ 29166683 S/A                                				      CNPJ RJ
+29170255/0001-84 ASSOCIACAO EMP EMPR BRAS CORREIOS TELEGRAFOS DR RIO    				      CNPJ RJ
+29173614/0001-57 POSTO UNIVERSIDADE LTDA                                				      CNPJ RJ
+29915238/0001-29 EMPRESA SEGTO FACTORING                                				      CNPJ   
+30005912/0001-17 CIACON INDUSTRIA E COMERCIO DE ARTEFATOS DE CONCRETO L 				      CNPJ RJ
+31332604/0001-69 CIBRAFAR IND BRASILEIRA DE INSUMOS FARMACEUTICOS LTDA  				      CNPJ RJ
+31486483/0001-00 CLIFIL CLINICA FISIOTERAPICA DE LINHARES LTDA          				      CNPJ ES
+32121295/0001-40 COMPANHIA NACIONAL DE INDUSTRIA E COMERCIO S/A         				      CNPJ RJ
+32298572/0001-95 TESTE CNPJ 32298572 LTDA                               				      CNPJ RJ
+33042730/0001-04 COMPANHIA SIDERURGICA NACIONAL                         				      CNPJ RJ
+33166158/0001-95 NACIONAL CIA DE SEGUROS                                				      CNPJ RJ
+33333333/0001-91 TESTE MONITORE TRES PJ                                 				      CNPJ   
+33387333/0001-74 POTENZA S/A SOCIEDADE CORRETORA                        				      CNPJ SP
+33430802/0001-90 CIAB COMPANHIA IMOBILIARIA ATLANTICA BRASILEIRA        				      CNPJ RJ
+33430802/0001-90 CIAB IMOBILIARIA ATLANTICA BRASILEIRA LTDA             				      CNPJ RJ
+33431008/0001-61 CLINAN CLINICA DE ANGIOLOGIA E CIRURGIA VASCULAR LTDA  				      CNPJ   
+33434804/0001-58 MARIA EUGENIA RODRIGUES DE MATOS LIMA                  				      CNPJ DF
+33435868/0001-73 CIALEX EDIT CONSULT E ASSESSORIA DE COMUNIC SOCIAL LTD 				      CNPJ DF
+33435926/0001-69 CLINEP CLINICA DE NEONATOLOGIA E PEDIATRIA S C LTDA    				      CNPJ DF
+33435926/0001-69 CLINEP CLINICA DE NEONATOLOGIA E PEDIATRIA S/A         				      CNPJ DF
+33530486/0001-29 TESTE DE FORNECEDO00008                                				      CNPJ SP
+33588252/0001-32 TESTE CNPJ 33588252 S/A                                				      CNPJ SP
+34116020/0001-44 ASSOCIACAO BENEFICIENTE POSTAL                         				      CNPJ RJ
+34120550/0001-66 EMPLAN EMPRESA DE ASSESSORIA PESQUISA E PLANEJAMENTO L 				      CNPJ BA
+34121855/0001-92 POSTO POSTOGAS BRASIL LTDA                             				      CNPJ BA
+34381728/0001-22 TESTE INCLUSAO CNPJ VIA PGM RF12                       				      CNPJ   
+34688473/0001-45 CIAM COZINHA INDUSTRIAL DA AMAZONIA LTDA               				      CNPJ PA
+34836627/0001-07 W MARTINS SOUSA                                        				      CNPJ PA
+35497353/0001-23 SILVANA DO CARMO M BARROS                              				      CNPJ PB
+35499037/0001-90 ANTONIO HUMBERTO RODRIGUES                             				      CNPJ   
+36860062/0001-10 TESTE CNPJ 36860062 LTDA                               				      CNPJ GO
+37033669/0001-90 MOVIMENTO E CIA INDUSTRIA E COMERCIO DE MODAS LTDA ME  				      CNPJ GO
+37034782/0001-90 AMARILDO MARQUES DOS SANTOS                            				      CNPJ GO
+37535143/0001-08 POTIGUAR COM E REPRESENTACAO LTDA                      				      CNPJ MS
+37892288/0001-66 FRANCISCO MARTO LIMA ME                                				      CNPJ GO
+37895893/0001-90 EURESTENES CARDOSO DE ARAUJO ME                        				      CNPJ GO
+37980687/0001-89 GRAFICA E EDITORA POSITIVA LTDA                        				      CNPJ DF
+39015748/0001-01 BAR E EMPOREO SEREIA LTDA                              				      CNPJ SP
+39016464/0001-21 POSTHAGEN COMERCIO DE CONFECCOES LTDA                  				      CNPJ SP
+39021068/0001-92 EMPACOTADORA DE PROD ALIM IRMAOS QUAGLIATO LTDA ME     				      CNPJ SP
+39021068/0001-92 EMPACOTADORA DE PROD.ALIMENTICIOS IRMAOS QUAGLIATO S/A 				      CNPJ SP
+40253494/0001-30 CIATEC CENTRO INTEGRADO DE ASSISTENCIA TECNICA LTDA    				      CNPJ RJ
+40981516/0001-89 EMPRESA PARAIBANA DE ABASTECIMENTO E SERVICOS AGRICOLA 				      CNPJ PB
+41043134/0001-77 EMPRESA DE ENGENHARIA ESPECIALIZADA LTDA               				      CNPJ PE
+41044868/0001-70 CIBEP LTDA                                             				      CNPJ PE
+41223835/0001-98 HENRIQUES ALBUQUERQUE & CIA LTDA                       				      CNPJ PB
+41583105/0001-06 MARIA ELIZABETH OLIVEIRA LIMA ME                       				      CNPJ CE
+41812744/0001-98 CIANINHA MODAS LTDA ME                                 				      CNPJ   
+42365296/0001-94 EMPILHADEIRAS SUL AMERICANAS S/A                       				      CNPJ RJ
+43948512/0001-97 CIALMOM MUSIC CENTER INSTRUMENTOS MUSICAIS LTDA        				      CNPJ SP
+43952571/0001-39 EMPAR EMPRESA MEDICA PARAENSE S/C LTDA                 				      CNPJ   
+44444444/0001-91 TESTE MONITORE QUATRO PJ                               				      CNPJ   
+44734671/0001-51 TESTE DE FORNECEDO00009                                				      CNPJ SP
+45161106/0001-05 AURORA DE MELO NAVARRO ME                              				      CNPJ SP
+45236791/0001-91 TESTE DE FORNECEDO00007                                				      CNPJ SP
+46251062/0001-77 AUTO ESCOLA INDAIA LTDA                                				      CNPJ   
+46251534/0001-91 TERRAPLENAGEM INDAIA LTDA S/C                          				      CNPJ   
+46251666/0001-13 POSSAN E BERNARDINI LTDA                               				      CNPJ SP
+46256657/0001-15 JOSE MENDES JUVENAL CIALIMITADA                        				      CNPJ SP
+46256897/0001-10 SANTO CIBINE                                           				      CNPJ   
+46261699/0001-44 CONTACTOS INTERNACIONAIS ASSOCIADOS LTDA               				      CNPJ SP
+46262531/0001-53 CIBEMAL COM IND E BENEFICIAMENTO DE MADEIRAS LTDA      				      CNPJ SP
+47093703/0001-75 EMPRESA PAULISTA DE PLANEJAMENTO METROPOLITANO S/A EMP 				      CNPJ SP
+47509120/0001-82 POTENZA LEASING S/A ARRENDAMENTO MERCANTIL             				      CNPJ SP
+47516463/0001-74 JOANA DE C MARASATO                                    				      CNPJ   
+47518824/0001-11 OTAVIO GARIBALDI                                       				      CNPJ   
+47966726/0001-47 CLIM COMERCIO E EMPREENDIMENTOS LTDA                   				      CNPJ SP
+49380173/0001-71 POTENZA PREVIDENCIA PRIVADA S/A                        				      CNPJ SP
+49396922/0001-59 IRACEMA CEZAR                                          				      CNPJ SP
+49400138/0001-77 GRUPO EMPENHO                                          				      CNPJ SP
+49401227/0001-38 CIBELE SCHENKE DE ALMEIDA                              				      CNPJ SP
+49402167/0001-78 INDAIATUBA BAR BILHARES E DIVERSOES LTDA               				      CNPJ SP
+49402415/0001-80 SOCIEDADE INDAIATUBANA DE EDUCACAO E CULTURA LTDA S/C  				      CNPJ SP
+49402449/0001-75 INDAIATUBA VESTIBULARES S/C LTDA ME                    				      CNPJ   
+49402589/0001-43 INDAFILTRO FILTROS PARA AUTOS LTDA                     				      CNPJ SP
+49402605/0001-06 INDAIATEC INDUSTRIA E COMERCIO LTDA                    				      CNPJ SP
+49647647/0001-07 TESTE CNPJ 49647647 LTDA                               				      CNPJ SP
+49925225/0001-48 TESTE DE FORNECEDO00004                                				      CNPJ SP
+50241223/0001-19 ANTONIO ARAUJO DOS SANTOS                              				      CNPJ SP
+50242155/0001-02 OLERITO FERREIRA DO AMARAL                             				      CNPJ   
+50243955/0001-48 EMPASA EMPRESA COMERCIAL E INDUSTRIAL PAULINIA LTDA    				      CNPJ   
+50244268/0001-47 CLINAP CLINICA DE ATENDIMENTO PSICOLOGICO LTDA         				      CNPJ   
+50245661/0001-55 JOSE ALVES DE ARAUJO BAR E EMPORIO ME                  				      CNPJ SP
+50246545/0001-50 POTY SPORTS CENTRO DE ATIVIDADES DESPORTIVAS LTDA      				      CNPJ SP
+50248061/0001-40 ALCIDES SBROGLIO                                       				      CNPJ SP
+51057305/0001-70 JORGE LUIZ TUCKMANTEL                                  				      CNPJ   
+51058931/0001-81 EMPRESA1 TESTE INCLUSAO RF                             				      CNPJ SP
+51058931/0001-81 TESTE DE LOOPING                                       				      CNPJ SP
+51059178/0001-49 IRYS RODRIGUES CASELATO                                				      CNPJ SP
+51062909/0001-05 POTECHI E TREINTA REPRESENTACOES SC LTDA               				      CNPJ   
+52896451/0001-52 CLIENTE TESTE                                          				      CNPJ   
+53011581/0001-23 CLIMAPRESS TECNOL EM SISTEMAS DE AR CONDICIONADO LTDA  				      CNPJ SP
+53224127/0001-50 ELETRO METALURGICA CIAFUNDI LTDA                       				      CNPJ SP
+53243804/0001-88 SUPERMERCADO INDU LTDA EPP                             				      CNPJ SP
+53289690/0001-07 BCN CREDITO IMOBILIARIO S/A                            				      CNPJ SP
+53375911/0001-60 POSTDATA INFORMATICA E COMUNICACAO LTDA                				      CNPJ SP
+53377297/0001-75 EMPART-EMPREENDIMENTOS E PARTICIPACOES LTDA            				      CNPJ SP
+53424594/0001-24 TESTE 53424594                                         				      CNPJ SP
+54069497/0001-23 INDAIA CLUBE DE INVESTIMENTOS                          				      CNPJ SP
+54069554/0001-74 CIASP CENTRAL DE INFORM DO ATACAD DE SAO PAULO S/C LTD 				      CNPJ SP
+54070552/0001-03 CLINICAP CLINICA CAPITAO PRUDENTE S/C LTDA             				      CNPJ SP
+54416383/0001-02 EMPRESA BRASILEIRA                                     				      CNPJ   
+55417406/0001-66 OSMAR RODRIGUES FERNANDES ME                           				      CNPJ SP
+55420087/0001-48 MERCADINHO POTIGUA LTDA ME                             				      CNPJ SP
+55555555/0001-91 TESTE MONITORE CINCO PJ                                				      CNPJ   
+56071988/0001-34 CIBELI REGINA ALVES ME                                 				      CNPJ SP
+56438831/0001-02 IND.E COM.DE MOVEIS COLONIAIS E ART.ARAUJO LTDA M.E    				      CNPJ SP
+56737521/0001-80 POTE VERMELHO ARTE & COMERCIO EM CERAMICA LTDA ME      				      CNPJ SP
+56987451/0001-19 CLIENTE TESTE 3                                        				      CNPJ   
+56990435/0001-85 EMPAX EMBALAGENS S/A                                   				      CNPJ SP
+57406456/0001-73 CIAMPONE COMERCIO E SERVICOS LTDA                      				      CNPJ SP
+57408411/0001-38 EVLAIR GONCALO ABROSIO PRADO ME                        				      CNPJ SP
+58049990/0001-32 NAIR FERREIRA DA SILVA LENCOIS PAULISTA ME             				      CNPJ SP
+58229360/0001-40 POTENZA S A-DISTRIBUIDORA DE TITULOS E VALORES MOBILIA 				      CNPJ SP
+58378357/0001-98 POSSAN DESPACHANTE S/C LTDA                            				      CNPJ SP
+58684226/0001-39 BAR E EMPORIO BAPTISTELLA LTDA ME                      				      CNPJ SP
+58789547/0001-06 CLIENTE TESTE 6                                        				      CNPJ   
+58798612/0001-51 TESTE CNPJ 58798612 S/A                                				      CNPJ SP
+58974562/0001-16 CLIENTE TESTE 4                                        				      CNPJ   
+59291534/0001-67 TESTE DE FORNECEDO00008                                				      CNPJ SP
+59299487/0001-06 COMERCIAL ELETRICA POTENCIA LTDA ME                    				      CNPJ   
+59730044/0001-10 TESTE 59730044                                         				      CNPJ SP
+59874513/0001-74 CLIENTE TESTE 7                                        				      CNPJ   
+59915777/0001-29 CIA.AGRICOLA GANDARA                                   				      CNPJ   
+59917021/0001-19 INDAIA PALACE HOTEL LTDA ME                            				      CNPJ SP
+59917310/0001-18 BAR E EMPORIO ACHILES BELLINE LTDA ME                  				      CNPJ SP
+59983320/0001-51 CIA.REGIONAL DE ABASTECIMENTO INTEGRADO DE SANTO ANDRE 				      CNPJ SP
+60333085/0001-51 POTENZA LEASING ARRENDAMENTO MERCANTIL S/A             				      CNPJ SP
+60558020/0001-04 CLINEURO ASSISTENCIA MEDICA S/C LTDA                   				      CNPJ SP
+60560869/0001-12 SINDICATO NACIONAL DA INDDE TRAT CAM AUTOM E VEIC SIMI 				      CNPJ SP
+60665981/0001-18 TESTE CNPJ 60665981                                    				      CNPJ   
+60701190/0001-04 TESTE DE FORNECEDO00005                                				      CNPJ SP
+60882610/0001-98 CLIMAX INDUSTRIA E COMERCIO S/A                        				      CNPJ SP
+61081014/0001-71 EMPRESA TESTE                                          				      CNPJ RJ
+61197802/0001-28 TREINAMENTO EMPRESARIAL LTDA                           				      CNPJ SP
+61694865/0001-90 TESTE CNPJ 61694865 LTDA                               				      CNPJ SP
+61843256/0001-55 TESTE AAAAA                                            				      CNPJ SP
+62059605/0001-05 CLIMP INDUSTRIAL DE PARAFUSOS S/A                      				      CNPJ MG
+62519186/0001-47 COMERCIAL CIBRADIS DE MATERIAIS PARA CONSTRUCAO LTDA   				      CNPJ SP
+62592282/0001-10 COMERCIAL E EMPACOTADORA KEC LTDA                      				      CNPJ SP
+62592522/0001-87 MATSUBASHI & SILVA LTDA ME                             				      CNPJ SP
+62594635/0001-11 ALMIR DONIZETE TEIXEIRA-LATICINIOS ME                  				      CNPJ SP
+63398465/0001-62 COMERCIAL DE CONSTRUCAO POTIRA LTDA                    				      CNPJ CE
+63398762/0001-08 EMPIRE IMPORTACAO EXPORTACAO E COMERCIO LTDA           				      CNPJ CE
+63734453/0001-61 AUTO POSTO POTENCIA LTDA                               				      CNPJ AM
+64062391/0001-51 CIAMAR COMERCIO DE PESCADOS LTDA                       				      CNPJ SP
+64064322/0001-87 IND.E COM.DE BRINQUEDOS CRIATIVOS URSULAO LTDA ME      				      CNPJ SP
+64067283/0001-71 EMPAG COMERCIO E REPRESENTACOES LTDA                   				      CNPJ SP
+64738784/0001-32 INDAIATEC COMERCIO E REPRESENTACOES S/A                				      CNPJ SP
+64740202/0001-52 INDUCAR COMERCIO DE ELETROPECAS LTDA ME                				      CNPJ SP
+64741481/0001-79 WEDEN SUZY ANTUNES DA SILVA & CIA LTDA ME              				      CNPJ SP
+64874050/0001-80 POSTIBA ADM.E PARTIC. EMPREEND.CIAIS LTDA              				      CNPJ SP
+65449605/0001-00 IND.E COM.DE ARTEFATOS DE CIMENTO SAN CRISTOVAN LTDA   				      CNPJ SP
+65449985/0001-82 EMPACOTADORA DE CONDIMENTOS KITAL LTDA ME              				      CNPJ SP
+65450504/0001-59 FASOTO PINTURAS LTDA                                   				      CNPJ SP
+65451031/0001-04 POTYMAR PESCADOS LTDA ME                               				      CNPJ SP
+65917429/0001-93 G.M.A. ASSESSORIA E COMERCIO LTDA                      				      CNPJ SP
+66097700/0001-54 RODRIGO CIACCO ARTQUARIOS ME                           				      CNPJ SP
+66640186/0001-51 INDOOR PARTICIPACOES E ASSESSORIA EMPRESARIAL LTDA     				      CNPJ SP
+66810144/0001-11 ADALBERTO SANTOS ABRAHAO ME                            				      CNPJ SP
+66813411/0001-04 SUELY MARIA DA S.OLIVEIRA CRUZ ME                      				      CNPJ   
+66813924/0001-15 PECANHA & BIAFORA LTDA                                 				      CNPJ SP
+66814161/0001-27 CLIMACO ESTEVAM LAGO MARTINS ME                        				      CNPJ SP
+67758201/0001-23 EMPRESA TESTE XXX                                      				      CNPJ   
+68175660/0001-47 M F D DA SILVA PUBLICIDADE                             				      CNPJ SP
+68175660/0001-47 M F D DA SILVA REPRESENTACOES                          				      CNPJ SP
+68863844/0001-08 ADALBERTO PINHEIRO DA SILVA                            				      CNPJ SP
+69874512/0001-83 CLIENTE TESTE 5                                        				      CNPJ   
+69958753/0001-00 CIA TESTE                                              				      CNPJ   
+69978096/0001-63 FUNDACAO CULTURAL E DE ASSISTENCIA SOCIAL DO CLIMA BOM 				      CNPJ AL
+69981785/0001-27 ASSOCIACAO COMUNITARIA CLIMA BOM II                    				      CNPJ AL
+69985753/0001-08 CREUZA MARIA DE JESUS                                  				      CNPJ   
+69985753/0001-08 TESTE 1                                                				      CNPJ   
+69985810/0001-40 PAULO VIEIRA DE ARAUJO ME                              				      CNPJ AL
+71523088/0001-74 INDAPA INDUSTRIA AERONAUTICA PAULISTA LTDA             				      CNPJ SP
+71523716/0001-11 POSE PRODUCAO E FOTOGRAFIA LTDA ME                     				      CNPJ SP
+71693766/0001-47 EMPRESA PAULISTA DE ARMAZENS GERAIS LTDA               				      CNPJ SP
+72340383/0001-58 SUENEIDE TECIDOS E AVIAMENTOS LTDA                     				      CNPJ CE
+72601222/0001-70 TESTE INCLUSAO 01                                      				      CNPJ SP
+72601222/0001-70 TESTE INCLUSAO RAZAO SOCIAL                            				      CNPJ SP
+73980823/0001-02 EMPOPER LOCADORA DE MAO DE OBRA S/C LTDA               				      CNPJ SP
+74584128/0001-86 CLIENTE TESTE 8                                        				      CNPJ   
+74584128/0001-86 CLIENTE TESTE 9                                        				      CNPJ   
+74643156/0001-27 TESTE ABN 9                                            				      CNPJ   
+75032805/0001-16 CIAFIOS COMERCIO MARINGAENSE DE TECIDOS E FIOS LTDA    				      CNPJ PR
+75104422/0001-06 GRAFICA E EDITORA POSIGRAF S/A                         				      CNPJ PR
+75112086/0001-43 POSITIVO ADMINISTRACAO E PARTICIPACOES S/A             				      CNPJ PR
+75630368/0001-32 TESTE DE MICRO EMPRESA ME                              				      CNPJ SP
+76147040/0001-22 PEDRO ANTONIO DE SOUZA & CIA LTDA                      				      CNPJ PR
+76153014/0001-07 INDUSTRIA E COMERCIO DE MOVEIS INDEPENDENCIA LTDA      				      CNPJ   
+76154715/0001-60 ASSOCIACAO EMP CRED FINANINVEST PARANA E SANTA CATARIN 				      CNPJ PR
+77207512/0001-58 INDECAPA FUTEBOL CLUBE                                 				      CNPJ   
+77207744/0001-06 ANTONIO LINO DA SILVA                                  				      CNPJ   
+77210227/0001-96 L K KOGA & CIA LTDA                                    				      CNPJ   
+77211688/0001-83 INDEL INDUSTRIA ELETRONICA LTDA                        				      CNPJ PR
+77214641/0001-73 CIBRA COMERCIO E INDUSTRIA DE CONSTRUCAO CIVIL LTDA    				      CNPJ PR
+78130226/0001-02 CIBERMEDICAL REPRESENTACOES COMERCIAIS LTDA            				      CNPJ PR
+78130291/0001-20 CIARAMA COMERCIO DE INSUMOS AGROPECUARIOS UMUARAMA LTD 				      CNPJ   
+78130341/0001-79 INDALECIO DIAS                                         				      CNPJ   
+78130960/0001-63 FERNANDO JORGE PERLY                                   				      CNPJ PR
+78134897/0001-33 OLIVEIRA E NAVARRO LTDA                                				      CNPJ PR
+78224656/0001-85 DISTRIBUIDORA POSITIVO DE MATERIAL ESCOLAR LTDA        				      CNPJ PR
+78639028/0001-60 COLEGIO POSITIVO DE LONDRINA SC LTDA                   				      CNPJ PR
+78791712/0001-63 CENTRO DE ESTUDOS SUPERIORES POSITIVO LTDA             				      CNPJ PR
+78895406/0001-77 ASSOCIACAO ESTADUAL DOS FUNCIONARIOS DA EMPASC         				      CNPJ SC
+79604609/0001-20 INDUGAL-INDUSTRIA E COMERCIO DE CALHAS GALVANIZADAS LT 				      CNPJ PR
+79606737/0001-02 EMPACOTADORA DE ACUCAR CASTELO BRANCO LTDA             				      CNPJ PR
+79608238/0001-54 POTOSI-COMERCIO DE CONFECCOES E ARTEZANATO LTDA        				      CNPJ   
+79608865/0001-95 CIANORTE COMPANHIA DE ARMAZENS GERAIS NORTE DO PARANA  				      CNPJ PR
+79609392/0001-40 MARCOS GEVERT                                          				      CNPJ PR
+79719613/0001-33 EDITORA POSITIVO LTDA                                  				      CNPJ PR
+80310568/0001-48 CLINIVET CLINICA VETERINARIA LTDA                      				      CNPJ PR
+80311061/0001-09 POSTEK INDUSTRIA DE PRE MOLDADOS LTDA ME               				      CNPJ   
+80432925/0001-40 TESTE CNPJ 80432925 LTDA                               				      CNPJ SC
+80999386/0001-26 MARIA INES DE PELLEGRINI ME                            				      CNPJ SC
+81243735/0001-48 POSITIVO INFORMATICA LTDA                              				      CNPJ PR
+81262610/0001-65 POTENCIAL FOMENTO MERCANTIL LTDA                       				      CNPJ PR
+81665366/0001-81 POSITIVO SISTEMAS DE INFORMATICA LTDA                  				      CNPJ PR
+81694754/0001-90 POSTES REALEZA IND E COM DE ARTEFATOS DE CIMENTO LTDA  				      CNPJ PR
+81716854/0001-70 SOCIEDADE EDUCACIONAL POSITIVO LTDA                    				      CNPJ PR
+82416207/0001-06 SCR ARTES E TECNICAS PUBLICITARIAS LTDA                				      CNPJ PR
+82945932/0001-71 TESTE CNPJ 82945932 S/A                                				      CNPJ SC
+83310060/0001-38 E A DOS SANTOS MODESTO                                 				      CNPJ PA
+83312876/0001-09 CARLOS A R DA SILVA JR ME                              				      CNPJ PA
+84432459/0001-54 ERNA GUNTHER EMMENDORFER                               				      CNPJ SC
+84437615/0001-70 COMERCIAL CLIMA LTDA                                   				      CNPJ AP
+84489996/0001-30 TESTE DE FORNECEDO00003                                				      CNPJ SP
+85290344/0001-35 CANDIDA PAULINA LUCIO ME                               				      CNPJ SC
+86046448/0001-61 TESTE DE FORNECEDO00009                                				      CNPJ SP
+86838257/0001-32 TESTE ABN 16                                           				      CNPJ SP
+88065560/0001-75 INDECOM INDUSTRIA E COMERCIO DE MAT DE CONSTRUCAO LTDA 				      CNPJ RS
+88777666/0001-00 EMPRESA TESTE AAAAA S/A                                				      CNPJ SP
+89092902/0001-09 ANTONIO CARLOS CARDOSO                                 				      CNPJ RS
+89094601/0001-14 SOCIEDADE RECREATIVA INDEPENDENCIA                     				      CNPJ RS
+89096499/0001-96 LONI MENKE RATZLAFF                                    				      CNPJ RS
+90009416/0001-63 EMPRESA TESTE ABN FL01                                 				      CNPJ SP
+90071341/0001-40 TESTE CNPJ 90071341 LTDA                               				      CNPJ RS
+90602657/0001-11 ANTONIO E POSSOBOM ME                                  				      CNPJ RS
+91255166/0001-04 DERLI TELLES LEITE ME                                  				      CNPJ RS
+91439901/0001-30 LUIS CARLOS DA COSTA LIMA ME                           				      CNPJ RS
+91632125/0001-90 CIALUX REPRESENTACOES E COMERCIO LTDA ME               				      CNPJ RS
+92122233/0001-85 CONFECCOES CLIMOFA LTDA ME                             				      CNPJ RS
+92122498/0001-83 CLIK TEL COMERCIO E INSTALACOES TELEFONICAS LTDA ME    				      CNPJ RS
+92123025/0001-09 SINDICATO DOS EMP EST BANCARIOS DO VALE DO CAI         				      CNPJ RS
+92123025/0001-09 SINDICATO EMP EST BANC CAI BP FELIZ PORTAO C BARBOSA   				      CNPJ RS
+92571207/0001-34 EMPRESA TESTE ABN 09                                   				      CNPJ SP
+92690817/0001-57 INDAC INDUSTRIA ADMINISTRACAO E COMERCIO S/A           				      CNPJ RS
+92813815/0001-08 CIAVET COMERCIAL IMPORTADORA AGRO VETERINARIA LTDA     				      CNPJ RS
+92818111/0001-28 POTENZA S/A PROCESSAMENTOS DE DADOS                    				      CNPJ SP
+92820562/0001-08 CIANO CIA LTDA                                         				      CNPJ RS
+93535961/0001-81 CLINISOM ULTRA SONOGRAFIA DIAGNOSTICOS MEDICOS S/A     				      CNPJ RS
+93535961/0001-81 SONIMED ULTRA SONOGRAFIA DIAGNOSTICOS MEDICOS LTDA     				      CNPJ RS
+93991701/0001-10 EMPLOY WAY CONSULTORIA SELECAO DE PESSOAL E TREINAMENT 				      CNPJ RS
+94012127/0001-74 POSTAL MKT INFORMATICA LTDA                            				      CNPJ RS
+94964392/0001-52 CLINICA DE CANCEROLOGIA PELOTAS LTDA                   				      CNPJ RS
+96388707/0001-96 EMPRESA TESTE ABN 19                                   				      CNPJ   
+96741517/0001-00 TESTE DO MAURO LTDA                                    				      CNPJ   
+97351639/0001-53 TESTE 97351639                                         				      CNPJ SP
+99999201/0001-01 CLIENTE TESTE                                          				      CNPJ   

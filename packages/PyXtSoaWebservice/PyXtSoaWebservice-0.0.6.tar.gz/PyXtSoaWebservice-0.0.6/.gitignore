@@ -1,0 +1,14 @@
+*.pyc
+*~
+.project
+.pydevproject
+*.prefs
+# build artifacts from python setup.py build or python setup.py install
+build/
+dist/
+*egg*/
+docs/_build
+PyXtSerasa.egg-info
+PyXtSERASA.egg-info
+build
+dist

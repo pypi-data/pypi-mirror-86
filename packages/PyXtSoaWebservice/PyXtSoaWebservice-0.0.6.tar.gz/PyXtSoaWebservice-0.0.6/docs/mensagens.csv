@@ -1,0 +1,75 @@
+CodigoStatus;Produto;CodigoStatusDescricao;Status
+G000M000;Generica do Sistema;Credenciais de Acesso (Usuario e/ou Senha) Invalidos;False
+G000M001;Generica do Sistema;Transacao realizada com sucesso;True
+G000M002;Generica do Sistema;Falha na transacao;False
+G000M003;Generica do Sistema;Documento invalido para consulta;False
+G000M004;Generica do Sistema;Este documento nao pode ser consultado em ambiente de testes;False
+G000M005;Generica do Sistema;Saldo Insuficiente ou Contrato com Pendencias;False
+G000M006;Generica do Sistema;Falha na transacao, tempo limite esgotado;False
+G000M007;Generica do Sistema;Receita Federal indisponivel no momento;False
+G000M008;Generica do Sistema;Servico indisponivel no momento;False
+G000M009;Generica do Sistema;Suas Credenciais de acesso nao permitem esta consulta, sua conta é de Pessoa Fisica;False
+G000M010;Generica do Sistema;Requisicao JSON invalida;False
+G000M011;Generica do Sistema;Confirmacao de Dados cadastrais nao disponivel ate o momento!;True
+G000M012;Generica do Sistema;Confirmacao de Dados cadastrais nao disponivel ate o momento!;True
+G000M013;Generica do Sistema;Nao foi possivel verificar o saldo da conta;False
+G000M014;Generica do Sistema;Mes e obrigatorio e precisa ser entre 01 e 12;False
+G000M015;Generica do Sistema;Ano e obrigatorio e precisa ser entre 1900 e 2050;False
+G000M016;Generica do Sistema;Identificador Unico e obrigatorio (UniqueID);False
+G000M017;Generica do Sistema;Identificador Unico nao encontrado (UniqueID);False
+G000M018;Generica do Sistema;Partner nao habilitado para transacionar;False
+G000M019;Generica do Sistema;Telefone e obrigatorio;False
+G000M020;Generica do Sistema;E-Mail do Responsavel e obrigatorio;False
+G000M021;Generica do Sistema;E-Mail do Financeiro e obrigatorio;False
+G000M022;Generica do Sistema;E-Mail para NFS-e e obrigatorio;False
+G000M023;Generica do Sistema;E-Mail ja esta em uso na plataforma;False
+G000M024;Generica do Sistema;Cliente ja esta cadastrado na plataforma;False
+G000M025;Generica do Sistema;Esta transacao nao esta disponivel no ambiente de Test-Drive (Homologacao);False
+G000M026;Generica do Sistema;DETRAN indisponível no momento!;False
+G000M027;Generica do Sistema;Credenciais de Acesso (Usuario e/ou Senha) Invalidos, verifique o header de chamada.;False
+G000M028;Generica do Sistema;Limite de Crédito excedido!;False
+G000M029;Generica do Sistema;Nome é um parametro obrigatório;False
+G000M030;Generica do Sistema;Sigla do Estado Invalida!;False
+I000M000;Interna do Sistema;Contingencia;False
+P001M001;CREDNET;Sigla do Estado (UF) informado é invalida;False
+P004M001;Cheques;Código do Banco invalido!;False
+P004M002;Cheques;Codigo da Agencia invalido!;False
+P004M003;Cheques;Conta Corrente invalida!;False
+P004M004;Cheques;Numero do cheque inicial invalido!;False
+P004M005;Cheques;Digito verificador do cheque inicial invalido!;False
+P004M006;Cheques;Numero do cheque final invalido!;False
+P004M007;Cheques;Digito verificador do cheque final invalido!;False
+P007M002;Consulta NFe Pessoa Jurídica;CNPJ com dados incompletos, nao e possivel consultar;False
+P007M004;Consulta NFe Pessoa Jurídica;CNPJ nao encontrado na Receita Federal;False
+P008M001;Consulta NFe Pessoa Física com Data de Nascimento;Data de nascimento é obrigtoria;False
+P008M002;Consulta NFe Pessoa Física com Data de Nascimento;Data de nascimento é invalida;False
+P008M003;Consulta NFe Pessoa Física com Data de Nascimento;CPF com dados incompletos, nao e possivel consultar;False
+P008M004;Consulta NFe Pessoa Física com Data de Nascimento;CPF nao encontrado na Receita Federal;False
+P009M001;Consulta CDC Simplificada;Data de nascimento é obrigtoria;False
+P009M002;Consulta CDC Simplificada;Data de nascimento é invalida;False
+P009M003;Consulta CDC Simplificada;CPF com dados incompletos, nao e possivel consultar;False
+P009M004;Consulta CDC Simplificada;CPF nao encontrado na Receita Federal;False
+P011M001;Consulta CDC Estendida;CPF não existe na base até o momento!;False
+P016M001;Consulta de CEP;Tamanho do CEP informado e invalido;False
+P016M002;Consulta de CEP;CEP nao foi encontrado;False
+P016M009;Consulta de CEP;Falha no processamento das informacoes;False
+P016M010;Consulta de CEP;Servico dos Correios indisponivel no momento;False
+P033M001;Localização de CPF por Nome;Nao foi possivel localizar Pessoa Fisica;False
+P034M001;CREDNET Estendida;Sigla do Estado (UF) informado é invalida;False
+P034M002;CREDNET Estendida;Item Adicional nao e permitido para Pessoa Física;False
+P035M001;Consulta NFe Pessoa Física sem Data de Nascimento;Nao foi possivel recuperar a Data de Nascimento;False
+P035M002;Consulta NFe Pessoa Física sem Data de Nascimento;Data de Nascimento Invalida;False
+P035M003;Consulta NFe Pessoa Física sem Data de Nascimento;CPF com dados incompletos, nao e possivel consultar;False
+P035M004;Consulta NFe Pessoa Física sem Data de Nascimento;CPF nao encontrado na Receita Federal;False
+P043M001;Data da Baixa invalida, use DD/MM/AAAA;Data da Baixa invalida, use DD/MM/AAAA;False
+P043M002;Negativação;A transação esta sendo solicitada em ambiente de Produção porém esta sendo informado o ambiente de Test-Drive.;False
+P043M003;Negativação;A transação esta sendo solicitada em ambiente de Test-Drive porém esta sendo informado o ambiente de Produção.;False
+P043M004;Negativação;UniqueID não encontrado;False
+P043M009;Negativação;Nenhuma Restrição para o documento localizada.;False
+P043M010;Negativação;Código de Baixa inválido, verifique tabela de Códigos;False
+P046M001;Monitoramento;Documento inválido para monitoramento;False
+P046M002;Monitoramento;Data de Nascimento é obrigatória para este tipo de Documento;False
+P046M003;Monitoramento;Este documento já encontra-se monitorado;False
+P046M004;Monitoramento;Não foi possível iniciar o Monitoramento;False
+P055M001;PEP;Não foi encontrado nenhuma ocorrência na Lista PEP;True
+P057M001;Sintegras;CNPJ da consulta não cadastrado como contribuinte na UF;False
