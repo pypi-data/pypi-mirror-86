@@ -1,0 +1,6 @@
+setup.py
+moocxing.egg-info/PKG-INFO
+moocxing.egg-info/SOURCES.txt
+moocxing.egg-info/dependency_links.txt
+moocxing.egg-info/requires.txt
+moocxing.egg-info/top_level.txt
