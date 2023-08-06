@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: aiotestspeed
+Version: 0.0.1
+Summary: Asynchronous python library to test connection speed, based on the speedtest project.
+Home-page: https://github.com/py-paulo/aiotestspeed.git
+Author: Paulo Roberto <paulo.rb.beserra@gmail.com>
+Author-email: paulo.rb.beserra@gmail.com
+License: MIT
+Project-URL: GitHub: issues, https://github.com/py-paulo/aiotestspeed/issues
+Project-URL: GitHub: repo, https://github.com/py-paulo/aiotestspeed
+Keywords: aio,python,asyncio,test,io,speed
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Framework :: AsyncIO
+Provides: aiotestspeed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (~=7.1.2)
+
+
+---
+<p align="center"><a href="#" target="_blank" rel="noopener noreferrer">
+  <img width="256px" height="126px" src="https://i.pinimg.com/originals/fe/32/e0/fe32e0460a44f8ca81ae2a04c89a8116.png" alt="AIO Speedtest"></a>
+</p>
+
+<p align="center">
+  <b>AIO Speedtest</b> is a library written in Python to perform speed tests asynchronously and programmatically.
+</p>
+
+---
+
+This project was made based on the existing [Speedtest](https://github.com/sivel/speedtest-cli) from which we shared several code snippets, what I did were few modifications to work asynchronously.
+
+#### Basic Usage
+
+```
+import asyncio
+from aiotestspeed.aio import Speedtest
+
+units = ('bit', 1)
+
+async def main():
+    s: Speedtest = await Speedtest()
+    await s.get_best_server()
+    await s.download()
+    await s.upload()
+    print('Ping: %s ms\nDownload: %0.2f M%s/s\nUpload: %0.2f M%s/s' %
+          (s.results.ping,
+          (s.results.download / 1000.0 / 1000.0) / units[1],
+          units[0],
+          (s.results.upload / 1000.0 / 1000.0) / units[1],
+          units[0]))
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+loop.close()
+```
+
+```
+class Speedtest(aiobject):
+
+    async def __init__(self, config=None, source_address=None, timeout=10, secure=False):
+        ...
+
+    @property
+    async def best(self) -> dict:
+        ...
+
+    async def get_config(self) -> dict:
+        """Download the speedtest.net configuration and return only the data
+        we are interested in
+        """
+        ...
+
+    async def get_servers(self, servers: list = None, exclude: list = None) -> list:
+        """Retrieve a the list of speedtest.net servers, optionally filtered
+        to servers matching those specified in the ``servers`` argument
+        """
+        ...
+
+    async def set_mini_server(self, server: str) -> list:
+        """Instead of querying for a list of servers, set a link to a
+        speedtest mini server
+        """
+        ...
+
+    async def get_closest_servers(self, limit: int = 5) -> None:
+        """Limit servers to the closest speedtest.net servers based on
+        geographic distance.
+        """
+        ...
+
+    async def get_best_server(self, servers=None) -> dict:
+        """Perform a speedtest.net "ping" to determine which speedtest.net
+        server has the lowest latency.
+
+        Args:
+            servers ([type], optional): [description]. Defaults to None.
+
+        Raises:
+            SpeedtestBestServerFailure: [description]
+
+        Returns:
+            dict: [description]
+        """
+        ...
+
+    async def download(self, callback=do_nothing) -> int:
+        """Test download speed against speedtest.net
+
+        Args:
+            callback ([type], optional): [description]. Defaults to do_nothing.
+
+        Returns:
+            int: [description]
+        """
+        ...
+
+    async def upload(self, callback=do_nothing, pre_allocate: bool = True) -> int:
+        """Test upload speed against speedtest.net
+
+        Args:
+            callback ([type], optional): [description]. Defaults to do_nothing.
+            pre_allocate (bool, optional): [description]. Defaults to True.
+
+        Returns:
+            int: [description]
+        """
+        ...
+```
+
+# Changelog
+

@@ -1,0 +1,10 @@
+aiotestspeed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiotestspeed/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiotestspeed/aio.py,sha256=l2ejzS-wTK3PyxAWROmjj5t0zg4O77O2pObqrn2qF2o,50599
+aiotestspeed/cli.py,sha256=uSDdtiSS0CniE4xPgB6Hb2DPDqBS3K0jM6CwE0eAGhc,1001
+aiotestspeed/version.py,sha256=zzxfN9gOk2_WkIqb9spPCjfZ3Of6MKRrG5rjKwgbFG4,460
+aiotestspeed-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiotestspeed-0.0.1.dist-info/METADATA,sha256=5wKECqy28pYSYpEGhrsjJOWPv7D3b-JE7l6K103dNfw,4214
+aiotestspeed-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+aiotestspeed-0.0.1.dist-info/top_level.txt,sha256=78ZYznec1hxJsOTEKulaokPvhzRB2j1DiVw81s-bbcs,13
+aiotestspeed-0.0.1.dist-info/RECORD,,
