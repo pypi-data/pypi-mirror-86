@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+halftone/__init__.py
+halftone/__main__.py
+halftone.egg-info/PKG-INFO
+halftone.egg-info/SOURCES.txt
+halftone.egg-info/dependency_links.txt
+halftone.egg-info/entry_points.txt
+halftone.egg-info/not-zip-safe
+halftone.egg-info/requires.txt
+halftone.egg-info/top_level.txt

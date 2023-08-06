@@ -1,0 +1,3 @@
+[console_scripts]
+halftone = halftone.__main__:main
+

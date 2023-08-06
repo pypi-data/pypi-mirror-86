@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: halftone
+Version: 0.0.1
+Summary: Image halftoning
+Home-page: http://github.com/bzamecnik/halftone
+Author: Bohumir Zamecnik
+Author-email: bohumir.zamecnik@gmail.com
+License: MIT
+Description: # halftone
+        
+        Halftoning in Python.
+        
+        ```shell
+        pip install halftone
+        ```
+        
+        ```
+        import halftone as ht
+        import PIL.Image
+        
+        img = PIL.Image.open('foo.png')
+        
+        halftoned = ht.halftone(img, ht.euclid_dot(spacing=8, angle=30))
+        
+        halftoned.save('bar.png)
+        ```
+        
+        <img src="examples/gradient_halftone.png">
+        
+        Check the example notebook: [notebooks/halftoning.ipynb]([notebook/halftoning.ipynb]).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
