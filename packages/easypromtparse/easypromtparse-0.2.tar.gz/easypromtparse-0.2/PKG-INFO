@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: easypromtparse
+Version: 0.2
+Summary: This tool allows you to parse any command from a string or prompt to separate entities
+Home-page: https://github.com/Cwinka/EasyPromtParse
+Author: Nikita_Ton
+Author-email: nikita00ton@gmail.ru
+License: MIT
+Download-URL: https://github.com/Cwinka/EasyPromtParse/archive/v0.2.tar.gz
+Description: UNKNOWN
+Keywords: promt,parse
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
