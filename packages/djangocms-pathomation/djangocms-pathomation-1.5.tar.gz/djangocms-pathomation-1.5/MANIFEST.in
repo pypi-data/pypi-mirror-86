@@ -1,0 +1,7 @@
+include LICENSE.txt
+include README.md
+recursive-include pathomation/static/static/*
+recursive-include pathomation/migrations/*
+recursive-include pathomation/templates/slides/*
+
+graft  pathomation/*
