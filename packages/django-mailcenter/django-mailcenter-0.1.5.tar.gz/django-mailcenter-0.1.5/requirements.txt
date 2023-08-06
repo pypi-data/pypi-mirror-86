@@ -1,0 +1,8 @@
+django
+django-readedit-switch-admin>=0.4.4
+django-fastadmin>=0.7.1
+django-safe-fields>=0.1.5
+python-sendmail>=0.3.1
+fastutils>=0.37.0
+django-click>=2.2.0
+pyyaml>=5.3.1
