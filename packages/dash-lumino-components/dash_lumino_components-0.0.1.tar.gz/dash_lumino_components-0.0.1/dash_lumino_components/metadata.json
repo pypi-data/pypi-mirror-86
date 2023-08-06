@@ -1,0 +1,129 @@
+{
+  "src/lib/components/Command.react.js": {
+    "description": "A widget which displays items as a canonical menu.",
+    "displayName": "Command",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The id of the command"
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The label of the command"
+      },
+      "icon": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The icon of the command (a cass class name)"
+      },
+      "n_called": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Number of times the command was called",
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        }
+      },
+      "n_called_timestamp": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Last time that command was called.",
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that gets fired when the value changes."
+      }
+    }
+  },
+  "src/lib/components/Menu.react.js": {
+    "description": "A widget which displays items as a canonical menu.",
+    "displayName": "Menu",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "title": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The title of the menu"
+      },
+      "iconClass": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The icon class of the menu"
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "An array of the menu items in the menu."
+      }
+    }
+  },
+  "src/lib/components/MenuBar.react.js": {
+    "description": "A widget which provides a flexible docking area for widgets. The namespace for the DockPanel class statics.",
+    "displayName": "MenuBar",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "ID of the widget"
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The menus"
+      }
+    }
+  },
+  "src/lib/components/Separator.react.js": {
+    "description": "A dummy widget to create a seperation in menus",
+    "displayName": "Separator",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The id of the command"
+      }
+    }
+  }
+}
