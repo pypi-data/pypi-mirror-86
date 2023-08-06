@@ -1,0 +1,11 @@
+decoy/__init__.py,sha256=VWR7AbgEnTBSmT69mmmRv7tOpApgV-U4DsUvsIXdBdY,5236
+decoy/matchers.py,sha256=7bpEugmA4kZjhsWg3vSy7784cKoLsBwp4tlDBeKQCbA,4805
+decoy/mock.py,sha256=qIeqe7sAC5uRKZ6Bah-MbWJhihfuf72pzNG0h5Cebt0,899
+decoy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decoy/registry.py,sha256=TlTmfXMV10-An5HDSm5qO2b6YiomuI0V7GZH_T0k0us,2254
+decoy/stub.py,sha256=Yw8JOUzLPARS23J4LFz6uZjWEu0C-4QtnSnGU1jCbE8,1994
+decoy/types.py,sha256=yVoXxEbBlmnBvc1nppIaGZ-i9i1D0Up6VghbPMoIYm0,378
+decoy-1.0.1.dist-info/LICENSE,sha256=aIX90ancczljXC4kcT790HN8VPOo2RHAeBGA62Ywgbg,1078
+decoy-1.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+decoy-1.0.1.dist-info/METADATA,sha256=h_UJh2BDuiVnxvD3ab7IxsEzfSdmk8N7A7VGgFIsfuw,6561
+decoy-1.0.1.dist-info/RECORD,,
