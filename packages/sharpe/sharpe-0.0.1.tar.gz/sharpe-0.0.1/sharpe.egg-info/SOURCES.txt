@@ -1,0 +1,8 @@
+setup.py
+sharpe/VERSION.txt
+sharpe/__init__.py
+sharpe.egg-info/PKG-INFO
+sharpe.egg-info/SOURCES.txt
+sharpe.egg-info/dependency_links.txt
+sharpe.egg-info/not-zip-safe
+sharpe.egg-info/top_level.txt
