@@ -1,0 +1,9 @@
+pyserial
+bleak
+asyncio
+queue
+sys
+threading
+time
+logging
+typing
