@@ -1,0 +1,17 @@
+papermap/__init__.py,sha256=PRIKA6Y45nRwy5UG9N2sFHW7oCOpWPM7bmGE86xQ4jU,81
+papermap/constants.py,sha256=dtmBS_OtJum6-uV-r2b7DmRNC17Ols-fQuAhtSowWkg,862
+papermap/defaults.py,sha256=vyX0yM1_4_l78bptdojtGl2I9E2JnZld6zqHOhjxCbc,12007
+papermap/gpx.py,sha256=bhROcElUJT8afQiO9hIZrRneUbPKOlo1v05pB29o9Rc,6038
+papermap/papermap.py,sha256=CdC_p7Xa22cwiE7Fv-8_VYVY1LM_ImAPjT8X9pBHs5E,23062
+papermap/point.py,sha256=R7NO3-Qfy0sKXBMeSH4nPa22Mf84tIbiFZFzQfMK81U,3062
+papermap/tile.py,sha256=SkIA_Q2tCfehc7JJh235RfD2nAUAyjzSacwYrJUK_rI,428
+papermap/utils.py,sha256=IApsa4mV1lQYOcQrRuu-TxuL1l6TTIHg8Yp0qPkX078,27250
+papermap/assets/Roboto-Regular.ttf,sha256=AXwL6aqm0DWXN-H6dirTBMDgEHkn-v9abB9BXH9SRO0,171272
+papermap/assets/map_marker.png,sha256=7bk5mgO1xGJ5v68Tf1W2MLUNX5d4gDPDhncvAkgiPgs,49328
+papermap/icons/map_marker.png,sha256=7bk5mgO1xGJ5v68Tf1W2MLUNX5d4gDPDhncvAkgiPgs,49328
+papermap-0.2.2.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+papermap-0.2.2.dist-info/METADATA,sha256=HogVr8YJh7bV6MtDV77dvgVUlFDVVzsog73tpPGAzA0,5713
+papermap-0.2.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+papermap-0.2.2.dist-info/entry_points.txt,sha256=GQEmpsBeaK2x7Ky2DOrFeE-6nuy1kWvntx5f5uqaADM,53
+papermap-0.2.2.dist-info/top_level.txt,sha256=RT2nct1ZXBmIaDABa1utUX1VrGUXNGXtTCsWhWIICuA,9
+papermap-0.2.2.dist-info/RECORD,,
