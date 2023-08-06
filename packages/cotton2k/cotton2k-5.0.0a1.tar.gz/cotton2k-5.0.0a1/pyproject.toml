@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "cotton2k"
+version = "5.0.0a1"
+description = "Cotton Simulation Model"
+authors = ["Tang Ziya <tcztzy@hotmail.com>"]
+license = "AGPL-3.0-or-later"
+packages = [
+    { include = "cotton2k.pyx" },
+    { include = "main.cpp" },
+    { include = "global.cpp" },
+    { include = "DailyClimate.cpp" },
+    { include = "PlantNitrogen.cpp" },
+]
+build = "build.py"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Cython = "^3.0a6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "Cython>=3.0a6"]
+build-backend = "poetry.core.masonry.api"
