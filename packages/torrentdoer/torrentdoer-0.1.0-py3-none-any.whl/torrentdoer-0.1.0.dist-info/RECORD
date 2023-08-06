@@ -1,0 +1,13 @@
+ansible-playbook.yml,sha256=77kytcOn7IemcZM22LFlQpZqeRAL7J6p85LZWfJqUaA,379
+torrentdoer/__init__.py,sha256=f48PAPUi8Z7Hu6XHdnZ7MhgutZbSGCqbTavBSqlpp3c,44
+torrentdoer/__main__.py,sha256=zWBAtktGZA4UVmAMPRpYtRZ0Vm8Xof6Shr_BGsQHVFQ,177
+torrentdoer/create.py,sha256=RC9K8oelKNG_exYbkciqx-cNimJ25ARm0JjUylFuBfE,6508
+torrentdoer/destroy.py,sha256=CU1_1rBryEiUP5qRaYs1B24sQGuFUs3iOJ_ayixxvcg,722
+torrentdoer/droplet_helper.py,sha256=DfKp5q0SsQE5B1hqQQzy2C89gzNoSTjxa4CGO24fWq4,1792
+torrentdoer/entrypoint.py,sha256=Zr2rOkXL0TT3Q1eQ_Iy6bd4Vvld4Pqpshap2HuGkIis,459
+torrentdoer/retrieve.py,sha256=zeOQUTS7AL2sfxg0ddjEsGd-6HvIMz0uUmfHWq8ukAs,1050
+torrentdoer/ssh.py,sha256=VzIzYFeH2gA3mJZblBaq_3GX7b8XzZigOXszcUCAFXY,1006
+torrentdoer-0.1.0.dist-info/entry_points.txt,sha256=5jguD27k5kk4IGA7FwH6XQp93leAWtOnbOWfjPbxzfw,58
+torrentdoer-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+torrentdoer-0.1.0.dist-info/METADATA,sha256=vr1kDaJZY8DdD3USVanuN5hbAP9Hbhwdo5Re4Zti30g,1560
+torrentdoer-0.1.0.dist-info/RECORD,,
