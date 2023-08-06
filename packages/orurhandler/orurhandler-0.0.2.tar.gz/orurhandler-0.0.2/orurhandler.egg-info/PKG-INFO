@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: orurhandler
+Version: 0.0.2
+Summary: User Management with AWS Cognito.
+Home-page: https://github.com/leonardomra/orurhandler
+Author: Leonardo de Araújo
+Author-email: dearaujo@uni-bremen.de
+License: UNKNOWN
+Description: This module is responsible for persisting users and handling communicaton with AWS Cognito.
+        
+        ## Create Package
+        
+        pip3 install setuptools twine 
+        python3 setup.py sdist
+        python3 setup.py bdist_wheel
+        twine upload dist/*
+        
+        pip install YOURPACKAGE --upgrade
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
