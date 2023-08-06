@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xesoython
+Version: 0.0.2
+Summary: xesoython 本库作者:李承泽 (若正常路线下载失败，请切换python原版路线！)
+Home-page: https://github.com/
+Author: Chengze Li
+Author-email: 3161399620@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
