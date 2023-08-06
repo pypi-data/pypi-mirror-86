@@ -1,0 +1,16 @@
+dynamic_source_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynamic_source_models/decorators.py,sha256=JfSnGasA04-Qo4DGhaajSFd3OWgQke-PFAcp4gENlqE,2019
+dynamic_source_models/models.py,sha256=YFJHyXFxh9YukjP_tYEY5V1prVPIU8jaOTptktBtULo,4115
+raw_sugar/__init__.py,sha256=WeByoGvpBEAQHPSA5nfOieH3BnP_CNQoZu45Ltqh_7A,89
+raw_sugar/managers.py,sha256=yHM8X82KGxT1kO0mh8fMuEeU6I7Og3jT4ebNZpHld5g,3675
+raw_sugar/query.py,sha256=WXiq9gWwVdgoKH8Gm1xsXV5kVu4qxK49lO8EuwozNNk,3455
+raw_sugar/sources.py,sha256=d5Q37jjXTp3OaTy9K21ZkrCN0mQE55nu5SlFu3wkjSI,2052
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/models.py,sha256=mxEPCJp4xsp0FRYBMQjdxHYpju7O8ubRCqtRPveaa3Q,915
+tests/settings.py,sha256=DjRG-QkO8xOdkK5VEI41la7weSNpc3aEVB_QSqa-5TM,210
+tests/test_querying.py,sha256=kvh7TcCAAiMf5nq008QsYczMg0807kuDawHhQcY-vB8,6472
+django_raw_sugar-0.1.16.dist-info/LICENSE,sha256=txMhhmhMEtgq5Q6vo0YufE2ZR0_50i5j_zdP_1QAHNs,1091
+django_raw_sugar-0.1.16.dist-info/METADATA,sha256=pfa2kE_fXpDA0x4Fy3x2Z0RPnDwhgfLxNVFOUBlg7Zk,5465
+django_raw_sugar-0.1.16.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_raw_sugar-0.1.16.dist-info/top_level.txt,sha256=xdzIoQF_2ksicnx1pfNUIe1VLbrg3qNLw9gB8Izdxk4,16
+django_raw_sugar-0.1.16.dist-info/RECORD,,
