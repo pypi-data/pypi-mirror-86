@@ -1,0 +1,11 @@
+pytorch_optimize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytorch_optimize/evaluator.py,sha256=LhKrf-GS3fqDcbs1KQ9l-lG5tPF8sdCQN4hJsIcS5qg,962
+pytorch_optimize/model.py,sha256=-_SxpLi297-yCLoSWb9uXGt6bOjaY8jwSf0VDkuuMj0,7630
+pytorch_optimize/objective.py,sha256=ggvRN2p2hwyOyhda05ean4CHt16OMC7Us_rZPBFT_s0,495
+pytorch_optimize/optimizer.py,sha256=-yJlETGH1psjcTDhupcWXN-tF6sFDSYB3rbF2LqXJtU,4206
+pytorch_optimize/scaler.py,sha256=X0HZaeLEBodO0ZfV6z3mOPPWUvHCyAhBfCRMG2xmlMI,1537
+pytorch_optimize-0.0.1.dist-info/LICENSE,sha256=bGI2yW9fieGnUdr3vjRclEgNF5x3Jgggm5ISwAR_adk,1076
+pytorch_optimize-0.0.1.dist-info/METADATA,sha256=w7hRKxs-WGXOAiSg3ti3F6J0tVc4nI7JJ1BUnncvM2k,480
+pytorch_optimize-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pytorch_optimize-0.0.1.dist-info/top_level.txt,sha256=ZiAifCI2zit-yqaczsRfSsxNS6A6T6RIsTOCTuVMmEQ,17
+pytorch_optimize-0.0.1.dist-info/RECORD,,
