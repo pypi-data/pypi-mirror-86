@@ -1,0 +1,14 @@
+paypal_rest/__init__.py,sha256=rXUQPwkEhaMSYyfsZmiCQrxf0CSX6jUctElXiJEy8uw,854
+paypal_rest/client.py,sha256=srD43ldSb5e9OUpnVIpw9TdX2w1-DdIpug3rmCTCDsg,15015
+paypal_rest/cliquery.py,sha256=zZ6Anfi4rkJ_xnjDyyQMkco9z35kregOog4vb5-HV64,7369
+paypal_rest/cliutil.py,sha256=RsTOFuMi2sRTW_jZu_h0zzOTBWTORnnmos9H3MkXu_o,6694
+paypal_rest/config.py,sha256=nktg994CrDoEAPTmQBRbwrDV6x5_Z91ESRwB37ZO0zg,1406
+paypal_rest/errors.py,sha256=muYkh0IHRWtQZ3HxUvYNOvr2wkgb6SI68WqhxQuustM,1163
+paypal_rest/paypal_types.py,sha256=WIk11ljyFu-8Hl60dVRMRBOa_D-9dibQe2oPbMNN3Vs,1416
+paypal_rest/transaction.py,sha256=SAdRNhHj1mZSV_uGFywHHEpqgR59y_zcGv-aT254MxI,6755
+paypal_rest-1.0.2.dist-info/LICENSE.txt,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+paypal_rest-1.0.2.dist-info/METADATA,sha256=fY5yqPa8NKgGYrpnMdLIPmL0Xpn0TDHI5niR5WtJAMQ,2590
+paypal_rest-1.0.2.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+paypal_rest-1.0.2.dist-info/entry_points.txt,sha256=k58dFYbwRPtInHbgvYfgUzFz8UtOgyN-krTi959z4fw,67
+paypal_rest-1.0.2.dist-info/top_level.txt,sha256=xDP55V1ccMtx0FRP-HslxgxRQBox1_VYYDqz8LzwCLg,12
+paypal_rest-1.0.2.dist-info/RECORD,,
