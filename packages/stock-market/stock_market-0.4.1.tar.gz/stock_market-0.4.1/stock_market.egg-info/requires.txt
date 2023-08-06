@@ -1,0 +1,9 @@
+bs4
+html5lib
+pandas
+requests
+wheel
+
+[dev]
+pytest
+pytest-reportlog
