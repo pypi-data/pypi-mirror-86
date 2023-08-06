@@ -1,0 +1,13 @@
+sed/P08908_ECFP12_1024_Top300.csv,sha256=gNVLhs7kbezt4ULU3iauZ1GXUheHxwLNGfhA7meOa0U,6216744
+sed/__init__.py,sha256=qZCUfyCcYQZ12WwrYTqk0t4BVJa-IwsKWrp21LwA7jg,74
+sed/demo_new.py,sha256=5jLgjGyYiBn4scba2qoOR8yTLpSGlMLa1CtTtJ2FrUg,4895
+sed/dpc_screening.py,sha256=PoF4USFgSCn3OULo7cZqGXpok2pbOd-LoaebfW_tZbA,4058
+sed/gen_ecfp.py,sha256=tk6IH0WE0-SVbj6ANd_d_0KuHLLaA5RBHMfWPj5zyJs,1623
+sed/rf_test.py,sha256=vIxUNpA3Mo04-h_BrMXKS_v7W67Y9iK28csN0LlHRYs,1935
+sed/sed_common.py,sha256=Ssy3v82V2kgpqO8k_65lvLIKOvPS3aRpBVw4h_-y37Q,8951
+sed/slep.py,sha256=1vsinKBk3-_uNhjOSZKnCOW205REOCHv66o6FKcZRQc,17754
+sed_ecfp-0.0.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+sed_ecfp-0.0.2.dist-info/METADATA,sha256=ar_JPIrKi7JhinfRFxWI75kfV8BE1QROjVIfqDOhGFM,1208
+sed_ecfp-0.0.2.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+sed_ecfp-0.0.2.dist-info/top_level.txt,sha256=H4XCkV-VDDO3YC2e_dYC0vaUEvKO5shx-TKYanaPzv4,13
+sed_ecfp-0.0.2.dist-info/RECORD,,
