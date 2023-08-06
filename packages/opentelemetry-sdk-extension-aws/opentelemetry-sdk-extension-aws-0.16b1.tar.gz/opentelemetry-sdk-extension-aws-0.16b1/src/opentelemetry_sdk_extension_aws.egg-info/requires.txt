@@ -1,0 +1,4 @@
+opentelemetry-api==0.16b1
+
+[test]
+opentelemetry-test==0.16b1
