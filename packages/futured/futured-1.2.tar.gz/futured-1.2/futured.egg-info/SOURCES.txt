@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+futured/__init__.py
+futured/py.typed
+futured.egg-info/PKG-INFO
+futured.egg-info/SOURCES.txt
+futured.egg-info/dependency_links.txt
+futured.egg-info/not-zip-safe
+futured.egg-info/top_level.txt
+tests/__init__.py
+tests/test_all.py
