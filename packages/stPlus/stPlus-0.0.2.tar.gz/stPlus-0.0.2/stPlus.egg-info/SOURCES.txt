@@ -1,0 +1,6 @@
+setup.py
+stPlus.egg-info/PKG-INFO
+stPlus.egg-info/SOURCES.txt
+stPlus.egg-info/dependency_links.txt
+stPlus.egg-info/requires.txt
+stPlus.egg-info/top_level.txt
