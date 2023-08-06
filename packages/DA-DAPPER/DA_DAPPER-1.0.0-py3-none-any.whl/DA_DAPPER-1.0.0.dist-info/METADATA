@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: DA-DAPPER
+Version: 1.0.0
+Summary: Data Assimilation with Python: a Package for Experimental Research.
+Home-page: https://github.com/nansencenter/DAPPER
+Author: Patrick N. Raanes
+Author-email: patrick.n.raanes@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://nansencenter.github.io/DAPPER/
+Project-URL: Source, https://github.com/nansencenter/DAPPER
+Project-URL: Tracker, https://github.com/nansencenter/DAPPER/issues
+Keywords: data-assimilation enkf kalman-filtering state-estimation particle-filter kalman bayesian-methods bayesian-filter chaos
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: scipy (>=1.1)
+Requires-Dist: ipython (>=5.1)
+Requires-Dist: matplotlib (~=3.1)
+Requires-Dist: tqdm (~=4.31)
+Requires-Dist: pyyaml
+Requires-Dist: ipdb
+Requires-Dist: colorama (~=0.4.1)
+Requires-Dist: tabulate (~=0.8.3)
+Requires-Dist: dill (==0.3.2)
+Requires-Dist: multiprocessing-on-dill (==3.5.0a4)
+Requires-Dist: threadpoolctl (==1.0.0)
+Provides-Extra: dev
+Requires-Dist: line-profiler ; extra == 'dev'
+Requires-Dist: pdbpp ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pdoc3 ; extra == 'dev'
+Provides-Extra: qt
+Requires-Dist: PyQt5 ; extra == 'qt'
+Requires-Dist: qtpy ; extra == 'qt'
+
+DAPPER is a set of templates for benchmarking the performance of data assimilation (DA). See full README at github.com/nansencenter/DAPPER.
+
+
