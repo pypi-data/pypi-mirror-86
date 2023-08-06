@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: BinaryClassificationMetrics
+Version: 0.0.4
+Summary: This package contains various binary classification metric methods.
+Home-page: https://github.com/VarunV991/Binary-Classification-Metrics
+Author: Varun V
+Author-email: varunofficial99@gmail.com
+License: MIT
+Download-URL: https://github.com/VarunV991/Binary-Classification-Metrics/archive/v0.0.3.tar.gz
+Description: UNKNOWN
+Keywords: binary-classification,metrics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
