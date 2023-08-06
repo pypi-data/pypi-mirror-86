@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: app-stle
+Version: 0.0.1
+Summary: Adaptive pressure profile tracking of the shock-train leading edge.
+Home-page: https://gjhunt.github.io/app/
+Author: Gregory J. Hunt
+Author-email: ghunt@wm.edu
+License: GPL3
+Description: <img src="quartet.png" width="100%">
+        
+        # app: Adaptive Pressure Profile (APP) Shock Train Tracking
+        
+        The APP method is an approach to adaptive realtime shock train tracking from pressure transducer data. 
+        
+        ## Software
+        
+        The *python package* is available on pypi [here](https://pypi.org/project/app-stle/)
+        
+        ## Vignettes
+        
+        A basic vignette of how to use APP is available [here](simple_example/simple_example.md) ([.py](simple_example/simple_example.py) | [.ipynb](simple_example/simple_example.ipynb))
+        
+        ## Papers
+        
+        ## 1. "Adaptive Pressure Profile Method to Locate the Isolator Shock Train Leading Edge Given Limited Pressure Information" AIAA 2020 P&E
+        
+        - Our *publication* in AIAA P&E is available [here](https://arc.aiaa.org/doi/abs/10.2514/6.2020-3715)
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
