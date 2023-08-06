@@ -1,0 +1,9 @@
+numpy
+
+[docs]
+sphinx
+
+[tests]
+flake8
+pytest
+pytest-cov

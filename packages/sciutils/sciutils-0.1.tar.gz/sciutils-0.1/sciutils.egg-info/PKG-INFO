@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sciutils
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: 🧪 sciutils
+        ===========
+        
+        A collection of functionality useful for scientific computing.
+        
+        Interface
+        ---------
+        
+        :code:`.. automodule:: sciutils`
+           :members:
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: tests
+Provides-Extra: docs
