@@ -1,0 +1,10 @@
+geniuses/__init__.py,sha256=FMjUrEBT7somFOIsYCsFt7-azzW0SfiXyHGX9Lh5UIw,33
+geniuses/__main__.py,sha256=5mx5StWYXXZQ9embr0lwHZRNMC9iVdmBga1YCXJMa0U,1793
+geniuses/_version.py,sha256=wV9RItQ0A60cNgJXM0w9323QR_NrXPu8lxPPmdYlquA,244
+geniuses/client.py,sha256=cy0unNyRp5iRASSoizLWtWYXdabKenFk9S4Sd7pOdfY,4276
+geniuses/model.py,sha256=fOZmvs1fryrQKLff7EXeRnVtqcs3wy8ZYBQdnHaP2AY,4560
+geniuses-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+geniuses-0.0.1.dist-info/METADATA,sha256=tYnhw9R1x_3SquC3zuEfb2wGBqFENwnapGCusUA5NfI,2309
+geniuses-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+geniuses-0.0.1.dist-info/top_level.txt,sha256=paZVFLm80LiezFRO-aFDSji2ktOc5Z7jfvxTXPpUKuo,9
+geniuses-0.0.1.dist-info/RECORD,,
