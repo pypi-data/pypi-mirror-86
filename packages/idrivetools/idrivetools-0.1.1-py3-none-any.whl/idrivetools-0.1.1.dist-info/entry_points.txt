@@ -1,0 +1,4 @@
+[console_scripts]
+bmwbackup=idrivetools.backup:backup
+bmwrestore=idrivetools.restore:restore
+
