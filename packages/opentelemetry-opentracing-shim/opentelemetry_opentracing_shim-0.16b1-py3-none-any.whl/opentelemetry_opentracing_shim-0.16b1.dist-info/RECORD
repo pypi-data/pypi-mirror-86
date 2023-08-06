@@ -1,0 +1,8 @@
+opentelemetry/instrumentation/opentracing_shim/__init__.py,sha256=UIt5R2YsB4ADDYLbLvusKNJZLBWK56R9lWRAlU_q2S4,28631
+opentelemetry/instrumentation/opentracing_shim/util.py,sha256=ZxIjFwXxW_KDr_vWzWbPP8gJrT6fBFLfwQZC-qXgJQk,1739
+opentelemetry/instrumentation/opentracing_shim/version.py,sha256=J1HoqnKG8W6hYRj20GTVLccRKuD6OfxJ5alMpOZGGQs,608
+opentelemetry_opentracing_shim-0.16b1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_opentracing_shim-0.16b1.dist-info/METADATA,sha256=sQcZfhJ6i-9CNwQxtOUQeyrysObV9Pq2afZBROIQWXk,1677
+opentelemetry_opentracing_shim-0.16b1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_opentracing_shim-0.16b1.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_opentracing_shim-0.16b1.dist-info/RECORD,,
