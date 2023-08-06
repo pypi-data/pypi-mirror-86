@@ -1,0 +1,3 @@
+[console_scripts]
+hsmwiz = hsmwiz.__main__:main
+
