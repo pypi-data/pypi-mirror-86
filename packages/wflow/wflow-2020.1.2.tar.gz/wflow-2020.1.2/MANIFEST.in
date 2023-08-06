@@ -1,0 +1,4 @@
+include README.rst
+include LICENSE
+include wflow/version.py
+prune examples
