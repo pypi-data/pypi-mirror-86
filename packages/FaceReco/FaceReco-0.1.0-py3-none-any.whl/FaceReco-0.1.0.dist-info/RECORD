@@ -1,0 +1,11 @@
+FaceReco/FaceReco.py,sha256=KwpsJ0JQXjW9k03_5fAcWUqIGGOEmlkM_dvVfNv2M_Q,6107
+FaceReco/__init__.py,sha256=pmCt8TCWCbSMcCUNVgUTFmDt1Tw6v0hy6LRY7YkokjY,69
+FaceReco/dlib_face_recognition_resnet_model_v1.dat,sha256=VVM7KKlYAKVRulRrpi_mliXH6VpwYcM4rf_q0IcZ2jA,22466066
+FaceReco/opencv_face_detector.pbtxt,sha256=yg62s6DgsSQoLQk6PYqdRTln83rzwakzl4rFVgWo8ss,34975
+FaceReco/opencv_face_detector_uint8.pb,sha256=XHHXUu8svy9Fesgv3VgPyyUi_QTF79rtGOttnihD--0,2727750
+FaceReco/shape_predictor_68_face_landmarks.dat,sha256=-9wsuA65qnp1hnLL_doyumMA7-m25seimf9-c2sRuS8,99693937
+FaceReco/supportFiles.py,sha256=Lf8z5hOZtMaZ3PfGF2Q8gUkNTnNCA4JuWzXr00xhMlU,509
+FaceReco-0.1.0.dist-info/METADATA,sha256=2b21WASXb7x9Qv1mYhEAgJQ0RxPo0PP1qpXNhOghkiM,573
+FaceReco-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+FaceReco-0.1.0.dist-info/top_level.txt,sha256=snKwndTEhjfvnT8mrv1eHKCfvTkkpzmgYfhL-_dln8E,9
+FaceReco-0.1.0.dist-info/RECORD,,
