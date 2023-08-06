@@ -1,0 +1,10 @@
+README.md
+setup.py
+c4/__init__.py
+c4/architecture.py
+c4/graph.py
+c4_achitecture.egg-info/PKG-INFO
+c4_achitecture.egg-info/SOURCES.txt
+c4_achitecture.egg-info/dependency_links.txt
+c4_achitecture.egg-info/requires.txt
+c4_achitecture.egg-info/top_level.txt
