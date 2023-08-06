@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nr.utils.process
+Version: 0.0.5
+Summary: Utilities for cross-platform process handling and privilege escalation.
+Home-page: https://git.niklasrosenstein.com/NiklasRosenstein/nr
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+License: MIT
+Description: 
+        > Note: This package is in the dangerous land of `0.x.y` versions and may be subject to breaking
+        > changes with minor version increments.
+        
+        # nr.utils.process
+        
+        Utilities for cross-platform process handling and privilege escalation.
+        
+        ---
+        
+        <p align="center">Copyright &copy; 2020 Niklas Rosenstein</p>
+        
+Platform: UNKNOWN
+Requires-Python: >=3.4.0,<4.0.0
+Description-Content-Type: text/markdown
