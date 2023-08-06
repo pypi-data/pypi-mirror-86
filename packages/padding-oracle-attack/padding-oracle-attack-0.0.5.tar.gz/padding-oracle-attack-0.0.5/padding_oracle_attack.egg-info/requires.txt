@@ -1,0 +1,4 @@
+requests>=2.21.0
+grequests>=0.6.0
+pycryptodome>=3.9.7
+flask8>=3.8.4
