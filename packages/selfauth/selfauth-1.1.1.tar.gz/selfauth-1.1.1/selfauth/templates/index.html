@@ -1,0 +1,109 @@
+<h1>Client Test</h1>
+
+{% if not request.user.is_authenticated %}
+<form method="GET" action="{% url 'oidc_authentication_init' %}">
+    <input type="submit" value="login">
+</form>
+{% else %}
+<form method="GET" action="{% url 'oidc_authentication_init' %}">
+    <input type="submit" value="refresh">
+</form>
+<form action="{% url 'oidc_logout' %}" method="post">
+    {% csrf_token %}
+    <input type="submit" value="logout">
+</form>
+{% endif %}
+
+{% if request.user.is_authenticated %}
+You are currently authenticated. Your user information is the following:
+
+<ul>
+    <li><b>Subject Identifier:</b> {{ request.user.sub }}</li>
+    <li><b>First Name:</b> {{ request.user.first_name }} </li>
+    <li><b>Last Name:</b> {{ request.user.last_name }} </li>
+    <li><b>Username:</b> {{ request.user.username }}</li>
+    <li><b>Birthday:</b> {{ request.user.birthday }}</li>
+    <li><b>Active:</b> {{ request.user.is_active }} </li>
+    <li><b>Staff:</b> {{ request.user.is_staff }} </li>
+    <li><b>Superuser:</b> {{ request.user.is_superuser }} </li>
+</ul>
+
+<b>Email Addresses</b>
+
+{% for email in emails %}
+<ul>
+    <li>
+        <ul>
+            <li><b>Email:</b> {{ email.email }}</li>
+            <li><b>Primary:</b> {{ email.primary }}</li>
+            <li><b>Verified:</b> {{ email.verified }}</li>
+        </ul>
+    </li>
+</ul>
+{% endfor %}
+
+<b>Avatars</b>
+
+{% for avatar in avatars %}
+<ul>
+    <li>
+        <ul>
+            <li><img src="{{ avatar.url }}" height="100px"></img></li>
+        </ul>
+    </li>
+</ul>
+{% endfor %}
+
+<b>Addresses</b>
+
+{% for address in addresses %}
+<ul>
+    <li>
+        <ul>
+            <li><b>Primary:</b> {{ address.primary }}</li>
+            <li><b>Country:</b> {{ address.country }}</li>
+            <li><b>State:</b> {{ address.state }}</li>
+            <li><b>City:</b> {{ address.city }}</li>
+            <li><b>Address1:</b> {{ address.address1 }}</li>
+            <li><b>Address2:</b> {{ address.address2 }}</li>
+            <li><b>Zipcode:</b> {{ address.zipcode }}</li>
+        </ul>
+    </li>
+</ul>
+{% endfor %}
+
+<b>Phones</b>
+
+{% for phone in phones %}
+<ul>
+    <li>
+        <ul>
+            <li><b>Number:</b> {{ phone.number }}</li>
+            <li><b>Primary:</b> {{ phone.primary }}</li>
+            <li><b>Verified:</b> {{ phone.verified }}</li>
+        </ul>
+    </li>
+</ul>
+{% endfor %}
+
+<b>Settings</b>
+
+{% for setting in settings %}
+<ul>
+    <li><b>Role:</b> {{ setting.role }}</li>
+</ul>
+{% endfor %}
+
+<b>Social</b>
+
+{% for social in socials %}
+<ul>
+    <li><b>Token:</b> {{ social.token }}</li>
+    <li><b>Token Secret:</b> {{ social.token_secret }}</li>
+    <li><b>Expires at:</b> {{ social.expires_at }}</li>
+</ul>
+{% endfor %}
+
+{% else %}
+You are not authenticated. <br>
+{% endif %}
