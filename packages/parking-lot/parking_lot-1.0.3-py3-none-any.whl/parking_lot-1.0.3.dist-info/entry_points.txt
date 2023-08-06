@@ -1,0 +1,3 @@
+[console_scripts]
+parking-lot = parking_lot.index:main
+
