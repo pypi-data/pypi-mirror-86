@@ -1,0 +1,8 @@
+README.md
+setup.py
+AirDataUAV/__init__.py
+AirDataUAV/air_data_uav_objects.py
+AirDataUAV.egg-info/PKG-INFO
+AirDataUAV.egg-info/SOURCES.txt
+AirDataUAV.egg-info/dependency_links.txt
+AirDataUAV.egg-info/top_level.txt
