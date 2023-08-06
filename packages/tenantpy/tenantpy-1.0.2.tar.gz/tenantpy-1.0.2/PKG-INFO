@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: tenantpy
+Version: 1.0.2
+Summary: Tenant Management For Web Application
+Home-page: UNKNOWN
+Author: zhouhao
+Author-email: zhouhao19931002@hotmail.com
+Maintainer: zhouhao
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.0
