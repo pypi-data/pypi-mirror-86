@@ -1,0 +1,3 @@
+[console_scripts]
+walden = walden.__main__:main
+
