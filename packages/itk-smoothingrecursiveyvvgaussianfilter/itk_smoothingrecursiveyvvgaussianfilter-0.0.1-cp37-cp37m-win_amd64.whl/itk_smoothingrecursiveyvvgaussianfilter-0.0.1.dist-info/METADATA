@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: itk-smoothingrecursiveyvvgaussianfilter
+Version: 0.0.1
+Summary: Young & Van Vliet recursive Gaussian smoothing filter for GPU (OpenCL) and CPU
+Home-page: https://github.com/InsightSoftwareConsortium/ITKSmoothingRecursiveYvvGaussianFilter
+Author: Irina Vidal Migallón
+Author-email: irina.vidal-migallon@inria.fr
+License: Apache
+Download-URL: https://github.com/InsightSoftwareConsortium/ITKSmoothingRecursiveYvvGaussianFilter
+Keywords: ITK InsightToolkit Smoothing
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Dist: itk (>=5.1.1)
+
+itk-smoothingrecursiveyvvgaussianfilter provides a GPU (OpenCL) and CPU implementation of the computationally efficient forward and backward IIR Young & Van Vliet recursive Gaussian smoothing filter.
+Please refer to:
+Vidal-Migallon I., Commowick O., Pennec X., Dauguet J., Vercauteren T.,"GPU and CPU implementation of Young - Van Vliet's Recursive Gaussian Smoothing Filter", Insight Journal, January-December 2013, http://hdl.handle.net/10380/3425.
+
