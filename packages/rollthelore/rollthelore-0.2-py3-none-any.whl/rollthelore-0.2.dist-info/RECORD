@@ -1,0 +1,9 @@
+loreroll/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loreroll/data/npc.json,sha256=JyWoycK3xi1hpL2ccuStf7j9tB6Gv9hVSD6X5wRpBug,27545
+loreroll/data/npc.yaml,sha256=Hd5LybTIiDs5H91fuaxGJuawjW9XplMqAl5ez2qsjEs,24956
+loreroll/npc.py,sha256=rbrDgQLNtD5FWba3Kk0nJ3ZyGkml07aTwPBZbSpR0zM,7897
+rollnpc.py,sha256=41e0ZPP8-JWdyTR4c7k3_z-KG6bixYAdZ2EI4OlnkpQ,2585
+rollthelore-0.2.dist-info/entry_points.txt,sha256=tE3ZxtQdxlpd1xJc3bLjqpTSNmfdDJJBNePVsevV5rE,44
+rollthelore-0.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+rollthelore-0.2.dist-info/METADATA,sha256=w2dd2uNQE8-o7YeLvzyF4wK6YBtvE6HjovFLkytKHFo,5262
+rollthelore-0.2.dist-info/RECORD,,
