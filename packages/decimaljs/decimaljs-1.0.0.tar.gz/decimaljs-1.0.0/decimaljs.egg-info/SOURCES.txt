@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+decimal.js
+decimaljs.py
+requirements.txt
+requirements_dev.txt
+setup.py
+decimaljs.egg-info/PKG-INFO
+decimaljs.egg-info/SOURCES.txt
+decimaljs.egg-info/dependency_links.txt
+decimaljs.egg-info/requires.txt
+decimaljs.egg-info/top_level.txt
