@@ -1,0 +1,37 @@
+Metadata-Version: 1.2
+Name: Akasia
+Version: 1.0.0
+Summary: A fork tiny python text-based web browser Asiakas.
+Home-page: UNKNOWN
+Author: RIERIUS (Asiakas fork author)
+Author-email: riderius.help@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/RIDERIUS/Akasia
+Description: # Akasia - A fork tiny python text-based web browser Asiakas
+        
+        **Akasia** serves as an example of ...
+        
+        - how `setup.py` looks like for a Python program consisting out of only one file.
+        - how a simplified browser works.
+        
+        ![image](docs/akasia.png)
+        
+        If you want to run it from any location on your system do the following:
+        
+        > git clone <https://github.com/RIDERIUS/akasia.git>
+        
+        > python setup.py install
+        
+        Then run the following command:
+        
+        > akasia
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
