@@ -1,0 +1,13 @@
+README.md
+setup.py
+pyRevealjs/__init__.py
+pyRevealjs/presentation.py
+pyRevealjs/slide.py
+pyRevealjs/slideGenerator.py
+pyRevealjs/slides.py
+pyRevealjs.egg-info/PKG-INFO
+pyRevealjs.egg-info/SOURCES.txt
+pyRevealjs.egg-info/dependency_links.txt
+pyRevealjs.egg-info/top_level.txt
+tests/__init__.py
+tests/test_presentation.py
