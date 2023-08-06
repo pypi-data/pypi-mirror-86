@@ -1,0 +1,14 @@
+facts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+facts/arxiv.py,sha256=rczi2MKOwuHHyikHU1KJ67jo4lKi_slgCgCz3ENH4Zk,3574
+facts/atel.py,sha256=j4ZZ5GFEgUmiTarkjK54NXJwYyqQ03s-pJ00mm7tGnI,2370
+facts/conclude.py,sha256=4DWkLZ06lwwg_7a5R32OGzWIzbEgTUKGBS8YRnRlzAY,16102
+facts/core.py,sha256=kRr4xbqI_eLHX4CUlT_zyeEvH7V5eBP6_rtujcG7OzQ,6128
+facts/gcn.py,sha256=z9cSOBAR0q2ClGNsAbZmwqwFl0jFLwOgSRVhRPuah00,10540
+facts/learn.py,sha256=XG-fx0CI0dY5M7xCA69J8hC0Vo2WxLocWxGpAJHh3Lw,4388
+facts/tools.py,sha256=QqC5xM1BMfxDYX98x-_k4bzqS0LxGI1Ux3WOhJZSP-A,1396
+oda_knowledge_base-0.1.0.dist-info/COPYING,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oda_knowledge_base-0.1.0.dist-info/METADATA,sha256=cbNSYkbelsShZIgibqq48p0tAFcFrMVMfJ-ctu77_H8,1420
+oda_knowledge_base-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+oda_knowledge_base-0.1.0.dist-info/entry_points.txt,sha256=g0qd0oZ4xpRkiKAXr3TqlJg4Qr9jKh13oO3pm5IDRAU,122
+oda_knowledge_base-0.1.0.dist-info/top_level.txt,sha256=0hXPHfhIDjIAsVVoo3nngrLSsKK8BeUSsEMcrYME60Q,6
+oda_knowledge_base-0.1.0.dist-info/RECORD,,
