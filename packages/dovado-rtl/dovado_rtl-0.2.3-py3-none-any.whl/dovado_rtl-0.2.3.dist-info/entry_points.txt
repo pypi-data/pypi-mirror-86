@@ -1,0 +1,3 @@
+[console_scripts]
+dovado_rtl=dovado_rtl.main:main
+
