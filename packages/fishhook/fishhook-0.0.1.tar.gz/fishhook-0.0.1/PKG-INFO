@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fishhook
+Version: 0.0.1
+Summary: Allows for runtime hooking of static class functions
+Home-page: https://github.com/chilaxan/fishhook
+Author: chilaxan
+Author-email: chilaxan@gmail.com
+License: UNKNOWN
+Description: # Fishhook
+        
+        This module allows for swapping out the slot pointers contained in static
+        classes with the **generic** slot pointers used by python for heap classes.
+        This allows for assigning arbitrary python functions to static class dunders
+        using *hook* and *hook_cls* and for applying new functionality to previously
+        unused dunders. A stitched static dunder can be restored to original
+        functionality using the *unhook* function
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
