@@ -1,0 +1,5 @@
+global-include *.h *.S *.c *.cu
+include buildbot.json
+include LICENSE
+include README.rst
+prune tmp/
