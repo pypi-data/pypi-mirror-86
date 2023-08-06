@@ -1,0 +1,11 @@
+
+[dev]
+uvloop==0.14.*
+
+[test]
+uvloop==0.14.*
+bandit
+flake8
+pytest
+pytest-cov
+tox
