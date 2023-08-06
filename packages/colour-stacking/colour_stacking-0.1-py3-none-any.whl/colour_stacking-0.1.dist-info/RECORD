@@ -1,0 +1,11 @@
+colour_stacking/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colour_stacking/__main__.py,sha256=AK_KMNTMiFS_JqfTGsVFHajd5jYqsw7JupUHvpeCcd4,261
+colour_stacking/input.py,sha256=dbcfpVr5K8w24xoWHLvTNT84Q0V4InKAlJdG9g5IdrY,969
+colour_stacking/input_config.py,sha256=YNBkVJgcJePrnbpIHjUhIL716nC8m44EFUxEg60RG5o,120
+colour_stacking/models.py,sha256=Su5wuSBqaOPcxYiMs6DNI3tXrFEcfTrTDf7i249jPQE,1120
+colour_stacking/solver.py,sha256=jE-qkJdqMp9328hDKyZDj1gDxH0_np1N6OmRL7HLNww,4009
+colour_stacking-0.1.dist-info/LICENSE,sha256=WBKuAYeUZMMlcQDzAHs1905KMJglfqy_XFSFCfxz-2k,1069
+colour_stacking-0.1.dist-info/METADATA,sha256=er7bXmTYWOTl04nah3wzx8dwhohEyuB9Fu1fXQ8XSkA,569
+colour_stacking-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+colour_stacking-0.1.dist-info/top_level.txt,sha256=im_W5E3ifmMvLQNUKsyq0-q3GhW5zIaFZe-xL1BiIxA,16
+colour_stacking-0.1.dist-info/RECORD,,
