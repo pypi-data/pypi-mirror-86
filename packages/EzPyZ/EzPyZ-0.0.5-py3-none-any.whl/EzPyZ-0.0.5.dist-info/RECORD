@@ -1,0 +1,11 @@
+EzPyZ/__init__.py,sha256=Wwx40i2P4Mmj1ICSAIyOFKvN3EapU_LRQc49WmGcsbQ,97
+EzPyZ/column.py,sha256=KuOs3nLvDzS85sx_jjyoTNHu386O6alHFY3MUs7xy1o,1985
+EzPyZ/dataframe.py,sha256=35zLskmtjvYwJJJgCASO3CcBWMQbH7ytca6NvPbJzOA,4567
+EzPyZ/tools/__init__.py,sha256=minKxr-JUpBDUuAthzMOHKEBy3Fmy7UGP7QTDt1FPFQ,94
+EzPyZ/tools/read_files.py,sha256=GjuP8THNL60hiGY0738trHuYw_PZyvbNgSVU9MSQdjk,2011
+EzPyZ-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+EzPyZ-0.0.5.dist-info/METADATA,sha256=QkOFUYrlvGmzB6rmnrquBcnzQ3IdsIxyzynW4FMc6ro,1259
+EzPyZ-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+EzPyZ-0.0.5.dist-info/top_level.txt,sha256=U33SNl7L_yRawpWccBKxWmAY4FOVvyAoc0qob95qHe0,6
+EzPyZ-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+EzPyZ-0.0.5.dist-info/RECORD,,
