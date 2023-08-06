@@ -1,0 +1,3 @@
+[console_scripts]
+PI = PixelInstagram.main:cli
+
