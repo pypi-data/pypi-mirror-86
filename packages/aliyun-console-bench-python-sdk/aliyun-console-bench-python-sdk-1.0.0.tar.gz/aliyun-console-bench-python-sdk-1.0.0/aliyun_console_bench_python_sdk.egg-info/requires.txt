@@ -1,0 +1,1 @@
+aliyun-python-sdk-core<3.0.0,>=2.13.0
