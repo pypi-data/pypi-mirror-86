@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: py-messenger
+Version: 1.2.0
+Summary: Client/server single chat messenger
+Home-page: https://github.com/marik348/python-messegner
+Author: Vadym Mariiechko
+Author-email: vadimich348@gmail.com
+License: UNKNOWN
+Keywords: messenger,chat
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+# python-messegner
+
+
