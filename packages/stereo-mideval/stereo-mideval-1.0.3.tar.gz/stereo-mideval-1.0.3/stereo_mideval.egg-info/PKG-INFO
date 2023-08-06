@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: stereo-mideval
+Version: 1.0.3
+Summary: Evaluation dataset and tools from Middlebury Stereo Evaulation data 2014.
+Home-page: https://github.com/i3drobotics/StereoMiddleburyEval
+Author: Ben Knight
+Author-email: bknight@i3drobotics.com
+License: UNKNOWN
+Description: # StereoMiddleburyEval
+        Python package for evaluation dataset and tools from the [Middlebury stereo evaulation 2014](https://vision.middlebury.edu/stereo/data/scenes2014/) dataset.
+        
+        ## Install
+        ```
+        pip install StereoMiddleburyEval
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
