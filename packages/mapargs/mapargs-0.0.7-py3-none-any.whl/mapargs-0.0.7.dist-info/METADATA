@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: mapargs
+Version: 0.0.7
+Summary: Python type code generator
+Home-page: https://github.com/conanfanli/mapargs
+Author: Conan Li
+Author-email: conanlics@gmail.com
+License: MIT
+Keywords: Python,TypeScript,Dataclass,Code Generation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ~=3.8
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+
+Usage
+=====
+
+.. code-block::
+
+   usage: mapargs [-h] infile
+
+   positional arguments:
+     infile
+
+   optional arguments:
+     -h, --help  show this help message and exit
+
+Examples
+--------
+
+Python
+^^^^^^
+
+Read input from command line:
+
+.. code-block::
+
+   mapargs -
+
+.. code-block::
+
+   field1: str
+   b: int
+   c: float
+
+Output:
+
+.. code-block::
+
+   field1=source.field1,
+   b=source.b,
+   c=source.c,
+
+Go
+^^
+
+Read input from command line:
+
+.. code-block::
+
+   mapargs -
+
+Press ``<Ctrl-d>`` to end input.
+
+.. code-block::
+
+   field1: str
+   b: int
+   c: float
+
+Press ``<Ctrl-d>`` to end input.
+
+Output:
+
+.. code-block::
+
+   ID: source.ID,
+   Field2: source.Field2,
+   c: source.c,
+
+
