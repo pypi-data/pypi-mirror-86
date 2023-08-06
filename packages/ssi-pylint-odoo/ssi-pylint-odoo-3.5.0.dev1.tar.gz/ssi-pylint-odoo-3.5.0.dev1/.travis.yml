@@ -1,0 +1,41 @@
+language: python
+sudo: false
+cache:
+  apt: true
+  directories:
+  - "$HOME/.cache/pip"
+matrix:
+  include:
+  - python: 2.7
+    env: TOXENV=pylint
+  - python: 3.5
+    env: TOXENV=pylint
+  - python: 3.7
+    env: TOXENV=py37-pylint2
+  - python: 3.8
+    env: TOXENV=pylint
+  - python: 3.9-dev
+    env: TOXENV=pylint
+install:
+- sed -i '/node/d' ${TRAVIS_BUILD_DIR}/install.sh
+- sed -i '/pip install ./d' ${TRAVIS_BUILD_DIR}/install.sh
+- "${TRAVIS_BUILD_DIR}/install.sh"
+- pip install coveralls flake8==3.8.3 tox restructuredtext_lint pygments
+script:
+- flake8 --ignore=E722,F601,F841,W503,W504,W605 --max-line-length=88 --exclude=__init__.py
+  .
+- restructuredtext-lint ${TRAVIS_BUILD_DIR}/README.rst
+- tox -e $TOXENV,profile-stats
+after_success:
+- coveralls
+- python setup.py sdist
+deploy:
+  skip_cleanup: true
+  provider: pypi
+  user: __token__
+  password:
+    secure: cMzhtkWkMznTVXfcq4hFc0DjmnavSDupCjreitJvOp8VdTLpfnGz5hlPuZp1YV1/irr+f9q7cCNoFsBP93ssJbOLkxdYB4VdQgn3qWP36L/ogmcmEzJkCky1lwgYjKrdfzXxwA/M7obF9PDSSTtKIGbS5f+epDLd5PODuS1pQFNNDf1frDwtepKHkGSL3ckCfeLjFse7FOx5pCM7UrJWZGn53kN35y2rPJwTRCeRxwHq5smOQ1EWXHV0BHorUI6vSeHlsLoBR6Rxa6evfAijizhzy6Q005i1aKC/W8pXvGFeBPTrcaNpPKudG5dyy/Ne4WzlZfaun678W8rDzjRKMhQn5M/03UB2l7gDJxyBBRkn7FKK/LzQG4VTF9TBmYYwRuWowV3x/hks/buCluKxPQLc0x+Vy9r7wACKhl2G1511SKq/07lWZPblLJiosCwydqfS1ekbWfeaZuerY0OiYlfb3llGCCCAYzOFILwEvRWOulsLxMn6uwhabYxSVbKhVItcV1R0yvZgU8UxbfTjWNBAAiojRPqhCau18UeJest0C5rsXnskVTSF/SukZOybE7cyMbe342BVqLQFdQtxEDN6Ea5Hn107nUs0gAP2XEUu3pL98CATdzxa1guR20cYh7zEC3ew8cEQU+G/fJlE+hUN31zs9oeS9UIqdYkbxnk=
+  on:
+    tags: true
+    condition: "$TOXENV == py37-pylint2"
+    repo: simetri-sinergi-id/ssi-pylint-odoo
