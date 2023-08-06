@@ -1,0 +1,16 @@
+iminspect/__init__.py,sha256=aN1gn25XAw9XfS6kFBqPOgnuDC6P45IhPYmjgafWWfw,763
+iminspect/__main__.py,sha256=2AL9KOBTUEoQxVTTihgN0RNTgcX2f3uby6UbzTunipk,452
+iminspect/imgview.py,sha256=5mbaQYfygn7j9R3hnSRWsTbLrBTsUN5R6Zizi5sLdiI,24970
+iminspect/inputs.py,sha256=feKSpvnvpwvQ2O0IWranroHx5r8O1Z9-VdchPDXb_p8,41981
+iminspect/inspection_utils.py,sha256=Z2BFZnRG_swiZbbBZWJnGvXow-Fuka-LhErZclzIUl4,4942
+iminspect/inspection_widgets.py,sha256=eRI9Ka2Do8gyvGiTbXg3MS6zZtWJ4GW3JvLLw7WiM8k,25564
+iminspect/inspector.py,sha256=-8ZjrzKtOgSbsD8AYBMR5rpNdzt4Oj2hgdhPxZuLqHY,65111
+iminspect/version.py,sha256=IxFJna9e4wxa6EyuWPKdaFzedNLqrkRUMJybrwJPD0c,23
+iminspect/iminspect_assets/iminspect.svg,sha256=k6N_N_tUrSj5QOXCqay3D94fkbRRYk82U7RVpx2DOrE,6302
+iminspect/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iminspect/tests/test_inspector.py,sha256=sHX0_xMZlBXnQceEnGCevpkmzOMo8BgczIfYbkSA_GM,2518
+iminspect-1.3.10.dist-info/LICENSE,sha256=YarcpiS1q54UyYIFJgCPfCo7ew3IvyA1XkVKbGf_RI8,1066
+iminspect-1.3.10.dist-info/METADATA,sha256=HABhXzOQsF9UN45T-6gJg0aDIR2HqmJsJzd4p0JllJE,8271
+iminspect-1.3.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+iminspect-1.3.10.dist-info/top_level.txt,sha256=JfJm7USi_KgjDM1NnMNv8JIFIIYcDqJ5Zl6EEKQAEwU,10
+iminspect-1.3.10.dist-info/RECORD,,
