@@ -1,0 +1,15 @@
+README.md
+setup.py
+NaStyAPI/APICall.py
+NaStyAPI/Nation.py
+NaStyAPI/Parse.py
+NaStyAPI/Region.py
+NaStyAPI/Telegrams.py
+NaStyAPI/TradingCards.py
+NaStyAPI/World.py
+NaStyAPI/WorldAssembly.py
+NaStyAPI/__init__.py
+NaStyAPI.egg-info/PKG-INFO
+NaStyAPI.egg-info/SOURCES.txt
+NaStyAPI.egg-info/dependency_links.txt
+NaStyAPI.egg-info/top_level.txt
