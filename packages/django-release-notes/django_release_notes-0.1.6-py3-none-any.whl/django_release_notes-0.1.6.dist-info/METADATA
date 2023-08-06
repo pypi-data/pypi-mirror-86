@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: django-release-notes
+Version: 0.1.6
+Summary: A Simple Tools for Managing Release Notes for a Site
+Home-page: https://github.com/renderbox/django-release-notes/
+Author: Grant Viklund
+Author-email: renderbox@gmail.com
+License: MIT license
+Keywords: django,app
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: Django (<3.2,>=3.0)
+Provides-Extra: build
+Requires-Dist: setuptools ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Requires-Dist: m2r ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: django-crispy-forms ; extra == 'dev'
+Requires-Dist: django-allauth ; extra == 'dev'
+Requires-Dist: django-extensions ; extra == 'dev'
+Requires-Dist: django-markdownify ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: recommonmark ; extra == 'docs'
+Requires-Dist: m2r ; extra == 'docs'
+Requires-Dist: django-extensions ; extra == 'docs'
+Requires-Dist: coverage ; extra == 'docs'
+Requires-Dist: Sphinx ; extra == 'docs'
+Requires-Dist: rstcheck ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: prod
+Provides-Extra: test
+
+
+
+.. image:: https://github.com/renderbox/django-release-notes/workflows/Release%20Notes%20CI/badge.svg
+   :target: https://github.com/renderbox/django-release-notes/workflows/Release%20Notes%20CI/badge.svg
+   :alt: Release Notes CI
+
+
+
+.. image:: https://github.com/renderbox/django-release-notes/workflows/Release%20Notes%20Develop/badge.svg
+   :target: https://github.com/renderbox/django-release-notes/workflows/Release%20Notes%20Develop/badge.svg
+   :alt: Release Notes CI
+
+
+
+.. image:: https://readthedocs.org/projects/django-release-notes/badge/?version=latest
+   :target: https://django-release-notes.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+
+Release Notes
+=============
+
+A Simple Tools for Managing Release Notes for a Site
+
+

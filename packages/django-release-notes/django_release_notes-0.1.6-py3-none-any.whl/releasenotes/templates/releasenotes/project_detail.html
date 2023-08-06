@@ -1,0 +1,20 @@
+{% extends "releasenotes/base.html" %}
+{% load markdownify %}
+{% load i18n %}
+
+{% block title %}Release Notes - Home{% endblock %}
+
+{% block release_content %}
+<h1>{{ object.project.name }}</h1>
+
+<h3>Releases</h3>
+
+{% comment %} TODO: This should display the details of the most current release and then a list of all the other release below.  Probably should be handled in the view context. {% endcomment %}
+
+<ul>
+{% for release in object.releases.all %}
+<li><a href="{{ release.get_absolute_url }}">{{ release.version_name }}</a> - Date</li>
+{% endfor %}
+</ul>
+
+{% endblock %}
