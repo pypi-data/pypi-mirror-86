@@ -1,0 +1,10 @@
+DataSocket/TCPDataSocket.py,sha256=r0tB-nnUkpvhEwDFtFQwOOAWojA-dwf7I8K5-JA3zCE,20333
+DataSocket/UDPDataSocket.py,sha256=JPKYFY0RJjCJfqDgQZqdXyuUwrYlPp4YbxmVkQlmX68,7088
+DataSocket/__init__.py,sha256=-IeYtpUd4MxXegzKGh6SZypH0SHc5FuXQho2_PhH9z8,796
+DataSocket/Matlab/TCPReceiveSocket.m,sha256=Cc3gB7iELkL0ab9tlgeg_MSNyT3e4fC2UmWNW0wyVnc,3072
+DataSocket/Matlab/TCPSendSocket.m,sha256=m5oXwN7eVwyEkbg4VVTnE33s2X8ez3Ng6-ogj7lcXXI,1886
+PyDataSocket-0.0.3.dist-info/LICENSE.txt,sha256=pDwWik1dQhwkKnNpbHZNnLyBo_0_ZTKJM6sFI-Zt-Sg,1068
+PyDataSocket-0.0.3.dist-info/METADATA,sha256=s75-9nbzbrR9sgl7T6IdvkMY1AhwhyjtBwwJ0cibBwk,6202
+PyDataSocket-0.0.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+PyDataSocket-0.0.3.dist-info/top_level.txt,sha256=OFYhkEXQdobM2Y1hy1wDkVYUvqUcKDbZ1ngNWtRKjj8,11
+PyDataSocket-0.0.3.dist-info/RECORD,,
