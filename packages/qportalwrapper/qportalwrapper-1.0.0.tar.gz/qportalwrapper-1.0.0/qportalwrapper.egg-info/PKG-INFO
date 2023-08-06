@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: qportalwrapper
+Version: 1.0.0
+Summary: An unofficial Python wrapper for interfacing with Q Portal
+Home-page: https://gitlab.com/bbworld1/qportalwrapper
+Author: Vincent Wang
+Author-email: vwangsf@gmail.com
+License: UNKNOWN
+Description: # QPortalWrapper: an unofficial Python wrapper around the Q Portal for grades. #
+        This library provides programmatic access to grades on the Q Portal.
+        You can write scripts or applications that interface with Q and fetch grades.
+        
+        Example usage:
+        ```python
+        from qportalwrapper.qportalwrapper import QPortalWrapper, QError
+        
+        # Connect to the Q portal
+        conn = QPortalWrapper("Q_URL")
+        
+        try:
+            # Login
+            conn.login("USER", "PASS")
+        except QError as e:
+            # Catch an error (failed login, etc.)
+            print(e.msg)
+        
+        # Get a list of viewable students
+        students = conn.get_students()
+        print(students)
+        
+        # Select a student to view
+        conn.select_student(students[0].id)
+        
+        # View student's assignment grades
+        print(conn.get_assignments()[0])
+        ```
+        
+        Full docs can be found by running `python3 -c "from qportalwrapper.qportalwrapper import QPortalWrapper; help(QPortalWrapper)"`
+        in the root repository folder.
+        
+        QPortalWrapper is currently in **alpha**. Confirmed working features:
+        - Login
+        - Student fetching
+        - Assignment fetching
+        - Progress report fetching
+        
+        Other features are WIP and should be added soon. Help adding functions would be greatly appreciated.
+        
+        If you want to help improve or add functionality to QPortalWrapper, file an issue or a merge request.
+        
+        **DISCLAIMER: QPortalWrapper is an *unofficial* wrapper. It is not sanctioned by any company. It relies on unofficial API endpoints which are subject to change at any time.**
+        
+        ## Installation ##
+        1. Clone this repo and `cd` into it.
+        2. `pip3 install -r requirements.txt` to get dependencies (you may need to install pip).
+        3. `python3 setup.py install` (you may need admin permissions).
+        
+Keywords: qportal qconnection qstudent
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
