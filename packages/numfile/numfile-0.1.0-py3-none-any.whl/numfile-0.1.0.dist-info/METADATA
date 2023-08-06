@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: numfile
+Version: 0.1.0
+Summary: Automatically assign an increasing sequence number to file names.
+Home-page: https://github.com/bzaczynski/numfile
+License: UNKNOWN
+Author: Bartosz Zaczyński
+Author-email: bartosz.zaczynski@gmail.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: black==20.8b1 ; extra == "dev"
+Requires-Dist: bpython==0.20.1 ; extra == "dev"
+Requires-Dist: bump2version==1.0.1 ; extra == "dev"
+Requires-Dist: flake8==3.8.4 ; extra == "dev"
+Requires-Dist: pylint==2.6.0 ; extra == "dev"
+Requires-Dist: pytest-mock==3.3.1 ; extra == "dev"
+Requires-Dist: pytest==6.1.2 ; extra == "dev"
+Provides-Extra: dev
+
+# numfile
+
+Automatically assign an increasing sequence number to file names.
+
+## Installation
+
+```shell
+$ python -m pip install numfile
+```
+
+## Use Cases
+
+Write data to numbered snapshot files in a given directory:
+
+```shell
+$ python -q
+>>> from numfile import open_next
+>>> for version in ("first", "second", "third"):
+...     with open_next("/tmp/snapshot.txt") as file:
+...         print(f"The {version} version.", file=file)
+...
+
+$ ls -d /tmp/* | grep snapshot
+/tmp/snapshot-1.txt
+/tmp/snapshot-2.txt
+/tmp/snapshot-3.txt
+```
+
+Append messages to the latest log file:
+
+```shell
+$ ls -tr | grep app-error
+app-error.log
+app-error-2.log
+app-error-3.log
+
+$ python -q
+>>> from numfile import open_latest
+>>> with open_latest("app-error.log") as file: 
+...     print("Oops... Something went wrong!", file=file)
+...     print(file.name)
+...
+app-error-3.log
+
+$ tail -n1 app-error-3.log
+Oops... Something went wrong!
+```
+
+Consolidate similar files in chronological order:
+
+```shell
+$ python -q
+>>> from numfile import open_all
+>>> for file in open_all("/tmp/snapshot.txt"): 
+...     print(file.name, file.read(), end="")
+...
+/tmp/snapshot-1.txt The first version.
+/tmp/snapshot-2.txt The second version.
+/tmp/snapshot-3.txt The third version.
+```
+
+## Development
+
+```shell
+$ git clone git@github.com:bzaczynski/numfile.git
+$ cd numfile
+$ pyenv local 3.9.0
+$ python -m venv .venv --prompt=numfile
+$ source .venv/bin/activate
+$ pip install -U pip flit
+$ flit install --deps=all --symlink
+$ python -m pytest
+```
+
+## Releasing
+
+### Test
+
+Make sure there are no uncommitted or untracked files, and then bump the version:
+
+```shell
+$ bump2version minor
+$ git status
+$ git commit -am "Bumped version"
+```
+
+Build a new binary package:
+
+```shell
+$ rm -rf dist
+$ flit build
+```
+
+Publish the binaries to the official PyPI server:
+
+```shell
+$ flit publish
+```
+
+To use the [Test PyPI](https://test.pypi.org/) server, create a file `~/.pypirc` with your username:
+
+```
+[distutils]
+index-servers =
+   pypi
+   testpypi
+
+[pypi]
+repository = https://upload.pypi.org/legacy/
+username = your-username
+
+[testpypi]
+repository = https://test.pypi.org/legacy/
+username = your-username
+```
+
+Then, supply the test server using the `--repository` flag:
+
+```shell
+$ flit publish --repository testpypi
+```
+
