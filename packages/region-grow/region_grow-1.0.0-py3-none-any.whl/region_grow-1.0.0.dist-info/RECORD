@@ -1,0 +1,10 @@
+region_grow/__init__.py,sha256=OOb3GUGW_5NZzYfaYXagX2ShobmxULQoG3PiXZdvu2Y,96
+region_grow/classifiers.py,sha256=adUehIFVRqp_fgFmvTskB0j9MYzzsnfp49oWxwOOULY,16572
+region_grow/functions.py,sha256=9C8McPiKJoHdzgR_jlBaqn_oM37vCEOwM8zwqg4P5LE,10129
+region_grow/region.py,sha256=Q17cnqGuvu1xi_VdnJwKZ4xoVjfzkdzpSB4UWofQYsU,1867
+region_grow/region_growing.py,sha256=Fv5IlrQSmfm74MBIhPs10e4YkxgEI02D7DvEKRHXztI,8241
+region_grow-1.0.0.dist-info/LICENSE,sha256=RMuYjYrF_xPFedNLAbo5ejQshrP4I88lrPFmmvhPflE,1084
+region_grow-1.0.0.dist-info/METADATA,sha256=2kqKtWuzvTffI9Ap5xrPvJOyBy-1FgnZCryMlheDzNA,1465
+region_grow-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+region_grow-1.0.0.dist-info/top_level.txt,sha256=nkaXH8PaD4sfX-BLIs7TqpHflqP0amkLoA3a176kzzw,12
+region_grow-1.0.0.dist-info/RECORD,,
