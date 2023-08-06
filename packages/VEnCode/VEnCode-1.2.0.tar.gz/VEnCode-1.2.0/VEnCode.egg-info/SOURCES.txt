@@ -1,0 +1,86 @@
+MANIFEST.in
+README.rst
+Supplementary Data S1.csv
+requirements.txt
+setup.py
+VEnCode/__init__.py
+VEnCode/_metadata.py
+VEnCode/common_variables.py
+VEnCode/internals.py
+VEnCode/internals_extensions.py
+VEnCode/outside_data.py
+VEnCode/process.py
+VEnCode.egg-info/PKG-INFO
+VEnCode.egg-info/SOURCES.txt
+VEnCode.egg-info/dependency_links.txt
+VEnCode.egg-info/requires.txt
+VEnCode.egg-info/top_level.txt
+VEnCode/Files/Human.sample_name2library_id.txt
+VEnCode/Files/__init__.py
+VEnCode/Files/expression_data1.csv
+VEnCode/Files/expression_data2.csv
+VEnCode/Files/sample types - FANTOM5.csv
+VEnCode/Files/test_hg19.cage_peak_phase1and2combined_tpm.osc.txt
+VEnCode/Files/test_human_permissive_enhancers_phase_1_and_2_expression_tpm_matrix.txt
+VEnCode/Files/Dbs/Adipocyte - breast_tpm_enhancers-1.csv
+VEnCode/Files/Dbs/Adipocyte - breast_tpm_promoters-1.csv
+VEnCode/Files/Dbs/Bronchial Epithelial Cell_tpm_promoters-1.csv
+VEnCode/Files/Dbs/Hepatocyte_tpm_promoters-1.csv
+VEnCode/Files/Dbs/Keratocytes_tpm_promoters-1.csv
+VEnCode/Files/Single_Cell_analysis/A549_singlecell.csv
+VEnCode/Files/Validation_files/Barakat et al 2018 - Core and Extended Enhancers.csv
+VEnCode/docs/How to build.txt
+VEnCode/scripts/__init__.py
+VEnCode/scripts/check_element_expression.py
+VEnCode/scripts/check_vencode_expression_from_file.py
+VEnCode/scripts/collapse_vencodes_percent_active.py
+VEnCode/scripts/dendrogram_encode.py
+VEnCode/scripts/dendrogram_primary.py
+VEnCode/scripts/e_value_statistics.py
+VEnCode/scripts/encode_create_data_set_apply.py
+VEnCode/scripts/encode_create_data_set_apply_memory_effic.py
+VEnCode/scripts/encode_create_data_set_enumerate.py
+VEnCode/scripts/encode_create_data_set_slow.py
+VEnCode/scripts/encode_merge_bio_reps.py
+VEnCode/scripts/encode_parse_metadata.py
+VEnCode/scripts/encode_signal_noise_ratio.py
+VEnCode/scripts/encode_validate_vencodes.py
+VEnCode/scripts/encode_validate_vencodes_old.py
+VEnCode/scripts/encode_vencode_val_heatmap.py
+VEnCode/scripts/encode_vencode_val_variables.py
+VEnCode/scripts/external_data_set_analysis.py
+VEnCode/scripts/generate_datasets.py
+VEnCode/scripts/generate_datasets_cancer.py
+VEnCode/scripts/get_validated_vencodes.py
+VEnCode/scripts/get_vencode_external.py
+VEnCode/scripts/get_vencodes.py
+VEnCode/scripts/get_vencodes_fantom.py
+VEnCode/scripts/inter_robustness.py
+VEnCode/scripts/inter_robustness_heu2.py
+VEnCode/scripts/intra_robustness.py
+VEnCode/scripts/intra_robustness_heu2.py
+VEnCode/scripts/num_validated_elements.py
+VEnCode/scripts/percent_re_matching_datasets.py
+VEnCode/scripts/percentage_cts_with_ven.py
+VEnCode/scripts/percentage_cts_with_ven_heu2.py
+VEnCode/scripts/search_at_least_one_vencode_from_file.py
+VEnCode/scripts/table_vens.py
+VEnCode/scripts/validation.py
+VEnCode/scripts/validation_utils.py
+VEnCode/scripts/vencodes_percent_active.py
+VEnCode/scripts/venn_diagrams_validation.py
+VEnCode/tests/__init__.py
+VEnCode/tests/test_extensions.py
+VEnCode/tests/test_internals.py
+VEnCode/utils/__init__.py
+VEnCode/utils/decorators.py
+VEnCode/utils/dir_and_file_handling.py
+VEnCode/utils/exception_handlers.py
+VEnCode/utils/exceptions.py
+VEnCode/utils/general_utils.py
+VEnCode/utils/input_handlers.py
+VEnCode/utils/pandas_utils.py
+VEnCode/utils/plotting_utils.py
+VEnCode/utils/sqlite_utils.py
+VEnCode/utils/util.py
+VEnCode/utils/validation_utils.py
