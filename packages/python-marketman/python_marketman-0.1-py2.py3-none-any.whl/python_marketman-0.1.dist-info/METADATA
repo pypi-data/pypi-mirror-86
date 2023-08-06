@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: python-marketman
+Version: 0.1
+Summary: A basic Marketman.com REST API client.
+Home-page: https://github.com/LukasKlement/python-marketman
+Author: Lukas Klement
+Author-email: lukas.klement@me.com
+Maintainer: Lukas Klement
+Maintainer-email: lukas.klement@me.com
+License: Apache 2.0
+Keywords: python marketman marketman.com
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+
+*****************
+Python Marketman
+*****************
+
+Python Marketman is a basic marketman.com REST API client built for Python 3.6, 3.7 and 3.8. The goal is to provide a very low-level interface to the REST Resource, returning a dictionary of the API JSON response.
+
+You can find out more regarding the format of the results in the `Official Marketman.com REST API Documentation`_
+
+.. _Official Marketman.com REST API Documentation: https://api-doc.marketman.com/?version=latest
+
+
+
+Requirements
+------------
+
+* **Python**: 3.6, 3.7, 3.8
+
+
+
+Installation
+------------
+
+Install with pip, or your preferred package manager:
+
+.. code-block:: bash
+
+    $ pip install python-marketman
+
+
+
+Examples
+--------
+To access your Marketman account, provide your API Key and API Password to your Marketman instance.
+
+For example:
+
+.. code-block:: python
+
+    from python_marketman import Marketman
+    mm = Marketman(api_key='', api_password='')
+
+
+
+Inventory
+---------
+Access your inventory by calling the relevant method on your Marketman instance:
+
+.. code-block:: python
+
+    mm.get_items()
+
+
+
+Items
+-----
+Access your inventory by calling the relevant method on your Marketman instance:
+
+.. code-block:: python
+
+    mm.get_vendors()
+
+
+
+Authors & License
+-----------------
+
+This package is released under an open source Apache 2.0 license: Copyright 2020 Lukas Klement. It was inspired by the excellent library `Official Marketman.com REST API Documentation`_
+
+.. _simple_salesforce: https://github.com/simple-salesforce/simple-salesforce
+
+

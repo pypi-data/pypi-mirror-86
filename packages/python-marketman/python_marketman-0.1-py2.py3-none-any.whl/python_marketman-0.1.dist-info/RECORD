@@ -1,0 +1,9 @@
+python_marketman/__init__.py,sha256=d2y1EMU7cs65Hv1OChfZNhJ5ysaTCx7QPG7OKfGfx0Q,128
+python_marketman/__version__.py,sha256=khUUgXR73dUhrEyCfTaInTfJ_KIE4wBBHb8PXBDkMpc,494
+python_marketman/api.py,sha256=uGRpbuqCdeevWHoHtY8mOOG4Z2-ArVRCkCCdfOPOXds,2067
+python_marketman/exceptions.py,sha256=VP6-ElB3_vSIS3elbK5XhMkuVqIPGkaJWVmtwPCH0pc,1361
+python_marketman-0.1.dist-info/LICENSE.txt,sha256=EZeyTkXEt5OjshlZTgFkkh11mkOnDxuBGZWGU_jD20o,9127
+python_marketman-0.1.dist-info/METADATA,sha256=MjPOLO1xq_iHRBL16LPOhGTmRItugPrCvi8LUpbZFU4,2433
+python_marketman-0.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+python_marketman-0.1.dist-info/top_level.txt,sha256=0LNgI5nxZYz8jeztDaIgPN87RoYM5w7QgOWdmKSOKmk,17
+python_marketman-0.1.dist-info/RECORD,,
