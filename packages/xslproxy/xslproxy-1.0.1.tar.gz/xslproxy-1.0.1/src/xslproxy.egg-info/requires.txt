@@ -1,0 +1,4 @@
+Twisted[tls]
+defusedxml
+lxml
+zope.interface
