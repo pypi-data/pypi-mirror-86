@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dupper"
+version = "0.1.1"
+description = ""
+authors = ["nixiesquid <audu817@gmail.com>"]
+license = "MIT"
+packages = [
+  { include = "./src/*.py" },
+  { include = "./src/**/*.py" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fire = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+dupper = "src.dupper:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
