@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: visor-client
+Version: 0.20.0
+Summary: Visor CI is a snapshotting hypervisor designed to speed up tests
+Home-page: https://parsehub.com
+Author: Visor
+Author-email: serge@parsehub.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: bcrypt (==3.2.0)
+Requires-Dist: certifi (==2020.11.8)
+Requires-Dist: cffi (==1.14.3)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: cryptography (==3.1.1)
+Requires-Dist: dockerfile (==2.2.0)
+Requires-Dist: idna (==2.7)
+Requires-Dist: paramiko (==2.7.2)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pynacl (==1.4.0)
+Requires-Dist: requests (==2.20)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: sseclient-py (==1.7)
+Requires-Dist: urllib3 (==1.24.3)
+
+Visor CI is a snapshotting hypervisor designed to speed up tests
+
+
