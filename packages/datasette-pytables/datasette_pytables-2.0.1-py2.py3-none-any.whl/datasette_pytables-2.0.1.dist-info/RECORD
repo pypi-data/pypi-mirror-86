@@ -1,0 +1,9 @@
+datasette_pytables/__init__.py,sha256=lxhY_arSPeR3BxlfQab3lsGVDoMwIjUTHSG8WNZHWsM,10204
+datasette_pytables/monkey.py,sha256=QmmDUaFo3XL4efW9OHBcxDMMe45JizZCxapH2BR_cg8,476
+datasette_pytables/utils.py,sha256=IvCyPoM-LYbpLOCwaZQooxm-IAaVW7hrfeCDPoy7bpw,816
+datasette_pytables-2.0.1.dist-info/LICENSE,sha256=uvpmFL5CyFtW3csfCmrjcG6sf8I7RCW2VYpreM4rK_A,11353
+datasette_pytables-2.0.1.dist-info/METADATA,sha256=dVcmVuznfN2aKvUmyeMwwfCFauMw7DEYJA5gkgrzSio,1873
+datasette_pytables-2.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+datasette_pytables-2.0.1.dist-info/entry_points.txt,sha256=tC4SjpqJT6gkEWEG9OtxvYv-Bz5EnPkwJjgb6HpD3Yc,72
+datasette_pytables-2.0.1.dist-info/top_level.txt,sha256=5vg31txyHJI4BBNgOiveM7IBJ7ZCAPZ-LlGGeCF1FTY,19
+datasette_pytables-2.0.1.dist-info/RECORD,,
