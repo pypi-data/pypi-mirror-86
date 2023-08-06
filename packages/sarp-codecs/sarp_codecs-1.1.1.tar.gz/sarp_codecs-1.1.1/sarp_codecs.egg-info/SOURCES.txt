@@ -1,0 +1,6 @@
+README.md
+setup.py
+sarp_codecs.egg-info/PKG-INFO
+sarp_codecs.egg-info/SOURCES.txt
+sarp_codecs.egg-info/dependency_links.txt
+sarp_codecs.egg-info/top_level.txt
