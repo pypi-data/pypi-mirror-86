@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+openschema/__init__.py
+openschema.egg-info/PKG-INFO
+openschema.egg-info/SOURCES.txt
+openschema.egg-info/dependency_links.txt
+openschema.egg-info/not-zip-safe
+openschema.egg-info/requires.txt
+openschema.egg-info/top_level.txt
+openschema/kaggle/__init__.py
+openschema/kaggle/titanic.py
+openschema/sklearn/__init__.py
+openschema/sklearn/boston.py
+openschema/sklearn/iris.py

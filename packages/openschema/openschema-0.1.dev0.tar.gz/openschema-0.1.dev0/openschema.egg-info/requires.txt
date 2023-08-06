@@ -1,0 +1,7 @@
+forml
+
+[doc]
+sphinx_rtd_theme
+sphinx
+sphinx-autoapi
+sphinxcontrib-napoleon
