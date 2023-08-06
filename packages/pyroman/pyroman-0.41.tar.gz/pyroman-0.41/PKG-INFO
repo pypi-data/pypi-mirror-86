@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pyroman
+Version: 0.41
+Summary: Convert Integer to Roman Number and Vice Versa.
+Home-page: https://github.com/kphanipavan/py-roman-numbers
+Author: Phani Pavan K
+Author-email: kphanipavan@gmail.com
+License: MIT
+Download-URL: https://github.com/kphanipavan/py-roman-numbers/archive/0.41.tar.gz
+Description: UNKNOWN
+Keywords: roman,roman numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
